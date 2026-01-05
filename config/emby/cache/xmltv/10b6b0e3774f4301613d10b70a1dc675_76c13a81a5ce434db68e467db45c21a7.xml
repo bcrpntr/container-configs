@@ -1,0 +1,3179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="Dispatcharr" generator-info-url="https://github.com/Dispatcharr/Dispatcharr">
+  <channel id="1">
+    <display-name>ABC</display-name>
+    <icon src="" />
+  </channel>
+  <channel id="2">
+    <display-name>NBC</display-name>
+    <icon src="" />
+  </channel>
+  <programme start="20251231053700 +0000" stop="20251231060600 +0000" channel="1">
+    <title>Nightline</title>
+    <desc>In-depth reporting on one or more of the major stories in the news, with occasional segments on pop culture; journalists Juju Chang and Byron Pitts share hosting duties for this late-night program.</desc>
+    <category>Series</category>
+    <category>Talk</category>
+    <category>News</category>
+    <category>Interview</category>
+    <episode-num system="onscreen">E261</episode-num>
+    <credits>
+      <actor>Juju Chang</actor>
+      <actor>Byron Pitts</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p28483349_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20251231060600 +0000" stop="20251231070000 +0000" channel="1">
+    <title>ABCNL Prime With Linsey Davis</title>
+    <desc>Providing prime-time context and analysis of the day&#x27;s top stories, as well as in-depth reporting and storytelling from around the country and the globe.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">E266</episode-num>
+    <credits>
+      <actor>Linsey Davis</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p17913428_b_h8_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20251231070000 +0000" stop="20251231090000 +0000" channel="1">
+    <title>ABC World News Now</title>
+    <desc>Up-to-date information on current events and news from around the world, airing in the overnight hours. Its tone is somewhat lighter than a regular news broadcast, though reports are filed from the usual ABC News correspondents. Weather and pop culture stories round out the reports.</desc>
+    <category>News</category>
+    <credits>
+      <actor>Andrew Dymburt</actor>
+      <actor>Rhiannon Ally</actor>
+      <actor>Sophie Flay</actor>
+    </credits>
+    <date>1992</date>
+    <icon src="http://dshm.tmsimg.com/assets/p184051_b_h10_ad.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20251231090000 +0000" stop="20251231093000 +0000" channel="1">
+    <title>Good Morning America First Look</title>
+    <desc>Formerly known as &quot;ABC World News This Morning,&quot; this newscast from &quot;ABC News&quot; features live reports from Washington, headlines of the day, an ESPN sports package and &quot;MoneyScope,&quot; a regular financial news segment.</desc>
+    <category>News</category>
+    <credits>
+      <actor>Andrew Dymburt</actor>
+      <actor>Rhiannon Ally</actor>
+      <actor>Sophie Flay</actor>
+    </credits>
+    <date>2024</date>
+    <icon src="http://dshm.tmsimg.com/assets/p28311369_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20251231093000 +0000" stop="20251231100000 +0000" channel="1">
+    <title>Good Morning America First Look</title>
+    <desc>Formerly known as &quot;ABC World News This Morning,&quot; this newscast from &quot;ABC News&quot; features live reports from Washington, headlines of the day, an ESPN sports package and &quot;MoneyScope,&quot; a regular financial news segment.</desc>
+    <category>News</category>
+    <credits>
+      <actor>Andrew Dymburt</actor>
+      <actor>Rhiannon Ally</actor>
+      <actor>Sophie Flay</actor>
+    </credits>
+    <date>2024</date>
+    <icon src="http://dshm.tmsimg.com/assets/p28311369_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20251231100000 +0000" stop="20251231103000 +0000" channel="1">
+    <title>Good Morning America First Look</title>
+    <desc>Formerly known as &quot;ABC World News This Morning,&quot; this newscast from &quot;ABC News&quot; features live reports from Washington, headlines of the day, an ESPN sports package and &quot;MoneyScope,&quot; a regular financial news segment.</desc>
+    <category>News</category>
+    <credits>
+      <actor>Andrew Dymburt</actor>
+      <actor>Rhiannon Ally</actor>
+      <actor>Sophie Flay</actor>
+    </credits>
+    <date>2024</date>
+    <icon src="http://dshm.tmsimg.com/assets/p28311369_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20251231103000 +0000" stop="20251231110000 +0000" channel="1">
+    <title>Good Morning America First Look</title>
+    <desc>Formerly known as &quot;ABC World News This Morning,&quot; this newscast from &quot;ABC News&quot; features live reports from Washington, headlines of the day, an ESPN sports package and &quot;MoneyScope,&quot; a regular financial news segment.</desc>
+    <category>News</category>
+    <credits>
+      <actor>Andrew Dymburt</actor>
+      <actor>Rhiannon Ally</actor>
+      <actor>Sophie Flay</actor>
+    </credits>
+    <date>2024</date>
+    <icon src="http://dshm.tmsimg.com/assets/p28311369_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20251231110000 +0000" stop="20251231113000 +0000" channel="1">
+    <title>Good Morning America First Look</title>
+    <desc>Formerly known as &quot;ABC World News This Morning,&quot; this newscast from &quot;ABC News&quot; features live reports from Washington, headlines of the day, an ESPN sports package and &quot;MoneyScope,&quot; a regular financial news segment.</desc>
+    <category>News</category>
+    <credits>
+      <actor>Andrew Dymburt</actor>
+      <actor>Rhiannon Ally</actor>
+      <actor>Sophie Flay</actor>
+    </credits>
+    <date>2024</date>
+    <icon src="http://dshm.tmsimg.com/assets/p28311369_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20251231113000 +0000" stop="20251231120000 +0000" channel="1">
+    <title>Good Morning America First Look</title>
+    <desc>Formerly known as &quot;ABC World News This Morning,&quot; this newscast from &quot;ABC News&quot; features live reports from Washington, headlines of the day, an ESPN sports package and &quot;MoneyScope,&quot; a regular financial news segment.</desc>
+    <category>News</category>
+    <credits>
+      <actor>Andrew Dymburt</actor>
+      <actor>Rhiannon Ally</actor>
+      <actor>Sophie Flay</actor>
+    </credits>
+    <date>2024</date>
+    <icon src="http://dshm.tmsimg.com/assets/p28311369_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20251231120000 +0000" stop="20251231140000 +0000" channel="1">
+    <title>Good Morning America</title>
+    <desc>How to throw a New Year&#x27;s Eve party with chef Zac Young; Shop GMA with Lori Bergamotto.</desc>
+    <category>Series</category>
+    <category>Talk</category>
+    <category>News</category>
+    <category>Variety</category>
+    <category>Public affairs</category>
+    <episode-num system="onscreen">E417</episode-num>
+    <credits>
+      <actor>George Stephanopoulos</actor>
+      <actor>Robin Roberts</actor>
+      <actor>Michael Strahan</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p184220_b_h8_ab.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20251231140000 +0000" stop="20251231150000 +0000" channel="1">
+    <title>ABC News Live: New Year&#x27;s Eve Around the World</title>
+    <desc>ABC News Live Special Programming.</desc>
+    <category>Special</category>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p31993400_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20251231150000 +0000" stop="20251231160000 +0000" channel="1">
+    <title>ABC News Live: New Year&#x27;s Eve Around the World</title>
+    <desc>ABC News Live Special Programming.</desc>
+    <category>Special</category>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p31993400_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20251231160000 +0000" stop="20251231170000 +0000" channel="1">
+    <title>The View</title>
+    <desc>Comic Kumail Nanjiani; New Edition performs.</desc>
+    <category>Series</category>
+    <category>Talk</category>
+    <episode-num system="onscreen">S29 E73</episode-num>
+    <rating system="USA Parental Rating">
+      <value>TV14</value>
+    </rating>
+    <credits>
+      <director>Sarah de la O</director>
+      <actor>Whoopi Goldberg</actor>
+      <actor>Joy Behar</actor>
+      <actor>Sunny Hostin</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p31138947_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20251231170000 +0000" stop="20251231180000 +0000" channel="1">
+    <title>GMA3</title>
+    <desc>Author Kennedy Ryan; how to throw a New Year&#x27;s Eve party with chef Zac Young; Shop GMA with Lori Bergamotto; GMA Health Alert with Dr. Darien Sutton.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <category>Talk</category>
+    <category>Health</category>
+    <episode-num system="onscreen">S6 E71</episode-num>
+    <rating system="USA Parental Rating">
+      <value>TVPG</value>
+    </rating>
+    <credits>
+      <actor>Kennedy Ryan</actor>
+      <actor>Zac Young</actor>
+      <actor>Lori Bergamotto</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30687311_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20251231180000 +0000" stop="20251231190000 +0000" channel="1">
+    <title>GMA3</title>
+    <desc>Author Kennedy Ryan; how to throw a New Year&#x27;s Eve party with chef Zac Young; Shop GMA with Lori Bergamotto; GMA Health Alert with Dr. Darien Sutton.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <category>Talk</category>
+    <category>Health</category>
+    <episode-num system="onscreen">S6 E71</episode-num>
+    <rating system="USA Parental Rating">
+      <value>TVPG</value>
+    </rating>
+    <credits>
+      <actor>Kennedy Ryan</actor>
+      <actor>Zac Young</actor>
+      <actor>Lori Bergamotto</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30687311_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20251231190000 +0000" stop="20251231200000 +0000" channel="1">
+    <title>General Hospital</title>
+    <desc>Jason stuns Anna; Michael seeks advice; Trina assists Kai; Alexis is in for a shock; Brennan makes a request.</desc>
+    <category>Series</category>
+    <category>Soap</category>
+    <category>Medical</category>
+    <category>Drama</category>
+    <category>Romance</category>
+    <episode-num system="onscreen">S62 E78</episode-num>
+    <rating system="USA Parental Rating">
+      <value>TV14</value>
+    </rating>
+    <credits>
+      <actor>Maurice Benard</actor>
+      <actor>Steve Burton</actor>
+      <actor>Michael Easton</actor>
+    </credits>
+    <date>2024</date>
+    <icon src="http://dshm.tmsimg.com/assets/p28205057_b_h8_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20251231200000 +0000" stop="20251231233000 +0000" channel="1">
+    <title>Live: College Football</title>
+    <desc>Storied programs in the No. 13 Longhorns and the No. 18 Wolverines line up in the Citrus Bowl from Orlando, Fla. Both sides are 9-3. The schools meet for the third time after the Longhorns defeated the Wolverines 31-12 in 2024.</desc>
+    <category>Sports</category>
+    <category>Playoff sports</category>
+    <category>Football</category>
+    <icon src="http://dshm.tmsimg.com/assets/GNLZZGG002PFN64.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20251231233000 +0000" stop="20260101000000 +0000" channel="1">
+    <title>ABC World News Tonight With David Muir</title>
+    <desc>Delivering the news that matters most.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">E365</episode-num>
+    <credits>
+      <actor>David Muir</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p10880351_b_h8_ah.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260101000000 +0000" stop="20260101003000 +0000" channel="1">
+    <title>ABC World News Tonight With David Muir</title>
+    <desc>Delivering the news that matters most.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">E365</episode-num>
+    <credits>
+      <actor>David Muir</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p10880351_b_h8_ah.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260101003000 +0000" stop="20260101010000 +0000" channel="1">
+    <title>ABC News Live: New Year&#x27;s Eve Around the World</title>
+    <desc>ABC News Live Special Programming.</desc>
+    <category>Special</category>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p31993400_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260101010000 +0000" stop="20260101030000 +0000" channel="1">
+    <title>Live: Dick Clark&#x27;s Primetime New Year&#x27;s Rockin&#x27; Eve With Ryan Seacrest 2026</title>
+    <sub-title>Part 1</sub-title>
+    <desc>Celebrations in multiple time zones to welcome in the new year.</desc>
+    <category>Series</category>
+    <category>Entertainment</category>
+    <category>Holiday</category>
+    <category>Special</category>
+    <rating system="USA Parental Rating">
+      <value>TVPG</value>
+    </rating>
+    <credits>
+      <actor>Ryan Seacrest</actor>
+      <actor>Rita Ora</actor>
+      <actor>Rob Gronkowski</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p31632419_b_h8_ab.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260101030000 +0000" stop="20260101033000 +0000" channel="1">
+    <title>Live: New Year&#x27;s Eve: Times Square Ball Drop</title>
+    <desc>ABC News Live Special Programming.</desc>
+    <category>Special</category>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p32010050_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260101033000 +0000" stop="20260101043000 +0000" channel="1">
+    <title>Live: Dick Clark&#x27;s Primetime New Year&#x27;s Rockin&#x27; Eve With Ryan Seacrest 2026</title>
+    <sub-title>Part 2</sub-title>
+    <desc>Celebrations in multiple time zones to welcome in the new year.</desc>
+    <category>Series</category>
+    <category>Entertainment</category>
+    <category>Holiday</category>
+    <category>Special</category>
+    <rating system="USA Parental Rating">
+      <value>TVPG</value>
+    </rating>
+    <credits>
+      <actor>Ryan Seacrest</actor>
+      <actor>Rita Ora</actor>
+      <actor>Rob Gronkowski</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p31632419_b_h8_ab.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260101043000 +0000" stop="20260101052900 +0000" channel="1">
+    <title>Live: Dick Clark&#x27;s New Year&#x27;s Rockin&#x27; Eve With Ryan Seacrest 2026</title>
+    <sub-title>Part 1</sub-title>
+    <desc>Part 1/3. Celebrations in multiple time zones to welcome in the new year.</desc>
+    <category>Series</category>
+    <category>Event</category>
+    <category>Music</category>
+    <category>Entertainment</category>
+    <category>Holiday</category>
+    <category>Special</category>
+    <rating system="USA Parental Rating">
+      <value>TVPG</value>
+    </rating>
+    <credits>
+      <actor>Ryan Seacrest</actor>
+      <actor>Rita Ora</actor>
+      <actor>Chance the Rapper</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p31632465_b_h8_ab.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260101052900 +0000" stop="20260101073000 +0000" channel="1">
+    <title>Live: Dick Clark&#x27;s New Year&#x27;s Rockin&#x27; Eve With Ryan Seacrest 2026</title>
+    <sub-title>Part 2</sub-title>
+    <desc>Part 2/3. Celebrations in multiple time zones to welcome in the new year.</desc>
+    <category>Series</category>
+    <category>Event</category>
+    <category>Music</category>
+    <category>Entertainment</category>
+    <category>Holiday</category>
+    <category>Special</category>
+    <rating system="USA Parental Rating">
+      <value>TVPG</value>
+    </rating>
+    <credits>
+      <actor>Ryan Seacrest</actor>
+      <actor>Rita Ora</actor>
+      <actor>Chance the Rapper</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p31632465_b_h8_ab.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260101073000 +0000" stop="20260101090000 +0000" channel="1">
+    <title>Live: Dick Clark&#x27;s New Year&#x27;s Rockin&#x27; Eve With Ryan Seacrest 2026</title>
+    <sub-title>Part 3</sub-title>
+    <desc>Part 3/3. Celebrations in multiple time zones to welcome in the new year.</desc>
+    <category>Series</category>
+    <category>Event</category>
+    <category>Music</category>
+    <category>Entertainment</category>
+    <category>Holiday</category>
+    <category>Special</category>
+    <rating system="USA Parental Rating">
+      <value>TVPG</value>
+    </rating>
+    <credits>
+      <actor>Ryan Seacrest</actor>
+      <actor>Rob Gronkowski</actor>
+      <actor>Julianne Hough</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p31632465_b_h8_ab.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260101090000 +0000" stop="20260101093000 +0000" channel="1">
+    <title>Good Morning America First Look</title>
+    <desc>Formerly known as &quot;ABC World News This Morning,&quot; this newscast from &quot;ABC News&quot; features live reports from Washington, headlines of the day, an ESPN sports package and &quot;MoneyScope,&quot; a regular financial news segment.</desc>
+    <category>News</category>
+    <credits>
+      <actor>Andrew Dymburt</actor>
+      <actor>Rhiannon Ally</actor>
+      <actor>Sophie Flay</actor>
+    </credits>
+    <date>2024</date>
+    <icon src="http://dshm.tmsimg.com/assets/p28311369_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260101093000 +0000" stop="20260101100000 +0000" channel="1">
+    <title>Good Morning America First Look</title>
+    <desc>Formerly known as &quot;ABC World News This Morning,&quot; this newscast from &quot;ABC News&quot; features live reports from Washington, headlines of the day, an ESPN sports package and &quot;MoneyScope,&quot; a regular financial news segment.</desc>
+    <category>News</category>
+    <credits>
+      <actor>Andrew Dymburt</actor>
+      <actor>Rhiannon Ally</actor>
+      <actor>Sophie Flay</actor>
+    </credits>
+    <date>2024</date>
+    <icon src="http://dshm.tmsimg.com/assets/p28311369_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260101100000 +0000" stop="20260101103000 +0000" channel="1">
+    <title>Good Morning America First Look</title>
+    <desc>Formerly known as &quot;ABC World News This Morning,&quot; this newscast from &quot;ABC News&quot; features live reports from Washington, headlines of the day, an ESPN sports package and &quot;MoneyScope,&quot; a regular financial news segment.</desc>
+    <category>News</category>
+    <credits>
+      <actor>Andrew Dymburt</actor>
+      <actor>Rhiannon Ally</actor>
+      <actor>Sophie Flay</actor>
+    </credits>
+    <date>2024</date>
+    <icon src="http://dshm.tmsimg.com/assets/p28311369_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260101103000 +0000" stop="20260101110000 +0000" channel="1">
+    <title>Good Morning America First Look</title>
+    <desc>Formerly known as &quot;ABC World News This Morning,&quot; this newscast from &quot;ABC News&quot; features live reports from Washington, headlines of the day, an ESPN sports package and &quot;MoneyScope,&quot; a regular financial news segment.</desc>
+    <category>News</category>
+    <credits>
+      <actor>Andrew Dymburt</actor>
+      <actor>Rhiannon Ally</actor>
+      <actor>Sophie Flay</actor>
+    </credits>
+    <date>2024</date>
+    <icon src="http://dshm.tmsimg.com/assets/p28311369_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260101110000 +0000" stop="20260101113000 +0000" channel="1">
+    <title>Good Morning America First Look</title>
+    <desc>Formerly known as &quot;ABC World News This Morning,&quot; this newscast from &quot;ABC News&quot; features live reports from Washington, headlines of the day, an ESPN sports package and &quot;MoneyScope,&quot; a regular financial news segment.</desc>
+    <category>News</category>
+    <credits>
+      <actor>Andrew Dymburt</actor>
+      <actor>Rhiannon Ally</actor>
+      <actor>Sophie Flay</actor>
+    </credits>
+    <date>2024</date>
+    <icon src="http://dshm.tmsimg.com/assets/p28311369_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260101113000 +0000" stop="20260101120000 +0000" channel="1">
+    <title>Good Morning America First Look</title>
+    <desc>Formerly known as &quot;ABC World News This Morning,&quot; this newscast from &quot;ABC News&quot; features live reports from Washington, headlines of the day, an ESPN sports package and &quot;MoneyScope,&quot; a regular financial news segment.</desc>
+    <category>News</category>
+    <credits>
+      <actor>Andrew Dymburt</actor>
+      <actor>Rhiannon Ally</actor>
+      <actor>Sophie Flay</actor>
+    </credits>
+    <date>2024</date>
+    <icon src="http://dshm.tmsimg.com/assets/p28311369_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260101120000 +0000" stop="20260101140000 +0000" channel="1">
+    <title>Good Morning America</title>
+    <desc>Celebrating 20 Years of Shondaland; singer Shakira; &quot;Aladdin&quot; across generations; actor George Clooney; actor and author Michael J. Fox.</desc>
+    <category>Series</category>
+    <category>Talk</category>
+    <category>News</category>
+    <category>Variety</category>
+    <category>Public affairs</category>
+    <episode-num system="onscreen">E1</episode-num>
+    <credits>
+      <actor>George Stephanopoulos</actor>
+      <actor>Robin Roberts</actor>
+      <actor>Michael Strahan</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p184220_b_h8_ab.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260101140000 +0000" stop="20260101143000 +0000" channel="1">
+    <title>ABC News Live First</title>
+    <desc>The latest headlines, compelling stories, interviews and roundtable discussions.</desc>
+    <category>News</category>
+    <date>2022</date>
+    <icon src="http://dshm.tmsimg.com/assets/p22802102_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260101143000 +0000" stop="20260101150000 +0000" channel="1">
+    <title>All Access With Linsey Davis</title>
+    <sub-title>Mel Robbins</sub-title>
+    <desc>A 30-minute interview franchise of ABC News Live &quot;Prime With Linsey Davis&quot; featuring candid conversations with celebrities, musicians, and newsmakers from across the cultural landscape.</desc>
+    <category>Series</category>
+    <category>Interview</category>
+    <category>Talk</category>
+    <episode-num system="onscreen">E6</episode-num>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p31564141_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260101150000 +0000" stop="20260101153000 +0000" channel="1">
+    <title>ABC News Live First</title>
+    <desc>The latest headlines, compelling stories, interviews and roundtable discussions.</desc>
+    <category>News</category>
+    <date>2022</date>
+    <icon src="http://dshm.tmsimg.com/assets/p22802102_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260101153000 +0000" stop="20260101160000 +0000" channel="1">
+    <title>Last Lands: Panama</title>
+    <desc>ABC News Live Special Programming.</desc>
+    <category>Special</category>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p31507069_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260101160000 +0000" stop="20260101180000 +0000" channel="1">
+    <title>Live: 137th Rose Parade</title>
+    <desc>The 137th Tournament of Roses Parade, featuring floral floats, spirited marching bands and high-stepping equine units along the Colorado Boulevard.</desc>
+    <category>Holiday</category>
+    <category>Special</category>
+    <category>Parade</category>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p31726259_b_h10_ab.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260101180000 +0000" stop="20260101190000 +0000" channel="1">
+    <title>GMA3</title>
+    <desc>What to expect in entertainment in 2026; celebrating 20 Years of Shondaland with Robin Roberts.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <category>Talk</category>
+    <category>Health</category>
+    <episode-num system="onscreen">S6 E72</episode-num>
+    <rating system="USA Parental Rating">
+      <value>TVPG</value>
+    </rating>
+    <credits>
+      <actor>Chris Connelly</actor>
+      <actor>Robin Roberts</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30687311_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260101190000 +0000" stop="20260101200000 +0000" channel="1">
+    <title>General Hospital</title>
+    <desc>Luke tries to come to terms with his decision; Franco threatens to reveal a secret; Madeline doesn&#x27;t think Maxie is right for Nathan.</desc>
+    <category>Series</category>
+    <category>Soap</category>
+    <category>Medical</category>
+    <category>Drama</category>
+    <category>Romance</category>
+    <episode-num system="onscreen">S52 E224</episode-num>
+    <rating system="USA Parental Rating">
+      <value>TV14</value>
+    </rating>
+    <credits>
+      <actor>Maurice Benard</actor>
+      <actor>Kristen Alderson</actor>
+      <actor>Rebecca Herbst</actor>
+    </credits>
+    <date>2015</date>
+    <icon src="http://dshm.tmsimg.com/assets/p183893_b_h8_al.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260101200000 +0000" stop="20260101210000 +0000" channel="1">
+    <title>General Hospital</title>
+    <desc>Luke tries to come to terms with his decision; Franco threatens to reveal a secret; Madeline doesn&#x27;t think Maxie is right for Nathan.</desc>
+    <category>Series</category>
+    <category>Soap</category>
+    <category>Medical</category>
+    <category>Drama</category>
+    <category>Romance</category>
+    <episode-num system="onscreen">S52 E224</episode-num>
+    <rating system="USA Parental Rating">
+      <value>TV14</value>
+    </rating>
+    <credits>
+      <actor>Maurice Benard</actor>
+      <actor>Kristen Alderson</actor>
+      <actor>Rebecca Herbst</actor>
+    </credits>
+    <date>2015</date>
+    <icon src="http://dshm.tmsimg.com/assets/p183893_b_h8_al.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260101210000 +0000" stop="20260101213000 +0000" channel="1">
+    <title>ABC News Live Reports</title>
+    <desc>24/7 coverage of breaking news and live events.</desc>
+    <category>News</category>
+    <date>2023</date>
+    <icon src="http://dshm.tmsimg.com/assets/p25571720_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260101213000 +0000" stop="20260101220000 +0000" channel="1">
+    <title>Last Lands: South Africa</title>
+    <desc>ABC News Live Special Programming.</desc>
+    <category>Special</category>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p31937077_b_h8_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260101220000 +0000" stop="20260101233000 +0000" channel="1">
+    <title>Impact X Nightline</title>
+    <desc>ABC News Live Special Programming.</desc>
+    <category>News</category>
+    <date>2023</date>
+    <icon src="http://dshm.tmsimg.com/assets/p25459493_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260101233000 +0000" stop="20260102000000 +0000" channel="1">
+    <title>ABC World News Tonight With David Muir</title>
+    <desc>Delivering the news that matters most.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">E1</episode-num>
+    <credits>
+      <actor>David Muir</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p10880351_b_h8_ah.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102000000 +0000" stop="20260102003000 +0000" channel="1">
+    <title>ABC World News Tonight With David Muir</title>
+    <desc>Delivering the news that matters most.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">E1</episode-num>
+    <credits>
+      <actor>David Muir</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p10880351_b_h8_ah.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260102003000 +0000" stop="20260102010000 +0000" channel="1">
+    <title>Live: ABCNL Prime With Linsey Davis</title>
+    <desc>Providing prime-time context and analysis of the day&#x27;s top stories, as well as in-depth reporting and storytelling from around the country and the globe.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">E1</episode-num>
+    <credits>
+      <actor>Linsey Davis</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p17913428_b_h8_ab.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102010000 +0000" stop="20260102040000 +0000" channel="1">
+    <title>2025 Rock &amp; Roll Hall of Fame Induction Ceremony</title>
+    <desc>Recorded live from the Peacock Theater in Los Angeles, this year&#x27;s ceremony features rare once-in-a-lifetime performances and moments celebrating the legacy and influence of this year&#x27;s inductees: Bad Company, Chubby Checker, Joe Cocker, Cyndi Lauper, Outkast, Soundgarden and The White Stripes in the Performer category, along with Salt-N-Pepa and Warren Zevon for Musical Influence, Thom Bell, Nicky Hopkins and Carol Kaye for Musical Excellence, and Lenny Waronker for the Ahmet Ertegun Award.</desc>
+    <category>Special</category>
+    <category>Music</category>
+    <rating system="USA Parental Rating">
+      <value>TV14</value>
+    </rating>
+    <credits>
+      <actor>Bad Company</actor>
+      <actor>Chubby Checker</actor>
+      <actor>Joe Cocker</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p31418649_b_h8_ae.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102040000 +0000" stop="20260102043500 +0000" channel="1">
+    <title>ABCNL Prime With Linsey Davis</title>
+    <desc>Providing prime-time context and analysis of the day&#x27;s top stories, as well as in-depth reporting and storytelling from around the country and the globe.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">E1</episode-num>
+    <credits>
+      <actor>Linsey Davis</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p17913428_b_h8_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260102043500 +0000" stop="20260102053700 +0000" channel="1">
+    <title>Jimmy Kimmel Live!</title>
+    <desc>Emmy-winning funnyman Jimmy Kimmel serves up comedy bits and welcomes guests that include other comics, celebrities, athletes and musicians, as well as everyday people with unusual or compelling personal stories. Kimmel&#x27;s family and friends take part in the festivities, including his Cousin Sal, Uncle Frank (until his death in 2011) and childhood friend Cleto Escobedo III, who leads the show&#x27;s house band. Recurring segments include the FCC-pleasing This Week in Unnecessary Censorship in which they take TV clips and &quot;bleep and blur things whether they need it or not,&quot; as Kimmel describes it. But it&#x27;s too bad they consistently run out of time for Matt Damon&#x27;s segment.</desc>
+    <category>Talk</category>
+    <category>Comedy</category>
+    <rating system="USA Parental Rating">
+      <value>TV14</value>
+    </rating>
+    <credits>
+      <actor>Jimmy Kimmel</actor>
+    </credits>
+    <date>2003</date>
+    <icon src="http://dshm.tmsimg.com/assets/p31166959_b_h10_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102053700 +0000" stop="20260102060600 +0000" channel="1">
+    <title>Nightline</title>
+    <desc>In-depth reporting on one or more of the major stories in the news, with occasional segments on pop culture; journalists Juju Chang and Byron Pitts share hosting duties for this late-night program.</desc>
+    <category>Series</category>
+    <category>Talk</category>
+    <category>News</category>
+    <category>Interview</category>
+    <episode-num system="onscreen">E1</episode-num>
+    <credits>
+      <actor>Juju Chang</actor>
+      <actor>Byron Pitts</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p184465_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102060600 +0000" stop="20260102070000 +0000" channel="1">
+    <title>ABCNL Prime With Linsey Davis</title>
+    <desc>Providing prime-time context and analysis of the day&#x27;s top stories, as well as in-depth reporting and storytelling from around the country and the globe.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">E1</episode-num>
+    <credits>
+      <actor>Linsey Davis</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p17913428_b_h8_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260102070000 +0000" stop="20260102090000 +0000" channel="1">
+    <title>ABC World News Now</title>
+    <desc>Up-to-date information on current events and news from around the world, airing in the overnight hours. Its tone is somewhat lighter than a regular news broadcast, though reports are filed from the usual ABC News correspondents. Weather and pop culture stories round out the reports.</desc>
+    <category>News</category>
+    <credits>
+      <actor>Andrew Dymburt</actor>
+      <actor>Rhiannon Ally</actor>
+      <actor>Sophie Flay</actor>
+    </credits>
+    <date>1992</date>
+    <icon src="http://dshm.tmsimg.com/assets/p184051_b_h10_ad.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102090000 +0000" stop="20260102093000 +0000" channel="1">
+    <title>Good Morning America First Look</title>
+    <desc>Formerly known as &quot;ABC World News This Morning,&quot; this newscast from &quot;ABC News&quot; features live reports from Washington, headlines of the day, an ESPN sports package and &quot;MoneyScope,&quot; a regular financial news segment.</desc>
+    <category>News</category>
+    <credits>
+      <actor>Andrew Dymburt</actor>
+      <actor>Rhiannon Ally</actor>
+      <actor>Sophie Flay</actor>
+    </credits>
+    <date>2024</date>
+    <icon src="http://dshm.tmsimg.com/assets/p28311369_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102093000 +0000" stop="20260102100000 +0000" channel="1">
+    <title>Good Morning America First Look</title>
+    <desc>Formerly known as &quot;ABC World News This Morning,&quot; this newscast from &quot;ABC News&quot; features live reports from Washington, headlines of the day, an ESPN sports package and &quot;MoneyScope,&quot; a regular financial news segment.</desc>
+    <category>News</category>
+    <credits>
+      <actor>Andrew Dymburt</actor>
+      <actor>Rhiannon Ally</actor>
+      <actor>Sophie Flay</actor>
+    </credits>
+    <date>2024</date>
+    <icon src="http://dshm.tmsimg.com/assets/p28311369_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102100000 +0000" stop="20260102103000 +0000" channel="1">
+    <title>Good Morning America First Look</title>
+    <desc>Formerly known as &quot;ABC World News This Morning,&quot; this newscast from &quot;ABC News&quot; features live reports from Washington, headlines of the day, an ESPN sports package and &quot;MoneyScope,&quot; a regular financial news segment.</desc>
+    <category>News</category>
+    <credits>
+      <actor>Andrew Dymburt</actor>
+      <actor>Rhiannon Ally</actor>
+      <actor>Sophie Flay</actor>
+    </credits>
+    <date>2024</date>
+    <icon src="http://dshm.tmsimg.com/assets/p28311369_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102103000 +0000" stop="20260102110000 +0000" channel="1">
+    <title>Good Morning America First Look</title>
+    <desc>Formerly known as &quot;ABC World News This Morning,&quot; this newscast from &quot;ABC News&quot; features live reports from Washington, headlines of the day, an ESPN sports package and &quot;MoneyScope,&quot; a regular financial news segment.</desc>
+    <category>News</category>
+    <credits>
+      <actor>Andrew Dymburt</actor>
+      <actor>Rhiannon Ally</actor>
+      <actor>Sophie Flay</actor>
+    </credits>
+    <date>2024</date>
+    <icon src="http://dshm.tmsimg.com/assets/p28311369_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102110000 +0000" stop="20260102113000 +0000" channel="1">
+    <title>Good Morning America First Look</title>
+    <desc>Formerly known as &quot;ABC World News This Morning,&quot; this newscast from &quot;ABC News&quot; features live reports from Washington, headlines of the day, an ESPN sports package and &quot;MoneyScope,&quot; a regular financial news segment.</desc>
+    <category>News</category>
+    <credits>
+      <actor>Andrew Dymburt</actor>
+      <actor>Rhiannon Ally</actor>
+      <actor>Sophie Flay</actor>
+    </credits>
+    <date>2024</date>
+    <icon src="http://dshm.tmsimg.com/assets/p28311369_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102113000 +0000" stop="20260102120000 +0000" channel="1">
+    <title>Good Morning America First Look</title>
+    <desc>Formerly known as &quot;ABC World News This Morning,&quot; this newscast from &quot;ABC News&quot; features live reports from Washington, headlines of the day, an ESPN sports package and &quot;MoneyScope,&quot; a regular financial news segment.</desc>
+    <category>News</category>
+    <credits>
+      <actor>Andrew Dymburt</actor>
+      <actor>Rhiannon Ally</actor>
+      <actor>Sophie Flay</actor>
+    </credits>
+    <date>2024</date>
+    <icon src="http://dshm.tmsimg.com/assets/p28311369_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102120000 +0000" stop="20260102140000 +0000" channel="1">
+    <title>Good Morning America</title>
+    <desc>Actress Lacey Chabert; kickstart strength training with Women&#x27;s Health editor-in-chief Liz Baker Plosser; 50 States in 50 Weeks: America the Beautiful stops in Arkansas; The Right Stuff with Lori Bergamotto.</desc>
+    <category>Series</category>
+    <category>Talk</category>
+    <category>News</category>
+    <category>Variety</category>
+    <category>Public affairs</category>
+    <episode-num system="onscreen">E2</episode-num>
+    <credits>
+      <actor>George Stephanopoulos</actor>
+      <actor>Robin Roberts</actor>
+      <actor>Michael Strahan</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p184220_b_h8_ab.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102140000 +0000" stop="20260102143000 +0000" channel="1">
+    <title>ABC News Live First</title>
+    <desc>The latest headlines, compelling stories, interviews and roundtable discussions.</desc>
+    <category>News</category>
+    <date>2022</date>
+    <icon src="http://dshm.tmsimg.com/assets/p22802102_b_h10_ab.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102143000 +0000" stop="20260102150000 +0000" channel="1">
+    <title>Last Lands: Panama</title>
+    <desc>ABC News Live Special Programming.</desc>
+    <category>Special</category>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p31507069_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260102150000 +0000" stop="20260102153000 +0000" channel="1">
+    <title>ABC News Live First</title>
+    <desc>The latest headlines, compelling stories, interviews and roundtable discussions.</desc>
+    <category>News</category>
+    <date>2022</date>
+    <icon src="http://dshm.tmsimg.com/assets/p22802102_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260102153000 +0000" stop="20260102160000 +0000" channel="1">
+    <title>Last Lands: South Africa</title>
+    <desc>ABC News Live Special Programming.</desc>
+    <category>Special</category>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p31937077_b_h8_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260102160000 +0000" stop="20260102170000 +0000" channel="1">
+    <title>The View</title>
+    <desc>Actress Daisy Ridley; authors Jonathan Haidt and Catherine Price (&quot;The Amazing Generation&quot;).</desc>
+    <category>Series</category>
+    <category>Talk</category>
+    <episode-num system="onscreen">S29 E70</episode-num>
+    <rating system="USA Parental Rating">
+      <value>TV14</value>
+    </rating>
+    <credits>
+      <director>Sarah de la O</director>
+      <actor>Whoopi Goldberg</actor>
+      <actor>Joy Behar</actor>
+      <actor>Sunny Hostin</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p31138947_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260102170000 +0000" stop="20260102180000 +0000" channel="1">
+    <title>GMA3</title>
+    <desc>Author Virginia Evans; Kickstart Strength Training with Women&#x27;s Health editor-in-chief Liz Baker Plosser; 50 States in 50 Weeks: America the Beautiful stops in Arkansas; The Right Stuff with Lori Bergamotto.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <category>Talk</category>
+    <category>Health</category>
+    <episode-num system="onscreen">S6 E73</episode-num>
+    <rating system="USA Parental Rating">
+      <value>TVPG</value>
+    </rating>
+    <credits>
+      <actor>Lori Bergamotto</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30687311_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102180000 +0000" stop="20260102190000 +0000" channel="1">
+    <title>GMA3</title>
+    <desc>Author Virginia Evans; Kickstart Strength Training with Women&#x27;s Health editor-in-chief Liz Baker Plosser; 50 States in 50 Weeks: America the Beautiful stops in Arkansas; The Right Stuff with Lori Bergamotto.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <category>Talk</category>
+    <category>Health</category>
+    <episode-num system="onscreen">S6 E73</episode-num>
+    <rating system="USA Parental Rating">
+      <value>TVPG</value>
+    </rating>
+    <credits>
+      <actor>Lori Bergamotto</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30687311_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260102190000 +0000" stop="20260102200000 +0000" channel="1">
+    <title>General Hospital</title>
+    <desc>Sonny warns Michael; Kristina is taken aback; Alexis decides upon a new strategy; Dante confers with Justine; Laura gets new marching orders.</desc>
+    <category>Series</category>
+    <category>Soap</category>
+    <category>Medical</category>
+    <category>Drama</category>
+    <category>Romance</category>
+    <episode-num system="onscreen">S63 E77</episode-num>
+    <rating system="USA Parental Rating">
+      <value>TV14</value>
+    </rating>
+    <credits>
+      <actor>Maurice Benard</actor>
+      <actor>Steve Burton</actor>
+      <actor>Michael Easton</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p183893_b_h8_al.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102200000 +0000" stop="20260102210000 +0000" channel="1">
+    <title>General Hospital</title>
+    <desc>Sonny warns Michael; Kristina is taken aback; Alexis decides upon a new strategy; Dante confers with Justine; Laura gets new marching orders.</desc>
+    <category>Series</category>
+    <category>Soap</category>
+    <category>Medical</category>
+    <category>Drama</category>
+    <category>Romance</category>
+    <episode-num system="onscreen">S63 E77</episode-num>
+    <rating system="USA Parental Rating">
+      <value>TV14</value>
+    </rating>
+    <credits>
+      <actor>Maurice Benard</actor>
+      <actor>Steve Burton</actor>
+      <actor>Michael Easton</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p183893_b_h8_al.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260102210000 +0000" stop="20260102233000 +0000" channel="1">
+    <title>ABC News Live Reports</title>
+    <desc>24/7 coverage of breaking news and live events.</desc>
+    <category>News</category>
+    <date>2023</date>
+    <icon src="http://dshm.tmsimg.com/assets/p25571720_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260102233000 +0000" stop="20260103000000 +0000" channel="1">
+    <title>ABC World News Tonight With David Muir</title>
+    <desc>Delivering the news that matters most.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">E2</episode-num>
+    <credits>
+      <actor>David Muir</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p10880351_b_h8_ah.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260103000000 +0000" stop="20260103003000 +0000" channel="1">
+    <title>ABC World News Tonight With David Muir</title>
+    <desc>Delivering the news that matters most.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">E2</episode-num>
+    <credits>
+      <actor>David Muir</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p10880351_b_h8_ah.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260103003000 +0000" stop="20260103010000 +0000" channel="1">
+    <title>Live: ABCNL Prime With Linsey Davis</title>
+    <desc>Providing prime-time context and analysis of the day&#x27;s top stories, as well as in-depth reporting and storytelling from around the country and the globe.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">E2</episode-num>
+    <credits>
+      <actor>Linsey Davis</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p17913428_b_h8_ab.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260103010000 +0000" stop="20260103020000 +0000" channel="1">
+    <title>Celebrity Wheel of Fortune</title>
+    <sub-title>Katie Lowes, Malin Akerman, Jaime Ray Newman</sub-title>
+    <desc>Celebrity contestants Katie Lowes, Malin Akerman and Jaime Ray Newman.</desc>
+    <category>Series</category>
+    <category>Game show</category>
+    <episode-num system="onscreen">S6 E3</episode-num>
+    <rating system="USA Parental Rating">
+      <value>TVPG</value>
+    </rating>
+    <credits>
+      <actor>Ryan Seacrest</actor>
+      <actor>Vanna White</actor>
+      <actor>Katie Lowes</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p19081569_b_h8_as.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260103020000 +0000" stop="20260103040000 +0000" channel="1">
+    <title>20/20</title>
+    <desc>A wealthy grandmother goes on trial, accused of being the mastermind behind a murder-for-hire of a family member.</desc>
+    <category>Series</category>
+    <category>Newsmagazine</category>
+    <episode-num system="onscreen">S48 E11</episode-num>
+    <rating system="방송통신심의위원회">
+      <value>12</value>
+    </rating>
+    <credits>
+      <actor>David Muir</actor>
+      <actor>Deborah Roberts</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p184299_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260103040000 +0000" stop="20260103043500 +0000" channel="1">
+    <title>ABCNL Prime With Linsey Davis</title>
+    <desc>Providing prime-time context and analysis of the day&#x27;s top stories, as well as in-depth reporting and storytelling from around the country and the globe.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">E2</episode-num>
+    <credits>
+      <actor>Linsey Davis</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p17913428_b_h8_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260103043500 +0000" stop="20260103053700 +0000" channel="1">
+    <title>Jimmy Kimmel Live!</title>
+    <desc>Emmy-winning funnyman Jimmy Kimmel serves up comedy bits and welcomes guests that include other comics, celebrities, athletes and musicians, as well as everyday people with unusual or compelling personal stories. Kimmel&#x27;s family and friends take part in the festivities, including his Cousin Sal, Uncle Frank (until his death in 2011) and childhood friend Cleto Escobedo III, who leads the show&#x27;s house band. Recurring segments include the FCC-pleasing This Week in Unnecessary Censorship in which they take TV clips and &quot;bleep and blur things whether they need it or not,&quot; as Kimmel describes it. But it&#x27;s too bad they consistently run out of time for Matt Damon&#x27;s segment.</desc>
+    <category>Talk</category>
+    <category>Comedy</category>
+    <rating system="USA Parental Rating">
+      <value>TV14</value>
+    </rating>
+    <credits>
+      <actor>Jimmy Kimmel</actor>
+    </credits>
+    <date>2003</date>
+    <icon src="http://dshm.tmsimg.com/assets/p31166959_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260103053700 +0000" stop="20260103060600 +0000" channel="1">
+    <title>Nightline</title>
+    <desc>In-depth reporting on one or more of the major stories in the news, with occasional segments on pop culture; journalists Juju Chang and Byron Pitts share hosting duties for this late-night program.</desc>
+    <category>Series</category>
+    <category>Talk</category>
+    <category>News</category>
+    <category>Interview</category>
+    <episode-num system="onscreen">E2</episode-num>
+    <credits>
+      <actor>Juju Chang</actor>
+      <actor>Byron Pitts</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p184465_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260103060600 +0000" stop="20260103070000 +0000" channel="1">
+    <title>ABCNL Prime With Linsey Davis</title>
+    <desc>Providing prime-time context and analysis of the day&#x27;s top stories, as well as in-depth reporting and storytelling from around the country and the globe.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">E2</episode-num>
+    <credits>
+      <actor>Linsey Davis</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p17913428_b_h8_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260103070000 +0000" stop="20260103080000 +0000" channel="1">
+    <title>ABCNL Prime With Linsey Davis</title>
+    <desc>Providing prime-time context and analysis of the day&#x27;s top stories, as well as in-depth reporting and storytelling from around the country and the globe.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">E2</episode-num>
+    <credits>
+      <actor>Linsey Davis</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p17913428_b_h8_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260103080000 +0000" stop="20260103100000 +0000" channel="1">
+    <title>Live: 20/20</title>
+    <desc>Award-winning program anchored by David Muir, featuring unforgettable, character-driven true crime mysteries, exclusive newsmaker interviews, hard-hitting investigative reports and in-depth coverage of high profile stories.</desc>
+    <category>Newsmagazine</category>
+    <rating system="Australian Classification Board">
+      <value>PG</value>
+    </rating>
+    <credits>
+      <actor>David Muir</actor>
+      <actor>Deborah Roberts</actor>
+    </credits>
+    <date>1978</date>
+    <icon src="http://dshm.tmsimg.com/assets/p28298031_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260103100000 +0000" stop="20260103120000 +0000" channel="1">
+    <title>Live: 20/20</title>
+    <desc>Award-winning program anchored by David Muir, featuring unforgettable, character-driven true crime mysteries, exclusive newsmaker interviews, hard-hitting investigative reports and in-depth coverage of high profile stories.</desc>
+    <category>Newsmagazine</category>
+    <rating system="Australian Classification Board">
+      <value>PG</value>
+    </rating>
+    <credits>
+      <actor>David Muir</actor>
+      <actor>Deborah Roberts</actor>
+    </credits>
+    <date>1978</date>
+    <icon src="http://dshm.tmsimg.com/assets/p28298031_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260103120000 +0000" stop="20260103123000 +0000" channel="1">
+    <title>ABC News Live Weekend</title>
+    <desc>Breaking news coverage and live video.</desc>
+    <category>News</category>
+    <credits>
+      <actor>DeMarco Morgan</actor>
+    </credits>
+    <date>2023</date>
+    <icon src="http://dshm.tmsimg.com/assets/p24080541_b_h8_ae.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260103123000 +0000" stop="20260103130000 +0000" channel="1">
+    <title>Live: The Weekend View</title>
+    <desc>Information and entertainment; discussing news and events.</desc>
+    <category>Series</category>
+    <category>Talk</category>
+    <episode-num system="onscreen">S2</episode-num>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p29165182_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260103130000 +0000" stop="20260103140000 +0000" channel="1">
+    <title>Good Morning America</title>
+    <desc>Early morning news and entertainment program that covers important issues with key figures from around the world and a wide spectrum of topics, including medicine, finance, consumer issues, computer technology, education and gardening.</desc>
+    <category>Series</category>
+    <category>Talk</category>
+    <category>News</category>
+    <category>Variety</category>
+    <category>Public affairs</category>
+    <episode-num system="onscreen">E3</episode-num>
+    <credits>
+      <actor>Whit Johnson</actor>
+      <actor>Janai Norman</actor>
+      <actor>Gio Benitez</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p184220_b_h8_ab.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260103140000 +0000" stop="20260103150000 +0000" channel="1">
+    <title>Good Morning America</title>
+    <desc>Secret savings special.</desc>
+    <category>Series</category>
+    <category>Talk</category>
+    <category>News</category>
+    <category>Variety</category>
+    <category>Public affairs</category>
+    <episode-num system="onscreen">E4</episode-num>
+    <credits>
+      <actor>Whit Johnson</actor>
+      <actor>Janai Norman</actor>
+      <actor>Gio Benitez</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p184220_b_h8_ab.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260103150000 +0000" stop="20260103160000 +0000" channel="1">
+    <title>Good Morning America</title>
+    <desc>Secret savings special.</desc>
+    <category>Series</category>
+    <category>Talk</category>
+    <category>News</category>
+    <category>Variety</category>
+    <category>Public affairs</category>
+    <episode-num system="onscreen">E4</episode-num>
+    <credits>
+      <actor>Whit Johnson</actor>
+      <actor>Janai Norman</actor>
+      <actor>Gio Benitez</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p184220_b_h8_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260103160000 +0000" stop="20260103163000 +0000" channel="1">
+    <title>ABC News Live Weekends</title>
+    <desc>Breaking news coverage and live video.</desc>
+    <category>News</category>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <credits>
+      <actor>Gio Benitez</actor>
+      <actor>Janai Norman</actor>
+      <actor>Whit Johnson</actor>
+    </credits>
+    <date>2024</date>
+    <icon src="http://dshm.tmsimg.com/assets/p28522722_b_h10_ac.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260103163000 +0000" stop="20260103170000 +0000" channel="1">
+    <title>GMA Life</title>
+    <desc>A weekly roundup of the best lifestyle content from &quot;Good Morning America&quot;; includes exclusive celebrity content, savings from &quot;Deals &amp; Steals,&quot; and interviews with authors behind some of the most anticipated books.</desc>
+    <category>Series</category>
+    <category>Entertainment</category>
+    <episode-num system="onscreen">E1</episode-num>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p24038053_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260103170000 +0000" stop="20260103200000 +0000" channel="1">
+    <title>Live: NHL Hockey</title>
+    <desc>The Penguins face the Red Wings at Little Caesars Arena in a cross-division game. Detroit leads the Atlantic Division after an overtime win over Toronto. Pittsburgh enters the matchup following a dominant 7-3 victory against the Chicago Blackhawks.</desc>
+    <category>Sports</category>
+    <category>Hockey</category>
+    <icon src="http://dshm.tmsimg.com/assets/GNLZZGG0029QKV8.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260103200000 +0000" stop="20260103213000 +0000" channel="1">
+    <title>Live: Monday Night Countdown</title>
+    <sub-title>NFL Countdown Special Edition</sub-title>
+    <desc>Host Scott Van Pelt is joined by Ryan Clark, Jason Kelce, Marcus Spears, Adam Schefter and Michelle Beisner-Buck as they preview the upcoming Monday Night Football matchup and discuss the latest news from Sunday&#x27;s NFL action.</desc>
+    <category>Series</category>
+    <category>Football</category>
+    <episode-num system="onscreen">E1</episode-num>
+    <rating system="Departamento de Justiça, Classificação, Títulos e Qualificação">
+      <value>L</value>
+    </rating>
+    <credits>
+      <actor>Scott Van Pelt</actor>
+      <actor>Ryan Clark</actor>
+      <actor>Marcus Spears</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p806866_b_h8_ac.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260103213000 +0000" stop="20260104003000 +0000" channel="1">
+    <title>Live: NFL Football</title>
+    <desc>The Panthers visit the Buccaneers in a NFC South finale at Raymond James Stadium. The Panthers achieved a 23-20 home win over the Buccaneers. This Week 18 matchup decides playoff berths or the division title as the Buccaneers defend their home field.</desc>
+    <category>Sports</category>
+    <category>Football</category>
+    <icon src="http://dshm.tmsimg.com/assets/GNLZZGG002HKZZB.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260104003000 +0000" stop="20260104010000 +0000" channel="1">
+    <title>Live: Monday Night Countdown</title>
+    <sub-title>NFL Countdown Special Edition</sub-title>
+    <desc>Host Scott Van Pelt is joined by Ryan Clark, Jason Kelce, Marcus Spears, Adam Schefter and Michelle Beisner-Buck as they preview the upcoming Monday Night Football matchup and discuss the latest news from Sunday&#x27;s NFL action.</desc>
+    <category>Series</category>
+    <category>Football</category>
+    <episode-num system="onscreen">E2</episode-num>
+    <rating system="Departamento de Justiça, Classificação, Títulos e Qualificação">
+      <value>L</value>
+    </rating>
+    <credits>
+      <actor>Scott Van Pelt</actor>
+      <actor>Ryan Clark</actor>
+      <actor>Marcus Spears</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p806866_b_h8_ac.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260104010000 +0000" stop="20260104041500 +0000" channel="1">
+    <title>Live: NFL Football</title>
+    <desc>Seattle Seahawks visit San Francisco 49ers at Levi&#x27;s Stadium for a key NFC rivalry clash. The Week 18 finale carries massive implications for the NFC West title and playoff seeding. The 49ers won in Week 1, defeating the Seahawks 17-13.</desc>
+    <category>Sports</category>
+    <category>Football</category>
+    <icon src="http://dshm.tmsimg.com/assets/GNLZZGG002HLJH7.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260104041500 +0000" stop="20260104043000 +0000" channel="1">
+    <title>Live: ABC World News Tonight With David Muir</title>
+    <desc>Delivering the news that matters most.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">E3</episode-num>
+    <credits>
+      <actor>David Muir</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p10880351_b_h8_ah.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260104043000 +0000" stop="20260104050000 +0000" channel="1">
+    <title>ABC World News Tonight With David Muir</title>
+    <desc>Delivering the news that matters most.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">E3</episode-num>
+    <credits>
+      <actor>David Muir</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p10880351_b_h8_ah.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260104050000 +0000" stop="20260104060000 +0000" channel="1">
+    <title>Live: What Would You Do?</title>
+    <desc>Using hidden cameras, host John Quiñones observes and comments on how ordinary people behave when they are confronted with dilemmas that require them either to take action or to walk by and mind their own business. Various scenarios are created that force people to make split-second -- and often surprising -- decisions, and variations of the situation (such as changing the genders, races or clothing of the people involved) are often featured to see if different reactions are elicited. Examples of situations on the show include a waitress being harassed by her boss, and a drunken valet trying to park cars.</desc>
+    <category>Newsmagazine</category>
+    <rating system="USA Parental Rating">
+      <value>TVPG</value>
+    </rating>
+    <credits>
+      <actor>John Quinones</actor>
+      <actor>Sara Haines</actor>
+    </credits>
+    <date>2008</date>
+    <icon src="http://dshm.tmsimg.com/assets/p26111668_b_h8_ab.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20251231053700 +0000" stop="20251231063700 +0000" channel="2">
+    <title>Late Night With Seth Meyers</title>
+    <desc>With his signature monologue and sharp newsy segments like &quot;A Closer Look,&quot; Seth Meyers hilariously breaks down the day&#x27;s biggest stories and takes the current political circus head-on. He then welcomes Hollywood&#x27;s most beloved A-list guests, as well as people not seen anywhere else in late night, like political figures and other interesting newsmakers. With fan-favorite comedy segments that become viral sensations, and the talented 8G band at his side, Seth consistently brings home the last laugh.</desc>
+    <category>Talk</category>
+    <category>Comedy</category>
+    <category>Political News Satire &amp; Talk</category>
+    <rating system="USA Parental Rating">
+      <value>TV14</value>
+    </rating>
+    <credits>
+      <actor>Seth Meyers</actor>
+    </credits>
+    <date>2014</date>
+    <icon src="http://dshm.tmsimg.com/assets/p28311366_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20251231063700 +0000" stop="20251231071200 +0000" channel="2">
+    <title>NBC Nightly News With Tom Llamas</title>
+    <desc>Tom Llamas anchors the latest news, going beyond the headlines to see how lives are affected by the world around them.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">S1 E203</episode-num>
+    <credits>
+      <actor>Tom Llamas</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30141511_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20251231071200 +0000" stop="20251231080000 +0000" channel="2">
+    <title>Top Story With Tom Llamas</title>
+    <desc>Reporting of breaking news and developing stories in real time.</desc>
+    <category>News</category>
+    <credits>
+      <actor>Tom Llamas</actor>
+    </credits>
+    <date>2021</date>
+    <icon src="http://dshm.tmsimg.com/assets/p23722920_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20251231080000 +0000" stop="20251231083000 +0000" channel="2">
+    <title>Early Today</title>
+    <desc>This early-morning news covers overnight events, breaking domestic and international news as well as a preview of the day&#x27;s anticipated events. The program also presents regular reports from the worlds of business, entertainment and sports.</desc>
+    <category>News</category>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <date>1999</date>
+    <icon src="http://dshm.tmsimg.com/assets/p185301_b_h8_ag.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20251231083000 +0000" stop="20251231090000 +0000" channel="2">
+    <title>Early Today</title>
+    <desc>This early-morning news covers overnight events, breaking domestic and international news as well as a preview of the day&#x27;s anticipated events. The program also presents regular reports from the worlds of business, entertainment and sports.</desc>
+    <category>News</category>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <date>1999</date>
+    <icon src="http://dshm.tmsimg.com/assets/p185301_b_h8_ag.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20251231090000 +0000" stop="20251231093000 +0000" channel="2">
+    <title>Early Today</title>
+    <desc>This early-morning news covers overnight events, breaking domestic and international news as well as a preview of the day&#x27;s anticipated events. The program also presents regular reports from the worlds of business, entertainment and sports.</desc>
+    <category>News</category>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <date>1999</date>
+    <icon src="http://dshm.tmsimg.com/assets/p185301_b_h8_ag.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20251231093000 +0000" stop="20251231100000 +0000" channel="2">
+    <title>Early Today</title>
+    <desc>This early-morning news covers overnight events, breaking domestic and international news as well as a preview of the day&#x27;s anticipated events. The program also presents regular reports from the worlds of business, entertainment and sports.</desc>
+    <category>News</category>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <date>1999</date>
+    <icon src="http://dshm.tmsimg.com/assets/p185301_b_h8_ag.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20251231100000 +0000" stop="20251231103000 +0000" channel="2">
+    <title>Early Today</title>
+    <desc>This early-morning news covers overnight events, breaking domestic and international news as well as a preview of the day&#x27;s anticipated events. The program also presents regular reports from the worlds of business, entertainment and sports.</desc>
+    <category>News</category>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <date>1999</date>
+    <icon src="http://dshm.tmsimg.com/assets/p185301_b_h8_ag.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20251231103000 +0000" stop="20251231110000 +0000" channel="2">
+    <title>Early Today</title>
+    <desc>This early-morning news covers overnight events, breaking domestic and international news as well as a preview of the day&#x27;s anticipated events. The program also presents regular reports from the worlds of business, entertainment and sports.</desc>
+    <category>News</category>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <date>1999</date>
+    <icon src="http://dshm.tmsimg.com/assets/p185301_b_h8_ag.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20251231110000 +0000" stop="20251231110300 +0000" channel="2">
+    <title>To Be Announced</title>
+    <desc>Programming to be announced.</desc>
+    <category>Special</category>
+    <category>Entertainment</category>
+    <rating system="Dirección General de Radio, Televisión y Cinematografía">
+      <value>B</value>
+    </rating>
+    <date>2014</date>
+    <icon src="http://dshm.tmsimg.com/assets/p514472_b_h8_ad.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20251231110300 +0000" stop="20251231113000 +0000" channel="2">
+    <title>Early Today</title>
+    <desc>This early-morning news covers overnight events, breaking domestic and international news as well as a preview of the day&#x27;s anticipated events. The program also presents regular reports from the worlds of business, entertainment and sports.</desc>
+    <category>News</category>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <date>1999</date>
+    <icon src="http://dshm.tmsimg.com/assets/p185301_b_h8_ag.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20251231113000 +0000" stop="20251231113300 +0000" channel="2">
+    <title>To Be Announced</title>
+    <desc>Programming to be announced.</desc>
+    <category>Special</category>
+    <category>Entertainment</category>
+    <rating system="Dirección General de Radio, Televisión y Cinematografía">
+      <value>B</value>
+    </rating>
+    <date>2014</date>
+    <icon src="http://dshm.tmsimg.com/assets/p514472_b_h8_ad.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20251231113300 +0000" stop="20251231120000 +0000" channel="2">
+    <title>Early Today</title>
+    <desc>This early-morning news covers overnight events, breaking domestic and international news as well as a preview of the day&#x27;s anticipated events. The program also presents regular reports from the worlds of business, entertainment and sports.</desc>
+    <category>News</category>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <date>1999</date>
+    <icon src="http://dshm.tmsimg.com/assets/p185301_b_h8_ag.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20251231120000 +0000" stop="20251231140000 +0000" channel="2">
+    <title>Today</title>
+    <desc>Viral skiing trend; GLP-1 pills; the stars we lost in 2025; top Google searches for 2025 with Sarah Armstrong; how Japan is handling a surge of bears in communities across the country; books of 2026 with Isaac Fitzgerald and Adriana Trigiani.</desc>
+    <category>Series</category>
+    <category>Talk</category>
+    <category>News</category>
+    <category>Public affairs</category>
+    <episode-num system="onscreen">S74 E86</episode-num>
+    <rating system="Australian Classification Board">
+      <value>G</value>
+    </rating>
+    <credits>
+      <actor>Savannah Guthrie</actor>
+      <actor>Craig Melvin</actor>
+      <actor>Al Roker</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30939383_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20251231140000 +0000" stop="20251231150000 +0000" channel="2">
+    <title>Today 3rd Hour</title>
+    <desc>Actor Woody Harrelson; descendant of CJ Walker writes book celebrating the 100th anniversary of the Harlem Renaissance; Bacard; binding agents; Chloe Flower performs; the best moments of 2025.</desc>
+    <category>Series</category>
+    <category>Talk</category>
+    <category>News</category>
+    <episode-num system="onscreen">S8 E72</episode-num>
+    <credits>
+      <actor>Craig Melvin</actor>
+      <actor>Al Roker</actor>
+      <actor>Dylan Dreyer</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30939266_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20251231150000 +0000" stop="20251231160000 +0000" channel="2">
+    <title>Today With Jenna &amp; Friends</title>
+    <desc>Henry Hager co-hosts; 2025 pop culture countdown with Michelle Collins; best moments of 2025; last minute New Years Eve outfit upgrades with Rajni Jacques; last minute New Year&#x27;s Eve party ideas with Nathan Turner; Get a Clue: Holiday Edition.</desc>
+    <category>Series</category>
+    <category>Talk</category>
+    <category>Newsmagazine</category>
+    <category>Entertainment</category>
+    <episode-num system="onscreen">S2 E72</episode-num>
+    <credits>
+      <actor>Jenna Bush-Hager</actor>
+      <actor>Henry Hager</actor>
+      <actor>Michelle Collins</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p28849956_b_h8_ac.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20251231160000 +0000" stop="20251231170000 +0000" channel="2">
+    <title>Today With Jenna &amp; Friends</title>
+    <desc>Henry Hager co-hosts; 2025 pop culture countdown with Michelle Collins; best moments of 2025; last minute New Years Eve outfit upgrades with Rajni Jacques; last minute New Year&#x27;s Eve party ideas with Nathan Turner; Get a Clue: Holiday Edition.</desc>
+    <category>Series</category>
+    <category>Talk</category>
+    <category>Newsmagazine</category>
+    <category>Entertainment</category>
+    <episode-num system="onscreen">S2 E72</episode-num>
+    <credits>
+      <actor>Jenna Bush-Hager</actor>
+      <actor>Henry Hager</actor>
+      <actor>Michelle Collins</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p28849956_b_h8_ac.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20251231170000 +0000" stop="20251231180000 +0000" channel="2">
+    <title>NBC News Daily</title>
+    <desc>NBC News provides viewers with the latest national and international news; consumer, health and personal finance reporting; up-to-the-minute local news.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">E259</episode-num>
+    <credits>
+      <actor>Vicky Nguyen</actor>
+      <actor>Morgan Radford</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p22712535_b_h8_ad.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20251231180000 +0000" stop="20251231190000 +0000" channel="2">
+    <title>NBC News Daily</title>
+    <desc>NBC News provides viewers with the latest national and international news; consumer, health and personal finance reporting; up-to-the-minute local news.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">E259</episode-num>
+    <credits>
+      <actor>Vicky Nguyen</actor>
+      <actor>Morgan Radford</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p22712535_b_h8_ad.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20251231190000 +0000" stop="20251231200000 +0000" channel="2">
+    <title>NBC News Daily</title>
+    <desc>NBC News provides viewers with the latest national and international news; consumer, health and personal finance reporting; up-to-the-minute local news.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">E259</episode-num>
+    <credits>
+      <actor>Vicky Nguyen</actor>
+      <actor>Morgan Radford</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p22712535_b_h8_ad.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20251231200000 +0000" stop="20251231210000 +0000" channel="2">
+    <title>NBC News Daily</title>
+    <desc>NBC News provides viewers with the latest national and international news; consumer, health and personal finance reporting; up-to-the-minute local news.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">E259</episode-num>
+    <credits>
+      <actor>Vicky Nguyen</actor>
+      <actor>Morgan Radford</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p22712535_b_h8_ad.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20251231210000 +0000" stop="20251231220000 +0000" channel="2">
+    <title>NBC News Daily</title>
+    <desc>NBC News provides viewers with the latest national and international news; consumer, health and personal finance reporting; up-to-the-minute local news.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">E259</episode-num>
+    <credits>
+      <actor>Vicky Nguyen</actor>
+      <actor>Morgan Radford</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p22712535_b_h8_ad.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20251231220000 +0000" stop="20251231223000 +0000" channel="2">
+    <title>1st Look</title>
+    <desc>Each episode of this travel series sees the host becoming immersed with locals to experience unique culture, authentic cuisine and amazing conversations that turn every city into an unforgettable memory, and brings the world to the viewer through the exploration of inspiring and exciting destinations across the globe. Whether it&#x27;s rediscovering a familiar road or taking the path less traveled, there is magic to be found around every corner. Every adventure starts with a &quot;1st Look.&quot;.</desc>
+    <category>Travel</category>
+    <rating system="USA Parental Rating">
+      <value>TVPG</value>
+    </rating>
+    <credits>
+      <actor>Johnny &quot;Bananas&quot; Devenanzio</actor>
+    </credits>
+    <date>2011</date>
+    <icon src="http://dshm.tmsimg.com/assets/p16039361_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20251231223000 +0000" stop="20251231230000 +0000" channel="2">
+    <title>1st Look</title>
+    <desc>Each episode of this travel series sees the host becoming immersed with locals to experience unique culture, authentic cuisine and amazing conversations that turn every city into an unforgettable memory, and brings the world to the viewer through the exploration of inspiring and exciting destinations across the globe. Whether it&#x27;s rediscovering a familiar road or taking the path less traveled, there is magic to be found around every corner. Every adventure starts with a &quot;1st Look.&quot;.</desc>
+    <category>Travel</category>
+    <rating system="USA Parental Rating">
+      <value>TVPG</value>
+    </rating>
+    <credits>
+      <actor>Johnny &quot;Bananas&quot; Devenanzio</actor>
+    </credits>
+    <date>2011</date>
+    <icon src="http://dshm.tmsimg.com/assets/p16039361_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20251231230000 +0000" stop="20251231233000 +0000" channel="2">
+    <title>1st Look</title>
+    <desc>Each episode of this travel series sees the host becoming immersed with locals to experience unique culture, authentic cuisine and amazing conversations that turn every city into an unforgettable memory, and brings the world to the viewer through the exploration of inspiring and exciting destinations across the globe. Whether it&#x27;s rediscovering a familiar road or taking the path less traveled, there is magic to be found around every corner. Every adventure starts with a &quot;1st Look.&quot;.</desc>
+    <category>Travel</category>
+    <rating system="USA Parental Rating">
+      <value>TVPG</value>
+    </rating>
+    <credits>
+      <actor>Johnny &quot;Bananas&quot; Devenanzio</actor>
+    </credits>
+    <date>2011</date>
+    <icon src="http://dshm.tmsimg.com/assets/p16039361_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20251231233000 +0000" stop="20260101000000 +0000" channel="2">
+    <title>NBC Nightly News With Tom Llamas</title>
+    <desc>Tom Llamas anchors the latest news, going beyond the headlines to see how lives are affected by the world around them.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">S1 E204</episode-num>
+    <credits>
+      <actor>Tom Llamas</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30141511_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260101000000 +0000" stop="20260101003000 +0000" channel="2">
+    <title>NBC Nightly News With Tom Llamas</title>
+    <desc>Tom Llamas anchors the latest news, going beyond the headlines to see how lives are affected by the world around them.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">S1 E204</episode-num>
+    <credits>
+      <actor>Tom Llamas</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30141511_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260101003000 +0000" stop="20260101010000 +0000" channel="2">
+    <title>NBC Nightly News With Tom Llamas</title>
+    <desc>Tom Llamas anchors the latest news, going beyond the headlines to see how lives are affected by the world around them.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">S1 E204</episode-num>
+    <credits>
+      <actor>Tom Llamas</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30141511_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260101010000 +0000" stop="20260101025900 +0000" channel="2">
+    <title>Wicked: One Wonderful Night</title>
+    <desc>Ariana Grande, Cynthia Erivo and the cast of Wicked: For Good headline an exclusive one-time concert event and share a personal look inside their experiences on the eve of the film&#x27;s anticipated finale.</desc>
+    <category>Special</category>
+    <category>Entertainment</category>
+    <category>Music</category>
+    <category>Concert</category>
+    <rating system="USA Parental Rating">
+      <value>TV14</value>
+    </rating>
+    <credits>
+      <director>Keyan Safyari</director>
+      <actor>Cynthia Erivo</actor>
+      <actor>Ariana Grande</actor>
+      <actor>Jon M. Chu</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30679492_b_h8_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260101025900 +0000" stop="20260101033000 +0000" channel="2">
+    <title>To Be Announced</title>
+    <desc>Programming to be announced.</desc>
+    <category>Special</category>
+    <category>Entertainment</category>
+    <rating system="Dirección General de Radio, Televisión y Cinematografía">
+      <value>B</value>
+    </rating>
+    <date>2014</date>
+    <icon src="http://dshm.tmsimg.com/assets/p514472_b_h8_ad.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260101033000 +0000" stop="20260101053000 +0000" channel="2">
+    <title>A Toast to 2025!</title>
+    <desc>Hoda Kotb and Jenna Bush Hager ring in the new year with a wide-ranging lineup of actors, athletes, comedians, TV personalities and NBC News talent to look back at the most unforgettable, buzziest and funniest moments of 2025.</desc>
+    <category>Holiday</category>
+    <category>Special</category>
+    <category>News</category>
+    <credits>
+      <actor>Hoda Kotb</actor>
+      <actor>Jenna Bush Hager</actor>
+      <actor>Kristin Chenoweth</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p31819077_b_h8_ac.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260101053000 +0000" stop="20260101063000 +0000" channel="2">
+    <title>Fireworks Around the World</title>
+    <desc>Revelers and spectators from Sydney to Paris to Times Square marvel at the fireworks shows and light displays that light up the skies across the globe.</desc>
+    <category>Holiday</category>
+    <category>Special</category>
+    <category>News</category>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p31616904_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260101063000 +0000" stop="20260101070100 +0000" channel="2">
+    <title>NBC Nightly News With Tom Llamas</title>
+    <desc>Tom Llamas anchors the latest news, going beyond the headlines to see how lives are affected by the world around them.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">S1 E204</episode-num>
+    <credits>
+      <actor>Tom Llamas</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30141511_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260101070100 +0000" stop="20260101080000 +0000" channel="2">
+    <title>Top Stories of 2025</title>
+    <desc>Tom Llamas counts down the top stories, people, and trends that defined 2025, including President Trump&#x27;s tariffs, the assassination of Charlie Kirk and the election of Pope Leo XIV.</desc>
+    <category>Special</category>
+    <category>News</category>
+    <category>Documentary</category>
+    <credits>
+      <actor>Tom Llamas</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p31616829_b_h8_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260101080000 +0000" stop="20260101083000 +0000" channel="2">
+    <title>Early Today</title>
+    <desc>This early-morning news covers overnight events, breaking domestic and international news as well as a preview of the day&#x27;s anticipated events. The program also presents regular reports from the worlds of business, entertainment and sports.</desc>
+    <category>News</category>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <date>1999</date>
+    <icon src="http://dshm.tmsimg.com/assets/p185301_b_h8_ag.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260101083000 +0000" stop="20260101090000 +0000" channel="2">
+    <title>Early Today</title>
+    <desc>This early-morning news covers overnight events, breaking domestic and international news as well as a preview of the day&#x27;s anticipated events. The program also presents regular reports from the worlds of business, entertainment and sports.</desc>
+    <category>News</category>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <date>1999</date>
+    <icon src="http://dshm.tmsimg.com/assets/p185301_b_h8_ag.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260101090000 +0000" stop="20260101093000 +0000" channel="2">
+    <title>Early Today</title>
+    <desc>This early-morning news covers overnight events, breaking domestic and international news as well as a preview of the day&#x27;s anticipated events. The program also presents regular reports from the worlds of business, entertainment and sports.</desc>
+    <category>News</category>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <date>1999</date>
+    <icon src="http://dshm.tmsimg.com/assets/p185301_b_h8_ag.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260101093000 +0000" stop="20260101100000 +0000" channel="2">
+    <title>Early Today</title>
+    <desc>This early-morning news covers overnight events, breaking domestic and international news as well as a preview of the day&#x27;s anticipated events. The program also presents regular reports from the worlds of business, entertainment and sports.</desc>
+    <category>News</category>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <date>1999</date>
+    <icon src="http://dshm.tmsimg.com/assets/p185301_b_h8_ag.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260101100000 +0000" stop="20260101103000 +0000" channel="2">
+    <title>Early Today</title>
+    <desc>This early-morning news covers overnight events, breaking domestic and international news as well as a preview of the day&#x27;s anticipated events. The program also presents regular reports from the worlds of business, entertainment and sports.</desc>
+    <category>News</category>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <date>1999</date>
+    <icon src="http://dshm.tmsimg.com/assets/p185301_b_h8_ag.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260101103000 +0000" stop="20260101110000 +0000" channel="2">
+    <title>Early Today</title>
+    <desc>This early-morning news covers overnight events, breaking domestic and international news as well as a preview of the day&#x27;s anticipated events. The program also presents regular reports from the worlds of business, entertainment and sports.</desc>
+    <category>News</category>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <date>1999</date>
+    <icon src="http://dshm.tmsimg.com/assets/p185301_b_h8_ag.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260101110000 +0000" stop="20260101113000 +0000" channel="2">
+    <title>Early Today</title>
+    <desc>This early-morning news covers overnight events, breaking domestic and international news as well as a preview of the day&#x27;s anticipated events. The program also presents regular reports from the worlds of business, entertainment and sports.</desc>
+    <category>News</category>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <date>1999</date>
+    <icon src="http://dshm.tmsimg.com/assets/p185301_b_h8_ag.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260101113000 +0000" stop="20260101120000 +0000" channel="2">
+    <title>Early Today</title>
+    <desc>This early-morning news covers overnight events, breaking domestic and international news as well as a preview of the day&#x27;s anticipated events. The program also presents regular reports from the worlds of business, entertainment and sports.</desc>
+    <category>News</category>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <date>1999</date>
+    <icon src="http://dshm.tmsimg.com/assets/p185301_b_h8_ag.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260101120000 +0000" stop="20260101140000 +0000" channel="2">
+    <title>Today</title>
+    <desc>New Year&#x27;s Day; Today Food: New Year&#x27;s weekend brunch with Melissa Clark.</desc>
+    <category>Series</category>
+    <category>Talk</category>
+    <category>News</category>
+    <category>Public affairs</category>
+    <episode-num system="onscreen">S74 E87</episode-num>
+    <rating system="Australian Classification Board">
+      <value>G</value>
+    </rating>
+    <credits>
+      <actor>Savannah Guthrie</actor>
+      <actor>Craig Melvin</actor>
+      <actor>Al Roker</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30939383_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260101140000 +0000" stop="20260101150000 +0000" channel="2">
+    <title>Today 3rd Hour</title>
+    <desc>Exploring New Orleans; author shines light on &quot;Dumb Birds&quot; book series; descendants of WW2 bomber team honor ancestors; Clinique; healthy eats for the new year with Joy Bauer.</desc>
+    <category>Series</category>
+    <category>Talk</category>
+    <category>News</category>
+    <episode-num system="onscreen">S8 E73</episode-num>
+    <credits>
+      <actor>Craig Melvin</actor>
+      <actor>Al Roker</actor>
+      <actor>Dylan Dreyer</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30939266_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260101150000 +0000" stop="20260101160000 +0000" channel="2">
+    <title>Today With Jenna &amp; Friends</title>
+    <desc>Best of inspirational stories; Leanne Morgan co-hosts; catching up with Hoda Kotb; celebrating a high school teacher&#x27;s legacy; Sister Monica Clare talks leaving Hollywood to become a nun; behind the scenes of the Laluda Dance Club.</desc>
+    <category>Series</category>
+    <category>Talk</category>
+    <category>Newsmagazine</category>
+    <category>Entertainment</category>
+    <episode-num system="onscreen">S2 E73</episode-num>
+    <credits>
+      <actor>Jenna Bush-Hager</actor>
+      <actor>Leanne Morgan</actor>
+      <actor>Monica Clare</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p28849956_b_h8_ac.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260101160000 +0000" stop="20260101170000 +0000" channel="2">
+    <title>To Be Announced</title>
+    <desc>Programming to be announced.</desc>
+    <category>Special</category>
+    <category>Entertainment</category>
+    <rating system="Dirección General de Radio, Televisión y Cinematografía">
+      <value>B</value>
+    </rating>
+    <date>2014</date>
+    <icon src="http://dshm.tmsimg.com/assets/p514472_b_h8_ad.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260101170000 +0000" stop="20260101180000 +0000" channel="2">
+    <title>NBC News Daily</title>
+    <desc>NBC News provides viewers with the latest national and international news; consumer, health and personal finance reporting; up-to-the-minute local news.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">E255</episode-num>
+    <credits>
+      <actor>Vicky Nguyen</actor>
+      <actor>Morgan Radford</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p22712535_b_h8_ad.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260101180000 +0000" stop="20260101190000 +0000" channel="2">
+    <title>NBC News Daily</title>
+    <desc>NBC News provides viewers with the latest national and international news; consumer, health and personal finance reporting; up-to-the-minute local news.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">E1</episode-num>
+    <credits>
+      <actor>Vicky Nguyen</actor>
+      <actor>Morgan Radford</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p22712535_b_h8_ad.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260101190000 +0000" stop="20260101220000 +0000" channel="2">
+    <title>To Be Announced</title>
+    <desc>Programming to be announced.</desc>
+    <category>Special</category>
+    <category>Entertainment</category>
+    <rating system="Dirección General de Radio, Televisión y Cinematografía">
+      <value>B</value>
+    </rating>
+    <date>2014</date>
+    <icon src="http://dshm.tmsimg.com/assets/p514472_b_h8_ad.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260101220000 +0000" stop="20260101223000 +0000" channel="2">
+    <title>1st Look</title>
+    <desc>Each episode of this travel series sees the host becoming immersed with locals to experience unique culture, authentic cuisine and amazing conversations that turn every city into an unforgettable memory, and brings the world to the viewer through the exploration of inspiring and exciting destinations across the globe. Whether it&#x27;s rediscovering a familiar road or taking the path less traveled, there is magic to be found around every corner. Every adventure starts with a &quot;1st Look.&quot;.</desc>
+    <category>Travel</category>
+    <rating system="USA Parental Rating">
+      <value>TVPG</value>
+    </rating>
+    <credits>
+      <actor>Johnny &quot;Bananas&quot; Devenanzio</actor>
+    </credits>
+    <date>2011</date>
+    <icon src="http://dshm.tmsimg.com/assets/p16039361_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260101223000 +0000" stop="20260101230000 +0000" channel="2">
+    <title>1st Look</title>
+    <desc>Each episode of this travel series sees the host becoming immersed with locals to experience unique culture, authentic cuisine and amazing conversations that turn every city into an unforgettable memory, and brings the world to the viewer through the exploration of inspiring and exciting destinations across the globe. Whether it&#x27;s rediscovering a familiar road or taking the path less traveled, there is magic to be found around every corner. Every adventure starts with a &quot;1st Look.&quot;.</desc>
+    <category>Travel</category>
+    <rating system="USA Parental Rating">
+      <value>TVPG</value>
+    </rating>
+    <credits>
+      <actor>Johnny &quot;Bananas&quot; Devenanzio</actor>
+    </credits>
+    <date>2011</date>
+    <icon src="http://dshm.tmsimg.com/assets/p16039361_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260101230000 +0000" stop="20260101233000 +0000" channel="2">
+    <title>1st Look</title>
+    <desc>Each episode of this travel series sees the host becoming immersed with locals to experience unique culture, authentic cuisine and amazing conversations that turn every city into an unforgettable memory, and brings the world to the viewer through the exploration of inspiring and exciting destinations across the globe. Whether it&#x27;s rediscovering a familiar road or taking the path less traveled, there is magic to be found around every corner. Every adventure starts with a &quot;1st Look.&quot;.</desc>
+    <category>Travel</category>
+    <rating system="USA Parental Rating">
+      <value>TVPG</value>
+    </rating>
+    <credits>
+      <actor>Johnny &quot;Bananas&quot; Devenanzio</actor>
+    </credits>
+    <date>2011</date>
+    <icon src="http://dshm.tmsimg.com/assets/p16039361_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260101233000 +0000" stop="20260102000000 +0000" channel="2">
+    <title>NBC Nightly News With Tom Llamas</title>
+    <desc>Tom Llamas anchors the latest news, going beyond the headlines to see how lives are affected by the world around them.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">S2 E1</episode-num>
+    <credits>
+      <actor>Tom Llamas</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30141511_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102000000 +0000" stop="20260102003000 +0000" channel="2">
+    <title>NBC Nightly News With Tom Llamas</title>
+    <desc>Tom Llamas anchors the latest news, going beyond the headlines to see how lives are affected by the world around them.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">S2 E1</episode-num>
+    <credits>
+      <actor>Tom Llamas</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30141511_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102003000 +0000" stop="20260102010000 +0000" channel="2">
+    <title>NBC Nightly News With Tom Llamas</title>
+    <desc>Tom Llamas anchors the latest news, going beyond the headlines to see how lives are affected by the world around them.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">S2 E1</episode-num>
+    <credits>
+      <actor>Tom Llamas</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30141511_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102010000 +0000" stop="20260102020000 +0000" channel="2">
+    <title>Law &amp; Order</title>
+    <sub-title>White Lies</sub-title>
+    <desc>A bulldog investment fund manager is murdered in the midst of a client&#x27;s big takeover; Price goes to desperate lengths to prove the suspect&#x27;s motive.</desc>
+    <category>Series</category>
+    <category>Crime drama</category>
+    <category>Mystery</category>
+    <category>Thriller</category>
+    <episode-num system="onscreen">S25 E3</episode-num>
+    <rating system="USA Parental Rating">
+      <value>TV14</value>
+    </rating>
+    <credits>
+      <director>Milena Govich</director>
+      <actor>Hugh Dancy</actor>
+      <actor>Odelya Halevi</actor>
+      <actor>Tony Goldwyn</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30834665_b_h8_af.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260102020000 +0000" stop="20260102030000 +0000" channel="2">
+    <title>Law &amp; Order: Special Victims Unit</title>
+    <sub-title>A Vicious Circle</sub-title>
+    <desc>Bruno suspects a bomb was planted to destroy DNA evidence in a rape case; Benson takes on a murder investigation connected to the bombing; Griffin experiences the frustrating setbacks of working an SVU case.</desc>
+    <category>Series</category>
+    <category>Crime drama</category>
+    <category>Drama</category>
+    <category>Action</category>
+    <category>Thriller</category>
+    <category>Mystery</category>
+    <episode-num system="onscreen">S27 E3</episode-num>
+    <rating system="USA Parental Rating">
+      <value>TV14</value>
+    </rating>
+    <credits>
+      <director>Oscar Rene Lozoya</director>
+      <actor>Mariska Hargitay</actor>
+      <actor>Ice-T</actor>
+      <actor>Kelli Giddish</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30834692_b_h8_af.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260102030000 +0000" stop="20260102040000 +0000" channel="2">
+    <title>The Hunting Party</title>
+    <sub-title>Jenna Wells</sub-title>
+    <desc>Bex and the team track the brilliant and beguiling Jenna Wells, the notorious Killer Chemist whose therapy in the Pit has made her even more dangerous and deranged.</desc>
+    <category>Series</category>
+    <category>Crime drama</category>
+    <episode-num system="onscreen">S1 E10</episode-num>
+    <rating system="USA Parental Rating">
+      <value>TV14</value>
+    </rating>
+    <credits>
+      <director>Thor Freudenthal</director>
+      <actor>Melissa Roxburgh</actor>
+      <actor>Nick Wechsler</actor>
+      <actor>Patrick Sabongui</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p28798887_b_h8_ac.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260102040000 +0000" stop="20260102043700 +0000" channel="2">
+    <title>George to the Rescue</title>
+    <desc>George Oliphant comes to the rescue of families in need of renovating their homes.</desc>
+    <category>House/garden</category>
+    <rating system="USA Parental Rating">
+      <value>TVPG</value>
+    </rating>
+    <credits>
+      <actor>George Oliphant</actor>
+    </credits>
+    <date>2010</date>
+    <icon src="http://dshm.tmsimg.com/assets/p29553512_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260102043700 +0000" stop="20260102053700 +0000" channel="2">
+    <title>Late Night With Seth Meyers</title>
+    <sub-title>Hilary Meyers; Larry Meyers; Josh Meyers</sub-title>
+    <desc>Seth&#x27;s family Hilary, Larry and Josh Meyers.</desc>
+    <category>Series</category>
+    <category>Talk</category>
+    <category>Comedy</category>
+    <category>Political News Satire &amp; Talk</category>
+    <episode-num system="onscreen">S13 E37</episode-num>
+    <rating system="USA Parental Rating">
+      <value>TV14</value>
+    </rating>
+    <credits>
+      <actor>Seth Meyers</actor>
+      <actor>Hilary Meyers</actor>
+      <actor>Larry Meyers</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p10409716_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260102053700 +0000" stop="20260102063700 +0000" channel="2">
+    <title>Late Night With Seth Meyers</title>
+    <sub-title>Taylor Swift</sub-title>
+    <desc>Singer Taylor Swift.</desc>
+    <category>Series</category>
+    <category>Talk</category>
+    <category>Comedy</category>
+    <category>Political News Satire &amp; Talk</category>
+    <episode-num system="onscreen">S13 E11</episode-num>
+    <rating system="USA Parental Rating">
+      <value>TV14</value>
+    </rating>
+    <credits>
+      <actor>Seth Meyers</actor>
+      <actor>Taylor Swift</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p10409716_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260102063700 +0000" stop="20260102071200 +0000" channel="2">
+    <title>NBC Nightly News With Tom Llamas</title>
+    <desc>Tom Llamas anchors the latest news, going beyond the headlines to see how lives are affected by the world around them.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">S2 E1</episode-num>
+    <credits>
+      <actor>Tom Llamas</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30141511_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260102071200 +0000" stop="20260102080000 +0000" channel="2">
+    <title>Top Stories of 2025</title>
+    <desc>Tom Llamas counts down the top stories, people, and trends that defined 2025, including President Trump&#x27;s tariffs, the assassination of Charlie Kirk and the election of Pope Leo XIV.</desc>
+    <category>Special</category>
+    <category>News</category>
+    <category>Documentary</category>
+    <credits>
+      <actor>Tom Llamas</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p31819229_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102080000 +0000" stop="20260102083000 +0000" channel="2">
+    <title>Early Today</title>
+    <desc>This early-morning news covers overnight events, breaking domestic and international news as well as a preview of the day&#x27;s anticipated events. The program also presents regular reports from the worlds of business, entertainment and sports.</desc>
+    <category>News</category>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <date>1999</date>
+    <icon src="http://dshm.tmsimg.com/assets/p185301_b_h8_ag.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102083000 +0000" stop="20260102090000 +0000" channel="2">
+    <title>Early Today</title>
+    <desc>This early-morning news covers overnight events, breaking domestic and international news as well as a preview of the day&#x27;s anticipated events. The program also presents regular reports from the worlds of business, entertainment and sports.</desc>
+    <category>News</category>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <date>1999</date>
+    <icon src="http://dshm.tmsimg.com/assets/p185301_b_h8_ag.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102090000 +0000" stop="20260102093000 +0000" channel="2">
+    <title>Early Today</title>
+    <desc>This early-morning news covers overnight events, breaking domestic and international news as well as a preview of the day&#x27;s anticipated events. The program also presents regular reports from the worlds of business, entertainment and sports.</desc>
+    <category>News</category>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <date>1999</date>
+    <icon src="http://dshm.tmsimg.com/assets/p185301_b_h8_ag.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102093000 +0000" stop="20260102100000 +0000" channel="2">
+    <title>Early Today</title>
+    <desc>This early-morning news covers overnight events, breaking domestic and international news as well as a preview of the day&#x27;s anticipated events. The program also presents regular reports from the worlds of business, entertainment and sports.</desc>
+    <category>News</category>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <date>1999</date>
+    <icon src="http://dshm.tmsimg.com/assets/p185301_b_h8_ag.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102100000 +0000" stop="20260102103000 +0000" channel="2">
+    <title>Early Today</title>
+    <desc>This early-morning news covers overnight events, breaking domestic and international news as well as a preview of the day&#x27;s anticipated events. The program also presents regular reports from the worlds of business, entertainment and sports.</desc>
+    <category>News</category>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <date>1999</date>
+    <icon src="http://dshm.tmsimg.com/assets/p185301_b_h8_ag.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102103000 +0000" stop="20260102110000 +0000" channel="2">
+    <title>Early Today</title>
+    <desc>This early-morning news covers overnight events, breaking domestic and international news as well as a preview of the day&#x27;s anticipated events. The program also presents regular reports from the worlds of business, entertainment and sports.</desc>
+    <category>News</category>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <date>1999</date>
+    <icon src="http://dshm.tmsimg.com/assets/p185301_b_h8_ag.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102110000 +0000" stop="20260102113000 +0000" channel="2">
+    <title>Early Today</title>
+    <desc>This early-morning news covers overnight events, breaking domestic and international news as well as a preview of the day&#x27;s anticipated events. The program also presents regular reports from the worlds of business, entertainment and sports.</desc>
+    <category>News</category>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <date>1999</date>
+    <icon src="http://dshm.tmsimg.com/assets/p185301_b_h8_ag.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102113000 +0000" stop="20260102120000 +0000" channel="2">
+    <title>Early Today</title>
+    <desc>This early-morning news covers overnight events, breaking domestic and international news as well as a preview of the day&#x27;s anticipated events. The program also presents regular reports from the worlds of business, entertainment and sports.</desc>
+    <category>News</category>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <date>1999</date>
+    <icon src="http://dshm.tmsimg.com/assets/p185301_b_h8_ag.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102120000 +0000" stop="20260102140000 +0000" channel="2">
+    <title>Today</title>
+    <desc>American communities kick off celebrations for the nation&#x27;s 250th birthday; real estate with Christine Romans; keeping resolutions with Daniel Pink; USA hockey team reveal; author Harlan Coben; best places to travel in 2026 with Megan Spurrell.</desc>
+    <category>Series</category>
+    <category>Talk</category>
+    <category>News</category>
+    <category>Public affairs</category>
+    <episode-num system="onscreen">S74 E88</episode-num>
+    <rating system="Australian Classification Board">
+      <value>G</value>
+    </rating>
+    <credits>
+      <actor>Savannah Guthrie</actor>
+      <actor>Craig Melvin</actor>
+      <actor>Al Roker</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30939383_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102140000 +0000" stop="20260102150000 +0000" channel="2">
+    <title>Today 3rd Hour</title>
+    <desc>Exploring Tulsa; Craig learns to be the Sunday Night Football timeout coordinator; Anne Frank The Exhibition; former teacher builds real life &quot;Magic School Bus&quot;; parallel parking championships.</desc>
+    <category>Series</category>
+    <category>Talk</category>
+    <category>News</category>
+    <episode-num system="onscreen">S8 E74</episode-num>
+    <credits>
+      <actor>Craig Melvin</actor>
+      <actor>Al Roker</actor>
+      <actor>Dylan Dreyer</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30939266_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102150000 +0000" stop="20260102160000 +0000" channel="2">
+    <title>Today With Jenna &amp; Friends</title>
+    <desc>Best of fashion and beauty; Bobbie Thomas co-hosts; catching up with Michelle Obama; catching up with Naomi Watts; Toupee Queen makeovers; fashion face-off with Tessa Thompson; TikTok Made Us Try It.</desc>
+    <category>Series</category>
+    <category>Talk</category>
+    <category>Newsmagazine</category>
+    <category>Entertainment</category>
+    <episode-num system="onscreen">S2 E74</episode-num>
+    <credits>
+      <actor>Jenna Bush-Hager</actor>
+      <actor>Bobbie Thomas</actor>
+      <actor>Michelle Obama</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p28849956_b_h8_ac.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102160000 +0000" stop="20260102170000 +0000" channel="2">
+    <title>Today With Jenna &amp; Friends</title>
+    <desc>Best of fashion and beauty; Bobbie Thomas co-hosts; catching up with Michelle Obama; catching up with Naomi Watts; Toupee Queen makeovers; fashion face-off with Tessa Thompson; TikTok Made Us Try It.</desc>
+    <category>Series</category>
+    <category>Talk</category>
+    <category>Newsmagazine</category>
+    <category>Entertainment</category>
+    <episode-num system="onscreen">S2 E74</episode-num>
+    <credits>
+      <actor>Jenna Bush-Hager</actor>
+      <actor>Bobbie Thomas</actor>
+      <actor>Michelle Obama</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p28849956_b_h8_ac.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102170000 +0000" stop="20260102180000 +0000" channel="2">
+    <title>NBC News Daily</title>
+    <desc>NBC News provides viewers with the latest national and international news; consumer, health and personal finance reporting; up-to-the-minute local news.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">E2</episode-num>
+    <credits>
+      <actor>Vicky Nguyen</actor>
+      <actor>Morgan Radford</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p22712535_b_h8_ad.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102180000 +0000" stop="20260102190000 +0000" channel="2">
+    <title>NBC News Daily</title>
+    <desc>NBC News provides viewers with the latest national and international news; consumer, health and personal finance reporting; up-to-the-minute local news.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">E2</episode-num>
+    <credits>
+      <actor>Vicky Nguyen</actor>
+      <actor>Morgan Radford</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p22712535_b_h8_ad.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102190000 +0000" stop="20260102200000 +0000" channel="2">
+    <title>NBC News Daily</title>
+    <desc>NBC News provides viewers with the latest national and international news; consumer, health and personal finance reporting; up-to-the-minute local news.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">E2</episode-num>
+    <credits>
+      <actor>Vicky Nguyen</actor>
+      <actor>Morgan Radford</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p22712535_b_h8_ad.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102200000 +0000" stop="20260102210000 +0000" channel="2">
+    <title>NBC News Daily</title>
+    <desc>NBC News provides viewers with the latest national and international news; consumer, health and personal finance reporting; up-to-the-minute local news.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">E2</episode-num>
+    <credits>
+      <actor>Vicky Nguyen</actor>
+      <actor>Morgan Radford</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p22712535_b_h8_ad.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102210000 +0000" stop="20260102220000 +0000" channel="2">
+    <title>NBC News Daily</title>
+    <desc>NBC News provides viewers with the latest national and international news; consumer, health and personal finance reporting; up-to-the-minute local news.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">E2</episode-num>
+    <credits>
+      <actor>Vicky Nguyen</actor>
+      <actor>Morgan Radford</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p22712535_b_h8_ad.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260102220000 +0000" stop="20260102223000 +0000" channel="2">
+    <title>1st Look</title>
+    <desc>Each episode of this travel series sees the host becoming immersed with locals to experience unique culture, authentic cuisine and amazing conversations that turn every city into an unforgettable memory, and brings the world to the viewer through the exploration of inspiring and exciting destinations across the globe. Whether it&#x27;s rediscovering a familiar road or taking the path less traveled, there is magic to be found around every corner. Every adventure starts with a &quot;1st Look.&quot;.</desc>
+    <category>Travel</category>
+    <rating system="USA Parental Rating">
+      <value>TVPG</value>
+    </rating>
+    <credits>
+      <actor>Johnny &quot;Bananas&quot; Devenanzio</actor>
+    </credits>
+    <date>2011</date>
+    <icon src="http://dshm.tmsimg.com/assets/p16039361_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260102223000 +0000" stop="20260102230000 +0000" channel="2">
+    <title>1st Look</title>
+    <desc>Each episode of this travel series sees the host becoming immersed with locals to experience unique culture, authentic cuisine and amazing conversations that turn every city into an unforgettable memory, and brings the world to the viewer through the exploration of inspiring and exciting destinations across the globe. Whether it&#x27;s rediscovering a familiar road or taking the path less traveled, there is magic to be found around every corner. Every adventure starts with a &quot;1st Look.&quot;.</desc>
+    <category>Travel</category>
+    <rating system="USA Parental Rating">
+      <value>TVPG</value>
+    </rating>
+    <credits>
+      <actor>Johnny &quot;Bananas&quot; Devenanzio</actor>
+    </credits>
+    <date>2011</date>
+    <icon src="http://dshm.tmsimg.com/assets/p16039361_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260102230000 +0000" stop="20260102233000 +0000" channel="2">
+    <title>1st Look</title>
+    <desc>Each episode of this travel series sees the host becoming immersed with locals to experience unique culture, authentic cuisine and amazing conversations that turn every city into an unforgettable memory, and brings the world to the viewer through the exploration of inspiring and exciting destinations across the globe. Whether it&#x27;s rediscovering a familiar road or taking the path less traveled, there is magic to be found around every corner. Every adventure starts with a &quot;1st Look.&quot;.</desc>
+    <category>Travel</category>
+    <rating system="USA Parental Rating">
+      <value>TVPG</value>
+    </rating>
+    <credits>
+      <actor>Johnny &quot;Bananas&quot; Devenanzio</actor>
+    </credits>
+    <date>2011</date>
+    <icon src="http://dshm.tmsimg.com/assets/p16039361_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260102233000 +0000" stop="20260103000000 +0000" channel="2">
+    <title>NBC Nightly News With Tom Llamas</title>
+    <desc>Tom Llamas anchors the latest news, going beyond the headlines to see how lives are affected by the world around them.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">S2 E2</episode-num>
+    <credits>
+      <actor>Tom Llamas</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30141511_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260103000000 +0000" stop="20260103003000 +0000" channel="2">
+    <title>NBC Nightly News With Tom Llamas</title>
+    <desc>Tom Llamas anchors the latest news, going beyond the headlines to see how lives are affected by the world around them.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">S2 E2</episode-num>
+    <credits>
+      <actor>Tom Llamas</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30141511_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260103003000 +0000" stop="20260103010000 +0000" channel="2">
+    <title>NBC Nightly News With Tom Llamas</title>
+    <desc>Tom Llamas anchors the latest news, going beyond the headlines to see how lives are affected by the world around them.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">S2 E2</episode-num>
+    <credits>
+      <actor>Tom Llamas</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30141511_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260103010000 +0000" stop="20260103013000 +0000" channel="2">
+    <title>Happy&#x27;s Place</title>
+    <sub-title>I&#x27;ve Got a Secret</sub-title>
+    <desc>After Bobbie and Emmett&#x27;s big moment, Bobbie is still unsure how Emmett truly feels about her, prompting Bobbie to do the unthinkable and give Emmett a birthday gift; Gabby tries to convince Isabella to give her the family discount on Happy&#x27;s house.</desc>
+    <category>Series</category>
+    <category>Comedy</category>
+    <category>Drama</category>
+    <episode-num system="onscreen">S2 E2</episode-num>
+    <rating system="Freiwillige Selbstkontrolle der Filmwirtschaft">
+      <value>16</value>
+    </rating>
+    <credits>
+      <director>Pamela Fryman</director>
+      <actor>Reba McEntire</actor>
+      <actor>Belissa Escobedo</actor>
+      <actor>Melissa Peterman</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30959008_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260103013000 +0000" stop="20260103020100 +0000" channel="2">
+    <title>Stumble</title>
+    <sub-title>The Tell-Tale Slurp</sub-title>
+    <desc>As Courteney gets the team competition ready, she tries to find an assistant she can trust to lighten her load and help her elevate the team to the next level; in the process, she makes the discovery about who leaked the tape that got her fired.</desc>
+    <category>Series</category>
+    <category>Comedy</category>
+    <episode-num system="onscreen">S1 E6</episode-num>
+    <rating system="Canadian Parental Rating">
+      <value>14+</value>
+    </rating>
+    <credits>
+      <director>Jeff Blitz</director>
+      <actor>Jenn Lyon</actor>
+      <actor>Taran Killam</actor>
+      <actor>Ryan Pinkston</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p31428985_b_h8_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260103020100 +0000" stop="20260103040000 +0000" channel="2">
+    <title>Dateline NBC</title>
+    <sub-title>Ghosts Can&#x27;t Talk</sub-title>
+    <desc>When deadly gunfire erupts in an Austin, Texas, home in the middle of the night, detectives wonder if the homeowners&#x27; jewelry business is a possible motive; an investigation uncovers a suspect that no one saw coming.</desc>
+    <category>Series</category>
+    <category>Newsmagazine</category>
+    <category>Mystery</category>
+    <category>Crime</category>
+    <episode-num system="onscreen">S32 E23</episode-num>
+    <credits>
+      <actor>Lester Holt</actor>
+      <actor>Andrea Canning</actor>
+      <actor>Josh Mankiewicz</actor>
+    </credits>
+    <date>2024</date>
+    <icon src="http://dshm.tmsimg.com/assets/p184061_b_h8_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260103040000 +0000" stop="20260103043400 +0000" channel="2">
+    <title>George to the Rescue</title>
+    <desc>George Oliphant comes to the rescue of families in need of renovating their homes.</desc>
+    <category>House/garden</category>
+    <rating system="USA Parental Rating">
+      <value>TVPG</value>
+    </rating>
+    <credits>
+      <actor>George Oliphant</actor>
+    </credits>
+    <date>2010</date>
+    <icon src="http://dshm.tmsimg.com/assets/p29553512_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260103043400 +0000" stop="20260103053700 +0000" channel="2">
+    <title>The Tonight Show Starring Jimmy Fallon</title>
+    <sub-title>Walton Goggins; Natalia Dyer; Fran Lebowitz; Oz Pearlman</sub-title>
+    <desc>Actor Walton Goggins; actress Natalia Dyer; actress Fran Lebowitz; magician Oz Pearlman.</desc>
+    <category>Series</category>
+    <category>Talk</category>
+    <category>Comedy</category>
+    <episode-num system="onscreen">S13 E38</episode-num>
+    <rating system="USA Parental Rating">
+      <value>TV14</value>
+    </rating>
+    <credits>
+      <actor>Jimmy Fallon</actor>
+      <actor>Walton Goggins</actor>
+      <actor>Natalia Dyer</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p9898935_b_h8_ai.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260103053700 +0000" stop="20260103063700 +0000" channel="2">
+    <title>Late Night With Seth Meyers</title>
+    <sub-title>Gwyneth Paltrow; Brad Paisley</sub-title>
+    <desc>Actress Gwyneth Paltrow; singer-songwriter Brad Paisley.</desc>
+    <category>Series</category>
+    <category>Talk</category>
+    <category>Comedy</category>
+    <category>Political News Satire &amp; Talk</category>
+    <episode-num system="onscreen">S13 E42</episode-num>
+    <rating system="USA Parental Rating">
+      <value>TV14</value>
+    </rating>
+    <credits>
+      <actor>Seth Meyers</actor>
+      <actor>Gwyneth Paltrow</actor>
+      <actor>Brad Paisley</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p10409716_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260103063700 +0000" stop="20260103071200 +0000" channel="2">
+    <title>NBC Nightly News With Tom Llamas</title>
+    <desc>Tom Llamas anchors the latest news, going beyond the headlines to see how lives are affected by the world around them.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">S2 E2</episode-num>
+    <credits>
+      <actor>Tom Llamas</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30141511_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260103071200 +0000" stop="20260103080000 +0000" channel="2">
+    <title>Top Story With Tom Llamas</title>
+    <desc>Reporting of breaking news and developing stories in real time.</desc>
+    <category>News</category>
+    <credits>
+      <actor>Tom Llamas</actor>
+    </credits>
+    <date>2021</date>
+    <icon src="http://dshm.tmsimg.com/assets/p23722920_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260103080000 +0000" stop="20260103083000 +0000" channel="2">
+    <title>1st Look</title>
+    <sub-title>100 Years of Rockettes</sub-title>
+    <desc>Exploring exciting destinations across the globe; the host becomes immersed in the culture, cuisine and conversations, turning every city into an unforgettable memory.</desc>
+    <category>Series</category>
+    <category>Travel</category>
+    <episode-num system="onscreen">S17</episode-num>
+    <rating system="USA Parental Rating">
+      <value>TVPG</value>
+    </rating>
+    <credits>
+      <actor>Johnny &quot;Bananas&quot; Devenanzio</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p8953716_b_h8_ak.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260103083000 +0000" stop="20260103090000 +0000" channel="2">
+    <title>1st Look</title>
+    <sub-title>Extraordinary Abilities</sub-title>
+    <desc>People with extraordinary abilities, including a blind mechanic, an artist who blows up life-size dinosaurs, and a competitive eater.</desc>
+    <category>Series</category>
+    <category>Travel</category>
+    <episode-num system="onscreen">S12 E2</episode-num>
+    <rating system="Canadian Parental Rating">
+      <value>PG</value>
+    </rating>
+    <credits>
+      <actor>Johnny &quot;Bananas&quot; Devenanzio</actor>
+    </credits>
+    <date>2020</date>
+    <icon src="http://dshm.tmsimg.com/assets/p8953716_b_h8_ak.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260103090000 +0000" stop="20260103093000 +0000" channel="2">
+    <title>1st Look</title>
+    <sub-title>Destination Chicago</sub-title>
+    <desc>The history and the legends of Chicago; featuring White Sox&#x27;s Ozzie Guillen, Bears&#x27; legend Mike Ditka and Chicago TikTok historian S. &quot;Dilla&quot; Thomas.</desc>
+    <category>Series</category>
+    <category>Travel</category>
+    <episode-num system="onscreen">S13 E1</episode-num>
+    <rating system="Canadian Parental Rating">
+      <value>PG</value>
+    </rating>
+    <credits>
+      <actor>Johnny &quot;Bananas&quot; Devenanzio</actor>
+      <actor>Ozzie Guillen</actor>
+      <actor>Mike Ditka</actor>
+    </credits>
+    <date>2021</date>
+    <icon src="http://dshm.tmsimg.com/assets/p8953716_b_h8_ak.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260103093000 +0000" stop="20260103100000 +0000" channel="2">
+    <title>1st Look</title>
+    <sub-title>Extraordinary Abilities</sub-title>
+    <desc>People with extraordinary abilities, including a blind mechanic, an artist who blows up life-size dinosaurs, and a competitive eater.</desc>
+    <category>Series</category>
+    <category>Travel</category>
+    <episode-num system="onscreen">S12 E2</episode-num>
+    <rating system="Canadian Parental Rating">
+      <value>PG</value>
+    </rating>
+    <credits>
+      <actor>Johnny &quot;Bananas&quot; Devenanzio</actor>
+    </credits>
+    <date>2020</date>
+    <icon src="http://dshm.tmsimg.com/assets/p8953716_b_h8_ak.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260103100000 +0000" stop="20260103103000 +0000" channel="2">
+    <title>1st Look</title>
+    <sub-title>Destination Chicago</sub-title>
+    <desc>The history and the legends of Chicago; featuring White Sox&#x27;s Ozzie Guillen, Bears&#x27; legend Mike Ditka and Chicago TikTok historian S. &quot;Dilla&quot; Thomas.</desc>
+    <category>Series</category>
+    <category>Travel</category>
+    <episode-num system="onscreen">S13 E1</episode-num>
+    <rating system="Canadian Parental Rating">
+      <value>PG</value>
+    </rating>
+    <credits>
+      <actor>Johnny &quot;Bananas&quot; Devenanzio</actor>
+      <actor>Ozzie Guillen</actor>
+      <actor>Mike Ditka</actor>
+    </credits>
+    <date>2021</date>
+    <icon src="http://dshm.tmsimg.com/assets/p8953716_b_h8_ak.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260103103000 +0000" stop="20260103110000 +0000" channel="2">
+    <title>1st Look</title>
+    <desc>Each episode of this travel series sees the host becoming immersed with locals to experience unique culture, authentic cuisine and amazing conversations that turn every city into an unforgettable memory, and brings the world to the viewer through the exploration of inspiring and exciting destinations across the globe. Whether it&#x27;s rediscovering a familiar road or taking the path less traveled, there is magic to be found around every corner. Every adventure starts with a &quot;1st Look.&quot;.</desc>
+    <category>Travel</category>
+    <rating system="USA Parental Rating">
+      <value>TVPG</value>
+    </rating>
+    <credits>
+      <actor>Johnny &quot;Bananas&quot; Devenanzio</actor>
+    </credits>
+    <date>2011</date>
+    <icon src="http://dshm.tmsimg.com/assets/p16039361_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260103110000 +0000" stop="20260103113000 +0000" channel="2">
+    <title>1st Look</title>
+    <sub-title>100 Years of Rockettes</sub-title>
+    <desc>Exploring exciting destinations across the globe; the host becomes immersed in the culture, cuisine and conversations, turning every city into an unforgettable memory.</desc>
+    <category>Series</category>
+    <category>Travel</category>
+    <episode-num system="onscreen">S17</episode-num>
+    <rating system="USA Parental Rating">
+      <value>TVPG</value>
+    </rating>
+    <credits>
+      <actor>Johnny &quot;Bananas&quot; Devenanzio</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p8953716_b_h8_ak.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260103113000 +0000" stop="20260103120000 +0000" channel="2">
+    <title>1st Look</title>
+    <sub-title>Extraordinary Abilities</sub-title>
+    <desc>People with extraordinary abilities, including a blind mechanic, an artist who blows up life-size dinosaurs, and a competitive eater.</desc>
+    <category>Series</category>
+    <category>Travel</category>
+    <episode-num system="onscreen">S12 E2</episode-num>
+    <rating system="Canadian Parental Rating">
+      <value>PG</value>
+    </rating>
+    <credits>
+      <actor>Johnny &quot;Bananas&quot; Devenanzio</actor>
+    </credits>
+    <date>2020</date>
+    <icon src="http://dshm.tmsimg.com/assets/p8953716_b_h8_ak.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260103120000 +0000" stop="20260103133000 +0000" channel="2">
+    <title>Today</title>
+    <desc>News headlines, interviews, and stories intended to inform, entertain, inspire and set the agenda each morning for Americans and help viewers with their finances, health and well-being.</desc>
+    <category>Series</category>
+    <category>Talk</category>
+    <category>News</category>
+    <category>Public affairs</category>
+    <episode-num system="onscreen">S74 E89</episode-num>
+    <rating system="Australian Classification Board">
+      <value>G</value>
+    </rating>
+    <credits>
+      <actor>Savannah Guthrie</actor>
+      <actor>Craig Melvin</actor>
+      <actor>Al Roker</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30939383_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260103133000 +0000" stop="20260103140000 +0000" channel="2">
+    <title>1st Look</title>
+    <desc>Each episode of this travel series sees the host becoming immersed with locals to experience unique culture, authentic cuisine and amazing conversations that turn every city into an unforgettable memory, and brings the world to the viewer through the exploration of inspiring and exciting destinations across the globe. Whether it&#x27;s rediscovering a familiar road or taking the path less traveled, there is magic to be found around every corner. Every adventure starts with a &quot;1st Look.&quot;.</desc>
+    <category>Travel</category>
+    <rating system="USA Parental Rating">
+      <value>TVPG</value>
+    </rating>
+    <credits>
+      <actor>Johnny &quot;Bananas&quot; Devenanzio</actor>
+    </credits>
+    <date>2011</date>
+    <icon src="http://dshm.tmsimg.com/assets/p16039361_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260103140000 +0000" stop="20260103153000 +0000" channel="2">
+    <title>Today</title>
+    <desc>News headlines, interviews, and stories intended to inform, entertain, inspire and set the agenda each morning for Americans and help viewers with their finances, health and well-being.</desc>
+    <category>Series</category>
+    <category>Talk</category>
+    <category>News</category>
+    <category>Public affairs</category>
+    <episode-num system="onscreen">S74 E89</episode-num>
+    <rating system="Australian Classification Board">
+      <value>G</value>
+    </rating>
+    <credits>
+      <actor>Savannah Guthrie</actor>
+      <actor>Craig Melvin</actor>
+      <actor>Al Roker</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30939383_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260103153000 +0000" stop="20260103160000 +0000" channel="2">
+    <title>Forever Young With Dr. Pablo Prichard</title>
+    <sub-title>The Wheel of Age</sub-title>
+    <desc>Danielle Robb and Dr. Pablo Prichard introduce the Wheel of Age - a groundbreaking tool that reveals why and how fast a body is really aging; guest Sabrina Soto undergoes cutting-edge tests that uncover the hidden ages of her brain, heart and more.</desc>
+    <category>Series</category>
+    <category>Educational</category>
+    <category>Health</category>
+    <episode-num system="onscreen">S1 E1</episode-num>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <credits>
+      <actor>Danielle Robb</actor>
+      <actor>Pablo Prichard</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30941009_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260103160000 +0000" stop="20260103163000 +0000" channel="2">
+    <title>Mutual of Omaha&#x27;s Wild Kingdom Protecting the Wild</title>
+    <sub-title>Return of the Lynx</sub-title>
+    <desc>Habitat destruction and more factors have decimated the Canada lynx in the Pacific Northwest; Peter and Dr. Rae assist a native tribe and a dedicated team of wildlife biologists with an innovative program to reintroduce them back to American forests.</desc>
+    <category>Series</category>
+    <category>Documentary</category>
+    <category>Animals</category>
+    <category>Nature</category>
+    <category>Science</category>
+    <episode-num system="onscreen">S3 E4</episode-num>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <credits>
+      <actor>Peter Gros</actor>
+      <actor>Rae Wynn-Grant</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p31221399_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260103163000 +0000" stop="20260103170000 +0000" channel="2">
+    <title>Earth Odyssey With Dylan Dreyer</title>
+    <sub-title>Iberian Animal Adventures</sub-title>
+    <desc>Dylan Dreyer travels to the Iberian Peninsula, where a lynx is on the prowl, a fox goes up against an eagle and wild bunnies are making a comeback.</desc>
+    <category>Series</category>
+    <category>Educational</category>
+    <episode-num system="onscreen">S8 E2</episode-num>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <credits>
+      <actor>Dylan Dreyer</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p16357440_b_h8_ae.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260103170000 +0000" stop="20260103173000 +0000" channel="2">
+    <title>Wild Child</title>
+    <sub-title>Hottest Habitat Heroes</sub-title>
+    <desc>Sheinelle Jones explores how baby animals from camels to coyotes cope with their sizzling hot habitats.</desc>
+    <category>Series</category>
+    <category>Reality</category>
+    <category>Animals</category>
+    <category>Documentary</category>
+    <episode-num system="onscreen">S6 E6</episode-num>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <credits>
+      <actor>Sheinelle Jones</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p19191402_b_h8_an.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260103173000 +0000" stop="20260103193000 +0000" channel="2">
+    <title>Live: Premier League Soccer</title>
+    <desc>From Vitality Stadium in Bournemouth, England, United Kingdom.</desc>
+    <category>Sports</category>
+    <category>Soccer</category>
+    <icon src="http://dshm.tmsimg.com/assets/GNLZZGG002NQCJS.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260103193000 +0000" stop="20260103200000 +0000" channel="2">
+    <title>Live: Premier League Goal Zone</title>
+    <desc>The best moments from the weekend in Premier League action.</desc>
+    <category>Sports talk</category>
+    <category>Soccer</category>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <date>2013</date>
+    <icon src="http://dshm.tmsimg.com/assets/p10112820_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260103200000 +0000" stop="20260103210000 +0000" channel="2">
+    <title>IMSA Special</title>
+    <category>Special</category>
+    <category>Motorsports</category>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p31639887_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260103210000 +0000" stop="20260103230000 +0000" channel="2">
+    <title>Live: U.S. Olympic Trials</title>
+    <desc>Men&#x27;s &amp; Women&#x27;s 1000m.</desc>
+    <category>Sports</category>
+    <category>Olympics</category>
+    <category>Speed skating</category>
+    <icon src="http://dshm.tmsimg.com/assets/p9188670_b_h10_al.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260103230000 +0000" stop="20260103233000 +0000" channel="2">
+    <title>Open House</title>
+    <desc>Buying a house can be a stressful, time-consuming process, which is why people turn to shows such as &quot;Open House&quot; to get help in the real estate market. Hosts Sara Gore and George Oliphant (who also rescues homeowners&#x27; renovation projects on sister show &quot;George to the Rescue,&quot; which began as a segment of &quot;Open House&quot; before becoming a stand-alone show) showcase some of the hottest homes on the market in major cities, get interior design tips from experts and provide information on what people need to know about stylish living.</desc>
+    <category>How-to</category>
+    <category>House/garden</category>
+    <category>Home improvement</category>
+    <rating system="USA Parental Rating">
+      <value>TVPG</value>
+    </rating>
+    <credits>
+      <actor>George Oliphant</actor>
+      <actor>Sara Gore</actor>
+    </credits>
+    <date>2009</date>
+    <icon src="http://dshm.tmsimg.com/assets/p31035951_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260103233000 +0000" stop="20260104000000 +0000" channel="2">
+    <title>NBC Nightly News With Tom Llamas</title>
+    <desc>Tom Llamas anchors the latest news, going beyond the headlines to see how lives are affected by the world around them.</desc>
+    <category>Series</category>
+    <category>News</category>
+    <episode-num system="onscreen">S2 E3</episode-num>
+    <credits>
+      <actor>Tom Llamas</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30141511_b_h8_aa.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260104000000 +0000" stop="20260104003000 +0000" channel="2">
+    <title>Operation Smile</title>
+    <desc>Operation Smile: transforming lives and bringing smiles to children around the world.</desc>
+    <category>Consumer</category>
+    <icon src="http://dshm.tmsimg.com/assets/p19033352_st_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260104003000 +0000" stop="20260104010000 +0000" channel="2">
+    <title>1st Look</title>
+    <desc>Lifestyle trends in food, night life, art, travel and entertainment.</desc>
+    <category>Talk</category>
+    <category>Newsmagazine</category>
+    <category>Travel</category>
+    <category>Fashion</category>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <date>2008</date>
+    <icon src="http://dshm.tmsimg.com/assets/p419169_b_h8_az.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260104010000 +0000" stop="20260104013000 +0000" channel="2">
+    <title>The Paper</title>
+    <sub-title>Church and State</sub-title>
+    <desc>Mare uncovers a story that pits the Truth Teller against its corporate owner; Ned&#x27;s past as a high-pressure toilet paper salesman embarrasses him; Esmeralda tries to stage-mom her son into commercials; Ken participates in a cover-up.</desc>
+    <category>Series</category>
+    <category>Sitcom</category>
+    <episode-num system="onscreen">S1 E8</episode-num>
+    <rating system="UK Content Provider">
+      <value>15</value>
+    </rating>
+    <credits>
+      <actor>Oscar Nunez</actor>
+      <actor>Domhnall Gleeson</actor>
+      <actor>Sabrina Impacciatore</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30714962_b_h8_ac.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260104013000 +0000" stop="20260104020000 +0000" channel="2">
+    <title>The Paper</title>
+    <sub-title>Matching Ponchos</sub-title>
+    <desc>Ned and Mare take a long road trip to interview a possible cult leader after Detrick backs out; Ken drags Nicole into his corporate apology tour; Oscar is driven mad by a troll commenting on his pieces; Esmeralda is visited by an incubus.</desc>
+    <category>Series</category>
+    <category>Sitcom</category>
+    <category>Comedy</category>
+    <category>Comedy drama</category>
+    <category>Dark comedy</category>
+    <category>Musical comedy</category>
+    <category>Romantic comedy</category>
+    <episode-num system="onscreen">S1 E9</episode-num>
+    <rating system="UK Content Provider">
+      <value>15</value>
+    </rating>
+    <credits>
+      <actor>Oscar Nunez</actor>
+      <actor>Domhnall Gleeson</actor>
+      <actor>Sabrina Impacciatore</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30714962_b_h8_ac.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260104020000 +0000" stop="20260104023000 +0000" channel="2">
+    <title>The Paper</title>
+    <sub-title>The Ohio Journalism Awards</sub-title>
+    <desc>Ned stifles his desire to win at the Ohio Journalism Awards; Nicole uncovers Detrick&#x27;s monogamy and becomes furious; Oscar comes to terms with the documentary; Mare brings a famous date; Esmeralda sings and Ken plots an emergency to play the hero.</desc>
+    <category>Series</category>
+    <category>Sitcom</category>
+    <episode-num system="onscreen">S1 E10</episode-num>
+    <rating system="UK Content Provider">
+      <value>15</value>
+    </rating>
+    <credits>
+      <actor>Oscar Nunez</actor>
+      <actor>Domhnall Gleeson</actor>
+      <actor>Sabrina Impacciatore</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30714962_b_h8_ac.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260104023000 +0000" stop="20260104030000 +0000" channel="2">
+    <title>St. Denis Medical</title>
+    <sub-title>I Left a Woman on the Table</sub-title>
+    <desc>Matt struggles to deal with a patient from his past; Bruce tries to rekindle romance with a former flame; Joyce treats patients to cover a nursing shortage.</desc>
+    <category>Series</category>
+    <category>Sitcom</category>
+    <episode-num system="onscreen">S2 E6</episode-num>
+    <rating system="USA Parental Rating">
+      <value>TV14</value>
+    </rating>
+    <credits>
+      <director>Bill Benz</director>
+      <actor>Wendi McLendon-Covey</actor>
+      <actor>David Alan Grier</actor>
+      <actor>Allison Tolman</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p30958935_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260104030000 +0000" stop="20260104040000 +0000" channel="2">
+    <title>Saturday Night Live</title>
+    <sub-title>Timothée Chalamet; boygenius</sub-title>
+    <desc>From Nov. 11, 2023: Host Timothée Chalamet; boygenius performs.</desc>
+    <category>Series</category>
+    <category>Comedy</category>
+    <rating system="USA Parental Rating">
+      <value>TV14</value>
+    </rating>
+    <credits>
+      <actor>Michael Che</actor>
+      <actor>Mikey Day</actor>
+      <actor>Chloe Fineman</actor>
+    </credits>
+    <date>2026</date>
+    <icon src="http://dshm.tmsimg.com/assets/p183890_b_h8_at.jpg?w=960&amp;h=540" />
+    <premiere />
+  </programme>
+  <programme start="20260104040000 +0000" stop="20260104042900 +0000" channel="2">
+    <title>1st Look</title>
+    <desc>Each episode of this travel series sees the host becoming immersed with locals to experience unique culture, authentic cuisine and amazing conversations that turn every city into an unforgettable memory, and brings the world to the viewer through the exploration of inspiring and exciting destinations across the globe. Whether it&#x27;s rediscovering a familiar road or taking the path less traveled, there is magic to be found around every corner. Every adventure starts with a &quot;1st Look.&quot;.</desc>
+    <category>Travel</category>
+    <rating system="USA Parental Rating">
+      <value>TVPG</value>
+    </rating>
+    <credits>
+      <actor>Johnny &quot;Bananas&quot; Devenanzio</actor>
+    </credits>
+    <date>2011</date>
+    <icon src="http://dshm.tmsimg.com/assets/p16039361_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme start="20260104042900 +0000" stop="20260104060300 +0000" channel="2">
+    <title>Saturday Night Live</title>
+    <sub-title>Miles Teller; Brandi Carlile</sub-title>
+    <desc>Host Miles Teller; Brandi Carlile performs.</desc>
+    <category>Series</category>
+    <category>Comedy</category>
+    <episode-num system="onscreen">S51 E4</episode-num>
+    <rating system="USA Parental Rating">
+      <value>TV14</value>
+    </rating>
+    <credits>
+      <actor>Michael Che</actor>
+      <actor>Mikey Day</actor>
+      <actor>Chloe Fineman</actor>
+    </credits>
+    <date>2025</date>
+    <icon src="http://dshm.tmsimg.com/assets/p183890_b_h8_at.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+</tv>

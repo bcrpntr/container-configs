@@ -1,12 +1,7 @@
 # Exclude all data/media/cache directories
-**/cache/
-**/data/
 **/logs/
 **/tmp/
 **/.git/
-**/*.db
-**/*.db-*
-**/*.sqlite
 **/*.log
 **/node_modules/
 **/MediaCover/

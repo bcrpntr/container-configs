@@ -1,0 +1,2152 @@
+[Script Info]
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 3840
+PlayResY: 2160
+Timer: 100.0
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,sans-serif,142,&H00FFFFFF,&H00FFFFFF,&H000F0F0F,&H000F0F0F,0,0,0,0,100,100,0,0.00,1,4.73,3.94,2,20,20,20,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:45.10,0:00:47.27,Default,,0,0,0,,{\i1}My name is Happy Gilmore.{\i0}
+Dialogue: 0,0:00:48.40,0:00:51.65,Default,,0,0,0,,{\i1}Growing up, I always\Nwanted to be a hockey player.{\i0}
+Dialogue: 0,0:00:51.65,0:00:54.61,Default,,0,0,0,,{\i1}But then 30 years ago,\NI picked up a golf club.{\i0}
+Dialogue: 0,0:00:55.44,0:00:56.40,Default,,0,0,0,,[yelps]
+Dialogue: 0,0:00:57.90,0:00:59.86,Default,,0,0,0,,{\i1}Turned out to be a pretty good decision.{\i0}
+Dialogue: 0,0:00:59.85,0:01:03.85,Default,,0,0,0,,[commentator] {\i1}And Happy Gilmore wins\Nthe 98th U.S. Open.{\i0}
+Dialogue: 0,0:01:03.85,0:01:06.97,Default,,0,0,0,,[Happy] {\i1}I got to marry\Na great lady named Virginia,{\i0}
+Dialogue: 0,0:01:06.98,0:01:08.98,Default,,0,0,0,,{\i1}and we had a son named Gordy.{\i0}
+Dialogue: 0,0:01:09.73,0:01:12.27,Default,,0,0,0,,{\i1}The wins didn't always come as expected,{\i0}
+Dialogue: 0,0:01:12.27,0:01:14.23,Default,,0,0,0,,{\i1}but like Grandma always said,{\i0}
+Dialogue: 0,0:01:14.23,0:01:17.27,Default,,0,0,0,,{\i1}sometimes it's better\Nto be lucky than good.{\i0}
+Dialogue: 0,0:01:18.10,0:01:20.64,Default,,0,0,0,,- Oh, Lord!\N- [crowd cheering]
+Dialogue: 0,0:01:20.65,0:01:22.57,Default,,0,0,0,,I made it!
+Dialogue: 0,0:01:23.19,0:01:26.27,Default,,0,0,0,,{\i1}Yeah, I was getting lucky\Nin more ways than one.{\i0}
+Dialogue: 0,0:01:26.27,0:01:28.35,Default,,0,0,0,,He shoots, he scores!
+Dialogue: 0,0:01:28.35,0:01:30.43,Default,,0,0,0,,{\i1}And after our fourth boy in four years,{\i0}
+Dialogue: 0,0:01:30.44,0:01:33.27,Default,,0,0,0,,{\i1}Virginia had an idea for an endorsement.{\i0}
+Dialogue: 0,0:01:33.27,0:01:36.02,Default,,0,0,0,,{\i1}Trojan. Kids are great...{\i0}
+Dialogue: 0,0:01:36.02,0:01:37.64,Default,,0,0,0,,[kids screaming]
+Dialogue: 0,0:01:37.65,0:01:39.27,Default,,0,0,0,,{\i1}...in moderation.{\i0}
+Dialogue: 0,0:01:39.27,0:01:41.52,Default,,0,0,0,,{\i1}What are you doing? Calm down!{\i0}
+Dialogue: 0,0:01:42.15,0:01:45.11,Default,,0,0,0,,{\an8}{\i1}I tried to get the boys\Ninto competitive golf tournaments...{\i0}
+Dialogue: 0,0:01:47.35,0:01:48.35,Default,,0,0,0,,Follow that.
+Dialogue: 0,0:01:48.35,0:01:50.97,Default,,0,0,0,,[Happy] {\i1}But their hockey instincts\Nwere too strong.{\i0}
+Dialogue: 0,0:01:50.98,0:01:52.44,Default,,0,0,0,,[indistinct shouting]
+Dialogue: 0,0:01:52.44,0:01:55.31,Default,,0,0,0,,Boys, stop! Come on,\Nwhat are you doing? [groans]
+Dialogue: 0,0:01:55.31,0:01:57.35,Default,,0,0,0,,[boys shouting indistinctly]
+Dialogue: 0,0:01:57.94,0:02:01.73,Default,,0,0,0,,{\an8}[Happy] {\i1}Tiger Woods had a video game,\Nso we did a Happy Gilmore one.{\i0}
+Dialogue: 0,0:02:01.73,0:02:05.06,Default,,0,0,0,,{\an8}{\i1}But I think the computer guys\Nmade it a little too realistic.{\i0}
+Dialogue: 0,0:02:05.06,0:02:06.18,Default,,0,0,0,,{\an8}[Bob] {\i1}You've had enough.{\i0}
+Dialogue: 0,0:02:06.19,0:02:08.86,Default,,0,0,0,,{\an8}[Happy] {\i1}Anyways, the boys loved\Nhow violent it was,{\i0}
+Dialogue: 0,0:02:08.85,0:02:11.14,Default,,0,0,0,,{\i1}but it made my little girl nervous.{\i0}
+Dialogue: 0,0:02:11.15,0:02:13.94,Default,,0,0,0,,{\i1}That's right,\Nwe finally had a little girl,{\i0}
+Dialogue: 0,0:02:13.94,0:02:17.19,Default,,0,0,0,,{\i1}sweet Vienna, Mommy's new best friend.{\i0}
+Dialogue: 0,0:02:17.19,0:02:20.56,Default,,0,0,0,,{\an8}{\i1}Oh, and I hosted{\i0} Saturday Night Live\N{\i1}a few times. That was nice.{\i0}
+Dialogue: 0,0:02:20.56,0:02:22.48,Default,,0,0,0,,{\an8}{\i1}The Spice Girls are here!{\i0}
+Dialogue: 0,0:02:22.48,0:02:23.98,Default,,0,0,0,,{\i1}Maroon 5 is here!{\i0}
+Dialogue: 0,0:02:23.98,0:02:28.27,Default,,0,0,0,,{\an8}{\i1}The Weeknd is here!\NSo stick around, we'll be right back.{\i0}
+Dialogue: 0,0:02:28.27,0:02:31.39,Default,,0,0,0,,{\i1}Yeah, we had it all, so I told Virginia...{\i0}
+Dialogue: 0,0:02:31.40,0:02:35.07,Default,,0,0,0,,We should just retire\Nso we can hang out with the kids all day.
+Dialogue: 0,0:02:35.06,0:02:36.77,Default,,0,0,0,,We're not done with golf, Happy.
+Dialogue: 0,0:02:36.77,0:02:38.27,Default,,0,0,0,,And golf's not done with us.
+Dialogue: 0,0:02:38.77,0:02:42.56,Default,,0,0,0,,It's like Chubbs used to say.\NWe've only just begun.
+Dialogue: 0,0:02:42.56,0:02:43.52,Default,,0,0,0,,Hmm.
+Dialogue: 0,0:02:44.73,0:02:45.81,Default,,0,0,0,,[Bobby] Gordy!
+Dialogue: 0,0:02:45.81,0:02:48.06,Default,,0,0,0,,Oh, come on,\Ndon't pee on the slip-n-slide.
+Dialogue: 0,0:02:48.06,0:02:50.02,Default,,0,0,0,,Appreciate your time today.\NIt's Mother's Day.
+Dialogue: 0,0:02:50.02,0:02:52.10,Default,,0,0,0,,We honor all of the mothers\Nwho are watching.
+Dialogue: 0,0:02:52.10,0:02:53.60,Default,,0,0,0,,Let's go real deep now!
+Dialogue: 0,0:02:53.60,0:02:57.64,Default,,0,0,0,,{\i1}But in golf,\Neven when you're at the top of your game...{\i0}
+Dialogue: 0,0:02:57.65,0:02:59.61,Default,,0,0,0,,{\i1}you can always shank one.{\i0}
+Dialogue: 0,0:03:00.60,0:03:01.43,Default,,0,0,0,,[gasps]
+Dialogue: 0,0:03:01.44,0:03:03.56,Default,,0,0,0,,- [thuds]\N- [crowd groan]
+Dialogue: 0,0:03:03.56,0:03:04.64,Default,,0,0,0,,[softly] Uh-oh.
+Dialogue: 0,0:03:06.73,0:03:11.98,Default,,0,0,0,,{\i1}After the funeral, I decided\NI would never pick up a golf club again.{\i0}
+Dialogue: 0,0:03:12.69,0:03:15.15,Default,,0,0,0,,{\i1}I was now\Na single father of five children.{\i0}
+Dialogue: 0,0:03:16.02,0:03:18.73,Default,,0,0,0,,{\i1}There was really\Nonly one thing I could do...{\i0}
+Dialogue: 0,0:03:19.60,0:03:21.02,Default,,0,0,0,,{\i1}I'd never been a big boozer,{\i0}
+Dialogue: 0,0:03:21.02,0:03:23.31,Default,,0,0,0,,{\i1}but alcohol was the only thing\Nthat helped me{\i0}
+Dialogue: 0,0:03:23.31,0:03:26.35,Default,,0,0,0,,{\an8}{\i1}to forget what I'd done\Nto the sweetest woman I'd ever known.{\i0}
+Dialogue: 0,0:03:27.19,0:03:28.90,Default,,0,0,0,,{\an8}{\i1}-Oh, one more thing...{\i0}\N- It's no good.
+Dialogue: 0,0:03:28.90,0:03:30.90,Default,,0,0,0,,{\an8}- [Happy] {\i1}The money.\N-{\i0} [bottles clinking]
+Dialogue: 0,0:03:30.90,0:03:31.98,Default,,0,0,0,,Give me the...
+Dialogue: 0,0:03:33.77,0:03:35.73,Default,,0,0,0,,No, no, dude! Come on, man.
+Dialogue: 0,0:03:36.35,0:03:38.81,Default,,0,0,0,,[Happy] {\i1}See, Virginia always handled\Nthe finances,{\i0}
+Dialogue: 0,0:03:38.81,0:03:41.73,Default,,0,0,0,,{\i1}so without her,\Na lot of stuff fell through the cracks.{\i0}
+Dialogue: 0,0:03:41.73,0:03:43.44,Default,,0,0,0,,[man] Should I smash the window?
+Dialogue: 0,0:03:43.44,0:03:46.81,Default,,0,0,0,,[Happy] {\i1}Then I caught some guy\Ntrying to break into my Ferrari.{\i0}
+Dialogue: 0,0:03:46.81,0:03:48.64,Default,,0,0,0,,Hey, can you hold my beer?
+Dialogue: 0,0:03:48.65,0:03:50.28,Default,,0,0,0,,Yeah. [grunts]
+Dialogue: 0,0:03:51.85,0:03:54.10,Default,,0,0,0,,{\i1}The guy wasn't a thief, he was a repo man.{\i0}
+Dialogue: 0,0:03:54.10,0:03:55.35,Default,,0,0,0,,[man] Can you let me explain?
+Dialogue: 0,0:03:55.35,0:03:58.31,Default,,0,0,0,,[Happy] {\i1}Turns out I didn't know\NI had to renew the lease.{\i0}
+Dialogue: 0,0:03:58.31,0:04:01.23,Default,,0,0,0,,{\i1}The big baby sued me,\Nand I lost everything...{\i0}
+Dialogue: 0,0:04:01.94,0:04:04.73,Default,,0,0,0,,{\i1}including Grandma's house,\Nwhich was devastating.{\i0}
+Dialogue: 0,0:04:18.02,0:04:20.39,Default,,0,0,0,,{\i1}The boys had to\Nmove into an apartment together,{\i0}
+Dialogue: 0,0:04:20.40,0:04:24.15,Default,,0,0,0,,{\i1}and me and Vienna\Nfound a new place that was affordable.{\i0}
+Dialogue: 0,0:04:26.44,0:04:30.73,Default,,0,0,0,,{\i1}It's not the best neighborhood,\Nbut it's walkable to my new job.{\i0}
+Dialogue: 0,0:04:32.19,0:04:34.94,Default,,0,0,0,,[woman over PA]\N{\i1}Gary, can you pick up in section 2?{\i0}
+Dialogue: 0,0:04:34.94,0:04:38.82,Default,,0,0,0,,[music playing indistinctly over speakers]
+Dialogue: 0,0:04:41.44,0:04:44.69,Default,,0,0,0,,[gulping, sighs]
+Dialogue: 0,0:04:44.69,0:04:48.19,Default,,0,0,0,,Happy Gilmore.\NOh, my God, I'm such a massive fan.
+Dialogue: 0,0:04:48.19,0:04:50.11,Default,,0,0,0,,Okay, bro, what can I help you with?
+Dialogue: 0,0:04:50.10,0:04:52.18,Default,,0,0,0,,You ever hear of Maxi Sports Drink?
+Dialogue: 0,0:04:52.19,0:04:53.77,Default,,0,0,0,,I think that's aisle four.
+Dialogue: 0,0:04:53.77,0:04:55.94,Default,,0,0,0,,No. It's my company, I own it.
+Dialogue: 0,0:04:55.94,0:04:57.23,Default,,0,0,0,,I'm Frank Manatee.
+Dialogue: 0,0:04:57.23,0:05:00.44,Default,,0,0,0,,My real passion is this cutting-edge\Ngolf project that I've been working on.
+Dialogue: 0,0:05:01.60,0:05:04.14,Default,,0,0,0,,[sighs] I don't golf no more, brother.
+Dialogue: 0,0:05:04.15,0:05:05.57,Default,,0,0,0,,Cucumber juice in there?
+Dialogue: 0,0:05:05.56,0:05:07.02,Default,,0,0,0,,Sure.
+Dialogue: 0,0:05:07.02,0:05:09.19,Default,,0,0,0,,Anyway, I figured\Nmaybe you would start golfing again
+Dialogue: 0,0:05:09.19,0:05:11.27,Default,,0,0,0,,once you heard\Nhow huge this league was gonna be.
+Dialogue: 0,0:05:11.27,0:05:13.52,Default,,0,0,0,,I wish you luck, but I'm not interested.
+Dialogue: 0,0:05:13.52,0:05:16.19,Default,,0,0,0,,See, that's the thing.\NNobody's interested in traditional golf.
+Dialogue: 0,0:05:16.19,0:05:18.86,Default,,0,0,0,,It's a boring sport\Nplayed by boring people.
+Dialogue: 0,0:05:18.85,0:05:20.85,Default,,0,0,0,,They ain't boring, they're my friends.
+Dialogue: 0,0:05:20.85,0:05:23.47,Default,,0,0,0,,You don't understand.\NYou inspired this thing, all right?
+Dialogue: 0,0:05:23.48,0:05:25.77,Default,,0,0,0,,And I love you,\Nand I'd hate to see you pass this up
+Dialogue: 0,0:05:25.77,0:05:28.56,Default,,0,0,0,,and have your life turn out\Nworse than it already is.
+Dialogue: 0,0:05:29.15,0:05:31.40,Default,,0,0,0,,I get it. Golf makes you tense, right?
+Dialogue: 0,0:05:31.40,0:05:32.82,Default,,0,0,0,,Because the whole wife thing?
+Dialogue: 0,0:05:32.81,0:05:35.18,Default,,0,0,0,,Get your skunk breath\Nout of my face, or I swear to God--
+Dialogue: 0,0:05:35.19,0:05:37.81,Default,,0,0,0,,Or what, tough guy?\NYou're not gonna do a damn thing about it,
+Dialogue: 0,0:05:37.81,0:05:41.48,Default,,0,0,0,,because if you lay one finger on me,\Nyou're going right to jail.
+Dialogue: 0,0:05:41.48,0:05:43.19,Default,,0,0,0,,That's if I get caught.
+Dialogue: 0,0:05:44.98,0:05:45.94,Default,,0,0,0,,[Linda] {\i1}Operations.{\i0}
+Dialogue: 0,0:05:45.94,0:05:50.32,Default,,0,0,0,,Hey, Linda, can you turn\Nthe security cameras off for 90 seconds?
+Dialogue: 0,0:05:51.19,0:05:52.73,Default,,0,0,0,,[indistinct muffled shouting]
+Dialogue: 0,0:05:52.73,0:05:55.65,Default,,0,0,0,,[muffled screaming]
+Dialogue: 0,0:05:59.98,0:06:05.65,Default,,0,0,0,,Seven, eight. Fouetté, fouetté. Finish.
+Dialogue: 0,0:06:06.19,0:06:10.23,Default,,0,0,0,,Great. Arms, fifth. Soutenu.
+Dialogue: 0,0:06:11.56,0:06:13.77,Default,,0,0,0,,Fouetté, fouetté.
+Dialogue: 0,0:06:14.85,0:06:16.64,Default,,0,0,0,,Arms, fifth.
+Dialogue: 0,0:06:17.56,0:06:21.77,Default,,0,0,0,,Soutenu. Chaîné, chaîné.
+Dialogue: 0,0:06:21.77,0:06:23.98,Default,,0,0,0,,And arabesque.
+Dialogue: 0,0:06:25.44,0:06:26.52,Default,,0,0,0,,Look at that.
+Dialogue: 0,0:06:27.23,0:06:28.27,Default,,0,0,0,,- Daddy!\N- [chuckles]
+Dialogue: 0,0:06:28.27,0:06:29.85,Default,,0,0,0,,[Happy] Hey, Vienna.
+Dialogue: 0,0:06:30.90,0:06:34.69,Default,,0,0,0,,Oh, with the kicks!\NHey. The Rockettes are here.
+Dialogue: 0,0:06:35.94,0:06:37.27,Default,,0,0,0,,[Vienna] Glad you're home.
+Dialogue: 0,0:06:37.27,0:06:39.44,Default,,0,0,0,,You were a clue on {\i1}Jeopardy!{\i0}\NLet me show you.
+Dialogue: 0,0:06:39.44,0:06:40.81,Default,,0,0,0,,Really?
+Dialogue: 0,0:06:40.81,0:06:42.56,Default,,0,0,0,,Okay. Hi.
+Dialogue: 0,0:06:42.56,0:06:43.56,Default,,0,0,0,,Hi.
+Dialogue: 0,0:06:43.56,0:06:45.27,Default,,0,0,0,,How'd my girl do today?
+Dialogue: 0,0:06:45.27,0:06:48.94,Default,,0,0,0,,Great. Beyond great.\NShe needs a better teacher than me.
+Dialogue: 0,0:06:48.94,0:06:50.11,Default,,0,0,0,,- Look.\N- [Happy] Yeah.
+Dialogue: 0,0:06:50.10,0:06:52.77,Default,,0,0,0,,[Ken] {\i1}With his amazing long drives\Nand hockey player's temper,{\i0}
+Dialogue: 0,0:06:52.77,0:06:58.02,Default,,0,0,0,,{\an8}{\i1}this golfer won the first of his six\NTour Championships in 1996. Carter?{\i0}
+Dialogue: 0,0:06:58.02,0:06:59.39,Default,,0,0,0,,{\an8}Who is Happy Goldberg?
+Dialogue: 0,0:06:59.40,0:07:01.19,Default,,0,0,0,,{\an8}[Ken] Sorry, no. Ling.
+Dialogue: 0,0:07:01.19,0:07:02.90,Default,,0,0,0,,{\an8}Who is Happy Gudenstein?
+Dialogue: 0,0:07:02.90,0:07:04.82,Default,,0,0,0,,{\an8}[Ken] Nope. Jana.
+Dialogue: 0,0:07:04.81,0:07:07.48,Default,,0,0,0,,{\an8}Who is Skippy Goldenbaum?
+Dialogue: 0,0:07:07.48,0:07:09.31,Default,,0,0,0,,{\an8}- [buzzer sounds]\N- That is incorrect.
+Dialogue: 0,0:07:09.31,0:07:12.48,Default,,0,0,0,,He is Jewish,\Nbut we were looking for Happy Gilmore.
+Dialogue: 0,0:07:12.48,0:07:13.90,Default,,0,0,0,,At least he knew it.
+Dialogue: 0,0:07:13.90,0:07:15.77,Default,,0,0,0,,I'm making your grandma's\Nbrisket for dinner.
+Dialogue: 0,0:07:15.77,0:07:16.85,Default,,0,0,0,,The boys are coming.
+Dialogue: 0,0:07:16.85,0:07:18.85,Default,,0,0,0,,Okay, good. Good, I can't wait.
+Dialogue: 0,0:07:19.56,0:07:22.18,Default,,0,0,0,,What do you mean, a better teacher?\NAre you quitting?
+Dialogue: 0,0:07:22.19,0:07:24.40,Default,,0,0,0,,No, but I work at the Boys and Girls Club.
+Dialogue: 0,0:07:24.40,0:07:26.69,Default,,0,0,0,,She's light years\Nbeyond anyone else I ever taught.
+Dialogue: 0,0:07:26.69,0:07:28.56,Default,,0,0,0,,So what? Where should she go?
+Dialogue: 0,0:07:28.56,0:07:31.10,Default,,0,0,0,,The Paris Opera Ballet School.
+Dialogue: 0,0:07:31.10,0:07:33.06,Default,,0,0,0,,Where's that? Around here?
+Dialogue: 0,0:07:33.06,0:07:35.23,Default,,0,0,0,,- It's in Paris.\N- [sighs]
+Dialogue: 0,0:07:35.98,0:07:38.10,Default,,0,0,0,,They only have four slots open each year.
+Dialogue: 0,0:07:38.10,0:07:39.97,Default,,0,0,0,,I sent them the videos of Vienna,
+Dialogue: 0,0:07:39.98,0:07:41.94,Default,,0,0,0,,and they're saving\None of the slots for her.
+Dialogue: 0,0:07:41.94,0:07:43.32,Default,,0,0,0,,Is it free?
+Dialogue: 0,0:07:44.81,0:07:46.14,Default,,0,0,0,,How much is it?
+Dialogue: 0,0:07:47.06,0:07:48.89,Default,,0,0,0,,$75,000 a year.
+Dialogue: 0,0:07:52.44,0:07:55.36,Default,,0,0,0,,I marinated the brisket in ketchup all day\Nlike you said Grandma used to.
+Dialogue: 0,0:07:55.35,0:07:56.77,Default,,0,0,0,,Absolutely incredible.
+Dialogue: 0,0:07:56.77,0:07:57.94,Default,,0,0,0,,You crushed it, Vivi.
+Dialogue: 0,0:07:57.94,0:08:00.11,Default,,0,0,0,,Vienna, you're gonna\Nhave to make more. I'm starving.
+Dialogue: 0,0:08:00.10,0:08:01.31,Default,,0,0,0,,Easy, Bobby. Make your own.
+Dialogue: 0,0:08:01.31,0:08:03.93,Default,,0,0,0,,- Terry, how about I make you cry?\N- Are you freaking kidding?
+Dialogue: 0,0:08:03.94,0:08:06.19,Default,,0,0,0,,- Yeah! Strangle him! Use it!\N- [clamoring]
+Dialogue: 0,0:08:06.19,0:08:08.15,Default,,0,0,0,,Put the fork down! Not the fork.
+Dialogue: 0,0:08:08.15,0:08:10.52,Default,,0,0,0,,We fight in the basement,\Nnot at the table.
+Dialogue: 0,0:08:10.52,0:08:12.02,Default,,0,0,0,,- Sorry, Daddy.\N- Sorry.
+Dialogue: 0,0:08:12.02,0:08:13.27,Default,,0,0,0,,It's all right.
+Dialogue: 0,0:08:14.19,0:08:15.69,Default,,0,0,0,,How's work going, boys?
+Dialogue: 0,0:08:15.69,0:08:18.02,Default,,0,0,0,,I gotta say, Pop,\NI'm loving the road crew.
+Dialogue: 0,0:08:18.02,0:08:19.94,Default,,0,0,0,,[all laughing]
+Dialogue: 0,0:08:19.94,0:08:21.65,Default,,0,0,0,,I'm killing it at the car wash.
+Dialogue: 0,0:08:21.65,0:08:23.48,Default,,0,0,0,,[all laughing]
+Dialogue: 0,0:08:23.48,0:08:25.98,Default,,0,0,0,,I'm going for Employee of the Month\Nat the drugstore.
+Dialogue: 0,0:08:25.98,0:08:28.31,Default,,0,0,0,,[laughing] Whoop, whoop, whoop.
+Dialogue: 0,0:08:28.31,0:08:30.35,Default,,0,0,0,,I've been keeping the sky safe\Nat the airport.
+Dialogue: 0,0:08:30.35,0:08:33.27,Default,,0,0,0,,- [all laughing]\N- [loud thud]
+Dialogue: 0,0:08:34.94,0:08:35.86,Default,,0,0,0,,Dude!
+Dialogue: 0,0:08:35.85,0:08:39.47,Default,,0,0,0,,You guys wouldn't have to be working\Nif I didn't lose all our money.
+Dialogue: 0,0:08:39.48,0:08:41.85,Default,,0,0,0,,- We don't need no money.\N- Money's for snobs.
+Dialogue: 0,0:08:41.85,0:08:44.77,Default,,0,0,0,,Everybody needs money\Nto chase their dreams.
+Dialogue: 0,0:08:45.31,0:08:47.06,Default,,0,0,0,,You guys didn't even go to college
+Dialogue: 0,0:08:47.06,0:08:50.23,Default,,0,0,0,,because you thought you had to\Nstick around here and keep an eye on me.
+Dialogue: 0,0:08:50.23,0:08:51.60,Default,,0,0,0,,What are you talking about?
+Dialogue: 0,0:08:51.60,0:08:54.31,Default,,0,0,0,,- ...we got brisket, we got hockey here.\N- ...we got food.
+Dialogue: 0,0:08:54.31,0:08:57.64,Default,,0,0,0,,I'm just psyched you thought\Nany of us could get into college.
+Dialogue: 0,0:08:57.65,0:08:59.11,Default,,0,0,0,,[Terry] He's not going to college.
+Dialogue: 0,0:08:59.10,0:09:00.89,Default,,0,0,0,,[Bobby] That's what he was talking about.
+Dialogue: 0,0:09:00.90,0:09:02.77,Default,,0,0,0,,It's a turn of phrase. Not saying--
+Dialogue: 0,0:09:02.77,0:09:04.69,Default,,0,0,0,,Turn of phrase? You just said--
+Dialogue: 0,0:09:04.69,0:09:05.81,Default,,0,0,0,,[Gordy] Say your phrase.
+Dialogue: 0,0:09:05.81,0:09:06.93,Default,,0,0,0,,[Bobby] It makes no sense.
+Dialogue: 0,0:09:06.94,0:09:08.19,Default,,0,0,0,,[Gordy] I know what it means.
+Dialogue: 0,0:09:08.19,0:09:11.40,Default,,0,0,0,,You turn and you look at somebody\Nand you say some-- [laughs]
+Dialogue: 0,0:09:11.40,0:09:15.44,Default,,0,0,0,,{\i1}♪ Here, it's never ending\NCan't remember when it started ♪{\i0}
+Dialogue: 0,0:09:15.44,0:09:20.56,Default,,0,0,0,,{\i1}♪ Pass around the lampshade\NThere'll be plenty enough room in jail ♪{\i0}
+Dialogue: 0,0:09:20.56,0:09:23.81,Default,,0,0,0,,[indistinct chatter]
+Dialogue: 0,0:09:23.81,0:09:27.60,Default,,0,0,0,,{\i1}♪ If being wrong's a crime\NI'm serving forever ♪{\i0}
+Dialogue: 0,0:09:27.60,0:09:31.14,Default,,0,0,0,,{\i1}♪ If being strong's your kind\NI need help... ♪{\i0}
+Dialogue: 0,0:09:31.15,0:09:33.19,Default,,0,0,0,,I'm telling you now,\NI'm getting the waterbed.
+Dialogue: 0,0:09:33.19,0:09:35.31,Default,,0,0,0,,What are you talking about?\NI shottied the waterbed.
+Dialogue: 0,0:09:35.31,0:09:37.48,Default,,0,0,0,,- [Gordy] Enough out of you.\N- [Bobby] What?
+Dialogue: 0,0:09:37.48,0:09:39.73,Default,,0,0,0,,[Terry] You're on the floor.\NYou popped the waterbed.
+Dialogue: 0,0:09:39.73,0:09:41.90,Default,,0,0,0,,- Come on, let's go.\N- [Happy] All right.
+Dialogue: 0,0:09:41.90,0:09:44.94,Default,,0,0,0,,- [Vienna] Night, guys. Love you.\N- [Happy] Thanks for coming.
+Dialogue: 0,0:09:45.73,0:09:46.81,Default,,0,0,0,,Call me when you get there.
+Dialogue: 0,0:09:47.90,0:09:49.98,Default,,0,0,0,,Wait a minute. How are there four of you?
+Dialogue: 0,0:09:49.98,0:09:54.06,Default,,0,0,0,,Wait a minute. Who's steering?\NGordy, don't steer with your feet.
+Dialogue: 0,0:09:54.06,0:09:55.77,Default,,0,0,0,,Chips off the old block, huh?
+Dialogue: 0,0:09:55.77,0:09:57.06,Default,,0,0,0,,[Vienna] Hey, Uncle John Daly.
+Dialogue: 0,0:09:57.06,0:09:58.27,Default,,0,0,0,,Hey, Vienna, Happy.
+Dialogue: 0,0:09:58.27,0:09:59.27,Default,,0,0,0,,Hey, pal.
+Dialogue: 0,0:09:59.27,0:10:02.35,Default,,0,0,0,,I'm almost out of here.\NI just put a down payment on a tent.
+Dialogue: 0,0:10:02.35,0:10:04.52,Default,,0,0,0,,Will you stop? I don't want you to leave.
+Dialogue: 0,0:10:04.52,0:10:06.02,Default,,0,0,0,,Stay as long as you need to.
+Dialogue: 0,0:10:06.02,0:10:08.81,Default,,0,0,0,,I appreciate you.\NYou want to come watch {\i1}Love Island?{\i0}
+Dialogue: 0,0:10:08.81,0:10:12.02,Default,,0,0,0,,I do, but I'm going to have\Na couple of nightcaps
+Dialogue: 0,0:10:12.02,0:10:13.94,Default,,0,0,0,,and get some rest for work tomorrow.
+Dialogue: 0,0:10:13.94,0:10:15.40,Default,,0,0,0,,Make that scratch, dog.
+Dialogue: 0,0:10:15.40,0:10:17.69,Default,,0,0,0,,Absolutely. Good night, my brother.
+Dialogue: 0,0:10:17.69,0:10:19.23,Default,,0,0,0,,Night, night. Love you.
+Dialogue: 0,0:10:19.23,0:10:20.23,Default,,0,0,0,,[Happy] Love you.
+Dialogue: 0,0:10:20.81,0:10:22.93,Default,,0,0,0,,Oh, my God. I hope he marries her.
+Dialogue: 0,0:10:22.94,0:10:25.19,Default,,0,0,0,,[woman on TV] {\i1}She going for it.{\i0}
+Dialogue: 0,0:10:28.15,0:10:29.98,Default,,0,0,0,,I should be putting you to bed.
+Dialogue: 0,0:10:30.77,0:10:31.81,Default,,0,0,0,,[grunts]
+Dialogue: 0,0:10:33.81,0:10:36.89,Default,,0,0,0,,Look, Dad, I know Miss Simon\Ntalked to you about dance school,
+Dialogue: 0,0:10:36.90,0:10:38.19,Default,,0,0,0,,but don't even think about it.
+Dialogue: 0,0:10:38.81,0:10:41.77,Default,,0,0,0,,When I was a teenager,\NI wanted to be on the Bruins.
+Dialogue: 0,0:10:41.77,0:10:43.64,Default,,0,0,0,,This is your Bruins.
+Dialogue: 0,0:10:43.65,0:10:47.36,Default,,0,0,0,,Except you know how to dance\Nand I didn't know how to skate.
+Dialogue: 0,0:10:47.35,0:10:50.47,Default,,0,0,0,,Did you know Mama was a great dancer?
+Dialogue: 0,0:10:50.48,0:10:51.73,Default,,0,0,0,,[Vienna] Yeah, she was.
+Dialogue: 0,0:10:52.31,0:10:53.77,Default,,0,0,0,,Get some sleep, Dad.
+Dialogue: 0,0:10:55.44,0:10:57.94,Default,,0,0,0,,[Happy] Yeah, she was something else.
+Dialogue: 0,0:10:58.90,0:11:00.19,Default,,0,0,0,,[Vienna] Good night, Dad.
+Dialogue: 0,0:11:00.19,0:11:02.11,Default,,0,0,0,,Good night, Virginia.
+Dialogue: 0,0:11:11.10,0:11:14.39,Default,,0,0,0,,I can't believe that me in cheap lingerie
+Dialogue: 0,0:11:14.40,0:11:18.36,Default,,0,0,0,,carrying two pitchers of Moosehead\Nwas your "happy place."
+Dialogue: 0,0:11:19.35,0:11:20.85,Default,,0,0,0,,I'm sorry, Virginia.
+Dialogue: 0,0:11:20.85,0:11:24.27,Default,,0,0,0,,Oh, sweetie, don't worry.\NI'm not here to judge your fantasies.
+Dialogue: 0,0:11:24.27,0:11:28.10,Default,,0,0,0,,No, not that. I'm sorry about...
+Dialogue: 0,0:11:28.10,0:11:29.85,Default,,0,0,0,,Killing me with a tee shot?
+Dialogue: 0,0:11:31.23,0:11:32.31,Default,,0,0,0,,Come on.
+Dialogue: 0,0:11:33.02,0:11:35.31,Default,,0,0,0,,You've apologized for that\Na thousand times.
+Dialogue: 0,0:11:36.27,0:11:39.48,Default,,0,0,0,,Look, Happy, I know you're worried\Nabout the kids' futures,
+Dialogue: 0,0:11:40.35,0:11:43.27,Default,,0,0,0,,but you've got to show them by example.
+Dialogue: 0,0:11:44.06,0:11:46.39,Default,,0,0,0,,Let them see\Nthe Happy I fell in love with.
+Dialogue: 0,0:11:46.40,0:11:48.98,Default,,0,0,0,,- I'm not that man anymore.\N- Mmm.
+Dialogue: 0,0:11:51.52,0:11:53.19,Default,,0,0,0,,Okay. No, no, no.
+Dialogue: 0,0:11:53.19,0:11:55.11,Default,,0,0,0,,- Please.\N- No, no.
+Dialogue: 0,0:11:55.10,0:11:57.89,Default,,0,0,0,,Can you just hold on to that\Nfor a second, sweetie?
+Dialogue: 0,0:11:57.90,0:12:02.98,Default,,0,0,0,,Honey, you'll always be the greatest,\Nbut you need some purpose.
+Dialogue: 0,0:12:03.85,0:12:05.64,Default,,0,0,0,,So I'm gonna tell you\Nwhat I always told you.
+Dialogue: 0,0:12:05.65,0:12:06.90,Default,,0,0,0,,Okay.
+Dialogue: 0,0:12:08.10,0:12:10.10,Default,,0,0,0,,You're not a hockey player, Happy.
+Dialogue: 0,0:12:11.44,0:12:13.02,Default,,0,0,0,,You are a--
+Dialogue: 0,0:12:56.44,0:12:58.77,Default,,0,0,0,,Hey, where you going\Nwith those clubs, punk?
+Dialogue: 0,0:12:58.77,0:13:00.48,Default,,0,0,0,,Mr. Gilmore, I'm your caddie.
+Dialogue: 0,0:13:00.48,0:13:02.06,Default,,0,0,0,,Oh, I'm sorry about that.
+Dialogue: 0,0:13:02.06,0:13:03.31,Default,,0,0,0,,No, let me carry these.
+Dialogue: 0,0:13:03.31,0:13:05.31,Default,,0,0,0,,They're my grandfather's. They're old.
+Dialogue: 0,0:13:11.48,0:13:14.36,Default,,0,0,0,,[hopeful music plays]
+Dialogue: 0,0:13:20.69,0:13:23.11,Default,,0,0,0,,[music intensifies]
+Dialogue: 0,0:13:27.77,0:13:28.85,Default,,0,0,0,,[music stops]
+Dialogue: 0,0:13:32.31,0:13:33.60,Default,,0,0,0,,You gonna hit that?
+Dialogue: 0,0:13:36.98,0:13:38.98,Default,,0,0,0,,I don't know if I can, Johnny.
+Dialogue: 0,0:13:38.98,0:13:41.44,Default,,0,0,0,,How are you gonna\Nput Vienna through ballet school?
+Dialogue: 0,0:13:41.44,0:13:42.61,Default,,0,0,0,,You know about that?
+Dialogue: 0,0:13:42.60,0:13:44.18,Default,,0,0,0,,Of course. You know what else I know?
+Dialogue: 0,0:13:44.19,0:13:46.86,Default,,0,0,0,,It's $75,000 a year.
+Dialogue: 0,0:13:46.85,0:13:49.52,Default,,0,0,0,,That's four years. That's 333 grand.
+Dialogue: 0,0:13:50.35,0:13:53.06,Default,,0,0,0,,That's terrible math, Johnny.\NIt's 300 grand.
+Dialogue: 0,0:13:53.06,0:13:55.56,Default,,0,0,0,,Hey, if you can get a discount,\Nthat's great.
+Dialogue: 0,0:13:55.56,0:13:57.35,Default,,0,0,0,,But how you gonna make that cha-ching?
+Dialogue: 0,0:13:57.35,0:13:58.43,Default,,0,0,0,,I don't know.
+Dialogue: 0,0:13:58.44,0:14:02.48,Default,,0,0,0,,I thought I'd pick a few double shifts\Nup at the supermarket. Maybe--
+Dialogue: 0,0:14:02.48,0:14:05.98,Default,,0,0,0,,There's only one way you can make\Nsome big dollars fast. Grip it and rip it.
+Dialogue: 0,0:14:05.98,0:14:09.19,Default,,0,0,0,,Johnny, I wouldn't even know\Nwhere to start.
+Dialogue: 0,0:14:10.31,0:14:11.39,Default,,0,0,0,,At the bottom.
+Dialogue: 0,0:14:16.81,0:14:19.10,Default,,0,0,0,,Excuse me, I'm looking to get out there.
+Dialogue: 0,0:14:19.90,0:14:20.86,Default,,0,0,0,,[man snores]
+Dialogue: 0,0:14:20.85,0:14:24.68,Default,,0,0,0,,There's a threesome going out at 10:15.\NYou can join them. Name?
+Dialogue: 0,0:14:25.31,0:14:26.39,Default,,0,0,0,,Don't worry about it.
+Dialogue: 0,0:14:27.06,0:14:28.06,Default,,0,0,0,,I won't.
+Dialogue: 0,0:14:30.69,0:14:33.36,Default,,0,0,0,,Who was that? Grizzly Adams?
+Dialogue: 0,0:14:34.44,0:14:36.19,Default,,0,0,0,,I don't know who that is.
+Dialogue: 0,0:14:36.19,0:14:38.19,Default,,0,0,0,,- [Steiner laughs]\N- Is it just us three?
+Dialogue: 0,0:14:38.19,0:14:40.61,Default,,0,0,0,,No. Starter said a fourth\Nis playing with us.
+Dialogue: 0,0:14:40.60,0:14:42.93,Default,,0,0,0,,{\an8}- We gotta play with some random?\N- [Sally] Yup.
+Dialogue: 0,0:14:42.94,0:14:46.44,Default,,0,0,0,,{\an8}It's always some yin-yang\Nwho plays like shit and never shuts up.
+Dialogue: 0,0:14:46.44,0:14:48.36,Default,,0,0,0,,[Fitzy] Oh, man. Is that him?
+Dialogue: 0,0:14:48.35,0:14:51.02,Default,,0,0,0,,He looks like he got a divorce\Nfour seconds ago.
+Dialogue: 0,0:14:51.02,0:14:53.06,Default,,0,0,0,,Are you the one that's playing with us?
+Dialogue: 0,0:14:53.06,0:14:54.35,Default,,0,0,0,,I think so, yeah.
+Dialogue: 0,0:14:54.35,0:14:56.85,Default,,0,0,0,,We like to play quick, so try to keep up?
+Dialogue: 0,0:14:57.77,0:14:58.77,Default,,0,0,0,,Got it.
+Dialogue: 0,0:15:00.10,0:15:02.02,Default,,0,0,0,,- Let's get this party started?\N- [Sally] Yeah.
+Dialogue: 0,0:15:02.02,0:15:04.23,Default,,0,0,0,,- [Fitzy] Yeah, let's get it started.\N- Whoo!
+Dialogue: 0,0:15:04.23,0:15:05.40,Default,,0,0,0,,[speaks Spanish]
+Dialogue: 0,0:15:05.94,0:15:06.98,Default,,0,0,0,,Oh!
+Dialogue: 0,0:15:09.19,0:15:11.19,Default,,0,0,0,,- [in English] Whoo! Cart path!\N- Man!
+Dialogue: 0,0:15:11.19,0:15:12.69,Default,,0,0,0,,- Nice one, Fitzy.\N- Hell yeah.
+Dialogue: 0,0:15:12.69,0:15:15.48,Default,,0,0,0,,- [Sally exclaims]\N- I will take that all day.
+Dialogue: 0,0:15:15.48,0:15:18.23,Default,,0,0,0,,[Steiner] Yes, sir.\NYou got this, girl. Get that shit.
+Dialogue: 0,0:15:21.15,0:15:23.07,Default,,0,0,0,,[Steiner whistles] Ha!
+Dialogue: 0,0:15:23.06,0:15:25.06,Default,,0,0,0,,Gotta be happy with that, Sal.
+Dialogue: 0,0:15:25.06,0:15:28.18,Default,,0,0,0,,- Top spinner. Just how I drew it up, boys.\N- Mmm-hmm.
+Dialogue: 0,0:15:28.19,0:15:29.98,Default,,0,0,0,,Check this out. [exhales]
+Dialogue: 0,0:15:31.60,0:15:34.35,Default,,0,0,0,,Xanax arms, head still.
+Dialogue: 0,0:15:37.02,0:15:39.39,Default,,0,0,0,,Oh! [chuckles]
+Dialogue: 0,0:15:39.40,0:15:41.23,Default,,0,0,0,,- [Sally] What the hell?\N- [Fitzy] Holy shit.
+Dialogue: 0,0:15:41.23,0:15:43.81,Default,,0,0,0,,[Steiner] Boom! Explosion!
+Dialogue: 0,0:15:43.81,0:15:45.68,Default,,0,0,0,,That's my dog!
+Dialogue: 0,0:15:45.69,0:15:48.23,Default,,0,0,0,,Mmm-hmm! Took a lesson at Golf Hut.
+Dialogue: 0,0:15:48.23,0:15:50.44,Default,,0,0,0,,- It shows, Stein-man.\N- [both] Uh-huh.
+Dialogue: 0,0:15:50.44,0:15:52.32,Default,,0,0,0,,[both grunting triumphantly]
+Dialogue: 0,0:15:56.65,0:15:58.11,Default,,0,0,0,,[exclaims triumphantly]
+Dialogue: 0,0:15:58.10,0:16:00.77,Default,,0,0,0,,- [both chuckle]\N- Man, I wish I was included in that.
+Dialogue: 0,0:16:01.52,0:16:03.94,Default,,0,0,0,,- [Steiner] Boy.\N- [Sally] He doing the Happy Gilmore swing?
+Dialogue: 0,0:16:03.94,0:16:06.15,Default,,0,0,0,,My stupid uncle\Nalways tries that bullshit.
+Dialogue: 0,0:16:06.15,0:16:09.07,Default,,0,0,0,,Swings and misses every time.\NPain in my ass.
+Dialogue: 0,0:16:25.15,0:16:26.44,Default,,0,0,0,,[yelps]
+Dialogue: 0,0:16:27.23,0:16:30.77,Default,,0,0,0,,God. He rolled further than the ball.
+Dialogue: 0,0:16:32.02,0:16:34.23,Default,,0,0,0,,[Fitzy] Gonna be a long-ass day, my dudes.
+Dialogue: 0,0:16:35.27,0:16:37.31,Default,,0,0,0,,["Don Quichotte" playing]
+Dialogue: 0,0:16:37.31,0:16:38.52,Default,,0,0,0,,[grunts]
+Dialogue: 0,0:16:42.94,0:16:45.44,Default,,0,0,0,,- [whoops]\N- [kisses]
+Dialogue: 0,0:16:45.44,0:16:46.36,Default,,0,0,0,,Hell yeah!
+Dialogue: 0,0:16:50.52,0:16:52.65,Default,,0,0,0,,Oh, eat a bag of--
+Dialogue: 0,0:16:55.98,0:16:57.35,Default,,0,0,0,,Did you find your ball yet?
+Dialogue: 0,0:16:57.35,0:16:58.93,Default,,0,0,0,,[Happy] Yeah, I found it.
+Dialogue: 0,0:16:58.94,0:17:03.57,Default,,0,0,0,,I'm just roaming around in here because\NI like poison ivy, you piece of--
+Dialogue: 0,0:17:05.69,0:17:06.94,Default,,0,0,0,,{\an8}Grandma!
+Dialogue: 0,0:17:09.31,0:17:14.19,Default,,0,0,0,,- [shattering]\N- Oh, choke on my dangling, wrinkly--
+Dialogue: 0,0:17:21.60,0:17:22.60,Default,,0,0,0,,[yells]
+Dialogue: 0,0:17:24.10,0:17:25.27,Default,,0,0,0,,[groans]
+Dialogue: 0,0:17:26.35,0:17:27.64,Default,,0,0,0,,[yells]
+Dialogue: 0,0:17:27.65,0:17:30.36,Default,,0,0,0,,I don't know why,\NI get so intimidated in the sand.
+Dialogue: 0,0:17:30.35,0:17:33.18,Default,,0,0,0,,The dude from Golf Hut\Nsaid just flip it like a pancake.
+Dialogue: 0,0:17:33.77,0:17:35.52,Default,,0,0,0,,- Flip that pancake, Sally.\N- Mmm-hmm.
+Dialogue: 0,0:17:37.56,0:17:39.23,Default,,0,0,0,,- Nice!\N- [both exclaim]
+Dialogue: 0,0:17:39.23,0:17:41.65,Default,,0,0,0,,{\i1}♪ To the window, to the walls ♪{\i0}
+Dialogue: 0,0:17:41.65,0:17:42.73,Default,,0,0,0,,{\i1}♪ To the walls ♪{\i0}
+Dialogue: 0,0:17:42.73,0:17:45.40,Default,,0,0,0,,{\i1}♪ 'Til sweat drop down my balls ♪{\i0}
+Dialogue: 0,0:17:45.40,0:17:47.52,Default,,0,0,0,,{\i1}♪ 'Til all these bitches crawl ♪{\i0}
+Dialogue: 0,0:17:47.52,0:17:49.52,Default,,0,0,0,,{\i1}♪ 'Til all skeet-skeet, motherfucker ♪{\i0}
+Dialogue: 0,0:17:49.52,0:17:51.69,Default,,0,0,0,,{\i1}♪ 'Til all skeet-skeet, goddamn ♪{\i0}
+Dialogue: 0,0:17:51.69,0:17:52.73,Default,,0,0,0,,{\i1}♪ A-goddamn ♪{\i0}
+Dialogue: 0,0:17:52.73,0:17:54.81,Default,,0,0,0,,["Don Quichotte" resumes]
+Dialogue: 0,0:17:59.56,0:18:02.89,Default,,0,0,0,,Nice putt, dude.\NWe'll put you down for a 12.
+Dialogue: 0,0:18:04.19,0:18:05.15,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:18:11.77,0:18:12.73,Default,,0,0,0,,[sighs]
+Dialogue: 0,0:18:13.60,0:18:15.35,Default,,0,0,0,,I think he thinks\Nthe tee-marker's the ball.
+Dialogue: 0,0:18:18.77,0:18:20.73,Default,,0,0,0,,[yelps]
+Dialogue: 0,0:18:20.73,0:18:21.86,Default,,0,0,0,,Told you.
+Dialogue: 0,0:18:29.19,0:18:32.23,Default,,0,0,0,,Hey, DJ Khaled, maybe give\Nthe Happy Gilmore swing a rest?
+Dialogue: 0,0:18:32.23,0:18:33.65,Default,,0,0,0,,Because it ain't working.
+Dialogue: 0,0:18:38.90,0:18:41.57,Default,,0,0,0,,Yo, that is Happy Gilmore.
+Dialogue: 0,0:18:41.56,0:18:43.52,Default,,0,0,0,,Happy Gilmore sucks?
+Dialogue: 0,0:18:45.40,0:18:46.44,Default,,0,0,0,,[thuds]
+Dialogue: 0,0:18:47.48,0:18:49.52,Default,,0,0,0,,Hey, can you call fore next time?
+Dialogue: 0,0:18:50.65,0:18:52.65,Default,,0,0,0,,- [grunts]\N- [shudders]
+Dialogue: 0,0:18:52.65,0:18:55.15,Default,,0,0,0,,[laughs] Fore!
+Dialogue: 0,0:18:55.77,0:18:57.69,Default,,0,0,0,,[laughing]
+Dialogue: 0,0:19:00.48,0:19:02.98,Default,,0,0,0,,- [Happy grunting]\N- [Steiner] Whoa.
+Dialogue: 0,0:19:03.73,0:19:05.65,Default,,0,0,0,,Hey, man, at least it went in.
+Dialogue: 0,0:19:05.65,0:19:06.73,Default,,0,0,0,,[Happy] It did?
+Dialogue: 0,0:19:06.73,0:19:09.06,Default,,0,0,0,,[all] No! [laughing]
+Dialogue: 0,0:19:09.06,0:19:12.64,Default,,0,0,0,,Man, Happy Gilmore\Nis such a joke. It's sad.
+Dialogue: 0,0:19:12.65,0:19:15.23,Default,,0,0,0,,Still got to ask\Nfor his autograph, though.
+Dialogue: 0,0:19:15.23,0:19:17.73,Default,,0,0,0,,My auntie used to cream her jeans\Nfor that fool.
+Dialogue: 0,0:19:17.73,0:19:19.48,Default,,0,0,0,,- [laughs]\N- Whoa!
+Dialogue: 0,0:19:19.48,0:19:23.65,Default,,0,0,0,,[Happy] Tell your aunt I'll sign her jeans\Nfor $300,000. [laughs]
+Dialogue: 0,0:19:24.40,0:19:26.98,Default,,0,0,0,,I guess I'm a little rusty, gang.
+Dialogue: 0,0:19:27.73,0:19:31.73,Default,,0,0,0,,The Stein-man recently had a lesson\Nat the Golf Hut.
+Dialogue: 0,0:19:31.73,0:19:32.85,Default,,0,0,0,,Yes.
+Dialogue: 0,0:19:32.85,0:19:38.10,Default,,0,0,0,,But I just, I haven't swung a club\Nin ten years, so, sorry.
+Dialogue: 0,0:19:38.69,0:19:39.98,Default,,0,0,0,,[groans]
+Dialogue: 0,0:19:41.98,0:19:43.40,Default,,0,0,0,,How about you, Chubbs?
+Dialogue: 0,0:19:45.10,0:19:46.52,Default,,0,0,0,,You got any tips for me?
+Dialogue: 0,0:19:47.40,0:19:49.48,Default,,0,0,0,,[Chubbs] {\i1}Relax, do what we talked about.{\i0}
+Dialogue: 0,0:19:49.48,0:19:53.69,Default,,0,0,0,,It's all in the hips,\Nyeah, it's all in the hips!
+Dialogue: 0,0:19:53.69,0:19:54.81,Default,,0,0,0,,It's all...
+Dialogue: 0,0:19:54.81,0:19:59.06,Default,,0,0,0,,Oh, yeah. Ease the tension.
+Dialogue: 0,0:19:59.06,0:20:02.14,Default,,0,0,0,,Oh. I miss you, baby.
+Dialogue: 0,0:20:02.15,0:20:04.82,Default,,0,0,0,,My man having a wet dream\Nwe don't know about?
+Dialogue: 0,0:20:04.81,0:20:07.19,Default,,0,0,0,,[hopeful music plays]
+Dialogue: 0,0:20:08.94,0:20:09.77,Default,,0,0,0,,[grunts]
+Dialogue: 0,0:20:13.35,0:20:14.93,Default,,0,0,0,,[ball whizzing]
+Dialogue: 0,0:20:19.56,0:20:21.48,Default,,0,0,0,,[all exclaiming]
+Dialogue: 0,0:20:21.48,0:20:24.44,Default,,0,0,0,,- Oh, my God!\N- Now that is some Happy Gilmore shit!
+Dialogue: 0,0:20:24.44,0:20:27.90,Default,,0,0,0,,- Yes. Yeah.\N- [Steiner] Unbelievable!
+Dialogue: 0,0:20:27.90,0:20:32.32,Default,,0,0,0,,I mean, I've hit some big ones,\Nbut that was a freakin' rocket!
+Dialogue: 0,0:20:32.31,0:20:35.56,Default,,0,0,0,,It was, like, effortless,\Nbut still ferocious.
+Dialogue: 0,0:20:35.56,0:20:37.94,Default,,0,0,0,,You got to teach me how to do that, dude.
+Dialogue: 0,0:20:38.69,0:20:42.61,Default,,0,0,0,,Dude! [yelling] Dude!
+Dialogue: 0,0:20:42.60,0:20:43.64,Default,,0,0,0,,- Dude!\N- Dude!
+Dialogue: 0,0:20:45.35,0:20:49.56,Default,,0,0,0,,{\an8}{\i1}Remember Happy Gilmore?\NHe's making news on the golf course again.{\i0}
+Dialogue: 0,0:20:49.56,0:20:50.81,Default,,0,0,0,,{\an8}{\i1}And not the good kind.{\i0}
+Dialogue: 0,0:20:50.81,0:20:54.52,Default,,0,0,0,,{\an8}{\i1}He was apparently driving a golf cart\Nwhile intoxicated last week{\i0}
+Dialogue: 0,0:20:54.52,0:20:55.94,Default,,0,0,0,,{\an8}{\i1}and struck another cart.{\i0}
+Dialogue: 0,0:20:55.94,0:20:57.23,Default,,0,0,0,,{\an8}- [Happy] {\i1}Stein-man!\N-{\i0} [groans]
+Dialogue: 0,0:20:57.23,0:21:01.27,Default,,0,0,0,,{\an8}{\i1}Gilmore was arrested and charged with\Nvandalism and driving under the influence.{\i0}
+Dialogue: 0,0:21:01.27,0:21:04.73,Default,,0,0,0,,{\i1}Prosecutors agreed to suspend\Nthe golf-cart-related charges{\i0}
+Dialogue: 0,0:21:04.73,0:21:08.48,Default,,0,0,0,,{\i1}on the condition that Gilmore\Nrefrain from any physical violence{\i0}
+Dialogue: 0,0:21:08.48,0:21:11.23,Default,,0,0,0,,{\i1}and attend a radical\Nalcohol treatment program.{\i0}
+Dialogue: 0,0:21:11.23,0:21:12.69,Default,,0,0,0,,{\an8}{\i1}Go Bruins!{\i0}
+Dialogue: 0,0:21:12.69,0:21:15.48,Default,,0,0,0,,{\an8}{\i1}He was also fired from his job\Nat Stop & Shop.{\i0}
+Dialogue: 0,0:21:16.40,0:21:19.44,Default,,0,0,0,,{\an8}{\i1}Truly, a sad end for a sports legend.{\i0}
+Dialogue: 0,0:21:21.81,0:21:23.69,Default,,0,0,0,,[man] Thanks for being with us today.
+Dialogue: 0,0:21:24.90,0:21:29.98,Default,,0,0,0,,In 1996, you were arrested for\Ninciting injury to persons or property,
+Dialogue: 0,0:21:29.98,0:21:33.02,Default,,0,0,0,,conspiracy to commit\Nvehicular manslaughter,
+Dialogue: 0,0:21:33.02,0:21:36.94,Default,,0,0,0,,criminal menacing, and stealing a jacket.
+Dialogue: 0,0:21:38.27,0:21:39.27,Default,,0,0,0,,[chuckles softly]
+Dialogue: 0,0:21:39.27,0:21:42.23,Default,,0,0,0,,At trial, you were found not guilty\Nby reason of insanity
+Dialogue: 0,0:21:42.23,0:21:43.81,Default,,0,0,0,,and remanded to this facility.
+Dialogue: 0,0:21:43.81,0:21:46.06,Default,,0,0,0,,- That was 29 years ago.\N- [exhales]
+Dialogue: 0,0:21:47.06,0:21:49.73,Default,,0,0,0,,It feels like yesterday. [chuckles]
+Dialogue: 0,0:21:49.73,0:21:51.65,Default,,0,0,0,,Twenty-nine years is a long time,
+Dialogue: 0,0:21:51.65,0:21:54.48,Default,,0,0,0,,and so this board is inclined\Nto grant you your release.
+Dialogue: 0,0:21:55.02,0:21:57.89,Default,,0,0,0,,If we were to do so, what then?
+Dialogue: 0,0:21:57.90,0:22:00.28,Default,,0,0,0,,Well, I'd want to give back\Nto the community.
+Dialogue: 0,0:22:00.90,0:22:04.52,Default,,0,0,0,,Especially the children who are,\Nof course, our future.
+Dialogue: 0,0:22:04.52,0:22:07.85,Default,,0,0,0,,And animals, also,\Nwho need to be snuggled,
+Dialogue: 0,0:22:07.85,0:22:10.43,Default,,0,0,0,,and neutered with their permission,\Nof course.
+Dialogue: 0,0:22:11.44,0:22:13.15,Default,,0,0,0,,What about Happy Gilmore?
+Dialogue: 0,0:22:13.15,0:22:15.52,Default,,0,0,0,,Oh, I would stay far, far away.
+Dialogue: 0,0:22:15.52,0:22:17.89,Default,,0,0,0,,Far, far away from Gilmore.
+Dialogue: 0,0:22:17.90,0:22:22.65,Default,,0,0,0,,What if you ran into him,\Nsay, on a golf course?
+Dialogue: 0,0:22:22.65,0:22:26.78,Default,,0,0,0,,I'd wave or I could nod. That's also good.
+Dialogue: 0,0:22:27.48,0:22:30.48,Default,,0,0,0,,And if he was wearing a gold jacket?
+Dialogue: 0,0:22:32.69,0:22:33.98,Default,,0,0,0,,[Verne] {\i1}Incredible!{\i0}
+Dialogue: 0,0:22:33.98,0:22:36.94,Default,,0,0,0,,{\i1}- Happy Gilmore wins the gold jacket!{\i0}\N- No!
+Dialogue: 0,0:22:36.94,0:22:39.15,Default,,0,0,0,,[breathing heavily]
+Dialogue: 0,0:22:39.15,0:22:45.07,Default,,0,0,0,,I would fill a pillowcase with golf balls\Nand beat the piss out of him!
+Dialogue: 0,0:22:45.06,0:22:47.52,Default,,0,0,0,,- I would tear the jacket off his back...\N- [man] Guards.
+Dialogue: 0,0:22:47.52,0:22:49.48,Default,,0,0,0,,...and shove it down his throat!
+Dialogue: 0,0:22:49.48,0:22:51.31,Default,,0,0,0,,[man] Bring this animal back to his cell!
+Dialogue: 0,0:22:51.31,0:22:53.85,Default,,0,0,0,,That is my jacket! My jacket!
+Dialogue: 0,0:22:53.85,0:22:57.14,Default,,0,0,0,,Shooter's gold! All mine! It's my gold...
+Dialogue: 0,0:22:57.94,0:22:59.02,Default,,0,0,0,,[door closes]
+Dialogue: 0,0:23:00.35,0:23:01.77,Default,,0,0,0,,Lunch? Benihana?
+Dialogue: 0,0:23:01.77,0:23:02.98,Default,,0,0,0,,- Hell yeah.\N- Hell yeah.
+Dialogue: 0,0:23:05.98,0:23:08.15,Default,,0,0,0,,- [sighs]\N- [indistinct chatter]
+Dialogue: 0,0:23:11.56,0:23:15.60,Default,,0,0,0,,Excuse me. Is this where\Nthe alcohol meetings are?
+Dialogue: 0,0:23:15.60,0:23:18.64,Default,,0,0,0,,You're in the right place.\NHow are you feeling?
+Dialogue: 0,0:23:18.65,0:23:19.86,Default,,0,0,0,,Mmm, a little shaky.
+Dialogue: 0,0:23:19.85,0:23:21.64,Default,,0,0,0,,First five days are rough.
+Dialogue: 0,0:23:21.65,0:23:24.69,Default,,0,0,0,,Just get through today and your body\Nwill start turning the corner.
+Dialogue: 0,0:23:24.69,0:23:27.86,Default,,0,0,0,,Thank you.\NAnd this is all on the down low, right?
+Dialogue: 0,0:23:27.85,0:23:30.18,Default,,0,0,0,,Happy freakin' Gilmore!
+Dialogue: 0,0:23:30.19,0:23:34.36,Default,,0,0,0,,I can't believe\Nyou be hitting the bottle too!
+Dialogue: 0,0:23:34.35,0:23:36.72,Default,,0,0,0,,I guess Bessie\Ndidn't get the down low memo.
+Dialogue: 0,0:23:36.73,0:23:39.40,Default,,0,0,0,,Yeah, that's all right.\NWhere's the therapist?
+Dialogue: 0,0:23:39.40,0:23:41.73,Default,,0,0,0,,He'll be here.\NHe likes to make an entrance.
+Dialogue: 0,0:23:41.73,0:23:44.15,Default,,0,0,0,,Mr. Gilmore?
+Dialogue: 0,0:23:45.81,0:23:47.52,Default,,0,0,0,,Holy shit.
+Dialogue: 0,0:23:48.31,0:23:52.81,Default,,0,0,0,,[laughs] As I live and breathe.\NIt is wonderful to see you.
+Dialogue: 0,0:23:52.81,0:23:55.06,Default,,0,0,0,,- [scoffs]\N- How's Grandma?
+Dialogue: 0,0:23:55.06,0:23:58.98,Default,,0,0,0,,Grandma? Passed away maybe 15 years ago.
+Dialogue: 0,0:23:58.98,0:24:02.98,Default,,0,0,0,,Mmm. That's a shame.\NI know you loved on her so much.
+Dialogue: 0,0:24:02.98,0:24:04.36,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:24:05.15,0:24:07.36,Default,,0,0,0,,Is that when you began abusing alcohol?
+Dialogue: 0,0:24:07.35,0:24:11.35,Default,,0,0,0,,No, no. That actually started up\Nafter my wife got killed.
+Dialogue: 0,0:24:11.35,0:24:14.98,Default,,0,0,0,,- Mm. It's always something, isn't it?\N- Mmm-hmm.
+Dialogue: 0,0:24:15.98,0:24:17.19,Default,,0,0,0,,Okay.
+Dialogue: 0,0:24:17.19,0:24:19.19,Default,,0,0,0,,Happy, why don't you come on up front?
+Dialogue: 0,0:24:20.44,0:24:22.15,Default,,0,0,0,,We have a new member here.
+Dialogue: 0,0:24:23.60,0:24:27.18,Default,,0,0,0,,Hi. I'm Happy and I'm an alcoholic.
+Dialogue: 0,0:24:27.19,0:24:29.23,Default,,0,0,0,,{\an8}Oh, we don't say alcoholic.
+Dialogue: 0,0:24:29.23,0:24:30.90,Default,,0,0,0,,{\an8}We're not scientists.
+Dialogue: 0,0:24:30.90,0:24:35.57,Default,,0,0,0,,{\an8}We're just people trying to get by.\NWe say "alkie". Keeps it light.
+Dialogue: 0,0:24:36.40,0:24:38.82,Default,,0,0,0,,Uh... I'm Happy and I'm an alkie?
+Dialogue: 0,0:24:38.81,0:24:40.48,Default,,0,0,0,,{\an8}Say it loud and proud!
+Dialogue: 0,0:24:40.48,0:24:44.06,Default,,0,0,0,,{\an8}- Hi, I'm Happy and I'm an alkie!\N- Ha-ha!
+Dialogue: 0,0:24:44.06,0:24:46.14,Default,,0,0,0,,Celebrities. They just like us.
+Dialogue: 0,0:24:46.15,0:24:48.57,Default,,0,0,0,,- Except they got a lot more cash.\N- [all laugh]
+Dialogue: 0,0:24:48.56,0:24:51.43,Default,,0,0,0,,Now, Charlotte,\Nlast week you were concerned
+Dialogue: 0,0:24:51.44,0:24:54.02,Default,,0,0,0,,about a musical festival\Nyou were to attend.
+Dialogue: 0,0:24:54.02,0:24:55.10,Default,,0,0,0,,How'd that work out?
+Dialogue: 0,0:24:55.69,0:24:58.44,Default,,0,0,0,,- Fine. It was a concert.\N- Mmm-hmm.
+Dialogue: 0,0:24:58.44,0:25:00.90,Default,,0,0,0,,My friends were drinking\Nand offering me drinks,
+Dialogue: 0,0:25:00.90,0:25:02.11,Default,,0,0,0,,but I didn't have any.
+Dialogue: 0,0:25:02.10,0:25:04.97,Default,,0,0,0,,But I bet you wanted that liquor\Nsomething fierce, huh?
+Dialogue: 0,0:25:04.98,0:25:06.90,Default,,0,0,0,,I mean, I was tempted, but...
+Dialogue: 0,0:25:06.90,0:25:09.69,Default,,0,0,0,,I bet you would have kicked\Nyour own mother in the face
+Dialogue: 0,0:25:09.69,0:25:12.02,Default,,0,0,0,,just to get a sniff of that liquor,\Nwouldn't you?
+Dialogue: 0,0:25:12.02,0:25:13.31,Default,,0,0,0,,Not really.
+Dialogue: 0,0:25:13.31,0:25:17.85,Default,,0,0,0,,Charlotte, if we don't stop lying,\Nwe don't stop drinking.
+Dialogue: 0,0:25:17.85,0:25:19.64,Default,,0,0,0,,Why won't you stop lying?
+Dialogue: 0,0:25:20.35,0:25:21.93,Default,,0,0,0,,Because I'm an alkie?
+Dialogue: 0,0:25:21.94,0:25:28.23,Default,,0,0,0,,And how does a degenerate, low-life alkie\Ntake the first step to recovery?
+Dialogue: 0,0:25:28.23,0:25:29.77,Default,,0,0,0,,By washing your car?
+Dialogue: 0,0:25:29.77,0:25:32.10,Default,,0,0,0,,Bingo! Three o'clock, Thursday?
+Dialogue: 0,0:25:32.10,0:25:35.47,Default,,0,0,0,,I got the soap, you bring the rags\Nand bucket, we make it a party?
+Dialogue: 0,0:25:35.48,0:25:38.19,Default,,0,0,0,,{\an8}- I'm sorry, I have a question.\N- Yeah?
+Dialogue: 0,0:25:38.19,0:25:42.19,Default,,0,0,0,,{\an8}What does the car-washing\Nhave to do with the no-drinking?
+Dialogue: 0,0:25:42.19,0:25:44.06,Default,,0,0,0,,{\an8}You're thinking. You're thinking.
+Dialogue: 0,0:25:44.06,0:25:46.81,Default,,0,0,0,,{\an8}Mr. Gilmore's up in his head\Nwhen really he should be
+Dialogue: 0,0:25:46.81,0:25:49.31,Default,,0,0,0,,{\an8}listening to me\Nand keeping his mouth shut.
+Dialogue: 0,0:25:49.31,0:25:52.23,Default,,0,0,0,,This is a radical\Nalcohol treatment program.
+Dialogue: 0,0:25:52.23,0:25:55.31,Default,,0,0,0,,{\an8}And the chief judge, my Uncle Dave,
+Dialogue: 0,0:25:55.31,0:25:59.69,Default,,0,0,0,,he told me that I can do whatever I want\Nwith everyone in this room.
+Dialogue: 0,0:26:01.15,0:26:02.48,Default,,0,0,0,,{\an8}Check out the name tag.
+Dialogue: 0,0:26:02.48,0:26:04.60,Default,,0,0,0,,{\an8}You're in my world now, Grandma.
+Dialogue: 0,0:26:04.60,0:26:06.27,Default,,0,0,0,,{\an8}You're in my world now.
+Dialogue: 0,0:26:07.90,0:26:09.48,Default,,0,0,0,,Oh, my gosh.
+Dialogue: 0,0:26:10.35,0:26:14.52,Default,,0,0,0,,[male voice]\N{\i1}Welcome to the future of golf.{\i0}
+Dialogue: 0,0:26:14.52,0:26:18.77,Default,,0,0,0,,{\i1}The greatest game\Njust got a triple shot of adrenaline.{\i0}
+Dialogue: 0,0:26:18.77,0:26:23.19,Default,,0,0,0,,{\an8}{\i1}Experience the revolution of Maxi.{\i0}
+Dialogue: 0,0:26:24.19,0:26:26.69,Default,,0,0,0,,{\an8}{\i1}-Game over, regular golf.\N-{\i0} [laughs] Wow.
+Dialogue: 0,0:26:26.69,0:26:27.98,Default,,0,0,0,,- Pretty great.\N- [Lee] So good.
+Dialogue: 0,0:26:27.98,0:26:30.23,Default,,0,0,0,,Yeah, it's something for sure. What is it?
+Dialogue: 0,0:26:30.23,0:26:32.35,Default,,0,0,0,,- I mean, what are we seeing?\N- What is it?
+Dialogue: 0,0:26:32.35,0:26:35.60,Default,,0,0,0,,So, basically,\NMaxi is a reimagining of golf.
+Dialogue: 0,0:26:35.60,0:26:37.27,Default,,0,0,0,,It's golf for today.
+Dialogue: 0,0:26:37.27,0:26:38.98,Default,,0,0,0,,Why is golf so boring and dumb?
+Dialogue: 0,0:26:38.98,0:26:41.85,Default,,0,0,0,,Golf was invented 800 years ago,\Nsomething like that.
+Dialogue: 0,0:26:41.85,0:26:43.31,Default,,0,0,0,,I thought about it and I was like,
+Dialogue: 0,0:26:43.31,0:26:44.64,Default,,0,0,0,,"If society could change,
+Dialogue: 0,0:26:44.65,0:26:47.57,Default,,0,0,0,,how come the rules of golf\Nhave stayed the same?"
+Dialogue: 0,0:26:47.56,0:26:49.31,Default,,0,0,0,,And that's why I created Maxi.
+Dialogue: 0,0:26:50.06,0:26:51.06,Default,,0,0,0,,- That's deep.\N- Yeah.
+Dialogue: 0,0:26:51.06,0:26:55.60,Default,,0,0,0,,The NBA, the NFL, the NHL,\Nthey offer the highest quality product.
+Dialogue: 0,0:26:55.60,0:26:57.31,Default,,0,0,0,,- [softly] Wow.\N- And so does Maxi.
+Dialogue: 0,0:26:57.31,0:26:59.73,Default,,0,0,0,,You're saying Maxi\Nhas the best golfers in the world?
+Dialogue: 0,0:26:59.73,0:27:00.81,Default,,0,0,0,,Oh, my God.
+Dialogue: 0,0:27:00.81,0:27:03.52,Default,,0,0,0,,- You doing okay, Frank?\N- I think I'm going to die.
+Dialogue: 0,0:27:03.52,0:27:05.39,Default,,0,0,0,,That's what's up, but listen, gang,
+Dialogue: 0,0:27:05.40,0:27:07.98,Default,,0,0,0,,how are you going to get\Nthese professional golfers
+Dialogue: 0,0:27:07.98,0:27:09.44,Default,,0,0,0,,to play in this new league?
+Dialogue: 0,0:27:09.44,0:27:12.19,Default,,0,0,0,,I've already got my golfers\Nand they're the best.
+Dialogue: 0,0:27:12.19,0:27:13.94,Default,,0,0,0,,You think they're better than the pros?
+Dialogue: 0,0:27:13.94,0:27:16.19,Default,,0,0,0,,I don't think, Stat. I know.
+Dialogue: 0,0:27:16.19,0:27:18.23,Default,,0,0,0,,You should think about\Ntalking to Happy Gilmore.
+Dialogue: 0,0:27:19.02,0:27:20.44,Default,,0,0,0,,I don't know who that is.
+Dialogue: 0,0:27:21.10,0:27:24.22,Default,,0,0,0,,- [Happy] Yeah, tell that to the lobsters.\N- [John] Mmm.
+Dialogue: 0,0:27:24.23,0:27:26.52,Default,,0,0,0,,Johnny, what are you doing\Nwith those chicken wings?
+Dialogue: 0,0:27:26.52,0:27:29.31,Default,,0,0,0,,They've been in the fridge\Nfor three weeks now, bro.
+Dialogue: 0,0:27:29.31,0:27:32.56,Default,,0,0,0,,I just put this sauce on them.\NIt gets rid of all the bacteria.
+Dialogue: 0,0:27:32.56,0:27:35.06,Default,,0,0,0,,Hmm. I don't know about that,\Nbut good luck.
+Dialogue: 0,0:27:36.31,0:27:38.48,Default,,0,0,0,,When you've done that, the TV remote.
+Dialogue: 0,0:27:38.48,0:27:40.85,Default,,0,0,0,,[sighs] Always wondered\Nwhy that didn't work.
+Dialogue: 0,0:27:40.85,0:27:42.52,Default,,0,0,0,,What are you doing on that contuder?
+Dialogue: 0,0:27:42.52,0:27:43.81,Default,,0,0,0,,I'm looking for a job.
+Dialogue: 0,0:27:43.81,0:27:47.18,Default,,0,0,0,,There's a new Dairy Queen\Naround here. I think they're hiring.
+Dialogue: 0,0:27:47.19,0:27:49.86,Default,,0,0,0,,You're not going to make\N$330,000 at no Dairy Queen.
+Dialogue: 0,0:27:49.85,0:27:51.35,Default,,0,0,0,,You know what you got to do.
+Dialogue: 0,0:27:51.35,0:27:55.43,Default,,0,0,0,,I tried the golf.\NThe golf didn't work out. Cuckoo clock.
+Dialogue: 0,0:27:55.44,0:27:58.44,Default,,0,0,0,,Grandma's cuckoo clock?\NThat's sacrilegious, Daddy.
+Dialogue: 0,0:27:58.44,0:28:01.65,Default,,0,0,0,,- [Happy] Yeah, I know.\N- [clock mimics cuckoo bird]
+Dialogue: 0,0:28:01.65,0:28:04.02,Default,,0,0,0,,You can't give up\Nbecause of one bad round.
+Dialogue: 0,0:28:04.02,0:28:06.14,Default,,0,0,0,,You had to at least\Nhit a couple decent shots.
+Dialogue: 0,0:28:06.15,0:28:09.19,Default,,0,0,0,,I think I hit one out of 117.
+Dialogue: 0,0:28:09.19,0:28:10.52,Default,,0,0,0,,Yeah, next time you'll hit two
+Dialogue: 0,0:28:10.52,0:28:13.10,Default,,0,0,0,,and then three, and before you know it,\Nyou're the best again.
+Dialogue: 0,0:28:13.10,0:28:14.89,Default,,0,0,0,,I'm 58 years old, V.
+Dialogue: 0,0:28:14.90,0:28:16.40,Default,,0,0,0,,Forget about being the best.
+Dialogue: 0,0:28:16.40,0:28:19.15,Default,,0,0,0,,If you finish 30th\Nin the Tour Championship,
+Dialogue: 0,0:28:19.15,0:28:22.02,Default,,0,0,0,,- you make 100 grand, brother.\N- [Happy] How am I going to finish 30th?
+Dialogue: 0,0:28:22.02,0:28:24.85,Default,,0,0,0,,I lost to three idiots\Non a municipal course.
+Dialogue: 0,0:28:24.85,0:28:26.18,Default,,0,0,0,,[John] You were hammered.
+Dialogue: 0,0:28:26.19,0:28:29.11,Default,,0,0,0,,Maybe you need to practice, Dad,\Nlike I do with dancing.
+Dialogue: 0,0:28:29.10,0:28:31.64,Default,,0,0,0,,What else are you going to do, sober boy?\NYou can't drink.
+Dialogue: 0,0:28:32.48,0:28:33.86,Default,,0,0,0,,Hand sanitizer.
+Dialogue: 0,0:28:35.52,0:28:36.98,Default,,0,0,0,,Let Uncle John take care of that.
+Dialogue: 0,0:28:39.23,0:28:42.56,Default,,0,0,0,,[gags] This is hand sanitizer.
+Dialogue: 0,0:28:42.56,0:28:44.02,Default,,0,0,0,,[Happy] Gotcha. [laughs]
+Dialogue: 0,0:28:45.27,0:28:46.60,Default,,0,0,0,,{\an8}["Juke Box Hero" playing]
+Dialogue: 0,0:28:46.60,0:28:49.48,Default,,0,0,0,,{\an8}- Were you Happy Gilmore?\N- Shh.
+Dialogue: 0,0:28:50.81,0:28:53.14,Default,,0,0,0,,Um, do you want to try some clubs?
+Dialogue: 0,0:28:53.85,0:28:55.18,Default,,0,0,0,,I do, yes.
+Dialogue: 0,0:28:56.27,0:28:58.81,Default,,0,0,0,,Here, try the six iron.\NA lot of pros like it.
+Dialogue: 0,0:29:02.98,0:29:04.94,Default,,0,0,0,,Yep, uh, that'll do.
+Dialogue: 0,0:29:06.40,0:29:08.19,Default,,0,0,0,,[vagrant mumbles indistinctly]
+Dialogue: 0,0:29:08.19,0:29:10.11,Default,,0,0,0,,{\i1}♪ He could picture the scene ♪{\i0}
+Dialogue: 0,0:29:10.98,0:29:12.77,Default,,0,0,0,,{\i1}♪ Put his ear to the wall ♪{\i0}
+Dialogue: 0,0:29:13.48,0:29:15.06,Default,,0,0,0,,- [scoffs]\N- No.
+Dialogue: 0,0:29:15.98,0:29:17.94,Default,,0,0,0,,{\i1}♪ He heard one guitar... ♪{\i0}
+Dialogue: 0,0:29:17.94,0:29:19.52,Default,,0,0,0,,To the right... Ooh!
+Dialogue: 0,0:29:20.44,0:29:21.44,Default,,0,0,0,,Goddamn.
+Dialogue: 0,0:29:21.44,0:29:22.77,Default,,0,0,0,,Hold my blanket.
+Dialogue: 0,0:29:22.77,0:29:24.31,Default,,0,0,0,,Hold your blanket, all right.
+Dialogue: 0,0:29:25.31,0:29:29.60,Default,,0,0,0,,All right, you want to load\Non the back leg...
+Dialogue: 0,0:29:29.60,0:29:30.56,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,0:29:30.56,0:29:32.35,Default,,0,0,0,,- And then...\N- Yeah.
+Dialogue: 0,0:29:33.44,0:29:36.56,Default,,0,0,0,,Okay, I'll... I'll handle it.\NThank you. I appreciate it.
+Dialogue: 0,0:29:36.56,0:29:39.14,Default,,0,0,0,,- I don't know what happened.\N- Just do your thing.
+Dialogue: 0,0:29:39.15,0:29:41.65,Default,,0,0,0,,- Go!\N- [men shouting indistinctly]
+Dialogue: 0,0:29:43.15,0:29:44.53,Default,,0,0,0,,You got to be quicker.
+Dialogue: 0,0:29:47.65,0:29:49.19,Default,,0,0,0,,What are you doing, Dad? Hey.
+Dialogue: 0,0:29:49.19,0:29:53.57,Default,,0,0,0,,Sobriety is a journey, not a destination.
+Dialogue: 0,0:29:54.15,0:29:56.48,Default,,0,0,0,,- [chimes]\N{\i1}- I believe in you, Happy!{\i0}
+Dialogue: 0,0:29:56.48,0:29:59.40,Default,,0,0,0,,{\i1}♪ Someday he's going to make it\NTo the top ♪{\i0}
+Dialogue: 0,0:29:59.40,0:30:02.86,Default,,0,0,0,,{\i1}♪ And be a juke box hero ♪{\i0}
+Dialogue: 0,0:30:02.85,0:30:05.47,Default,,0,0,0,,{\i1}♪ Got stars in his eyes ♪{\i0}
+Dialogue: 0,0:30:05.48,0:30:07.94,Default,,0,0,0,,{\i1}♪ He's a juke box hero... ♪{\i0}
+Dialogue: 0,0:30:07.94,0:30:08.86,Default,,0,0,0,,[laughs]
+Dialogue: 0,0:30:08.85,0:30:12.72,Default,,0,0,0,,{\an8}"What my teacher didn't understand,\Nwhat she couldn't understand,
+Dialogue: 0,0:30:12.73,0:30:14.94,Default,,0,0,0,,{\an8}"is that I only cheated on the test
+Dialogue: 0,0:30:14.94,0:30:19.52,Default,,0,0,0,,because my mother had yelled at me\Nabout the oatmeal cookies. Yet again..."
+Dialogue: 0,0:30:25.65,0:30:28.23,Default,,0,0,0,,- [yells]\N- [Bessie] Oh, there he goes.
+Dialogue: 0,0:30:29.10,0:30:32.06,Default,,0,0,0,,[Hal] Nice even strokes.\NThank you, Charlotte.
+Dialogue: 0,0:30:33.35,0:30:36.10,Default,,0,0,0,,Good. Finish the louvers,\Nthen do the borders.
+Dialogue: 0,0:30:36.10,0:30:37.02,Default,,0,0,0,,Yes, sir.
+Dialogue: 0,0:30:37.02,0:30:39.98,Default,,0,0,0,,[announcer] Ladies and gentlemen,\Nplease welcome Vienna Gilmore.
+Dialogue: 0,0:30:39.98,0:30:43.44,Default,,0,0,0,,[Happy] Everyone else sucks\Nand you know it! Let's go, V!
+Dialogue: 0,0:30:43.44,0:30:47.48,Default,,0,0,0,,{\i1}♪ Like a trip through the past\NTo that day in the rain ♪{\i0}
+Dialogue: 0,0:30:47.48,0:30:48.60,Default,,0,0,0,,[man] Come on, Happy!
+Dialogue: 0,0:30:48.60,0:30:53.60,Default,,0,0,0,,{\i1}♪ And that one guitar\NMade his whole life change ♪{\i0}
+Dialogue: 0,0:30:54.31,0:30:55.73,Default,,0,0,0,,{\i1}♪ Now he needs to keep on rocking ♪{\i0}
+Dialogue: 0,0:30:55.73,0:30:57.35,Default,,0,0,0,,[all cheering]
+Dialogue: 0,0:30:57.35,0:30:58.64,Default,,0,0,0,,{\i1}♪ He just can't stop ♪{\i0}
+Dialogue: 0,0:30:59.81,0:31:01.64,Default,,0,0,0,,[all chanting] Happy! Happy!
+Dialogue: 0,0:31:01.65,0:31:05.11,Default,,0,0,0,,{\i1}♪ That boy has got to stay on top ♪{\i0}
+Dialogue: 0,0:31:06.44,0:31:08.48,Default,,0,0,0,,{\an8}[crowd exclaiming, whooping]
+Dialogue: 0,0:31:08.48,0:31:13.31,Default,,0,0,0,,{\an8}Happy! Happy! Happy!
+Dialogue: 0,0:31:13.31,0:31:16.98,Default,,0,0,0,,{\i1}♪ He's got stars in his eyes ♪{\i0}
+Dialogue: 0,0:31:16.98,0:31:20.44,Default,,0,0,0,,{\i1}- ♪ Juke box hero ♪\N- ♪ Got stars in his eyes ♪{\i0}
+Dialogue: 0,0:31:20.44,0:31:22.65,Default,,0,0,0,,- Boot!\N- [both cheer]
+Dialogue: 0,0:31:22.65,0:31:25.28,Default,,0,0,0,,Come on, baby! You're back! Let's go.
+Dialogue: 0,0:31:39.65,0:31:41.94,Default,,0,0,0,,Do you mind?
+Dialogue: 0,0:31:41.94,0:31:42.86,Default,,0,0,0,,I'm sorry.
+Dialogue: 0,0:31:42.85,0:31:44.47,Default,,0,0,0,,What the hell are you doing?
+Dialogue: 0,0:31:44.48,0:31:46.40,Default,,0,0,0,,I'll take off. Have a good day.
+Dialogue: 0,0:31:46.40,0:31:49.40,Default,,0,0,0,,Go back to your mobile home.
+Dialogue: 0,0:31:49.40,0:31:51.27,Default,,0,0,0,,Got you a little something, Pop.
+Dialogue: 0,0:31:51.27,0:31:54.02,Default,,0,0,0,,What? What is it?
+Dialogue: 0,0:31:54.02,0:31:56.19,Default,,0,0,0,,"Thirty days sober! Congrats, Daddy!"
+Dialogue: 0,0:31:57.15,0:31:59.11,Default,,0,0,0,,{\an8}[all exclaiming]
+Dialogue: 0,0:31:59.10,0:32:02.27,Default,,0,0,0,,{\an8}- [Happy] You paint my house, brother.\N- [all shouting]
+Dialogue: 0,0:32:06.98,0:32:09.31,Default,,0,0,0,,[Gordy] Get him on the ground!
+Dialogue: 0,0:32:10.69,0:32:13.69,Default,,0,0,0,,[all laughing, grunting triumphantly]
+Dialogue: 0,0:32:17.85,0:32:19.60,Default,,0,0,0,,{\an8}We'll put a little extra into this one.
+Dialogue: 0,0:32:19.60,0:32:22.14,Default,,0,0,0,,[chanting] Happy! Happy! Happy!
+Dialogue: 0,0:32:22.15,0:32:23.44,Default,,0,0,0,,[chanting stops]
+Dialogue: 0,0:32:24.69,0:32:27.65,Default,,0,0,0,,I am so sorry. I did not mean to do that.
+Dialogue: 0,0:32:27.65,0:32:29.02,Default,,0,0,0,,[all cheering]
+Dialogue: 0,0:32:29.02,0:32:31.94,Default,,0,0,0,,{\i1}♪ Juke box hero ♪{\i0}
+Dialogue: 0,0:32:33.35,0:32:35.68,Default,,0,0,0,,{\i1}♪ Juke box hero ♪{\i0}
+Dialogue: 0,0:32:35.69,0:32:38.52,Default,,0,0,0,,[yelling, groaning]
+Dialogue: 0,0:32:39.44,0:32:42.90,Default,,0,0,0,,Damn you, Happy Gilmore!
+Dialogue: 0,0:32:45.69,0:32:48.77,Default,,0,0,0,,I put a thermos of coffee in your\Npassenger seat, Dad, and a protein bar.
+Dialogue: 0,0:32:48.77,0:32:50.31,Default,,0,0,0,,I love that. Thank you, Vivi.
+Dialogue: 0,0:32:50.31,0:32:52.14,Default,,0,0,0,,You gonna bring back another gold jacket?
+Dialogue: 0,0:32:52.15,0:32:54.07,Default,,0,0,0,,Don't be disappointed\Nif that doesn't happen.
+Dialogue: 0,0:32:54.06,0:32:55.73,Default,,0,0,0,,Just looking to get in the top 30.
+Dialogue: 0,0:32:55.73,0:32:58.27,Default,,0,0,0,,But that gets you enough money\Nto send Vienna to dance school.
+Dialogue: 0,0:32:58.27,0:33:00.89,Default,,0,0,0,,You gotta do it.\NOne of us kids has to amount to something.
+Dialogue: 0,0:33:00.90,0:33:03.65,Default,,0,0,0,,What are you talking about?\NYou're all something.
+Dialogue: 0,0:33:03.65,0:33:07.27,Default,,0,0,0,,Something to me.\NGet in here. Love you guys.
+Dialogue: 0,0:33:07.27,0:33:10.85,Default,,0,0,0,,This is the first time you're gonna be\Nfar away from us since Mom left.
+Dialogue: 0,0:33:10.85,0:33:13.35,Default,,0,0,0,,We can FaceTime Dad every day.\NIt'll be okay.
+Dialogue: 0,0:33:13.35,0:33:15.64,Default,,0,0,0,,- [Happy] Yeah, day or night. You hear me?\N- [Bobby] Yeah.
+Dialogue: 0,0:33:15.65,0:33:18.86,Default,,0,0,0,,And I'll be back Sunday to see you goons.\NI promise you.
+Dialogue: 0,0:33:18.85,0:33:20.85,Default,,0,0,0,,Hopefully with one of them big checks.
+Dialogue: 0,0:33:20.85,0:33:23.18,Default,,0,0,0,,Hell yeah, Dad. Let's go.
+Dialogue: 0,0:33:23.19,0:33:25.02,Default,,0,0,0,,Make sure John Daly\Ndoesn't sleep in my bed.
+Dialogue: 0,0:33:25.02,0:33:26.48,Default,,0,0,0,,If he does, no M&M's. Okay?
+Dialogue: 0,0:33:26.48,0:33:27.48,Default,,0,0,0,,- Got it.\N- Got it.
+Dialogue: 0,0:33:31.94,0:33:33.32,Default,,0,0,0,,{\an8}Arnold.
+Dialogue: 0,0:33:34.23,0:33:35.48,Default,,0,0,0,,{\an8}Jack-o.
+Dialogue: 0,0:33:36.81,0:33:37.85,Default,,0,0,0,,{\an8}Tiger.
+Dialogue: 0,0:33:39.44,0:33:40.44,Default,,0,0,0,,SpongeBob?
+Dialogue: 0,0:33:41.31,0:33:42.60,Default,,0,0,0,,{\an8}What is that?
+Dialogue: 0,0:33:42.60,0:33:44.81,Default,,0,0,0,,What's with the beaver teeth?
+Dialogue: 0,0:33:44.81,0:33:46.56,Default,,0,0,0,,[Doug] The truth can hurt sometimes.
+Dialogue: 0,0:33:46.56,0:33:50.06,Default,,0,0,0,,- Oh, my goodness. Dougie boy!\N- Happy! [chuckles]
+Dialogue: 0,0:33:50.06,0:33:53.81,Default,,0,0,0,,I missed you, bro.\NHow's everything been going?
+Dialogue: 0,0:33:53.81,0:33:56.14,Default,,0,0,0,,Oh, it gets harder every year, Happy.
+Dialogue: 0,0:33:56.15,0:33:58.40,Default,,0,0,0,,How's it getting harder? I'm not around.
+Dialogue: 0,0:33:58.40,0:34:00.77,Default,,0,0,0,,Yeah, honestly, the Maxi Golf League.
+Dialogue: 0,0:34:00.77,0:34:03.77,Default,,0,0,0,,The Maxi... I saw a commercial for that.\NIt looked stupid.
+Dialogue: 0,0:34:03.77,0:34:07.23,Default,,0,0,0,,- Well, supposedly, it is faster-paced...\N- Yeah, yeah.
+Dialogue: 0,0:34:07.23,0:34:10.52,Default,,0,0,0,,...and our biggest sponsors\Nare suddenly slow to call me back.
+Dialogue: 0,0:34:10.52,0:34:12.52,Default,,0,0,0,,I got a bad feeling about this.
+Dialogue: 0,0:34:12.52,0:34:16.52,Default,,0,0,0,,We got the greatest golfers in the world.\NThat's what people want to see, the best.
+Dialogue: 0,0:34:16.52,0:34:18.56,Default,,0,0,0,,Manatee says his guys are better.
+Dialogue: 0,0:34:18.56,0:34:20.35,Default,,0,0,0,,There's only one way to find out.
+Dialogue: 0,0:34:20.35,0:34:22.56,Default,,0,0,0,,Challenge him.\NPeople would love to watch that.
+Dialogue: 0,0:34:22.56,0:34:26.06,Default,,0,0,0,,Wow! Virginia really rubbed off on you.
+Dialogue: 0,0:34:26.06,0:34:27.48,Default,,0,0,0,,We had five kids together.
+Dialogue: 0,0:34:27.48,0:34:29.02,Default,,0,0,0,,She rubbed off on me all the time,
+Dialogue: 0,0:34:29.02,0:34:31.35,Default,,0,0,0,,and I just laid there\Nlike a sack of potatoes.
+Dialogue: 0,0:34:31.35,0:34:34.72,Default,,0,0,0,,[chuckles] As charming as ever.\NHey, just get inside.
+Dialogue: 0,0:34:34.73,0:34:36.44,Default,,0,0,0,,The guys are excited to see you.
+Dialogue: 0,0:34:36.44,0:34:40.61,Default,,0,0,0,,Would you at least get Invisalign\Nfor that thing? Thank you.
+Dialogue: 0,0:34:41.52,0:34:44.60,Default,,0,0,0,,Hey, Happy, you gonna finish off\Nthat blueberry jubilee?
+Dialogue: 0,0:34:44.60,0:34:48.47,Default,,0,0,0,,Oh, God. Freddy's still snaking\Neverybody's dessert? Okay, you got it.
+Dialogue: 0,0:34:48.48,0:34:49.98,Default,,0,0,0,,Thank you. Cheers.
+Dialogue: 0,0:34:49.98,0:34:52.77,Default,,0,0,0,,I'm so happy to be with you.\NLook forward to getting out there.
+Dialogue: 0,0:34:52.77,0:34:54.52,Default,,0,0,0,,You gonna play tomorrow?
+Dialogue: 0,0:34:54.52,0:34:56.06,Default,,0,0,0,,Why, you guys aren't playing?
+Dialogue: 0,0:34:56.06,0:34:58.31,Default,,0,0,0,,Happy, these kids are 20, 30 years old.
+Dialogue: 0,0:34:58.31,0:34:59.52,Default,,0,0,0,,We're old and stiff.
+Dialogue: 0,0:34:59.52,0:35:01.35,Default,,0,0,0,,We're old, but we're still cool.
+Dialogue: 0,0:35:01.35,0:35:04.10,Default,,0,0,0,,You guys taking aspirin\Nbefore you get out there?
+Dialogue: 0,0:35:04.10,0:35:05.81,Default,,0,0,0,,I'm popping them like Tic Tacs.
+Dialogue: 0,0:35:05.81,0:35:08.10,Default,,0,0,0,,I grind them in my applesauce.
+Dialogue: 0,0:35:08.10,0:35:10.60,Default,,0,0,0,,I used to be able to play 72 holes\Nwithout breaking a sweat.
+Dialogue: 0,0:35:10.60,0:35:12.85,Default,,0,0,0,,Now it takes me ten minutes\Nto get out of this chair.
+Dialogue: 0,0:35:12.85,0:35:14.85,Default,,0,0,0,,- [all chuckle]\N- Yes?
+Dialogue: 0,0:35:14.85,0:35:17.47,Default,,0,0,0,,Do you mind grabbing me\Na half iced tea and half lemonade?
+Dialogue: 0,0:35:17.48,0:35:18.85,Default,,0,0,0,,Arnold Palmer.
+Dialogue: 0,0:35:18.85,0:35:21.81,Default,,0,0,0,,No, Jack Nicklaus,\Nbut I do get that a lot.
+Dialogue: 0,0:35:22.52,0:35:24.10,Default,,0,0,0,,Fantastic. Be back in a jiff.
+Dialogue: 0,0:35:24.77,0:35:28.10,Default,,0,0,0,,Happy, what gives with the comeback\Nattempt after all these years?
+Dialogue: 0,0:35:28.10,0:35:29.47,Default,,0,0,0,,Well, I'm out of cash.
+Dialogue: 0,0:35:29.48,0:35:34.44,Default,,0,0,0,,My daughter has an opportunity\Nto go to this ballet school in Paris, so...
+Dialogue: 0,0:35:34.44,0:35:36.81,Default,,0,0,0,,Happy, I've known you for 30 years.
+Dialogue: 0,0:35:36.81,0:35:39.02,Default,,0,0,0,,You're like a son to me.\NHow much you need?
+Dialogue: 0,0:35:39.02,0:35:40.27,Default,,0,0,0,,300 grand.
+Dialogue: 0,0:35:40.27,0:35:42.48,Default,,0,0,0,,Good luck tomorrow. Hit 'em straight.
+Dialogue: 0,0:35:43.19,0:35:44.73,Default,,0,0,0,,- Excuse me, pal?\N- Yes, sir?
+Dialogue: 0,0:35:44.73,0:35:48.27,Default,,0,0,0,,I asked for a Tanqueray and tonic,\Nbut they gave me Bombay instead.
+Dialogue: 0,0:35:48.27,0:35:52.06,Default,,0,0,0,,I'm the busboy, sir.\NSorry. I will get you a server right now.
+Dialogue: 0,0:35:52.06,0:35:54.48,Default,,0,0,0,,Uh, do you want some bread?
+Dialogue: 0,0:35:54.48,0:35:56.52,Default,,0,0,0,,No, just the right booze, thanks.
+Dialogue: 0,0:35:56.52,0:35:57.89,Default,,0,0,0,,Okay.
+Dialogue: 0,0:35:57.90,0:35:59.23,Default,,0,0,0,,I think I rattled him.
+Dialogue: 0,0:35:59.23,0:36:03.06,Default,,0,0,0,,Hey, Happy, whatever happened to that guy,\Nuh, Shooter McGavin?
+Dialogue: 0,0:36:03.06,0:36:05.48,Default,,0,0,0,,I believe he's still\Nin an institution, Jack.
+Dialogue: 0,0:36:05.48,0:36:06.73,Default,,0,0,0,,Wasn't he friends with O.J.?
+Dialogue: 0,0:36:06.73,0:36:09.90,Default,,0,0,0,,Well, they used to vacation together.\NI don't know if they were friends, but...
+Dialogue: 0,0:36:10.65,0:36:13.65,Default,,0,0,0,,- [thunder rumbling]\N- [laughing]
+Dialogue: 0,0:36:16.94,0:36:18.82,Default,,0,0,0,,This guy's losing it.
+Dialogue: 0,0:36:19.98,0:36:22.90,Default,,0,0,0,,[laughs wickedly]
+Dialogue: 0,0:36:22.90,0:36:24.44,Default,,0,0,0,,[door opens]
+Dialogue: 0,0:36:25.81,0:36:28.39,Default,,0,0,0,,What are you doing here? It's quiet time.
+Dialogue: 0,0:36:28.40,0:36:31.11,Default,,0,0,0,,You suddenly got some\Nvery powerful friends, McGavin.
+Dialogue: 0,0:36:31.73,0:36:35.06,Default,,0,0,0,,{\an8}This is a court order\Nfor your immediate release.
+Dialogue: 0,0:36:35.77,0:36:39.19,Default,,0,0,0,,Excuse me?\NGentleman would like new gin and tonic.
+Dialogue: 0,0:36:39.19,0:36:42.48,Default,,0,0,0,,He said Bombay, no Tanqueray.
+Dialogue: 0,0:36:42.48,0:36:44.65,Default,,0,0,0,,You told Spiethy that was on me, man?
+Dialogue: 0,0:36:44.65,0:36:45.86,Default,,0,0,0,,No, no.
+Dialogue: 0,0:36:45.85,0:36:48.64,Default,,0,0,0,,You threw me under the bus.\NSo you could be the hero?
+Dialogue: 0,0:36:48.65,0:36:49.65,Default,,0,0,0,,[Oscar] No. I... No.
+Dialogue: 0,0:36:49.65,0:36:52.52,Default,,0,0,0,,[Travis] You stabbed me in my back.\NThat's what time it is?
+Dialogue: 0,0:36:52.52,0:36:53.73,Default,,0,0,0,,He just, he just said...
+Dialogue: 0,0:36:53.73,0:36:57.19,Default,,0,0,0,,I can't work like this, man.\NWatching my six all day, every day.
+Dialogue: 0,0:36:57.19,0:36:59.31,Default,,0,0,0,,I just wanted to help. I offered bread.
+Dialogue: 0,0:36:59.31,0:37:00.89,Default,,0,0,0,,You mess around, you find out.
+Dialogue: 0,0:37:01.85,0:37:02.81,Default,,0,0,0,,You're fired.
+Dialogue: 0,0:37:02.81,0:37:03.85,Default,,0,0,0,,Fired?
+Dialogue: 0,0:37:03.85,0:37:05.23,Default,,0,0,0,,- [barks]\N- [yelps]
+Dialogue: 0,0:37:08.06,0:37:11.02,Default,,0,0,0,,Hey, pal. Yo. You think\Nyou were a little harsh on the dude?
+Dialogue: 0,0:37:11.02,0:37:13.10,Default,,0,0,0,,Sorry you had to hear that, Mr. Gilmore.
+Dialogue: 0,0:37:14.06,0:37:17.64,Default,,0,0,0,,You don't know the backstory.\NMr. Couples? More blueberry jubilee?
+Dialogue: 0,0:37:17.65,0:37:20.32,Default,,0,0,0,,Nah, I'm okay. Maybe one more.
+Dialogue: 0,0:37:20.31,0:37:22.35,Default,,0,0,0,,Yeah. Back in two.
+Dialogue: 0,0:37:23.15,0:37:24.86,Default,,0,0,0,,[thunder rumbling]
+Dialogue: 0,0:37:25.69,0:37:27.82,Default,,0,0,0,,Yackety-yack, don't come back.
+Dialogue: 0,0:37:29.69,0:37:30.69,Default,,0,0,0,,Whoo!
+Dialogue: 0,0:37:31.94,0:37:33.27,Default,,0,0,0,,Ah! [laughs]
+Dialogue: 0,0:37:33.98,0:37:36.73,Default,,0,0,0,,[breathes deeply, laughs]
+Dialogue: 0,0:37:38.40,0:37:39.73,Default,,0,0,0,,[horn honking]
+Dialogue: 0,0:37:39.73,0:37:44.81,Default,,0,0,0,,Shooter McGavin. I'm such a massive fan.
+Dialogue: 0,0:37:44.81,0:37:45.85,Default,,0,0,0,,[glass clinking]
+Dialogue: 0,0:37:45.85,0:37:50.52,Default,,0,0,0,,Gentlemen, thank you for being here\Nat the Tour Champions Dinner.
+Dialogue: 0,0:37:51.48,0:37:52.61,Default,,0,0,0,,That's what she said.
+Dialogue: 0,0:37:55.77,0:37:57.06,Default,,0,0,0,,I'm not sure that made sense, X.
+Dialogue: 0,0:37:57.06,0:38:01.77,Default,,0,0,0,,Every time our sport has overcome\Na challenge, we have come out stronger.
+Dialogue: 0,0:38:01.77,0:38:04.85,Default,,0,0,0,,Today's challenge is the Maxi Golf League,
+Dialogue: 0,0:38:04.85,0:38:08.47,Default,,0,0,0,,who allege that they are\Ngoing to make golf more watchable.
+Dialogue: 0,0:38:08.48,0:38:09.81,Default,,0,0,0,,That's what she said.
+Dialogue: 0,0:38:12.48,0:38:14.65,Default,,0,0,0,,- Great joke, Mr. Schauffele.\N- Thanks, buddy.
+Dialogue: 0,0:38:14.65,0:38:16.86,Default,,0,0,0,,I just got off the phone\Nwith the president
+Dialogue: 0,0:38:16.85,0:38:19.43,Default,,0,0,0,,of this new league, Frank Manatee,
+Dialogue: 0,0:38:19.44,0:38:22.02,Default,,0,0,0,,and I challenged him to a competition.
+Dialogue: 0,0:38:22.02,0:38:26.56,Default,,0,0,0,,Frank accepted that challenge\Nand then farted into the phone.
+Dialogue: 0,0:38:27.31,0:38:28.14,Default,,0,0,0,,He did what?
+Dialogue: 0,0:38:29.10,0:38:30.43,Default,,0,0,0,,What's the competition?
+Dialogue: 0,0:38:30.44,0:38:33.44,Default,,0,0,0,,Our five best players\Nversus his five best.
+Dialogue: 0,0:38:33.44,0:38:37.19,Default,,0,0,0,,Make it our five worst. It doesn't matter.\NWe're gonna smoke them anyway!
+Dialogue: 0,0:38:37.19,0:38:39.61,Default,,0,0,0,,[all cheering]
+Dialogue: 0,0:38:39.60,0:38:41.85,Default,,0,0,0,,- Whoo!\N- Yeah!
+Dialogue: 0,0:38:41.85,0:38:46.10,Default,,0,0,0,,Now, I know that you all want the honor\Nof kicking their ass.
+Dialogue: 0,0:38:46.10,0:38:47.81,Default,,0,0,0,,- [all] Yeah!\N- So how about this?
+Dialogue: 0,0:38:47.81,0:38:51.81,Default,,0,0,0,,Top five finishers this weekend\Nrepresent us in the challenge.
+Dialogue: 0,0:38:51.81,0:38:53.60,Default,,0,0,0,,All right. Let's go.
+Dialogue: 0,0:38:54.65,0:38:56.40,Default,,0,0,0,,[mouthing] That's what she said.
+Dialogue: 0,0:38:57.15,0:39:00.15,Default,,0,0,0,,Gentlemen, by showing\Nthe world our dominance,
+Dialogue: 0,0:39:00.15,0:39:04.61,Default,,0,0,0,,we will eliminate this league\Nbefore it even officially launches.
+Dialogue: 0,0:39:04.60,0:39:06.77,Default,,0,0,0,,- [player] Let's go!\N- [all cheering]
+Dialogue: 0,0:39:09.69,0:39:12.32,Default,,0,0,0,,And now you've got something else\Nto play for, Happy.
+Dialogue: 0,0:39:14.23,0:39:17.69,Default,,0,0,0,,Yeah! Yeah!
+Dialogue: 0,0:39:19.48,0:39:23.48,Default,,0,0,0,,- [both groan]\N- Gosh. I think there's a fork in my ass.
+Dialogue: 0,0:39:23.48,0:39:25.11,Default,,0,0,0,,Now that's what she said.
+Dialogue: 0,0:39:26.44,0:39:28.73,Default,,0,0,0,,- Yeah!\N- [all cheering]
+Dialogue: 0,0:39:29.98,0:39:31.90,Default,,0,0,0,,- [whoops]\N- [both whoop]
+Dialogue: 0,0:39:36.10,0:39:38.64,Default,,0,0,0,,[Verne] {\i1}The sun is shining.\NThe greens are shimmering.{\i0}
+Dialogue: 0,0:39:38.65,0:39:40.61,Default,,0,0,0,,{\an8}{\i1}What a day to play some golf.{\i0}
+Dialogue: 0,0:39:40.60,0:39:44.93,Default,,0,0,0,,{\i1}Welcome to the big one,\Nthe U.S. Bank Tour Championship.{\i0}
+Dialogue: 0,0:39:44.94,0:39:48.65,Default,,0,0,0,,{\an8}I'm Verne Lundquist.\NHere, as always, with Jack Beard.
+Dialogue: 0,0:39:48.65,0:39:52.44,Default,,0,0,0,,{\an8}And the golfer everyone is talking about,\NHappy Gilmore.
+Dialogue: 0,0:39:52.44,0:39:53.65,Default,,0,0,0,,- Looks handsome.\N- Yeah.
+Dialogue: 0,0:39:53.65,0:39:57.27,Default,,0,0,0,,{\an8}[Verne] {\i1}Gilmore returns\Nafter a ten-year absence.{\i0}
+Dialogue: 0,0:39:57.27,0:39:59.10,Default,,0,0,0,,{\an8}[woman] {\i1}Some of the guys\Nset your locker up.{\i0}
+Dialogue: 0,0:40:01.31,0:40:05.35,Default,,0,0,0,,{\an8}Bengay, Tums. Preparation H, yeah.
+Dialogue: 0,0:40:05.35,0:40:06.85,Default,,0,0,0,,MiraLAX, always good.
+Dialogue: 0,0:40:06.85,0:40:10.77,Default,,0,0,0,,{\an8}And, uh, diapers. Now that's pushing it.
+Dialogue: 0,0:40:16.48,0:40:18.31,Default,,0,0,0,,I know you never made it\Nto the Bruins, Happy,
+Dialogue: 0,0:40:18.31,0:40:20.39,Default,,0,0,0,,but maybe you'll make\Nthis five-man wrecking crew.
+Dialogue: 0,0:40:20.40,0:40:25.23,Default,,0,0,0,,Oh, I doubt that, Tony. I'm actually\Njust worried about making the cut.
+Dialogue: 0,0:40:25.23,0:40:26.81,Default,,0,0,0,,Mr. Gilmore, Sergio told me
+Dialogue: 0,0:40:26.81,0:40:30.43,Default,,0,0,0,,you forgot to bring a caddie\Nto your first tournament. Is that true?
+Dialogue: 0,0:40:30.44,0:40:32.44,Default,,0,0,0,,[laughs] He said that? No.
+Dialogue: 0,0:40:32.44,0:40:35.73,Default,,0,0,0,,Well, yeah, but still,\NI didn't know the rules back then.
+Dialogue: 0,0:40:35.73,0:40:37.19,Default,,0,0,0,,That's insane.
+Dialogue: 0,0:40:37.19,0:40:40.65,Default,,0,0,0,,Yeah, that was silly.\NCan't believe I would do that.
+Dialogue: 0,0:40:44.60,0:40:46.64,Default,,0,0,0,,[choking]
+Dialogue: 0,0:40:48.27,0:40:52.44,Default,,0,0,0,,Hey, brother. Good to see you, man.\NSo here's what happened.
+Dialogue: 0,0:40:52.44,0:40:56.27,Default,,0,0,0,,My regular caddie moved to Switzerland\Nfor tax purposes,
+Dialogue: 0,0:40:56.27,0:40:58.60,Default,,0,0,0,,so I'm kind of like, I got nowhere to go.
+Dialogue: 0,0:40:58.60,0:41:01.52,Default,,0,0,0,,What do you say,\Nyou and me for old times' sake?
+Dialogue: 0,0:41:01.52,0:41:03.27,Default,,0,0,0,,That's nice, Mr. Gilmore,
+Dialogue: 0,0:41:03.27,0:41:06.52,Default,,0,0,0,,but I, unfortunately,\NI can't caddie for you today.
+Dialogue: 0,0:41:06.52,0:41:10.06,Default,,0,0,0,,You're not still mad about\Nthe whole choking you thing, are you?
+Dialogue: 0,0:41:10.06,0:41:11.64,Default,,0,0,0,,No, it's not that.
+Dialogue: 0,0:41:11.65,0:41:14.07,Default,,0,0,0,,It's actually, I don't caddie anymore.
+Dialogue: 0,0:41:14.06,0:41:17.31,Default,,0,0,0,,I, uh... I play now.\NWe're actually playing together today.
+Dialogue: 0,0:41:17.31,0:41:20.85,Default,,0,0,0,,I didn't know that, Blondie.\NAll right, well, I'll see you out there.
+Dialogue: 0,0:41:20.85,0:41:21.77,Default,,0,0,0,,I'll see ya.
+Dialogue: 0,0:41:23.31,0:41:24.81,Default,,0,0,0,,Blondie. [chuckles]
+Dialogue: 0,0:41:25.44,0:41:30.02,Default,,0,0,0,,My name's Will, and I'm still mad at you\Nfor choking me out, you son of a bitch.
+Dialogue: 0,0:41:30.02,0:41:32.73,Default,,0,0,0,,[Verne] {\i1}We're minutes away from the start,{\i0}
+Dialogue: 0,0:41:32.73,0:41:37.40,Default,,0,0,0,,{\i1}and Happy Gilmore is apparently\Nbreaking in yet another new caddie.{\i0}
+Dialogue: 0,0:41:37.40,0:41:39.19,Default,,0,0,0,,Uh, it's a club. Yeah.
+Dialogue: 0,0:41:39.19,0:41:41.27,Default,,0,0,0,,Club. Oh, like the club sandwich.
+Dialogue: 0,0:41:41.27,0:41:42.85,Default,,0,0,0,,Not the club sandwich. Okay.
+Dialogue: 0,0:41:42.85,0:41:45.43,Default,,0,0,0,,[Verne] {\i1}Let's check in\Nwith our own Gary Potter,{\i0}
+Dialogue: 0,0:41:45.44,0:41:48.36,Default,,0,0,0,,{\an8}who's with number one-ranked\NScottie Scheffler.
+Dialogue: 0,0:41:48.35,0:41:49.35,Default,,0,0,0,,{\an8}{\i1}Thanks, Verne.{\i0}
+Dialogue: 0,0:41:49.35,0:41:51.43,Default,,0,0,0,,{\an8}{\i1}Scottie, you have been on quite a tear.{\i0}
+Dialogue: 0,0:41:51.44,0:41:53.69,Default,,0,0,0,,{\an8}{\i1}My God.\NYou're seeing the ball and the hole,{\i0}
+Dialogue: 0,0:41:53.69,0:41:56.69,Default,,0,0,0,,{\an8}{\i1}and the position of the ball\Nand the hole... all good things.{\i0}
+Dialogue: 0,0:41:56.69,0:41:58.73,Default,,0,0,0,,{\an8}{\i1}Is there a question in there, Gary?{\i0}
+Dialogue: 0,0:41:58.73,0:42:02.19,Default,,0,0,0,,{\an8}{\i1}Scottie, if you're the best,\Ndoes that make everyone else the worst?{\i0}
+Dialogue: 0,0:42:03.15,0:42:04.48,Default,,0,0,0,,{\an8}{\i1}I'm just gonna go warm up.{\i0}
+Dialogue: 0,0:42:04.48,0:42:07.98,Default,,0,0,0,,{\an8}{\i1}Always great catching up with Scottie.\NBack to you, Verne.{\i0}
+Dialogue: 0,0:42:07.98,0:42:09.52,Default,,0,0,0,,Thanks, Gary.
+Dialogue: 0,0:42:10.60,0:42:14.85,Default,,0,0,0,,{\an8}The threesome of Justin Thomas,\NWill Zalatoris,
+Dialogue: 0,0:42:14.85,0:42:18.43,Default,,0,0,0,,{\i1}and Happy Gilmore is about to tee off.{\i0}
+Dialogue: 0,0:42:20.94,0:42:23.44,Default,,0,0,0,,- Ooh.\N- [crowd cheering, applauding]
+Dialogue: 0,0:42:26.10,0:42:27.93,Default,,0,0,0,,Nice. Nice bang, JT.
+Dialogue: 0,0:42:27.94,0:42:29.73,Default,,0,0,0,,Pressure's on with Happy watching.
+Dialogue: 0,0:42:29.73,0:42:31.15,Default,,0,0,0,,My family loves you.
+Dialogue: 0,0:42:31.15,0:42:33.19,Default,,0,0,0,,I'm actually rooting for you.\NI gotta stop.
+Dialogue: 0,0:42:33.19,0:42:35.73,Default,,0,0,0,,No. Keep it coming.\NI need all the love I can get.
+Dialogue: 0,0:42:35.73,0:42:36.65,Default,,0,0,0,,Gotcha.
+Dialogue: 0,0:42:36.65,0:42:38.98,Default,,0,0,0,,- Now on the tee, Zalatoris, Will.\N- [chuckles]
+Dialogue: 0,0:42:40.85,0:42:43.10,Default,,0,0,0,,- That's your name?\N- [chuckles]
+Dialogue: 0,0:42:43.69,0:42:46.11,Default,,0,0,0,,"That's your name?" What an idiot.
+Dialogue: 0,0:42:46.10,0:42:50.02,Default,,0,0,0,,I'm a little intimidated.\NAll these guys hit it big now, you know?
+Dialogue: 0,0:42:50.02,0:42:52.52,Default,,0,0,0,,Do you need a water refill?\NAny breadsticks?
+Dialogue: 0,0:42:52.52,0:42:55.69,Default,,0,0,0,,No. Maybe I'll go to my happy place.
+Dialogue: 0,0:42:56.81,0:42:58.44,Default,,0,0,0,,Okay. I will be here.
+Dialogue: 0,0:43:03.94,0:43:04.98,Default,,0,0,0,,[crowd cheering]
+Dialogue: 0,0:43:04.98,0:43:07.56,Default,,0,0,0,,It's not working.\NI don't drink beer anymore.
+Dialogue: 0,0:43:08.65,0:43:09.82,Default,,0,0,0,,Good.
+Dialogue: 0,0:43:09.81,0:43:12.77,Default,,0,0,0,,Now on the tee, Gilmore, Happy.
+Dialogue: 0,0:43:12.77,0:43:14.52,Default,,0,0,0,,[man] Welcome back, Happy!
+Dialogue: 0,0:43:14.52,0:43:18.77,Default,,0,0,0,,[Verne] {\i1}Golf fans around the world\Nare excited to see Happy Gilmore again,{\i0}
+Dialogue: 0,0:43:18.77,0:43:20.56,Default,,0,0,0,,{\i1}but at 58 years old,{\i0}
+Dialogue: 0,0:43:20.56,0:43:25.39,Default,,0,0,0,,{\i1}I'm not sure even Gilmore thinks\Nhe can compete with today's best.{\i0}
+Dialogue: 0,0:43:25.40,0:43:26.36,Default,,0,0,0,,[man] Hey, Happy!
+Dialogue: 0,0:43:26.35,0:43:28.43,Default,,0,0,0,,I guess I need to update my happy place
+Dialogue: 0,0:43:28.44,0:43:31.77,Default,,0,0,0,,to something a little more\Nage appropriate.
+Dialogue: 0,0:43:33.90,0:43:36.48,Default,,0,0,0,,Whoa! [laughing]
+Dialogue: 0,0:43:36.48,0:43:38.94,Default,,0,0,0,,{\an8}[yelping]
+Dialogue: 0,0:43:43.56,0:43:45.19,Default,,0,0,0,,{\an8}[bell ringing]
+Dialogue: 0,0:43:48.23,0:43:51.19,Default,,0,0,0,,You can do it! [laughs]
+Dialogue: 0,0:44:01.06,0:44:02.73,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:44:16.31,0:44:19.69,Default,,0,0,0,,- [ball whizzing]\N- [crowd murmuring]
+Dialogue: 0,0:44:24.02,0:44:26.56,Default,,0,0,0,,[crowd cheering]
+Dialogue: 0,0:44:27.60,0:44:28.73,Default,,0,0,0,,Okay.
+Dialogue: 0,0:44:29.40,0:44:31.82,Default,,0,0,0,,{\i1}- Thank you, Happy!\N-{\i0} [all cheering]
+Dialogue: 0,0:44:31.81,0:44:34.52,Default,,0,0,0,,- Let's go!\N- Let's go!
+Dialogue: 0,0:44:35.48,0:44:37.60,Default,,0,0,0,,Never did that before. Thank you, man.
+Dialogue: 0,0:44:37.60,0:44:40.35,Default,,0,0,0,,Okay, well, let's get--\NAll right, we're going to go.
+Dialogue: 0,0:44:40.35,0:44:42.85,Default,,0,0,0,,- But you bring those. Those always come.\N- Oh.
+Dialogue: 0,0:44:43.65,0:44:45.65,Default,,0,0,0,,All right? That's it, that's it.
+Dialogue: 0,0:44:45.65,0:44:46.61,Default,,0,0,0,,I'm sorry.
+Dialogue: 0,0:44:46.60,0:44:49.35,Default,,0,0,0,,No, no. They got a strap\Nif you want to use the strap.
+Dialogue: 0,0:44:49.35,0:44:52.10,Default,,0,0,0,,["She Sells Sanctuary" playing]
+Dialogue: 0,0:44:55.85,0:44:57.39,Default,,0,0,0,,[crowd cheering]
+Dialogue: 0,0:45:01.94,0:45:05.36,Default,,0,0,0,,A snake! Get it off me, god damn it!
+Dialogue: 0,0:45:05.35,0:45:07.06,Default,,0,0,0,,Get the snake!
+Dialogue: 0,0:45:09.02,0:45:10.94,Default,,0,0,0,,[Happy] Come on. Come on. Come on.
+Dialogue: 0,0:45:11.60,0:45:15.77,Default,,0,0,0,,- [cheering]\N- Goal! Yeah, baby!
+Dialogue: 0,0:45:18.65,0:45:21.02,Default,,0,0,0,,- Come on, Happy!\N- [indistinct chatter]
+Dialogue: 0,0:45:21.02,0:45:22.69,Default,,0,0,0,,{\i1}Man, I don't drink.{\i0}
+Dialogue: 0,0:45:23.69,0:45:25.02,Default,,0,0,0,,How about some coffee?
+Dialogue: 0,0:45:25.02,0:45:28.27,Default,,0,0,0,,That I can do! Let's go.\NLet's go. Let's go.
+Dialogue: 0,0:45:28.27,0:45:31.48,Default,,0,0,0,,[all chanting] Chug, chug, chug!
+Dialogue: 0,0:45:31.48,0:45:33.52,Default,,0,0,0,,[cheering]
+Dialogue: 0,0:45:33.52,0:45:36.06,Default,,0,0,0,,Yeah!
+Dialogue: 0,0:45:37.56,0:45:40.56,Default,,0,0,0,,Yeah! Let's go! Yeah!
+Dialogue: 0,0:45:41.44,0:45:43.82,Default,,0,0,0,,[yelling]
+Dialogue: 0,0:45:47.15,0:45:49.61,Default,,0,0,0,,Holy shit!
+Dialogue: 0,0:45:54.44,0:45:56.44,Default,,0,0,0,,[crowd cheering]
+Dialogue: 0,0:46:02.69,0:46:04.27,Default,,0,0,0,,[woman] Still the man, Happy!
+Dialogue: 0,0:46:04.27,0:46:06.60,Default,,0,0,0,,- [phone rings]\N- It's my kids. Sorry, everyone.
+Dialogue: 0,0:46:06.60,0:46:08.64,Default,,0,0,0,,{\i1}- Good to see you, boy!{\i0}\N- There they are.
+Dialogue: 0,0:46:08.65,0:46:11.23,Default,,0,0,0,,Daddy's on the tee...\NWanna see Daddy drive the ball?
+Dialogue: 0,0:46:11.23,0:46:14.36,Default,,0,0,0,,{\an8}Please, dear. Thank you.\NAll right, boys. This is for you.
+Dialogue: 0,0:46:17.81,0:46:19.14,Default,,0,0,0,,Whoa!
+Dialogue: 0,0:46:19.15,0:46:21.94,Default,,0,0,0,,Oh! Daddy got a hold of that one.
+Dialogue: 0,0:46:22.98,0:46:24.31,Default,,0,0,0,,What are you doing?
+Dialogue: 0,0:46:24.31,0:46:27.48,Default,,0,0,0,,Gordy! You got to see a doctor about that!
+Dialogue: 0,0:46:27.48,0:46:28.60,Default,,0,0,0,,Happy! Happy! Happy!
+Dialogue: 0,0:46:28.60,0:46:31.68,Default,,0,0,0,,[Verne] {\i1}Entering day two\Nand feeding off the fans' support,{\i0}
+Dialogue: 0,0:46:31.69,0:46:34.94,Default,,0,0,0,,{\an8}{\i1}Happy Gilmore has jumped into the top ten.{\i0}
+Dialogue: 0,0:46:34.94,0:46:37.81,Default,,0,0,0,,Oscar. Where were you? Who's this?
+Dialogue: 0,0:46:37.81,0:46:40.02,Default,,0,0,0,,Oh, he's Esteban, my caddie.
+Dialogue: 0,0:46:40.02,0:46:41.02,Default,,0,0,0,,- Okay.\N- Steven.
+Dialogue: 0,0:46:41.02,0:46:42.23,Default,,0,0,0,,Steven, nice to meet...
+Dialogue: 0,0:46:42.23,0:46:44.90,Default,,0,0,0,,No. You don't get a caddie.\NCaddies don't get caddies. I'm sorry.
+Dialogue: 0,0:46:44.90,0:46:46.36,Default,,0,0,0,,No? Can he play?
+Dialogue: 0,0:46:46.35,0:46:47.89,Default,,0,0,0,,What do you mean... He's not...
+Dialogue: 0,0:46:47.90,0:46:50.61,Default,,0,0,0,,This is the pro tournament.\NI'm sorry. He's gotta go.
+Dialogue: 0,0:46:50.60,0:46:52.18,Default,,0,0,0,,[conversing in Spanish]
+Dialogue: 0,0:46:55.06,0:46:57.93,Default,,0,0,0,,[in English] Happy Gilmore! Okay, got it.\N[speaks Spanish] Okay.
+Dialogue: 0,0:46:57.94,0:46:59.86,Default,,0,0,0,,[Happy in English] All right. Ciao. {\i1}Adiós.{\i0}
+Dialogue: 0,0:46:59.85,0:47:01.52,Default,,0,0,0,,He took his hat.
+Dialogue: 0,0:47:01.52,0:47:03.52,Default,,0,0,0,,All right, go! [laughs]
+Dialogue: 0,0:47:03.52,0:47:07.10,Default,,0,0,0,,Okay, we got to play, man.\NLet me have the driver.
+Dialogue: 0,0:47:13.90,0:47:17.52,Default,,0,0,0,,Oh, damn it. [sighs, growls]
+Dialogue: 0,0:47:17.52,0:47:20.31,Default,,0,0,0,,[caddie choking] Wait! Please!
+Dialogue: 0,0:47:21.02,0:47:22.35,Default,,0,0,0,,Now he gets it.
+Dialogue: 0,0:47:25.15,0:47:27.65,Default,,0,0,0,,[crowd exclaiming, cheering]
+Dialogue: 0,0:47:28.90,0:47:30.23,Default,,0,0,0,,- Happy! Happy!\N- That was the shot.
+Dialogue: 0,0:47:30.23,0:47:32.90,Default,,0,0,0,,Daddy! Daddy! Daddy!
+Dialogue: 0,0:47:32.90,0:47:35.65,Default,,0,0,0,,{\an8}[Verne] {\i1}And heading into Saturday,\Ntwo shots back.{\i0}
+Dialogue: 0,0:47:35.65,0:47:38.15,Default,,0,0,0,,{\an8}{\i1}The comeback kid, Happy Gilmore.{\i0}
+Dialogue: 0,0:47:38.15,0:47:41.82,Default,,0,0,0,,- [man] Good shot, Happy!\N- [crowd cheering]
+Dialogue: 0,0:47:49.48,0:47:51.60,Default,,0,0,0,,[crowd cheering]
+Dialogue: 0,0:47:51.60,0:47:54.81,Default,,0,0,0,,[men] Happy! Rules!
+Dialogue: 0,0:47:54.81,0:47:57.10,Default,,0,0,0,,- [gagging]\N- [crowd chanting] Happy! Happy!
+Dialogue: 0,0:47:58.31,0:48:01.60,Default,,0,0,0,,Guys, what are you doing?\NI'm trying to watch your dad play golf!
+Dialogue: 0,0:48:01.60,0:48:04.43,Default,,0,0,0,,- Guys, we can't hear!\N- Come on, guys.
+Dialogue: 0,0:48:04.44,0:48:06.81,Default,,0,0,0,,[Verne] {\i1}No one could have expected this.{\i0}
+Dialogue: 0,0:48:06.81,0:48:08.48,Default,,0,0,0,,{\i1}Happy Gilmore.{\i0}
+Dialogue: 0,0:48:08.48,0:48:12.06,Default,,0,0,0,,{\an8}From off the couch to the top\Nof the leaderboard.
+Dialogue: 0,0:48:12.06,0:48:14.85,Default,,0,0,0,,{\i1}And what was supposed to be\Na nostalgic footnote{\i0}
+Dialogue: 0,0:48:14.85,0:48:19.02,Default,,0,0,0,,{\i1}has turned into one of the best\Nthree rounds anyone has ever seen.{\i0}
+Dialogue: 0,0:48:19.02,0:48:22.31,Default,,0,0,0,,The thing is,\Nif I go for this and miss the cup,
+Dialogue: 0,0:48:22.31,0:48:25.14,Default,,0,0,0,,it's going to roll\Nright off the green, so... yeah.
+Dialogue: 0,0:48:25.15,0:48:27.02,Default,,0,0,0,,- Okay, I see.\N- Yeah.
+Dialogue: 0,0:48:27.02,0:48:28.39,Default,,0,0,0,,What's a green?
+Dialogue: 0,0:48:28.40,0:48:31.11,Default,,0,0,0,,Green? Know what?\NDon't worry about that right now.
+Dialogue: 0,0:48:31.10,0:48:34.18,Default,,0,0,0,,What I'm looking for\Nis some positive energy, you know?
+Dialogue: 0,0:48:34.19,0:48:35.15,Default,,0,0,0,,Can I help?
+Dialogue: 0,0:48:35.15,0:48:38.11,Default,,0,0,0,,Actually, you can.\NRemember the happy place I went to?
+Dialogue: 0,0:48:38.10,0:48:40.23,Default,,0,0,0,,- Yes.\N- You go to yours.
+Dialogue: 0,0:48:40.98,0:48:42.40,Default,,0,0,0,,Okay, I'll try.
+Dialogue: 0,0:48:43.56,0:48:46.19,Default,,0,0,0,,[breathes deeply]
+Dialogue: 0,0:48:48.56,0:48:49.56,Default,,0,0,0,,What's up, man?
+Dialogue: 0,0:48:50.06,0:48:52.14,Default,,0,0,0,,What do you got there? Honey?
+Dialogue: 0,0:48:53.31,0:48:57.43,Default,,0,0,0,,{\an8}What is this? What is this?
+Dialogue: 0,0:48:57.44,0:48:59.77,Default,,0,0,0,,Is this about the job? Come on--
+Dialogue: 0,0:49:00.52,0:49:04.44,Default,,0,0,0,,{\an8}Let's-- [giggling] That's-- Come on, man.
+Dialogue: 0,0:49:06.27,0:49:10.60,Default,,0,0,0,,- Oh, no. Not a bear. Not a bear.\N- [sniffing]
+Dialogue: 0,0:49:10.60,0:49:12.97,Default,,0,0,0,,- Goddamn you, busboy!\N- [growls]
+Dialogue: 0,0:49:12.98,0:49:14.23,Default,,0,0,0,,[screams]
+Dialogue: 0,0:49:14.23,0:49:16.77,Default,,0,0,0,,[mimics growling]
+Dialogue: 0,0:49:20.73,0:49:23.19,Default,,0,0,0,,- I'm happy now. Hit the ball.\N- Yeah.
+Dialogue: 0,0:49:23.19,0:49:24.56,Default,,0,0,0,,Yes.
+Dialogue: 0,0:49:24.56,0:49:27.77,Default,,0,0,0,,You were thinking about\Na bear eating that waiter, weren't you?
+Dialogue: 0,0:49:27.77,0:49:28.73,Default,,0,0,0,,Yes.
+Dialogue: 0,0:49:28.73,0:49:32.35,Default,,0,0,0,,- I thought so. Was there honey involved?\N{\i1}- Un poquito.{\i0}
+Dialogue: 0,0:49:32.35,0:49:33.97,Default,,0,0,0,,[in English] I love it.
+Dialogue: 0,0:49:33.98,0:49:35.23,Default,,0,0,0,,[man] Come on, Happy.
+Dialogue: 0,0:49:36.23,0:49:39.69,Default,,0,0,0,,- [woman] Come on, Happy.\N- [crowd murmuring]
+Dialogue: 0,0:49:40.65,0:49:43.19,Default,,0,0,0,,[Verne] {\i1}Oh, no.\NI don't see that one stopping.{\i0}
+Dialogue: 0,0:49:43.19,0:49:44.86,Default,,0,0,0,,{\i1}Wait a minute.{\i0}
+Dialogue: 0,0:49:44.85,0:49:47.93,Default,,0,0,0,,{\i1}- Zalatoris' ball marker to the rescue!\N-{\i0} [cheering]
+Dialogue: 0,0:49:47.94,0:49:49.81,Default,,0,0,0,,Yeah, Blondie! [laughs]
+Dialogue: 0,0:49:49.81,0:49:52.06,Default,,0,0,0,,{\an8}{\i1}And the fairy tale continues.{\i0}
+Dialogue: 0,0:49:52.06,0:49:55.77,Default,,0,0,0,,{\i1}Happy Gilmore has somehow\Nturned back the hands of time.{\i0}
+Dialogue: 0,0:49:58.40,0:50:00.61,Default,,0,0,0,,- No. Not again.\N- Come here. Come on!
+Dialogue: 0,0:50:01.90,0:50:03.82,Default,,0,0,0,,We gotta do it!
+Dialogue: 0,0:50:03.81,0:50:06.77,Default,,0,0,0,,- [crowd] Oh!\N- [groaning]
+Dialogue: 0,0:50:06.77,0:50:11.02,Default,,0,0,0,,- I love it! Yeah, Oscar! Whoo!\N- [groaning]
+Dialogue: 0,0:50:11.02,0:50:13.39,Default,,0,0,0,,{\an8}{\i1}Less than two months\Nafter hitting rock bottom{\i0}
+Dialogue: 0,0:50:13.40,0:50:15.27,Default,,0,0,0,,{\an8}{\i1}in a drunken golf cart crash,{\i0}
+Dialogue: 0,0:50:15.27,0:50:20.27,Default,,0,0,0,,{\an8}{\i1}Happy Gilmore is 18 holes away\Nfrom a seventh gold jacket.{\i0}
+Dialogue: 0,0:50:20.27,0:50:22.19,Default,,0,0,0,,The only possible conclusion is that
+Dialogue: 0,0:50:22.19,0:50:25.90,Default,,0,0,0,,Happy Gilmore has reached an agreement\Nof some kind
+Dialogue: 0,0:50:25.90,0:50:29.40,Default,,0,0,0,,with Satan, a.k.a. the Devil!
+Dialogue: 0,0:50:29.40,0:50:32.23,Default,,0,0,0,,[man] All right. Let's go! Happy!
+Dialogue: 0,0:50:32.23,0:50:33.81,Default,,0,0,0,,- Good job, Mr. Gilmore.\N- What's up?
+Dialogue: 0,0:50:33.81,0:50:35.06,Default,,0,0,0,,In the zone today. Man.
+Dialogue: 0,0:50:35.06,0:50:37.89,Default,,0,0,0,,We were putting. We were doing okay.\NA little luck involved.
+Dialogue: 0,0:50:37.90,0:50:39.82,Default,,0,0,0,,Hey, Mr. Gilmore. Billy Jenkins.
+Dialogue: 0,0:50:39.81,0:50:41.81,Default,,0,0,0,,- Hey, nice to meet you, Bobby.\N- Billy.
+Dialogue: 0,0:50:41.81,0:50:44.60,Default,,0,0,0,,Billy was on fire today.\NI was like, where did that come from?
+Dialogue: 0,0:50:44.60,0:50:47.22,Default,,0,0,0,,Had the best round of my life.\NI'm in second place.
+Dialogue: 0,0:50:47.23,0:50:48.69,Default,,0,0,0,,You and me play tomorrow.
+Dialogue: 0,0:50:48.69,0:50:50.27,Default,,0,0,0,,You're kidding. Look forward to that.
+Dialogue: 0,0:50:50.27,0:50:53.10,Default,,0,0,0,,I've never been in the hunt.\NIt's a dream come true.
+Dialogue: 0,0:50:53.10,0:50:55.14,Default,,0,0,0,,You're going to love it.\NYou get in the top five,
+Dialogue: 0,0:50:55.15,0:50:57.86,Default,,0,0,0,,you get to play against those buffoons\Nfrom the new league.
+Dialogue: 0,0:50:57.85,0:50:59.81,Default,,0,0,0,,What's up with that tool\Nstarting that league?
+Dialogue: 0,0:50:59.81,0:51:01.52,Default,,0,0,0,,The guy came to see me to talk about it.
+Dialogue: 0,0:51:01.52,0:51:04.44,Default,,0,0,0,,He had the worst breath\NI've ever smelled in my life.
+Dialogue: 0,0:51:04.44,0:51:05.86,Default,,0,0,0,,Like somebody died in his mouth
+Dialogue: 0,0:51:05.85,0:51:08.06,Default,,0,0,0,,or a donkey took a shit there\Nor something...
+Dialogue: 0,0:51:08.06,0:51:10.18,Default,,0,0,0,,It was not good.\NAnyways, I got to get to a meeting.
+Dialogue: 0,0:51:10.19,0:51:12.52,Default,,0,0,0,,Love you, Bubba. David, good to see you.
+Dialogue: 0,0:51:12.52,0:51:13.85,Default,,0,0,0,,It's Billy.
+Dialogue: 0,0:51:13.85,0:51:19.22,Default,,0,0,0,,[clears throat] So, in summary, I am no\Nlonger allowed to purchase magic markers
+Dialogue: 0,0:51:19.23,0:51:20.81,Default,,0,0,0,,in the state of Connecticut.
+Dialogue: 0,0:51:20.81,0:51:23.77,Default,,0,0,0,,I am Nate,\Nand I am one day sober. [chuckles]
+Dialogue: 0,0:51:26.94,0:51:30.23,Default,,0,0,0,,- Nate, you're an example to us all.\N- [laughs]
+Dialogue: 0,0:51:30.85,0:51:31.68,Default,,0,0,0,,What?
+Dialogue: 0,0:51:31.69,0:51:33.69,Default,,0,0,0,,Before we finish,\NI'd like to say a few words
+Dialogue: 0,0:51:33.69,0:51:36.19,Default,,0,0,0,,about the remarkable achievement\Nof our brother, Happy.
+Dialogue: 0,0:51:36.19,0:51:39.40,Default,,0,0,0,,We've been watching you play, Mr. Gilmore.\NSo inspiring.
+Dialogue: 0,0:51:39.40,0:51:44.77,Default,,0,0,0,,Yeah! Happy Gilmore, making Black people\Nlike golf again. [chuckles]
+Dialogue: 0,0:51:44.77,0:51:46.23,Default,,0,0,0,,[Hal] That's right, Bessie.
+Dialogue: 0,0:51:46.23,0:51:49.40,Default,,0,0,0,,I just hope Happy's able to\Ncontinue to play as well tomorrow.
+Dialogue: 0,0:51:50.10,0:51:52.81,Default,,0,0,0,,Tomorrow being of course... Oh...
+Dialogue: 0,0:51:54.10,0:51:55.31,Default,,0,0,0,,Mother's Day.
+Dialogue: 0,0:51:58.73,0:52:02.31,Default,,0,0,0,,[Verne] {\i1}Welcome to the final round\Nof the Tour Championship.{\i0}
+Dialogue: 0,0:52:02.31,0:52:04.06,Default,,0,0,0,,{\i1}Here come your current leaders.{\i0}
+Dialogue: 0,0:52:04.06,0:52:05.48,Default,,0,0,0,,{\i1}Journeyman Billy Jenkins,{\i0}
+Dialogue: 0,0:52:05.48,0:52:10.02,Default,,0,0,0,,{\i1}getting his first taste of success\Nafter an undistinguished career.{\i0}
+Dialogue: 0,0:52:10.02,0:52:11.69,Default,,0,0,0,,{\i1}The only man in his way,{\i0}
+Dialogue: 0,0:52:11.69,0:52:16.65,Default,,0,0,0,,{\i1}a golf magician\Nnamed Happy Octavius Gilmore.{\i0}
+Dialogue: 0,0:52:16.65,0:52:18.86,Default,,0,0,0,,{\an8}Octavius is his middle name?
+Dialogue: 0,0:52:18.85,0:52:21.18,Default,,0,0,0,,{\an8}Nah, but it sounds cool, doesn't it?
+Dialogue: 0,0:52:21.94,0:52:22.94,Default,,0,0,0,,Wait a minute.
+Dialogue: 0,0:52:23.77,0:52:27.06,Default,,0,0,0,,Can't wear shorts, Mr. Jenkins.\NIt's a two-stroke penalty.
+Dialogue: 0,0:52:27.06,0:52:28.64,Default,,0,0,0,,That's okay.
+Dialogue: 0,0:52:28.65,0:52:31.98,Default,,0,0,0,,I don't want to be hot today.\NMakes my balls itchy.
+Dialogue: 0,0:52:32.85,0:52:35.68,Default,,0,0,0,,[Verne] {\i1}Was that confidence\Nor just pure stupidity?{\i0}
+Dialogue: 0,0:52:37.77,0:52:40.60,Default,,0,0,0,,{\an8}[crowd exclaiming, applauding]
+Dialogue: 0,0:52:42.19,0:52:45.52,Default,,0,0,0,,[announcer] Now on the tee,\NGilmore, Happy.
+Dialogue: 0,0:52:45.52,0:52:47.10,Default,,0,0,0,,[Happy] Nice shot, young man.
+Dialogue: 0,0:52:48.35,0:52:51.35,Default,,0,0,0,,[Verne] {\i1}Happy Gilmore will try to defend\Nhis eight-shot lead{\i0}
+Dialogue: 0,0:52:51.35,0:52:53.64,Default,,0,0,0,,{\i1}on this glorious Mother's Day.{\i0}
+Dialogue: 0,0:53:07.27,0:53:10.69,Default,,0,0,0,,{\an8}{\i1}Gilmore was aiming right for some reason,\Nand that's where it went.{\i0}
+Dialogue: 0,0:53:11.48,0:53:12.90,Default,,0,0,0,,A lot of holes left to play.
+Dialogue: 0,0:53:12.90,0:53:13.82,Default,,0,0,0,,[softly] Yeah.
+Dialogue: 0,0:53:14.73,0:53:18.11,Default,,0,0,0,,It's okay. [speaks Spanish]
+Dialogue: 0,0:53:19.06,0:53:21.89,Default,,0,0,0,,- [humming]\N- [knock on door]
+Dialogue: 0,0:53:21.90,0:53:24.15,Default,,0,0,0,,- Mr. McGavin.\N- [chuckles]
+Dialogue: 0,0:53:24.15,0:53:25.40,Default,,0,0,0,,How'd you sleep?
+Dialogue: 0,0:53:25.40,0:53:28.32,Default,,0,0,0,,This place... is amazing.
+Dialogue: 0,0:53:28.31,0:53:29.89,Default,,0,0,0,,The pillows, the steam shower,
+Dialogue: 0,0:53:29.90,0:53:31.11,Default,,0,0,0,,the free porn,
+Dialogue: 0,0:53:31.10,0:53:33.93,Default,,0,0,0,,and these fluffy pancakes. Oh, my God.
+Dialogue: 0,0:53:33.94,0:53:35.94,Default,,0,0,0,,What do you say you and I go on a tour
+Dialogue: 0,0:53:35.94,0:53:38.56,Default,,0,0,0,,- and I show you what we're all about?\N- Mmm...
+Dialogue: 0,0:53:38.56,0:53:41.43,Default,,0,0,0,,I'll make sure there's a fresh stack\Nwaiting for you when we get back.
+Dialogue: 0,0:53:41.44,0:53:42.65,Default,,0,0,0,,All right.
+Dialogue: 0,0:53:44.23,0:53:45.60,Default,,0,0,0,,Slippers on?
+Dialogue: 0,0:53:45.60,0:53:48.14,Default,,0,0,0,,And why don't you throw on\Nsome underpants, too?
+Dialogue: 0,0:53:48.15,0:53:49.73,Default,,0,0,0,,[man 1] It's all right, Happy.
+Dialogue: 0,0:53:49.73,0:53:51.56,Default,,0,0,0,,[man 2] Hey, Happy. Remember me?
+Dialogue: 0,0:53:53.06,0:53:55.73,Default,,0,0,0,,{\an8}My dad used to be your boss\Nwhen you worked in construction.
+Dialogue: 0,0:53:55.73,0:53:57.48,Default,,0,0,0,,I'm truly proud of you.
+Dialogue: 0,0:53:57.48,0:54:00.15,Default,,0,0,0,,Hey, thanks a lot, Mr. Larson.
+Dialogue: 0,0:54:00.77,0:54:04.14,Default,,0,0,0,,{\an8}Drago Larson. Little Drago Larson?
+Dialogue: 0,0:54:04.15,0:54:06.52,Default,,0,0,0,,Hell yeah! My God!
+Dialogue: 0,0:54:06.52,0:54:10.06,Default,,0,0,0,,I always felt bad about what I did\Nto Daddy and the whole nail thing.
+Dialogue: 0,0:54:10.06,0:54:11.60,Default,,0,0,0,,Actually, after he got it removed,
+Dialogue: 0,0:54:11.60,0:54:13.89,Default,,0,0,0,,he kind of missed it,\Nso he had it put back.
+Dialogue: 0,0:54:13.90,0:54:15.57,Default,,0,0,0,,Oh, okay.
+Dialogue: 0,0:54:15.56,0:54:17.52,Default,,0,0,0,,He passed away a few years ago.
+Dialogue: 0,0:54:17.52,0:54:19.35,Default,,0,0,0,,I'm so sorry. What happened?
+Dialogue: 0,0:54:19.35,0:54:21.22,Default,,0,0,0,,He rolled over in his sleep.
+Dialogue: 0,0:54:21.23,0:54:22.44,Default,,0,0,0,,Oh, yeah.
+Dialogue: 0,0:54:22.44,0:54:25.86,Default,,0,0,0,,At least I still have Mom.\NEvery boy needs his mom.
+Dialogue: 0,0:54:26.56,0:54:28.93,Default,,0,0,0,,- Yeah.\N- Happy have five kids, Mom.
+Dialogue: 0,0:54:28.94,0:54:31.44,Default,,0,0,0,,Oh, tell your wife Happy Mother's Day.
+Dialogue: 0,0:54:32.44,0:54:34.02,Default,,0,0,0,,His wife passed away.
+Dialogue: 0,0:54:34.73,0:54:37.31,Default,,0,0,0,,Oh, I'm so sorry, sweetheart.
+Dialogue: 0,0:54:37.31,0:54:39.52,Default,,0,0,0,,Why didn't you tell me, Jerko?
+Dialogue: 0,0:54:39.52,0:54:41.81,Default,,0,0,0,,Mommy, don't hit me. Mommy, don't hit me.
+Dialogue: 0,0:54:41.81,0:54:43.48,Default,,0,0,0,,Which club do you prefer, sir?
+Dialogue: 0,0:54:43.48,0:54:44.69,Default,,0,0,0,,[man 3] Let's go, Gilmore!
+Dialogue: 0,0:54:44.69,0:54:48.57,Default,,0,0,0,,- Give me... Let me have a wedge.\N- [crowd murmuring]
+Dialogue: 0,0:54:51.90,0:54:53.19,Default,,0,0,0,,[man 4] Let's go, Happy.
+Dialogue: 0,0:54:54.06,0:54:56.73,Default,,0,0,0,,- Every boy needs a mom.\N- But we don't have one.
+Dialogue: 0,0:54:56.73,0:54:58.15,Default,,0,0,0,,[man 4] You got it, Happy.
+Dialogue: 0,0:54:58.15,0:54:59.69,Default,,0,0,0,,- You can make it.\N- You got this.
+Dialogue: 0,0:54:59.69,0:55:01.23,Default,,0,0,0,,[man 4] Do it. Come on.
+Dialogue: 0,0:55:04.52,0:55:08.44,Default,,0,0,0,,- [thuds]\N- [crowd murmuring, exclaiming] Oh!
+Dialogue: 0,0:55:09.31,0:55:10.81,Default,,0,0,0,,I gotta go to the bathroom.
+Dialogue: 0,0:55:13.90,0:55:16.02,Default,,0,0,0,,[Frank] You came at a very special moment.
+Dialogue: 0,0:55:16.02,0:55:17.23,Default,,0,0,0,,Change is in the air.
+Dialogue: 0,0:55:17.23,0:55:18.56,Default,,0,0,0,,What change is that?
+Dialogue: 0,0:55:18.56,0:55:21.02,Default,,0,0,0,,Golf. New and improved.
+Dialogue: 0,0:55:22.44,0:55:24.40,Default,,0,0,0,,Gilmore must love all this.
+Dialogue: 0,0:55:24.40,0:55:26.90,Default,,0,0,0,,I wouldn't know.\NHappy Gilmore's a broken man.
+Dialogue: 0,0:55:27.60,0:55:28.64,Default,,0,0,0,,A broken man?
+Dialogue: 0,0:55:28.65,0:55:31.07,Default,,0,0,0,,Yeah, ever since the loss of his wife.
+Dialogue: 0,0:55:31.06,0:55:33.27,Default,,0,0,0,,Wait, Virginia Venit?
+Dialogue: 0,0:55:33.27,0:55:34.65,Default,,0,0,0,,Is that what her name was?
+Dialogue: 0,0:55:35.40,0:55:36.36,Default,,0,0,0,,Oh, man.
+Dialogue: 0,0:55:36.35,0:55:38.02,Default,,0,0,0,,[exhales heavily]
+Dialogue: 0,0:55:38.60,0:55:40.31,Default,,0,0,0,,[automated voice] {\i1}Fart recognized.{\i0}
+Dialogue: 0,0:55:42.48,0:55:43.98,Default,,0,0,0,,All right, come on in.
+Dialogue: 0,0:55:43.98,0:55:46.19,Default,,0,0,0,,[Verne] {\i1}Our current leader, Happy Gilmore,{\i0}
+Dialogue: 0,0:55:46.19,0:55:49.44,Default,,0,0,0,,{\i1}has been in the restroom\Nfor an unusually long time.{\i0}
+Dialogue: 0,0:55:49.44,0:55:52.27,Default,,0,0,0,,[melancholy music plays]
+Dialogue: 0,0:56:32.23,0:56:33.90,Default,,0,0,0,,Let's play some golf.
+Dialogue: 0,0:56:36.06,0:56:39.23,Default,,0,0,0,,[Verne] {\i1}Billy Jenkins is playing\Nan inspired round.{\i0}
+Dialogue: 0,0:56:40.48,0:56:44.19,Default,,0,0,0,,{\an8}Meanwhile, Happy Gilmore is struggling\Nto keep it in the fairway.
+Dialogue: 0,0:56:44.19,0:56:47.07,Default,,0,0,0,,- [crowd exclaiming]\N- [whines]
+Dialogue: 0,0:56:47.69,0:56:49.27,Default,,0,0,0,,[Happy] Cart path.
+Dialogue: 0,0:56:51.77,0:56:53.60,Default,,0,0,0,,Wanna sip of my 3-wood?
+Dialogue: 0,0:56:53.60,0:56:55.56,Default,,0,0,0,,- No, {\i1}gracias.{\i0}\N- Okay.
+Dialogue: 0,0:56:59.81,0:57:01.43,Default,,0,0,0,,You scratch it, I hurt you.
+Dialogue: 0,0:57:01.44,0:57:04.23,Default,,0,0,0,,[gasps, laughs]
+Dialogue: 0,0:57:04.23,0:57:06.15,Default,,0,0,0,,Thank you, Jesus!
+Dialogue: 0,0:57:06.85,0:57:08.14,Default,,0,0,0,,{\an8}[Gary] {\i1}Plenty golf to be played.{\i0}
+Dialogue: 0,0:57:08.15,0:57:10.36,Default,,0,0,0,,Happy, what does Mother's Day mean to you?
+Dialogue: 0,0:57:10.35,0:57:13.77,Default,,0,0,0,,Can you suck my white ass, Gary?\NJust suck the entire thing?
+Dialogue: 0,0:57:16.44,0:57:17.44,Default,,0,0,0,,{\i1}Psycho.{\i0}
+Dialogue: 0,0:57:23.40,0:57:24.48,Default,,0,0,0,,{\an8}[crowd exclaim] Oh.
+Dialogue: 0,0:57:24.48,0:57:28.35,Default,,0,0,0,,[Verne] {\i1}And it has all fallen apart\Nfor Happy Gilmore...{\i0}
+Dialogue: 0,0:57:28.35,0:57:32.27,Default,,0,0,0,,Happy's... wasted!
+Dialogue: 0,0:57:32.27,0:57:35.89,Default,,0,0,0,,{\an8}...who is staggering,\Nliterally, to the finish.
+Dialogue: 0,0:57:35.90,0:57:37.77,Default,,0,0,0,,[beeps, unlocks]
+Dialogue: 0,0:57:37.77,0:57:41.73,Default,,0,0,0,,What I'm about to show you\Nis the foundation of Maxi Golf.
+Dialogue: 0,0:57:44.94,0:57:47.19,Default,,0,0,0,,[Shooter] An X-ray from 1957.
+Dialogue: 0,0:57:47.94,0:57:49.02,Default,,0,0,0,,Who's Ben Daggett?
+Dialogue: 0,0:57:49.02,0:57:53.56,Default,,0,0,0,,He's the only guy who could hit it farther\Nthan Happy Octavius Gilmore.
+Dialogue: 0,0:57:54.81,0:57:56.43,Default,,0,0,0,,[Shooter] {\i1}How come I never heard of him?{\i0}
+Dialogue: 0,0:57:56.44,0:57:58.81,Default,,0,0,0,,[Frank] {\i1}Well, he was a degenerate.\NCouldn't putt for shit.{\i0}
+Dialogue: 0,0:57:58.81,0:58:01.39,Default,,0,0,0,,{\i1}Just drove around the country\Nin the 1950s,{\i0}
+Dialogue: 0,0:58:01.40,0:58:03.61,Default,,0,0,0,,{\i1}dominating long drive contests.{\i0}
+Dialogue: 0,0:58:03.60,0:58:06.72,Default,,0,0,0,,{\i1}They say he could\Ncarry the ball 500 yards.{\i0}
+Dialogue: 0,0:58:06.73,0:58:10.02,Default,,0,0,0,,{\i1}One day, one of the mobsters\Nwho he owed some money to{\i0}
+Dialogue: 0,0:58:10.02,0:58:12.52,Default,,0,0,0,,{\i1}took a golf shoe\Nand shoved it right up Ben's ass.{\i0}
+Dialogue: 0,0:58:13.35,0:58:15.68,Default,,0,0,0,,{\i1}And that's where this X-ray was taken.{\i0}
+Dialogue: 0,0:58:18.06,0:58:20.27,Default,,0,0,0,,Do you see anything unusual here?
+Dialogue: 0,0:58:20.27,0:58:23.98,Default,,0,0,0,,Well, there appears to be a shoe\Nup his rectal region.
+Dialogue: 0,0:58:23.98,0:58:26.27,Default,,0,0,0,,That's true. But see that?
+Dialogue: 0,0:58:26.27,0:58:29.77,Default,,0,0,0,,That's the iliolumbar ligament.\NWhy is it in two pieces?
+Dialogue: 0,0:58:29.77,0:58:32.23,Default,,0,0,0,,Let me guess. Shoe up the ass?
+Dialogue: 0,0:58:32.23,0:58:33.73,Default,,0,0,0,,- No.\N- No?
+Dialogue: 0,0:58:33.73,0:58:35.77,Default,,0,0,0,,This happened much earlier in his life.
+Dialogue: 0,0:58:35.77,0:58:39.02,Default,,0,0,0,,Turns out Daggett severed it\Nin a childhood go-kart accident.
+Dialogue: 0,0:58:39.02,0:58:41.81,Default,,0,0,0,,{\i1}The separation of the ligament\Nfrom when he was a kid{\i0}
+Dialogue: 0,0:58:41.81,0:58:44.64,Default,,0,0,0,,{\i1}increased Daggett's range of motion\Nin his hips,{\i0}
+Dialogue: 0,0:58:44.65,0:58:46.86,Default,,0,0,0,,{\i1}dramatically improving\Nthe amount of torque{\i0}
+Dialogue: 0,0:58:46.85,0:58:49.14,Default,,0,0,0,,{\i1}and club speed that he could generate.{\i0}
+Dialogue: 0,0:58:51.52,0:58:53.73,Default,,0,0,0,,That's why he could hit it so far.\NBecause of the shoe.
+Dialogue: 0,0:58:53.73,0:58:56.31,Default,,0,0,0,,Will you stop with the shoe?\NWe're done with the shoe.
+Dialogue: 0,0:58:56.31,0:58:59.48,Default,,0,0,0,,It was a go-kart accident\Nthat severed the ligament
+Dialogue: 0,0:58:59.48,0:59:01.81,Default,,0,0,0,,and turned him into\Na long-ball-hitting freak.
+Dialogue: 0,0:59:02.35,0:59:04.31,Default,,0,0,0,,And all those golfers outside?
+Dialogue: 0,0:59:04.31,0:59:06.98,Default,,0,0,0,,We snipped\Ntheir iliolumbar ligaments, too.
+Dialogue: 0,0:59:06.98,0:59:10.11,Default,,0,0,0,,That's cheating.\NWho would agree to a surgery like that?
+Dialogue: 0,0:59:10.81,0:59:13.43,Default,,0,0,0,,[Frank] {\i1}Journeymen...\Nwho were good enough for the pros{\i0}
+Dialogue: 0,0:59:13.44,0:59:15.69,Default,,0,0,0,,{\an8}{\i1}but could never figure out\Nhow to beat the legends.{\i0}
+Dialogue: 0,0:59:18.98,0:59:20.77,Default,,0,0,0,,[crowd exclaiming]
+Dialogue: 0,0:59:22.02,0:59:23.73,Default,,0,0,0,,[crowd applauding]
+Dialogue: 0,0:59:23.73,0:59:27.81,Default,,0,0,0,,It's all in the hips, Grandpa.\NIt's all in the hips.
+Dialogue: 0,0:59:29.69,0:59:32.11,Default,,0,0,0,,Shooter, I want you to be the captain\Nof the Maxi team.
+Dialogue: 0,0:59:32.10,0:59:33.39,Default,,0,0,0,,Hmm.
+Dialogue: 0,0:59:33.40,0:59:35.94,Default,,0,0,0,,- Thank you so much.\N- Absolutely, Mr. Manatee.
+Dialogue: 0,0:59:35.94,0:59:37.86,Default,,0,0,0,,Pancakes next time.
+Dialogue: 0,0:59:37.85,0:59:40.31,Default,,0,0,0,,And I haven't even showed you\Nthe best part yet.
+Dialogue: 0,0:59:43.65,0:59:46.19,Default,,0,0,0,,18 holes? Boring.
+Dialogue: 0,0:59:46.19,0:59:47.65,Default,,0,0,0,,We do seven holes.
+Dialogue: 0,0:59:48.23,0:59:50.94,Default,,0,0,0,,Slow play? [scoffs] We got shot clocks.
+Dialogue: 0,0:59:50.94,0:59:53.15,Default,,0,0,0,,My God, this is obscene.
+Dialogue: 0,0:59:53.15,0:59:55.23,Default,,0,0,0,,It's a lot to take in. I get it.
+Dialogue: 0,0:59:55.23,0:59:58.02,Default,,0,0,0,,I will never have anything\Nto do with this...
+Dialogue: 0,0:59:59.27,1:00:01.06,Default,,0,0,0,,This abomination.
+Dialogue: 0,1:00:01.06,1:00:04.06,Default,,0,0,0,,You know, Shooter, it wasn't very easy\Nto get you released.
+Dialogue: 0,1:00:04.85,1:00:07.68,Default,,0,0,0,,But it'd be pretty damn easy\Nto get you recommitted.
+Dialogue: 0,1:00:07.69,1:00:09.02,Default,,0,0,0,,Yeah?
+Dialogue: 0,1:00:09.02,1:00:11.39,Default,,0,0,0,,[gasps] Damn, that's hot.
+Dialogue: 0,1:00:11.40,1:00:13.44,Default,,0,0,0,,- I was told you liked it hot.\N- Do you?
+Dialogue: 0,1:00:13.44,1:00:16.52,Default,,0,0,0,,- [yells]\N- [yelps, screams]
+Dialogue: 0,1:00:17.10,1:00:18.85,Default,,0,0,0,,[laughing]
+Dialogue: 0,1:00:18.85,1:00:22.47,Default,,0,0,0,,- [shattering]\N- [screaming]
+Dialogue: 0,1:00:22.48,1:00:25.48,Default,,0,0,0,,[continues screaming]
+Dialogue: 0,1:00:27.56,1:00:30.44,Default,,0,0,0,,My eye! [screaming]
+Dialogue: 0,1:00:32.85,1:00:36.77,Default,,0,0,0,,{\an8}{\i1}Yesterday, Happy Gilmore had\Nthe entire sports world rooting for him,{\i0}
+Dialogue: 0,1:00:36.77,1:00:40.31,Default,,0,0,0,,{\an8}{\i1}and then he took all that good will\Nand basically set it on fire.{\i0}
+Dialogue: 0,1:00:40.31,1:00:42.64,Default,,0,0,0,,{\an8}{\i1}-Go to your happy place!{\i0}\N- [Happy] {\i1}No!{\i0}
+Dialogue: 0,1:00:42.65,1:00:45.57,Default,,0,0,0,,[Pat] {\i1}He also lost out on playing\Nagainst the Maxi League{\i0}
+Dialogue: 0,1:00:45.56,1:00:48.10,Default,,0,0,0,,{\i1}as he finds himself\Nwith a sixth-place finish.{\i0}
+Dialogue: 0,1:00:48.10,1:00:50.89,Default,,0,0,0,,And so it is Jenkins\Nwho will lead the five-man team
+Dialogue: 0,1:00:50.90,1:00:55.48,Default,,0,0,0,,against the upstart Maxi League,\Nor... so we thought.
+Dialogue: 0,1:00:55.48,1:00:57.52,Default,,0,0,0,,Sorry to pee in your punch bowl, folks,
+Dialogue: 0,1:00:57.52,1:01:01.94,Default,,0,0,0,,but I am actually a proud member\Nof the Maxi Golf League.
+Dialogue: 0,1:01:01.94,1:01:04.65,Default,,0,0,0,,Bye-bye, regular golf. Bye-bye.
+Dialogue: 0,1:01:04.65,1:01:06.69,Default,,0,0,0,,{\an8}That's right. Billy's part of a new league
+Dialogue: 0,1:01:06.69,1:01:09.52,Default,,0,0,0,,where we hit longer,\Nlook cooler, and party harder.
+Dialogue: 0,1:01:09.52,1:01:12.02,Default,,0,0,0,,And the best part is,\Nour guys are "Maxi Good."
+Dialogue: 0,1:01:12.02,1:01:13.39,Default,,0,0,0,,- Give me the jacket.\N- [coughs]
+Dialogue: 0,1:01:13.40,1:01:15.57,Default,,0,0,0,,[Stephen] {\i1}My sources\Nin the DA's office say{\i0}
+Dialogue: 0,1:01:15.56,1:01:17.39,Default,,0,0,0,,Gilmore's actions\Nviolated a plea agreement,
+Dialogue: 0,1:01:17.40,1:01:20.61,Default,,0,0,0,,relating to his drunken golf cart crash\Nearlier this year,
+Dialogue: 0,1:01:20.60,1:01:24.14,Default,,0,0,0,,and that he only avoided arrests\Ndue to an ally causing a distraction.
+Dialogue: 0,1:01:24.15,1:01:26.57,Default,,0,0,0,,[Drago groaning]
+Dialogue: 0,1:01:26.56,1:01:29.77,Default,,0,0,0,,Hey, Drago,\Nyou forgot your underpants, Jerko!
+Dialogue: 0,1:01:29.77,1:01:32.64,Default,,0,0,0,,Gilmore is now facing six years\Nin state prison,
+Dialogue: 0,1:01:32.65,1:01:35.94,Default,,0,0,0,,but I hope the authorities\Nwill deliver justice to golf fans
+Dialogue: 0,1:01:35.94,1:01:42.15,Default,,0,0,0,,by sentencing him to the electric chair,\Nwhich at this point, he richly deserves.
+Dialogue: 0,1:01:57.15,1:02:00.27,Default,,0,0,0,,{\an8}[Shooter] Oh, Virginia,\NI'm sorry you're no longer with us.
+Dialogue: 0,1:02:00.27,1:02:02.64,Default,,0,0,0,,You were a woman\Nworking in a man's league.
+Dialogue: 0,1:02:02.65,1:02:05.40,Default,,0,0,0,,I bet that wasn't easy. Huh?
+Dialogue: 0,1:02:06.19,1:02:11.31,Default,,0,0,0,,{\an8}Yeah. I guess I should also apologize\Nfor asking you to get me a Pepsi.
+Dialogue: 0,1:02:11.31,1:02:12.31,Default,,0,0,0,,{\an8}[Happy] Diet.
+Dialogue: 0,1:02:16.35,1:02:17.39,Default,,0,0,0,,Gilmore.
+Dialogue: 0,1:02:18.15,1:02:19.90,Default,,0,0,0,,Shooter McGavin.
+Dialogue: 0,1:02:19.90,1:02:25.82,Default,,0,0,0,,Last time I saw you, you were running away\Nin slow motion with my gold jacket.
+Dialogue: 0,1:02:25.81,1:02:27.31,Default,,0,0,0,,That was my jacket!
+Dialogue: 0,1:02:27.31,1:02:30.64,Default,,0,0,0,,Take it. I've got five others.
+Dialogue: 0,1:02:31.77,1:02:33.02,Default,,0,0,0,,[exhales in frustration]
+Dialogue: 0,1:02:33.60,1:02:36.06,Default,,0,0,0,,God! You would never\Nhave won them if I wasn't--
+Dialogue: 0,1:02:36.06,1:02:38.27,Default,,0,0,0,,What? In the loony bin?
+Dialogue: 0,1:02:38.94,1:02:40.77,Default,,0,0,0,,You stole my life from me.
+Dialogue: 0,1:02:40.77,1:02:44.52,Default,,0,0,0,,Now, why would I want\Nto steal the life of somebody
+Dialogue: 0,1:02:45.44,1:02:48.36,Default,,0,0,0,,who eats pieces of shit...
+Dialogue: 0,1:02:48.35,1:02:51.18,Default,,0,0,0,,- Oh, you...\N- ...for breakfast?
+Dialogue: 0,1:02:51.19,1:02:53.61,Default,,0,0,0,,[chuckles, yells]
+Dialogue: 0,1:02:55.27,1:02:58.52,Default,,0,0,0,,{\an8}- [both groaning]\N- [grunts]
+Dialogue: 0,1:02:59.40,1:03:02.36,Default,,0,0,0,,{\an8}Game over, bitch. [choking]
+Dialogue: 0,1:03:04.65,1:03:05.65,Default,,0,0,0,,- Come on.\N- Okay.
+Dialogue: 0,1:03:05.65,1:03:07.61,Default,,0,0,0,,- Let's go.\N- We're gonna fist fight?
+Dialogue: 0,1:03:07.60,1:03:08.68,Default,,0,0,0,,- Want this?\N- Yeah.
+Dialogue: 0,1:03:08.69,1:03:10.98,Default,,0,0,0,,You sure you want that? Come on.
+Dialogue: 0,1:03:10.98,1:03:13.19,Default,,0,0,0,,[both grunting]
+Dialogue: 0,1:03:18.65,1:03:19.48,Default,,0,0,0,,{\an8}Come here, now.
+Dialogue: 0,1:03:20.73,1:03:22.44,Default,,0,0,0,,[pants] That was for you, Grandma.
+Dialogue: 0,1:03:22.44,1:03:24.61,Default,,0,0,0,,{\an8}I am so sorry I lost the house again.
+Dialogue: 0,1:03:24.60,1:03:25.93,Default,,0,0,0,,{\an8}- Truly.\N- Hi, Grandma.
+Dialogue: 0,1:03:25.94,1:03:28.48,Default,,0,0,0,,- Don't you ever talk to my grandma!\N- [yells]
+Dialogue: 0,1:03:28.48,1:03:29.77,Default,,0,0,0,,{\an8}[grunts] Come on.
+Dialogue: 0,1:03:31.15,1:03:33.11,Default,,0,0,0,,- [yells] Jackass!\N- [groans]
+Dialogue: 0,1:03:37.52,1:03:40.69,Default,,0,0,0,,[both panting]
+Dialogue: 0,1:03:44.60,1:03:46.06,Default,,0,0,0,,That was round one.
+Dialogue: 0,1:03:46.06,1:03:49.44,Default,,0,0,0,,We are done, son.\NYou can tell everybody you won.
+Dialogue: 0,1:03:50.52,1:03:53.69,Default,,0,0,0,,Should I put my hair in a bun\Njust for fun?
+Dialogue: 0,1:03:53.69,1:03:56.81,Default,,0,0,0,,And play one-on-one with Attila the Hun?
+Dialogue: 0,1:03:56.81,1:03:59.64,Default,,0,0,0,,- Oh, boy. That was good. Round two.\N- [groans]
+Dialogue: 0,1:04:00.23,1:04:01.85,Default,,0,0,0,,Okay. We're even.
+Dialogue: 0,1:04:01.85,1:04:03.56,Default,,0,0,0,,Come on. You love this.
+Dialogue: 0,1:04:04.44,1:04:06.86,Default,,0,0,0,,- Get up. Absolutely.\N- Thanks, man.
+Dialogue: 0,1:04:06.85,1:04:10.39,Default,,0,0,0,,Okay. Hey.\NAre your hip ligaments cut in half?
+Dialogue: 0,1:04:11.48,1:04:12.48,Default,,0,0,0,,I don't think so.
+Dialogue: 0,1:04:12.48,1:04:14.94,Default,,0,0,0,,Anyone ever stick a shoe up your ass?
+Dialogue: 0,1:04:14.94,1:04:16.69,Default,,0,0,0,,Not that I can recollect.
+Dialogue: 0,1:04:16.69,1:04:18.90,Default,,0,0,0,,You realize these are strange questions?
+Dialogue: 0,1:04:18.90,1:04:22.27,Default,,0,0,0,,Apparently, if a certain hip ligament\Nis not attached,
+Dialogue: 0,1:04:22.27,1:04:23.81,Default,,0,0,0,,you can hit the ball farther.
+Dialogue: 0,1:04:23.81,1:04:28.23,Default,,0,0,0,,Oh. No. I always powered my drives\Nthe old-fashioned way. With rage.
+Dialogue: 0,1:04:28.23,1:04:29.44,Default,,0,0,0,,Yeah.
+Dialogue: 0,1:04:29.44,1:04:31.81,Default,,0,0,0,,You want to get out of these pajamas?\NI live around here.
+Dialogue: 0,1:04:31.81,1:04:32.94,Default,,0,0,0,,Yeah, thanks.
+Dialogue: 0,1:04:33.56,1:04:39.06,Default,,0,0,0,,{\an8}{\i1}Mister! Mister! Get me outta here!{\i0}
+Dialogue: 0,1:04:43.40,1:04:44.44,Default,,0,0,0,,[yelps]
+Dialogue: 0,1:04:45.06,1:04:47.43,Default,,0,0,0,,They issued a warrant\Nfor your arrest, Dad.
+Dialogue: 0,1:04:47.44,1:04:49.36,Default,,0,0,0,,[Wayne] Yeah, hide in the basement.
+Dialogue: 0,1:04:49.35,1:04:51.47,Default,,0,0,0,,I should just turn myself in.\NGet it over with.
+Dialogue: 0,1:04:51.48,1:04:54.56,Default,,0,0,0,,- We'll ask the lawyer when he gets here.\N- You hired a lawyer?
+Dialogue: 0,1:04:54.56,1:04:56.77,Default,,0,0,0,,Okay. How do I look?
+Dialogue: 0,1:04:57.27,1:04:59.31,Default,,0,0,0,,[Bobby] You look like my frickin' dad.
+Dialogue: 0,1:04:59.31,1:05:00.43,Default,,0,0,0,,[chuckles] Yeah.
+Dialogue: 0,1:05:00.44,1:05:03.11,Default,,0,0,0,,At least I'm not wearing\Nthat ridiculous Bruins jersey.
+Dialogue: 0,1:05:03.10,1:05:04.06,Default,,0,0,0,,Uh-oh.
+Dialogue: 0,1:05:04.06,1:05:06.43,Default,,0,0,0,,[all shouting indistinctly]
+Dialogue: 0,1:05:06.44,1:05:07.65,Default,,0,0,0,,Okay.
+Dialogue: 0,1:05:07.65,1:05:09.40,Default,,0,0,0,,- [knock on door]\N- [shouting stops]
+Dialogue: 0,1:05:09.40,1:05:10.44,Default,,0,0,0,,Okay, get the door.
+Dialogue: 0,1:05:14.56,1:05:18.48,Default,,0,0,0,,Mr. Gilmore. Mr. McGavin. John Daly.
+Dialogue: 0,1:05:18.48,1:05:20.69,Default,,0,0,0,,- Nice to see you again.\N- [snores]
+Dialogue: 0,1:05:20.69,1:05:23.40,Default,,0,0,0,,You're the lawyer?\NI thought you were the IRS guy.
+Dialogue: 0,1:05:23.40,1:05:26.44,Default,,0,0,0,,I was, but I got tired\Nof everybody hating me
+Dialogue: 0,1:05:26.44,1:05:28.73,Default,,0,0,0,,and occasionally being thrown\Nthrough a glass door.
+Dialogue: 0,1:05:28.73,1:05:29.98,Default,,0,0,0,,You hate me, don't you?
+Dialogue: 0,1:05:31.56,1:05:33.02,Default,,0,0,0,,[grunting]
+Dialogue: 0,1:05:34.10,1:05:36.14,Default,,0,0,0,,- Right.\N- So, I went to law school.
+Dialogue: 0,1:05:36.94,1:05:40.27,Default,,0,0,0,,You didn't want to be hated anymore,\Nso you became a lawyer?
+Dialogue: 0,1:05:40.27,1:05:41.35,Default,,0,0,0,,[all laughing]
+Dialogue: 0,1:05:41.35,1:05:43.39,Default,,0,0,0,,- [Happy] That's funny.\N- Lawyers are snobs.
+Dialogue: 0,1:05:43.40,1:05:44.90,Default,,0,0,0,,- Pieces of shit.\N- Pieces of shit.
+Dialogue: 0,1:05:45.73,1:05:47.60,Default,,0,0,0,,Let's sit. Lots to talk about.
+Dialogue: 0,1:05:47.60,1:05:49.93,Default,,0,0,0,,{\an8}{\i1}Let me just have a little shower...{\i0}
+Dialogue: 0,1:05:50.60,1:05:52.43,Default,,0,0,0,,This girl's got some body on her.
+Dialogue: 0,1:05:52.44,1:05:56.36,Default,,0,0,0,,Hey, we do not objectify women anymore.
+Dialogue: 0,1:05:57.65,1:05:58.61,Default,,0,0,0,,- [squirt]\N- What?
+Dialogue: 0,1:05:58.60,1:06:03.35,Default,,0,0,0,,Okay, great. Uh, looks like the DA\Nhas withdrawn the arrest warrant.
+Dialogue: 0,1:06:03.35,1:06:04.31,Default,,0,0,0,,What?
+Dialogue: 0,1:06:04.31,1:06:06.64,Default,,0,0,0,,Even though you appeared to some onlookers
+Dialogue: 0,1:06:06.65,1:06:08.48,Default,,0,0,0,,to be inebriated at the tournament,
+Dialogue: 0,1:06:08.48,1:06:10.23,Default,,0,0,0,,you weren't administered an alcohol test.
+Dialogue: 0,1:06:10.23,1:06:12.23,Default,,0,0,0,,- And... I have better news.\N- [Happy] Yes?
+Dialogue: 0,1:06:12.23,1:06:14.23,Default,,0,0,0,,You came in sixth at that tournament.
+Dialogue: 0,1:06:14.23,1:06:17.19,Default,,0,0,0,,That's right. I forgot about that.\NHow much did I win?
+Dialogue: 0,1:06:17.19,1:06:18.94,Default,,0,0,0,,Uh, $496,000.
+Dialogue: 0,1:06:18.94,1:06:20.31,Default,,0,0,0,,- Oh, my God!\N- No way!
+Dialogue: 0,1:06:20.31,1:06:21.94,Default,,0,0,0,,- No! What?\N- Holy shit!
+Dialogue: 0,1:06:23.02,1:06:24.10,Default,,0,0,0,,[Happy] Baby! Yay!
+Dialogue: 0,1:06:24.10,1:06:25.85,Default,,0,0,0,,Now you're really gonna hate me.
+Dialogue: 0,1:06:25.85,1:06:31.06,Default,,0,0,0,,The tour is fining you\N$500,000 for bad behavior.
+Dialogue: 0,1:06:31.06,1:06:33.98,Default,,0,0,0,,So he lost $37,000?
+Dialogue: 0,1:06:33.98,1:06:35.56,Default,,0,0,0,,No. It's $33,000, Dad.
+Dialogue: 0,1:06:35.56,1:06:39.06,Default,,0,0,0,,It's $4,000, you buffoons.\NHow is that good news?
+Dialogue: 0,1:06:39.06,1:06:42.35,Default,,0,0,0,,Well, you came in sixth,\Nbut the winner, Billy Jenkins,
+Dialogue: 0,1:06:42.35,1:06:45.85,Default,,0,0,0,,opted out of the tour team\Nbecause he's playing for the bad guys.
+Dialogue: 0,1:06:45.85,1:06:47.22,Default,,0,0,0,,So you made the team.
+Dialogue: 0,1:06:47.23,1:06:49.31,Default,,0,0,0,,- Dad, that's great!\N- Whoa! Okay, Pop.
+Dialogue: 0,1:06:49.31,1:06:51.64,Default,,0,0,0,,They don't want me. I'm a disgrace.
+Dialogue: 0,1:06:51.65,1:06:53.32,Default,,0,0,0,,A freaking embarrassment.
+Dialogue: 0,1:06:53.31,1:06:55.27,Default,,0,0,0,,Let's go outside, Dad, for a second.
+Dialogue: 0,1:06:56.02,1:06:56.98,Default,,0,0,0,,Next.
+Dialogue: 0,1:07:00.65,1:07:04.40,Default,,0,0,0,,Well, Shooter,\Ndue to Mr. Manatee's sworn statement,
+Dialogue: 0,1:07:04.40,1:07:08.61,Default,,0,0,0,,you are now technically an escapee\Nfrom a mental institution.
+Dialogue: 0,1:07:08.60,1:07:11.14,Default,,0,0,0,,[laughs] Welcome to the club.
+Dialogue: 0,1:07:11.15,1:07:12.07,Default,,0,0,0,,[squirts]
+Dialogue: 0,1:07:12.94,1:07:15.94,Default,,0,0,0,,Dad, it doesn't matter\Nif you play for that team or not.
+Dialogue: 0,1:07:15.94,1:07:17.40,Default,,0,0,0,,You have to stop drinking.
+Dialogue: 0,1:07:17.40,1:07:18.57,Default,,0,0,0,,I did. It's just--
+Dialogue: 0,1:07:18.56,1:07:21.27,Default,,0,0,0,,Just nothing.\NYou gotta find peace somehow.
+Dialogue: 0,1:07:21.27,1:07:23.35,Default,,0,0,0,,There's no peace. I...
+Dialogue: 0,1:07:23.35,1:07:25.18,Default,,0,0,0,,The reason I joined that tour again
+Dialogue: 0,1:07:25.19,1:07:28.23,Default,,0,0,0,,was to get you the future you deserve,\Nand I lost $4,000.
+Dialogue: 0,1:07:28.23,1:07:31.06,Default,,0,0,0,,You think if you made that money\NI could leave you like this?
+Dialogue: 0,1:07:31.06,1:07:33.56,Default,,0,0,0,,It's not your job to take care of me.\NI told you.
+Dialogue: 0,1:07:33.56,1:07:36.31,Default,,0,0,0,,- Of course it is. We're family.\N- You're stuck with us.
+Dialogue: 0,1:07:36.31,1:07:37.52,Default,,0,0,0,,Yeah, come on, Dad.
+Dialogue: 0,1:07:37.52,1:07:39.56,Default,,0,0,0,,I don't want you to be stuck with me.
+Dialogue: 0,1:07:39.56,1:07:41.19,Default,,0,0,0,,You didn't do nothing wrong. It's me.
+Dialogue: 0,1:07:41.94,1:07:43.82,Default,,0,0,0,,I think this person could help.
+Dialogue: 0,1:07:47.81,1:07:50.98,Default,,0,0,0,,Hey, you gotta put\Na little mustard on that ball
+Dialogue: 0,1:07:50.98,1:07:55.31,Default,,0,0,0,,so it doesn't get stuck\Nwhere the pirate hide his, uh, uh...
+Dialogue: 0,1:07:55.31,1:07:56.60,Default,,0,0,0,,booty and shit.
+Dialogue: 0,1:07:56.60,1:07:58.18,Default,,0,0,0,,The hold?
+Dialogue: 0,1:07:58.19,1:08:00.98,Default,,0,0,0,,Yeah, the hold. Get at it, kiddies.
+Dialogue: 0,1:08:00.98,1:08:03.65,Default,,0,0,0,,- Thank you!\N- Are you Slim Peterson?
+Dialogue: 0,1:08:03.65,1:08:05.27,Default,,0,0,0,,That's what they call me.
+Dialogue: 0,1:08:05.27,1:08:08.35,Default,,0,0,0,,Your dad Chubbs was my teacher.\NMy name's Happy Gilmore--
+Dialogue: 0,1:08:08.35,1:08:09.72,Default,,0,0,0,,I know who you are.
+Dialogue: 0,1:08:09.73,1:08:15.40,Default,,0,0,0,,Hey, you gotta hit it under the octopus\Nand bank it off one of his leg things.
+Dialogue: 0,1:08:15.40,1:08:16.48,Default,,0,0,0,,The tentacles?
+Dialogue: 0,1:08:16.48,1:08:18.73,Default,,0,0,0,,Yeah, testicles. Now, what was you saying?
+Dialogue: 0,1:08:18.73,1:08:21.02,Default,,0,0,0,,[Happy] I need to talk to you\Nfor a few minutes.
+Dialogue: 0,1:08:21.02,1:08:23.69,Default,,0,0,0,,Damn, mosquitoes. They everywhere.
+Dialogue: 0,1:08:23.69,1:08:25.11,Default,,0,0,0,,- What...\N- Look at them.
+Dialogue: 0,1:08:26.65,1:08:27.73,Default,,0,0,0,,Alligator?
+Dialogue: 0,1:08:27.73,1:08:30.23,Default,,0,0,0,,No, vending machine.\NI didn't have enough change.
+Dialogue: 0,1:08:30.23,1:08:33.19,Default,,0,0,0,,Had to reach up there to get\Nmy Famous Amos chocolate chip cookies.
+Dialogue: 0,1:08:33.77,1:08:37.35,Default,,0,0,0,,Man, looking at you just reminded me\Nof what I did to you.
+Dialogue: 0,1:08:37.35,1:08:38.60,Default,,0,0,0,,What'd you do to me?
+Dialogue: 0,1:08:38.60,1:08:41.22,Default,,0,0,0,,What I did to my own kids. Stole a parent.
+Dialogue: 0,1:08:41.23,1:08:43.40,Default,,0,0,0,,Man, you gotta forgive yourself for that.
+Dialogue: 0,1:08:43.40,1:08:44.61,Default,,0,0,0,,[Happy] Don't want to.
+Dialogue: 0,1:08:44.60,1:08:46.52,Default,,0,0,0,,I didn't want to forgive you either,
+Dialogue: 0,1:08:46.52,1:08:48.73,Default,,0,0,0,,because it was easier to hate you
+Dialogue: 0,1:08:48.73,1:08:51.94,Default,,0,0,0,,than to deal with the fact\Nthat my daddy wasn't coming back.
+Dialogue: 0,1:08:52.60,1:08:56.22,Default,,0,0,0,,It's kind of like I was using hate\Nto keep him alive.
+Dialogue: 0,1:08:56.23,1:08:59.56,Default,,0,0,0,,But once I forgave you,\NI became myself again.
+Dialogue: 0,1:08:59.56,1:09:02.48,Default,,0,0,0,,And that's who I knew\Nmy daddy wanted me to be.
+Dialogue: 0,1:09:05.44,1:09:09.40,Default,,0,0,0,,[sighs] You loved your wife.\NYou loved my dad.
+Dialogue: 0,1:09:09.40,1:09:11.40,Default,,0,0,0,,And they loved you, period.
+Dialogue: 0,1:09:11.40,1:09:14.27,Default,,0,0,0,,You know what else they loved? Golf.
+Dialogue: 0,1:09:14.27,1:09:15.81,Default,,0,0,0,,Oh, my God, yeah.
+Dialogue: 0,1:09:15.81,1:09:17.48,Default,,0,0,0,,I talked to your little girl,
+Dialogue: 0,1:09:17.48,1:09:20.31,Default,,0,0,0,,and she said you got a chance\Nto save the whole sport
+Dialogue: 0,1:09:20.31,1:09:22.89,Default,,0,0,0,,by playing against some clown league?
+Dialogue: 0,1:09:22.90,1:09:26.23,Default,,0,0,0,,Yeah, well, why don't you go kick\Nsome bozo ass then?
+Dialogue: 0,1:09:26.23,1:09:27.69,Default,,0,0,0,,Let's do it for them.
+Dialogue: 0,1:09:30.23,1:09:32.02,Default,,0,0,0,,I am so sorry.
+Dialogue: 0,1:09:32.02,1:09:34.27,Default,,0,0,0,,Boy, why you had to squeeze it like that?
+Dialogue: 0,1:09:34.27,1:09:36.19,Default,,0,0,0,,I will throw these out. I can...
+Dialogue: 0,1:09:36.19,1:09:38.27,Default,,0,0,0,,Give them here. I got some Gorilla Glue.
+Dialogue: 0,1:09:38.27,1:09:39.77,Default,,0,0,0,,Yeah, love you, buddy.
+Dialogue: 0,1:09:39.77,1:09:41.73,Default,,0,0,0,,Yeah, man, thank you for stopping by.
+Dialogue: 0,1:09:43.60,1:09:46.27,Default,,0,0,0,,You know, we could use some help.
+Dialogue: 0,1:09:46.27,1:09:50.98,Default,,0,0,0,,Oh, about time somebody\Nrecognized my genius. Say less.
+Dialogue: 0,1:09:50.98,1:09:52.27,Default,,0,0,0,,Okay, okay.
+Dialogue: 0,1:09:52.27,1:09:53.98,Default,,0,0,0,,Where do you think you're going, Slim?
+Dialogue: 0,1:09:53.98,1:09:56.06,Default,,0,0,0,,I'm going to help save golf, Charley.
+Dialogue: 0,1:09:56.06,1:10:00.06,Default,,0,0,0,,If you leave now, you ain't ever\Ncoming back, you big pork chop.
+Dialogue: 0,1:10:00.06,1:10:04.14,Default,,0,0,0,,Damn straight I ain't never coming back,\Nyou fine-ass English hillbilly.
+Dialogue: 0,1:10:04.90,1:10:06.23,Default,,0,0,0,,[Doug] Welcome, gentlemen.
+Dialogue: 0,1:10:06.23,1:10:09.65,Default,,0,0,0,,You are the five golfers\Nwho will represent our tour
+Dialogue: 0,1:10:09.65,1:10:12.57,Default,,0,0,0,,in the grudge match\Nagainst the Maxi League.
+Dialogue: 0,1:10:13.15,1:10:16.40,Default,,0,0,0,,I don't have to tell you\Nhow important it is that we beat them.
+Dialogue: 0,1:10:16.40,1:10:20.69,Default,,0,0,0,,And here to talk about how we're going to\Naccomplish that is Shooter McGavin.
+Dialogue: 0,1:10:22.10,1:10:24.10,Default,,0,0,0,,Thank you, Doug. I'll take it from here.
+Dialogue: 0,1:10:25.31,1:10:27.19,Default,,0,0,0,,I want to talk to you about pressure.
+Dialogue: 0,1:10:27.98,1:10:31.36,Default,,0,0,0,,Now, as the most successful golfer\Nof the '90s,
+Dialogue: 0,1:10:31.98,1:10:34.69,Default,,0,0,0,,I've faced my share, believe me,
+Dialogue: 0,1:10:34.69,1:10:37.65,Default,,0,0,0,,but nothing like my 30 years in the can.
+Dialogue: 0,1:10:37.65,1:10:41.15,Default,,0,0,0,,And if I let my guard down there\Nfor a nanosecond...
+Dialogue: 0,1:10:41.85,1:10:43.02,Default,,0,0,0,,- Stab!\N- [gasps]
+Dialogue: 0,1:10:43.56,1:10:46.19,Default,,0,0,0,,I got a shiv in my guts.
+Dialogue: 0,1:10:46.94,1:10:49.86,Default,,0,0,0,,Anyway, I hear you guys\Nall have ice water in your veins.
+Dialogue: 0,1:10:49.85,1:10:53.56,Default,,0,0,0,,Well, I reviewed the footage\Nand I ain't seeing it.
+Dialogue: 0,1:10:53.56,1:10:55.81,Default,,0,0,0,,- Man, what's happening right now?\N- Uh...
+Dialogue: 0,1:10:55.81,1:10:57.02,Default,,0,0,0,,Bryson DeChambeau.
+Dialogue: 0,1:10:58.15,1:11:01.15,Default,,0,0,0,,{\an8}2022 Portland Open. Eighth hole.
+Dialogue: 0,1:11:01.15,1:11:02.86,Default,,0,0,0,,You got a two-stroke lead.
+Dialogue: 0,1:11:02.85,1:11:06.14,Default,,0,0,0,,You got an opportunity\Nto pull way ahead and... [clicks tongue]
+Dialogue: 0,1:11:07.35,1:11:08.85,Default,,0,0,0,,- [crowd] Aw!\N- What?
+Dialogue: 0,1:11:10.48,1:11:11.61,Default,,0,0,0,,Huh?
+Dialogue: 0,1:11:12.56,1:11:13.81,Default,,0,0,0,,Oops.
+Dialogue: 0,1:11:14.52,1:11:16.89,Default,,0,0,0,,Come on. We all miss a putt\Nevery now and then.
+Dialogue: 0,1:11:16.90,1:11:18.78,Default,,0,0,0,,Scottie Scheffler.
+Dialogue: 0,1:11:19.73,1:11:20.65,Default,,0,0,0,,Oh, boy.
+Dialogue: 0,1:11:20.65,1:11:22.98,Default,,0,0,0,,2019 Cadillac Invitational.
+Dialogue: 0,1:11:22.98,1:11:25.44,Default,,0,0,0,,Third hole. You're tied.\NTop of the leaderboard.
+Dialogue: 0,1:11:25.44,1:11:28.65,Default,,0,0,0,,It's Sunday. Pressure's on. And you...
+Dialogue: 0,1:11:30.48,1:11:32.19,Default,,0,0,0,,{\an8}[crowd exclaim in disappointment]
+Dialogue: 0,1:11:32.19,1:11:33.57,Default,,0,0,0,,Hmm. Into the woods.
+Dialogue: 0,1:11:34.31,1:11:37.23,Default,,0,0,0,,The woods, Scottie? Are you afraid to win?
+Dialogue: 0,1:11:37.23,1:11:39.35,Default,,0,0,0,,- What about you?\N- What?
+Dialogue: 0,1:11:39.35,1:11:42.77,Default,,0,0,0,,Yeah. 1996 Tour Championship. Final round.
+Dialogue: 0,1:11:42.77,1:11:43.81,Default,,0,0,0,,Don't do it, boys.
+Dialogue: 0,1:11:43.81,1:11:45.60,Default,,0,0,0,,No. This isn't relevant.
+Dialogue: 0,1:11:45.60,1:11:47.52,Default,,0,0,0,,Four-stroke lead on the back nine?
+Dialogue: 0,1:11:47.52,1:11:49.89,Default,,0,0,0,,The guy who beat you\Ngot hit by a Volkswagen.
+Dialogue: 0,1:11:49.90,1:11:50.94,Default,,0,0,0,,- Jackass!\N- Jackass!
+Dialogue: 0,1:11:50.94,1:11:55.40,Default,,0,0,0,,All right! Maybe I haven't handled\Nthe pressure perfectly myself,
+Dialogue: 0,1:11:55.40,1:11:58.40,Default,,0,0,0,,but I have seen the surgically modified\Nfreaks that you're playing.
+Dialogue: 0,1:11:58.40,1:12:01.61,Default,,0,0,0,,I have seen the monstrosity\Nthey're making you play on.
+Dialogue: 0,1:12:01.60,1:12:07.31,Default,,0,0,0,,And if you can't take the heat,\Ngolf, as we know it, it's finished!
+Dialogue: 0,1:12:09.60,1:12:11.18,Default,,0,0,0,,So let's do this!
+Dialogue: 0,1:12:11.19,1:12:12.98,Default,,0,0,0,,Come on. Let's put them in.
+Dialogue: 0,1:12:12.98,1:12:14.06,Default,,0,0,0,,All right. On three.
+Dialogue: 0,1:12:14.06,1:12:15.89,Default,,0,0,0,,- One, two, three... Shooter!\N- [players] Golf!
+Dialogue: 0,1:12:21.31,1:12:23.52,Default,,0,0,0,,Time to prepare for a moving target.
+Dialogue: 0,1:12:23.52,1:12:24.89,Default,,0,0,0,,The cups are gonna be moving?
+Dialogue: 0,1:12:24.90,1:12:27.32,Default,,0,0,0,,Damn it, Rory.\NNothing's off-limits for these commies.
+Dialogue: 0,1:12:27.31,1:12:29.43,Default,,0,0,0,,- Now, Oscar's cousin...\N- Esteban.
+Dialogue: 0,1:12:29.44,1:12:33.65,Default,,0,0,0,,Esteban is fast. And elusive, I'm told.
+Dialogue: 0,1:12:33.65,1:12:35.23,Default,,0,0,0,,He's gonna start at the red flag.
+Dialogue: 0,1:12:35.23,1:12:38.73,Default,,0,0,0,,If he makes it to the blue flag,\Nwe haven't done our jobs.
+Dialogue: 0,1:12:38.73,1:12:40.31,Default,,0,0,0,,He's cool with us hitting him?
+Dialogue: 0,1:12:40.31,1:12:41.48,Default,,0,0,0,,Yeah. He's been paid.
+Dialogue: 0,1:12:41.48,1:12:44.81,Default,,0,0,0,,- [shouts in Spanish]\N- [in English] What did he say?
+Dialogue: 0,1:12:44.81,1:12:46.39,Default,,0,0,0,,You're never gonna hit him.
+Dialogue: 0,1:12:46.40,1:12:47.61,Default,,0,0,0,,Oh, yeah? How come?
+Dialogue: 0,1:12:47.60,1:12:49.52,Default,,0,0,0,,I'm shifty!
+Dialogue: 0,1:12:49.52,1:12:51.89,Default,,0,0,0,,Okay, he's shifty. He is. I've seen it.
+Dialogue: 0,1:12:51.90,1:12:53.19,Default,,0,0,0,,[blows whistle]
+Dialogue: 0,1:12:53.85,1:12:55.77,Default,,0,0,0,,{\i1}♪ Get your biscuits in the kitchen ♪{\i0}
+Dialogue: 0,1:12:55.77,1:12:57.31,Default,,0,0,0,,{\i1}♪ I'm a sous chef on a mission ♪{\i0}
+Dialogue: 0,1:12:57.31,1:12:59.39,Default,,0,0,0,,{\i1}♪ Baby, wiggle it, it's vicious ♪{\i0}
+Dialogue: 0,1:12:59.40,1:13:01.52,Default,,0,0,0,,{\i1}♪ We about to break the dishes ♪{\i0}
+Dialogue: 0,1:13:01.52,1:13:03.60,Default,,0,0,0,,{\i1}♪ Got the pepper with the sodium ♪{\i0}
+Dialogue: 0,1:13:03.60,1:13:06.68,Default,,0,0,0,,{\i1}♪ We cookin' with petroleum\NCome step up to the podium ♪{\i0}
+Dialogue: 0,1:13:06.69,1:13:07.69,Default,,0,0,0,,It's too easy!
+Dialogue: 0,1:13:07.69,1:13:08.90,Default,,0,0,0,,{\i1}♪ And cut up this linoleum ♪{\i0}
+Dialogue: 0,1:13:08.90,1:13:10.82,Default,,0,0,0,,[laughs, groans]
+Dialogue: 0,1:13:10.81,1:13:12.14,Default,,0,0,0,,Yeah!
+Dialogue: 0,1:13:12.77,1:13:13.77,Default,,0,0,0,,You got me! [laughs]
+Dialogue: 0,1:13:14.35,1:13:16.39,Default,,0,0,0,,[in Spanish] Come on, cousin.\NYou're almost there.
+Dialogue: 0,1:13:19.31,1:13:21.69,Default,,0,0,0,,[grunting]
+Dialogue: 0,1:13:23.85,1:13:25.43,Default,,0,0,0,,[giggling]
+Dialogue: 0,1:13:26.73,1:13:28.52,Default,,0,0,0,,- [groans]\N- [whistle blows]
+Dialogue: 0,1:13:28.52,1:13:30.65,Default,,0,0,0,,Okay, stop! We got him. We got him.
+Dialogue: 0,1:13:32.40,1:13:33.48,Default,,0,0,0,,[yelps]
+Dialogue: 0,1:13:33.48,1:13:34.98,Default,,0,0,0,,I said stop! Who did that?
+Dialogue: 0,1:13:38.10,1:13:40.81,Default,,0,0,0,,[Happy] Oscar. You sicko.
+Dialogue: 0,1:13:41.81,1:13:43.64,Default,,0,0,0,,- So I got a hockey question for you.\N- Uh-huh.
+Dialogue: 0,1:13:43.65,1:13:45.57,Default,,0,0,0,,I notice when the players fight,
+Dialogue: 0,1:13:45.56,1:13:48.64,Default,,0,0,0,,one of the guys is always pulling\Nthe jersey over the head of the other guy
+Dialogue: 0,1:13:48.65,1:13:50.40,Default,,0,0,0,,- before he starts pounding on him.\N- Right.
+Dialogue: 0,1:13:50.40,1:13:51.44,Default,,0,0,0,,- Yeah.\N- Is that hard?
+Dialogue: 0,1:13:51.44,1:13:54.44,Default,,0,0,0,,- No, it's easy. You want me to show you?\N- Yes, please.
+Dialogue: 0,1:13:54.44,1:13:56.56,Default,,0,0,0,,Brother. Can I borrow you for a second?
+Dialogue: 0,1:13:56.56,1:13:58.93,Default,,0,0,0,,Basically all you do\Nis pull the shirt over.
+Dialogue: 0,1:13:58.94,1:14:00.90,Default,,0,0,0,,This traps the arms. You know?
+Dialogue: 0,1:14:00.90,1:14:02.52,Default,,0,0,0,,- Yeah.\N- Knockout. Money.
+Dialogue: 0,1:14:02.52,1:14:03.77,Default,,0,0,0,,- You sure?\N- Yeah.
+Dialogue: 0,1:14:03.77,1:14:05.35,Default,,0,0,0,,Okay. How much?
+Dialogue: 0,1:14:05.35,1:14:06.68,Default,,0,0,0,,Fifty.
+Dialogue: 0,1:14:06.69,1:14:09.98,Default,,0,0,0,,Uh, I'll give you a hundred.\NHere we go. You know what I mean?
+Dialogue: 0,1:14:09.98,1:14:11.10,Default,,0,0,0,,Yeah. That was nice.
+Dialogue: 0,1:14:11.10,1:14:13.81,Default,,0,0,0,,- Okay. Money.\N- Okay. You got it, Scottie. I'm broke.
+Dialogue: 0,1:14:13.81,1:14:15.48,Default,,0,0,0,,- Thank you.\N- There you go. Okay.
+Dialogue: 0,1:14:15.48,1:14:17.19,Default,,0,0,0,,Great job, today, by the way.
+Dialogue: 0,1:14:17.19,1:14:19.69,Default,,0,0,0,,- Excellent. Yeah, it's fun.\N- Yeah. That was easy.
+Dialogue: 0,1:14:19.69,1:14:21.27,Default,,0,0,0,,I love my job.
+Dialogue: 0,1:14:21.27,1:14:26.02,Default,,0,0,0,,Mini-golf-style putting is about\Ntwo things, angles and obstacles.
+Dialogue: 0,1:14:26.02,1:14:30.02,Default,,0,0,0,,If you can read the angles,\Nyou can avoid the obstacles.
+Dialogue: 0,1:14:30.02,1:14:32.98,Default,,0,0,0,,Let's putt\Nso we can figure those angles out.
+Dialogue: 0,1:14:34.06,1:14:35.69,Default,,0,0,0,,Yes! Scheffler!
+Dialogue: 0,1:14:38.31,1:14:40.35,Default,,0,0,0,,Yeah, you're right.
+Dialogue: 0,1:14:40.35,1:14:44.85,Default,,0,0,0,,One more day before we face these chumps.\NThis is how I used to toughen up.
+Dialogue: 0,1:14:45.48,1:14:46.65,Default,,0,0,0,,[groans]
+Dialogue: 0,1:14:48.19,1:14:50.19,Default,,0,0,0,,[yelping]
+Dialogue: 0,1:14:51.35,1:14:52.35,Default,,0,0,0,,[grunts]
+Dialogue: 0,1:14:52.35,1:14:55.27,Default,,0,0,0,,[Happy] Oh, my God, Rory! [laughs]
+Dialogue: 0,1:14:55.27,1:14:57.27,Default,,0,0,0,,Okay, Oscar, let's see your stuff.
+Dialogue: 0,1:14:58.60,1:14:59.48,Default,,0,0,0,,[grunts softly]
+Dialogue: 0,1:15:02.48,1:15:03.48,Default,,0,0,0,,[exhales]
+Dialogue: 0,1:15:06.40,1:15:07.28,Default,,0,0,0,,[grunts]
+Dialogue: 0,1:15:09.19,1:15:10.11,Default,,0,0,0,,[grunts]
+Dialogue: 0,1:15:11.44,1:15:15.44,Default,,0,0,0,,{\i1}♪ Sittin' down is stupid\NNow let me see you move it ♪{\i0}
+Dialogue: 0,1:15:16.23,1:15:19.40,Default,,0,0,0,,- [groaning]\N- Oh! Do you want breadsticks?
+Dialogue: 0,1:15:24.15,1:15:26.73,Default,,0,0,0,,[Billy] A batting cage to toughen up?
+Dialogue: 0,1:15:26.73,1:15:29.27,Default,,0,0,0,,I love how much we're in your head.
+Dialogue: 0,1:15:29.27,1:15:31.39,Default,,0,0,0,,Oh, I think we're in your head, Brendan.
+Dialogue: 0,1:15:31.40,1:15:34.23,Default,,0,0,0,,Otherwise, you wouldn't be snooping around\Nand following us.
+Dialogue: 0,1:15:34.23,1:15:35.31,Default,,0,0,0,,My name is Billy.
+Dialogue: 0,1:15:35.31,1:15:36.60,Default,,0,0,0,,Hey, settle down, Barry,
+Dialogue: 0,1:15:36.60,1:15:38.89,Default,,0,0,0,,and get off the electric Royce.\NNo leaning.
+Dialogue: 0,1:15:39.60,1:15:42.73,Default,,0,0,0,,Look, Happy, I don't want to\Nhave to humiliate you tomorrow.
+Dialogue: 0,1:15:43.85,1:15:45.85,Default,,0,0,0,,You're in the DNA of my league.
+Dialogue: 0,1:15:45.85,1:15:48.06,Default,,0,0,0,,The way you rebelled\Nagainst the traditions
+Dialogue: 0,1:15:48.06,1:15:50.31,Default,,0,0,0,,and fussiness of golf, it was beautiful.
+Dialogue: 0,1:15:50.31,1:15:53.02,Default,,0,0,0,,So I'm gonna offer you one last chance\Nto be a part of it, okay?
+Dialogue: 0,1:15:53.02,1:15:53.94,Default,,0,0,0,,[Happy] Hell no.
+Dialogue: 0,1:15:53.94,1:15:57.40,Default,,0,0,0,,And you look like Freddy Krueger\Nworked at Starbucks. Change it.
+Dialogue: 0,1:15:58.06,1:15:59.60,Default,,0,0,0,,I'll give you 10% of the company.
+Dialogue: 0,1:16:01.85,1:16:04.97,Default,,0,0,0,,I can't believe I'm the one\Nsticking up for tradition, but...
+Dialogue: 0,1:16:04.98,1:16:08.85,Default,,0,0,0,,My wife liked the way\Ngolf was played, as is.
+Dialogue: 0,1:16:08.85,1:16:11.27,Default,,0,0,0,,And she was pretty much\Nright about everything.
+Dialogue: 0,1:16:11.85,1:16:15.81,Default,,0,0,0,,So sorry, boys, but tomorrow,\Nyour dumb league is done.
+Dialogue: 0,1:16:15.81,1:16:18.81,Default,,0,0,0,,No, tomorrow, I'm gonna finish\Nthe revolution you started.
+Dialogue: 0,1:16:18.81,1:16:21.02,Default,,0,0,0,,I heard what you said\Nabout my breath to Bubba Watson.
+Dialogue: 0,1:16:21.02,1:16:23.69,Default,,0,0,0,,I have gingivitis. It's hereditary, okay?
+Dialogue: 0,1:16:23.69,1:16:27.19,Default,,0,0,0,,And I got it from my great-grandfather.\NSo I'm so sorry.
+Dialogue: 0,1:16:27.19,1:16:29.61,Default,,0,0,0,,I'm literally smelling it from here.
+Dialogue: 0,1:16:29.60,1:16:31.39,Default,,0,0,0,,And the wind is blowing that way.
+Dialogue: 0,1:16:31.40,1:16:34.15,Default,,0,0,0,,Something has to change in your life.\NI'm telling you.
+Dialogue: 0,1:16:38.10,1:16:39.18,Default,,0,0,0,,{\an8}[blaring]
+Dialogue: 0,1:16:41.31,1:16:42.44,Default,,0,0,0,,{\an8}[blaring stops]
+Dialogue: 0,1:16:55.35,1:16:56.35,Default,,0,0,0,,[Happy] Okay.
+Dialogue: 0,1:16:57.48,1:16:58.90,Default,,0,0,0,,Come here. Bring it in.
+Dialogue: 0,1:16:58.90,1:17:01.86,Default,,0,0,0,,I just wanted to say thank you guys\Nfor always getting me back on track.
+Dialogue: 0,1:17:01.85,1:17:03.31,Default,,0,0,0,,- I love you.\N- [Vienna] Love you.
+Dialogue: 0,1:17:03.31,1:17:06.77,Default,,0,0,0,,This ain't about Vivi going to\Ndance school. It's about saving golf?
+Dialogue: 0,1:17:06.77,1:17:08.27,Default,,0,0,0,,Maybe we can do both,
+Dialogue: 0,1:17:08.27,1:17:10.39,Default,,0,0,0,,but we will figure that out, I promise.
+Dialogue: 0,1:17:10.40,1:17:12.77,Default,,0,0,0,,Because we're Gilmores,\Nand we don't know how to stop.
+Dialogue: 0,1:17:12.77,1:17:14.52,Default,,0,0,0,,[Gordy] Hell yeah, Pop, let's go!
+Dialogue: 0,1:17:14.52,1:17:16.89,Default,,0,0,0,,And don't forget to feed John Daly\Nthree times a day.
+Dialogue: 0,1:17:16.90,1:17:17.82,Default,,0,0,0,,- Okay.\N- Got it.
+Dialogue: 0,1:17:17.81,1:17:19.43,Default,,0,0,0,,- Love you guys.\N- [Gordy] You heard him.
+Dialogue: 0,1:17:19.44,1:17:20.77,Default,,0,0,0,,Let's do this for Mom.
+Dialogue: 0,1:17:20.77,1:17:22.31,Default,,0,0,0,,- [Bobby] For Mom!\N- [Wayne] For Mommy.
+Dialogue: 0,1:17:23.06,1:17:24.52,Default,,0,0,0,,- You got this.\N- That's right.
+Dialogue: 0,1:17:25.10,1:17:26.77,Default,,0,0,0,,That's right. She deserves it.
+Dialogue: 0,1:17:26.77,1:17:29.06,Default,,0,0,0,,- [Bobby] Go get 'em, Dad.\N- [engine splutters]
+Dialogue: 0,1:17:29.06,1:17:30.06,Default,,0,0,0,,[Gordy] Pop...
+Dialogue: 0,1:17:30.98,1:17:31.98,Default,,0,0,0,,- All right.\N- [Terry] Yeah!
+Dialogue: 0,1:17:31.98,1:17:33.48,Default,,0,0,0,,- [Wayne] What's going on?\N- Let's go.
+Dialogue: 0,1:17:33.48,1:17:34.85,Default,,0,0,0,,- Go Dad, you got this.\N- Go Daddy!
+Dialogue: 0,1:17:34.85,1:17:36.60,Default,,0,0,0,,- What's going on?\N- [Happy] Stupid.
+Dialogue: 0,1:17:37.31,1:17:39.56,Default,,0,0,0,,- Damn it.\N- Are you kidding me?
+Dialogue: 0,1:17:39.56,1:17:42.52,Default,,0,0,0,,[all grunting, clamoring]
+Dialogue: 0,1:17:47.10,1:17:48.27,Default,,0,0,0,,What are you doing?
+Dialogue: 0,1:17:48.27,1:17:49.52,Default,,0,0,0,,[Terry] What's with this guy?
+Dialogue: 0,1:17:49.52,1:17:51.19,Default,,0,0,0,,What you doing hitting my dad's car?
+Dialogue: 0,1:17:51.19,1:17:53.23,Default,,0,0,0,,This is a family affair, bro!
+Dialogue: 0,1:17:53.23,1:17:56.60,Default,,0,0,0,,- [indistinct shouting]\N- [Happy] Take him down, boys! Let's go!
+Dialogue: 0,1:17:56.60,1:17:59.18,Default,,0,0,0,,- [Bobby] Whoa, whoa, whoa!\N- What's he doing?
+Dialogue: 0,1:17:59.19,1:18:00.65,Default,,0,0,0,,Get him!
+Dialogue: 0,1:18:00.65,1:18:01.94,Default,,0,0,0,,Chase him! That's right!
+Dialogue: 0,1:18:01.94,1:18:03.98,Default,,0,0,0,,- [Gordy] Where you going?\N- [Bobby] Get him!
+Dialogue: 0,1:18:03.98,1:18:05.48,Default,,0,0,0,,What the hell is happening?
+Dialogue: 0,1:18:09.10,1:18:12.39,Default,,0,0,0,,[Verne] {\i1}Welcome to an event\Nunique in the annals of sport.{\i0}
+Dialogue: 0,1:18:13.10,1:18:16.68,Default,,0,0,0,,{\i1}A one-time showdown\Nbetween golf's greatest players{\i0}
+Dialogue: 0,1:18:17.27,1:18:20.81,Default,,0,0,0,,{\an8}{\i1}and the wild upstarts\Nwho seek to supplant them.{\i0}
+Dialogue: 0,1:18:20.81,1:18:22.60,Default,,0,0,0,,Let's get it on.
+Dialogue: 0,1:18:22.60,1:18:25.52,Default,,0,0,0,,{\i1}Welcome to the Maxi Tour Challenge.{\i0}
+Dialogue: 0,1:18:25.52,1:18:29.14,Default,,0,0,0,,{\an8}I'm Verne Lundquist,\Nalong with my partner, Jack Beard,
+Dialogue: 0,1:18:29.15,1:18:32.82,Default,,0,0,0,,{\an8}and my new partner, DJ Omar Gosh.
+Dialogue: 0,1:18:32.81,1:18:35.23,Default,,0,0,0,,{\an8}Truly bitching to be here, Verne.
+Dialogue: 0,1:18:35.81,1:18:37.81,Default,,0,0,0,,[rock music playing]
+Dialogue: 0,1:18:37.81,1:18:39.89,Default,,0,0,0,,[Frank] Ladies and gentlemen\Nof planet Earth!
+Dialogue: 0,1:18:41.35,1:18:44.85,Default,,0,0,0,,Are you prepared to have your minds blown?
+Dialogue: 0,1:18:44.85,1:18:47.39,Default,,0,0,0,,[crowd cheering]
+Dialogue: 0,1:18:47.98,1:18:51.81,Default,,0,0,0,,I'm tippy-toeing.\NI said I'm tip-- Thank you.
+Dialogue: 0,1:18:51.81,1:18:56.48,Default,,0,0,0,,{\an8}{\i1}I said are you guys ready to see some golf\Nso exciting your heads will explode?{\i0}
+Dialogue: 0,1:18:56.48,1:18:57.65,Default,,0,0,0,,Whoo!
+Dialogue: 0,1:18:58.44,1:19:00.98,Default,,0,0,0,,{\an8}[Frank] Here are the Maxi Golfers!
+Dialogue: 0,1:19:00.98,1:19:03.02,Default,,0,0,0,,{\an8}- [crowd cheering]\N- [woman] Go Harley!
+Dialogue: 0,1:19:03.02,1:19:04.90,Default,,0,0,0,,[Frank] We've got Harley...
+Dialogue: 0,1:19:05.85,1:19:06.89,Default,,0,0,0,,Flex!
+Dialogue: 0,1:19:07.94,1:19:08.94,Default,,0,0,0,,Screech!
+Dialogue: 0,1:19:09.60,1:19:10.89,Default,,0,0,0,,8 Ball!
+Dialogue: 0,1:19:11.52,1:19:15.06,Default,,0,0,0,,And Tour Champion Billy Jenkins!
+Dialogue: 0,1:19:15.06,1:19:17.77,Default,,0,0,0,,["Eye Of The Tiger" playing]
+Dialogue: 0,1:19:27.65,1:19:29.94,Default,,0,0,0,,And now let's welcome their opponents,
+Dialogue: 0,1:19:29.94,1:19:32.98,Default,,0,0,0,,the Basic Vanilla Regular Golfers.
+Dialogue: 0,1:19:32.98,1:19:35.44,Default,,0,0,0,,- Boo!\N- [crowd booing]
+Dialogue: 0,1:19:35.44,1:19:37.69,Default,,0,0,0,,["Goodbye to You" playing]
+Dialogue: 0,1:19:38.52,1:19:39.90,Default,,0,0,0,,{\i1}♪ Goodbye to you ♪{\i0}
+Dialogue: 0,1:19:41.52,1:19:42.89,Default,,0,0,0,,{\i1}♪ Goodbye to you ♪{\i0}
+Dialogue: 0,1:19:42.90,1:19:45.07,Default,,0,0,0,,Holy shit! Is that Shooter McGavin?
+Dialogue: 0,1:19:45.65,1:19:47.02,Default,,0,0,0,,[Frank] Look who decided to show.
+Dialogue: 0,1:19:47.02,1:19:48.98,Default,,0,0,0,,You never finished your pancakes,\Nby the way.
+Dialogue: 0,1:19:48.98,1:19:50.77,Default,,0,0,0,,You want coffee in your other eye?
+Dialogue: 0,1:19:50.77,1:19:54.31,Default,,0,0,0,,Ha! Get a furlough\Nfrom the Funny Farm, Shitter?
+Dialogue: 0,1:19:54.31,1:19:56.81,Default,,0,0,0,,- Laugh it up Blue Balls.\N- It's 8 Ball!
+Dialogue: 0,1:19:56.81,1:19:59.43,Default,,0,0,0,,Your name's Davis Miller.\NYou're my brother's college roommate.
+Dialogue: 0,1:19:59.44,1:20:02.52,Default,,0,0,0,,It's 8 Ball now!\NTell him I said what's up.
+Dialogue: 0,1:20:02.52,1:20:05.44,Default,,0,0,0,,You guys get these clothes\Nfrom the Lost and Found at Comic-Con?
+Dialogue: 0,1:20:05.44,1:20:07.94,Default,,0,0,0,,Did you get these melons\Nfrom your mommy? Yeah?
+Dialogue: 0,1:20:07.94,1:20:09.86,Default,,0,0,0,,Don't twist my boy's titties!\NThose are mine!
+Dialogue: 0,1:20:09.85,1:20:13.52,Default,,0,0,0,,- Hey, I'll twist your head off, slap-nuts!\N- [shouting, clamoring]
+Dialogue: 0,1:20:13.52,1:20:15.94,Default,,0,0,0,,Break it up! All right, knock it off!
+Dialogue: 0,1:20:15.94,1:20:18.65,Default,,0,0,0,,Golfers, we have a seven-hole course.
+Dialogue: 0,1:20:18.65,1:20:22.02,Default,,0,0,0,,First up, Mr. Scheffler\Ngoing up against Mr. Harley.
+Dialogue: 0,1:20:22.02,1:20:25.81,Default,,0,0,0,,Ladies and gentlemen,\Nlet's play some Maxi Golf!
+Dialogue: 0,1:20:25.81,1:20:27.52,Default,,0,0,0,,[crowd cheering]
+Dialogue: 0,1:20:27.52,1:20:31.31,Default,,0,0,0,,- [John] Let's drink up! Come on, let's go!\N- Yeah! All right! Whoo!
+Dialogue: 0,1:20:31.31,1:20:32.64,Default,,0,0,0,,- Here.\N- No, I'm good.
+Dialogue: 0,1:20:34.52,1:20:35.81,Default,,0,0,0,,- You got your own.\N- Mmm.
+Dialogue: 0,1:20:35.81,1:20:37.35,Default,,0,0,0,,- I want to try that.\N- Mmm-mmm.
+Dialogue: 0,1:20:38.06,1:20:41.31,Default,,0,0,0,,[Verne] {\i1}And so it begins, hole number one.{\i0}
+Dialogue: 0,1:20:41.31,1:20:43.93,Default,,0,0,0,,Best of five matches,\Nso we only gotta win three of them today.
+Dialogue: 0,1:20:43.94,1:20:45.81,Default,,0,0,0,,I say we sweep these goofy bitches.
+Dialogue: 0,1:20:45.81,1:20:47.31,Default,,0,0,0,,- That's a good idea.\N- [Bryson] Yeah.
+Dialogue: 0,1:20:50.85,1:20:54.02,Default,,0,0,0,,The fairway's a forest?\NI don't even know where to lay up.
+Dialogue: 0,1:20:54.02,1:20:56.27,Default,,0,0,0,,Or you don't lay-up,
+Dialogue: 0,1:20:56.27,1:20:59.85,Default,,0,0,0,,and you crush the ball\N500 yards over the trees.
+Dialogue: 0,1:21:09.52,1:21:10.56,Default,,0,0,0,,Whoa.
+Dialogue: 0,1:21:16.02,1:21:19.31,Default,,0,0,0,,[Verne] {\i1}And Harley clears\Nthe entire forest.{\i0}
+Dialogue: 0,1:21:19.31,1:21:21.39,Default,,0,0,0,,[crowd cheering]
+Dialogue: 0,1:21:21.40,1:21:24.36,Default,,0,0,0,,You ain't number one\Non this tour, chump. [sniffs]
+Dialogue: 0,1:21:25.48,1:21:27.15,Default,,0,0,0,,You smell like my stepfather.
+Dialogue: 0,1:21:28.56,1:21:31.35,Default,,0,0,0,,Let's go, Scottie.\NCome on, now. Let's shake that off.
+Dialogue: 0,1:21:31.35,1:21:32.89,Default,,0,0,0,,[man] You the man, Scottie!
+Dialogue: 0,1:21:33.56,1:21:35.23,Default,,0,0,0,,Miss it! Miss it!
+Dialogue: 0,1:21:35.94,1:21:36.77,Default,,0,0,0,,[sighs]
+Dialogue: 0,1:21:39.69,1:21:41.11,Default,,0,0,0,,[all exclaim]
+Dialogue: 0,1:21:44.60,1:21:46.27,Default,,0,0,0,,[Verne] {\i1}Quite An impressive right cross,{\i0}
+Dialogue: 0,1:21:46.27,1:21:49.56,Default,,0,0,0,,{\an8}{\i1}but Scottie Scheffler\Nis going to be disqualified{\i0}
+Dialogue: 0,1:21:49.56,1:21:51.73,Default,,0,0,0,,{\an8}before ever swinging a club.
+Dialogue: 0,1:21:51.73,1:21:54.44,Default,,0,0,0,,Whoo! That was some gangster shit.
+Dialogue: 0,1:21:54.44,1:21:57.02,Default,,0,0,0,,Gangster shit indeed.
+Dialogue: 0,1:21:57.02,1:21:58.27,Default,,0,0,0,,There goes the sweep.
+Dialogue: 0,1:21:58.27,1:21:59.35,Default,,0,0,0,,Yeah.
+Dialogue: 0,1:22:00.81,1:22:02.68,Default,,0,0,0,,Oh, no, not again.
+Dialogue: 0,1:22:02.69,1:22:04.77,Default,,0,0,0,,- [officer] Come on.\N- [Scottie] I know the drill.
+Dialogue: 0,1:22:05.69,1:22:07.52,Default,,0,0,0,,- Bye-bye!\N- Sorry, boys.
+Dialogue: 0,1:22:07.52,1:22:09.94,Default,,0,0,0,,[Happy] We'll take care of business,\Nall right?
+Dialogue: 0,1:22:09.94,1:22:13.06,Default,,0,0,0,,{\an8}Next on the tee, Rory McIlroy and Screech.
+Dialogue: 0,1:22:13.06,1:22:14.89,Default,,0,0,0,,[crowd cheering]
+Dialogue: 0,1:22:15.48,1:22:17.90,Default,,0,0,0,,- [chainsaw whirring]\N- [laughs]
+Dialogue: 0,1:22:17.90,1:22:18.94,Default,,0,0,0,,Screech?
+Dialogue: 0,1:22:18.94,1:22:20.02,Default,,0,0,0,,They call me Screech
+Dialogue: 0,1:22:20.02,1:22:23.94,Default,,0,0,0,,'cause that's the sound my chainsaw makes\Nevery time I tear up a golf course.
+Dialogue: 0,1:22:23.94,1:22:26.11,Default,,0,0,0,,Isn't Screech a character\Nin {\i1}Saved by the Bell?{\i0}
+Dialogue: 0,1:22:27.31,1:22:28.85,Default,,0,0,0,,I'm not familiar with that program.
+Dialogue: 0,1:22:28.85,1:22:31.14,Default,,0,0,0,,He was like the comic relief on the show.
+Dialogue: 0,1:22:31.15,1:22:33.02,Default,,0,0,0,,Yeah, like the white Urkel.
+Dialogue: 0,1:22:33.02,1:22:34.90,Default,,0,0,0,,Nobody cares about that '90s shit!
+Dialogue: 0,1:22:35.81,1:22:36.73,Default,,0,0,0,,Those guys do.
+Dialogue: 0,1:22:36.73,1:22:37.85,Default,,0,0,0,,I love you, Screech!
+Dialogue: 0,1:22:37.85,1:22:41.23,Default,,0,0,0,,- [cheering]\N- [laughs]
+Dialogue: 0,1:22:41.81,1:22:43.69,Default,,0,0,0,,Let's just play Maxi Golf, all right?
+Dialogue: 0,1:22:46.98,1:22:50.36,Default,,0,0,0,,[Verne] {\i1}The rest of the Maxi team\Nhas no problem clearing the trees.{\i0}
+Dialogue: 0,1:22:54.56,1:22:56.81,Default,,0,0,0,,{\i1}The regular golfers, not so much.{\i0}
+Dialogue: 0,1:22:57.52,1:23:00.14,Default,,0,0,0,,- [engines start]\N- [caddie] Go, go!
+Dialogue: 0,1:23:00.15,1:23:01.69,Default,,0,0,0,,[Rory] Hold on! I'm speeding!
+Dialogue: 0,1:23:01.69,1:23:04.77,Default,,0,0,0,,[both whoop]
+Dialogue: 0,1:23:04.77,1:23:06.81,Default,,0,0,0,,- There it is! Right there!\N- Yeah, okay.
+Dialogue: 0,1:23:08.19,1:23:10.02,Default,,0,0,0,,Oh, my God. There goes the 8.
+Dialogue: 0,1:23:10.81,1:23:12.60,Default,,0,0,0,,[laughing]
+Dialogue: 0,1:23:12.60,1:23:13.64,Default,,0,0,0,,[Happy] {\i1}Shut up!{\i0}
+Dialogue: 0,1:23:13.65,1:23:15.69,Default,,0,0,0,,[yells, laughs]
+Dialogue: 0,1:23:15.69,1:23:18.15,Default,,0,0,0,,Here we go! To the right! Whoo!
+Dialogue: 0,1:23:18.98,1:23:20.40,Default,,0,0,0,,[both whooping]
+Dialogue: 0,1:23:20.40,1:23:22.11,Default,,0,0,0,,- [grunts]\N- Yeah!
+Dialogue: 0,1:23:22.10,1:23:24.06,Default,,0,0,0,,[8 ball] Looking a little tired, Bry-Bry.
+Dialogue: 0,1:23:24.06,1:23:26.18,Default,,0,0,0,,You're looking like\Nyou wanna go for a swim, Davis.
+Dialogue: 0,1:23:26.19,1:23:28.94,Default,,0,0,0,,This is the new golf, Bryson,\Nand it's 8 Ball!
+Dialogue: 0,1:23:28.94,1:23:31.52,Default,,0,0,0,,[cheering]
+Dialogue: 0,1:23:37.15,1:23:38.23,Default,,0,0,0,,Where's my ball?
+Dialogue: 0,1:23:38.23,1:23:39.85,Default,,0,0,0,,Bad shot, Happy.
+Dialogue: 0,1:23:39.85,1:23:42.93,Default,,0,0,0,,This'll make you feel better.\NHow about you take just a sip?
+Dialogue: 0,1:23:47.35,1:23:48.23,Default,,0,0,0,,[gulps]
+Dialogue: 0,1:23:49.23,1:23:52.35,Default,,0,0,0,,- [burps]\N- [chuckles] Wow.
+Dialogue: 0,1:23:52.35,1:23:56.18,Default,,0,0,0,,We're doing a breath contest?\NYeah, I'd walk away too, pal.
+Dialogue: 0,1:23:56.19,1:23:58.77,Default,,0,0,0,,[Verne] {\i1}McIlroy's tee shot landed\Nin the right bunker,{\i0}
+Dialogue: 0,1:23:58.77,1:24:02.10,Default,,0,0,0,,{\i1}which, like much of this hole,\Nappears to be on fire.{\i0}
+Dialogue: 0,1:24:04.27,1:24:05.64,Default,,0,0,0,,[yelps, yells]
+Dialogue: 0,1:24:05.65,1:24:06.82,Default,,0,0,0,,Screech!
+Dialogue: 0,1:24:06.81,1:24:08.48,Default,,0,0,0,,- [both yell]\N- [crashes]
+Dialogue: 0,1:24:08.48,1:24:09.52,Default,,0,0,0,,[both cheer]
+Dialogue: 0,1:24:10.23,1:24:13.23,Default,,0,0,0,,[crowd exclaiming, cheering]
+Dialogue: 0,1:24:13.23,1:24:14.48,Default,,0,0,0,,Yeah!
+Dialogue: 0,1:24:15.98,1:24:17.69,Default,,0,0,0,,Viva {\i1}regular golf!{\i0}
+Dialogue: 0,1:24:19.23,1:24:21.40,Default,,0,0,0,,Hey, man. I'm gonna change the channel.
+Dialogue: 0,1:24:21.40,1:24:24.03,Default,,0,0,0,,Frankie, sit your ass down.\NWe're watching golf.
+Dialogue: 0,1:24:24.73,1:24:26.19,Default,,0,0,0,,All right. I'm sorry.
+Dialogue: 0,1:24:28.40,1:24:29.90,Default,,0,0,0,,Get in the hole.
+Dialogue: 0,1:24:32.60,1:24:36.43,Default,,0,0,0,,- [Verne] {\i1}Oh! Wow!\N-{\i0} [both laughing]
+Dialogue: 0,1:24:37.85,1:24:40.97,Default,,0,0,0,,- That's what I'm talking about, baby.\N- [crowd gasps]
+Dialogue: 0,1:24:40.98,1:24:43.48,Default,,0,0,0,,God damn it, I just washed that.
+Dialogue: 0,1:24:43.48,1:24:46.40,Default,,0,0,0,,[Verne] {\i1}It seems like nothing\Nis gonna slow Gilmore down.{\i0}
+Dialogue: 0,1:24:46.40,1:24:49.28,Default,,0,0,0,,All right. See you try\Nand beat this one, Happy.
+Dialogue: 0,1:24:52.69,1:24:54.11,Default,,0,0,0,,[man 1] Let's go, Gilmore!
+Dialogue: 0,1:24:55.85,1:24:57.43,Default,,0,0,0,,- [man 2] You jackass.\N- What the...
+Dialogue: 0,1:24:58.06,1:24:59.39,Default,,0,0,0,,- [ball splashes]\N- [crowd] Oh!
+Dialogue: 0,1:24:59.40,1:25:02.57,Default,,0,0,0,,Are you kidding me right now?\NYou just cost me the hole, dude!
+Dialogue: 0,1:25:02.56,1:25:05.77,Default,,0,0,0,,[laughing] Happy Gilmore.
+Dialogue: 0,1:25:05.77,1:25:07.98,Default,,0,0,0,,Man, I wish my father\Nwas here to see this.
+Dialogue: 0,1:25:07.98,1:25:09.15,Default,,0,0,0,,Ya jackass.
+Dialogue: 0,1:25:09.15,1:25:10.19,Default,,0,0,0,,Jackass.
+Dialogue: 0,1:25:10.19,1:25:11.73,Default,,0,0,0,,- Jackass!\N- [man] There he is.
+Dialogue: 0,1:25:11.73,1:25:15.81,Default,,0,0,0,,Unfortunately... [kisses]\N...he's in the great Sizzler in the sky.
+Dialogue: 0,1:25:15.81,1:25:18.02,Default,,0,0,0,,Know what? I don't miss that dude at all.
+Dialogue: 0,1:25:18.02,1:25:19.89,Default,,0,0,0,,What are you gonna do, Happy boy?
+Dialogue: 0,1:25:19.90,1:25:23.11,Default,,0,0,0,,Unless you wanna go to jail,\Nyou can't hit me. Jackass.
+Dialogue: 0,1:25:23.10,1:25:24.72,Default,,0,0,0,,Oh, my goodness!
+Dialogue: 0,1:25:24.73,1:25:27.15,Default,,0,0,0,,Yeah... but we can.
+Dialogue: 0,1:25:27.15,1:25:28.15,Default,,0,0,0,,[Happy] You guys came?
+Dialogue: 0,1:25:28.15,1:25:29.73,Default,,0,0,0,,[Donald Jr.] This your posse?
+Dialogue: 0,1:25:29.73,1:25:31.65,Default,,0,0,0,,- This is what I do.\N- Okay, let's see.
+Dialogue: 0,1:25:31.65,1:25:33.78,Default,,0,0,0,,There's only four of you?\NBetter go get some help!
+Dialogue: 0,1:25:34.48,1:25:36.52,Default,,0,0,0,,- [Happy] Okay. Okay.\N- [yells]
+Dialogue: 0,1:25:36.52,1:25:39.52,Default,,0,0,0,,- Come on! Get him up, boys!\N- I know a lot about fighting.
+Dialogue: 0,1:25:39.52,1:25:42.73,Default,,0,0,0,,I'll bite your leg off.\NYou want some smoke? [yelps]
+Dialogue: 0,1:25:43.69,1:25:44.52,Default,,0,0,0,,[laughing]
+Dialogue: 0,1:25:44.52,1:25:47.69,Default,,0,0,0,,[Donald Jr.] This ain't nothing.\NNow you got me really pissed.
+Dialogue: 0,1:25:47.69,1:25:49.94,Default,,0,0,0,,Oh, what is this? You want some of this?
+Dialogue: 0,1:25:49.94,1:25:51.23,Default,,0,0,0,,Look at the gators!
+Dialogue: 0,1:25:51.23,1:25:53.98,Default,,0,0,0,,You brought the whole family. [yells]
+Dialogue: 0,1:25:53.98,1:25:55.23,Default,,0,0,0,,Oh, my dick!
+Dialogue: 0,1:25:55.23,1:25:57.44,Default,,0,0,0,,Oh! Whoa! Detroit!
+Dialogue: 0,1:25:57.44,1:25:58.81,Default,,0,0,0,,[laughing]
+Dialogue: 0,1:25:58.81,1:26:00.60,Default,,0,0,0,,I just don't give a--
+Dialogue: 0,1:26:00.60,1:26:02.31,Default,,0,0,0,,- [bleeping]\N- [muffled shouting]
+Dialogue: 0,1:26:02.31,1:26:04.31,Default,,0,0,0,,[all laughing]
+Dialogue: 0,1:26:04.31,1:26:06.31,Default,,0,0,0,,{\i1}Put some respect on my name, bitch.{\i0}
+Dialogue: 0,1:26:06.31,1:26:09.89,Default,,0,0,0,,- What is he doing to those gators?\N{\i1}- Jackass!{\i0}
+Dialogue: 0,1:26:10.77,1:26:13.81,Default,,0,0,0,,Well, it looks like we have\Nour first fatality.
+Dialogue: 0,1:26:14.69,1:26:16.06,Default,,0,0,0,,{\an8}Whoo!
+Dialogue: 0,1:26:16.06,1:26:17.64,Default,,0,0,0,,{\an8}[Verne] {\i1}If you can believe it,{\i0}
+Dialogue: 0,1:26:17.65,1:26:20.19,Default,,0,0,0,,{\an8}{\i1}the Maxi Golfers\Nare up two matches to one,{\i0}
+Dialogue: 0,1:26:20.19,1:26:21.86,Default,,0,0,0,,{\an8}{\i1}which means Koepka and Gilmore{\i0}
+Dialogue: 0,1:26:21.85,1:26:25.77,Default,,0,0,0,,{\an8}{\i1}are going to have to win out\Nin order to defeat the Maxi team.{\i0}
+Dialogue: 0,1:26:25.77,1:26:28.06,Default,,0,0,0,,{\an8}[woman] All right there, Flex!\NCome on, Flex!
+Dialogue: 0,1:26:29.27,1:26:31.15,Default,,0,0,0,,- [ball whizzing]\N- [Happy] Boom!
+Dialogue: 0,1:26:35.31,1:26:36.93,Default,,0,0,0,,- [woman] Nice shot, hottie!\N- Ooh!
+Dialogue: 0,1:26:36.94,1:26:39.11,Default,,0,0,0,,No pressure, Boobs Getchya.
+Dialogue: 0,1:26:39.10,1:26:41.47,Default,,0,0,0,,[Guy] Next on the tee, Brooks Koepka.
+Dialogue: 0,1:26:41.48,1:26:45.48,Default,,0,0,0,,[Verne] {\i1}To me, the smartest play\Nis to come up short of the icy green{\i0}
+Dialogue: 0,1:26:45.48,1:26:48.15,Default,,0,0,0,,{\i1}and give yourself a chance to chip it in.{\i0}
+Dialogue: 0,1:26:53.52,1:26:55.35,Default,,0,0,0,,[crowd cheering]
+Dialogue: 0,1:26:55.35,1:26:57.35,Default,,0,0,0,,Yes! Oh, God! [grunts]
+Dialogue: 0,1:26:58.60,1:27:00.56,Default,,0,0,0,,Sorry, guys.\NI knew I shouldn't have fist-pumped.
+Dialogue: 0,1:27:00.56,1:27:02.02,Default,,0,0,0,,[Frank] Sucks for you guys.
+Dialogue: 0,1:27:02.02,1:27:04.94,Default,,0,0,0,,- Another disqualification. Game over.\N- [team laughing]
+Dialogue: 0,1:27:04.94,1:27:09.44,Default,,0,0,0,,No, wait. In the event of an injury,\Nwe have the right to substitute.
+Dialogue: 0,1:27:09.44,1:27:10.65,Default,,0,0,0,,All right, fine. Fine.
+Dialogue: 0,1:27:11.52,1:27:12.60,Default,,0,0,0,,Who you guys got?
+Dialogue: 0,1:27:12.60,1:27:14.35,Default,,0,0,0,,The one and only.
+Dialogue: 0,1:27:15.94,1:27:17.69,Default,,0,0,0,,[slurping]
+Dialogue: 0,1:27:19.77,1:27:20.77,Default,,0,0,0,,What's that now?
+Dialogue: 0,1:27:21.94,1:27:24.69,Default,,0,0,0,,{\an8}[Verne] {\i1}And a wild day\Njust got a bit wilder.{\i0}
+Dialogue: 0,1:27:24.69,1:27:27.48,Default,,0,0,0,,{\an8}{\i1}Shooter McGavin will take over\Nfor Brooks Koepka{\i0}
+Dialogue: 0,1:27:27.48,1:27:30.69,Default,,0,0,0,,{\an8}{\i1}here on the sixth hole\Nand the putt from Flex.{\i0}
+Dialogue: 0,1:27:33.56,1:27:35.52,Default,,0,0,0,,{\i1}Oh, it's off course.{\i0}
+Dialogue: 0,1:27:35.52,1:27:38.44,Default,,0,0,0,,- [yelling in anger]\N- I think I see an opening.
+Dialogue: 0,1:27:38.44,1:27:41.15,Default,,0,0,0,,Let's go, Scooter! Clock's a-tickin'!
+Dialogue: 0,1:27:41.15,1:27:43.48,Default,,0,0,0,,This is a joke.\NI'm not a competitive golfer anymore.
+Dialogue: 0,1:27:43.48,1:27:46.10,Default,,0,0,0,,What are you talking about?\NYou still got the shooter in you.
+Dialogue: 0,1:27:46.10,1:27:47.68,Default,,0,0,0,,That guy's long gone, Gilmore.
+Dialogue: 0,1:27:47.69,1:27:50.73,Default,,0,0,0,,No. He's sleeping.\NIt's time to wake him up.
+Dialogue: 0,1:27:50.73,1:27:53.23,Default,,0,0,0,,Look at these punks. The B-lists.
+Dialogue: 0,1:27:53.23,1:27:55.65,Default,,0,0,0,,- Never won shit on the real tour.\N- [Shooter] Yeah.
+Dialogue: 0,1:27:55.65,1:27:57.57,Default,,0,0,0,,And now they're laughing\Nat Shooter McGavin,
+Dialogue: 0,1:27:57.56,1:28:01.19,Default,,0,0,0,,the greatest golfer of the '90s,\Nexcept for me and Tiger?
+Dialogue: 0,1:28:01.85,1:28:05.93,Default,,0,0,0,,How dare they?\NHow dare they disrespect you?
+Dialogue: 0,1:28:05.94,1:28:07.27,Default,,0,0,0,,Where should they go?
+Dialogue: 0,1:28:08.06,1:28:10.18,Default,,0,0,0,,- Back.\N- Back where?
+Dialogue: 0,1:28:10.19,1:28:12.48,Default,,0,0,0,,- Back to...\N- To their what?
+Dialogue: 0,1:28:12.48,1:28:14.81,Default,,0,0,0,,- To their shanties.\N- Aha!
+Dialogue: 0,1:28:14.81,1:28:16.77,Default,,0,0,0,,Because this is whose tour?
+Dialogue: 0,1:28:16.77,1:28:18.44,Default,,0,0,0,,It's Shooter's, Shooter's tour.
+Dialogue: 0,1:28:18.44,1:28:20.27,Default,,0,0,0,,- Whose tour?\N- It's Shooter's tour!
+Dialogue: 0,1:28:20.27,1:28:23.89,Default,,0,0,0,,- Whose tour?\N- It's Shooter's tour, baby!
+Dialogue: 0,1:28:23.90,1:28:25.02,Default,,0,0,0,,[mimicking gunshots]
+Dialogue: 0,1:28:25.02,1:28:26.35,Default,,0,0,0,,{\i1}Yeah!{\i0}
+Dialogue: 0,1:28:26.35,1:28:28.43,Default,,0,0,0,,He's got the old pistols back again.
+Dialogue: 0,1:28:28.44,1:28:31.27,Default,,0,0,0,,- Give the man his lob wedge.\N- Oh, I'm feeling it now.
+Dialogue: 0,1:28:33.10,1:28:34.81,Default,,0,0,0,,[Happy] No pressure. No pressure.
+Dialogue: 0,1:28:34.81,1:28:38.02,Default,,0,0,0,,[Frank] {\i1}You're not gonna make it, Shooter.\NTick tock.{\i0}
+Dialogue: 0,1:28:40.10,1:28:42.56,Default,,0,0,0,,{\an8}- Five, four...\N- No!
+Dialogue: 0,1:28:44.02,1:28:47.89,Default,,0,0,0,,[Frank] ...three, two, one!
+Dialogue: 0,1:28:47.90,1:28:50.98,Default,,0,0,0,,- [crowd cheering]\N- You've got to be kidding me!
+Dialogue: 0,1:28:52.65,1:28:53.61,Default,,0,0,0,,Oh, my God!
+Dialogue: 0,1:28:53.60,1:28:55.77,Default,,0,0,0,,[Verne] {\i1}Well, how do you do?{\i0}
+Dialogue: 0,1:28:55.77,1:29:00.52,Default,,0,0,0,,{\i1}Shooter McGavin jars the cup,\Nwins the hole and his match.{\i0}
+Dialogue: 0,1:29:00.52,1:29:02.48,Default,,0,0,0,,[crowd chanting] Shooter! Shooter!
+Dialogue: 0,1:29:02.48,1:29:05.02,Default,,0,0,0,,{\i1}Come on now! Choke on that!{\i0}
+Dialogue: 0,1:29:05.02,1:29:08.77,Default,,0,0,0,,{\an8}[Verne] {\i1}That leaves us tied\Nwith only Billy Jenkins{\i0}
+Dialogue: 0,1:29:08.77,1:29:11.94,Default,,0,0,0,,and Happy Gilmore left to be decided.
+Dialogue: 0,1:29:13.73,1:29:17.35,Default,,0,0,0,,{\an8}{\i1}And it's come down to this.\NThe final hole.{\i0}
+Dialogue: 0,1:29:17.35,1:29:20.10,Default,,0,0,0,,{\i1}Winner take all. The shot clocks are off.{\i0}
+Dialogue: 0,1:29:20.10,1:29:22.06,Default,,0,0,0,,{\i1}The pressure is on.{\i0}
+Dialogue: 0,1:29:22.06,1:29:25.81,Default,,0,0,0,,{\i1}The future of regular golf\Nhangs in the balance.{\i0}
+Dialogue: 0,1:29:25.81,1:29:29.02,Default,,0,0,0,,Thousand-yard par four.\NThat's a little long.
+Dialogue: 0,1:29:29.02,1:29:30.56,Default,,0,0,0,,[Billy] Not for me, big man.
+Dialogue: 0,1:29:32.73,1:29:34.48,Default,,0,0,0,,Yeah. Check this out.
+Dialogue: 0,1:29:42.35,1:29:43.56,Default,,0,0,0,,Hello?
+Dialogue: 0,1:29:43.56,1:29:47.14,Default,,0,0,0,,- Woo-woo! [grunts]\N- [whizzing]
+Dialogue: 0,1:29:53.65,1:29:56.48,Default,,0,0,0,,- [crowd cheering]\N- [Verne] {\i1}Whoa!{\i0}
+Dialogue: 0,1:29:56.48,1:30:01.15,Default,,0,0,0,,That is the longest drive\NI have ever seen.
+Dialogue: 0,1:30:01.15,1:30:04.57,Default,,0,0,0,,- Hey, you remember my name now? Bitch.\N- [gasps]
+Dialogue: 0,1:30:05.98,1:30:08.06,Default,,0,0,0,,I'd like to forget\Never seeing that hip thing.
+Dialogue: 0,1:30:08.06,1:30:09.31,Default,,0,0,0,,That was disgusting.
+Dialogue: 0,1:30:09.31,1:30:11.56,Default,,0,0,0,,[Verne] {\i1}Jenkins can be\Non the green in two,{\i0}
+Dialogue: 0,1:30:11.56,1:30:16.02,Default,,0,0,0,,{\i1}while Gilmore has no hope\Nof getting on in less than three strokes.{\i0}
+Dialogue: 0,1:30:16.02,1:30:17.60,Default,,0,0,0,,Verne, that sucks.
+Dialogue: 0,1:30:20.02,1:30:22.60,Default,,0,0,0,,Okay to use that hate one last time, Slim?
+Dialogue: 0,1:30:22.60,1:30:24.73,Default,,0,0,0,,Yeah, let it all out.
+Dialogue: 0,1:30:31.06,1:30:32.69,Default,,0,0,0,,Ain't no surgery for that.
+Dialogue: 0,1:30:36.02,1:30:37.77,Default,,0,0,0,,[man] Come on, Happy, let's go.
+Dialogue: 0,1:30:39.69,1:30:43.69,Default,,0,0,0,,You never made the Bruins\Nbecause you suck at skating.
+Dialogue: 0,1:30:43.69,1:30:46.15,Default,,0,0,0,,You shut your stupid face.
+Dialogue: 0,1:30:46.15,1:30:47.40,Default,,0,0,0,,Who's he talking to?
+Dialogue: 0,1:30:47.40,1:30:50.15,Default,,0,0,0,,Oh! And your daughter's\Nnever going to ballet school
+Dialogue: 0,1:30:50.15,1:30:52.32,Default,,0,0,0,,because her dad's a washed up drunk.
+Dialogue: 0,1:30:52.31,1:30:54.23,Default,,0,0,0,,I'm gonna kill you!
+Dialogue: 0,1:30:54.23,1:30:56.31,Default,,0,0,0,,[growling angrily]
+Dialogue: 0,1:30:58.52,1:30:59.60,Default,,0,0,0,,Uh-oh.
+Dialogue: 0,1:31:00.23,1:31:03.23,Default,,0,0,0,,- [yells]\N- [screaming]
+Dialogue: 0,1:31:06.15,1:31:09.11,Default,,0,0,0,,[screaming, spluttering]
+Dialogue: 0,1:31:16.81,1:31:19.27,Default,,0,0,0,,- [groaning]\N- [crowd cheering]
+Dialogue: 0,1:31:23.31,1:31:25.85,Default,,0,0,0,,[high-pitched voice]\NSomebody went further.
+Dialogue: 0,1:31:25.85,1:31:27.43,Default,,0,0,0,,Yeah...
+Dialogue: 0,1:31:27.44,1:31:30.52,Default,,0,0,0,,- Bitch!\N- [crowd cheering]
+Dialogue: 0,1:31:34.48,1:31:36.11,Default,,0,0,0,,[Verne] {\i1}Jenkins is first to hit.{\i0}
+Dialogue: 0,1:31:40.27,1:31:42.69,Default,,0,0,0,,[cheering]
+Dialogue: 0,1:31:42.69,1:31:44.19,Default,,0,0,0,,Yes!
+Dialogue: 0,1:31:45.94,1:31:49.94,Default,,0,0,0,,Oh, and by the way,\Nall four of your boys are dumb!
+Dialogue: 0,1:31:49.94,1:31:51.52,Default,,0,0,0,,What did you say?
+Dialogue: 0,1:31:52.60,1:31:56.47,Default,,0,0,0,,- [Hal laughs wickedly] Ow! Ooh!\N- [crowd] Aw.
+Dialogue: 0,1:31:56.48,1:31:58.11,Default,,0,0,0,,[Billy] Yeah!
+Dialogue: 0,1:31:58.69,1:32:01.61,Default,,0,0,0,,[Verne] {\i1}I can't believe there's taxis\Nwithout drivers,{\i0}
+Dialogue: 0,1:32:01.60,1:32:07.02,Default,,0,0,0,,{\i1}AI girlfriends, and now, quite possibly,\Nthe end of traditional golf.{\i0}
+Dialogue: 0,1:32:07.02,1:32:10.06,Default,,0,0,0,,[crowd cheering]
+Dialogue: 0,1:32:12.27,1:32:13.27,Default,,0,0,0,,[Billy] I'll go first.
+Dialogue: 0,1:32:13.27,1:32:16.06,Default,,0,0,0,,Give you a chance to think about\Nhow you're going to play that.
+Dialogue: 0,1:32:17.40,1:32:19.11,Default,,0,0,0,,- Whoa!\N- [crowd] Whoa!
+Dialogue: 0,1:32:20.40,1:32:23.40,Default,,0,0,0,,[laughs] Billy Jenkins,\Nyou stepped on it and stepped in it.
+Dialogue: 0,1:32:23.40,1:32:25.44,Default,,0,0,0,,Shut up, Edward Woodenhand.
+Dialogue: 0,1:32:25.44,1:32:28.94,Default,,0,0,0,,- Screw you, Cabbage Patch Kid.\N- [crowd laughs]
+Dialogue: 0,1:32:33.15,1:32:34.90,Default,,0,0,0,,[crowd exclaim]
+Dialogue: 0,1:32:37.10,1:32:38.68,Default,,0,0,0,,Take your time.
+Dialogue: 0,1:32:38.69,1:32:40.48,Default,,0,0,0,,Go get my lob wedge. Wait.
+Dialogue: 0,1:32:43.31,1:32:44.48,Default,,0,0,0,,Go stand right there.
+Dialogue: 0,1:32:52.85,1:32:53.85,Default,,0,0,0,,[Billy] Okay.
+Dialogue: 0,1:32:55.19,1:32:56.73,Default,,0,0,0,,Right in the back of the cup.
+Dialogue: 0,1:32:59.56,1:33:03.10,Default,,0,0,0,,{\an8}- No, don't get off! God!\N- [crowd] Oh!
+Dialogue: 0,1:33:03.10,1:33:04.35,Default,,0,0,0,,{\an8}- Vecsey!\N- What?
+Dialogue: 0,1:33:04.35,1:33:05.77,Default,,0,0,0,,God damn it.
+Dialogue: 0,1:33:06.40,1:33:08.32,Default,,0,0,0,,Excuse me. Know what? You're fired.
+Dialogue: 0,1:33:08.31,1:33:09.56,Default,,0,0,0,,Makes sense.
+Dialogue: 0,1:33:09.56,1:33:12.52,Default,,0,0,0,,Will you quit messing this up\Nand make this? Come on.
+Dialogue: 0,1:33:12.52,1:33:14.23,Default,,0,0,0,,[Billy] I'm trying, sir.
+Dialogue: 0,1:33:14.23,1:33:15.85,Default,,0,0,0,,Just get it on the right line.
+Dialogue: 0,1:33:15.85,1:33:17.56,Default,,0,0,0,,[Billy] Coming right up, sir.
+Dialogue: 0,1:33:17.56,1:33:19.81,Default,,0,0,0,,[suspenseful music plays]
+Dialogue: 0,1:33:27.90,1:33:32.40,Default,,0,0,0,,- [crowd cheering]\N- [Verne] {\i1}And Billy Jenkins is in for four.{\i0}
+Dialogue: 0,1:33:32.40,1:33:34.19,Default,,0,0,0,,- Yeah!\N- Choke on that one, Happy!
+Dialogue: 0,1:33:34.85,1:33:39.27,Default,,0,0,0,,[Verne] {\i1}Gilmore has only two shots left\Nto even tie this thing.{\i0}
+Dialogue: 0,1:33:39.27,1:33:43.65,Default,,0,0,0,,{\i1}I'm not even playing and my palms\Nare sweaty. Mom's spaghetti.{\i0}
+Dialogue: 0,1:33:44.35,1:33:46.27,Default,,0,0,0,,I can't get a damn swing off here.
+Dialogue: 0,1:33:46.27,1:33:48.56,Default,,0,0,0,,You got any ideas? We're in trouble, dude.
+Dialogue: 0,1:33:48.56,1:33:51.69,Default,,0,0,0,,Hmm. I say ricochet that shit.
+Dialogue: 0,1:33:53.23,1:33:54.52,Default,,0,0,0,,Yeah, that's a good idea.
+Dialogue: 0,1:34:02.15,1:34:04.69,Default,,0,0,0,,- [crowd cheering]\N- Amazing!
+Dialogue: 0,1:34:04.69,1:34:05.73,Default,,0,0,0,,Did it go in?
+Dialogue: 0,1:34:05.73,1:34:07.27,Default,,0,0,0,,Not that amazing.
+Dialogue: 0,1:34:08.94,1:34:10.31,Default,,0,0,0,,You nervous?
+Dialogue: 0,1:34:10.31,1:34:13.52,Default,,0,0,0,,No, just... Can I use your mailbox?
+Dialogue: 0,1:34:13.52,1:34:15.31,Default,,0,0,0,,[Verne] {\i1}The question now is,{\i0}
+Dialogue: 0,1:34:15.31,1:34:17.98,Default,,0,0,0,,{\i1}how do you hit on a green\Nyou can't stand on?{\i0}
+Dialogue: 0,1:34:18.85,1:34:19.77,Default,,0,0,0,,[Happy] What do I do?
+Dialogue: 0,1:34:20.48,1:34:21.94,Default,,0,0,0,,[Gordy] Here we go, Dad!
+Dialogue: 0,1:34:21.94,1:34:24.06,Default,,0,0,0,,- Dad, let's go!\N- Let's go! All you!
+Dialogue: 0,1:34:24.06,1:34:25.64,Default,,0,0,0,,- [Gordy] Right now!\N- All right.
+Dialogue: 0,1:34:25.65,1:34:26.78,Default,,0,0,0,,What's the plan?
+Dialogue: 0,1:34:27.52,1:34:28.77,Default,,0,0,0,,How about this?
+Dialogue: 0,1:34:28.77,1:34:30.85,Default,,0,0,0,,Go to the other side\Ndirectly across from me.
+Dialogue: 0,1:34:30.85,1:34:32.39,Default,,0,0,0,,- Yes, sir.\N- Okay.
+Dialogue: 0,1:34:32.40,1:34:34.61,Default,,0,0,0,,- Oscar. Hey.\N- Yeah, go!
+Dialogue: 0,1:34:34.60,1:34:36.89,Default,,0,0,0,,Oh, God, I can't bear to watch.
+Dialogue: 0,1:34:36.90,1:34:39.36,Default,,0,0,0,,Oscar, how much do you weigh?
+Dialogue: 0,1:34:40.10,1:34:41.48,Default,,0,0,0,,170.
+Dialogue: 0,1:34:42.35,1:34:43.85,Default,,0,0,0,,Pick up the bag, please.
+Dialogue: 0,1:34:45.23,1:34:47.02,Default,,0,0,0,,Actually, take two clubs out.
+Dialogue: 0,1:34:47.02,1:34:49.48,Default,,0,0,0,,Two clubs. Two. Two clubs.
+Dialogue: 0,1:34:49.48,1:34:51.65,Default,,0,0,0,,Okay. Pick the bag up again.
+Dialogue: 0,1:34:52.69,1:34:55.52,Default,,0,0,0,,And on the count of three,\Nwe're stepping on the green.
+Dialogue: 0,1:34:55.52,1:34:57.64,Default,,0,0,0,,- Okay.\N- [Happy] Are you ready?
+Dialogue: 0,1:34:57.65,1:35:03.19,Default,,0,0,0,,And one, two... three!
+Dialogue: 0,1:35:04.23,1:35:05.40,Default,,0,0,0,,Whoa, oh-- Hey...
+Dialogue: 0,1:35:06.52,1:35:09.35,Default,,0,0,0,,That's it. That's it.\NOkay, we're gonna hop forward.
+Dialogue: 0,1:35:09.35,1:35:12.47,Default,,0,0,0,,One. Two. Three.
+Dialogue: 0,1:35:12.48,1:35:15.27,Default,,0,0,0,,- [both yelp]\N- [Happy] Ooh.
+Dialogue: 0,1:35:17.31,1:35:18.44,Default,,0,0,0,,{\i1}Okay.{\i0}
+Dialogue: 0,1:35:20.10,1:35:21.27,Default,,0,0,0,,{\i1}Now to the left.{\i0}
+Dialogue: 0,1:35:22.02,1:35:24.19,Default,,0,0,0,,One, two, three.
+Dialogue: 0,1:35:25.40,1:35:26.86,Default,,0,0,0,,That's it.
+Dialogue: 0,1:35:26.85,1:35:30.43,Default,,0,0,0,,Now we're gonna go sideways... Two, three.
+Dialogue: 0,1:35:33.19,1:35:36.02,Default,,0,0,0,,Ooh, Oscar... Nice work.
+Dialogue: 0,1:35:36.02,1:35:37.60,Default,,0,0,0,,Check this out.
+Dialogue: 0,1:35:38.19,1:35:39.15,Default,,0,0,0,,Whoa!
+Dialogue: 0,1:35:40.56,1:35:42.64,Default,,0,0,0,,- What's happening?\N- [Oscar] What the...
+Dialogue: 0,1:35:42.65,1:35:46.40,Default,,0,0,0,,Sorry, Happy, I had to.\NWe don't do tiebreakers at Maxi.
+Dialogue: 0,1:35:46.40,1:35:48.19,Default,,0,0,0,,How about we raise the stakes?
+Dialogue: 0,1:35:48.19,1:35:50.56,Default,,0,0,0,,I end this whole project\Nif you sink this putt.
+Dialogue: 0,1:35:50.56,1:35:51.98,Default,,0,0,0,,And if I miss?
+Dialogue: 0,1:35:51.98,1:35:54.11,Default,,0,0,0,,It's simple. You join Maxi League.
+Dialogue: 0,1:35:57.23,1:35:59.73,Default,,0,0,0,,[imperceptible]
+Dialogue: 0,1:35:59.73,1:36:01.35,Default,,0,0,0,,How about this?
+Dialogue: 0,1:36:01.35,1:36:03.14,Default,,0,0,0,,You pay for my daughter's dance school,
+Dialogue: 0,1:36:03.15,1:36:04.65,Default,,0,0,0,,buy me my grandma's house back,
+Dialogue: 0,1:36:04.65,1:36:06.65,Default,,0,0,0,,plus I get your Rolls-Royce,
+Dialogue: 0,1:36:07.40,1:36:10.15,Default,,0,0,0,,plus you gotta buy Oscar\Nhis own restaurant.
+Dialogue: 0,1:36:11.06,1:36:12.85,Default,,0,0,0,,What kind of restaurant\Nare we talking here?
+Dialogue: 0,1:36:12.85,1:36:14.47,Default,,0,0,0,,What kind of food, Oscar?
+Dialogue: 0,1:36:14.48,1:36:16.94,Default,,0,0,0,,Sushi. No, no, no. Italian.
+Dialogue: 0,1:36:16.94,1:36:18.90,Default,,0,0,0,,Fine. You're on.
+Dialogue: 0,1:36:18.90,1:36:21.90,Default,,0,0,0,,[Verne] {\i1}You heard it.\NThere'll be no playoff today.{\i0}
+Dialogue: 0,1:36:22.98,1:36:24.15,Default,,0,0,0,,Oscar, I have bad news.
+Dialogue: 0,1:36:25.44,1:36:27.36,Default,,0,0,0,,I'm holding a sand wedge. I need a putter.
+Dialogue: 0,1:36:29.02,1:36:31.19,Default,,0,0,0,,Just take it slowly out of the bag.
+Dialogue: 0,1:36:32.52,1:36:36.48,Default,,0,0,0,,That's it. That's it. Take the sock off.
+Dialogue: 0,1:36:36.48,1:36:39.52,Default,,0,0,0,,Okay, so we're gonna throw it\Nto each other on the count of three.
+Dialogue: 0,1:36:39.52,1:36:40.90,Default,,0,0,0,,- Okay.\N- We can do this.
+Dialogue: 0,1:36:42.19,1:36:45.32,Default,,0,0,0,,One, two, three.
+Dialogue: 0,1:36:46.06,1:36:49.77,Default,,0,0,0,,- [crowd] Oh!\N- Okay. I caught my own club.
+Dialogue: 0,1:36:50.73,1:36:52.73,Default,,0,0,0,,Physics is a bitch, isn't it?
+Dialogue: 0,1:36:53.56,1:36:55.02,Default,,0,0,0,,Here's what we're gonna do.
+Dialogue: 0,1:36:55.02,1:36:57.48,Default,,0,0,0,,We're gonna throw it\Nstraight up in the sky.
+Dialogue: 0,1:36:57.48,1:36:58.60,Default,,0,0,0,,Let's do this.
+Dialogue: 0,1:36:58.60,1:37:00.47,Default,,0,0,0,,Do not get sick, Oscar.
+Dialogue: 0,1:37:00.48,1:37:05.73,Default,,0,0,0,,- Okay. One, two, three.\N- One, two...
+Dialogue: 0,1:37:10.31,1:37:11.18,Default,,0,0,0,,Yes!
+Dialogue: 0,1:37:11.19,1:37:13.86,Default,,0,0,0,,Let's go! Let's go, Hap!
+Dialogue: 0,1:37:13.85,1:37:16.73,Default,,0,0,0,,High five. High...
+Dialogue: 0,1:37:18.10,1:37:21.68,Default,,0,0,0,,Hey, Gilmore can do this.\NI've seen it. I lived it.
+Dialogue: 0,1:37:22.48,1:37:25.73,Default,,0,0,0,,{\an8}Wow. Cool.\NHow bout we take this to the Maxi?
+Dialogue: 0,1:37:26.48,1:37:29.02,Default,,0,0,0,,[whirring]
+Dialogue: 0,1:37:29.73,1:37:31.31,Default,,0,0,0,,He's gonna fly off.
+Dialogue: 0,1:37:31.31,1:37:33.85,Default,,0,0,0,,- ...spot, focus on the spot.\N- You got it. Focus.
+Dialogue: 0,1:37:33.85,1:37:34.93,Default,,0,0,0,,[laughing]
+Dialogue: 0,1:37:34.94,1:37:36.19,Default,,0,0,0,,Oh, no.
+Dialogue: 0,1:37:36.19,1:37:38.11,Default,,0,0,0,,Hang in there, Oscar, please.
+Dialogue: 0,1:37:43.02,1:37:45.64,Default,,0,0,0,,Come on, Dad. You got it.
+Dialogue: 0,1:37:45.65,1:37:47.36,Default,,0,0,0,,[kids] Dad!
+Dialogue: 0,1:37:49.02,1:37:50.90,Default,,0,0,0,,[whooping]
+Dialogue: 0,1:37:51.56,1:37:53.48,Default,,0,0,0,,- Come on, Dad!\N- [cheering]
+Dialogue: 0,1:37:56.15,1:37:59.07,Default,,0,0,0,,I love you so much!
+Dialogue: 0,1:38:04.90,1:38:09.73,Default,,0,0,0,,Do it like my daddy taught you.\NTap it. Tap it in.
+Dialogue: 0,1:38:19.35,1:38:21.06,Default,,0,0,0,,[Verne] {\i1}It's got a chance.{\i0}
+Dialogue: 0,1:38:22.19,1:38:24.11,Default,,0,0,0,,- Go.\N- Go.
+Dialogue: 0,1:38:24.10,1:38:25.72,Default,,0,0,0,,Come on, Happy.
+Dialogue: 0,1:38:25.73,1:38:28.06,Default,,0,0,0,,- Come on, come on...\N- Come on, come on, come on...
+Dialogue: 0,1:38:33.44,1:38:37.44,Default,,0,0,0,,- Get there!\N- [crowd exclaiming] Oh!
+Dialogue: 0,1:38:37.44,1:38:39.61,Default,,0,0,0,,[Verne] {\i1}Oh, no!{\i0}
+Dialogue: 0,1:38:40.81,1:38:44.48,Default,,0,0,0,,Yes! Welcome to Maxi, Happy. Whoo!
+Dialogue: 0,1:38:45.60,1:38:47.52,Default,,0,0,0,,- [thuds]\N- [clatters]
+Dialogue: 0,1:38:48.81,1:38:51.85,Default,,0,0,0,,- [ball clatters]\N- [all cheering]
+Dialogue: 0,1:38:53.10,1:38:58.14,Default,,0,0,0,,Oh, my God! Happy Gilmore has won!
+Dialogue: 0,1:38:59.02,1:39:02.23,Default,,0,0,0,,{\i1}And regular golf will live on.{\i0}
+Dialogue: 0,1:39:03.60,1:39:07.14,Default,,0,0,0,,- I'm 8 Ball! I'm 8 Ball!\N- No! That doesn't happen!
+Dialogue: 0,1:39:07.15,1:39:09.19,Default,,0,0,0,,You are a piece of shit, you know that?
+Dialogue: 0,1:39:09.19,1:39:10.69,Default,,0,0,0,,I did everything I could...
+Dialogue: 0,1:39:10.69,1:39:14.15,Default,,0,0,0,,Oscar! We did it, Oscar!
+Dialogue: 0,1:39:14.15,1:39:16.23,Default,,0,0,0,,[cheering]
+Dialogue: 0,1:39:18.27,1:39:20.69,Default,,0,0,0,,{\i1}- Papi, papi.{\i0} Wake up.\N- [groans]
+Dialogue: 0,1:39:21.35,1:39:22.47,Default,,0,0,0,,- Good job!\N- Did we win?
+Dialogue: 0,1:39:22.48,1:39:25.10,Default,,0,0,0,,[upbeat music playing over speakers]
+Dialogue: 0,1:39:25.10,1:39:26.56,Default,,0,0,0,,- Yes!\N- All right!
+Dialogue: 0,1:39:26.56,1:39:27.68,Default,,0,0,0,,Happy, yes!
+Dialogue: 0,1:39:27.69,1:39:29.44,Default,,0,0,0,,Yeah, yeah!
+Dialogue: 0,1:39:29.44,1:39:30.52,Default,,0,0,0,,Stop.
+Dialogue: 0,1:39:33.94,1:39:37.98,Default,,0,0,0,,Your training paid off. You did it.\NI'm proud of you. I'm proud of you.
+Dialogue: 0,1:39:37.98,1:39:39.15,Default,,0,0,0,,- Yes!\N- Yes!
+Dialogue: 0,1:39:41.06,1:39:43.06,Default,,0,0,0,,What a great win. Let's go to Hooters.
+Dialogue: 0,1:39:49.19,1:39:50.90,Default,,0,0,0,,[both grunting]
+Dialogue: 0,1:39:50.90,1:39:54.44,Default,,0,0,0,,- Happy Gilmore! Happy Gilmore!\N- Happy Gilmore! Happy Gilmore!
+Dialogue: 0,1:39:54.44,1:39:57.65,Default,,0,0,0,,I can't believe I'm saying this,\Nbut you're all free to go.
+Dialogue: 0,1:39:57.65,1:40:00.28,Default,,0,0,0,,- [cheering]\N- Beautiful.
+Dialogue: 0,1:40:01.90,1:40:04.86,Default,,0,0,0,,Unbelievable. Tremendous.
+Dialogue: 0,1:40:04.85,1:40:06.56,Default,,0,0,0,,I understand you have a restaurant.
+Dialogue: 0,1:40:06.56,1:40:11.35,Default,,0,0,0,,{\an8}We have the best Italian Dominican\NPuerto Rican Cuban restaurant in the town.
+Dialogue: 0,1:40:11.35,1:40:13.27,Default,,0,0,0,,[Esteban] I love my new job!
+Dialogue: 0,1:40:13.27,1:40:16.14,Default,,0,0,0,,We did it, baby! We did it for Mom!
+Dialogue: 0,1:40:16.15,1:40:18.23,Default,,0,0,0,,[all cheering]
+Dialogue: 0,1:40:25.15,1:40:29.07,Default,,0,0,0,,Well, I've won a lot of trophies\Nand jackets over the years,
+Dialogue: 0,1:40:29.85,1:40:35.31,Default,,0,0,0,,but out of all of them, I have to say\Nthis is by far the most special.
+Dialogue: 0,1:40:36.35,1:40:38.68,Default,,0,0,0,,And I want to thank\Nall my friends out there
+Dialogue: 0,1:40:38.69,1:40:42.32,Default,,0,0,0,,who helped me achieve\Nthis monumental moment.
+Dialogue: 0,1:40:45.15,1:40:46.40,Default,,0,0,0,,Three months sober.
+Dialogue: 0,1:40:46.98,1:40:49.40,Default,,0,0,0,,[Nate] Yay! Way to go, Mr. Gilmore!
+Dialogue: 0,1:40:50.31,1:40:52.85,Default,,0,0,0,,Splendid! Splendid, Mr. Gilmore.
+Dialogue: 0,1:40:53.77,1:40:56.52,Default,,0,0,0,,But will you make it to a year?
+Dialogue: 0,1:40:56.52,1:41:01.56,Default,,0,0,0,,- Magic 8-Ball says... unlikely.\N- Uh-huh.
+Dialogue: 0,1:41:01.56,1:41:05.56,Default,,0,0,0,,What are you talking about, Hal?\NHappy's going to make it a full lifetime.
+Dialogue: 0,1:41:05.56,1:41:07.35,Default,,0,0,0,,Know what else is full, Charlotte?
+Dialogue: 0,1:41:07.35,1:41:11.06,Default,,0,0,0,,My gutters. Full of dead leaves\Nand squirrel droppings.
+Dialogue: 0,1:41:11.06,1:41:12.93,Default,,0,0,0,,But you'll be cleaning them out\Nthis weekend.
+Dialogue: 0,1:41:12.94,1:41:15.15,Default,,0,0,0,,I don't like the way you talk to that kid.
+Dialogue: 0,1:41:15.15,1:41:16.40,Default,,0,0,0,,It's fine, Mr. Gilmore.
+Dialogue: 0,1:41:16.40,1:41:19.77,Default,,0,0,0,,No, it's not fine. That kid has helped me\Nmore than you have, Hal.
+Dialogue: 0,1:41:19.77,1:41:21.98,Default,,0,0,0,,Seriously, Mr. Gilmore, I got this.
+Dialogue: 0,1:41:21.98,1:41:24.65,Default,,0,0,0,,Guys, can we be done here?\NWe've got enough.
+Dialogue: 0,1:41:24.65,1:41:27.40,Default,,0,0,0,,Why are you talking into your collar?\NAre you high?
+Dialogue: 0,1:41:28.81,1:41:30.02,Default,,0,0,0,,Are you high?
+Dialogue: 0,1:41:31.60,1:41:33.06,Default,,0,0,0,,- Holy--\N- Whoa!
+Dialogue: 0,1:41:33.06,1:41:34.93,Default,,0,0,0,,Hallowicious Lieberman!
+Dialogue: 0,1:41:34.94,1:41:37.02,Default,,0,0,0,,You're under arrest\Nfor fraud and extortion.
+Dialogue: 0,1:41:37.02,1:41:39.60,Default,,0,0,0,,We got enough footage of you\Nbeing a sick son of a bitch
+Dialogue: 0,1:41:39.60,1:41:41.43,Default,,0,0,0,,to lock you away for a lifetime.
+Dialogue: 0,1:41:42.31,1:41:44.02,Default,,0,0,0,,You narc'd on me?
+Dialogue: 0,1:41:44.65,1:41:45.57,Default,,0,0,0,,Guess so.
+Dialogue: 0,1:41:45.56,1:41:48.06,Default,,0,0,0,,Hey, man, I was just trying\Nto help these people.
+Dialogue: 0,1:41:48.06,1:41:51.31,Default,,0,0,0,,Manual labor's therapeutically beneficial.
+Dialogue: 0,1:41:51.31,1:41:52.81,Default,,0,0,0,,- Hey, Happy.\N- What?
+Dialogue: 0,1:41:52.81,1:41:55.14,Default,,0,0,0,,- Catch.\N- Oh!
+Dialogue: 0,1:41:55.15,1:41:56.15,Default,,0,0,0,,[Hal laughing]
+Dialogue: 0,1:41:56.15,1:41:59.40,Default,,0,0,0,,- I believe that's Mr. Gilmore's!\N- He got my coin!
+Dialogue: 0,1:41:59.40,1:42:03.61,Default,,0,0,0,,- [yelling] I got the coin!\N- [clamoring]
+Dialogue: 0,1:42:06.15,1:42:07.82,Default,,0,0,0,,[laughing]
+Dialogue: 0,1:42:07.81,1:42:09.64,Default,,0,0,0,,- [Nate punching]\N- [Hal yelping]
+Dialogue: 0,1:42:09.65,1:42:11.98,Default,,0,0,0,,- Oh, shit! Stop!\N- [Nate] Stay still!
+Dialogue: 0,1:42:13.90,1:42:15.48,Default,,0,0,0,,You're a very cool kid.
+Dialogue: 0,1:42:16.06,1:42:19.35,Default,,0,0,0,,You're a very cool guy.\NYou remind me of my dad.
+Dialogue: 0,1:42:19.35,1:42:20.43,Default,,0,0,0,,Yeah?
+Dialogue: 0,1:42:20.44,1:42:23.52,Default,,0,0,0,,["Tuesday's Gone" playing]
+Dialogue: 0,1:42:27.56,1:42:29.27,Default,,0,0,0,,All right, just have fun in Paris.
+Dialogue: 0,1:42:29.27,1:42:31.31,Default,,0,0,0,,If you get homesick for America,
+Dialogue: 0,1:42:31.31,1:42:34.48,Default,,0,0,0,,I can ship over some Yodels\Nor bottle rockets.
+Dialogue: 0,1:42:34.48,1:42:35.77,Default,,0,0,0,,Whatever you guys want.
+Dialogue: 0,1:42:35.77,1:42:38.44,Default,,0,0,0,,We'll be fine, Dad.\NAnd we'll see you next month, right?
+Dialogue: 0,1:42:38.44,1:42:39.36,Default,,0,0,0,,That's right.
+Dialogue: 0,1:42:39.35,1:42:42.35,Default,,0,0,0,,I got the British Open,\NI'll show up a week early, we'll hang out.
+Dialogue: 0,1:42:42.35,1:42:44.81,Default,,0,0,0,,I want to see some\Nfancy French dancing from this kid.
+Dialogue: 0,1:42:44.81,1:42:46.39,Default,,0,0,0,,Then you can come check out our show.
+Dialogue: 0,1:42:46.40,1:42:47.48,Default,,0,0,0,,What show?
+Dialogue: 0,1:42:47.48,1:42:49.06,Default,,0,0,0,,We're gonna be singing mimes.
+Dialogue: 0,1:42:49.06,1:42:50.89,Default,,0,0,0,,I thought mimes aren't allowed to talk.
+Dialogue: 0,1:42:50.90,1:42:54.02,Default,,0,0,0,,That's how we're gonna separate ourselves\Nfrom the other mimes, by singing.
+Dialogue: 0,1:42:54.02,1:42:55.14,Default,,0,0,0,,Okay.
+Dialogue: 0,1:42:55.15,1:43:00.40,Default,,0,0,0,,{\i1}♪ We're trapped in a box!\NNow we're tugging on a rope! ♪{\i0}
+Dialogue: 0,1:43:01.15,1:43:03.27,Default,,0,0,0,,{\i1}♪ Even look at our sister... ♪{\i0}
+Dialogue: 0,1:43:03.27,1:43:05.44,Default,,0,0,0,,- And we'll kill you!\N- And we'll crush you!
+Dialogue: 0,1:43:05.44,1:43:07.52,Default,,0,0,0,,- I'll murder you!\N- Don't you look at her!
+Dialogue: 0,1:43:07.52,1:43:10.10,Default,,0,0,0,,- Smart. I love that!\N- Nailed it. Really good.
+Dialogue: 0,1:43:10.10,1:43:11.64,Default,,0,0,0,,Come here. Gonna miss you.
+Dialogue: 0,1:43:11.65,1:43:14.90,Default,,0,0,0,,And if you're hungry on the flight,\Nenjoy the bread from Oscar's restaurant.
+Dialogue: 0,1:43:14.90,1:43:17.44,Default,,0,0,0,,Go crush them over there for Mom.\NHave a ball.
+Dialogue: 0,1:43:17.44,1:43:18.36,Default,,0,0,0,,Love you, Dad.
+Dialogue: 0,1:43:18.35,1:43:20.52,Default,,0,0,0,,- Hey, here you go.\N- [Happy] You're the best, guys.
+Dialogue: 0,1:43:20.52,1:43:22.56,Default,,0,0,0,,- Sir, right there.\N- There you go, buddy.
+Dialogue: 0,1:43:22.56,1:43:25.06,Default,,0,0,0,,Yeah, get him! [laughs]
+Dialogue: 0,1:43:25.06,1:43:26.39,Default,,0,0,0,,I'm so sorry, sweetheart.
+Dialogue: 0,1:43:26.40,1:43:27.69,Default,,0,0,0,,[Bobby] Come on, Vienna.
+Dialogue: 0,1:43:29.60,1:43:31.31,Default,,0,0,0,,Love you. I'll miss you.
+Dialogue: 0,1:43:34.52,1:43:40.23,Default,,0,0,0,,{\i1}♪ Tuesday's gone with the wind ♪{\i0}
+Dialogue: 0,1:43:45.19,1:43:46.73,Default,,0,0,0,,Hey, Happy.
+Dialogue: 0,1:43:53.69,1:43:58.61,Default,,0,0,0,,{\i1}♪ Tuesday's gone with the wind ♪{\i0}
+Dialogue: 0,1:43:58.60,1:44:00.73,Default,,0,0,0,,Oh. You're okay.
+Dialogue: 0,1:44:03.19,1:44:08.82,Default,,0,0,0,,{\i1}♪ My baby's gone with the wind ♪{\i0}
+Dialogue: 0,1:44:10.44,1:44:13.65,Default,,0,0,0,,{\i1}♪ Train roll on ♪{\i0}
+Dialogue: 0,1:44:15.77,1:44:18.35,Default,,0,0,0,,{\i1}♪ Tuesday's gone ♪{\i0}
+Dialogue: 0,1:44:18.35,1:44:22.35,Default,,0,0,0,,- [car chiming]\N- [automated voice] {\i1}Battery, zero percent.{\i0}
+Dialogue: 0,1:44:22.35,1:44:24.48,Default,,0,0,0,,I didn't charge it! Damn it!
+Dialogue: 0,1:44:25.94,1:44:28.94,Default,,0,0,0,,["The Waiting" playing]
+Dialogue: 0,1:44:43.98,1:44:47.81,Default,,0,0,0,,{\i1}♪ Oh, baby\NDon't it feel like heaven right now? ♪{\i0}
+Dialogue: 0,1:44:47.81,1:44:51.14,Default,,0,0,0,,{\i1}♪ Don't it feel like something\NFrom a dream? ♪{\i0}
+Dialogue: 0,1:44:51.90,1:44:55.94,Default,,0,0,0,,{\i1}♪ Yeah, I've never known\NNothing quite like this ♪{\i0}
+Dialogue: 0,1:44:55.94,1:45:00.06,Default,,0,0,0,,{\i1}♪ Don't it feel like tonight\NMight never be again? ♪{\i0}
+Dialogue: 0,1:45:00.06,1:45:04.06,Default,,0,0,0,,{\i1}♪ Baby, we know better\NThan to try and pretend ♪{\i0}
+Dialogue: 0,1:45:04.06,1:45:07.93,Default,,0,0,0,,{\i1}♪ Honey no one\NCoulda ever told me 'bout this ♪{\i0}
+Dialogue: 0,1:45:07.94,1:45:10.56,Default,,0,0,0,,{\i1}- ♪ I said yeah, yeah ♪\N- ♪ Yeah, yeah ♪{\i0}
+Dialogue: 0,1:45:10.56,1:45:12.39,Default,,0,0,0,,{\i1}♪ Yeah, yeah, yeah, yeah ♪{\i0}
+Dialogue: 0,1:45:12.40,1:45:16.48,Default,,0,0,0,,{\i1}♪ The waiting is the hardest part ♪{\i0}
+Dialogue: 0,1:45:16.48,1:45:20.31,Default,,0,0,0,,{\i1}♪ Every day you see one more card ♪{\i0}
+Dialogue: 0,1:45:20.31,1:45:24.43,Default,,0,0,0,,{\i1}♪ You take it on faith\NYou take it to the heart ♪{\i0}
+Dialogue: 0,1:45:24.44,1:45:28.69,Default,,0,0,0,,{\i1}♪ The waiting is the hardest part ♪{\i0}
+Dialogue: 0,1:45:32.27,1:45:36.23,Default,,0,0,0,,{\i1}♪ Well, yeah, I might have chased\NA couple women around ♪{\i0}
+Dialogue: 0,1:45:36.23,1:45:40.10,Default,,0,0,0,,{\i1}♪ All it ever got me was down ♪{\i0}
+Dialogue: 0,1:45:40.10,1:45:44.43,Default,,0,0,0,,{\i1}♪ Then there were those\NThat made me feel good ♪{\i0}
+Dialogue: 0,1:45:44.44,1:45:48.40,Default,,0,0,0,,{\i1}♪ But never as good as I feel right now ♪{\i0}
+Dialogue: 0,1:45:48.40,1:45:52.69,Default,,0,0,0,,{\i1}♪ Baby, you're the only one\NThat's ever known how ♪{\i0}
+Dialogue: 0,1:45:52.69,1:45:54.52,Default,,0,0,0,,{\i1}♪ To make me wanna live... ♪{\i0}
+Dialogue: 0,1:45:54.52,1:45:56.81,Default,,0,0,0,,{\an8}{\i1}Well, the bad news\Njust keeps coming for Maxi{\i0}
+Dialogue: 0,1:45:56.81,1:45:59.73,Default,,0,0,0,,{\an8}{\i1}and its controversial founder,\NFrancis Manatee.{\i0}
+Dialogue: 0,1:45:59.73,1:46:03.02,Default,,0,0,0,,{\an8}{\i1}Since the spectacular failure\Nof the Maxi Golf League,{\i0}
+Dialogue: 0,1:46:03.02,1:46:07.19,Default,,0,0,0,,{\an8}{\i1}the popular Maxi Sports Drink\Nhas been recalled after complaints{\i0}
+Dialogue: 0,1:46:07.19,1:46:10.86,Default,,0,0,0,,{\an8}{\i1}it caused irreversible halitosis,\Ngingivitis,{\i0}
+Dialogue: 0,1:46:10.85,1:46:13.77,Default,,0,0,0,,{\an8}{\i1}and a new condition\Nthey're calling tongue rot.{\i0}
+Dialogue: 0,1:46:14.44,1:46:17.27,Default,,0,0,0,,{\an8}{\i1}We at the Sports Hole\Ntried to reach Manatee for comment,{\i0}
+Dialogue: 0,1:46:17.27,1:46:19.98,Default,,0,0,0,,{\an8}{\i1}but his current whereabouts\Nare apparently unknown.{\i0}
+Dialogue: 0,1:46:19.98,1:46:24.02,Default,,0,0,0,,{\i1}Yeah, I would run too if I gave\Nhalf the world midnight booty breath.{\i0}
+Dialogue: 0,1:46:24.02,1:46:28.44,Default,,0,0,0,,Hey, Scheffler, it's been three days.\NYou sure you don't wanna make that call?
+Dialogue: 0,1:46:28.44,1:46:30.52,Default,,0,0,0,,It depends. What's for dinner?
+Dialogue: 0,1:46:30.52,1:46:32.10,Default,,0,0,0,,Chicken fingers.
+Dialogue: 0,1:46:32.10,1:46:34.02,Default,,0,0,0,,I'll stick around another night.
+Dialogue: 0,1:46:34.02,1:46:35.60,Default,,0,0,0,,Okay.
+Dialogue: 0,1:46:35.60,1:46:38.68,Default,,0,0,0,,{\an8}["Sitting Down Is Stupid" playing]
+Dialogue: 0,1:46:48.73,1:46:50.31,Default,,0,0,0,,{\an8}{\i1}♪ Oh ♪{\i0}
+Dialogue: 0,1:46:50.31,1:46:54.06,Default,,0,0,0,,{\an8}{\i1}♪ Get your biscuits in the kitchen\NI'm a sous chef on a mission ♪{\i0}
+Dialogue: 0,1:46:54.06,1:46:57.85,Default,,0,0,0,,{\an8}{\i1}♪ Baby, wiggle it, it's vicious\NWe about to break the dishes ♪{\i0}
+Dialogue: 0,1:46:57.85,1:47:01.85,Default,,0,0,0,,{\an8}{\i1}♪ Got the pepper with the sodium\NWe cookin' with petroleum ♪{\i0}
+Dialogue: 0,1:47:01.85,1:47:05.60,Default,,0,0,0,,{\an8}{\i1}♪ Come step up to the podium\NAnd cut up this linoleum ♪{\i0}
+Dialogue: 0,1:47:08.48,1:47:09.90,Default,,0,0,0,,{\an8}{\i1}♪ Just move it ♪{\i0}
+Dialogue: 0,1:47:12.56,1:47:13.69,Default,,0,0,0,,{\an8}{\i1}♪ Move it ♪{\i0}
+Dialogue: 0,1:47:17.15,1:47:21.07,Default,,0,0,0,,{\an8}{\i1}♪ Sittin' down is stupid\NNow let me see you move it ♪{\i0}
+Dialogue: 0,1:47:28.19,1:47:31.69,Default,,0,0,0,,{\an8}{\i1}♪ Get your peaches off that stoop\NBaby, work that hula hoop ♪{\i0}
+Dialogue: 0,1:47:31.69,1:47:35.61,Default,,0,0,0,,{\an8}{\i1}♪ Throw it back and watch 'em shoop\NScottie Pippen, alley oop ♪{\i0}
+Dialogue: 0,1:47:35.60,1:47:39.43,Default,,0,0,0,,{\an8}{\i1}♪ Mix it up like orange drink\NShake your buffalo chicken wing ♪{\i0}
+Dialogue: 0,1:47:39.44,1:47:43.65,Default,,0,0,0,,{\an8}{\i1}♪ Get your galoshes, make it rain\NNow-now let me hear you sing, uh ♪{\i0}
+Dialogue: 0,1:47:46.27,1:47:47.60,Default,,0,0,0,,{\an8}{\i1}♪ Just move it ♪{\i0}
+Dialogue: 0,1:47:50.31,1:47:51.52,Default,,0,0,0,,{\an8}{\i1}♪ Move it ♪{\i0}
+Dialogue: 0,1:47:54.90,1:47:58.90,Default,,0,0,0,,{\an8}{\i1}♪ Sittin' down is stupid\NNow let me see you move it ♪{\i0}
+Dialogue: 0,1:48:01.40,1:48:02.73,Default,,0,0,0,,{\an8}{\i1}♪ Just move it ♪{\i0}
+Dialogue: 0,1:48:05.35,1:48:06.48,Default,,0,0,0,,{\an8}{\i1}♪ Move it ♪{\i0}
+Dialogue: 0,1:48:09.98,1:48:13.98,Default,,0,0,0,,{\an8}{\i1}♪ Sittin' down is stupid\NNow let me see you move it ♪{\i0}
+Dialogue: 0,1:48:21.44,1:48:22.86,Default,,0,0,0,,{\an8}{\i1}♪ Sitting is dumb ♪{\i0}
+Dialogue: 0,1:48:25.31,1:48:26.64,Default,,0,0,0,,{\an8}{\i1}♪ Dancing is more fun ♪{\i0}
+Dialogue: 0,1:48:28.98,1:48:30.48,Default,,0,0,0,,{\an8}{\i1}♪ Sitting is dumb ♪{\i0}
+Dialogue: 0,1:48:32.90,1:48:34.19,Default,,0,0,0,,{\an8}{\i1}♪ Dancing is more fun ♪{\i0}
+Dialogue: 0,1:48:34.77,1:48:36.52,Default,,0,0,0,,{\an8}{\i1}♪ Dancing is more fun ♪{\i0}
+Dialogue: 0,1:48:36.52,1:48:39.85,Default,,0,0,0,,{\an8}{\i1}♪ Sitting is dumb\NBut dancing is more fun ♪{\i0}
+Dialogue: 0,1:48:40.48,1:48:43.73,Default,,0,0,0,,{\an8}{\i1}♪ Dancing is more fun\NDancing is more fun ♪{\i0}
+Dialogue: 0,1:48:46.73,1:48:48.06,Default,,0,0,0,,{\an8}{\i1}♪ Just move it ♪{\i0}
+Dialogue: 0,1:48:50.73,1:48:51.94,Default,,0,0,0,,{\an8}{\i1}♪ Move it ♪{\i0}
+Dialogue: 0,1:48:55.31,1:48:59.35,Default,,0,0,0,,{\an8}{\i1}♪ Sittin' down is stupid\NNow let me see you move it ♪{\i0}
+Dialogue: 0,1:49:01.90,1:49:03.15,Default,,0,0,0,,{\an8}{\i1}♪ Just move it ♪{\i0}
+Dialogue: 0,1:49:05.85,1:49:07.10,Default,,0,0,0,,{\an8}{\i1}♪ Move it ♪{\i0}
+Dialogue: 0,1:49:10.48,1:49:14.48,Default,,0,0,0,,{\an8}{\i1}♪ Sittin' down is stupid\NNow let me see you move it ♪{\i0}
