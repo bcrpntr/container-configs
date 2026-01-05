@@ -1,0 +1,415 @@
+2026-01-04T12:50:02.053Z v76qqvAhVxo:[Step S01] [2.58.02] Server relay initialising job
+2026-01-04T12:50:02.053Z v76qqvAhVxo:Server: linux_x64_docker_true
+2026-01-04T12:50:02.054Z v76qqvAhVxo:Server relay adding file to staged files
+2026-01-04T12:50:02.054Z v76qqvAhVxo:Server relay sending job to Node relay: MyInternalNode
+2026-01-04T12:50:02.054Z v76qqvAhVxo:Node[MyInternalNode]:[Step N01] [2.58.02] Node relay received job
+2026-01-04T12:50:02.054Z v76qqvAhVxo:Node[MyInternalNode]:{"nodeName":"MyInternalNode","serverURL":"http://0.0.0.0:8266","serverIP":"0.0.0.0","serverPort":"8266","handbrakePath":"","ffmpegPath":"","mkvpropeditPath":"","pathTranslators":[{"server":"","node":""}],"nodeType":"mapped","unmappedNodeCache":"/app/unmappedNodeCache","logLevel":"INFO","priority":-1,"platform_arch_isdocker":"linux_x64_docker_true","processPid":664,"cronPluginUpdate":"","apiKey":"","maxLogSizeMB":"10","pollInterval":2000,"startPaused":false,"nodeID":"-2RaUzM4Y","seededWorkerLimits":{},"nodeRegisteredCount":1}
+2026-01-04T12:50:02.055Z v76qqvAhVxo:Node[MyInternalNode]:Node relay sending job to worker:jumpy-joey
+2026-01-04T12:50:02.055Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[Step W01] Received file, original: "/media/tv/The Traitors/Season 1/The.Traitors.S01E05.1080p.WEB.H264-BUSSY.mkv"
+2026-01-04T12:50:02.055Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:{"workerType":"transcodegpu"}
+2026-01-04T12:50:02.056Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:{"ffmpegPath":"tdarr-ffmpeg"}
+2026-01-04T12:50:02.056Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:{"handbrakePath":"HandBrakeCLI"}
+2026-01-04T12:50:02.056Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:{"mkvpropeditPath":"mkvpropedit"}
+2026-01-04T12:50:02.056Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:{"gpuSelect":"-"}
+2026-01-04T12:50:02.057Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:{"allowGpuDoCpu":false}
+2026-01-04T12:50:02.057Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:{"thoroughHealthCheckCpuExtraInputArgs":""}
+2026-01-04T12:50:02.057Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:{"thoroughHealthCheckGpuExtraInputArgs":""}
+2026-01-04T12:50:02.058Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:{"thoroughHealthCheckCpuExtraArgs":""}
+2026-01-04T12:50:02.058Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:{"thoroughHealthCheckGpuExtraArgs":""}
+2026-01-04T12:50:02.058Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:{"logFullCliOutput":false}
+2026-01-04T12:50:02.059Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:{"runMkvpropedit":false}
+2026-01-04T12:50:02.059Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:{"dontCleanWorkerCacheFolder":false}
+2026-01-04T12:50:02.060Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Path translating objects
+2026-01-04T12:50:02.060Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Running path translator tests
+2026-01-04T12:50:02.060Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Path translator tests passed
+2026-01-04T12:50:02.060Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:{"librarySettings":{"_id":"KU0woozLb","priority":1,"name":"TV Shows","folder":"/media/tv","foldersToIgnore":"","foldersToIgnoreCaseInsensitive":false,"folderWatchScanInterval":30,"scannerThreadCount":2,"cache":"/tmp","output":".","folderToFolderConversion":false,"folderToFolderConversionDeleteSource":false,"folderToFolderRecordHistory":true,"copyIfConditionsMet":false,"container":".mkv","containerFilter":"mkv,mp4,mov,m4v,mpg,mpeg,avi,flv,webm,wmv,vob,evo,iso,m2ts,ts","createdAt":1675837380368,"folderWatching":false,"useFsEvents":false,"scheduledScanFindNew":false,"processLibrary":true,"processTranscodes":true,"processHealthChecks":true,"scanOnStart":false,"exifToolScan":true,"mediaInfoScan":true,"ffprobeShowData":false,"isDirectoryLibrary":false,"closedCaptionScan":false,"scanButtons":true,"scanFound":"Files found:0","navItemSelected":"navSourceFolder","pluginIDs":[{"_id":"plugin1","id":"Tdarr_Plugin_MC93_MigzImageRemoval","checked":true,"source":"Community","priority":0,"InputsDB":{}},{"_id":"plugin2","id":"Tdarr_Plugin_lmg1_Reorder_Streams","checked":true,"source":"Community","priority":1,"InputsDB":{}},{"_id":"plugin4","id":"Tdarr_Plugin_MC93_Migz1FFMPEG","checked":true,"source":"Community","priority":2,"InputsDB":{}},{"_id":"plugin5","id":"Tdarr_Plugin_a9he_New_file_size_check","checked":true,"source":"Community","priority":3,"InputsDB":{}}],"pluginCommunity":true,"handbrake":true,"ffmpeg":false,"handbrakescan":true,"ffmpegscan":false,"preset":"-Z \"Very Fast 1080p30\"","decisionMaker":{"settingsPlugin":true,"settingsFlows":false,"settingsVideo":false,"videoExcludeSwitch":true,"video_codec_names_exclude":[{"codec":"hevc","checked":false},{"codec":"h264","checked":true}],"video_size_range_include":{"min":0,"max":100000},"video_height_range_include":{"min":0,"max":3000},"video_width_range_include":{"min":0,"max":4000},"settingsAudio":false,"audioExcludeSwitch":true,"audio_codec_names_exclude":[{"codec":"mp3","checked":true},{"codec":"aac","checked":false}],"audio_size_range_include":{"min":0,"max":10}},"schedule":[{"_id":"Sun:00-01","checked":true},{"_id":"Sun:01-02","checked":true},{"_id":"Sun:02-03","checked":true},{"_id":"Sun:03-04","checked":true},{"_id":"Sun:04-05","checked":true},{"_id":"Sun:05-06","checked":true},{"_id":"Sun:06-07","checked":true},{"_id":"Sun:07-08","checked":true},{"_id":"Sun:08-09","checked":true},{"_id":"Sun:09-10","checked":true},{"_id":"Sun:10-11","checked":true},{"_id":"Sun:11-12","checked":true},{"_id":"Sun:12-13","checked":true},{"_id":"Sun:13-14","checked":true},{"_id":"Sun:14-15","checked":true},{"_id":"Sun:15-16","checked":true},{"_id":"Sun:16-17","checked":true},{"_id":"Sun:17-18","checked":true},{"_id":"Sun:18-19","checked":true},{"_id":"Sun:19-20","checked":true},{"_id":"Sun:20-21","checked":true},{"_id":"Sun:21-22","checked":true},{"_id":"Sun:22-23","checked":true},{"_id":"Sun:23-00","checked":true},{"_id":"Mon:00-01","checked":true},{"_id":"Mon:01-02","checked":true},{"_id":"Mon:02-03","checked":true},{"_id":"Mon:03-04","checked":true},{"_id":"Mon:04-05","checked":true},{"_id":"Mon:05-06","checked":true},{"_id":"Mon:06-07","checked":true},{"_id":"Mon:07-08","checked":true},{"_id":"Mon:08-09","checked":true},{"_id":"Mon:09-10","checked":true},{"_id":"Mon:10-11","checked":true},{"_id":"Mon:11-12","checked":true},{"_id":"Mon:12-13","checked":true},{"_id":"Mon:13-14","checked":true},{"_id":"Mon:14-15","checked":true},{"_id":"Mon:15-16","checked":true},{"_id":"Mon:16-17","checked":true},{"_id":"Mon:17-18","checked":true},{"_id":"Mon:18-19","checked":true},{"_id":"Mon:19-20","checked":true},{"_id":"Mon:20-21","checked":true},{"_id":"Mon:21-22","checked":true},{"_id":"Mon:22-23","checked":true},{"_id":"Mon:23-00","checked":true},{"_id":"Tue:00-01","checked":true},{"_id":"Tue:01-02","checked":true},{"_id":"Tue:02-03","checked":true},{"_id":"Tue:03-04","checked":true},{"_id":"Tue:04-05","checked":true},{"_id":"Tue:05-06","checked":true},{"_id":"Tue:06-07","checked":true},{"_id":"Tue:07-08","checked":true},{"_id":"Tue:08-09","checked":true},{"_id":"Tue:09-10","checked":true},{"_id":"Tue:10-11","checked":true},{"_id":"Tue:11-12","checked":true},{"_id":"Tue:12-13","checked":true},{"_id":"Tue:13-14","checked":true},{"_id":"Tue:14-15","checked":true},{"_id":"Tue:15-16","checked":true},{"_id":"Tue:16-17","checked":true},{"_id":"Tue:17-18","checked":true},{"_id":"Tue:18-19","checked":true},{"_id":"Tue:19-20","checked":true},{"_id":"Tue:20-21","checked":true},{"_id":"Tue:21-22","checked":true},{"_id":"Tue:22-23","checked":true},{"_id":"Tue:23-00","checked":true},{"_id":"Wed:00-01","checked":true},{"_id":"Wed:01-02","checked":true},{"_id":"Wed:02-03","checked":true},{"_id":"Wed:03-04","checked":true},{"_id":"Wed:04-05","checked":true},{"_id":"Wed:05-06","checked":true},{"_id":"Wed:06-07","checked":true},{"_id":"Wed:07-08","checked":true},{"_id":"Wed:08-09","checked":true},{"_id":"Wed:09-10","checked":true},{"_id":"Wed:10-11","checked":true},{"_id":"Wed:11-12","checked":true},{"_id":"Wed:12-13","checked":true},{"_id":"Wed:13-14","checked":true},{"_id":"Wed:14-15","checked":true},{"_id":"Wed:15-16","checked":true},{"_id":"Wed:16-17","checked":true},{"_id":"Wed:17-18","checked":true},{"_id":"Wed:18-19","checked":true},{"_id":"Wed:19-20","checked":true},{"_id":"Wed:20-21","checked":true},{"_id":"Wed:21-22","checked":true},{"_id":"Wed:22-23","checked":true},{"_id":"Wed:23-00","checked":true},{"_id":"Thur:00-01","checked":true},{"_id":"Thur:01-02","checked":true},{"_id":"Thur:02-03","checked":true},{"_id":"Thur:03-04","checked":true},{"_id":"Thur:04-05","checked":true},{"_id":"Thur:05-06","checked":true},{"_id":"Thur:06-07","checked":true},{"_id":"Thur:07-08","checked":true},{"_id":"Thur:08-09","checked":true},{"_id":"Thur:09-10","checked":true},{"_id":"Thur:10-11","checked":true},{"_id":"Thur:11-12","checked":true},{"_id":"Thur:12-13","checked":true},{"_id":"Thur:13-14","checked":true},{"_id":"Thur:14-15","checked":true},{"_id":"Thur:15-16","checked":true},{"_id":"Thur:16-17","checked":true},{"_id":"Thur:17-18","checked":true},{"_id":"Thur:18-19","checked":true},{"_id":"Thur:19-20","checked":true},{"_id":"Thur:20-21","checked":true},{"_id":"Thur:21-22","checked":true},{"_id":"Thur:22-23","checked":true},{"_id":"Thur:23-00","checked":true},{"_id":"Fri:00-01","checked":true},{"_id":"Fri:01-02","checked":true},{"_id":"Fri:02-03","checked":true},{"_id":"Fri:03-04","checked":true},{"_id":"Fri:04-05","checked":true},{"_id":"Fri:05-06","checked":true},{"_id":"Fri:06-07","checked":true},{"_id":"Fri:07-08","checked":true},{"_id":"Fri:08-09","checked":true},{"_id":"Fri:09-10","checked":true},{"_id":"Fri:10-11","checked":true},{"_id":"Fri:11-12","checked":true},{"_id":"Fri:12-13","checked":true},{"_id":"Fri:13-14","checked":true},{"_id":"Fri:14-15","checked":true},{"_id":"Fri:15-16","checked":true},{"_id":"Fri:16-17","checked":true},{"_id":"Fri:17-18","checked":true},{"_id":"Fri:18-19","checked":true},{"_id":"Fri:19-20","checked":true},{"_id":"Fri:20-21","checked":true},{"_id":"Fri:21-22","checked":true},{"_id":"Fri:22-23","checked":true},{"_id":"Fri:23-00","checked":true},{"_id":"Sat:00-01","checked":true},{"_id":"Sat:01-02","checked":true},{"_id":"Sat:02-03","checked":true},{"_id":"Sat:03-04","checked":true},{"_id":"Sat:04-05","checked":true},{"_id":"Sat:05-06","checked":true},{"_id":"Sat:06-07","checked":true},{"_id":"Sat:07-08","checked":true},{"_id":"Sat:08-09","checked":true},{"_id":"Sat:09-10","checked":true},{"_id":"Sat:10-11","checked":true},{"_id":"Sat:11-12","checked":true},{"_id":"Sat:12-13","checked":true},{"_id":"Sat:13-14","checked":true},{"_id":"Sat:14-15","checked":true},{"_id":"Sat:15-16","checked":true},{"_id":"Sat:16-17","checked":true},{"_id":"Sat:17-18","checked":true},{"_id":"Sat:18-19","checked":true},{"_id":"Sat:19-20","checked":true},{"_id":"Sat:20-21","checked":true},{"_id":"Sat:21-22","checked":true},{"_id":"Sat:22-23","checked":true},{"_id":"Sat:23-00","checked":true}],"totalHealthCheckCount":1284,"totalTranscodeCount":11,"sizeDiff":0,"holdNewFiles":false,"holdFor":3600,"holdForDisplayUnit":"hours","pluginStackOverview":true,"filterResolutionsSkip":"","filterCodecsSkip":"","filterContainersSkip":"","processPluginsSequentially":true}}
+2026-01-04T12:50:02.061Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Fetching plugin data from server
+2026-01-04T12:50:02.061Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Scanning original library file
+2026-01-04T12:50:02.061Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:{
+2026-01-04T12:50:02.061Z   "exifToolScan": true,
+2026-01-04T12:50:02.061Z   "mediaInfoScan": true,
+2026-01-04T12:50:02.061Z   "closedCaptionScan": false
+2026-01-04T12:50:02.061Z }
+2026-01-04T12:50:02.062Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Node scanning file
+2026-01-04T12:50:04.062Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Scan complete
+2026-01-04T12:50:04.063Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Original file scanned
+2026-01-04T12:50:04.063Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:fileVersionOriginalLogJSONString:{"lastCliCommand":"","lastPluginId":"","sourceFile":{"_id":"/media/tv/The Traitors/Season 1/The.Traitors.S01E05.1080p.WEB.H264-BUSSY.mkv","DB":"KU0woozLb","footprintId":"mLdjbCCMEg","file":"/media/tv/The Traitors/Season 1/The.Traitors.S01E05.1080p.WEB.H264-BUSSY.mkv","fileNameWithoutExtension":"The.Traitors.S01E05.1080p.WEB.H264-BUSSY","container":"mkv","scannerReads":{"ffProbeRead":"success","exiftoolRead":"success","mediaInfoRead":"success","closedCaptionRead":"not enabled"},"createdAt":1767552601385,"lastPluginDetails":"none","bit_rate":5095954,"statSync":{"dev":2064,"mode":33188,"nlink":1,"uid":1000,"gid":1000,"rdev":0,"blksize":4096,"ino":386663813,"size":2276662354,"blocks":4446616,"atimeMs":1767502114698.1821,"mtimeMs":1680912000000,"ctimeMs":1767501962120.1936,"birthtimeMs":1767501960248.1191,"atime":"2026-01-04T04:48:34.698Z","mtime":"2023-04-08T00:00:00.000Z","ctime":"2026-01-04T04:46:02.120Z","birthtime":"2026-01-04T04:46:00.248Z"},"file_size":2171.194414138794,"ffProbeData":{"streams":[{"index":0,"codec_name":"h264","codec_long_name":"H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10","profile":"High","codec_type":"video","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","width":1920,"height":1080,"coded_width":1920,"coded_height":1080,"closed_captions":0,"film_grain":0,"has_b_frames":2,"sample_aspect_ratio":"1:1","display_aspect_ratio":"16:9","pix_fmt":"yuv420p","level":40,"color_range":"tv","color_space":"bt709","color_transfer":"bt709","color_primaries":"bt709","chroma_location":"left","field_order":"progressive","refs":1,"is_avc":"true","nal_length_size":"4","r_frame_rate":"30000/1001","avg_frame_rate":"30000/1001","time_base":"1/1000","start_pts":0,"start_time":"0.000000","bits_per_raw_sample":"8","extradata_size":49,"disposition":{"default":1,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"BPS":"4705514","DURATION":"00:59:34.070000000","NUMBER_OF_FRAMES":"107115","NUMBER_OF_BYTES":"2102229623","_STATISTICS_WRITING_APP":"mkvmerge v66.0.0 ('Josie') 64-bit","_STATISTICS_WRITING_DATE_UTC":"2023-04-07 12:05:06","_STATISTICS_TAGS":"BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES"}},{"index":1,"codec_name":"ac3","codec_long_name":"ATSC A/52A (AC-3)","codec_type":"audio","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","sample_fmt":"fltp","sample_rate":"48000","channels":6,"channel_layout":"5.1(side)","bits_per_sample":0,"initial_padding":0,"r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","bit_rate":"384000","disposition":{"default":1,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"eng","title":"English","BPS":"384000","DURATION":"00:59:34.016000000","NUMBER_OF_FRAMES":"111688","NUMBER_OF_BYTES":"171552768","_STATISTICS_WRITING_APP":"mkvmerge v66.0.0 ('Josie') 64-bit","_STATISTICS_WRITING_DATE_UTC":"2023-04-07 12:05:06","_STATISTICS_TAGS":"BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES"}},{"index":2,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":3574070,"duration":"3574.070000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"eng","title":"English","BPS":"2519","DURATION":"00:59:25.062000000","NUMBER_OF_FRAMES":"21374","NUMBER_OF_BYTES":"1122558","_STATISTICS_WRITING_APP":"mkvmerge v66.0.0 ('Josie') 64-bit","_STATISTICS_WRITING_DATE_UTC":"2023-04-07 12:05:06","_STATISTICS_TAGS":"BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES"}}],"format":{"filename":"/media/tv/The Traitors/Season 1/The.Traitors.S01E05.1080p.WEB.H264-BUSSY.mkv","nb_streams":3,"nb_programs":0,"nb_stream_groups":0,"format_name":"matroska,webm","format_long_name":"Matroska / WebM","start_time":"0.000000","duration":"3574.070000","size":"2276662354","bit_rate":"5095954","probe_score":100,"tags":{"encoder":"libebml v1.4.2 + libmatroska v1.6.4"}}},"meta":{"SourceFile":"/media/tv/The Traitors/Season 1/The.Traitors.S01E05.1080p.WEB.H264-BUSSY.mkv","errors":[],"tz":"UTC","tzSource":"defaultVideosToUTC","DefaultDuration":0.032,"Duration":3574.07,"ExifToolVersion":12.6,"FileName":"The.Traitors.S01E05.1080p.WEB.H264-BUSSY.mkv","Directory":"/media/tv/The Traitors/Season 1","FileSize":"2.3 GB","FileModifyDate":{"_ctor":"ExifDateTime","year":2023,"month":4,"day":8,"hour":0,"minute":0,"second":0,"tzoffsetMinutes":0,"rawValue":"2023:04:08 00:00:00+00:00","zoneName":"UTC"},"FileAccessDate":{"_ctor":"ExifDateTime","year":2026,"month":1,"day":4,"hour":4,"minute":48,"second":34,"tzoffsetMinutes":0,"rawValue":"2026:01:04 04:48:34+00:00","zoneName":"UTC"},"FileInodeChangeDate":{"_ctor":"ExifDateTime","year":2026,"month":1,"day":4,"hour":4,"minute":46,"second":2,"tzoffsetMinutes":0,"rawValue":"2026:01:04 04:46:02+00:00","zoneName":"UTC"},"FilePermissions":"-rw-r--r--","FileType":"MKV","FileTypeExtension":"mkv","MIMEType":"video/x-matroska","EBMLVersion":1,"EBMLReadVersion":1,"DocType":"matroska","DocTypeVersion":4,"DocTypeReadVersion":2,"VideoCodecID":"V_MPEG4/ISO/AVC","VideoFrameRate":29.97,"ImageWidth":1920,"ImageHeight":1080,"DisplayWidth":1920,"DisplayHeight":1080,"AudioCodecID":"A_AC3","AudioSampleRate":48000,"AudioChannels":6,"TrackNumber":3,"TrackUID":"c506cf4d90271950","TrackType":"Subtitle","TrackDefault":"No","CodecID":"S_TEXT/UTF8","TrackName":"English","TrackLanguage":"eng","TrackLanguageIETF":"en","TimecodeScale":"1 ms","MuxingApp":"libebml v1.4.2 + libmatroska v1.6.4","WritingApp":"mkvmerge v66.0.0 ('Josie') 64-bit","ImageSize":"1920x1080","Megapixels":2.1},"mediaInfo":{"@ref":"","track":[{"@type":"General","UniqueID":"23781577160844858366963898716335597686","VideoCount":"1","AudioCount":"1","TextCount":"1","Format":"Matroska","Format_Version":"4","FileSize":"2276662354","Duration":"3574.070","OverallBitRate":"5095955","FrameRate":"29.970","FrameCount":"107115","StreamSize":"1757405","IsStreamable":"Yes","Encoded_Application":"mkvmerge v66.0.0 ('Josie') 64-bit","Encoded_Library":"libebml v1.4.2 + libmatroska v1.6.4"},{"@type":"Video","StreamOrder":"0","ID":"1","UniqueID":"9783158141111502642","Format":"AVC","Format_Profile":"High","Format_Level":"4","Format_Settings_CABAC":"Yes","Format_Settings_RefFrames":"4","CodecID":"V_MPEG4/ISO/AVC","Duration":"3574.070000000","BitRate":"4705514","Width":"1920","Height":"1080","Stored_Height":"1088","Sampled_Width":"1920","Sampled_Height":"1080","PixelAspectRatio":"1.000","DisplayAspectRatio":"1.778","FrameRate_Mode":"CFR","FrameRate_Mode_Original":"VFR","FrameRate":"29.970","FrameRate_Num":"30000","FrameRate_Den":"1001","FrameCount":"107115","ColorSpace":"YUV","ChromaSubsampling":"4:2:0","BitDepth":"8","ScanType":"Progressive","Delay":"0.000","Delay_Source":"Container","StreamSize":"2102229623","Default":"Yes","Forced":"No","colour_description_present":"Yes","colour_description_present_Source":"Stream","colour_range":"Limited","colour_range_Source":"Stream","colour_primaries":"BT.709","colour_primaries_Source":"Stream","transfer_characteristics":"BT.709","transfer_characteristics_Source":"Stream","matrix_coefficients":"BT.709","matrix_coefficients_Source":"Stream"},{"@type":"Audio","StreamOrder":"1","ID":"2","UniqueID":"11796643271345313638","Format":"AC-3","Format_Commercial_IfAny":"Dolby Digital","Format_Settings_Endianness":"Big","CodecID":"A_AC3","Duration":"3574.016000000","BitRate_Mode":"CBR","BitRate":"384000","Channels":"6","ChannelPositions":"Front: L C R, Side: L R, LFE","ChannelLayout":"L R C LFE Ls Rs","SamplesPerFrame":"1536","SamplingRate":"48000","SamplingCount":"171552768","FrameRate":"31.250","FrameCount":"111688","Compression_Mode":"Lossy","Delay":"0.000","Delay_Source":"Container","Video_Delay":"0.000","StreamSize":"171552768","Title":"English","Language":"en","ServiceKind":"CM","Default":"Yes","Forced":"No","extra":{"bsid":"8","dialnorm":"-31","acmod":"7","lfeon":"1","dialnorm_Average":"-31","dialnorm_Minimum":"-31"}},{"@type":"Text","StreamOrder":"2","ID":"3","UniqueID":"14197262807369980240","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Duration":"3565.062000000","BitRate":"2519","FrameRate":"5.995","FrameCount":"21374","ElementCount":"21374","StreamSize":"1122558","Title":"English","Language":"en","Default":"No","Forced":"No"}]},"hasClosedCaptions":false,"bumped":false,"HealthCheck":"","TranscodeDecisionMaker":"","holdUntil":0,"fileMedium":"video","video_codec_name":"h264","audio_codec_name":"ac3","video_resolution":"1080p","lastHealthCheckDate":0,"lastTranscodeDate":0,"history":"","oldSize":2.120307045057416,"newSize":0,"newVsOldRatio":0,"videoStreamIndex":0,"duration":3574}}
+2026-01-04T12:50:04.064Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Source file to work on determined:"/media/tv/The Traitors/Season 1/The.Traitors.S01E05.1080p.WEB.H264-BUSSY.mkv"
+2026-01-04T12:50:04.064Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[Step W02] [C1] Running pre-process file
+2026-01-04T12:50:04.064Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Checking files can be accessed
+2026-01-04T12:50:04.065Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:mapped node, file is original, no need to download
+2026-01-04T12:50:04.065Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Relevant paths can be accessed
+2026-01-04T12:50:04.066Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Source file: "/media/tv/The Traitors/Season 1/The.Traitors.S01E05.1080p.WEB.H264-BUSSY.mkv"
+2026-01-04T12:50:04.066Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Cache folder: "/tmp/tdarr-workDir2-v76qqvAhVxo"
+2026-01-04T12:50:04.066Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[Step W03] [C1] Analysing file - running plugins
+2026-01-04T12:50:04.067Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:transcode task, scanning for extra file details before transcode
+2026-01-04T12:50:04.067Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Node scanning file
+2026-01-04T12:50:04.067Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Scan complete
+2026-01-04T12:50:04.068Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Scan complete
+2026-01-04T12:50:04.068Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Updating Node relay: Processing
+2026-01-04T12:50:04.068Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[1/2] Checking file frame count
+2026-01-04T12:50:04.069Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[2/2] Frame count 0
+2026-01-04T12:50:04.069Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Transcode task, determining transcode settings
+2026-01-04T12:50:04.069Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Plugin stack selected
+2026-01-04T12:50:04.070Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Plugin: plugin1:  Tdarr_Plugin_MC93_MigzImageRemoval
+2026-01-04T12:50:04.070Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[1/5] Reading plugin
+2026-01-04T12:50:04.071Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[2/5] Plugin read finished
+2026-01-04T12:50:04.071Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[3/5] Installing dependencies
+2026-01-04T12:50:04.071Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[4/5] Running plugin
+2026-01-04T12:50:04.072Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:{"pluginInputs":{}}
+2026-01-04T12:50:04.073Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[5/5] Running plugin finished
+2026-01-04T12:50:04.073Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Plugin: plugin2:  Tdarr_Plugin_lmg1_Reorder_Streams
+2026-01-04T12:50:04.074Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[1/5] Reading plugin
+2026-01-04T12:50:04.074Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[2/5] Plugin read finished
+2026-01-04T12:50:04.074Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[3/5] Installing dependencies
+2026-01-04T12:50:04.075Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[4/5] Running plugin
+2026-01-04T12:50:04.075Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:{"pluginInputs":{}}
+2026-01-04T12:50:04.076Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[5/5] Running plugin finished
+2026-01-04T12:50:04.076Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Plugin: plugin4:  Tdarr_Plugin_MC93_Migz1FFMPEG
+2026-01-04T12:50:04.076Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[1/5] Reading plugin
+2026-01-04T12:50:04.077Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[2/5] Plugin read finished
+2026-01-04T12:50:04.077Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[3/5] Installing dependencies
+2026-01-04T12:50:04.077Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[4/5] Running plugin
+2026-01-04T12:50:04.078Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:{"pluginInputs":{"container":"mkv","bitrate_cutoff":"","enable_10bit":false,"enable_bframes":false,"force_conform":false}}
+2026-01-04T12:50:04.078Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[5/5] Running plugin finished
+2026-01-04T12:50:04.078Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Worker config: {
+2026-01-04T12:50:04.078Z   "processFile": true,
+2026-01-04T12:50:04.078Z   "preset": "-c:v h264_cuvid, -map 0 -c:v hevc_nvenc -cq:v 19 -b:v 2429k -minrate 1700k -maxrate 3157k -bufsize 4859k -spatial_aq:v 1 -rc-lookahead:v 32 -c:a copy -c:s copy -max_muxing_queue_size 9999 ",
+2026-01-04T12:50:04.078Z   "handBrakeMode": false,
+2026-01-04T12:50:04.078Z   "FFmpegMode": true,
+2026-01-04T12:50:04.078Z   "reQueueAfter": true,
+2026-01-04T12:50:04.078Z   "infoLog": "Container for output selected as mkv. \nCurrent bitrate = 4859 \nBitrate settings: \nTarget = 2429 \nMinimum = 1700 \nMaximum = 3157 \nFile is not hevc or vp9. Transcoding. \n",
+2026-01-04T12:50:04.078Z   "container": ".mkv",
+2026-01-04T12:50:04.078Z   "lastPluginDetails": {
+2026-01-04T12:50:04.078Z     "source": "Community",
+2026-01-04T12:50:04.078Z     "id": "Tdarr_Plugin_MC93_Migz1FFMPEG",
+2026-01-04T12:50:04.078Z     "number": "3/4"
+2026-01-04T12:50:04.078Z   },
+2026-01-04T12:50:04.078Z   "ffmpegMode": true,
+2026-01-04T12:50:04.078Z   "cliToUse": "ffmpeg"
+2026-01-04T12:50:04.078Z }
+2026-01-04T12:50:04.079Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Worker log: 
+2026-01-04T12:50:04.079Z Pre-processing - Tdarr_Plugin_MC93_MigzImageRemoval
+2026-01-04T12:50:04.079Z ☑File doesn't contain any unwanted image format streams.
+2026-01-04T12:50:04.079Z 
+2026-01-04T12:50:04.079Z Pre-processing - Tdarr_Plugin_lmg1_Reorder_Streams
+2026-01-04T12:50:04.079Z File has video in first stream
+2026-01-04T12:50:04.079Z  File meets conditions!
+2026-01-04T12:50:04.079Z 
+2026-01-04T12:50:04.079Z Pre-processing - Tdarr_Plugin_MC93_Migz1FFMPEG
+2026-01-04T12:50:04.079Z Container for output selected as mkv. 
+2026-01-04T12:50:04.079Z Current bitrate = 4859 
+2026-01-04T12:50:04.079Z Bitrate settings: 
+2026-01-04T12:50:04.079Z Target = 2429 
+2026-01-04T12:50:04.079Z Minimum = 1700 
+2026-01-04T12:50:04.079Z Maximum = 3157 
+2026-01-04T12:50:04.079Z File is not hevc or vp9. Transcoding. 
+2026-01-04T12:50:04.079Z 
+2026-01-04T12:50:04.079Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Worker will process
+2026-01-04T12:50:04.079Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[Step W04] [C1] Preparing command
+2026-01-04T12:50:04.080Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Cache file stem: "/tmp/tdarr-workDir2-v76qqvAhVxo"
+2026-01-04T12:50:04.080Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Cache file path: "/tmp/tdarr-workDir2-v76qqvAhVxo/The.Traitors.S01E05.1080p.WEB.H264-BUSSY-TdarrCacheFile-eCUcq_C3L.mkv"
+2026-01-04T12:50:04.080Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Create transcode args
+2026-01-04T12:50:04.081Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Args:  -c:v h264_cuvid -i "/media/tv/The Traitors/Season 1/The.Traitors.S01E05.1080p.WEB.H264-BUSSY.mkv" -map 0 -c:v hevc_nvenc -cq:v 19 -b:v 2429k -minrate 1700k -maxrate 3157k -bufsize 4859k -spatial_aq:v 1 -rc-lookahead:v 32 -c:a copy -c:s copy -max_muxing_queue_size 9999 /tmp/tdarr-workDir2-v76qqvAhVxo/The.Traitors.S01E05.1080p.WEB.H264-BUSSY-TdarrCacheFile-eCUcq_C3L.mkv
+2026-01-04T12:50:04.081Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Getting source file size
+2026-01-04T12:50:04.081Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Source file size: 2.120307045057416
+2026-01-04T12:50:04.082Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Performing safety check on worker config to see if old transcode args/container match new ones
+2026-01-04T12:50:04.082Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Safety check complete, all good
+2026-01-04T12:50:04.082Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[Step W05] [C1] Launching subworker
+2026-01-04T12:50:04.083Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Preparing to launch subworker
+2026-01-04T12:50:04.083Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Subworker launched
+2026-01-04T12:50:04.083Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[1/3] Sending command to subworker
+2026-01-04T12:50:04.084Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[2/3] tdarr-ffmpeg -c:v h264_cuvid -i "/media/tv/The Traitors/Season 1/The.Traitors.S01E05.1080p.WEB.H264-BUSSY.mkv" -map 0 -c:v hevc_nvenc -cq:v 19 -b:v 2429k -minrate 1700k -maxrate 3157k -bufsize 4859k -spatial_aq:v 1 -rc-lookahead:v 32 -c:a copy -c:s copy -max_muxing_queue_size 9999 /tmp/tdarr-workDir2-v76qqvAhVxo/The.Traitors.S01E05.1080p.WEB.H264-BUSSY-TdarrCacheFile-eCUcq_C3L.mkv
+2026-01-04T12:50:04.084Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[3/3] Command sent
+2026-01-04T12:50:04.084Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:To see live CLI output, enable 'Log full FFmpeg/HandBrake output' in the staging section on the Tdarr tab before the job starts. Note this could increase the job report size substantially.
+2026-01-04T12:50:04.085Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Subworker:Online
+2026-01-04T12:50:04.085Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Subworker:Receiving transcode settings
+2026-01-04T12:50:04.086Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Subworker:Running CLI
+2026-01-04T13:05:06.577Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Subworker:a.Thread closed, code: 0
+2026-01-04T13:05:06.578Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Subworker exit approved, killing subworker
+2026-01-04T13:05:06.579Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Subworker killed
+2026-01-04T13:05:06.579Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:b.Thread closed, code: 0
+2026-01-04T13:05:06.579Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:CLI code: 0
+2026-01-04T13:05:06.580Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Last 200 lines of CLI log:
+2026-01-04T13:05:06.580Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:frame=94741 fps=118 q=21.0 size= 1342464KiB time=00:52:41.19 bitrate=3478.9kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=94817 fps=118 q=28.0 size= 1344000KiB time=00:52:43.72 bitrate=3480.1kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=94884 fps=118 q=23.0 size= 1344000KiB time=00:52:45.96 bitrate=3477.6kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=94951 fps=118 q=27.0 size= 1344000KiB time=00:52:48.19 bitrate=3475.2kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=95017 fps=118 q=24.0 size= 1346048KiB time=00:52:50.40 bitrate=3478.1kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=95084 fps=118 q=25.0 size= 1347584KiB time=00:52:52.63 bitrate=3479.6kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=95151 fps=118 q=28.0 size= 1347584KiB time=00:52:54.87 bitrate=3477.1kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=95219 fps=118 q=21.0 size= 1349632KiB time=00:52:57.14 bitrate=3479.9kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=95285 fps=118 q=23.0 size= 1349632KiB time=00:52:59.34 bitrate=3477.5kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=95351 fps=118 q=23.0 size= 1351168KiB time=00:53:01.54 bitrate=3479.1kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=95419 fps=118 q=24.0 size= 1351168KiB time=00:53:03.81 bitrate=3476.6kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=95518 fps=118 q=25.0 size= 1354240KiB time=00:53:07.11 bitrate=3480.9kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=95592 fps=118 q=21.0 size= 1354240KiB time=00:53:09.58 bitrate=3478.2kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=95658 fps=118 q=19.0 size= 1354240KiB time=00:53:11.78 bitrate=3475.8kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=95726 fps=118 q=21.0 size= 1356288KiB time=00:53:14.05 bitrate=3478.6kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=95794 fps=118 q=20.0 size= 1357824KiB time=00:53:16.32 bitrate=3480.0kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=95870 fps=118 q=20.0 size= 1357824KiB time=00:53:18.86 bitrate=3477.3kbits/s speed=3.95x    
+2026-01-04T13:05:06.580Z frame=95937 fps=118 q=19.0 size= 1357824KiB time=00:53:21.09 bitrate=3474.8kbits/s speed=3.95x    
+2026-01-04T13:05:06.580Z frame=96004 fps=118 q=18.0 size= 1360128KiB time=00:53:23.33 bitrate=3478.3kbits/s speed=3.95x    
+2026-01-04T13:05:06.580Z frame=96070 fps=118 q=24.0 size= 1361152KiB time=00:53:25.53 bitrate=3478.5kbits/s speed=3.95x    
+2026-01-04T13:05:06.580Z frame=96164 fps=118 q=25.0 size= 1362432KiB time=00:53:28.67 bitrate=3478.4kbits/s speed=3.95x    
+2026-01-04T13:05:06.580Z frame=96258 fps=118 q=23.0 size= 1364736KiB time=00:53:31.80 bitrate=3480.9kbits/s speed=3.95x    
+2026-01-04T13:05:06.580Z frame=96366 fps=118 q=22.0 size= 1366016KiB time=00:53:35.41 bitrate=3480.2kbits/s speed=3.95x    
+2026-01-04T13:05:06.580Z frame=96454 fps=118 q=23.0 size= 1366016KiB time=00:53:38.34 bitrate=3477.1kbits/s speed=3.95x    
+2026-01-04T13:05:06.580Z frame=96530 fps=118 q=23.0 size= 1368320KiB time=00:53:40.88 bitrate=3480.2kbits/s speed=3.95x    
+2026-01-04T13:05:06.580Z frame=96604 fps=118 q=25.0 size= 1368832KiB time=00:53:43.35 bitrate=3478.8kbits/s speed=3.95x    
+2026-01-04T13:05:06.580Z frame=96694 fps=119 q=24.0 size= 1368832KiB time=00:53:46.35 bitrate=3475.6kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=96770 fps=119 q=24.0 size= 1371136KiB time=00:53:48.89 bitrate=3478.7kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=96838 fps=119 q=23.0 size= 1373184KiB time=00:53:51.16 bitrate=3481.4kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=96904 fps=119 q=24.0 size= 1373184KiB time=00:53:53.36 bitrate=3479.1kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=96970 fps=119 q=23.0 size= 1374720KiB time=00:53:55.56 bitrate=3480.6kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=97039 fps=119 q=20.0 size= 1374720KiB time=00:53:57.86 bitrate=3478.1kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=97107 fps=119 q=20.0 size= 1374720KiB time=00:54:00.13 bitrate=3475.7kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=97174 fps=119 q=21.0 size= 1376768KiB time=00:54:02.37 bitrate=3478.5kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=97241 fps=119 q=19.0 size= 1376768KiB time=00:54:04.60 bitrate=3476.1kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=97307 fps=119 q=23.0 size= 1376768KiB time=00:54:06.81 bitrate=3473.7kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=97376 fps=119 q=20.0 size= 1378816KiB time=00:54:09.11 bitrate=3476.4kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=97443 fps=119 q=24.0 size= 1380352KiB time=00:54:11.34 bitrate=3477.9kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=97510 fps=119 q=27.0 size= 1381376KiB time=00:54:13.58 bitrate=3478.1kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=97582 fps=119 q=25.0 size= 1381376KiB time=00:54:15.98 bitrate=3475.5kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=97650 fps=119 q=25.0 size= 1383424KiB time=00:54:18.25 bitrate=3478.2kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=97718 fps=119 q=20.0 size= 1384192KiB time=00:54:20.52 bitrate=3477.8kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=97790 fps=119 q=21.0 size= 1384192KiB time=00:54:22.92 bitrate=3475.2kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=97859 fps=119 q=23.0 size= 1386752KiB time=00:54:25.22 bitrate=3479.2kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=97928 fps=119 q=20.0 size= 1386752KiB time=00:54:27.53 bitrate=3476.7kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=97996 fps=119 q=24.0 size= 1386752KiB time=00:54:29.79 bitrate=3474.3kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=98064 fps=119 q=23.0 size= 1388800KiB time=00:54:32.06 bitrate=3477.0kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=98131 fps=119 q=22.0 size= 1390336KiB time=00:54:34.30 bitrate=3478.5kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=98198 fps=119 q=23.0 size= 1390336KiB time=00:54:36.53 bitrate=3476.1kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=98264 fps=119 q=23.0 size= 1392384KiB time=00:54:38.74 bitrate=3478.9kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=98332 fps=119 q=23.0 size= 1392384KiB time=00:54:41.01 bitrate=3476.5kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=98399 fps=119 q=23.0 size= 1392384KiB time=00:54:43.24 bitrate=3474.1kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=98468 fps=119 q=22.0 size= 1394688KiB time=00:54:45.54 bitrate=3477.4kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=98536 fps=119 q=24.0 size= 1395968KiB time=00:54:47.81 bitrate=3478.2kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=98604 fps=119 q=22.0 size= 1395968KiB time=00:54:50.08 bitrate=3475.8kbits/s speed=3.97x    
+2026-01-04T13:05:06.580Z frame=98671 fps=119 q=24.0 size= 1398272KiB time=00:54:52.32 bitrate=3479.2kbits/s speed=3.97x    
+2026-01-04T13:05:06.580Z frame=98738 fps=119 q=20.0 size= 1398272KiB time=00:54:54.55 bitrate=3476.8kbits/s speed=3.97x    
+2026-01-04T13:05:06.580Z frame=98806 fps=119 q=22.0 size= 1399808KiB time=00:54:56.82 bitrate=3478.3kbits/s speed=3.97x    
+2026-01-04T13:05:06.580Z frame=98879 fps=119 q=22.0 size= 1399808KiB time=00:54:59.26 bitrate=3475.7kbits/s speed=3.97x    
+2026-01-04T13:05:06.580Z frame=98919 fps=119 q=23.0 size= 1399808KiB time=00:55:00.59 bitrate=3474.3kbits/s speed=3.97x    
+2026-01-04T13:05:06.580Z frame=98977 fps=119 q=21.0 size= 1402368KiB time=00:55:02.53 bitrate=3478.6kbits/s speed=3.97x    
+2026-01-04T13:05:06.580Z frame=99046 fps=119 q=20.0 size= 1402368KiB time=00:55:04.83 bitrate=3476.2kbits/s speed=3.97x    
+2026-01-04T13:05:06.580Z frame=99060 fps=119 q=20.0 size= 1402368KiB time=00:55:05.30 bitrate=3475.7kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=99128 fps=119 q=20.0 size= 1404160KiB time=00:55:07.57 bitrate=3477.7kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=99194 fps=119 q=24.0 size= 1405440KiB time=00:55:09.77 bitrate=3478.6kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=99236 fps=119 q=20.0 size= 1405440KiB time=00:55:11.17 bitrate=3477.1kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=99282 fps=119 q=21.0 size= 1405440KiB time=00:55:12.70 bitrate=3475.5kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=99352 fps=119 q=21.0 size= 1407488KiB time=00:55:15.04 bitrate=3478.1kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=99418 fps=119 q=20.0 size= 1407488KiB time=00:55:17.24 bitrate=3475.8kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=99492 fps=119 q=23.0 size= 1409280KiB time=00:55:19.71 bitrate=3477.7kbits/s speed=3.97x    
+2026-01-04T13:05:06.580Z frame=99508 fps=119 q=23.0 size= 1409280KiB time=00:55:20.25 bitrate=3477.1kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=99638 fps=119 q=21.0 size= 1411328KiB time=00:55:24.58 bitrate=3477.6kbits/s speed=3.97x    
+2026-01-04T13:05:06.580Z frame=99715 fps=119 q=22.0 size= 1412864KiB time=00:55:27.15 bitrate=3478.7kbits/s speed=3.97x    
+2026-01-04T13:05:06.580Z frame=99836 fps=119 q=17.0 size= 1412864KiB time=00:55:31.19 bitrate=3474.5kbits/s speed=3.97x    
+2026-01-04T13:05:06.580Z frame=99914 fps=119 q=25.0 size= 1414656KiB time=00:55:33.79 bitrate=3476.2kbits/s speed=3.97x    
+2026-01-04T13:05:06.580Z frame=99962 fps=119 q=25.0 size= 1414656KiB time=00:55:35.39 bitrate=3474.5kbits/s speed=3.97x    
+2026-01-04T13:05:06.580Z frame=100004 fps=119 q=25.0 size= 1415936KiB time=00:55:36.80 bitrate=3476.2kbits/s speed=3.97x    
+2026-01-04T13:05:06.580Z frame=100046 fps=119 q=23.0 size= 1416960KiB time=00:55:38.20 bitrate=3477.2kbits/s speed=3.97x    
+2026-01-04T13:05:06.580Z frame=100115 fps=119 q=21.0 size= 1416960KiB time=00:55:40.50 bitrate=3474.8kbits/s speed=3.97x    
+2026-01-04T13:05:06.580Z frame=100135 fps=119 q=23.0 size= 1418240KiB time=00:55:41.17 bitrate=3477.3kbits/s speed=3.97x    
+2026-01-04T13:05:06.580Z frame=100159 fps=119 q=23.0 size= 1418240KiB time=00:55:41.97 bitrate=3476.5kbits/s speed=3.97x    
+2026-01-04T13:05:06.580Z frame=100250 fps=119 q=26.0 size= 1418240KiB time=00:55:45.00 bitrate=3473.3kbits/s speed=3.97x    
+2026-01-04T13:05:06.580Z frame=100285 fps=119 q=25.0 size= 1420544KiB time=00:55:46.17 bitrate=3477.7kbits/s speed=3.97x    
+2026-01-04T13:05:06.580Z frame=100316 fps=119 q=20.0 size= 1420800KiB time=00:55:47.21 bitrate=3477.3kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=100375 fps=119 q=22.0 size= 1420800KiB time=00:55:49.17 bitrate=3475.2kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=100408 fps=119 q=20.0 size= 1420800KiB time=00:55:50.28 bitrate=3474.1kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=100447 fps=119 q=21.0 size= 1422592KiB time=00:55:51.58 bitrate=3477.1kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=100517 fps=119 q=19.0 size= 1422592KiB time=00:55:53.91 bitrate=3474.7kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=100578 fps=119 q=20.0 size= 1424128KiB time=00:55:55.95 bitrate=3476.3kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=100598 fps=119 q=20.0 size= 1424128KiB time=00:55:56.61 bitrate=3475.7kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=100668 fps=119 q=31.0 size= 1424128KiB time=00:55:58.95 bitrate=3473.2kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=100735 fps=119 q=23.0 size= 1426176KiB time=00:56:01.19 bitrate=3475.9kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=100803 fps=119 q=23.0 size= 1426176KiB time=00:56:03.46 bitrate=3473.6kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=100831 fps=119 q=25.0 size= 1426176KiB time=00:56:04.39 bitrate=3472.6kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=100898 fps=119 q=23.0 size= 1428224KiB time=00:56:06.62 bitrate=3475.3kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=100940 fps=119 q=25.0 size= 1429760KiB time=00:56:08.03 bitrate=3477.6kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=100972 fps=119 q=24.0 size= 1429760KiB time=00:56:09.09 bitrate=3476.5kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=101038 fps=119 q=23.0 size= 1430528KiB time=00:56:11.30 bitrate=3476.1kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=101097 fps=119 q=22.0 size= 1430528KiB time=00:56:13.26 bitrate=3474.0kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=101158 fps=119 q=20.0 size= 1432576KiB time=00:56:15.30 bitrate=3476.9kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=101171 fps=119 q=22.0 size= 1432576KiB time=00:56:15.73 bitrate=3476.5kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=101238 fps=119 q=22.0 size= 1434112KiB time=00:56:17.97 bitrate=3477.9kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=101273 fps=119 q=22.0 size= 1434112KiB time=00:56:19.14 bitrate=3476.7kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=101308 fps=119 q=22.0 size= 1434112KiB time=00:56:20.31 bitrate=3475.5kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=101376 fps=119 q=19.0 size= 1435392KiB time=00:56:22.57 bitrate=3476.3kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=101442 fps=119 q=26.0 size= 1435392KiB time=00:56:24.78 bitrate=3474.0kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=101488 fps=119 q=26.0 size= 1437440KiB time=00:56:26.31 bitrate=3477.4kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=101516 fps=119 q=25.0 size= 1437440KiB time=00:56:27.25 bitrate=3476.4kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=101583 fps=119 q=23.0 size= 1437440KiB time=00:56:29.48 bitrate=3474.1kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=101639 fps=119 q=27.0 size= 1437440KiB time=00:56:31.35 bitrate=3472.2kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=101666 fps=119 q=26.0 size= 1437440KiB time=00:56:32.25 bitrate=3471.3kbits/s speed=3.95x    
+2026-01-04T13:05:06.580Z frame=101673 fps=118 q=26.0 size= 1437440KiB time=00:56:32.48 bitrate=3471.1kbits/s speed=3.95x    
+2026-01-04T13:05:06.580Z frame=101706 fps=118 q=26.0 size= 1437440KiB time=00:56:33.59 bitrate=3469.9kbits/s speed=3.95x    
+2026-01-04T13:05:06.580Z frame=101724 fps=118 q=29.0 size= 1441024KiB time=00:56:34.19 bitrate=3478.0kbits/s speed=3.95x    
+2026-01-04T13:05:06.580Z frame=101762 fps=118 q=20.0 size= 1441024KiB time=00:56:35.45 bitrate=3476.7kbits/s speed=3.95x    
+2026-01-04T13:05:06.580Z frame=101775 fps=118 q=24.0 size= 1441024KiB time=00:56:35.89 bitrate=3476.2kbits/s speed=3.95x    
+2026-01-04T13:05:06.580Z frame=101803 fps=118 q=23.0 size= 1441024KiB time=00:56:36.82 bitrate=3475.3kbits/s speed=3.95x    
+2026-01-04T13:05:06.580Z frame=101860 fps=118 q=20.0 size= 1441024KiB time=00:56:38.72 bitrate=3473.3kbits/s speed=3.95x    
+2026-01-04T13:05:06.580Z frame=101890 fps=118 q=19.0 size= 1441024KiB time=00:56:39.72 bitrate=3472.3kbits/s speed=3.95x    
+2026-01-04T13:05:06.580Z frame=101907 fps=118 q=19.0 size= 1441024KiB time=00:56:40.29 bitrate=3471.7kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=101923 fps=118 q=19.0 size= 1441024KiB time=00:56:40.83 bitrate=3471.2kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=101938 fps=118 q=29.0 size= 1441024KiB time=00:56:41.33 bitrate=3470.7kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=102006 fps=118 q=22.0 size= 1444608KiB time=00:56:43.60 bitrate=3477.0kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=102064 fps=118 q=19.0 size= 1444608KiB time=00:56:45.53 bitrate=3475.0kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=102087 fps=118 q=19.0 size= 1444608KiB time=00:56:46.30 bitrate=3474.2kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=102163 fps=118 q=25.0 size= 1444608KiB time=00:56:48.83 bitrate=3471.6kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=102206 fps=118 q=21.0 size= 1444608KiB time=00:56:50.27 bitrate=3470.2kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=102230 fps=118 q=22.0 size= 1444608KiB time=00:56:51.07 bitrate=3469.4kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=102283 fps=118 q=21.0 size= 1448448KiB time=00:56:52.84 bitrate=3476.8kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=102355 fps=118 q=22.0 size= 1448448KiB time=00:56:55.24 bitrate=3474.3kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=102385 fps=118 q=23.0 size= 1448448KiB time=00:56:56.24 bitrate=3473.3kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=102422 fps=118 q=20.0 size= 1448448KiB time=00:56:57.48 bitrate=3472.1kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=102463 fps=118 q=19.0 size= 1448448KiB time=00:56:58.84 bitrate=3470.7kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=102486 fps=118 q=18.0 size= 1448448KiB time=00:56:59.61 bitrate=3469.9kbits/s speed=3.93x    
+2026-01-04T13:05:06.580Z frame=102553 fps=118 q=21.0 size= 1452032KiB time=00:57:01.85 bitrate=3476.2kbits/s speed=3.93x    
+2026-01-04T13:05:06.580Z frame=102620 fps=118 q=21.0 size= 1453312KiB time=00:57:04.08 bitrate=3477.0kbits/s speed=3.93x    
+2026-01-04T13:05:06.580Z frame=102692 fps=118 q=20.0 size= 1453312KiB time=00:57:06.48 bitrate=3474.6kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=102776 fps=118 q=19.0 size= 1455616KiB time=00:57:09.29 bitrate=3477.2kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=102847 fps=118 q=21.0 size= 1456896KiB time=00:57:11.66 bitrate=3477.9kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=102927 fps=118 q=20.0 size= 1456896KiB time=00:57:14.33 bitrate=3475.2kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=102997 fps=118 q=19.0 size= 1459200KiB time=00:57:16.66 bitrate=3478.3kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=103021 fps=118 q=20.0 size= 1459200KiB time=00:57:17.46 bitrate=3477.5kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=103085 fps=118 q=19.0 size= 1459200KiB time=00:57:19.60 bitrate=3475.3kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=103167 fps=118 q=19.0 size= 1460480KiB time=00:57:22.33 bitrate=3475.6kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=103202 fps=118 q=19.0 size= 1460480KiB time=00:57:23.50 bitrate=3474.4kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=103249 fps=118 q=20.0 size= 1462528KiB time=00:57:25.07 bitrate=3477.7kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=103317 fps=118 q=18.0 size= 1462528KiB time=00:57:27.34 bitrate=3475.4kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=103358 fps=118 q=19.0 size= 1463808KiB time=00:57:28.71 bitrate=3477.1kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=103393 fps=118 q=20.0 size= 1463808KiB time=00:57:29.87 bitrate=3475.9kbits/s speed=3.93x    
+2026-01-04T13:05:06.580Z frame=103461 fps=118 q=18.0 size= 1463808KiB time=00:57:32.14 bitrate=3473.6kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=103527 fps=118 q=19.0 size= 1466112KiB time=00:57:34.35 bitrate=3476.9kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=103606 fps=118 q=21.0 size= 1467392KiB time=00:57:36.98 bitrate=3477.3kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=103675 fps=118 q=20.0 size= 1467392KiB time=00:57:39.28 bitrate=3475.0kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=103706 fps=118 q=22.0 size= 1467392KiB time=00:57:40.32 bitrate=3473.9kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=103706 fps=118 q=22.0 size= 1467392KiB time=00:57:40.32 bitrate=3473.9kbits/s speed=3.93x    
+2026-01-04T13:05:06.580Z frame=103751 fps=118 q=27.0 size= 1469696KiB time=00:57:41.82 bitrate=3477.9kbits/s speed=3.93x    
+2026-01-04T13:05:06.580Z frame=103779 fps=118 q=23.0 size= 1469696KiB time=00:57:42.75 bitrate=3476.9kbits/s speed=3.93x    
+2026-01-04T13:05:06.580Z frame=103800 fps=118 q=23.0 size= 1469696KiB time=00:57:43.46 bitrate=3476.2kbits/s speed=3.93x    
+2026-01-04T13:05:06.580Z frame=103870 fps=118 q=20.0 size= 1470976KiB time=00:57:45.79 bitrate=3476.9kbits/s speed=3.93x    
+2026-01-04T13:05:06.580Z frame=103938 fps=118 q=18.0 size= 1470976KiB time=00:57:48.06 bitrate=3474.6kbits/s speed=3.93x    
+2026-01-04T13:05:06.580Z frame=104006 fps=118 q=19.0 size= 1473280KiB time=00:57:50.33 bitrate=3477.8kbits/s speed=3.93x    
+2026-01-04T13:05:06.580Z frame=104073 fps=118 q=19.0 size= 1473280KiB time=00:57:52.56 bitrate=3475.6kbits/s speed=3.93x    
+2026-01-04T13:05:06.580Z frame=104142 fps=118 q=23.0 size= 1474560KiB time=00:57:54.87 bitrate=3476.3kbits/s speed=3.93x    
+2026-01-04T13:05:06.580Z frame=104230 fps=118 q=22.0 size= 1474560KiB time=00:57:57.80 bitrate=3473.3kbits/s speed=3.93x    
+2026-01-04T13:05:06.580Z frame=104324 fps=118 q=19.0 size= 1476864KiB time=00:58:00.94 bitrate=3475.6kbits/s speed=3.93x    
+2026-01-04T13:05:06.580Z frame=104391 fps=118 q=20.0 size= 1478144KiB time=00:58:03.17 bitrate=3476.4kbits/s speed=3.93x    
+2026-01-04T13:05:06.580Z frame=104477 fps=118 q=18.0 size= 1478144KiB time=00:58:06.04 bitrate=3473.5kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=104579 fps=118 q=23.0 size= 1480192KiB time=00:58:09.45 bitrate=3475.0kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=104656 fps=118 q=24.0 size= 1481728KiB time=00:58:12.02 bitrate=3476.0kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=104741 fps=118 q=19.0 size= 1481728KiB time=00:58:14.85 bitrate=3473.2kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=104810 fps=118 q=19.0 size= 1483776KiB time=00:58:17.16 bitrate=3475.7kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=104876 fps=118 q=20.0 size= 1485312KiB time=00:58:19.36 bitrate=3477.1kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=104968 fps=118 q=25.0 size= 1485312KiB time=00:58:22.43 bitrate=3474.1kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=105036 fps=118 q=23.0 size= 1487360KiB time=00:58:24.70 bitrate=3476.6kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=105110 fps=118 q=20.0 size= 1488128KiB time=00:58:27.17 bitrate=3475.9kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=105180 fps=118 q=21.0 size= 1488128KiB time=00:58:29.50 bitrate=3473.6kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=105293 fps=118 q=23.0 size= 1490432KiB time=00:58:33.27 bitrate=3475.3kbits/s speed=3.94x    
+2026-01-04T13:05:06.580Z frame=105413 fps=118 q=27.0 size= 1492736KiB time=00:58:37.28 bitrate=3476.7kbits/s speed=3.95x    
+2026-01-04T13:05:06.580Z frame=105479 fps=118 q=21.0 size= 1492736KiB time=00:58:39.48 bitrate=3474.5kbits/s speed=3.95x    
+2026-01-04T13:05:06.580Z frame=105557 fps=118 q=20.0 size= 1494784KiB time=00:58:42.08 bitrate=3476.7kbits/s speed=3.95x    
+2026-01-04T13:05:06.580Z frame=105640 fps=118 q=31.0 size= 1496320KiB time=00:58:44.85 bitrate=3477.5kbits/s speed=3.95x    
+2026-01-04T13:05:06.580Z frame=105742 fps=118 q=19.0 size= 1497600KiB time=00:58:48.25 bitrate=3477.2kbits/s speed=3.95x    
+2026-01-04T13:05:06.580Z frame=105822 fps=118 q=29.0 size= 1498112KiB time=00:58:50.92 bitrate=3475.7kbits/s speed=3.95x    
+2026-01-04T13:05:06.580Z frame=105898 fps=118 q=30.0 size= 1499392KiB time=00:58:53.46 bitrate=3476.2kbits/s speed=3.95x    
+2026-01-04T13:05:06.580Z frame=105974 fps=118 q=26.0 size= 1501184KiB time=00:58:55.99 bitrate=3477.9kbits/s speed=3.95x    
+2026-01-04T13:05:06.580Z frame=106071 fps=118 q=24.0 size= 1502208KiB time=00:58:59.23 bitrate=3477.0kbits/s speed=3.95x    
+2026-01-04T13:05:06.580Z frame=106171 fps=119 q=19.0 size= 1502208KiB time=00:59:02.57 bitrate=3473.8kbits/s speed=3.95x    
+2026-01-04T13:05:06.580Z frame=106251 fps=119 q=19.0 size= 1502208KiB time=00:59:05.24 bitrate=3471.2kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=106321 fps=119 q=19.0 size= 1503488KiB time=00:59:07.57 bitrate=3471.8kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=106412 fps=119 q=19.0 size= 1503488KiB time=00:59:10.61 bitrate=3468.9kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=106493 fps=119 q=19.0 size= 1503488KiB time=00:59:13.31 bitrate=3466.2kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=106566 fps=119 q=19.0 size= 1504512KiB time=00:59:15.75 bitrate=3466.2kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=106640 fps=119 q=19.0 size= 1504512KiB time=00:59:18.22 bitrate=3463.8kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=106713 fps=119 q=19.0 size= 1504512KiB time=00:59:20.65 bitrate=3461.4kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=106783 fps=119 q=19.0 size= 1504512KiB time=00:59:22.99 bitrate=3459.2kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=106865 fps=119 q=19.0 size= 1504512KiB time=00:59:25.72 bitrate=3456.5kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=106931 fps=119 q=19.0 size= 1505024KiB time=00:59:25.96 bitrate=3457.5kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=107015 fps=119 q=19.0 size= 1505280KiB time=00:59:25.96 bitrate=3458.0kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z frame=107079 fps=119 q=19.0 size= 1505280KiB time=00:59:32.86 bitrate=3451.4kbits/s speed=3.96x    
+2026-01-04T13:05:06.580Z [out#0/matroska @ 0x55f57f8d0c40] video:1335944KiB audio:167532KiB subtitle:1096KiB other streams:0KiB global headers:0KiB muxing overhead: 0.154310%
+2026-01-04T13:05:06.580Z frame=107115 fps=119 q=19.0 Lsize= 1506894KiB time=00:59:25.96 bitrate=3461.8kbits/s speed=3.95x    
+2026-01-04T13:05:06.580Z 
+2026-01-04T13:05:06.580Z 
+2026-01-04T13:05:06.580Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[Step W06] [C1] Worker [-success-]
+2026-01-04T13:05:06.581Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Worker success during processing
+2026-01-04T13:05:06.581Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Updating transcode stats
+2026-01-04T13:05:06.581Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Deleting non-latest cache file "/media/tv/The Traitors/Season 1/The.Traitors.S01E05.1080p.WEB.H264-BUSSY.mkv"
+2026-01-04T13:05:06.582Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Scanning new file: "/tmp/tdarr-workDir2-v76qqvAhVxo/The.Traitors.S01E05.1080p.WEB.H264-BUSSY-TdarrCacheFile-eCUcq_C3L.mkv"
+2026-01-04T13:05:06.582Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Node scanning file
+2026-01-04T13:05:06.582Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Subworker exited null
+2026-01-04T13:05:07.583Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Scan complete
+2026-01-04T13:05:07.584Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:pluginCycleLogJSONString:{"nodeName":"MyInternalNode","workerID":"jumpy-joey","pluginCycle":1,"outcome":"success","workerLog":"\nPre-processing - Tdarr_Plugin_MC93_MigzImageRemoval\n☑File doesn't contain any unwanted image format streams.\n\nPre-processing - Tdarr_Plugin_lmg1_Reorder_Streams\nFile has video in first stream\n File meets conditions!\n\nPre-processing - Tdarr_Plugin_MC93_Migz1FFMPEG\nContainer for output selected as mkv. \nCurrent bitrate = 4859 \nBitrate settings: \nTarget = 2429 \nMinimum = 1700 \nMaximum = 3157 \nFile is not hevc or vp9. Transcoding. \n","lastCliCommand":"tdarr-ffmpeg -c:v h264_cuvid -i \"/media/tv/The Traitors/Season 1/The.Traitors.S01E05.1080p.WEB.H264-BUSSY.mkv\" -map 0 -c:v hevc_nvenc -cq:v 19 -b:v 2429k -minrate 1700k -maxrate 3157k -bufsize 4859k -spatial_aq:v 1 -rc-lookahead:v 32 -c:a copy -c:s copy -max_muxing_queue_size 9999 /tmp/tdarr-workDir2-v76qqvAhVxo/The.Traitors.S01E05.1080p.WEB.H264-BUSSY-TdarrCacheFile-eCUcq_C3L.mkv"}
+2026-01-04T13:05:07.584Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:fileVersionLogJSONString:{"lastCliCommand":"tdarr-ffmpeg -c:v h264_cuvid -i \"/media/tv/The Traitors/Season 1/The.Traitors.S01E05.1080p.WEB.H264-BUSSY.mkv\" -map 0 -c:v hevc_nvenc -cq:v 19 -b:v 2429k -minrate 1700k -maxrate 3157k -bufsize 4859k -spatial_aq:v 1 -rc-lookahead:v 32 -c:a copy -c:s copy -max_muxing_queue_size 9999 /tmp/tdarr-workDir2-v76qqvAhVxo/The.Traitors.S01E05.1080p.WEB.H264-BUSSY-TdarrCacheFile-eCUcq_C3L.mkv","lastPluginId":"Tdarr_Plugin_MC93_Migz1FFMPEG","sourceFile":{"_id":"/tmp/tdarr-workDir2-v76qqvAhVxo/The.Traitors.S01E05.1080p.WEB.H264-BUSSY-TdarrCacheFile-eCUcq_C3L.mkv","DB":"KU0woozLb","footprintId":"mLdjbCCMEg","file":"/tmp/tdarr-workDir2-v76qqvAhVxo/The.Traitors.S01E05.1080p.WEB.H264-BUSSY-TdarrCacheFile-eCUcq_C3L.mkv","fileNameWithoutExtension":"The.Traitors.S01E05.1080p.WEB.H264-BUSSY-TdarrCacheFile-eCUcq_C3L","container":"mkv","scannerReads":{"ffProbeRead":"success","exiftoolRead":"success","mediaInfoRead":"not enabled","closedCaptionRead":"not enabled"},"createdAt":1767553504713,"lastPluginDetails":"none","bit_rate":3453899,"statSync":{"dev":62,"mode":33204,"nlink":1,"uid":1000,"gid":1000,"rdev":0,"blksize":4096,"ino":4721748,"size":1543059855,"blocks":3013800,"atimeMs":1767553504263.844,"mtimeMs":1767553503843.838,"ctimeMs":1767553503843.838,"birthtimeMs":1767552601943.2424,"atime":"2026-01-04T19:05:04.264Z","mtime":"2026-01-04T19:05:03.844Z","ctime":"2026-01-04T19:05:03.844Z","birthtime":"2026-01-04T18:50:01.943Z"},"file_size":1471.5765523910522,"ffProbeData":{"streams":[{"index":0,"codec_name":"hevc","codec_long_name":"H.265 / HEVC (High Efficiency Video Coding)","profile":"Main","codec_type":"video","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","width":1920,"height":1080,"coded_width":1920,"coded_height":1088,"closed_captions":0,"film_grain":0,"has_b_frames":0,"sample_aspect_ratio":"1:1","display_aspect_ratio":"16:9","pix_fmt":"yuv420p","level":120,"color_range":"tv","color_space":"bt709","color_transfer":"bt709","color_primaries":"bt709","chroma_location":"left","field_order":"progressive","refs":1,"view_ids_available":"","view_pos_available":"","r_frame_rate":"30000/1001","avg_frame_rate":"30000/1001","time_base":"1/1000","start_pts":0,"start_time":"0.000000","extradata_size":127,"disposition":{"default":1,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"BPS":"4705514","NUMBER_OF_FRAMES":"107115","NUMBER_OF_BYTES":"2102229623","_STATISTICS_WRITING_APP":"mkvmerge v66.0.0 ('Josie') 64-bit","_STATISTICS_WRITING_DATE_UTC":"2023-04-07 12:05:06","_STATISTICS_TAGS":"BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES","ENCODER":"Lavc61.19.101 hevc_nvenc","DURATION":"00:59:34.070000000"}},{"index":1,"codec_name":"ac3","codec_long_name":"ATSC A/52A (AC-3)","codec_type":"audio","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","sample_fmt":"fltp","sample_rate":"48000","channels":6,"channel_layout":"5.1(side)","bits_per_sample":0,"initial_padding":0,"r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","bit_rate":"384000","disposition":{"default":1,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"eng","title":"English","BPS":"384000","NUMBER_OF_FRAMES":"111688","NUMBER_OF_BYTES":"171552768","_STATISTICS_WRITING_APP":"mkvmerge v66.0.0 ('Josie') 64-bit","_STATISTICS_WRITING_DATE_UTC":"2023-04-07 12:05:06","_STATISTICS_TAGS":"BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES","DURATION":"00:59:34.016000000"}},{"index":2,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":3574070,"duration":"3574.070000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"eng","title":"English","BPS":"2519","NUMBER_OF_FRAMES":"21374","NUMBER_OF_BYTES":"1122558","_STATISTICS_WRITING_APP":"mkvmerge v66.0.0 ('Josie') 64-bit","_STATISTICS_WRITING_DATE_UTC":"2023-04-07 12:05:06","_STATISTICS_TAGS":"BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES","DURATION":"00:59:25.962000000"}}],"format":{"filename":"/tmp/tdarr-workDir2-v76qqvAhVxo/The.Traitors.S01E05.1080p.WEB.H264-BUSSY-TdarrCacheFile-eCUcq_C3L.mkv","nb_streams":3,"nb_programs":0,"nb_stream_groups":0,"format_name":"matroska,webm","format_long_name":"Matroska / WebM","start_time":"0.000000","duration":"3574.070000","size":"1543059855","bit_rate":"3453899","probe_score":100,"tags":{"ENCODER":"Lavf61.7.100"}}},"meta":{"SourceFile":"/tmp/tdarr-workDir2-v76qqvAhVxo/The.Traitors.S01E05.1080p.WEB.H264-BUSSY-TdarrCacheFile-eCUcq_C3L.mkv","errors":[],"tz":"UTC","tzSource":"defaultVideosToUTC","DefaultDuration":0.032,"Duration":"00:59:25.962000000","ExifToolVersion":12.6,"FileName":"The.Traitors.S01E05.1080p.WEB.H264-BUSSY-TdarrCacheFile-eCUcq_C3L.mkv","Directory":"/tmp/tdarr-workDir2-v76qqvAhVxo","FileSize":"1543 MB","FileModifyDate":{"_ctor":"ExifDateTime","year":2026,"month":1,"day":4,"hour":19,"minute":5,"second":3,"tzoffsetMinutes":0,"rawValue":"2026:01:04 19:05:03+00:00","zoneName":"UTC"},"FileAccessDate":{"_ctor":"ExifDateTime","year":2026,"month":1,"day":4,"hour":19,"minute":5,"second":4,"tzoffsetMinutes":0,"rawValue":"2026:01:04 19:05:04+00:00","zoneName":"UTC"},"FileInodeChangeDate":{"_ctor":"ExifDateTime","year":2026,"month":1,"day":4,"hour":19,"minute":5,"second":3,"tzoffsetMinutes":0,"rawValue":"2026:01:04 19:05:03+00:00","zoneName":"UTC"},"FilePermissions":"-rw-rw-r--","FileType":"MKV","FileTypeExtension":"mkv","MIMEType":"video/x-matroska","EBMLVersion":1,"EBMLReadVersion":1,"DocType":"matroska","DocTypeVersion":4,"DocTypeReadVersion":2,"TimecodeScale":"1 ms","MuxingApp":"Lavf61.7.100","WritingApp":"Lavf61.7.100","VideoFrameRate":29.97,"ImageWidth":1920,"ImageHeight":1080,"VideoScanType":"Unknown (2)","AudioChannels":6,"AudioSampleRate":48000,"AudioBitsPerSample":32,"TrackNumber":3,"TrackUID":"2751a372be716ad6","TrackName":"English","TrackLanguage":"eng","TrackDefault":"No","CodecID":"S_TEXT/UTF8","TrackType":"Subtitle","Encoder":"Lavc61.19.101 hevc_nvenc","TagTrackUID":"2751a372be716ad6","BPS":2519,"NumberOfFrames":21374,"NumberOfBytes":1122558,"StatisticsWritingApp":"mkvmerge v66.0.0 ('Josie') 64-bit","StatisticsWritingDateUtc":{"_ctor":"ExifDateTime","year":2023,"month":4,"day":7,"hour":12,"minute":5,"second":6,"tzoffsetMinutes":0,"rawValue":"2023-04-07 12:05:06","zoneName":"UTC"},"StatisticsTags":"BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES","ImageSize":"1920x1080","Megapixels":2.1},"mediaInfo":{},"hasClosedCaptions":false,"bumped":false,"HealthCheck":"","TranscodeDecisionMaker":"","holdUntil":0,"fileMedium":"video","video_codec_name":"hevc","audio_codec_name":"ac3","video_resolution":"1080p","lastHealthCheckDate":0,"lastTranscodeDate":0,"history":"","oldSize":1.437086476944387,"newSize":0,"newVsOldRatio":0,"videoStreamIndex":0,"duration":3574}}
+2026-01-04T13:05:07.585Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Transcodes during this job so far: 1
+2026-01-04T13:05:07.585Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[Step W02] [C2] Running pre-process file
+2026-01-04T13:05:07.586Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Checking files can be accessed
+2026-01-04T13:05:07.586Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:File found locally
+2026-01-04T13:05:07.586Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Relevant paths can be accessed
+2026-01-04T13:05:07.586Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Source file: "/tmp/tdarr-workDir2-v76qqvAhVxo/The.Traitors.S01E05.1080p.WEB.H264-BUSSY-TdarrCacheFile-eCUcq_C3L.mkv"
+2026-01-04T13:05:07.587Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Cache folder: "/tmp/tdarr-workDir2-v76qqvAhVxo"
+2026-01-04T13:05:07.587Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[Step W03] [C2] Analysing file - running plugins
+2026-01-04T13:05:07.588Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:New cache file has already been scanned, no need to scan again
+2026-01-04T13:05:07.588Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Updating Node relay: Processing
+2026-01-04T13:05:07.588Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[1/2] Checking file frame count
+2026-01-04T13:05:07.589Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[2/2] Frame count 0
+2026-01-04T13:05:07.589Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Transcode task, determining transcode settings
+2026-01-04T13:05:07.589Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Plugin stack selected
+2026-01-04T13:05:07.589Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Plugin: plugin1:  Tdarr_Plugin_MC93_MigzImageRemoval
+2026-01-04T13:05:07.590Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[1/5] Reading plugin
+2026-01-04T13:05:07.590Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[2/5] Plugin read finished
+2026-01-04T13:05:07.590Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[3/5] Installing dependencies
+2026-01-04T13:05:07.590Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[4/5] Running plugin
+2026-01-04T13:05:07.591Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:{"pluginInputs":{}}
+2026-01-04T13:05:07.591Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[5/5] Running plugin finished
+2026-01-04T13:05:07.591Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Plugin: plugin2:  Tdarr_Plugin_lmg1_Reorder_Streams
+2026-01-04T13:05:07.591Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[1/5] Reading plugin
+2026-01-04T13:05:07.592Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[2/5] Plugin read finished
+2026-01-04T13:05:07.592Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[3/5] Installing dependencies
+2026-01-04T13:05:07.592Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[4/5] Running plugin
+2026-01-04T13:05:07.593Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:{"pluginInputs":{}}
+2026-01-04T13:05:07.593Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[5/5] Running plugin finished
+2026-01-04T13:05:07.593Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Plugin: plugin4:  Tdarr_Plugin_MC93_Migz1FFMPEG
+2026-01-04T13:05:07.593Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[1/5] Reading plugin
+2026-01-04T13:05:07.594Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[2/5] Plugin read finished
+2026-01-04T13:05:07.594Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[3/5] Installing dependencies
+2026-01-04T13:05:07.594Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[4/5] Running plugin
+2026-01-04T13:05:07.595Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:{"pluginInputs":{"container":"mkv","bitrate_cutoff":"","enable_10bit":false,"enable_bframes":false,"force_conform":false}}
+2026-01-04T13:05:07.595Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[5/5] Running plugin finished
+2026-01-04T13:05:07.595Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Plugin: plugin5:  Tdarr_Plugin_a9he_New_file_size_check
+2026-01-04T13:05:07.595Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[1/5] Reading plugin
+2026-01-04T13:05:07.596Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[2/5] Plugin read finished
+2026-01-04T13:05:07.596Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[3/5] Installing dependencies
+2026-01-04T13:05:07.596Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[4/5] Running plugin
+2026-01-04T13:05:07.596Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:{"pluginInputs":{"upperBound":110,"lowerBound":40}}
+2026-01-04T13:05:07.597Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[5/5] Running plugin finished
+2026-01-04T13:05:07.597Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Worker config: {
+2026-01-04T13:05:07.597Z   "processFile": false,
+2026-01-04T13:05:07.597Z   "preset": "",
+2026-01-04T13:05:07.597Z   "handBrakeMode": false,
+2026-01-04T13:05:07.597Z   "FFmpegMode": true,
+2026-01-04T13:05:07.597Z   "reQueueAfter": true,
+2026-01-04T13:05:07.597Z   "infoLog": "New file has size 1471.577 MB which is 67% of original file size:  2171.194 MB",
+2026-01-04T13:05:07.597Z   "ffmpegMode": true,
+2026-01-04T13:05:07.597Z   "cliToUse": "ffmpeg"
+2026-01-04T13:05:07.597Z }
+2026-01-04T13:05:07.597Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Worker log: 
+2026-01-04T13:05:07.597Z Pre-processing - Tdarr_Plugin_MC93_MigzImageRemoval
+2026-01-04T13:05:07.597Z ☑File doesn't contain any unwanted image format streams.
+2026-01-04T13:05:07.597Z 
+2026-01-04T13:05:07.597Z Pre-processing - Tdarr_Plugin_lmg1_Reorder_Streams
+2026-01-04T13:05:07.597Z File has video in first stream
+2026-01-04T13:05:07.597Z  File meets conditions!
+2026-01-04T13:05:07.597Z 
+2026-01-04T13:05:07.597Z Pre-processing - Tdarr_Plugin_MC93_Migz1FFMPEG
+2026-01-04T13:05:07.597Z File is already hevc or vp9 & in mkv. 
+2026-01-04T13:05:07.597Z 
+2026-01-04T13:05:07.597Z Pre-processing - Tdarr_Plugin_a9he_New_file_size_check
+2026-01-04T13:05:07.597Z New file has size 1471.577 MB which is 67% of original file size:  2171.194 MB
+2026-01-04T13:05:07.598Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[Step W08] [-success-] Job end
+2026-01-04T13:05:07.598Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Transcoding successful. Finished job.
+2026-01-04T13:05:07.598Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:[Step W10] Worker processing end
+2026-01-04T13:05:07.598Z v76qqvAhVxo:Node[MyInternalNode]:Worker[jumpy-joey]:Successfully updated server with verdict: transcodeSuccess

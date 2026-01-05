@@ -1,0 +1,301 @@
+2026-01-04T11:24:11.324Z YI8E-mSPS-:[Step S01] [2.58.02] Server relay initialising job
+2026-01-04T11:24:11.325Z YI8E-mSPS-:Server: linux_x64_docker_true
+2026-01-04T11:24:11.326Z YI8E-mSPS-:Server relay adding file to staged files
+2026-01-04T11:24:11.335Z YI8E-mSPS-:Server relay sending job to Node relay: MyInternalNode
+2026-01-04T11:24:11.344Z YI8E-mSPS-:Node[MyInternalNode]:[Step N01] [2.58.02] Node relay received job
+2026-01-04T11:24:11.345Z YI8E-mSPS-:Node[MyInternalNode]:{"nodeName":"MyInternalNode","serverURL":"http://0.0.0.0:8266","serverIP":"0.0.0.0","serverPort":"8266","handbrakePath":"","ffmpegPath":"","mkvpropeditPath":"","pathTranslators":[{"server":"","node":""}],"nodeType":"mapped","unmappedNodeCache":"/app/unmappedNodeCache","logLevel":"INFO","priority":-1,"platform_arch_isdocker":"linux_x64_docker_true","processPid":664,"cronPluginUpdate":"","apiKey":"","maxLogSizeMB":"10","pollInterval":2000,"startPaused":false,"nodeID":"-2RaUzM4Y","seededWorkerLimits":{},"nodeRegisteredCount":1}
+2026-01-04T11:24:11.345Z YI8E-mSPS-:Node[MyInternalNode]:Node relay sending job to worker:clumsy-cat
+2026-01-04T11:24:11.346Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:[Step W01] Received file, original: "/media/tv/Breaking Bad/Season 5/Breaking.Bad.S05E11.Confessions.1080p.BluRay.10bit.EAC3.5.1.x265-iVy.mkv"
+2026-01-04T11:24:11.346Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:{"workerType":"healthcheckcpu"}
+2026-01-04T11:24:11.346Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:{"ffmpegPath":"tdarr-ffmpeg"}
+2026-01-04T11:24:11.347Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:{"handbrakePath":"HandBrakeCLI"}
+2026-01-04T11:24:11.347Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:{"mkvpropeditPath":"mkvpropedit"}
+2026-01-04T11:24:11.347Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:{"gpuSelect":"-"}
+2026-01-04T11:24:11.348Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:{"allowGpuDoCpu":false}
+2026-01-04T11:24:11.348Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:{"thoroughHealthCheckCpuExtraInputArgs":""}
+2026-01-04T11:24:11.348Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:{"thoroughHealthCheckGpuExtraInputArgs":""}
+2026-01-04T11:24:11.349Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:{"thoroughHealthCheckCpuExtraArgs":""}
+2026-01-04T11:24:11.349Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:{"thoroughHealthCheckGpuExtraArgs":""}
+2026-01-04T11:24:11.350Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:{"logFullCliOutput":false}
+2026-01-04T11:24:11.350Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:{"runMkvpropedit":false}
+2026-01-04T11:24:11.350Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:{"dontCleanWorkerCacheFolder":false}
+2026-01-04T11:24:11.351Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Path translating objects
+2026-01-04T11:24:11.351Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Running path translator tests
+2026-01-04T11:24:11.352Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Path translator tests passed
+2026-01-04T11:24:11.352Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:{"librarySettings":{"_id":"KU0woozLb","priority":1,"name":"TV Shows","folder":"/media/tv","foldersToIgnore":"","foldersToIgnoreCaseInsensitive":false,"folderWatchScanInterval":30,"scannerThreadCount":2,"cache":"/tmp","output":".","folderToFolderConversion":false,"folderToFolderConversionDeleteSource":false,"folderToFolderRecordHistory":true,"copyIfConditionsMet":false,"container":".mkv","containerFilter":"mkv,mp4,mov,m4v,mpg,mpeg,avi,flv,webm,wmv,vob,evo,iso,m2ts,ts","createdAt":1675837380368,"folderWatching":false,"useFsEvents":false,"scheduledScanFindNew":false,"processLibrary":true,"processTranscodes":true,"processHealthChecks":true,"scanOnStart":false,"exifToolScan":true,"mediaInfoScan":true,"ffprobeShowData":false,"isDirectoryLibrary":false,"closedCaptionScan":false,"scanButtons":false,"scanFound":"Files found:0","navItemSelected":"navSourceFolder","pluginIDs":[{"_id":"plugin1","id":"Tdarr_Plugin_MC93_MigzImageRemoval","checked":true,"source":"Community","priority":0,"InputsDB":{}},{"_id":"plugin2","id":"Tdarr_Plugin_lmg1_Reorder_Streams","checked":true,"source":"Community","priority":1,"InputsDB":{}},{"_id":"plugin4","id":"Tdarr_Plugin_MC93_Migz1FFMPEG","checked":true,"source":"Community","priority":2,"InputsDB":{}},{"_id":"plugin5","id":"Tdarr_Plugin_a9he_New_file_size_check","checked":true,"source":"Community","priority":3,"InputsDB":{}}],"pluginCommunity":true,"handbrake":true,"ffmpeg":false,"handbrakescan":true,"ffmpegscan":false,"preset":"-Z \"Very Fast 1080p30\"","decisionMaker":{"settingsPlugin":true,"settingsFlows":false,"settingsVideo":false,"videoExcludeSwitch":true,"video_codec_names_exclude":[{"codec":"hevc","checked":false},{"codec":"h264","checked":true}],"video_size_range_include":{"min":0,"max":100000},"video_height_range_include":{"min":0,"max":3000},"video_width_range_include":{"min":0,"max":4000},"settingsAudio":false,"audioExcludeSwitch":true,"audio_codec_names_exclude":[{"codec":"mp3","checked":true},{"codec":"aac","checked":false}],"audio_size_range_include":{"min":0,"max":10}},"schedule":[{"_id":"Sun:00-01","checked":true},{"_id":"Sun:01-02","checked":true},{"_id":"Sun:02-03","checked":true},{"_id":"Sun:03-04","checked":true},{"_id":"Sun:04-05","checked":true},{"_id":"Sun:05-06","checked":true},{"_id":"Sun:06-07","checked":true},{"_id":"Sun:07-08","checked":true},{"_id":"Sun:08-09","checked":true},{"_id":"Sun:09-10","checked":true},{"_id":"Sun:10-11","checked":true},{"_id":"Sun:11-12","checked":true},{"_id":"Sun:12-13","checked":true},{"_id":"Sun:13-14","checked":true},{"_id":"Sun:14-15","checked":true},{"_id":"Sun:15-16","checked":true},{"_id":"Sun:16-17","checked":true},{"_id":"Sun:17-18","checked":true},{"_id":"Sun:18-19","checked":true},{"_id":"Sun:19-20","checked":true},{"_id":"Sun:20-21","checked":true},{"_id":"Sun:21-22","checked":true},{"_id":"Sun:22-23","checked":true},{"_id":"Sun:23-00","checked":true},{"_id":"Mon:00-01","checked":true},{"_id":"Mon:01-02","checked":true},{"_id":"Mon:02-03","checked":true},{"_id":"Mon:03-04","checked":true},{"_id":"Mon:04-05","checked":true},{"_id":"Mon:05-06","checked":true},{"_id":"Mon:06-07","checked":true},{"_id":"Mon:07-08","checked":true},{"_id":"Mon:08-09","checked":true},{"_id":"Mon:09-10","checked":true},{"_id":"Mon:10-11","checked":true},{"_id":"Mon:11-12","checked":true},{"_id":"Mon:12-13","checked":true},{"_id":"Mon:13-14","checked":true},{"_id":"Mon:14-15","checked":true},{"_id":"Mon:15-16","checked":true},{"_id":"Mon:16-17","checked":true},{"_id":"Mon:17-18","checked":true},{"_id":"Mon:18-19","checked":true},{"_id":"Mon:19-20","checked":true},{"_id":"Mon:20-21","checked":true},{"_id":"Mon:21-22","checked":true},{"_id":"Mon:22-23","checked":true},{"_id":"Mon:23-00","checked":true},{"_id":"Tue:00-01","checked":true},{"_id":"Tue:01-02","checked":true},{"_id":"Tue:02-03","checked":true},{"_id":"Tue:03-04","checked":true},{"_id":"Tue:04-05","checked":true},{"_id":"Tue:05-06","checked":true},{"_id":"Tue:06-07","checked":true},{"_id":"Tue:07-08","checked":true},{"_id":"Tue:08-09","checked":true},{"_id":"Tue:09-10","checked":true},{"_id":"Tue:10-11","checked":true},{"_id":"Tue:11-12","checked":true},{"_id":"Tue:12-13","checked":true},{"_id":"Tue:13-14","checked":true},{"_id":"Tue:14-15","checked":true},{"_id":"Tue:15-16","checked":true},{"_id":"Tue:16-17","checked":true},{"_id":"Tue:17-18","checked":true},{"_id":"Tue:18-19","checked":true},{"_id":"Tue:19-20","checked":true},{"_id":"Tue:20-21","checked":true},{"_id":"Tue:21-22","checked":true},{"_id":"Tue:22-23","checked":true},{"_id":"Tue:23-00","checked":true},{"_id":"Wed:00-01","checked":true},{"_id":"Wed:01-02","checked":true},{"_id":"Wed:02-03","checked":true},{"_id":"Wed:03-04","checked":true},{"_id":"Wed:04-05","checked":true},{"_id":"Wed:05-06","checked":true},{"_id":"Wed:06-07","checked":true},{"_id":"Wed:07-08","checked":true},{"_id":"Wed:08-09","checked":true},{"_id":"Wed:09-10","checked":true},{"_id":"Wed:10-11","checked":true},{"_id":"Wed:11-12","checked":true},{"_id":"Wed:12-13","checked":true},{"_id":"Wed:13-14","checked":true},{"_id":"Wed:14-15","checked":true},{"_id":"Wed:15-16","checked":true},{"_id":"Wed:16-17","checked":true},{"_id":"Wed:17-18","checked":true},{"_id":"Wed:18-19","checked":true},{"_id":"Wed:19-20","checked":true},{"_id":"Wed:20-21","checked":true},{"_id":"Wed:21-22","checked":true},{"_id":"Wed:22-23","checked":true},{"_id":"Wed:23-00","checked":true},{"_id":"Thur:00-01","checked":true},{"_id":"Thur:01-02","checked":true},{"_id":"Thur:02-03","checked":true},{"_id":"Thur:03-04","checked":true},{"_id":"Thur:04-05","checked":true},{"_id":"Thur:05-06","checked":true},{"_id":"Thur:06-07","checked":true},{"_id":"Thur:07-08","checked":true},{"_id":"Thur:08-09","checked":true},{"_id":"Thur:09-10","checked":true},{"_id":"Thur:10-11","checked":true},{"_id":"Thur:11-12","checked":true},{"_id":"Thur:12-13","checked":true},{"_id":"Thur:13-14","checked":true},{"_id":"Thur:14-15","checked":true},{"_id":"Thur:15-16","checked":true},{"_id":"Thur:16-17","checked":true},{"_id":"Thur:17-18","checked":true},{"_id":"Thur:18-19","checked":true},{"_id":"Thur:19-20","checked":true},{"_id":"Thur:20-21","checked":true},{"_id":"Thur:21-22","checked":true},{"_id":"Thur:22-23","checked":true},{"_id":"Thur:23-00","checked":true},{"_id":"Fri:00-01","checked":true},{"_id":"Fri:01-02","checked":true},{"_id":"Fri:02-03","checked":true},{"_id":"Fri:03-04","checked":true},{"_id":"Fri:04-05","checked":true},{"_id":"Fri:05-06","checked":true},{"_id":"Fri:06-07","checked":true},{"_id":"Fri:07-08","checked":true},{"_id":"Fri:08-09","checked":true},{"_id":"Fri:09-10","checked":true},{"_id":"Fri:10-11","checked":true},{"_id":"Fri:11-12","checked":true},{"_id":"Fri:12-13","checked":true},{"_id":"Fri:13-14","checked":true},{"_id":"Fri:14-15","checked":true},{"_id":"Fri:15-16","checked":true},{"_id":"Fri:16-17","checked":true},{"_id":"Fri:17-18","checked":true},{"_id":"Fri:18-19","checked":true},{"_id":"Fri:19-20","checked":true},{"_id":"Fri:20-21","checked":true},{"_id":"Fri:21-22","checked":true},{"_id":"Fri:22-23","checked":true},{"_id":"Fri:23-00","checked":true},{"_id":"Sat:00-01","checked":true},{"_id":"Sat:01-02","checked":true},{"_id":"Sat:02-03","checked":true},{"_id":"Sat:03-04","checked":true},{"_id":"Sat:04-05","checked":true},{"_id":"Sat:05-06","checked":true},{"_id":"Sat:06-07","checked":true},{"_id":"Sat:07-08","checked":true},{"_id":"Sat:08-09","checked":true},{"_id":"Sat:09-10","checked":true},{"_id":"Sat:10-11","checked":true},{"_id":"Sat:11-12","checked":true},{"_id":"Sat:12-13","checked":true},{"_id":"Sat:13-14","checked":true},{"_id":"Sat:14-15","checked":true},{"_id":"Sat:15-16","checked":true},{"_id":"Sat:16-17","checked":true},{"_id":"Sat:17-18","checked":true},{"_id":"Sat:18-19","checked":true},{"_id":"Sat:19-20","checked":true},{"_id":"Sat:20-21","checked":true},{"_id":"Sat:21-22","checked":true},{"_id":"Sat:22-23","checked":true},{"_id":"Sat:23-00","checked":true}],"totalHealthCheckCount":17,"totalTranscodeCount":0,"sizeDiff":0,"holdNewFiles":false,"holdFor":3600,"holdForDisplayUnit":"hours","pluginStackOverview":true,"filterResolutionsSkip":"","filterCodecsSkip":"","filterContainersSkip":"","processPluginsSequentially":true}}
+2026-01-04T11:24:11.352Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Scanning original library file
+2026-01-04T11:24:11.353Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:{
+2026-01-04T11:24:11.353Z   "exifToolScan": true,
+2026-01-04T11:24:11.353Z   "mediaInfoScan": false,
+2026-01-04T11:24:11.353Z   "closedCaptionScan": false
+2026-01-04T11:24:11.353Z }
+2026-01-04T11:24:11.354Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Node scanning file
+2026-01-04T11:24:13.358Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Scan complete
+2026-01-04T11:24:13.359Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Original file scanned
+2026-01-04T11:24:13.359Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Source file to work on determined:"/media/tv/Breaking Bad/Season 5/Breaking.Bad.S05E11.Confessions.1080p.BluRay.10bit.EAC3.5.1.x265-iVy.mkv"
+2026-01-04T11:24:13.359Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:[Step W02] [C1] Running pre-process file
+2026-01-04T11:24:13.360Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Checking files can be accessed
+2026-01-04T11:24:13.360Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:mapped node, file is original, no need to download
+2026-01-04T11:24:13.360Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Relevant paths can be accessed
+2026-01-04T11:24:13.361Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Source file: "/media/tv/Breaking Bad/Season 5/Breaking.Bad.S05E11.Confessions.1080p.BluRay.10bit.EAC3.5.1.x265-iVy.mkv"
+2026-01-04T11:24:13.361Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:[Step W03] [C1] Analysing file - running plugins
+2026-01-04T11:24:13.362Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Handbrake healthcheck task, no need to scan for extra file details
+2026-01-04T11:24:13.362Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Updating Node relay: Processing
+2026-01-04T11:24:13.362Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:[1/2] Checking file frame count
+2026-01-04T11:24:13.363Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:[2/2] Frame count 0
+2026-01-04T11:24:13.363Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Determining healthcheck command
+2026-01-04T11:24:13.364Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:[Step W04] [C1] Preparing command
+2026-01-04T11:24:13.364Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Cache file stem: "/tmp/tdarr-workDir2-YI8E-mSPS-"
+2026-01-04T11:24:13.364Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Cache file path: "/tmp/tdarr-workDir2-YI8E-mSPS-/Breaking.Bad.S05E11.Confessions.1080p.BluRay.10bit.EAC3.5.1.x265-iVy-TdarrCacheFile-Q0uDINSZ0.mp4"
+2026-01-04T11:24:13.365Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Create transcode args
+2026-01-04T11:24:13.365Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Args:  -i "/media/tv/Breaking Bad/Season 5/Breaking.Bad.S05E11.Confessions.1080p.BluRay.10bit.EAC3.5.1.x265-iVy.mkv" -o /tmp/tdarr-workDir2-YI8E-mSPS-/Breaking.Bad.S05E11.Confessions.1080p.BluRay.10bit.EAC3.5.1.x265-iVy-TdarrCacheFile-Q0uDINSZ0.mp4 --scan
+2026-01-04T11:24:13.366Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Getting source file size
+2026-01-04T11:24:13.366Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Source file size: 0.9464420415461063
+2026-01-04T11:24:13.366Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Performing safety check on worker config to see if old transcode args/container match new ones
+2026-01-04T11:24:13.367Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Safety check complete, all good
+2026-01-04T11:24:13.367Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:[Step W05] [C1] Launching subworker
+2026-01-04T11:24:13.367Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Preparing to launch subworker
+2026-01-04T11:24:13.368Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Subworker launched
+2026-01-04T11:24:13.368Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:[1/3] Sending command to subworker
+2026-01-04T11:24:13.368Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:[2/3] HandBrakeCLI -i "/media/tv/Breaking Bad/Season 5/Breaking.Bad.S05E11.Confessions.1080p.BluRay.10bit.EAC3.5.1.x265-iVy.mkv" -o /tmp/tdarr-workDir2-YI8E-mSPS-/Breaking.Bad.S05E11.Confessions.1080p.BluRay.10bit.EAC3.5.1.x265-iVy-TdarrCacheFile-Q0uDINSZ0.mp4 --scan
+2026-01-04T11:24:13.369Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:[3/3] Command sent
+2026-01-04T11:24:13.369Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:To see live CLI output, enable 'Log full FFmpeg/HandBrake output' in the staging section on the Tdarr tab before the job starts. Note this could increase the job report size substantially.
+2026-01-04T11:24:13.370Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Subworker:Online
+2026-01-04T11:24:13.370Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Subworker:Receiving transcode settings
+2026-01-04T11:24:13.370Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Subworker:Running CLI
+2026-01-04T11:26:07.468Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Subworker:a.Thread closed, code: 0
+2026-01-04T11:26:07.469Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Subworker exit approved, killing subworker
+2026-01-04T11:26:07.469Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Subworker killed
+2026-01-04T11:26:07.469Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:b.Thread closed, code: 0
+2026-01-04T11:26:07.470Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:CLI code: 0
+2026-01-04T11:26:07.470Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Last 200 lines of CLI log:
+2026-01-04T11:26:07.470Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:26:07.470Z Scanning title 1 of 1, preview 10, 100.00 %
+2026-01-04T11:26:07.470Z [11:26:04] using container PAR 1:1
+2026-01-04T11:26:07.470Z [11:26:04] scan: 10 previews, 1918x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 1.78:1, PAR 1:1, color profile: 1-1-1, chroma location: left
+2026-01-04T11:26:07.470Z 
+2026-01-04T11:26:07.470Z [11:26:04] libhb: scan thread found 1 valid title(s)
+2026-01-04T11:26:07.470Z 
+2026-01-04T11:26:07.470Z + title 1:
+2026-01-04T11:26:07.470Z   + stream: /media/tv/Breaking Bad/Season 5/Breaking.Bad.S05E11.Confessions.1080p.BluRay.10bit.EAC3.5.1.x265-iVy.mkv
+2026-01-04T11:26:07.470Z   + duration: 00:47:23
+2026-01-04T11:26:07.470Z   + size: 1918x1080, pixel aspect: 1/1, display aspect: 1.78, 23.976 fps
+2026-01-04T11:26:07.470Z   + autocrop: 0/0/0/0
+2026-01-04T11:26:07.470Z   + chapters:
+2026-01-04T11:26:07.470Z     + 1: duration 00:05:03
+2026-01-04T11:26:07.470Z     + 2: duration 00:09:56
+2026-01-04T11:26:07.470Z     + 3: duration 00:18:35
+2026-01-04T11:26:07.470Z     + 4: duration 00:08:13
+2026-01-04T11:26:07.470Z     + 5: duration 00:04:58
+2026-01-04T11:26:07.470Z     + 6: duration 00:00:39
+2026-01-04T11:26:07.470Z   + audio tracks:
+2026-01-04T11:26:07.470Z     + 1, English (E-AC3, 5.1 ch, 640 kbps) (iso639-2: eng)
+2026-01-04T11:26:07.470Z   + subtitle tracks:
+2026-01-04T11:26:07.470Z     + 1, English (PGS)
+2026-01-04T11:26:07.470Z     + 2, Deutsch (PGS)
+2026-01-04T11:26:07.470Z     + 3, Türkçe (PGS)
+2026-01-04T11:26:07.470Z 
+2026-01-04T11:26:07.470Z HandBrake has exited.
+2026-01-04T11:26:07.470Z 
+2026-01-04T11:26:07.470Z 
+2026-01-04T11:26:07.470Z 
+2026-01-04T11:26:07.470Z 
+2026-01-04T11:26:07.471Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:[Step W06] [C1] Worker [-success-]
+2026-01-04T11:26:07.471Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Worker success during processing
+2026-01-04T11:26:07.471Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Updating healthcheck stats
+2026-01-04T11:26:07.472Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:[Step W10] Worker processing end
+2026-01-04T11:26:07.472Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Subworker exited null
+2026-01-04T11:26:07.472Z YI8E-mSPS-:Node[MyInternalNode]:Worker[clumsy-cat]:Successfully updated server with verdict: healthcheckSuccess

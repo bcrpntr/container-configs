@@ -1,0 +1,233 @@
+2026-01-04T11:30:12.608Z -2xC7LZOMP:[Step S01] [2.58.02] Server relay initialising job
+2026-01-04T11:30:12.609Z -2xC7LZOMP:Server: linux_x64_docker_true
+2026-01-04T11:30:12.610Z -2xC7LZOMP:Server relay adding file to staged files
+2026-01-04T11:30:12.611Z -2xC7LZOMP:Server relay sending job to Node relay: MyInternalNode
+2026-01-04T11:30:12.611Z -2xC7LZOMP:Node[MyInternalNode]:[Step N01] [2.58.02] Node relay received job
+2026-01-04T11:30:12.611Z -2xC7LZOMP:Node[MyInternalNode]:{"nodeName":"MyInternalNode","serverURL":"http://0.0.0.0:8266","serverIP":"0.0.0.0","serverPort":"8266","handbrakePath":"","ffmpegPath":"","mkvpropeditPath":"","pathTranslators":[{"server":"","node":""}],"nodeType":"mapped","unmappedNodeCache":"/app/unmappedNodeCache","logLevel":"INFO","priority":-1,"platform_arch_isdocker":"linux_x64_docker_true","processPid":664,"cronPluginUpdate":"","apiKey":"","maxLogSizeMB":"10","pollInterval":2000,"startPaused":false,"nodeID":"-2RaUzM4Y","seededWorkerLimits":{},"nodeRegisteredCount":1}
+2026-01-04T11:30:12.612Z -2xC7LZOMP:Node[MyInternalNode]:Node relay sending job to worker:rosy-ray
+2026-01-04T11:30:12.612Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:[Step W01] Received file, original: "/media/movies/The Old Woman with the Knife (2025)/Pagwa.2025.1080p.BluRay.DD.5.1.x264-playHD.mkv"
+2026-01-04T11:30:12.612Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:{"workerType":"healthcheckcpu"}
+2026-01-04T11:30:12.613Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:{"ffmpegPath":"tdarr-ffmpeg"}
+2026-01-04T11:30:12.613Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:{"handbrakePath":"HandBrakeCLI"}
+2026-01-04T11:30:12.613Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:{"mkvpropeditPath":"mkvpropedit"}
+2026-01-04T11:30:12.614Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:{"gpuSelect":"-"}
+2026-01-04T11:30:12.614Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:{"allowGpuDoCpu":false}
+2026-01-04T11:30:12.614Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:{"thoroughHealthCheckCpuExtraInputArgs":""}
+2026-01-04T11:30:12.614Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:{"thoroughHealthCheckGpuExtraInputArgs":""}
+2026-01-04T11:30:12.615Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:{"thoroughHealthCheckCpuExtraArgs":""}
+2026-01-04T11:30:12.615Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:{"thoroughHealthCheckGpuExtraArgs":""}
+2026-01-04T11:30:12.615Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:{"logFullCliOutput":false}
+2026-01-04T11:30:12.615Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:{"runMkvpropedit":false}
+2026-01-04T11:30:12.616Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:{"dontCleanWorkerCacheFolder":false}
+2026-01-04T11:30:12.616Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:Path translating objects
+2026-01-04T11:30:12.616Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:Running path translator tests
+2026-01-04T11:30:12.619Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:Path translator tests passed
+2026-01-04T11:30:12.620Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:{"librarySettings":{"_id":"qNfK1K4g-","priority":0,"name":"Movies","folder":"/media/movies","foldersToIgnore":"","foldersToIgnoreCaseInsensitive":false,"folderWatchScanInterval":30,"scannerThreadCount":2,"cache":"/tmp","output":".","folderToFolderConversion":false,"folderToFolderConversionDeleteSource":false,"folderToFolderRecordHistory":true,"copyIfConditionsMet":false,"container":".mkv","containerFilter":"mkv,mp4,mov,m4v,mpg,mpeg,avi,flv,webm,wmv,vob,evo,iso,m2ts,ts","createdAt":1675837380368,"folderWatching":true,"useFsEvents":false,"scheduledScanFindNew":false,"processLibrary":true,"processTranscodes":true,"processHealthChecks":true,"scanOnStart":true,"exifToolScan":true,"mediaInfoScan":true,"ffprobeShowData":false,"isDirectoryLibrary":false,"closedCaptionScan":false,"scanButtons":true,"scanFound":"Files found:0","navItemSelected":"navSourceFolder","pluginIDs":[{"_id":"plugin1","id":"Tdarr_Plugin_MC93_MigzImageRemoval","checked":true,"source":"Community","priority":0,"InputsDB":{},"Name":"Migz Remove Image Formats From File","Type":"Video","Operation":"Transcode","Description":"Identify any unwanted image formats in the file and remove those streams. MJPEG, PNG & GIF \n\n","Version":"1.4","Stage":"Pre-processing","Tags":"pre-processing,ffmpeg,video only","Inputs":[],"source_id":"Community::Tdarr_Plugin_MC93_MigzImageRemoval"},{"_id":"plugin2","id":"Tdarr_Plugin_lmg1_Reorder_Streams","checked":true,"source":"Community","priority":1,"InputsDB":{},"Name":"Lmg1 Reorder Streams","Type":"Video","Operation":"Transcode","Description":"[Contains built-in filter] This plugin will move the video stream to the front so Tdarr will recognize the codec correctly.\n\n","Version":"1.00","Stage":"Pre-processing","Tags":"pre-processing,ffmpeg","Inputs":[],"source_id":"Community::Tdarr_Plugin_lmg1_Reorder_Streams"},{"_id":"plugin4","id":"Tdarr_Plugin_MC93_Migz1FFMPEG","checked":true,"source":"Community","priority":2,"InputsDB":{},"Name":"Migz Transcode Using Nvidia GPU & FFMPEG","Type":"Video","Operation":"Transcode","Description":"Files not in H265 will be transcoded into H265 using Nvidia GPU with ffmpeg.\n                  Settings are dependant on file bitrate\n                  Working by the logic that H265 can support the same ammount of data at half the bitrate of H264.\n                  NVDEC & NVENC compatable GPU required.\n                  This plugin will skip any files that are in the VP9 codec.","Version":"3.1","Stage":"Pre-processing","Tags":"pre-processing,ffmpeg,video only,nvenc h265,configurable","Inputs":[{"name":"container","type":"string","defaultValue":"mkv","inputUI":{"type":"text"},"tooltip":"Specify output container of file. Use 'original' wihout quotes to keep original container.\n                \\n Ensure that all stream types you may have are supported by your chosen container.\n                \\n mkv is recommended.\n                    \\nExample:\\n\n                    mkv\n\n                    \\nExample:\\n\n                    mp4\n                    \n                    \\nExample:\\n\n                    original"},{"name":"bitrate_cutoff","type":"string","defaultValue":"","inputUI":{"type":"text"},"tooltip":"Specify bitrate cutoff, files with a current bitrate lower then this will not be transcoded.\n               \\n Rate is in kbps.\n               \\n Leave empty to disable.\n                    \\nExample:\\n\n                    6000\n\n                    \\nExample:\\n\n                    4000"},{"name":"enable_10bit","type":"boolean","defaultValue":false,"inputUI":{"type":"dropdown","options":["false","true"]},"tooltip":"Specify if output file should be 10bit. Default is false.\n                    \\nExample:\\n\n                    true\n\n                    \\nExample:\\n\n                    false"},{"name":"enable_bframes","type":"boolean","defaultValue":false,"inputUI":{"type":"dropdown","options":["false","true"]},"tooltip":"Specify if b frames should be used.\n                 \\n Using B frames should decrease file sizes but are only supported on newer GPUs.\n                 \\n Default is false.\n                    \\nExample:\\n\n                    true\n\n                    \\nExample:\\n\n                    false"},{"name":"force_conform","type":"boolean","defaultValue":false,"inputUI":{"type":"dropdown","options":["false","true"]},"tooltip":"Make the file conform to output containers requirements.\n                \\n Drop hdmv_pgs_subtitle/eia_608/subrip/timed_id3 for MP4.\n                \\n Drop data streams/mov_text/eia_608/timed_id3 for MKV.\n                \\n Default is false.\n                    \\nExample:\\n\n                    true\n\n                    \\nExample:\\n\n                    false"}],"source_id":"Community::Tdarr_Plugin_MC93_Migz1FFMPEG"},{"_id":"plugin5","id":"Tdarr_Plugin_a9he_New_file_size_check","checked":true,"source":"Community","priority":3,"InputsDB":{},"Name":"New File Size Check","Type":"Video","Operation":"Transcode","Description":"Give an error if new file is not within the specified upper and lower bound limits \n\n","Version":"1.00","Stage":"Pre-processing","Tags":"","Inputs":[{"name":"upperBound","type":"number","defaultValue":110,"inputUI":{"type":"text"},"tooltip":"Enter the upper bound % size for the new file. For example, if '110' is entered, \n        then if the new file size is greater than 110% the size of the original, an error will be given."},{"name":"lowerBound","type":"number","defaultValue":40,"inputUI":{"type":"text"},"tooltip":"Enter the lower bound % size for the new file. For example, if '90' is entered, \n        then if the new file size is less than 90% of the original, an error will be given."}],"source_id":"Community::Tdarr_Plugin_a9he_New_file_size_check"}],"pluginCommunity":true,"handbrake":true,"ffmpeg":false,"handbrakescan":true,"ffmpegscan":false,"preset":"-Z \"Very Fast 1080p30\"","decisionMaker":{"settingsPlugin":true,"settingsFlows":false,"settingsVideo":false,"videoExcludeSwitch":true,"video_codec_names_exclude":[{"codec":"hevc","checked":false},{"codec":"h264","checked":true}],"video_size_range_include":{"min":0,"max":100000},"video_height_range_include":{"min":0,"max":3000},"video_width_range_include":{"min":0,"max":4000},"settingsAudio":false,"audioExcludeSwitch":true,"audio_codec_names_exclude":[{"codec":"mp3","checked":true},{"codec":"aac","checked":false}],"audio_size_range_include":{"min":0,"max":10}},"schedule":[{"_id":"Sun:00-01","checked":true},{"_id":"Sun:01-02","checked":true},{"_id":"Sun:02-03","checked":true},{"_id":"Sun:03-04","checked":true},{"_id":"Sun:04-05","checked":true},{"_id":"Sun:05-06","checked":true},{"_id":"Sun:06-07","checked":true},{"_id":"Sun:07-08","checked":true},{"_id":"Sun:08-09","checked":true},{"_id":"Sun:09-10","checked":true},{"_id":"Sun:10-11","checked":true},{"_id":"Sun:11-12","checked":true},{"_id":"Sun:12-13","checked":true},{"_id":"Sun:13-14","checked":true},{"_id":"Sun:14-15","checked":true},{"_id":"Sun:15-16","checked":true},{"_id":"Sun:16-17","checked":true},{"_id":"Sun:17-18","checked":true},{"_id":"Sun:18-19","checked":true},{"_id":"Sun:19-20","checked":true},{"_id":"Sun:20-21","checked":true},{"_id":"Sun:21-22","checked":true},{"_id":"Sun:22-23","checked":true},{"_id":"Sun:23-00","checked":true},{"_id":"Mon:00-01","checked":true},{"_id":"Mon:01-02","checked":true},{"_id":"Mon:02-03","checked":true},{"_id":"Mon:03-04","checked":true},{"_id":"Mon:04-05","checked":true},{"_id":"Mon:05-06","checked":true},{"_id":"Mon:06-07","checked":true},{"_id":"Mon:07-08","checked":true},{"_id":"Mon:08-09","checked":true},{"_id":"Mon:09-10","checked":true},{"_id":"Mon:10-11","checked":true},{"_id":"Mon:11-12","checked":true},{"_id":"Mon:12-13","checked":true},{"_id":"Mon:13-14","checked":true},{"_id":"Mon:14-15","checked":true},{"_id":"Mon:15-16","checked":true},{"_id":"Mon:16-17","checked":true},{"_id":"Mon:17-18","checked":true},{"_id":"Mon:18-19","checked":true},{"_id":"Mon:19-20","checked":true},{"_id":"Mon:20-21","checked":true},{"_id":"Mon:21-22","checked":true},{"_id":"Mon:22-23","checked":true},{"_id":"Mon:23-00","checked":true},{"_id":"Tue:00-01","checked":true},{"_id":"Tue:01-02","checked":true},{"_id":"Tue:02-03","checked":true},{"_id":"Tue:03-04","checked":true},{"_id":"Tue:04-05","checked":true},{"_id":"Tue:05-06","checked":true},{"_id":"Tue:06-07","checked":true},{"_id":"Tue:07-08","checked":true},{"_id":"Tue:08-09","checked":true},{"_id":"Tue:09-10","checked":true},{"_id":"Tue:10-11","checked":true},{"_id":"Tue:11-12","checked":true},{"_id":"Tue:12-13","checked":true},{"_id":"Tue:13-14","checked":true},{"_id":"Tue:14-15","checked":true},{"_id":"Tue:15-16","checked":true},{"_id":"Tue:16-17","checked":true},{"_id":"Tue:17-18","checked":true},{"_id":"Tue:18-19","checked":true},{"_id":"Tue:19-20","checked":true},{"_id":"Tue:20-21","checked":true},{"_id":"Tue:21-22","checked":true},{"_id":"Tue:22-23","checked":true},{"_id":"Tue:23-00","checked":true},{"_id":"Wed:00-01","checked":true},{"_id":"Wed:01-02","checked":true},{"_id":"Wed:02-03","checked":true},{"_id":"Wed:03-04","checked":true},{"_id":"Wed:04-05","checked":true},{"_id":"Wed:05-06","checked":true},{"_id":"Wed:06-07","checked":true},{"_id":"Wed:07-08","checked":true},{"_id":"Wed:08-09","checked":true},{"_id":"Wed:09-10","checked":true},{"_id":"Wed:10-11","checked":true},{"_id":"Wed:11-12","checked":true},{"_id":"Wed:12-13","checked":true},{"_id":"Wed:13-14","checked":true},{"_id":"Wed:14-15","checked":true},{"_id":"Wed:15-16","checked":true},{"_id":"Wed:16-17","checked":true},{"_id":"Wed:17-18","checked":true},{"_id":"Wed:18-19","checked":true},{"_id":"Wed:19-20","checked":true},{"_id":"Wed:20-21","checked":true},{"_id":"Wed:21-22","checked":true},{"_id":"Wed:22-23","checked":true},{"_id":"Wed:23-00","checked":true},{"_id":"Thur:00-01","checked":true},{"_id":"Thur:01-02","checked":true},{"_id":"Thur:02-03","checked":true},{"_id":"Thur:03-04","checked":true},{"_id":"Thur:04-05","checked":true},{"_id":"Thur:05-06","checked":true},{"_id":"Thur:06-07","checked":true},{"_id":"Thur:07-08","checked":true},{"_id":"Thur:08-09","checked":true},{"_id":"Thur:09-10","checked":true},{"_id":"Thur:10-11","checked":true},{"_id":"Thur:11-12","checked":true},{"_id":"Thur:12-13","checked":true},{"_id":"Thur:13-14","checked":true},{"_id":"Thur:14-15","checked":true},{"_id":"Thur:15-16","checked":true},{"_id":"Thur:16-17","checked":true},{"_id":"Thur:17-18","checked":true},{"_id":"Thur:18-19","checked":true},{"_id":"Thur:19-20","checked":true},{"_id":"Thur:20-21","checked":true},{"_id":"Thur:21-22","checked":true},{"_id":"Thur:22-23","checked":true},{"_id":"Thur:23-00","checked":true},{"_id":"Fri:00-01","checked":true},{"_id":"Fri:01-02","checked":true},{"_id":"Fri:02-03","checked":true},{"_id":"Fri:03-04","checked":true},{"_id":"Fri:04-05","checked":true},{"_id":"Fri:05-06","checked":true},{"_id":"Fri:06-07","checked":true},{"_id":"Fri:07-08","checked":true},{"_id":"Fri:08-09","checked":true},{"_id":"Fri:09-10","checked":true},{"_id":"Fri:10-11","checked":true},{"_id":"Fri:11-12","checked":true},{"_id":"Fri:12-13","checked":true},{"_id":"Fri:13-14","checked":true},{"_id":"Fri:14-15","checked":true},{"_id":"Fri:15-16","checked":true},{"_id":"Fri:16-17","checked":true},{"_id":"Fri:17-18","checked":true},{"_id":"Fri:18-19","checked":true},{"_id":"Fri:19-20","checked":true},{"_id":"Fri:20-21","checked":true},{"_id":"Fri:21-22","checked":true},{"_id":"Fri:22-23","checked":true},{"_id":"Fri:23-00","checked":true},{"_id":"Sat:00-01","checked":true},{"_id":"Sat:01-02","checked":true},{"_id":"Sat:02-03","checked":true},{"_id":"Sat:03-04","checked":true},{"_id":"Sat:04-05","checked":true},{"_id":"Sat:05-06","checked":true},{"_id":"Sat:06-07","checked":true},{"_id":"Sat:07-08","checked":true},{"_id":"Sat:08-09","checked":true},{"_id":"Sat:09-10","checked":true},{"_id":"Sat:10-11","checked":true},{"_id":"Sat:11-12","checked":true},{"_id":"Sat:12-13","checked":true},{"_id":"Sat:13-14","checked":true},{"_id":"Sat:14-15","checked":true},{"_id":"Sat:15-16","checked":true},{"_id":"Sat:16-17","checked":true},{"_id":"Sat:17-18","checked":true},{"_id":"Sat:18-19","checked":true},{"_id":"Sat:19-20","checked":true},{"_id":"Sat:20-21","checked":true},{"_id":"Sat:21-22","checked":true},{"_id":"Sat:22-23","checked":true},{"_id":"Sat:23-00","checked":true}],"totalHealthCheckCount":18,"totalTranscodeCount":0,"sizeDiff":0,"holdNewFiles":false,"holdFor":3600,"holdForDisplayUnit":"hours","pluginStackOverview":true,"filterResolutionsSkip":"","filterCodecsSkip":"","filterContainersSkip":"","processPluginsSequentially":true}}
+2026-01-04T11:30:12.620Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:Scanning original library file
+2026-01-04T11:30:12.620Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:{
+2026-01-04T11:30:12.620Z   "exifToolScan": true,
+2026-01-04T11:30:12.620Z   "mediaInfoScan": false,
+2026-01-04T11:30:12.620Z   "closedCaptionScan": false
+2026-01-04T11:30:12.620Z }
+2026-01-04T11:30:12.620Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:Node scanning file
+2026-01-04T11:30:13.631Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:Scan complete
+2026-01-04T11:30:13.632Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:Original file scanned
+2026-01-04T11:30:13.633Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:Source file to work on determined:"/media/movies/The Old Woman with the Knife (2025)/Pagwa.2025.1080p.BluRay.DD.5.1.x264-playHD.mkv"
+2026-01-04T11:30:13.635Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:[Step W02] [C1] Running pre-process file
+2026-01-04T11:30:13.635Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:Checking files can be accessed
+2026-01-04T11:30:13.636Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:mapped node, file is original, no need to download
+2026-01-04T11:30:13.638Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:Relevant paths can be accessed
+2026-01-04T11:30:13.638Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:Source file: "/media/movies/The Old Woman with the Knife (2025)/Pagwa.2025.1080p.BluRay.DD.5.1.x264-playHD.mkv"
+2026-01-04T11:30:13.639Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:[Step W03] [C1] Analysing file - running plugins
+2026-01-04T11:30:13.640Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:Handbrake healthcheck task, no need to scan for extra file details
+2026-01-04T11:30:13.640Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:Updating Node relay: Processing
+2026-01-04T11:30:13.640Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:[1/2] Checking file frame count
+2026-01-04T11:30:13.641Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:[2/2] Frame count 0
+2026-01-04T11:30:13.641Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:Determining healthcheck command
+2026-01-04T11:30:13.641Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:[Step W04] [C1] Preparing command
+2026-01-04T11:30:13.642Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:Cache file stem: "/tmp/tdarr-workDir2--2xC7LZOMP"
+2026-01-04T11:30:13.642Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:Cache file path: "/tmp/tdarr-workDir2--2xC7LZOMP/Pagwa.2025.1080p.BluRay.DD.5.1.x264-playHD-TdarrCacheFile-zs4ANoeEy.mp4"
+2026-01-04T11:30:13.642Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:Create transcode args
+2026-01-04T11:30:13.643Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:Args:  -i "/media/movies/The Old Woman with the Knife (2025)/Pagwa.2025.1080p.BluRay.DD.5.1.x264-playHD.mkv" -o /tmp/tdarr-workDir2--2xC7LZOMP/Pagwa.2025.1080p.BluRay.DD.5.1.x264-playHD-TdarrCacheFile-zs4ANoeEy.mp4 --scan
+2026-01-04T11:30:13.643Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:Getting source file size
+2026-01-04T11:30:13.643Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:Source file size: 14.501491750590503
+2026-01-04T11:30:13.643Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:Performing safety check on worker config to see if old transcode args/container match new ones
+2026-01-04T11:30:13.643Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:Safety check complete, all good
+2026-01-04T11:30:13.644Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:[Step W05] [C1] Launching subworker
+2026-01-04T11:30:13.644Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:Preparing to launch subworker
+2026-01-04T11:30:13.644Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:Subworker launched
+2026-01-04T11:30:13.645Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:[1/3] Sending command to subworker
+2026-01-04T11:30:13.645Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:[2/3] HandBrakeCLI -i "/media/movies/The Old Woman with the Knife (2025)/Pagwa.2025.1080p.BluRay.DD.5.1.x264-playHD.mkv" -o /tmp/tdarr-workDir2--2xC7LZOMP/Pagwa.2025.1080p.BluRay.DD.5.1.x264-playHD-TdarrCacheFile-zs4ANoeEy.mp4 --scan
+2026-01-04T11:30:13.645Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:[3/3] Command sent
+2026-01-04T11:30:13.645Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:To see live CLI output, enable 'Log full FFmpeg/HandBrake output' in the staging section on the Tdarr tab before the job starts. Note this could increase the job report size substantially.
+2026-01-04T11:30:13.646Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:Subworker:Online
+2026-01-04T11:30:13.646Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:Subworker:Receiving transcode settings
+2026-01-04T11:30:13.646Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:Subworker:Running CLI
+2026-01-04T11:30:20.760Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:Subworker:a.Thread closed, code: 0
+2026-01-04T11:30:20.762Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:Subworker exit approved, killing subworker
+2026-01-04T11:30:20.763Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:Subworker killed
+2026-01-04T11:30:20.763Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:b.Thread closed, code: 0
+2026-01-04T11:30:20.764Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:CLI code: 0
+2026-01-04T11:30:20.764Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:Last 200 lines of CLI log:
+2026-01-04T11:30:20.764Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:[11:30:11] Compile-time hardening features are enabled
+2026-01-04T11:30:20.764Z 
+2026-01-04T11:30:20.764Z [11:30:11] nvenc: version 12.2 is available
+2026-01-04T11:30:20.764Z [11:30:11] nvdec: is available
+2026-01-04T11:30:20.764Z 
+2026-01-04T11:30:20.764Z [11:30:11] CUDA Version: 6.1
+2026-01-04T11:30:20.764Z 
+2026-01-04T11:30:20.764Z [11:30:11] qsv: not available on this system
+2026-01-04T11:30:20.764Z 
+2026-01-04T11:30:20.764Z [11:30:11] hb_init: starting libhb thread
+2026-01-04T11:30:20.764Z 
+2026-01-04T11:30:20.764Z [11:30:11] thread 7ff6fd1e86c0 started ("libhb")
+2026-01-04T11:30:20.764Z HandBrake 1.10.2 (2025102400) - Linux x86_64 - https://handbrake.fr
+2026-01-04T11:30:20.764Z 16 CPUs detected
+2026-01-04T11:30:20.764Z 
+2026-01-04T11:30:20.764Z Opening /media/movies/The Old Woman with the Knife (2025)/Pagwa.2025.1080p.BluRay.DD.5.1.x264-playHD.mkv...
+2026-01-04T11:30:20.764Z [11:30:11] CPU: Common KVM processor
+2026-01-04T11:30:20.764Z 
+2026-01-04T11:30:20.764Z [11:30:11]  - logical processor count: 16
+2026-01-04T11:30:20.764Z [11:30:11] Intel Quick Sync Video support: no
+2026-01-04T11:30:20.764Z [11:30:11] hb_scan: path=/media/movies/The Old Woman with the Knife (2025)/Pagwa.2025.1080p.BluRay.DD.5.1.x264-playHD.mkv, title_index=1
+2026-01-04T11:30:20.764Z 
+2026-01-04T11:30:20.764Z Input #0, matroska,webm, from '/media/movies/The Old Woman with the Knife (2025)/Pagwa.2025.1080p.BluRay.DD.5.1.x264-playHD.mkv':
+2026-01-04T11:30:20.764Z   Metadata:
+2026-01-04T11:30:20.764Z     encoder         : libebml v1.4.5 + libmatroska v1.7.1
+2026-01-04T11:30:20.764Z     creation_time   : 2025-12-15T15:21:11.000000Z
+2026-01-04T11:30:20.764Z   Duration: 02:05:43.33, start: 0.000000, bitrate: 16513 kb/s
+2026-01-04T11:30:20.764Z   Chapters:
+2026-01-04T11:30:20.764Z     Chapter #0:0: start 0.000000, end 757.208000
+2026-01-04T11:30:20.764Z       Metadata:
+2026-01-04T11:30:20.764Z         title           : Chapter 01
+2026-01-04T11:30:20.764Z     Chapter #0:1: start 757.208000, end 1579.458000
+2026-01-04T11:30:20.764Z       Metadata:
+2026-01-04T11:30:20.764Z         title           : Chapter 02
+2026-01-04T11:30:20.764Z     Chapter #0:2: start 1579.458000, end 2275.333000
+2026-01-04T11:30:20.764Z       Metadata:
+2026-01-04T11:30:20.764Z 
+2026-01-04T11:30:20.764Z         title           : Chapter 03
+2026-01-04T11:30:20.764Z     Chapter #0:3: start 2275.333000, end 2951.875000
+2026-01-04T11:30:20.764Z       Metadata:
+2026-01-04T11:30:20.764Z         title           : Chapter 04
+2026-01-04T11:30:20.764Z     Chapter #0:4: start 2951.875000, end 3721.667000
+2026-01-04T11:30:20.764Z       Metadata:
+2026-01-04T11:30:20.764Z         title           : Chapter 05
+2026-01-04T11:30:20.764Z     Chapter #0:5: start 3721.667000, end 4591.833000
+2026-01-04T11:30:20.764Z       Metadata:
+2026-01-04T11:30:20.764Z         title           : Chapter 06
+2026-01-04T11:30:20.764Z     Chapter #0:6: start 4591.833000, end 5317.333000
+2026-01-04T11:30:20.764Z       Metadata:
+2026-01-04T11:30:20.764Z         title           : Chapter 07
+2026-01-04T11:30:20.764Z     Chapter #0:7: start 5317.333000, end 6008.208000
+2026-01-04T11:30:20.764Z       Metadata:
+2026-01-04T11:30:20.764Z         title           : Chapter 08
+2026-01-04T11:30:20.764Z     Chapter #0:8: start 6008.208000, end 6872.542000
+2026-01-04T11:30:20.764Z       Metadata:
+2026-01-04T11:30:20.764Z         title           : Chapter 09
+2026-01-04T11:30:20.764Z     Chapter #0:9: start 6872.542000, end 7543.250000
+2026-01-04T11:30:20.764Z       Metadata:
+2026-01-04T11:30:20.764Z         title           : Chapter 10
+2026-01-04T11:30:20.764Z     Chapter #0:10: start 7543.250000, end 7543.328000
+2026-01-04T11:30:20.764Z       Metadata:
+2026-01-04T11:30:20.764Z         title           : Chapter 11
+2026-01-04T11:30:20.764Z   Stream #0:0(eng): Video: h264 (High), yuv420p(progressive), 1920x804 [SAR 1:1 DAR 160:67], 24 fps, 24 tbr, 1k tbn (default)
+2026-01-04T11:30:20.764Z       Metadata:
+2026-01-04T11:30:20.764Z         BPS             : 15487372
+2026-01-04T11:30:20.764Z         DURATION        : 02:05:43.292000000
+2026-01-04T11:30:20.764Z         NUMBER_OF_FRAMES: 181039
+2026-01-04T11:30:20.764Z         NUMBER_OF_BYTES : 14603222003
+2026-01-04T11:30:20.764Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:30:20.764Z         _STATISTICS_WRITING_DATE_UTC: 2025-12-15 15:21:11
+2026-01-04T11:30:20.764Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:30:20.764Z   Stream #0:1(kor): Audio: eac3, 48000 Hz, 5.1(side), fltp, 1024 kb/s (default)
+2026-01-04T11:30:20.764Z       Metadata:
+2026-01-04T11:30:20.764Z         BPS             : 1024000
+2026-01-04T11:30:20.764Z         DURATION        : 02:05:43.328000000
+2026-01-04T11:30:20.764Z         NUMBER_OF_FRAMES: 235729
+2026-01-04T11:30:20.764Z         NUMBER_OF_BYTES : 965545984
+2026-01-04T11:30:20.764Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:30:20.764Z         _STATISTICS_WRITING_DATE_UTC: 2025-12-15 15:21:11
+2026-01-04T11:30:20.764Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:30:20.764Z   Stream #0:2(eng): Subtitle: subrip (srt)
+2026-01-04T11:30:20.764Z       Metadata:
+2026-01-04T11:30:20.764Z         BPS             : 38
+2026-01-04T11:30:20.764Z         DURATION        : 01:59:55.333000000
+2026-01-04T11:30:20.764Z         NUMBER_OF_FRAMES: 1284
+2026-01-04T11:30:20.764Z         NUMBER_OF_BYTES : 35043
+2026-01-04T11:30:20.764Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:30:20.764Z         _STATISTICS_WRITING_DATE_UTC: 2025-12-15 15:21:11
+2026-01-04T11:30:20.764Z         _STATISTICS_TAGS: 
+2026-01-04T11:30:20.764Z BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:30:20.764Z   Stream #0:3(rum): Subtitle: subrip (srt)
+2026-01-04T11:30:20.764Z       Metadata:
+2026-01-04T11:30:20.764Z         BPS             : 41
+2026-01-04T11:30:20.764Z         DURATION        : 02:00:03.052000000
+2026-01-04T11:30:20.764Z         NUMBER_OF_FRAMES: 1239
+2026-01-04T11:30:20.764Z         NUMBER_OF_BYTES : 37560
+2026-01-04T11:30:20.764Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:30:20.764Z         _STATISTICS_WRITING_DATE_UTC: 2025-12-15 15:21:11
+2026-01-04T11:30:20.764Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:30:20.764Z [11:30:11] scan: decoding previews for title 1
+2026-01-04T11:30:20.764Z 
+2026-01-04T11:30:20.764Z [11:30:11] scan: audio 0x1: eac3, rate=48000Hz, bitrate=1024000 한국어 (E-AC3, 5.1 ch, 1024 kbps)
+2026-01-04T11:30:20.764Z 
+2026-01-04T11:30:20.764Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:30:20.764Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:30:20.764Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:30:20.764Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:30:20.764Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:30:20.764Z Scanning title 1 of 1, preview 3, 30.00 %
+2026-01-04T11:30:20.764Z Scanning title 1 of 1, preview 3, 30.00 %
+2026-01-04T11:30:20.764Z Scanning title 1 of 1, preview 4, 40.00 %
+2026-01-04T11:30:20.764Z Scanning title 1 of 1, preview 4, 40.00 %
+2026-01-04T11:30:20.764Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-04T11:30:20.764Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-04T11:30:20.764Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-04T11:30:20.764Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-04T11:30:20.764Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-04T11:30:20.764Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-04T11:30:20.764Z Scanning title 1 of 1, preview 7, 70.00 %
+2026-01-04T11:30:20.764Z Scanning title 1 of 1, preview 7, 70.00 %
+2026-01-04T11:30:20.764Z Scanning title 1 of 1, preview 8, 80.00 %
+2026-01-04T11:30:20.764Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:30:20.764Z Scanning title 1 of 1, preview 10, 100.00 %
+2026-01-04T11:30:20.764Z [11:30:17] using container PAR 1:1
+2026-01-04T11:30:20.764Z [11:30:17] scan: 10 previews, 1920x804, 24.000 fps, autocrop = 0/0/0/0, aspect 2.39:1, PAR 1:1, color profile: 1-1-1, chroma location: left
+2026-01-04T11:30:20.764Z 
+2026-01-04T11:30:20.764Z [11:30:17] libhb: scan thread found 1 valid title(s)
+2026-01-04T11:30:20.764Z 
+2026-01-04T11:30:20.764Z + title 1:
+2026-01-04T11:30:20.764Z   + stream: /media/movies/The Old Woman with the Knife (2025)/Pagwa.2025.1080p.BluRay.DD.5.1.x264-playHD.mkv
+2026-01-04T11:30:20.764Z   + duration: 02:05:43
+2026-01-04T11:30:20.764Z   + size: 1920x804, pixel aspect: 1/1, display aspect: 2.39, 24.000 fps
+2026-01-04T11:30:20.764Z   + autocrop: 0/0/0/0
+2026-01-04T11:30:20.764Z   + chapters:
+2026-01-04T11:30:20.764Z     + 1: duration 00:12:37
+2026-01-04T11:30:20.764Z     + 2: duration 00:13:42
+2026-01-04T11:30:20.764Z     + 3: duration 00:11:36
+2026-01-04T11:30:20.764Z     + 4: duration 00:11:17
+2026-01-04T11:30:20.764Z     + 5: duration 00:12:50
+2026-01-04T11:30:20.764Z     + 6: duration 00:14:30
+2026-01-04T11:30:20.764Z     + 7: duration 00:12:06
+2026-01-04T11:30:20.764Z     + 8: duration 00:11:31
+2026-01-04T11:30:20.764Z     + 9: duration 00:14:24
+2026-01-04T11:30:20.764Z     + 10: duration 00:11:11
+2026-01-04T11:30:20.764Z     + 11: duration 00:00:00
+2026-01-04T11:30:20.764Z   + audio tracks:
+2026-01-04T11:30:20.764Z     + 1, 한국어 (E-AC3, 5.1 ch, 1024 kbps) (iso639-2: kor)
+2026-01-04T11:30:20.764Z   + subtitle tracks:
+2026-01-04T11:30:20.764Z     + 1, English (UTF-8)
+2026-01-04T11:30:20.764Z     + 2, română (UTF-8)
+2026-01-04T11:30:20.764Z 
+2026-01-04T11:30:20.764Z HandBrake has exited.
+2026-01-04T11:30:20.764Z 
+2026-01-04T11:30:20.764Z 
+2026-01-04T11:30:20.764Z 
+2026-01-04T11:30:20.764Z 
+2026-01-04T11:30:20.765Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:[Step W06] [C1] Worker [-success-]
+2026-01-04T11:30:20.766Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:Worker success during processing
+2026-01-04T11:30:20.766Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:Updating healthcheck stats
+2026-01-04T11:30:20.767Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:[Step W10] Worker processing end
+2026-01-04T11:30:20.768Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:Subworker exited null
+2026-01-04T11:30:20.769Z -2xC7LZOMP:Node[MyInternalNode]:Worker[rosy-ray]:Successfully updated server with verdict: healthcheckSuccess

@@ -1,0 +1,325 @@
+2026-01-04T12:04:51.259Z kybec-njD3:[Step S01] [2.58.02] Server relay initialising job
+2026-01-04T12:04:51.260Z kybec-njD3:Server: linux_x64_docker_true
+2026-01-04T12:04:52.261Z kybec-njD3:Server relay adding file to staged files
+2026-01-04T12:04:52.262Z kybec-njD3:Server relay sending job to Node relay: MyInternalNode
+2026-01-04T12:04:52.262Z kybec-njD3:Node[MyInternalNode]:[Step N01] [2.58.02] Node relay received job
+2026-01-04T12:04:52.263Z kybec-njD3:Node[MyInternalNode]:{"nodeName":"MyInternalNode","serverURL":"http://0.0.0.0:8266","serverIP":"0.0.0.0","serverPort":"8266","handbrakePath":"","ffmpegPath":"","mkvpropeditPath":"","pathTranslators":[{"server":"","node":""}],"nodeType":"mapped","unmappedNodeCache":"/app/unmappedNodeCache","logLevel":"INFO","priority":-1,"platform_arch_isdocker":"linux_x64_docker_true","processPid":664,"cronPluginUpdate":"","apiKey":"","maxLogSizeMB":"10","pollInterval":2000,"startPaused":false,"nodeID":"-2RaUzM4Y","seededWorkerLimits":{},"nodeRegisteredCount":1}
+2026-01-04T12:04:52.263Z kybec-njD3:Node[MyInternalNode]:Node relay sending job to worker:best-buck
+2026-01-04T12:04:52.264Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:[Step W01] Received file, original: "/media/tv/The Simpsons/Season 26/The.Simpsons.S26E15.1080p.WEB.H264-BATV.mkv"
+2026-01-04T12:04:52.264Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:{"workerType":"healthcheckcpu"}
+2026-01-04T12:04:52.264Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:{"ffmpegPath":"tdarr-ffmpeg"}
+2026-01-04T12:04:52.264Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:{"handbrakePath":"HandBrakeCLI"}
+2026-01-04T12:04:52.265Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:{"mkvpropeditPath":"mkvpropedit"}
+2026-01-04T12:04:52.265Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:{"gpuSelect":"-"}
+2026-01-04T12:04:52.265Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:{"allowGpuDoCpu":false}
+2026-01-04T12:04:52.266Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:{"thoroughHealthCheckCpuExtraInputArgs":""}
+2026-01-04T12:04:52.266Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:{"thoroughHealthCheckGpuExtraInputArgs":""}
+2026-01-04T12:04:52.267Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:{"thoroughHealthCheckCpuExtraArgs":""}
+2026-01-04T12:04:52.267Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:{"thoroughHealthCheckGpuExtraArgs":""}
+2026-01-04T12:04:52.267Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:{"logFullCliOutput":false}
+2026-01-04T12:04:52.268Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:{"runMkvpropedit":false}
+2026-01-04T12:04:52.268Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:{"dontCleanWorkerCacheFolder":false}
+2026-01-04T12:04:52.269Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:Path translating objects
+2026-01-04T12:04:52.269Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:Running path translator tests
+2026-01-04T12:04:52.269Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:Path translator tests passed
+2026-01-04T12:04:52.270Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:{"librarySettings":{"_id":"KU0woozLb","priority":1,"name":"TV Shows","folder":"/media/tv","foldersToIgnore":"","foldersToIgnoreCaseInsensitive":false,"folderWatchScanInterval":30,"scannerThreadCount":2,"cache":"/tmp","output":".","folderToFolderConversion":false,"folderToFolderConversionDeleteSource":false,"folderToFolderRecordHistory":true,"copyIfConditionsMet":false,"container":".mkv","containerFilter":"mkv,mp4,mov,m4v,mpg,mpeg,avi,flv,webm,wmv,vob,evo,iso,m2ts,ts","createdAt":1675837380368,"folderWatching":false,"useFsEvents":false,"scheduledScanFindNew":false,"processLibrary":true,"processTranscodes":true,"processHealthChecks":true,"scanOnStart":false,"exifToolScan":true,"mediaInfoScan":true,"ffprobeShowData":false,"isDirectoryLibrary":false,"closedCaptionScan":false,"scanButtons":true,"scanFound":"Files found:0","navItemSelected":"navSourceFolder","pluginIDs":[{"_id":"plugin1","id":"Tdarr_Plugin_MC93_MigzImageRemoval","checked":true,"source":"Community","priority":0,"InputsDB":{}},{"_id":"plugin2","id":"Tdarr_Plugin_lmg1_Reorder_Streams","checked":true,"source":"Community","priority":1,"InputsDB":{}},{"_id":"plugin4","id":"Tdarr_Plugin_MC93_Migz1FFMPEG","checked":true,"source":"Community","priority":2,"InputsDB":{}},{"_id":"plugin5","id":"Tdarr_Plugin_a9he_New_file_size_check","checked":true,"source":"Community","priority":3,"InputsDB":{}}],"pluginCommunity":true,"handbrake":true,"ffmpeg":false,"handbrakescan":true,"ffmpegscan":false,"preset":"-Z \"Very Fast 1080p30\"","decisionMaker":{"settingsPlugin":true,"settingsFlows":false,"settingsVideo":false,"videoExcludeSwitch":true,"video_codec_names_exclude":[{"codec":"hevc","checked":false},{"codec":"h264","checked":true}],"video_size_range_include":{"min":0,"max":100000},"video_height_range_include":{"min":0,"max":3000},"video_width_range_include":{"min":0,"max":4000},"settingsAudio":false,"audioExcludeSwitch":true,"audio_codec_names_exclude":[{"codec":"mp3","checked":true},{"codec":"aac","checked":false}],"audio_size_range_include":{"min":0,"max":10}},"schedule":[{"_id":"Sun:00-01","checked":true},{"_id":"Sun:01-02","checked":true},{"_id":"Sun:02-03","checked":true},{"_id":"Sun:03-04","checked":true},{"_id":"Sun:04-05","checked":true},{"_id":"Sun:05-06","checked":true},{"_id":"Sun:06-07","checked":true},{"_id":"Sun:07-08","checked":true},{"_id":"Sun:08-09","checked":true},{"_id":"Sun:09-10","checked":true},{"_id":"Sun:10-11","checked":true},{"_id":"Sun:11-12","checked":true},{"_id":"Sun:12-13","checked":true},{"_id":"Sun:13-14","checked":true},{"_id":"Sun:14-15","checked":true},{"_id":"Sun:15-16","checked":true},{"_id":"Sun:16-17","checked":true},{"_id":"Sun:17-18","checked":true},{"_id":"Sun:18-19","checked":true},{"_id":"Sun:19-20","checked":true},{"_id":"Sun:20-21","checked":true},{"_id":"Sun:21-22","checked":true},{"_id":"Sun:22-23","checked":true},{"_id":"Sun:23-00","checked":true},{"_id":"Mon:00-01","checked":true},{"_id":"Mon:01-02","checked":true},{"_id":"Mon:02-03","checked":true},{"_id":"Mon:03-04","checked":true},{"_id":"Mon:04-05","checked":true},{"_id":"Mon:05-06","checked":true},{"_id":"Mon:06-07","checked":true},{"_id":"Mon:07-08","checked":true},{"_id":"Mon:08-09","checked":true},{"_id":"Mon:09-10","checked":true},{"_id":"Mon:10-11","checked":true},{"_id":"Mon:11-12","checked":true},{"_id":"Mon:12-13","checked":true},{"_id":"Mon:13-14","checked":true},{"_id":"Mon:14-15","checked":true},{"_id":"Mon:15-16","checked":true},{"_id":"Mon:16-17","checked":true},{"_id":"Mon:17-18","checked":true},{"_id":"Mon:18-19","checked":true},{"_id":"Mon:19-20","checked":true},{"_id":"Mon:20-21","checked":true},{"_id":"Mon:21-22","checked":true},{"_id":"Mon:22-23","checked":true},{"_id":"Mon:23-00","checked":true},{"_id":"Tue:00-01","checked":true},{"_id":"Tue:01-02","checked":true},{"_id":"Tue:02-03","checked":true},{"_id":"Tue:03-04","checked":true},{"_id":"Tue:04-05","checked":true},{"_id":"Tue:05-06","checked":true},{"_id":"Tue:06-07","checked":true},{"_id":"Tue:07-08","checked":true},{"_id":"Tue:08-09","checked":true},{"_id":"Tue:09-10","checked":true},{"_id":"Tue:10-11","checked":true},{"_id":"Tue:11-12","checked":true},{"_id":"Tue:12-13","checked":true},{"_id":"Tue:13-14","checked":true},{"_id":"Tue:14-15","checked":true},{"_id":"Tue:15-16","checked":true},{"_id":"Tue:16-17","checked":true},{"_id":"Tue:17-18","checked":true},{"_id":"Tue:18-19","checked":true},{"_id":"Tue:19-20","checked":true},{"_id":"Tue:20-21","checked":true},{"_id":"Tue:21-22","checked":true},{"_id":"Tue:22-23","checked":true},{"_id":"Tue:23-00","checked":true},{"_id":"Wed:00-01","checked":true},{"_id":"Wed:01-02","checked":true},{"_id":"Wed:02-03","checked":true},{"_id":"Wed:03-04","checked":true},{"_id":"Wed:04-05","checked":true},{"_id":"Wed:05-06","checked":true},{"_id":"Wed:06-07","checked":true},{"_id":"Wed:07-08","checked":true},{"_id":"Wed:08-09","checked":true},{"_id":"Wed:09-10","checked":true},{"_id":"Wed:10-11","checked":true},{"_id":"Wed:11-12","checked":true},{"_id":"Wed:12-13","checked":true},{"_id":"Wed:13-14","checked":true},{"_id":"Wed:14-15","checked":true},{"_id":"Wed:15-16","checked":true},{"_id":"Wed:16-17","checked":true},{"_id":"Wed:17-18","checked":true},{"_id":"Wed:18-19","checked":true},{"_id":"Wed:19-20","checked":true},{"_id":"Wed:20-21","checked":true},{"_id":"Wed:21-22","checked":true},{"_id":"Wed:22-23","checked":true},{"_id":"Wed:23-00","checked":true},{"_id":"Thur:00-01","checked":true},{"_id":"Thur:01-02","checked":true},{"_id":"Thur:02-03","checked":true},{"_id":"Thur:03-04","checked":true},{"_id":"Thur:04-05","checked":true},{"_id":"Thur:05-06","checked":true},{"_id":"Thur:06-07","checked":true},{"_id":"Thur:07-08","checked":true},{"_id":"Thur:08-09","checked":true},{"_id":"Thur:09-10","checked":true},{"_id":"Thur:10-11","checked":true},{"_id":"Thur:11-12","checked":true},{"_id":"Thur:12-13","checked":true},{"_id":"Thur:13-14","checked":true},{"_id":"Thur:14-15","checked":true},{"_id":"Thur:15-16","checked":true},{"_id":"Thur:16-17","checked":true},{"_id":"Thur:17-18","checked":true},{"_id":"Thur:18-19","checked":true},{"_id":"Thur:19-20","checked":true},{"_id":"Thur:20-21","checked":true},{"_id":"Thur:21-22","checked":true},{"_id":"Thur:22-23","checked":true},{"_id":"Thur:23-00","checked":true},{"_id":"Fri:00-01","checked":true},{"_id":"Fri:01-02","checked":true},{"_id":"Fri:02-03","checked":true},{"_id":"Fri:03-04","checked":true},{"_id":"Fri:04-05","checked":true},{"_id":"Fri:05-06","checked":true},{"_id":"Fri:06-07","checked":true},{"_id":"Fri:07-08","checked":true},{"_id":"Fri:08-09","checked":true},{"_id":"Fri:09-10","checked":true},{"_id":"Fri:10-11","checked":true},{"_id":"Fri:11-12","checked":true},{"_id":"Fri:12-13","checked":true},{"_id":"Fri:13-14","checked":true},{"_id":"Fri:14-15","checked":true},{"_id":"Fri:15-16","checked":true},{"_id":"Fri:16-17","checked":true},{"_id":"Fri:17-18","checked":true},{"_id":"Fri:18-19","checked":true},{"_id":"Fri:19-20","checked":true},{"_id":"Fri:20-21","checked":true},{"_id":"Fri:21-22","checked":true},{"_id":"Fri:22-23","checked":true},{"_id":"Fri:23-00","checked":true},{"_id":"Sat:00-01","checked":true},{"_id":"Sat:01-02","checked":true},{"_id":"Sat:02-03","checked":true},{"_id":"Sat:03-04","checked":true},{"_id":"Sat:04-05","checked":true},{"_id":"Sat:05-06","checked":true},{"_id":"Sat:06-07","checked":true},{"_id":"Sat:07-08","checked":true},{"_id":"Sat:08-09","checked":true},{"_id":"Sat:09-10","checked":true},{"_id":"Sat:10-11","checked":true},{"_id":"Sat:11-12","checked":true},{"_id":"Sat:12-13","checked":true},{"_id":"Sat:13-14","checked":true},{"_id":"Sat:14-15","checked":true},{"_id":"Sat:15-16","checked":true},{"_id":"Sat:16-17","checked":true},{"_id":"Sat:17-18","checked":true},{"_id":"Sat:18-19","checked":true},{"_id":"Sat:19-20","checked":true},{"_id":"Sat:20-21","checked":true},{"_id":"Sat:21-22","checked":true},{"_id":"Sat:22-23","checked":true},{"_id":"Sat:23-00","checked":true}],"totalHealthCheckCount":882,"totalTranscodeCount":4,"sizeDiff":0,"holdNewFiles":false,"holdFor":3600,"holdForDisplayUnit":"hours","pluginStackOverview":true,"filterResolutionsSkip":"","filterCodecsSkip":"","filterContainersSkip":"","processPluginsSequentially":true}}
+2026-01-04T12:04:52.270Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:Scanning original library file
+2026-01-04T12:04:52.270Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:{
+2026-01-04T12:04:52.270Z   "exifToolScan": true,
+2026-01-04T12:04:52.270Z   "mediaInfoScan": false,
+2026-01-04T12:04:52.270Z   "closedCaptionScan": false
+2026-01-04T12:04:52.270Z }
+2026-01-04T12:04:52.271Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:Node scanning file
+2026-01-04T12:04:53.302Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:Scan complete
+2026-01-04T12:04:53.303Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:Original file scanned
+2026-01-04T12:04:53.303Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:Source file to work on determined:"/media/tv/The Simpsons/Season 26/The.Simpsons.S26E15.1080p.WEB.H264-BATV.mkv"
+2026-01-04T12:04:53.304Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:[Step W02] [C1] Running pre-process file
+2026-01-04T12:04:53.304Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:Checking files can be accessed
+2026-01-04T12:04:53.304Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:mapped node, file is original, no need to download
+2026-01-04T12:04:53.304Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:Relevant paths can be accessed
+2026-01-04T12:04:53.305Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:Source file: "/media/tv/The Simpsons/Season 26/The.Simpsons.S26E15.1080p.WEB.H264-BATV.mkv"
+2026-01-04T12:04:53.305Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:[Step W03] [C1] Analysing file - running plugins
+2026-01-04T12:04:53.306Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:Handbrake healthcheck task, no need to scan for extra file details
+2026-01-04T12:04:53.306Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:Updating Node relay: Processing
+2026-01-04T12:04:53.306Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:[1/2] Checking file frame count
+2026-01-04T12:04:53.306Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:[2/2] Frame count 0
+2026-01-04T12:04:53.307Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:Determining healthcheck command
+2026-01-04T12:04:53.307Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:[Step W04] [C1] Preparing command
+2026-01-04T12:04:53.307Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:Cache file stem: "/tmp/tdarr-workDir2-kybec-njD3"
+2026-01-04T12:04:53.308Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:Cache file path: "/tmp/tdarr-workDir2-kybec-njD3/The.Simpsons.S26E15.1080p.WEB.H264-BATV-TdarrCacheFile-Rbp6cYsjg.mp4"
+2026-01-04T12:04:53.308Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:Create transcode args
+2026-01-04T12:04:53.309Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:Args:  -i "/media/tv/The Simpsons/Season 26/The.Simpsons.S26E15.1080p.WEB.H264-BATV.mkv" -o /tmp/tdarr-workDir2-kybec-njD3/The.Simpsons.S26E15.1080p.WEB.H264-BATV-TdarrCacheFile-Rbp6cYsjg.mp4 --scan
+2026-01-04T12:04:53.309Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:Getting source file size
+2026-01-04T12:04:53.309Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:Source file size: 1.3269471181556582
+2026-01-04T12:04:53.310Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:Performing safety check on worker config to see if old transcode args/container match new ones
+2026-01-04T12:04:53.310Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:Safety check complete, all good
+2026-01-04T12:04:53.311Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:[Step W05] [C1] Launching subworker
+2026-01-04T12:04:53.311Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:Preparing to launch subworker
+2026-01-04T12:04:53.311Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:Subworker launched
+2026-01-04T12:04:53.312Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:[1/3] Sending command to subworker
+2026-01-04T12:04:53.312Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:[2/3] HandBrakeCLI -i "/media/tv/The Simpsons/Season 26/The.Simpsons.S26E15.1080p.WEB.H264-BATV.mkv" -o /tmp/tdarr-workDir2-kybec-njD3/The.Simpsons.S26E15.1080p.WEB.H264-BATV-TdarrCacheFile-Rbp6cYsjg.mp4 --scan
+2026-01-04T12:04:53.312Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:[3/3] Command sent
+2026-01-04T12:04:53.312Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:To see live CLI output, enable 'Log full FFmpeg/HandBrake output' in the staging section on the Tdarr tab before the job starts. Note this could increase the job report size substantially.
+2026-01-04T12:04:53.324Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:Subworker:Online
+2026-01-04T12:04:53.325Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:Subworker:Receiving transcode settings
+2026-01-04T12:04:53.325Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:Subworker:Running CLI
+2026-01-04T12:05:02.463Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:Subworker:a.Thread closed, code: 0
+2026-01-04T12:05:02.464Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:Subworker exit approved, killing subworker
+2026-01-04T12:05:02.464Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:Subworker killed
+2026-01-04T12:05:02.464Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:b.Thread closed, code: 0
+2026-01-04T12:05:02.465Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:CLI code: 0
+2026-01-04T12:05:02.465Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:Last 200 lines of CLI log:
+2026-01-04T12:05:02.466Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:[12:04:50] Compile-time hardening features are enabled
+2026-01-04T12:05:02.466Z 
+2026-01-04T12:05:02.466Z [12:04:50] nvenc: version 12.2 is available
+2026-01-04T12:05:02.466Z [12:04:50] nvdec: is available
+2026-01-04T12:05:02.466Z 
+2026-01-04T12:05:02.466Z [12:04:50] CUDA Version: 6.1
+2026-01-04T12:05:02.466Z 
+2026-01-04T12:05:02.466Z [12:04:50] qsv: not available on this system
+2026-01-04T12:05:02.466Z 
+2026-01-04T12:05:02.466Z [12:04:50] hb_init: starting libhb thread
+2026-01-04T12:05:02.466Z 
+2026-01-04T12:05:02.466Z [12:04:50] thread 7ff43d2406c0 started ("libhb")
+2026-01-04T12:05:02.466Z HandBrake 1.10.2 (2025102400) - Linux x86_64 - https://handbrake.fr
+2026-01-04T12:05:02.466Z 16 CPUs detected
+2026-01-04T12:05:02.466Z 
+2026-01-04T12:05:02.466Z Opening /media/tv/The Simpsons/Season 26/The.Simpsons.S26E15.1080p.WEB.H264-BATV.mkv...
+2026-01-04T12:05:02.466Z 
+2026-01-04T12:05:02.466Z [12:04:50] CPU: Common KVM processor
+2026-01-04T12:05:02.466Z [12:04:50]  - logical processor count: 16
+2026-01-04T12:05:02.466Z [12:04:50] Intel Quick Sync Video support: no
+2026-01-04T12:05:02.466Z [12:04:50] hb_scan: path=/media/tv/The Simpsons/Season 26/The.Simpsons.S26E15.1080p.WEB.H264-BATV.mkv, title_index=1
+2026-01-04T12:05:02.466Z 
+2026-01-04T12:05:02.466Z Input #0, matroska,webm, from '/media/tv/The Simpsons/Season 26/The.Simpsons.S26E15.1080p.WEB.H264-BATV.mkv':
+2026-01-04T12:05:02.466Z   Metadata:
+2026-01-04T12:05:02.466Z     encoder         : no_variable_data
+2026-01-04T12:05:02.466Z     creation_time   : 1970-01-01T00:00:00.000000Z
+2026-01-04T12:05:02.466Z   Duration: 00:21:41.73, start: 0.000000, bitrate: 8756 kb/s
+2026-01-04T12:05:02.466Z 
+2026-01-04T12:05:02.466Z   Stream #0:0(eng): Video: h264 (High), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+2026-01-04T12:05:02.466Z       Metadata:
+2026-01-04T12:05:02.466Z         BPS-eng         : 8496115
+2026-01-04T12:05:02.466Z         DURATION-eng    : 00:21:41.717000000
+2026-01-04T12:05:02.466Z         NUMBER_OF_FRAMES-eng: 31210
+2026-01-04T12:05:02.466Z         NUMBER_OF_BYTES-eng: 1382442178
+2026-01-04T12:05:02.466Z         _STATISTICS_WRITING_APP-eng: no_variable_data
+2026-01-04T12:05:02.466Z         _STATISTICS_WRITING_DATE_UTC-eng: 1970-01-01 00:00:00
+2026-01-04T12:05:02.466Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T12:05:02.466Z   Stream #0:1(eng): Audio: eac3, 48000 Hz, 5.1(side), fltp, 256 kb/s (default)
+2026-01-04T12:05:02.466Z       Metadata:
+2026-01-04T12:05:02.466Z         BPS-eng         : 256000
+2026-01-04T12:05:02.466Z         DURATION-eng    : 00:21:41.728000000
+2026-01-04T12:05:02.466Z         NUMBER_OF_FRAMES-eng: 40679
+2026-01-04T12:05:02.466Z         NUMBER_OF_BYTES-eng: 41655296
+2026-01-04T12:05:02.466Z         _STATISTICS_WRITING_APP-eng: no_variable_data
+2026-01-04T12:05:02.466Z         _STATISTICS_WRITING_DATE_UTC-eng: 1970-01-01 00:00:00
+2026-01-04T12:05:02.466Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T12:05:02.466Z   Stream #0:2(eng): Subtitle: subrip (srt)
+2026-01-04T12:05:02.466Z       Metadata:
+2026-01-04T12:05:02.466Z         title           : English (SDH)
+2026-01-04T12:05:02.466Z         BPS-eng         : 97
+2026-01-04T12:05:02.466Z         DURATION-eng    : 00:21:37.213000000
+2026-01-04T12:05:02.466Z         NUMBER_OF_FRAMES-eng: 472
+2026-01-04T12:05:02.466Z         NUMBER_OF_BYTES-eng: 15743
+2026-01-04T12:05:02.466Z         _STATISTICS_WRITING_APP-eng: no_variable_data
+2026-01-04T12:05:02.466Z         _STATISTICS_WRITING_DATE_UTC-eng: 1970-01-01 00:00:00
+2026-01-04T12:05:02.466Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T12:05:02.466Z   Stream #0:3(dan): Subtitle: subrip (srt)
+2026-01-04T12:05:02.466Z       Metadata:
+2026-01-04T12:05:02.466Z         title           : Danish
+2026-01-04T12:05:02.466Z         BPS-eng         : 83
+2026-01-04T12:05:02.466Z         DURATION-eng    : 00:21:23.323000000
+2026-01-04T12:05:02.466Z         NUMBER_OF_FRAMES-eng: 341
+2026-01-04T12:05:02.466Z         NUMBER_OF_BYTES-eng: 13403
+2026-01-04T12:05:02.466Z         _STATISTICS_WRITING_APP-eng: no_variable_data
+2026-01-04T12:05:02.466Z         _STATISTICS_WRITING_DATE_UTC-eng: 1970-01-01 00:00:00
+2026-01-04T12:05:02.466Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T12:05:02.466Z   Stream #0:4(ger): Subtitle: subrip (srt)
+2026-01-04T12:05:02.466Z       Metadata:
+2026-01-04T12:05:02.466Z         title           : German
+2026-01-04T12:05:02.466Z         BPS-eng         : 93
+2026-01-04T12:05:02.466Z         DURATION-eng    : 00:21:25.993000000
+2026-01-04T12:05:02.466Z         NUMBER_OF_FRAMES-eng: 373
+2026-01-04T12:05:02.466Z         NUMBER_OF_BYTES-eng: 14970
+2026-01-04T12:05:02.466Z         _STATISTICS_WRITING_APP-eng: no_variable_data
+2026-01-04T12:05:02.466Z         _STATISTICS_WRITING_DATE_UTC-eng: 1970-01-01 00:00:00
+2026-01-04T12:05:02.466Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T12:05:02.466Z   Stream #0:5(spa): Subtitle: subrip (srt)
+2026-01-04T12:05:02.466Z       Metadata:
+2026-01-04T12:05:02.466Z         title           : Spanish
+2026-01-04T12:05:02.466Z         BPS-eng         : 93
+2026-01-04T12:05:02.466Z         DURATION-eng    : 00:21:36.086000000
+2026-01-04T12:05:02.466Z         NUMBER_OF_FRAMES-eng: 352
+2026-01-04T12:05:02.466Z         NUMBER_OF_BYTES-eng: 15176
+2026-01-04T12:05:02.466Z         _STATISTICS_WRITING_APP-eng: no_variable_data
+2026-01-04T12:05:02.466Z         _STATISTICS_WRITING_DATE_UTC-eng: 1970-01-01 00:00:00
+2026-01-04T12:05:02.466Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T12:05:02.466Z   Stream #0:6(spa): Subtitle: subrip (srt)
+2026-01-04T12:05:02.466Z       Metadata:
+2026-01-04T12:05:02.466Z         title           : Spanish (Latin American)
+2026-01-04T12:05:02.466Z         BPS-eng         : 88
+2026-01-04T12:05:02.466Z         DURATION-eng    : 00:21:36.087000000
+2026-01-04T12:05:02.466Z 
+2026-01-04T12:05:02.466Z         NUMBER_OF_FRAMES-eng: 377
+2026-01-04T12:05:02.466Z         NUMBER_OF_BYTES-eng: 14417
+2026-01-04T12:05:02.466Z         _STATISTICS_WRITING_APP-eng: no_variable_data
+2026-01-04T12:05:02.466Z         _STATISTICS_WRITING_DATE_UTC-eng: 1970-01-01 00:00:00
+2026-01-04T12:05:02.466Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T12:05:02.466Z   Stream #0:7(fre): Subtitle: subrip (srt)
+2026-01-04T12:05:02.466Z       Metadata:
+2026-01-04T12:05:02.466Z         title           : French
+2026-01-04T12:05:02.466Z         BPS-eng         : 93
+2026-01-04T12:05:02.466Z         DURATION-eng    : 00:21:35.211000000
+2026-01-04T12:05:02.466Z         NUMBER_OF_FRAMES-eng: 369
+2026-01-04T12:05:02.466Z         NUMBER_OF_BYTES-eng: 15217
+2026-01-04T12:05:02.466Z         _STATISTICS_WRITING_APP-eng: no_variable_data
+2026-01-04T12:05:02.466Z         _STATISTICS_WRITING_DATE_UTC-eng: 1970-01-01 00:00:00
+2026-01-04T12:05:02.466Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T12:05:02.466Z   Stream #0:8(fre): Subtitle: subrip (srt)
+2026-01-04T12:05:02.466Z       Metadata:
+2026-01-04T12:05:02.466Z         title           : French (Canadian)
+2026-01-04T12:05:02.466Z         BPS-eng         : 84
+2026-01-04T12:05:02.466Z         DURATION-eng    : 00:21:36.087000000
+2026-01-04T12:05:02.466Z         NUMBER_OF_FRAMES-eng: 370
+2026-01-04T12:05:02.466Z         NUMBER_OF_BYTES-eng: 13670
+2026-01-04T12:05:02.466Z         _STATISTICS_WRITING_APP-eng: no_variable_data
+2026-01-04T12:05:02.466Z         _STATISTICS_WRITING_DATE_UTC-eng: 1970-01-01 00:00:00
+2026-01-04T12:05:02.466Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T12:05:02.466Z   Stream #0:9(ita): Subtitle: subrip (srt)
+2026-01-04T12:05:02.466Z       Metadata:
+2026-01-04T12:05:02.466Z         title           : Italian
+2026-01-04T12:05:02.466Z         BPS-eng         : 87
+2026-01-04T12:05:02.466Z         DURATION-eng    : 00:21:36.796000000
+2026-01-04T12:05:02.466Z         NUMBER_OF_FRAMES-eng: 349
+2026-01-04T12:05:02.466Z         NUMBER_OF_BYTES-eng: 14206
+2026-01-04T12:05:02.466Z         _STATISTICS_WRITING_APP-eng: no_variable_data
+2026-01-04T12:05:02.466Z         _STATISTICS_WRITING_DATE_UTC-eng: 1970-01-01 00:00:00
+2026-01-04T12:05:02.466Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T12:05:02.466Z   Stream #0:10(dut): Subtitle: subrip (srt)
+2026-01-04T12:05:02.466Z       Metadata:
+2026-01-04T12:05:02.466Z         title           : Dutch
+2026-01-04T12:05:02.466Z         BPS-eng         : 84
+2026-01-04T12:05:02.466Z         DURATION-eng    : 00:21:25.993000000
+2026-01-04T12:05:02.466Z         NUMBER_OF_FRAMES-eng: 369
+2026-01-04T12:05:02.466Z         NUMBER_OF_BYTES-eng: 13625
+2026-01-04T12:05:02.466Z         _STATISTICS_WRITING_APP-eng: no_variable_data
+2026-01-04T12:05:02.466Z         _STATISTICS_WRITING_DATE_UTC-eng: 1970-01-01 00:00:00
+2026-01-04T12:05:02.466Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T12:05:02.466Z   Stream #0:11(nor): Subtitle: subrip (srt)
+2026-01-04T12:05:02.466Z       Metadata:
+2026-01-04T12:05:02.466Z         title           : Norwegian
+2026-01-04T12:05:02.466Z         BPS-eng         : 89
+2026-01-04T12:05:02.466Z         DURATION-eng    : 00:21:24.199000000
+2026-01-04T12:05:02.466Z         NUMBER_OF_FRAMES-eng: 438
+2026-01-04T12:05:02.466Z         NUMBER_OF_BYTES-eng: 14357
+2026-01-04T12:05:02.466Z         _STATISTICS_WRITING_APP-eng: no_variable_data
+2026-01-04T12:05:02.466Z         _STATISTICS_WRITING_DATE_UTC-eng: 1970-01-01 00:00:00
+2026-01-04T12:05:02.466Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T12:05:02.466Z   Stream #0:12(por): Subtitle: subrip (srt)
+2026-01-04T12:05:02.466Z       Metadata:
+2026-01-04T12:05:02.466Z         title           : Portuguese
+2026-01-04T12:05:02.466Z         BPS-eng         : 92
+2026-01-04T12:05:02.466Z         DURATION-eng    : 00:21:36.211000000
+2026-01-04T12:05:02.466Z         NUMBER_OF_FRAMES-eng: 
+2026-01-04T12:05:02.466Z 442
+2026-01-04T12:05:02.466Z         NUMBER_OF_BYTES-eng: 14922
+2026-01-04T12:05:02.466Z         _STATISTICS_WRITING_APP-eng: no_variable_data
+2026-01-04T12:05:02.466Z         _STATISTICS_WRITING_DATE_UTC-eng: 1970-01-01 00:00:00
+2026-01-04T12:05:02.466Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T12:05:02.466Z   Stream #0:13(fin): Subtitle: subrip (srt)
+2026-01-04T12:05:02.466Z       Metadata:
+2026-01-04T12:05:02.466Z         title           : Finnish
+2026-01-04T12:05:02.466Z         BPS-eng         : 73
+2026-01-04T12:05:02.466Z         DURATION-eng    : 00:21:36.879000000
+2026-01-04T12:05:02.466Z         NUMBER_OF_FRAMES-eng: 280
+2026-01-04T12:05:02.466Z         NUMBER_OF_BYTES-eng: 11970
+2026-01-04T12:05:02.466Z         _STATISTICS_WRITING_APP-eng: no_variable_data
+2026-01-04T12:05:02.466Z         _STATISTICS_WRITING_DATE_UTC-eng: 1970-01-01 00:00:00
+2026-01-04T12:05:02.466Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T12:05:02.466Z   Stream #0:14(swe): Subtitle: subrip (srt)
+2026-01-04T12:05:02.466Z       Metadata:
+2026-01-04T12:05:02.466Z         title           : Swedish
+2026-01-04T12:05:02.466Z         BPS-eng         : 97
+2026-01-04T12:05:02.466Z         DURATION-eng    : 00:21:24.199000000
+2026-01-04T12:05:02.466Z         NUMBER_OF_FRAMES-eng: 442
+2026-01-04T12:05:02.466Z         NUMBER_OF_BYTES-eng: 15657
+2026-01-04T12:05:02.466Z         _STATISTICS_WRITING_APP-eng: no_variable_data
+2026-01-04T12:05:02.466Z         _STATISTICS_WRITING_DATE_UTC-eng: 
+2026-01-04T12:05:02.466Z 1970-01-01 00:00:00
+2026-01-04T12:05:02.466Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T12:05:02.466Z 
+2026-01-04T12:05:02.466Z [12:04:50] scan: decoding previews for title 1
+2026-01-04T12:05:02.466Z 
+2026-01-04T12:05:02.466Z [12:04:50] scan: audio 0x1: eac3, rate=48000Hz, bitrate=256000 English (E-AC3, 5.1 ch, 256 kbps)
+2026-01-04T12:05:02.466Z 
+2026-01-04T12:05:02.466Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T12:05:02.466Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T12:05:02.466Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T12:05:02.466Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T12:05:02.466Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T12:05:02.466Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T12:05:02.466Z Scanning title 1 of 1, preview 3, 30.00 %
+2026-01-04T12:05:02.466Z Scanning title 1 of 1, preview 3, 30.00 %
+2026-01-04T12:05:02.466Z Scanning title 1 of 1, preview 4, 40.00 %
+2026-01-04T12:05:02.466Z Scanning title 1 of 1, preview 4, 40.00 %
+2026-01-04T12:05:02.466Z Scanning title 1 of 1, preview 4, 40.00 %
+2026-01-04T12:05:02.466Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-04T12:05:02.466Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-04T12:05:02.466Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-04T12:05:02.466Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-04T12:05:02.466Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-04T12:05:02.466Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-04T12:05:02.466Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-04T12:05:02.466Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-04T12:05:02.466Z Scanning title 1 of 1, preview 7, 70.00 %
+2026-01-04T12:05:02.466Z Scanning title 1 of 1, preview 7, 70.00 %
+2026-01-04T12:05:02.466Z Scanning title 1 of 1, preview 7, 70.00 %
+2026-01-04T12:05:02.466Z Scanning title 1 of 1, preview 8, 80.00 %
+2026-01-04T12:05:02.466Z Scanning title 1 of 1, preview 8, 80.00 %
+2026-01-04T12:05:02.466Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T12:05:02.466Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T12:05:02.466Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T12:05:02.466Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T12:05:02.466Z Scanning title 1 of 1, preview 10, 100.00 %
+2026-01-04T12:05:02.466Z Scanning title 1 of 1, preview 10, 100.00 %
+2026-01-04T12:05:02.466Z [12:04:59] using container PAR 1:1
+2026-01-04T12:05:02.466Z [12:04:59] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1, color profile: 1-1-1, chroma location: left
+2026-01-04T12:05:02.466Z 
+2026-01-04T12:05:02.466Z [12:04:59] libhb: scan thread found 1 valid title(s)
+2026-01-04T12:05:02.466Z 
+2026-01-04T12:05:02.466Z + title 1:
+2026-01-04T12:05:02.466Z   + stream: /media/tv/The Simpsons/Season 26/The.Simpsons.S26E15.1080p.WEB.H264-BATV.mkv
+2026-01-04T12:05:02.466Z   + duration: 00:21:41
+2026-01-04T12:05:02.466Z   + size: 1920x1080, pixel aspect: 1/1, display aspect: 1.78, 23.976 fps
+2026-01-04T12:05:02.466Z   + autocrop: 0/0/0/0
+2026-01-04T12:05:02.466Z   + chapters:
+2026-01-04T12:05:02.466Z     + 1: duration 00:21:41
+2026-01-04T12:05:02.466Z   + audio tracks:
+2026-01-04T12:05:02.466Z     + 1, English (E-AC3, 5.1 ch, 256 kbps) (iso639-2: eng)
+2026-01-04T12:05:02.466Z   + subtitle tracks:
+2026-01-04T12:05:02.466Z     + 1, English (UTF-8)
+2026-01-04T12:05:02.466Z     + 2, dansk (UTF-8)
+2026-01-04T12:05:02.466Z     + 3, Deutsch (UTF-8)
+2026-01-04T12:05:02.466Z     + 4, español (UTF-8)
+2026-01-04T12:05:02.466Z     + 5, español (UTF-8)
+2026-01-04T12:05:02.466Z     + 6, Francais (UTF-8)
+2026-01-04T12:05:02.466Z     + 7, Francais (UTF-8)
+2026-01-04T12:05:02.466Z     + 8, italiano (UTF-8)
+2026-01-04T12:05:02.466Z     + 9, Nederlands (UTF-8)
+2026-01-04T12:05:02.466Z     + 10, norsk (UTF-8)
+2026-01-04T12:05:02.466Z     + 11, Portugues (UTF-8)
+2026-01-04T12:05:02.466Z     + 12, suomi (UTF-8)
+2026-01-04T12:05:02.466Z     + 13, svenska (UTF-8)
+2026-01-04T12:05:02.466Z 
+2026-01-04T12:05:02.466Z HandBrake has exited.
+2026-01-04T12:05:02.466Z 
+2026-01-04T12:05:02.466Z 
+2026-01-04T12:05:02.466Z 
+2026-01-04T12:05:02.466Z 
+2026-01-04T12:05:02.466Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:[Step W06] [C1] Worker [-success-]
+2026-01-04T12:05:02.467Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:Worker success during processing
+2026-01-04T12:05:02.468Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:Updating healthcheck stats
+2026-01-04T12:05:02.469Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:[Step W10] Worker processing end
+2026-01-04T12:05:02.469Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:Subworker exited null
+2026-01-04T12:05:02.470Z kybec-njD3:Node[MyInternalNode]:Worker[best-buck]:Successfully updated server with verdict: healthcheckSuccess

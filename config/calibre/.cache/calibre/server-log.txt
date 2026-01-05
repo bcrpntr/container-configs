@@ -1,0 +1,6 @@
+calibre server listening on [::]:8081
+OPDS feeds advertised via BonJour at: 172.26.0.4 port: 8081
+calibre server listening on [::]:8081
+OPDS feeds advertised via BonJour at: 172.26.0.4 port: 8081
+calibre server listening on [::]:8081
+OPDS feeds advertised via BonJour at: 172.26.0.2 port: 8081

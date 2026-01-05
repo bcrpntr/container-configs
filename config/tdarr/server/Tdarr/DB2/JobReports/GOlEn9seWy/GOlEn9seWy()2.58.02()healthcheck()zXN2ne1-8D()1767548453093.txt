@@ -1,0 +1,409 @@
+2026-01-04T11:40:55.707Z zXN2ne1-8D:[Step S01] [2.58.02] Server relay initialising job
+2026-01-04T11:40:55.708Z zXN2ne1-8D:Server: linux_x64_docker_true
+2026-01-04T11:40:55.709Z zXN2ne1-8D:Server relay adding file to staged files
+2026-01-04T11:40:55.709Z zXN2ne1-8D:Server relay sending job to Node relay: MyInternalNode
+2026-01-04T11:40:55.710Z zXN2ne1-8D:Node[MyInternalNode]:[Step N01] [2.58.02] Node relay received job
+2026-01-04T11:40:55.710Z zXN2ne1-8D:Node[MyInternalNode]:{"nodeName":"MyInternalNode","serverURL":"http://0.0.0.0:8266","serverIP":"0.0.0.0","serverPort":"8266","handbrakePath":"","ffmpegPath":"","mkvpropeditPath":"","pathTranslators":[{"server":"","node":""}],"nodeType":"mapped","unmappedNodeCache":"/app/unmappedNodeCache","logLevel":"INFO","priority":-1,"platform_arch_isdocker":"linux_x64_docker_true","processPid":664,"cronPluginUpdate":"","apiKey":"","maxLogSizeMB":"10","pollInterval":2000,"startPaused":false,"nodeID":"-2RaUzM4Y","seededWorkerLimits":{},"nodeRegisteredCount":1}
+2026-01-04T11:40:55.711Z zXN2ne1-8D:Node[MyInternalNode]:Node relay sending job to worker:rosy-ray
+2026-01-04T11:40:55.712Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:[Step W01] Received file, original: "/media/tv/Power Book IV - Force/Season 2/Power.Book.IV.Force.S02E10.Power.Powder.Respect.EAC3.5.1.1080p.WEBRip.x265-iVy.mkv"
+2026-01-04T11:40:55.712Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:{"workerType":"healthcheckcpu"}
+2026-01-04T11:40:55.713Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:{"ffmpegPath":"tdarr-ffmpeg"}
+2026-01-04T11:40:55.716Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:{"handbrakePath":"HandBrakeCLI"}
+2026-01-04T11:40:55.716Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:{"mkvpropeditPath":"mkvpropedit"}
+2026-01-04T11:40:55.717Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:{"gpuSelect":"-"}
+2026-01-04T11:40:55.717Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:{"allowGpuDoCpu":false}
+2026-01-04T11:40:55.718Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:{"thoroughHealthCheckCpuExtraInputArgs":""}
+2026-01-04T11:40:55.718Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:{"thoroughHealthCheckGpuExtraInputArgs":""}
+2026-01-04T11:40:55.719Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:{"thoroughHealthCheckCpuExtraArgs":""}
+2026-01-04T11:40:55.720Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:{"thoroughHealthCheckGpuExtraArgs":""}
+2026-01-04T11:40:55.721Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:{"logFullCliOutput":false}
+2026-01-04T11:40:55.722Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:{"runMkvpropedit":false}
+2026-01-04T11:40:55.723Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:{"dontCleanWorkerCacheFolder":false}
+2026-01-04T11:40:55.732Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:Path translating objects
+2026-01-04T11:40:55.732Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:Running path translator tests
+2026-01-04T11:40:55.733Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:Path translator tests passed
+2026-01-04T11:40:55.733Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:{"librarySettings":{"_id":"KU0woozLb","priority":1,"name":"TV Shows","folder":"/media/tv","foldersToIgnore":"","foldersToIgnoreCaseInsensitive":false,"folderWatchScanInterval":30,"scannerThreadCount":2,"cache":"/tmp","output":".","folderToFolderConversion":false,"folderToFolderConversionDeleteSource":false,"folderToFolderRecordHistory":true,"copyIfConditionsMet":false,"container":".mkv","containerFilter":"mkv,mp4,mov,m4v,mpg,mpeg,avi,flv,webm,wmv,vob,evo,iso,m2ts,ts","createdAt":1675837380368,"folderWatching":false,"useFsEvents":false,"scheduledScanFindNew":false,"processLibrary":true,"processTranscodes":true,"processHealthChecks":true,"scanOnStart":false,"exifToolScan":true,"mediaInfoScan":true,"ffprobeShowData":false,"isDirectoryLibrary":false,"closedCaptionScan":false,"scanButtons":true,"scanFound":"Files found:0","navItemSelected":"navSourceFolder","pluginIDs":[{"_id":"plugin1","id":"Tdarr_Plugin_MC93_MigzImageRemoval","checked":true,"source":"Community","priority":0,"InputsDB":{}},{"_id":"plugin2","id":"Tdarr_Plugin_lmg1_Reorder_Streams","checked":true,"source":"Community","priority":1,"InputsDB":{}},{"_id":"plugin4","id":"Tdarr_Plugin_MC93_Migz1FFMPEG","checked":true,"source":"Community","priority":2,"InputsDB":{}},{"_id":"plugin5","id":"Tdarr_Plugin_a9he_New_file_size_check","checked":true,"source":"Community","priority":3,"InputsDB":{}}],"pluginCommunity":true,"handbrake":true,"ffmpeg":false,"handbrakescan":true,"ffmpegscan":false,"preset":"-Z \"Very Fast 1080p30\"","decisionMaker":{"settingsPlugin":true,"settingsFlows":false,"settingsVideo":false,"videoExcludeSwitch":true,"video_codec_names_exclude":[{"codec":"hevc","checked":false},{"codec":"h264","checked":true}],"video_size_range_include":{"min":0,"max":100000},"video_height_range_include":{"min":0,"max":3000},"video_width_range_include":{"min":0,"max":4000},"settingsAudio":false,"audioExcludeSwitch":true,"audio_codec_names_exclude":[{"codec":"mp3","checked":true},{"codec":"aac","checked":false}],"audio_size_range_include":{"min":0,"max":10}},"schedule":[{"_id":"Sun:00-01","checked":true},{"_id":"Sun:01-02","checked":true},{"_id":"Sun:02-03","checked":true},{"_id":"Sun:03-04","checked":true},{"_id":"Sun:04-05","checked":true},{"_id":"Sun:05-06","checked":true},{"_id":"Sun:06-07","checked":true},{"_id":"Sun:07-08","checked":true},{"_id":"Sun:08-09","checked":true},{"_id":"Sun:09-10","checked":true},{"_id":"Sun:10-11","checked":true},{"_id":"Sun:11-12","checked":true},{"_id":"Sun:12-13","checked":true},{"_id":"Sun:13-14","checked":true},{"_id":"Sun:14-15","checked":true},{"_id":"Sun:15-16","checked":true},{"_id":"Sun:16-17","checked":true},{"_id":"Sun:17-18","checked":true},{"_id":"Sun:18-19","checked":true},{"_id":"Sun:19-20","checked":true},{"_id":"Sun:20-21","checked":true},{"_id":"Sun:21-22","checked":true},{"_id":"Sun:22-23","checked":true},{"_id":"Sun:23-00","checked":true},{"_id":"Mon:00-01","checked":true},{"_id":"Mon:01-02","checked":true},{"_id":"Mon:02-03","checked":true},{"_id":"Mon:03-04","checked":true},{"_id":"Mon:04-05","checked":true},{"_id":"Mon:05-06","checked":true},{"_id":"Mon:06-07","checked":true},{"_id":"Mon:07-08","checked":true},{"_id":"Mon:08-09","checked":true},{"_id":"Mon:09-10","checked":true},{"_id":"Mon:10-11","checked":true},{"_id":"Mon:11-12","checked":true},{"_id":"Mon:12-13","checked":true},{"_id":"Mon:13-14","checked":true},{"_id":"Mon:14-15","checked":true},{"_id":"Mon:15-16","checked":true},{"_id":"Mon:16-17","checked":true},{"_id":"Mon:17-18","checked":true},{"_id":"Mon:18-19","checked":true},{"_id":"Mon:19-20","checked":true},{"_id":"Mon:20-21","checked":true},{"_id":"Mon:21-22","checked":true},{"_id":"Mon:22-23","checked":true},{"_id":"Mon:23-00","checked":true},{"_id":"Tue:00-01","checked":true},{"_id":"Tue:01-02","checked":true},{"_id":"Tue:02-03","checked":true},{"_id":"Tue:03-04","checked":true},{"_id":"Tue:04-05","checked":true},{"_id":"Tue:05-06","checked":true},{"_id":"Tue:06-07","checked":true},{"_id":"Tue:07-08","checked":true},{"_id":"Tue:08-09","checked":true},{"_id":"Tue:09-10","checked":true},{"_id":"Tue:10-11","checked":true},{"_id":"Tue:11-12","checked":true},{"_id":"Tue:12-13","checked":true},{"_id":"Tue:13-14","checked":true},{"_id":"Tue:14-15","checked":true},{"_id":"Tue:15-16","checked":true},{"_id":"Tue:16-17","checked":true},{"_id":"Tue:17-18","checked":true},{"_id":"Tue:18-19","checked":true},{"_id":"Tue:19-20","checked":true},{"_id":"Tue:20-21","checked":true},{"_id":"Tue:21-22","checked":true},{"_id":"Tue:22-23","checked":true},{"_id":"Tue:23-00","checked":true},{"_id":"Wed:00-01","checked":true},{"_id":"Wed:01-02","checked":true},{"_id":"Wed:02-03","checked":true},{"_id":"Wed:03-04","checked":true},{"_id":"Wed:04-05","checked":true},{"_id":"Wed:05-06","checked":true},{"_id":"Wed:06-07","checked":true},{"_id":"Wed:07-08","checked":true},{"_id":"Wed:08-09","checked":true},{"_id":"Wed:09-10","checked":true},{"_id":"Wed:10-11","checked":true},{"_id":"Wed:11-12","checked":true},{"_id":"Wed:12-13","checked":true},{"_id":"Wed:13-14","checked":true},{"_id":"Wed:14-15","checked":true},{"_id":"Wed:15-16","checked":true},{"_id":"Wed:16-17","checked":true},{"_id":"Wed:17-18","checked":true},{"_id":"Wed:18-19","checked":true},{"_id":"Wed:19-20","checked":true},{"_id":"Wed:20-21","checked":true},{"_id":"Wed:21-22","checked":true},{"_id":"Wed:22-23","checked":true},{"_id":"Wed:23-00","checked":true},{"_id":"Thur:00-01","checked":true},{"_id":"Thur:01-02","checked":true},{"_id":"Thur:02-03","checked":true},{"_id":"Thur:03-04","checked":true},{"_id":"Thur:04-05","checked":true},{"_id":"Thur:05-06","checked":true},{"_id":"Thur:06-07","checked":true},{"_id":"Thur:07-08","checked":true},{"_id":"Thur:08-09","checked":true},{"_id":"Thur:09-10","checked":true},{"_id":"Thur:10-11","checked":true},{"_id":"Thur:11-12","checked":true},{"_id":"Thur:12-13","checked":true},{"_id":"Thur:13-14","checked":true},{"_id":"Thur:14-15","checked":true},{"_id":"Thur:15-16","checked":true},{"_id":"Thur:16-17","checked":true},{"_id":"Thur:17-18","checked":true},{"_id":"Thur:18-19","checked":true},{"_id":"Thur:19-20","checked":true},{"_id":"Thur:20-21","checked":true},{"_id":"Thur:21-22","checked":true},{"_id":"Thur:22-23","checked":true},{"_id":"Thur:23-00","checked":true},{"_id":"Fri:00-01","checked":true},{"_id":"Fri:01-02","checked":true},{"_id":"Fri:02-03","checked":true},{"_id":"Fri:03-04","checked":true},{"_id":"Fri:04-05","checked":true},{"_id":"Fri:05-06","checked":true},{"_id":"Fri:06-07","checked":true},{"_id":"Fri:07-08","checked":true},{"_id":"Fri:08-09","checked":true},{"_id":"Fri:09-10","checked":true},{"_id":"Fri:10-11","checked":true},{"_id":"Fri:11-12","checked":true},{"_id":"Fri:12-13","checked":true},{"_id":"Fri:13-14","checked":true},{"_id":"Fri:14-15","checked":true},{"_id":"Fri:15-16","checked":true},{"_id":"Fri:16-17","checked":true},{"_id":"Fri:17-18","checked":true},{"_id":"Fri:18-19","checked":true},{"_id":"Fri:19-20","checked":true},{"_id":"Fri:20-21","checked":true},{"_id":"Fri:21-22","checked":true},{"_id":"Fri:22-23","checked":true},{"_id":"Fri:23-00","checked":true},{"_id":"Sat:00-01","checked":true},{"_id":"Sat:01-02","checked":true},{"_id":"Sat:02-03","checked":true},{"_id":"Sat:03-04","checked":true},{"_id":"Sat:04-05","checked":true},{"_id":"Sat:05-06","checked":true},{"_id":"Sat:06-07","checked":true},{"_id":"Sat:07-08","checked":true},{"_id":"Sat:08-09","checked":true},{"_id":"Sat:09-10","checked":true},{"_id":"Sat:10-11","checked":true},{"_id":"Sat:11-12","checked":true},{"_id":"Sat:12-13","checked":true},{"_id":"Sat:13-14","checked":true},{"_id":"Sat:14-15","checked":true},{"_id":"Sat:15-16","checked":true},{"_id":"Sat:16-17","checked":true},{"_id":"Sat:17-18","checked":true},{"_id":"Sat:18-19","checked":true},{"_id":"Sat:19-20","checked":true},{"_id":"Sat:20-21","checked":true},{"_id":"Sat:21-22","checked":true},{"_id":"Sat:22-23","checked":true},{"_id":"Sat:23-00","checked":true}],"totalHealthCheckCount":414,"totalTranscodeCount":0,"sizeDiff":0,"holdNewFiles":false,"holdFor":3600,"holdForDisplayUnit":"hours","pluginStackOverview":true,"filterResolutionsSkip":"","filterCodecsSkip":"","filterContainersSkip":"","processPluginsSequentially":true}}
+2026-01-04T11:40:55.733Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:Scanning original library file
+2026-01-04T11:40:55.734Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:{
+2026-01-04T11:40:55.734Z   "exifToolScan": true,
+2026-01-04T11:40:55.734Z   "mediaInfoScan": false,
+2026-01-04T11:40:55.734Z   "closedCaptionScan": false
+2026-01-04T11:40:55.734Z }
+2026-01-04T11:40:55.734Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:Node scanning file
+2026-01-04T11:40:56.736Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:Scan complete
+2026-01-04T11:40:56.736Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:Original file scanned
+2026-01-04T11:40:56.737Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:Source file to work on determined:"/media/tv/Power Book IV - Force/Season 2/Power.Book.IV.Force.S02E10.Power.Powder.Respect.EAC3.5.1.1080p.WEBRip.x265-iVy.mkv"
+2026-01-04T11:40:56.737Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:[Step W02] [C1] Running pre-process file
+2026-01-04T11:40:56.737Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:Checking files can be accessed
+2026-01-04T11:40:56.738Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:mapped node, file is original, no need to download
+2026-01-04T11:40:56.738Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:Relevant paths can be accessed
+2026-01-04T11:40:56.739Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:Source file: "/media/tv/Power Book IV - Force/Season 2/Power.Book.IV.Force.S02E10.Power.Powder.Respect.EAC3.5.1.1080p.WEBRip.x265-iVy.mkv"
+2026-01-04T11:40:56.739Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:[Step W03] [C1] Analysing file - running plugins
+2026-01-04T11:40:56.739Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:Handbrake healthcheck task, no need to scan for extra file details
+2026-01-04T11:40:56.740Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:Updating Node relay: Processing
+2026-01-04T11:40:56.740Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:[1/2] Checking file frame count
+2026-01-04T11:40:56.740Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:[2/2] Frame count 0
+2026-01-04T11:40:56.740Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:Determining healthcheck command
+2026-01-04T11:40:56.741Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:[Step W04] [C1] Preparing command
+2026-01-04T11:40:56.741Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:Cache file stem: "/tmp/tdarr-workDir2-zXN2ne1-8D"
+2026-01-04T11:40:56.741Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:Cache file path: "/tmp/tdarr-workDir2-zXN2ne1-8D/Power.Book.IV.Force.S02E10.Power.Powder.Respect.EAC3.5.1.1080p.WEBRip.x265-iVy-TdarrCacheFile-ChXNkOclSD.mp4"
+2026-01-04T11:40:56.741Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:Create transcode args
+2026-01-04T11:40:56.742Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:Args:  -i "/media/tv/Power Book IV - Force/Season 2/Power.Book.IV.Force.S02E10.Power.Powder.Respect.EAC3.5.1.1080p.WEBRip.x265-iVy.mkv" -o /tmp/tdarr-workDir2-zXN2ne1-8D/Power.Book.IV.Force.S02E10.Power.Powder.Respect.EAC3.5.1.1080p.WEBRip.x265-iVy-TdarrCacheFile-ChXNkOclSD.mp4 --scan
+2026-01-04T11:40:56.742Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:Getting source file size
+2026-01-04T11:40:56.742Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:Source file size: 0.7823816714808345
+2026-01-04T11:40:56.742Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:Performing safety check on worker config to see if old transcode args/container match new ones
+2026-01-04T11:40:56.743Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:Safety check complete, all good
+2026-01-04T11:40:56.743Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:[Step W05] [C1] Launching subworker
+2026-01-04T11:40:56.744Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:Preparing to launch subworker
+2026-01-04T11:40:56.744Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:Subworker launched
+2026-01-04T11:40:56.744Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:[1/3] Sending command to subworker
+2026-01-04T11:40:56.745Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:[2/3] HandBrakeCLI -i "/media/tv/Power Book IV - Force/Season 2/Power.Book.IV.Force.S02E10.Power.Powder.Respect.EAC3.5.1.1080p.WEBRip.x265-iVy.mkv" -o /tmp/tdarr-workDir2-zXN2ne1-8D/Power.Book.IV.Force.S02E10.Power.Powder.Respect.EAC3.5.1.1080p.WEBRip.x265-iVy-TdarrCacheFile-ChXNkOclSD.mp4 --scan
+2026-01-04T11:40:56.745Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:[3/3] Command sent
+2026-01-04T11:40:56.746Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:To see live CLI output, enable 'Log full FFmpeg/HandBrake output' in the staging section on the Tdarr tab before the job starts. Note this could increase the job report size substantially.
+2026-01-04T11:40:56.746Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:Subworker:Online
+2026-01-04T11:40:56.747Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:Subworker:Receiving transcode settings
+2026-01-04T11:40:56.747Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:Subworker:Running CLI
+2026-01-04T11:41:02.870Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:Subworker:a.Thread closed, code: 0
+2026-01-04T11:41:02.871Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:Subworker exit approved, killing subworker
+2026-01-04T11:41:02.871Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:Subworker killed
+2026-01-04T11:41:02.871Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:b.Thread closed, code: 0
+2026-01-04T11:41:02.872Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:CLI code: 0
+2026-01-04T11:41:02.872Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:Last 200 lines of CLI log:
+2026-01-04T11:41:02.872Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:[11:40:53] Compile-time hardening features are enabled
+2026-01-04T11:41:02.872Z 
+2026-01-04T11:41:02.872Z [11:40:53] nvenc: version 12.2 is available
+2026-01-04T11:41:02.872Z [11:40:53] nvdec: is available
+2026-01-04T11:41:02.872Z 
+2026-01-04T11:41:02.872Z [11:40:53] CUDA Version: 6.1
+2026-01-04T11:41:02.872Z 
+2026-01-04T11:41:02.872Z [11:40:53] qsv: not available on this system
+2026-01-04T11:41:02.872Z 
+2026-01-04T11:41:02.872Z [11:40:53] hb_init: starting libhb thread
+2026-01-04T11:41:02.872Z 
+2026-01-04T11:41:02.872Z [11:40:53] thread 7f793d1e86c0 started ("libhb")
+2026-01-04T11:41:02.872Z HandBrake 1.10.2 (2025102400) - Linux x86_64 - https://handbrake.fr
+2026-01-04T11:41:02.872Z 16 CPUs detected
+2026-01-04T11:41:02.872Z 
+2026-01-04T11:41:02.872Z Opening /media/tv/Power Book IV - Force/Season 2/Power.Book.IV.Force.S02E10.Power.Powder.Respect.EAC3.5.1.1080p.WEBRip.x265-iVy.mkv...
+2026-01-04T11:41:02.872Z 
+2026-01-04T11:41:02.872Z [11:40:53] CPU: Common KVM processor
+2026-01-04T11:41:02.872Z [11:40:53]  - logical processor count: 16
+2026-01-04T11:41:02.872Z [11:40:53] Intel Quick Sync Video support: no
+2026-01-04T11:41:02.872Z [11:40:53] hb_scan: path=/media/tv/Power Book IV - Force/Season 2/Power.Book.IV.Force.S02E10.Power.Powder.Respect.EAC3.5.1.1080p.WEBRip.x265-iVy.mkv, title_index=1
+2026-01-04T11:41:02.872Z 
+2026-01-04T11:41:02.872Z Input #0, matroska,webm, from '/media/tv/Power Book IV - Force/Season 2/Power.Book.IV.Force.S02E10.Power.Powder.Respect.EAC3.5.1.1080p.WEBRip.x265-iVy.mkv':
+2026-01-04T11:41:02.872Z   Metadata:
+2026-01-04T11:41:02.872Z     creation_time   : 2023-11-20T22:36:40.000000Z
+2026-01-04T11:41:02.872Z     ENCODER         : Lavf58.76.100
+2026-01-04T11:41:02.872Z   Duration: 00:58:53.28, start: 0.000000, bitrate: 1902 kb/s
+2026-01-04T11:41:02.872Z   Chapters:
+2026-01-04T11:41:02.872Z     Chapter #0:0: start 0.000000, end 60.018000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 1
+2026-01-04T11:41:02.872Z     Chapter #0:1: start 60.018000, end 94.052000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 2
+2026-01-04T11:41:02.872Z     Chapter #0:2: start 94.052000, end 126.084000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 3
+2026-01-04T11:41:02.872Z     Chapter #0:3: start 126.084000, end 273.148000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 4
+2026-01-04T11:41:02.872Z     Chapter #0:4: start 273.148000, end 312.145000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 5
+2026-01-04T11:41:02.872Z     Chapter #0:5: start 312.145000, end 413.038000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 6
+2026-01-04T11:41:02.872Z     Chapter #0:6: start 413.038000, end 482.065000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 7
+2026-01-04T11:41:02.872Z     Chapter #0:7: start 482.065000, end 570.111000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 8
+2026-01-04T11:41:02.872Z     Chapter #0:8: start 570.111000, end 619.035000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 9
+2026-01-04T11:41:02.872Z     Chapter #0:9: start 619.035000, end 675.008000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 10
+2026-01-04T11:41:02.872Z 
+2026-01-04T11:41:02.872Z     Chapter #0:10: start 675.008000, end 827.160000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 11
+2026-01-04T11:41:02.872Z     Chapter #0:11: start 827.160000, end 918.126000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 12
+2026-01-04T11:41:02.872Z     Chapter #0:12: start 918.126000, end 995.119000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 13
+2026-01-04T11:41:02.872Z     Chapter #0:13: start 995.119000, end 1096.012000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 14
+2026-01-04T11:41:02.872Z     Chapter #0:14: start 1096.012000, end 1164.121000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 15
+2026-01-04T11:41:02.872Z     Chapter #0:15: start 1164.121000, end 1203.077000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 16
+2026-01-04T11:41:02.872Z     Chapter #0:16: start 1203.077000, end 1230.062000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 17
+2026-01-04T11:41:02.872Z     Chapter #0:17: start 1230.062000, end 1326.158000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 18
+2026-01-04T11:41:02.872Z     Chapter #0:18: start 1326.158000, end 1395.019000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 19
+2026-01-04T11:41:02.872Z     Chapter #0:19: start 1395.019000, end 1436.018000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 20
+2026-01-04T11:41:02.872Z     Chapter #0:20: start 1436.018000, end 1465.047000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 21
+2026-01-04T11:41:02.872Z     Chapter #0:21: start 1465.047000, end 1501.125000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 22
+2026-01-04T11:41:02.872Z     Chapter #0:22: start 1501.125000, end 1533.115000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 23
+2026-01-04T11:41:02.872Z     Chapter #0:23: start 1533.115000, end 1613.028000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 24
+2026-01-04T11:41:02.872Z     Chapter #0:24: start 1613.028000, end 1644.143000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 25
+2026-01-04T11:41:02.872Z     Chapter #0:25: start 1644.143000, end 1679.011000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 26
+2026-01-04T11:41:02.872Z     Chapter #0:26: start 1679.011000, end 1756.004000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 27
+2026-01-04T11:41:02.872Z     Chapter #0:27: start 1756.004000, end 1817.107000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 28
+2026-01-04T11:41:02.872Z     Chapter #0:28: start 1817.107000, end 1858.148000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 29
+2026-01-04T11:41:02.872Z     Chapter #0:29: start 1858.148000, end 1936.101000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 30
+2026-01-04T11:41:02.872Z     Chapter #0:30: start 1936.101000, end 1973.096000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 31
+2026-01-04T11:41:02.872Z     Chapter #0:31: start 1973.096000, end 2018.016000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 32
+2026-01-04T11:41:02.872Z     Chapter #0:32: start 2018.016000, end 2060.016000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 33
+2026-01-04T11:41:02.872Z     Chapter #0:33: start 2060.016000, end 2168.124000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 34
+2026-01-04T11:41:02.872Z     Chapter #0:34: start 2168.124000, end 2261.092000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 35
+2026-01-04T11:41:02.872Z     Chapter #0:35: start 2261.092000, end 2285.074000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 36
+2026-01-04T11:41:02.872Z     Chapter #0:36: start 2285.074000, end 2302.091000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 37
+2026-01-04T11:41:02.872Z     Chapter #0:37: start 2302.091000, end 2386.009000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 38
+2026-01-04T11:41:02.872Z     Chapter #0:38: start 2386.009000, end 2455.078000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 39
+2026-01-04T11:41:02.872Z     Chapter #0:39: start 2455.078000, end 2502.125000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 40
+2026-01-04T11:41:02.872Z     Chapter #0:40: start 2502.125000, end 2552.133000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 41
+2026-01-04T11:41:02.872Z     Chapter #0:41: start 2552.133000, end 2595.093000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 42
+2026-01-04T11:41:02.872Z     Chapter #0:42: start 2595.093000, end 2635.133000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 43
+2026-01-04T11:41:02.872Z     Chapter #0:43: start 2635.133000, end 2689.020000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 44
+2026-01-04T11:41:02.872Z     Chapter #0:44: start 2689.020000, end 2741.072000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 45
+2026-01-04T11:41:02.872Z     Chapter #0:45: start 2741.072000, end 2774.063000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 46
+2026-01-04T11:41:02.872Z     Chapter #0:46: start 2774.063000, end 2818.149000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 47
+2026-01-04T11:41:02.872Z     Chapter #0:47: start 2818.149000, end 2870.034000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 48
+2026-01-04T11:41:02.872Z     Chapter #0:48: start 2870.034000, end 2892.098000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 49
+2026-01-04T11:41:02.872Z     Chapter #0:49: start 2892.098000, end 2946.068000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 50
+2026-01-04T11:41:02.872Z     Chapter #0:50: start 2946.068000, end 2978.100000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 51
+2026-01-04T11:41:02.872Z     Chapter #0:51: start 2978.100000, end 3107.062000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 52
+2026-01-04T11:41:02.872Z     Chapter #0:52: start 3107.062000, end 3165.120000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 53
+2026-01-04T11:41:02.872Z     Chapter #0:53: start 3165.120000, end 3230.060000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 54
+2026-01-04T11:41:02.872Z     Chapter #0:54: start 3230.060000, end 3266.054000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 55
+2026-01-04T11:41:02.872Z     Chapter #0:55: start 3266.054000, end 3342.089000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 56
+2026-01-04T11:41:02.872Z     Chapter #0:56: start 3342.089000, end 3393.056000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 57
+2026-01-04T11:41:02.872Z     Chapter #0:57: start 3393.056000, end 3452.074000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 58
+2026-01-04T11:41:02.872Z     Chapter #0:58: start 3452.074000, end 3533.197000
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Scene 59
+2026-01-04T11:41:02.872Z   Stream #0:0: Video: hevc (Main), yuv420p(tv, bt709), 1920x960 [SAR 1:1 DAR 2:1], 23.98 fps, 23.98 tbr, 1k tbn (default)
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         DURATION        : 00:58:53.280000000
+2026-01-04T11:41:02.872Z   Stream #0:1(eng): Audio: eac3, 48000 Hz, 5.1(side), fltp, 640 kb/s (default)
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         DURATION        : 00:58:53.248000000
+2026-01-04T11:41:02.872Z 
+2026-01-04T11:41:02.872Z   Stream #0:2(eng): Subtitle: ass (ssa)
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : Forced
+2026-01-04T11:41:02.872Z         DURATION        : 00:15:52.911000000
+2026-01-04T11:41:02.872Z   Stream #0:3(eng): Subtitle: ass (ssa)
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         DURATION        : 00:58:43.270000000
+2026-01-04T11:41:02.872Z   Stream #0:4(eng): Subtitle: ass (ssa)
+2026-01-04T11:41:02.872Z       Metadata:
+2026-01-04T11:41:02.872Z         title           : SDH
+2026-01-04T11:41:02.872Z         DURATION        : 00:58:43.270000000
+2026-01-04T11:41:02.872Z 
+2026-01-04T11:41:02.872Z [11:40:54] scan: decoding previews for title 1
+2026-01-04T11:41:02.872Z 
+2026-01-04T11:41:02.872Z [11:40:54] scan: audio 0x1: eac3, rate=48000Hz, bitrate=640000 English (E-AC3, 5.1 ch, 640 kbps)
+2026-01-04T11:41:02.872Z 
+2026-01-04T11:41:02.872Z Scanning title 1 of 1, preview 1, 10.00 %
+2026-01-04T11:41:02.872Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:41:02.872Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:41:02.872Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:41:02.872Z Scanning title 1 of 1, preview 3, 30.00 %
+2026-01-04T11:41:02.872Z Scanning title 1 of 1, preview 3, 30.00 %
+2026-01-04T11:41:02.872Z Scanning title 1 of 1, preview 4, 40.00 %
+2026-01-04T11:41:02.872Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-04T11:41:02.872Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-04T11:41:02.872Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-04T11:41:02.872Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-04T11:41:02.872Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-04T11:41:02.872Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-04T11:41:02.872Z Scanning title 1 of 1, preview 7, 70.00 %
+2026-01-04T11:41:02.872Z Scanning title 1 of 1, preview 7, 70.00 %
+2026-01-04T11:41:02.872Z Scanning title 1 of 1, preview 8, 80.00 %
+2026-01-04T11:41:02.872Z Scanning title 1 of 1, preview 8, 80.00 %
+2026-01-04T11:41:02.872Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:41:02.872Z Scanning title 1 of 1, preview 10, 100.00 %
+2026-01-04T11:41:02.872Z Scanning title 1 of 1, preview 10, 100.00 %
+2026-01-04T11:41:02.872Z [11:41:00] using container PAR 1:1
+2026-01-04T11:41:02.872Z [11:41:00] scan: 10 previews, 1920x960, 23.976 fps, autocrop = 0/0/0/0, aspect 2.00:1, PAR 1:1, color profile: 1-1-1, chroma location: left
+2026-01-04T11:41:02.872Z 
+2026-01-04T11:41:02.872Z [11:41:00] libhb: scan thread found 1 valid title(s)
+2026-01-04T11:41:02.872Z 
+2026-01-04T11:41:02.872Z + title 1:
+2026-01-04T11:41:02.872Z   + stream: /media/tv/Power Book IV - Force/Season 2/Power.Book.IV.Force.S02E10.Power.Powder.Respect.EAC3.5.1.1080p.WEBRip.x265-iVy.mkv
+2026-01-04T11:41:02.872Z   + duration: 00:58:53
+2026-01-04T11:41:02.872Z   + size: 1920x960, pixel aspect: 1/1, display aspect: 2.00, 23.976 fps
+2026-01-04T11:41:02.872Z   + autocrop: 0/0/0/0
+2026-01-04T11:41:02.872Z   + chapters:
+2026-01-04T11:41:02.872Z     + 1: duration 00:01:00
+2026-01-04T11:41:02.872Z     + 2: duration 00:00:34
+2026-01-04T11:41:02.872Z     + 3: duration 00:00:32
+2026-01-04T11:41:02.872Z     + 4: duration 00:02:27
+2026-01-04T11:41:02.872Z     + 5: duration 00:00:39
+2026-01-04T11:41:02.872Z     + 6: duration 00:01:41
+2026-01-04T11:41:02.872Z     + 7: duration 00:01:09
+2026-01-04T11:41:02.872Z     + 8: duration 00:01:28
+2026-01-04T11:41:02.872Z     + 9: duration 00:00:49
+2026-01-04T11:41:02.872Z     + 10: duration 00:00:56
+2026-01-04T11:41:02.872Z     + 11: duration 00:02:32
+2026-01-04T11:41:02.872Z     + 12: duration 00:01:31
+2026-01-04T11:41:02.872Z     + 13: duration 00:01:17
+2026-01-04T11:41:02.872Z     + 14: duration 00:01:41
+2026-01-04T11:41:02.872Z     + 15: duration 00:01:08
+2026-01-04T11:41:02.872Z     + 16: duration 00:00:39
+2026-01-04T11:41:02.872Z     + 17: duration 00:00:27
+2026-01-04T11:41:02.872Z     + 18: duration 00:01:36
+2026-01-04T11:41:02.872Z     + 19: duration 00:01:09
+2026-01-04T11:41:02.872Z     + 20: duration 00:00:41
+2026-01-04T11:41:02.872Z     + 21: duration 00:00:29
+2026-01-04T11:41:02.872Z     + 22: duration 00:00:36
+2026-01-04T11:41:02.872Z     + 23: duration 00:00:32
+2026-01-04T11:41:02.872Z     + 24: duration 00:01:20
+2026-01-04T11:41:02.872Z     + 25: duration 00:00:31
+2026-01-04T11:41:02.872Z     + 26: duration 00:00:35
+2026-01-04T11:41:02.872Z 
+2026-01-04T11:41:02.872Z     + 27: duration 00:01:17
+2026-01-04T11:41:02.872Z     + 28: duration 00:01:01
+2026-01-04T11:41:02.872Z     + 29: duration 00:00:41
+2026-01-04T11:41:02.872Z     + 30: duration 00:01:18
+2026-01-04T11:41:02.872Z     + 31: duration 00:00:37
+2026-01-04T11:41:02.872Z     + 32: duration 00:00:45
+2026-01-04T11:41:02.872Z     + 33: duration 00:00:42
+2026-01-04T11:41:02.872Z     + 34: duration 00:01:48
+2026-01-04T11:41:02.872Z     + 35: duration 00:01:33
+2026-01-04T11:41:02.872Z     + 36: duration 00:00:24
+2026-01-04T11:41:02.872Z     + 37: duration 00:00:17
+2026-01-04T11:41:02.872Z     + 38: duration 00:01:24
+2026-01-04T11:41:02.872Z     + 39: duration 00:01:09
+2026-01-04T11:41:02.872Z     + 40: duration 00:00:47
+2026-01-04T11:41:02.872Z     + 41: duration 00:00:50
+2026-01-04T11:41:02.872Z     + 42: duration 00:00:43
+2026-01-04T11:41:02.872Z     + 43: duration 00:00:40
+2026-01-04T11:41:02.872Z     + 44: duration 00:00:54
+2026-01-04T11:41:02.872Z     + 45: duration 00:00:52
+2026-01-04T11:41:02.872Z     + 46: duration 00:00:33
+2026-01-04T11:41:02.872Z     + 47: duration 00:00:44
+2026-01-04T11:41:02.872Z     + 48: duration 00:00:52
+2026-01-04T11:41:02.872Z     + 49: duration 00:00:22
+2026-01-04T11:41:02.872Z     + 50: duration 00:00:54
+2026-01-04T11:41:02.872Z     + 51: duration 00:00:32
+2026-01-04T11:41:02.872Z     + 52: duration 00:02:09
+2026-01-04T11:41:02.872Z     + 53: duration 00:00:58
+2026-01-04T11:41:02.872Z     + 54: duration 00:01:05
+2026-01-04T11:41:02.872Z     + 55: duration 00:00:36
+2026-01-04T11:41:02.872Z     + 56: duration 00:01:16
+2026-01-04T11:41:02.872Z     + 57: duration 00:00:51
+2026-01-04T11:41:02.872Z     + 58: duration 00:00:59
+2026-01-04T11:41:02.872Z     + 59: duration 00:01:21
+2026-01-04T11:41:02.872Z   + audio tracks:
+2026-01-04T11:41:02.872Z     + 1, English (E-AC3, 5.1 ch, 640 kbps) (iso639-2: eng)
+2026-01-04T11:41:02.872Z   + subtitle tracks:
+2026-01-04T11:41:02.872Z     + 1, English (SSA)
+2026-01-04T11:41:02.872Z     + 2, English (SSA)
+2026-01-04T11:41:02.872Z     + 3, English (SSA)
+2026-01-04T11:41:02.872Z 
+2026-01-04T11:41:02.872Z HandBrake has exited.
+2026-01-04T11:41:02.872Z 
+2026-01-04T11:41:02.872Z 
+2026-01-04T11:41:02.872Z 
+2026-01-04T11:41:02.872Z 
+2026-01-04T11:41:02.873Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:[Step W06] [C1] Worker [-success-]
+2026-01-04T11:41:02.873Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:Worker success during processing
+2026-01-04T11:41:02.873Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:Updating healthcheck stats
+2026-01-04T11:41:02.873Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:[Step W10] Worker processing end
+2026-01-04T11:41:02.874Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:Subworker exited null
+2026-01-04T11:41:02.874Z zXN2ne1-8D:Node[MyInternalNode]:Worker[rosy-ray]:Successfully updated server with verdict: healthcheckSuccess

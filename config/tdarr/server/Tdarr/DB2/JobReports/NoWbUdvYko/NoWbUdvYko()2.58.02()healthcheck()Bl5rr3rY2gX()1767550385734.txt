@@ -1,0 +1,374 @@
+2026-01-04T12:13:07.784Z Bl5rr3rY2gX:[Step S01] [2.58.02] Server relay initialising job
+2026-01-04T12:13:07.785Z Bl5rr3rY2gX:Server: linux_x64_docker_true
+2026-01-04T12:13:07.785Z Bl5rr3rY2gX:Server relay adding file to staged files
+2026-01-04T12:13:07.785Z Bl5rr3rY2gX:Server relay sending job to Node relay: MyInternalNode
+2026-01-04T12:13:07.786Z Bl5rr3rY2gX:Node[MyInternalNode]:[Step N01] [2.58.02] Node relay received job
+2026-01-04T12:13:07.786Z Bl5rr3rY2gX:Node[MyInternalNode]:{"nodeName":"MyInternalNode","serverURL":"http://0.0.0.0:8266","serverIP":"0.0.0.0","serverPort":"8266","handbrakePath":"","ffmpegPath":"","mkvpropeditPath":"","pathTranslators":[{"server":"","node":""}],"nodeType":"mapped","unmappedNodeCache":"/app/unmappedNodeCache","logLevel":"INFO","priority":-1,"platform_arch_isdocker":"linux_x64_docker_true","processPid":664,"cronPluginUpdate":"","apiKey":"","maxLogSizeMB":"10","pollInterval":2000,"startPaused":false,"nodeID":"-2RaUzM4Y","seededWorkerLimits":{},"nodeRegisteredCount":1}
+2026-01-04T12:13:07.787Z Bl5rr3rY2gX:Node[MyInternalNode]:Node relay sending job to worker:bulky-boar
+2026-01-04T12:13:07.788Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:[Step W01] Received file, original: "/media/tv/The Simpsons/Season 30/The.Simpsons.S30E19.Girls.in.the.Band.1080p.DSNP.WEB-DL.DDP.5.1.H.264-PHOENiX.mkv"
+2026-01-04T12:13:07.788Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:{"workerType":"healthcheckcpu"}
+2026-01-04T12:13:07.788Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:{"ffmpegPath":"tdarr-ffmpeg"}
+2026-01-04T12:13:07.789Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:{"handbrakePath":"HandBrakeCLI"}
+2026-01-04T12:13:07.790Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:{"mkvpropeditPath":"mkvpropedit"}
+2026-01-04T12:13:07.790Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:{"gpuSelect":"-"}
+2026-01-04T12:13:07.790Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:{"allowGpuDoCpu":false}
+2026-01-04T12:13:07.791Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:{"thoroughHealthCheckCpuExtraInputArgs":""}
+2026-01-04T12:13:07.791Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:{"thoroughHealthCheckGpuExtraInputArgs":""}
+2026-01-04T12:13:07.792Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:{"thoroughHealthCheckCpuExtraArgs":""}
+2026-01-04T12:13:07.792Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:{"thoroughHealthCheckGpuExtraArgs":""}
+2026-01-04T12:13:07.792Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:{"logFullCliOutput":false}
+2026-01-04T12:13:07.792Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:{"runMkvpropedit":false}
+2026-01-04T12:13:07.793Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:{"dontCleanWorkerCacheFolder":false}
+2026-01-04T12:13:07.793Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:Path translating objects
+2026-01-04T12:13:07.793Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:Running path translator tests
+2026-01-04T12:13:07.793Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:Path translator tests passed
+2026-01-04T12:13:07.794Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:{"librarySettings":{"_id":"KU0woozLb","priority":1,"name":"TV Shows","folder":"/media/tv","foldersToIgnore":"","foldersToIgnoreCaseInsensitive":false,"folderWatchScanInterval":30,"scannerThreadCount":2,"cache":"/tmp","output":".","folderToFolderConversion":false,"folderToFolderConversionDeleteSource":false,"folderToFolderRecordHistory":true,"copyIfConditionsMet":false,"container":".mkv","containerFilter":"mkv,mp4,mov,m4v,mpg,mpeg,avi,flv,webm,wmv,vob,evo,iso,m2ts,ts","createdAt":1675837380368,"folderWatching":false,"useFsEvents":false,"scheduledScanFindNew":false,"processLibrary":true,"processTranscodes":true,"processHealthChecks":true,"scanOnStart":false,"exifToolScan":true,"mediaInfoScan":true,"ffprobeShowData":false,"isDirectoryLibrary":false,"closedCaptionScan":false,"scanButtons":true,"scanFound":"Files found:0","navItemSelected":"navSourceFolder","pluginIDs":[{"_id":"plugin1","id":"Tdarr_Plugin_MC93_MigzImageRemoval","checked":true,"source":"Community","priority":0,"InputsDB":{}},{"_id":"plugin2","id":"Tdarr_Plugin_lmg1_Reorder_Streams","checked":true,"source":"Community","priority":1,"InputsDB":{}},{"_id":"plugin4","id":"Tdarr_Plugin_MC93_Migz1FFMPEG","checked":true,"source":"Community","priority":2,"InputsDB":{}},{"_id":"plugin5","id":"Tdarr_Plugin_a9he_New_file_size_check","checked":true,"source":"Community","priority":3,"InputsDB":{}}],"pluginCommunity":true,"handbrake":true,"ffmpeg":false,"handbrakescan":true,"ffmpegscan":false,"preset":"-Z \"Very Fast 1080p30\"","decisionMaker":{"settingsPlugin":true,"settingsFlows":false,"settingsVideo":false,"videoExcludeSwitch":true,"video_codec_names_exclude":[{"codec":"hevc","checked":false},{"codec":"h264","checked":true}],"video_size_range_include":{"min":0,"max":100000},"video_height_range_include":{"min":0,"max":3000},"video_width_range_include":{"min":0,"max":4000},"settingsAudio":false,"audioExcludeSwitch":true,"audio_codec_names_exclude":[{"codec":"mp3","checked":true},{"codec":"aac","checked":false}],"audio_size_range_include":{"min":0,"max":10}},"schedule":[{"_id":"Sun:00-01","checked":true},{"_id":"Sun:01-02","checked":true},{"_id":"Sun:02-03","checked":true},{"_id":"Sun:03-04","checked":true},{"_id":"Sun:04-05","checked":true},{"_id":"Sun:05-06","checked":true},{"_id":"Sun:06-07","checked":true},{"_id":"Sun:07-08","checked":true},{"_id":"Sun:08-09","checked":true},{"_id":"Sun:09-10","checked":true},{"_id":"Sun:10-11","checked":true},{"_id":"Sun:11-12","checked":true},{"_id":"Sun:12-13","checked":true},{"_id":"Sun:13-14","checked":true},{"_id":"Sun:14-15","checked":true},{"_id":"Sun:15-16","checked":true},{"_id":"Sun:16-17","checked":true},{"_id":"Sun:17-18","checked":true},{"_id":"Sun:18-19","checked":true},{"_id":"Sun:19-20","checked":true},{"_id":"Sun:20-21","checked":true},{"_id":"Sun:21-22","checked":true},{"_id":"Sun:22-23","checked":true},{"_id":"Sun:23-00","checked":true},{"_id":"Mon:00-01","checked":true},{"_id":"Mon:01-02","checked":true},{"_id":"Mon:02-03","checked":true},{"_id":"Mon:03-04","checked":true},{"_id":"Mon:04-05","checked":true},{"_id":"Mon:05-06","checked":true},{"_id":"Mon:06-07","checked":true},{"_id":"Mon:07-08","checked":true},{"_id":"Mon:08-09","checked":true},{"_id":"Mon:09-10","checked":true},{"_id":"Mon:10-11","checked":true},{"_id":"Mon:11-12","checked":true},{"_id":"Mon:12-13","checked":true},{"_id":"Mon:13-14","checked":true},{"_id":"Mon:14-15","checked":true},{"_id":"Mon:15-16","checked":true},{"_id":"Mon:16-17","checked":true},{"_id":"Mon:17-18","checked":true},{"_id":"Mon:18-19","checked":true},{"_id":"Mon:19-20","checked":true},{"_id":"Mon:20-21","checked":true},{"_id":"Mon:21-22","checked":true},{"_id":"Mon:22-23","checked":true},{"_id":"Mon:23-00","checked":true},{"_id":"Tue:00-01","checked":true},{"_id":"Tue:01-02","checked":true},{"_id":"Tue:02-03","checked":true},{"_id":"Tue:03-04","checked":true},{"_id":"Tue:04-05","checked":true},{"_id":"Tue:05-06","checked":true},{"_id":"Tue:06-07","checked":true},{"_id":"Tue:07-08","checked":true},{"_id":"Tue:08-09","checked":true},{"_id":"Tue:09-10","checked":true},{"_id":"Tue:10-11","checked":true},{"_id":"Tue:11-12","checked":true},{"_id":"Tue:12-13","checked":true},{"_id":"Tue:13-14","checked":true},{"_id":"Tue:14-15","checked":true},{"_id":"Tue:15-16","checked":true},{"_id":"Tue:16-17","checked":true},{"_id":"Tue:17-18","checked":true},{"_id":"Tue:18-19","checked":true},{"_id":"Tue:19-20","checked":true},{"_id":"Tue:20-21","checked":true},{"_id":"Tue:21-22","checked":true},{"_id":"Tue:22-23","checked":true},{"_id":"Tue:23-00","checked":true},{"_id":"Wed:00-01","checked":true},{"_id":"Wed:01-02","checked":true},{"_id":"Wed:02-03","checked":true},{"_id":"Wed:03-04","checked":true},{"_id":"Wed:04-05","checked":true},{"_id":"Wed:05-06","checked":true},{"_id":"Wed:06-07","checked":true},{"_id":"Wed:07-08","checked":true},{"_id":"Wed:08-09","checked":true},{"_id":"Wed:09-10","checked":true},{"_id":"Wed:10-11","checked":true},{"_id":"Wed:11-12","checked":true},{"_id":"Wed:12-13","checked":true},{"_id":"Wed:13-14","checked":true},{"_id":"Wed:14-15","checked":true},{"_id":"Wed:15-16","checked":true},{"_id":"Wed:16-17","checked":true},{"_id":"Wed:17-18","checked":true},{"_id":"Wed:18-19","checked":true},{"_id":"Wed:19-20","checked":true},{"_id":"Wed:20-21","checked":true},{"_id":"Wed:21-22","checked":true},{"_id":"Wed:22-23","checked":true},{"_id":"Wed:23-00","checked":true},{"_id":"Thur:00-01","checked":true},{"_id":"Thur:01-02","checked":true},{"_id":"Thur:02-03","checked":true},{"_id":"Thur:03-04","checked":true},{"_id":"Thur:04-05","checked":true},{"_id":"Thur:05-06","checked":true},{"_id":"Thur:06-07","checked":true},{"_id":"Thur:07-08","checked":true},{"_id":"Thur:08-09","checked":true},{"_id":"Thur:09-10","checked":true},{"_id":"Thur:10-11","checked":true},{"_id":"Thur:11-12","checked":true},{"_id":"Thur:12-13","checked":true},{"_id":"Thur:13-14","checked":true},{"_id":"Thur:14-15","checked":true},{"_id":"Thur:15-16","checked":true},{"_id":"Thur:16-17","checked":true},{"_id":"Thur:17-18","checked":true},{"_id":"Thur:18-19","checked":true},{"_id":"Thur:19-20","checked":true},{"_id":"Thur:20-21","checked":true},{"_id":"Thur:21-22","checked":true},{"_id":"Thur:22-23","checked":true},{"_id":"Thur:23-00","checked":true},{"_id":"Fri:00-01","checked":true},{"_id":"Fri:01-02","checked":true},{"_id":"Fri:02-03","checked":true},{"_id":"Fri:03-04","checked":true},{"_id":"Fri:04-05","checked":true},{"_id":"Fri:05-06","checked":true},{"_id":"Fri:06-07","checked":true},{"_id":"Fri:07-08","checked":true},{"_id":"Fri:08-09","checked":true},{"_id":"Fri:09-10","checked":true},{"_id":"Fri:10-11","checked":true},{"_id":"Fri:11-12","checked":true},{"_id":"Fri:12-13","checked":true},{"_id":"Fri:13-14","checked":true},{"_id":"Fri:14-15","checked":true},{"_id":"Fri:15-16","checked":true},{"_id":"Fri:16-17","checked":true},{"_id":"Fri:17-18","checked":true},{"_id":"Fri:18-19","checked":true},{"_id":"Fri:19-20","checked":true},{"_id":"Fri:20-21","checked":true},{"_id":"Fri:21-22","checked":true},{"_id":"Fri:22-23","checked":true},{"_id":"Fri:23-00","checked":true},{"_id":"Sat:00-01","checked":true},{"_id":"Sat:01-02","checked":true},{"_id":"Sat:02-03","checked":true},{"_id":"Sat:03-04","checked":true},{"_id":"Sat:04-05","checked":true},{"_id":"Sat:05-06","checked":true},{"_id":"Sat:06-07","checked":true},{"_id":"Sat:07-08","checked":true},{"_id":"Sat:08-09","checked":true},{"_id":"Sat:09-10","checked":true},{"_id":"Sat:10-11","checked":true},{"_id":"Sat:11-12","checked":true},{"_id":"Sat:12-13","checked":true},{"_id":"Sat:13-14","checked":true},{"_id":"Sat:14-15","checked":true},{"_id":"Sat:15-16","checked":true},{"_id":"Sat:16-17","checked":true},{"_id":"Sat:17-18","checked":true},{"_id":"Sat:18-19","checked":true},{"_id":"Sat:19-20","checked":true},{"_id":"Sat:20-21","checked":true},{"_id":"Sat:21-22","checked":true},{"_id":"Sat:22-23","checked":true},{"_id":"Sat:23-00","checked":true}],"totalHealthCheckCount":951,"totalTranscodeCount":4,"sizeDiff":0,"holdNewFiles":false,"holdFor":3600,"holdForDisplayUnit":"hours","pluginStackOverview":true,"filterResolutionsSkip":"","filterCodecsSkip":"","filterContainersSkip":"","processPluginsSequentially":true}}
+2026-01-04T12:13:07.794Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:Scanning original library file
+2026-01-04T12:13:07.795Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:{
+2026-01-04T12:13:07.795Z   "exifToolScan": true,
+2026-01-04T12:13:07.795Z   "mediaInfoScan": false,
+2026-01-04T12:13:07.795Z   "closedCaptionScan": false
+2026-01-04T12:13:07.795Z }
+2026-01-04T12:13:07.795Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:Node scanning file
+2026-01-04T12:13:08.830Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:Scan complete
+2026-01-04T12:13:08.830Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:Original file scanned
+2026-01-04T12:13:08.837Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:Source file to work on determined:"/media/tv/The Simpsons/Season 30/The.Simpsons.S30E19.Girls.in.the.Band.1080p.DSNP.WEB-DL.DDP.5.1.H.264-PHOENiX.mkv"
+2026-01-04T12:13:08.838Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:[Step W02] [C1] Running pre-process file
+2026-01-04T12:13:08.838Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:Checking files can be accessed
+2026-01-04T12:13:08.838Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:mapped node, file is original, no need to download
+2026-01-04T12:13:08.838Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:Relevant paths can be accessed
+2026-01-04T12:13:08.839Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:Source file: "/media/tv/The Simpsons/Season 30/The.Simpsons.S30E19.Girls.in.the.Band.1080p.DSNP.WEB-DL.DDP.5.1.H.264-PHOENiX.mkv"
+2026-01-04T12:13:08.839Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:[Step W03] [C1] Analysing file - running plugins
+2026-01-04T12:13:08.839Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:Handbrake healthcheck task, no need to scan for extra file details
+2026-01-04T12:13:08.840Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:Updating Node relay: Processing
+2026-01-04T12:13:08.840Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:[1/2] Checking file frame count
+2026-01-04T12:13:08.840Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:[2/2] Frame count 0
+2026-01-04T12:13:08.841Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:Determining healthcheck command
+2026-01-04T12:13:08.841Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:[Step W04] [C1] Preparing command
+2026-01-04T12:13:08.841Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:Cache file stem: "/tmp/tdarr-workDir2-Bl5rr3rY2gX"
+2026-01-04T12:13:08.841Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:Cache file path: "/tmp/tdarr-workDir2-Bl5rr3rY2gX/The.Simpsons.S30E19.Girls.in.the.Band.1080p.DSNP.WEB-DL.DDP.5.1.H.264-PHOENiX-TdarrCacheFile-c7km4jKhC.mp4"
+2026-01-04T12:13:08.842Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:Create transcode args
+2026-01-04T12:13:08.842Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:Args:  -i "/media/tv/The Simpsons/Season 30/The.Simpsons.S30E19.Girls.in.the.Band.1080p.DSNP.WEB-DL.DDP.5.1.H.264-PHOENiX.mkv" -o /tmp/tdarr-workDir2-Bl5rr3rY2gX/The.Simpsons.S30E19.Girls.in.the.Band.1080p.DSNP.WEB-DL.DDP.5.1.H.264-PHOENiX-TdarrCacheFile-c7km4jKhC.mp4 --scan
+2026-01-04T12:13:08.842Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:Getting source file size
+2026-01-04T12:13:08.842Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:Source file size: 1.3010906782001257
+2026-01-04T12:13:08.842Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:Performing safety check on worker config to see if old transcode args/container match new ones
+2026-01-04T12:13:08.843Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:Safety check complete, all good
+2026-01-04T12:13:08.843Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:[Step W05] [C1] Launching subworker
+2026-01-04T12:13:08.843Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:Preparing to launch subworker
+2026-01-04T12:13:08.843Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:Subworker launched
+2026-01-04T12:13:08.844Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:[1/3] Sending command to subworker
+2026-01-04T12:13:08.845Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:[2/3] HandBrakeCLI -i "/media/tv/The Simpsons/Season 30/The.Simpsons.S30E19.Girls.in.the.Band.1080p.DSNP.WEB-DL.DDP.5.1.H.264-PHOENiX.mkv" -o /tmp/tdarr-workDir2-Bl5rr3rY2gX/The.Simpsons.S30E19.Girls.in.the.Band.1080p.DSNP.WEB-DL.DDP.5.1.H.264-PHOENiX-TdarrCacheFile-c7km4jKhC.mp4 --scan
+2026-01-04T12:13:08.845Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:[3/3] Command sent
+2026-01-04T12:13:08.846Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:To see live CLI output, enable 'Log full FFmpeg/HandBrake output' in the staging section on the Tdarr tab before the job starts. Note this could increase the job report size substantially.
+2026-01-04T12:13:08.847Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:Subworker:Online
+2026-01-04T12:13:08.847Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:Subworker:Receiving transcode settings
+2026-01-04T12:13:08.848Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:Subworker:Running CLI
+2026-01-04T12:13:15.869Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:Subworker:a.Thread closed, code: 0
+2026-01-04T12:13:15.870Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:Subworker exit approved, killing subworker
+2026-01-04T12:13:15.870Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:Subworker killed
+2026-01-04T12:13:15.870Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:b.Thread closed, code: 0
+2026-01-04T12:13:15.871Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:CLI code: 0
+2026-01-04T12:13:15.871Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:Last 200 lines of CLI log:
+2026-01-04T12:13:15.872Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:[12:13:06] Compile-time hardening features are enabled
+2026-01-04T12:13:15.872Z 
+2026-01-04T12:13:15.872Z [12:13:06] nvenc: version 12.2 is available
+2026-01-04T12:13:15.872Z [12:13:06] nvdec: is available
+2026-01-04T12:13:15.872Z 
+2026-01-04T12:13:15.872Z [12:13:06] CUDA Version: 6.1
+2026-01-04T12:13:15.872Z 
+2026-01-04T12:13:15.872Z [12:13:06] qsv: not available on this system
+2026-01-04T12:13:15.872Z 
+2026-01-04T12:13:15.872Z [12:13:06] hb_init: starting libhb thread
+2026-01-04T12:13:15.872Z 
+2026-01-04T12:13:15.872Z [12:13:06] thread 7fcdbc9e76c0 started ("libhb")
+2026-01-04T12:13:15.872Z HandBrake 1.10.2 (2025102400) - Linux x86_64 - https://handbrake.fr
+2026-01-04T12:13:15.872Z 16 CPUs detected
+2026-01-04T12:13:15.872Z 
+2026-01-04T12:13:15.872Z Opening /media/tv/The Simpsons/Season 30/The.Simpsons.S30E19.Girls.in.the.Band.1080p.DSNP.WEB-DL.DDP.5.1.H.264-PHOENiX.mkv...
+2026-01-04T12:13:15.872Z 
+2026-01-04T12:13:15.872Z [12:13:06] CPU: Common KVM processor
+2026-01-04T12:13:15.872Z [12:13:06]  - logical processor count: 16
+2026-01-04T12:13:15.872Z [12:13:06] Intel Quick Sync Video support: no
+2026-01-04T12:13:15.872Z [12:13:06] hb_scan: path=/media/tv/The Simpsons/Season 30/The.Simpsons.S30E19.Girls.in.the.Band.1080p.DSNP.WEB-DL.DDP.5.1.H.264-PHOENiX.mkv, title_index=1
+2026-01-04T12:13:15.872Z 
+2026-01-04T12:13:15.872Z Scanning title 1 of 1, 0.00 %
+2026-01-04T12:13:15.872Z Input #0, matroska,webm, from '/media/tv/The Simpsons/Season 30/The.Simpsons.S30E19.Girls.in.the.Band.1080p.DSNP.WEB-DL.DDP.5.1.H.264-PHOENiX.mkv':
+2026-01-04T12:13:15.872Z   Metadata:
+2026-01-04T12:13:15.872Z     encoder         : libebml v1.4.1 + libmatroska v1.6.2
+2026-01-04T12:13:15.872Z     creation_time   : 2021-01-17T11:07:15.000000Z
+2026-01-04T12:13:15.872Z   Duration: 00:21:33.47, start: 0.000000, bitrate: 8640 kb/s
+2026-01-04T12:13:15.872Z   Stream #0:0
+2026-01-04T12:13:15.872Z (eng): Video: h264 (High), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+2026-01-04T12:13:15.872Z       Metadata:
+2026-01-04T12:13:15.872Z         BPS-eng         : 8381328
+2026-01-04T12:13:15.872Z         DURATION-eng    : 00:21:33.292000000
+2026-01-04T12:13:15.872Z         NUMBER_OF_FRAMES-eng: 31008
+2026-01-04T12:13:15.872Z         NUMBER_OF_BYTES-eng: 1354938211
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_APP-eng: mkvmerge v52.0.0 ('Secret For The Mad') 64-bit
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_DATE_UTC-eng: 2021-01-17 11:07:15
+2026-01-04T12:13:15.872Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T12:13:15.872Z   Stream #0:1(eng): Audio: eac3, 48000 Hz, 5.1(side), fltp, 256 kb/s (default)
+2026-01-04T12:13:15.872Z       Metadata:
+2026-01-04T12:13:15.872Z         title           : English
+2026-01-04T12:13:15.872Z         BPS-eng         : 256000
+2026-01-04T12:13:15.872Z         DURATION-eng    : 00:21:33.472000000
+2026-01-04T12:13:15.872Z         NUMBER_OF_FRAMES-eng: 40421
+2026-01-04T12:13:15.872Z         NUMBER_OF_BYTES-eng: 41391104
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_APP-eng: mkvmerge v52.0.0 ('Secret For The Mad') 64-bit
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_DATE_UTC-eng: 2021-01-17 11:07:15
+2026-01-04T12:13:15.872Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T12:13:15.872Z   Stream #0:2(eng): Subtitle: subrip (srt) (default)
+2026-01-04T12:13:15.872Z       Metadata:
+2026-01-04T12:13:15.872Z         title           : English (CC)
+2026-01-04T12:13:15.872Z         BPS-eng         : 94
+2026-01-04T12:13:15.872Z         DURATION-eng    : 00:21:14.982000000
+2026-01-04T12:13:15.872Z         NUMBER_OF_FRAMES-eng: 470
+2026-01-04T12:13:15.872Z         NUMBER_OF_BYTES-eng: 15093
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_APP-eng: mkvmerge v52.0.0 ('Secret For The Mad') 64-bit
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_DATE_UTC-eng: 2021-01-17 11:07:15
+2026-01-04T12:13:15.872Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T12:13:15.872Z   Stream #0:3(dan): Subtitle: subrip (srt)
+2026-01-04T12:13:15.872Z       Metadata:
+2026-01-04T12:13:15.872Z         title           : Dansk
+2026-01-04T12:13:15.872Z         BPS-eng         : 81
+2026-01-04T12:13:15.872Z         DURATION-eng    : 00:21:10.144000000
+2026-01-04T12:13:15.872Z         NUMBER_OF_FRAMES-eng: 386
+2026-01-04T12:13:15.872Z         NUMBER_OF_BYTES-eng: 12880
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_APP-eng: mkvmerge v52.0.0 ('Secret For The Mad') 64-bit
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_DATE_UTC-eng: 2021-01-17 11:07:15
+2026-01-04T12:13:15.872Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T12:13:15.872Z   Stream #0:4(ger): Subtitle: subrip (srt)
+2026-01-04T12:13:15.872Z       Metadata:
+2026-01-04T12:13:15.872Z         title           : Deutsch
+2026-01-04T12:13:15.872Z         BPS-eng         : 96
+2026-01-04T12:13:15.872Z         DURATION-eng    : 00:21:13.355000000
+2026-01-04T12:13:15.872Z         NUMBER_OF_FRAMES-eng: 398
+2026-01-04T12:13:15.872Z         NUMBER_OF_BYTES-eng: 15292
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_APP-eng: mkvmerge v52.0.0 ('Secret For The Mad') 64-bit
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_DATE_UTC-eng: 2021-01-17 11:07:15
+2026-01-04T12:13:15.872Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T12:13:15.872Z   Stream #0:5(spa): Subtitle: subrip (srt)
+2026-01-04T12:13:15.872Z       Metadata:
+2026-01-04T12:13:15.872Z         title           : Español (Latinoamericano)
+2026-01-04T12:13:15.872Z         BPS-eng         : 87
+2026-01-04T12:13:15.872Z         DURATION-eng    : 00:21:10.311000000
+2026-01-04T12:13:15.872Z         NUMBER_OF_FRAMES-eng: 371
+2026-01-04T12:13:15.872Z         NUMBER_OF_BYTES-eng: 13836
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_APP-eng: mkvmerge v52.0.0 ('Secret For The Mad') 64-bit
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_DATE_UTC-eng: 2021-01-17 11:07:15
+2026-01-04T12:13:15.872Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T12:13:15.872Z   Stream #0:6(spa): Subtitle: subrip (srt)
+2026-01-04T12:13:15.872Z       Metadata:
+2026-01-04T12:13:15.872Z         title           : Español
+2026-01-04T12:13:15.872Z         BPS-eng         : 96
+2026-01-04T12:13:15.872Z         DURATION-eng    : 00:21:13.355000000
+2026-01-04T12:13:15.872Z         NUMBER_OF_FRAMES-eng: 398
+2026-01-04T12:13:15.872Z         NUMBER_OF_BYTES-eng: 15383
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_APP-eng: mkvmerge v52.0.0 ('Secret For The Mad') 64-bit
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_DATE_UTC-eng: 2021-01-17 11:07:15
+2026-01-04T12:13:15.872Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T12:13:15.872Z   Stream #0:7(fin): Subtitle: subrip (srt)
+2026-01-04T12:13:15.872Z       Metadata:
+2026-01-04T12:13:15.872Z         title           : Suomi
+2026-01-04T12:13:15.872Z         BPS-eng         : 66
+2026-01-04T12:13:15.872Z         DURATION-eng    : 00:21:13.731000000
+2026-01-04T12:13:15.872Z         NUMBER_OF_FRAMES-eng: 252
+2026-01-04T12:13:15.872Z         NUMBER_OF_BYTES-eng: 10664
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_APP-eng: mkvmerge v52.0.0 ('Secret For The Mad') 64-bit
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_DATE_UTC-eng: 2021-01-17 11:07:15
+2026-01-04T12:13:15.872Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T12:13:15.872Z   Stream #0:8(fre): Subtitle: subrip (srt)
+2026-01-04T12:13:15.872Z       Metadata:
+2026-01-04T12:13:15.872Z         title           : Français (Canadien)
+2026-01-04T12:13:15.872Z         BPS-eng         : 98
+2026-01-04T12:13:15.872Z         DURATION-eng    : 00:21:09.727000000
+2026-01-04T12:13:15.872Z         NUMBER_OF_FRAMES-eng: 419
+2026-01-04T12:13:15.872Z         NUMBER_OF_BYTES-eng: 15565
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_APP-eng: mkvmerge v52.0.0 ('Secret For The Mad') 64-bit
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_DATE_UTC-eng: 2021-01-17 11:07:15
+2026-01-04T12:13:15.872Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T12:13:15.872Z   Stream #0:9(fre): Subtitle: subrip (srt)
+2026-01-04T12:13:15.872Z       Metadata:
+2026-01-04T12:13:15.872Z         title           : Français
+2026-01-04T12:13:15.872Z         BPS-eng         : 81
+2026-01-04T12:13:15.872Z         DURATION-eng    : 00:21:03.804000000
+2026-01-04T12:13:15.872Z         NUMBER_OF_FRAMES-eng: 359
+2026-01-04T12:13:15.872Z         NUMBER_OF_BYTES-eng: 
+2026-01-04T12:13:15.872Z 12870
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_APP-eng: mkvmerge v52.0.0 ('Secret For The Mad') 64-bit
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_DATE_UTC-eng: 2021-01-17 11:07:15
+2026-01-04T12:13:15.872Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T12:13:15.872Z   Stream #0:10(ita): Subtitle: subrip (srt)
+2026-01-04T12:13:15.872Z       Metadata:
+2026-01-04T12:13:15.872Z         title           : Italiano
+2026-01-04T12:13:15.872Z         BPS-eng         : 92
+2026-01-04T12:13:15.872Z         DURATION-eng    : 00:21:13.355000000
+2026-01-04T12:13:15.872Z         NUMBER_OF_FRAMES-eng: 395
+2026-01-04T12:13:15.872Z         NUMBER_OF_BYTES-eng: 14800
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_APP-eng: mkvmerge v52.0.0 ('Secret For The Mad') 64-bit
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_DATE_UTC-eng: 2021-01-17 11:07:15
+2026-01-04T12:13:15.872Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T12:13:15.872Z   Stream #0:11(dut): Subtitle: subrip (srt)
+2026-01-04T12:13:15.872Z       Metadata:
+2026-01-04T12:13:15.872Z         title           : Nederlands
+2026-01-04T12:13:15.872Z         BPS-eng         : 78
+2026-01-04T12:13:15.872Z         DURATION-eng    : 00:21:10.311000000
+2026-01-04T12:13:15.872Z         NUMBER_OF_FRAMES-eng: 372
+2026-01-04T12:13:15.872Z         NUMBER_OF_BYTES-eng: 12443
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_APP-eng: mkvmerge v52.0.0 ('Secret For The Mad') 64-bit
+2026-01-04T12:13:15.872Z 
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_DATE_UTC-eng: 2021-01-17 11:07:15
+2026-01-04T12:13:15.872Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T12:13:15.872Z   Stream #0:12(nor): Subtitle: subrip (srt)
+2026-01-04T12:13:15.872Z       Metadata:
+2026-01-04T12:13:15.872Z         title           : Norsk
+2026-01-04T12:13:15.872Z         BPS-eng         : 84
+2026-01-04T12:13:15.872Z         DURATION-eng    : 00:21:10.144000000
+2026-01-04T12:13:15.872Z         NUMBER_OF_FRAMES-eng: 394
+2026-01-04T12:13:15.872Z         NUMBER_OF_BYTES-eng: 13366
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_APP-eng: mkvmerge v52.0.0 ('Secret For The Mad') 64-bit
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_DATE_UTC-eng: 2021-01-17 11:07:15
+2026-01-04T12:13:15.872Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T12:13:15.872Z   Stream #0:13(por): Subtitle: subrip (srt)
+2026-01-04T12:13:15.872Z       Metadata:
+2026-01-04T12:13:15.872Z         title           : Português
+2026-01-04T12:13:15.872Z         BPS-eng         : 90
+2026-01-04T12:13:15.872Z         DURATION-eng    : 00:21:13.355000000
+2026-01-04T12:13:15.872Z         NUMBER_OF_FRAMES-eng: 396
+2026-01-04T12:13:15.872Z         NUMBER_OF_BYTES-eng: 14326
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_APP-eng: mkvmerge v52.0.0 ('Secret For The Mad') 64-bit
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_DATE_UTC-eng: 2021-01-17 11:07:15
+2026-01-04T12:13:15.872Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T12:13:15.872Z   Stream #0:14(swe): Subtitle: subrip (srt)
+2026-01-04T12:13:15.872Z       Metadata:
+2026-01-04T12:13:15.872Z         title           : Svenska
+2026-01-04T12:13:15.872Z         BPS-eng         : 89
+2026-01-04T12:13:15.872Z         DURATION-eng    : 00:21:10.144000000
+2026-01-04T12:13:15.872Z         NUMBER_OF_FRAMES-eng: 395
+2026-01-04T12:13:15.872Z         NUMBER_OF_BYTES-eng: 14219
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_APP-eng: mkvmerge v52.0.0 ('Secret For The Mad') 64-bit
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_DATE_UTC-eng: 2021-01-17 11:07:15
+2026-01-04T12:13:15.872Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T12:13:15.872Z 
+2026-01-04T12:13:15.872Z   Stream #0:15(ger): Subtitle: subrip (srt)
+2026-01-04T12:13:15.872Z       Metadata:
+2026-01-04T12:13:15.872Z         title           : Deutsch (Signs-&-Songs)
+2026-01-04T12:13:15.872Z         BPS-eng         : 3
+2026-01-04T12:13:15.872Z         DURATION-eng    : 00:21:13.355000000
+2026-01-04T12:13:15.872Z         NUMBER_OF_FRAMES-eng: 23
+2026-01-04T12:13:15.872Z         NUMBER_OF_BYTES-eng: 581
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_APP-eng: mkvmerge v52.0.0 ('Secret For The Mad') 64-bit
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_DATE_UTC-eng: 2021-01-17 11:07:15
+2026-01-04T12:13:15.872Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T12:13:15.872Z   Stream #0:16(spa): Subtitle: subrip (srt)
+2026-01-04T12:13:15.872Z       Metadata:
+2026-01-04T12:13:15.872Z         title           : Español (Signs-&-Songs)
+2026-01-04T12:13:15.872Z         BPS-eng         : 4
+2026-01-04T12:13:15.872Z         DURATION-eng    : 00:20:29.896000000
+2026-01-04T12:13:15.872Z         NUMBER_OF_FRAMES-eng: 25
+2026-01-04T12:13:15.872Z         NUMBER_OF_BYTES-eng: 732
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_APP-eng: 
+2026-01-04T12:13:15.872Z mkvmerge v52.0.0 ('Secret For The Mad') 64-bit
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_DATE_UTC-eng: 2021-01-17 11:07:15
+2026-01-04T12:13:15.872Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T12:13:15.872Z   Stream #0:17(fre): Subtitle: subrip (srt)
+2026-01-04T12:13:15.872Z       Metadata:
+2026-01-04T12:13:15.872Z         title           : Français (Signs-&-Songs)
+2026-01-04T12:13:15.872Z         BPS-eng         : 2
+2026-01-04T12:13:15.872Z         DURATION-eng    : 00:21:07.266000000
+2026-01-04T12:13:15.872Z         NUMBER_OF_FRAMES-eng: 17
+2026-01-04T12:13:15.872Z         NUMBER_OF_BYTES-eng: 455
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_APP-eng: mkvmerge v52.0.0 ('Secret For The Mad') 64-bit
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_DATE_UTC-eng: 2021-01-17 11:07:15
+2026-01-04T12:13:15.872Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T12:13:15.872Z   Stream #0:18(ita): Subtitle: subrip (srt)
+2026-01-04T12:13:15.872Z       Metadata:
+2026-01-04T12:13:15.872Z 
+2026-01-04T12:13:15.872Z         title           : Italiano (Signs-&-Songs)
+2026-01-04T12:13:15.872Z         BPS-eng         : 4
+2026-01-04T12:13:15.872Z         DURATION-eng    : 00:21:13.355000000
+2026-01-04T12:13:15.872Z         NUMBER_OF_FRAMES-eng: 21
+2026-01-04T12:13:15.872Z         NUMBER_OF_BYTES-eng: 641
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_APP-eng: mkvmerge v52.0.0 ('Secret For The Mad') 64-bit
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_DATE_UTC-eng: 2021-01-17 11:07:15
+2026-01-04T12:13:15.872Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T12:13:15.872Z   Stream #0:19(por): Subtitle: subrip (srt)
+2026-01-04T12:13:15.872Z       Metadata:
+2026-01-04T12:13:15.872Z         title           : Português (Signs-&-Songs)
+2026-01-04T12:13:15.872Z         BPS-eng         : 1
+2026-01-04T12:13:15.872Z         DURATION-eng    : 00:16:37.622000000
+2026-01-04T12:13:15.872Z         NUMBER_OF_FRAMES-eng: 7
+2026-01-04T12:13:15.872Z         NUMBER_OF_BYTES-eng: 179
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_APP-eng: mkvmerge v52.0.0 ('Secret For The Mad') 64-bit
+2026-01-04T12:13:15.872Z         _STATISTICS_WRITING_DATE_UTC-eng: 2021-01-17 11:07:15
+2026-01-04T12:13:15.872Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T12:13:15.872Z 
+2026-01-04T12:13:15.872Z [12:13:07] scan: decoding previews for title 1
+2026-01-04T12:13:15.872Z 
+2026-01-04T12:13:15.872Z [12:13:07] scan: audio 0x1: eac3, rate=48000Hz, bitrate=256000 English (E-AC3, 5.1 ch, 256 kbps)
+2026-01-04T12:13:15.872Z 
+2026-01-04T12:13:15.872Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T12:13:15.872Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T12:13:15.872Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T12:13:15.872Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T12:13:15.872Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T12:13:15.872Z Scanning title 1 of 1, preview 3, 30.00 %
+2026-01-04T12:13:15.872Z Scanning title 1 of 1, preview 3, 30.00 %
+2026-01-04T12:13:15.872Z Scanning title 1 of 1, preview 4, 40.00 %
+2026-01-04T12:13:15.872Z Scanning title 1 of 1, preview 4, 40.00 %
+2026-01-04T12:13:15.872Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-04T12:13:15.872Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-04T12:13:15.872Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-04T12:13:15.872Z Scanning title 1 of 1, preview 7, 70.00 %
+2026-01-04T12:13:15.872Z Scanning title 1 of 1, preview 7, 70.00 %
+2026-01-04T12:13:15.872Z Scanning title 1 of 1, preview 8, 80.00 %
+2026-01-04T12:13:15.872Z Scanning title 1 of 1, preview 8, 80.00 %
+2026-01-04T12:13:15.872Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T12:13:15.872Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T12:13:15.872Z Scanning title 1 of 1, preview 10, 100.00 %
+2026-01-04T12:13:15.872Z Scanning title 1 of 1, preview 10, 100.00 %
+2026-01-04T12:13:15.872Z [12:13:13] using container PAR 1:1
+2026-01-04T12:13:15.872Z [12:13:13] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1, color profile: 1-1-1, chroma location: left
+2026-01-04T12:13:15.872Z 
+2026-01-04T12:13:15.872Z [12:13:13] libhb: scan thread found 1 valid title(s)
+2026-01-04T12:13:15.872Z 
+2026-01-04T12:13:15.872Z + title 1:
+2026-01-04T12:13:15.872Z   + stream: /media/tv/The Simpsons/Season 30/The.Simpsons.S30E19.Girls.in.the.Band.1080p.DSNP.WEB-DL.DDP.5.1.H.264-PHOENiX.mkv
+2026-01-04T12:13:15.872Z   + duration: 00:21:33
+2026-01-04T12:13:15.872Z   + size: 1920x1080, pixel aspect: 1/1, display aspect: 1.78, 23.976 fps
+2026-01-04T12:13:15.872Z   + autocrop: 0/0/0/0
+2026-01-04T12:13:15.872Z   + chapters:
+2026-01-04T12:13:15.872Z     + 1: duration 00:21:33
+2026-01-04T12:13:15.872Z   + audio tracks:
+2026-01-04T12:13:15.872Z     + 1, English (E-AC3, 5.1 ch, 256 kbps) (iso639-2: eng)
+2026-01-04T12:13:15.872Z   + subtitle tracks:
+2026-01-04T12:13:15.872Z     + 1, English (UTF-8)
+2026-01-04T12:13:15.872Z     + 2, dansk (UTF-8)
+2026-01-04T12:13:15.872Z     + 3, Deutsch (UTF-8)
+2026-01-04T12:13:15.872Z     + 4, español (UTF-8)
+2026-01-04T12:13:15.872Z     + 5, español (UTF-8)
+2026-01-04T12:13:15.872Z     + 6, suomi (UTF-8)
+2026-01-04T12:13:15.872Z     + 7, Francais (UTF-8)
+2026-01-04T12:13:15.872Z     + 8, Francais (UTF-8)
+2026-01-04T12:13:15.872Z     + 9, italiano (UTF-8)
+2026-01-04T12:13:15.872Z     + 10, Nederlands (UTF-8)
+2026-01-04T12:13:15.872Z     + 11, norsk (UTF-8)
+2026-01-04T12:13:15.872Z     + 12, Portugues (UTF-8)
+2026-01-04T12:13:15.872Z     + 13, svenska (UTF-8)
+2026-01-04T12:13:15.872Z     + 14, Deutsch (UTF-8)
+2026-01-04T12:13:15.872Z     + 15, español (UTF-8)
+2026-01-04T12:13:15.872Z     + 16, Francais (UTF-8)
+2026-01-04T12:13:15.872Z     + 17, italiano (UTF-8)
+2026-01-04T12:13:15.872Z     + 18, Portugues (UTF-8)
+2026-01-04T12:13:15.872Z 
+2026-01-04T12:13:15.872Z HandBrake has exited.
+2026-01-04T12:13:15.872Z 
+2026-01-04T12:13:15.872Z 
+2026-01-04T12:13:15.872Z 
+2026-01-04T12:13:15.872Z 
+2026-01-04T12:13:15.872Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:[Step W06] [C1] Worker [-success-]
+2026-01-04T12:13:15.872Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:Worker success during processing
+2026-01-04T12:13:15.872Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:Updating healthcheck stats
+2026-01-04T12:13:15.873Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:[Step W10] Worker processing end
+2026-01-04T12:13:15.873Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:Subworker exited null
+2026-01-04T12:13:15.876Z Bl5rr3rY2gX:Node[MyInternalNode]:Worker[bulky-boar]:Successfully updated server with verdict: healthcheckSuccess

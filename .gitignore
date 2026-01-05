@@ -1,0 +1,33 @@
+# Exclude all data/media/cache directories
+**/cache/
+**/data/
+**/logs/
+**/tmp/
+**/.git/
+**/*.db
+**/*.db-*
+**/*.sqlite
+**/*.log
+**/node_modules/
+**/MediaCover/
+**/Backups/
+**/metadata/
+**/transcodes/
+**/Cache/
+**/Downloads/
+
+# Exclude Calibre library (books, not config)
+**/Calibre Library/
+**/Desktop/
+
+# Exclude ebook files
+**/*.epub
+**/*.mobi
+**/*.pdf
+**/*.azw*
+
+# Exclude files with secrets
+**/*secret*
+**/*token*
+**/*password*
+**/.env

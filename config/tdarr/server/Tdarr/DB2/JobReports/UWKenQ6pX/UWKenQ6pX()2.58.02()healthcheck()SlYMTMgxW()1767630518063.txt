@@ -1,0 +1,242 @@
+2026-01-05T10:28:40.235Z SlYMTMgxW:[Step S01] [2.58.02] Server relay initialising job
+2026-01-05T10:28:40.236Z SlYMTMgxW:Server: linux_x64_docker_true
+2026-01-05T10:28:40.236Z SlYMTMgxW:Server relay adding file to staged files
+2026-01-05T10:28:40.237Z SlYMTMgxW:Server relay sending job to Node relay: MyInternalNode
+2026-01-05T10:28:40.237Z SlYMTMgxW:Node[MyInternalNode]:[Step N01] [2.58.02] Node relay received job
+2026-01-05T10:28:40.237Z SlYMTMgxW:Node[MyInternalNode]:{"nodeName":"MyInternalNode","serverURL":"http://0.0.0.0:8266","serverIP":"0.0.0.0","serverPort":"8266","handbrakePath":"","ffmpegPath":"","mkvpropeditPath":"","pathTranslators":[{"server":"","node":""}],"nodeType":"mapped","unmappedNodeCache":"/app/unmappedNodeCache","logLevel":"INFO","priority":-1,"platform_arch_isdocker":"linux_x64_docker_true","processPid":700,"cronPluginUpdate":"","apiKey":"","maxLogSizeMB":"10","pollInterval":2000,"startPaused":false,"nodeID":"4GmtWdysA","seededWorkerLimits":{},"nodeRegisteredCount":1}
+2026-01-05T10:28:40.238Z SlYMTMgxW:Node[MyInternalNode]:Node relay sending job to worker:khaki-kiwi
+2026-01-05T10:28:40.238Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:[Step W01] Received file, original: "/media/movies/The Line (2024)/The.Line.2024.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-TRiToN.mkv"
+2026-01-05T10:28:40.238Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:{"workerType":"healthcheckcpu"}
+2026-01-05T10:28:40.238Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:{"ffmpegPath":"tdarr-ffmpeg"}
+2026-01-05T10:28:40.239Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:{"handbrakePath":"HandBrakeCLI"}
+2026-01-05T10:28:40.239Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:{"mkvpropeditPath":"mkvpropedit"}
+2026-01-05T10:28:40.239Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:{"gpuSelect":"-"}
+2026-01-05T10:28:40.240Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:{"allowGpuDoCpu":false}
+2026-01-05T10:28:40.240Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:{"thoroughHealthCheckCpuExtraInputArgs":""}
+2026-01-05T10:28:40.240Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:{"thoroughHealthCheckGpuExtraInputArgs":""}
+2026-01-05T10:28:40.240Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:{"thoroughHealthCheckCpuExtraArgs":""}
+2026-01-05T10:28:40.241Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:{"thoroughHealthCheckGpuExtraArgs":""}
+2026-01-05T10:28:40.241Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:{"logFullCliOutput":false}
+2026-01-05T10:28:40.241Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:{"runMkvpropedit":false}
+2026-01-05T10:28:40.241Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:{"dontCleanWorkerCacheFolder":false}
+2026-01-05T10:28:40.242Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:Path translating objects
+2026-01-05T10:28:40.242Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:Running path translator tests
+2026-01-05T10:28:40.242Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:Path translator tests passed
+2026-01-05T10:28:40.242Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:{"librarySettings":{"_id":"qNfK1K4g-","priority":0,"name":"Movies","folder":"/media/movies","foldersToIgnore":"","foldersToIgnoreCaseInsensitive":false,"folderWatchScanInterval":30,"scannerThreadCount":2,"cache":"/tmp","output":".","folderToFolderConversion":false,"folderToFolderConversionDeleteSource":false,"folderToFolderRecordHistory":true,"copyIfConditionsMet":false,"container":".mkv","containerFilter":"mkv,mp4,mov,m4v,mpg,mpeg,avi,flv,webm,wmv,vob,evo,iso,m2ts,ts","createdAt":1675837380368,"folderWatching":true,"useFsEvents":false,"scheduledScanFindNew":false,"processLibrary":true,"processTranscodes":true,"processHealthChecks":true,"scanOnStart":true,"exifToolScan":true,"mediaInfoScan":true,"ffprobeShowData":false,"isDirectoryLibrary":false,"closedCaptionScan":false,"scanButtons":true,"scanFound":"Files found:0","navItemSelected":"navSourceFolder","pluginIDs":[{"_id":"plugin1","id":"Tdarr_Plugin_MC93_MigzImageRemoval","checked":true,"source":"Community","priority":0,"InputsDB":{},"Name":"Migz Remove Image Formats From File","Type":"Video","Operation":"Transcode","Description":"Identify any unwanted image formats in the file and remove those streams. MJPEG, PNG & GIF \n\n","Version":"1.4","Stage":"Pre-processing","Tags":"pre-processing,ffmpeg,video only","Inputs":[],"source_id":"Community::Tdarr_Plugin_MC93_MigzImageRemoval"},{"_id":"plugin2","id":"Tdarr_Plugin_lmg1_Reorder_Streams","checked":true,"source":"Community","priority":1,"InputsDB":{},"Name":"Lmg1 Reorder Streams","Type":"Video","Operation":"Transcode","Description":"[Contains built-in filter] This plugin will move the video stream to the front so Tdarr will recognize the codec correctly.\n\n","Version":"1.00","Stage":"Pre-processing","Tags":"pre-processing,ffmpeg","Inputs":[],"source_id":"Community::Tdarr_Plugin_lmg1_Reorder_Streams"},{"_id":"plugin4","id":"Tdarr_Plugin_MC93_Migz1FFMPEG","checked":true,"source":"Community","priority":2,"InputsDB":{},"Name":"Migz Transcode Using Nvidia GPU & FFMPEG","Type":"Video","Operation":"Transcode","Description":"Files not in H265 will be transcoded into H265 using Nvidia GPU with ffmpeg.\n                  Settings are dependant on file bitrate\n                  Working by the logic that H265 can support the same ammount of data at half the bitrate of H264.\n                  NVDEC & NVENC compatable GPU required.\n                  This plugin will skip any files that are in the VP9 codec.","Version":"3.1","Stage":"Pre-processing","Tags":"pre-processing,ffmpeg,video only,nvenc h265,configurable","Inputs":[{"name":"container","type":"string","defaultValue":"mkv","inputUI":{"type":"text"},"tooltip":"Specify output container of file. Use 'original' wihout quotes to keep original container.\n                \\n Ensure that all stream types you may have are supported by your chosen container.\n                \\n mkv is recommended.\n                    \\nExample:\\n\n                    mkv\n\n                    \\nExample:\\n\n                    mp4\n                    \n                    \\nExample:\\n\n                    original"},{"name":"bitrate_cutoff","type":"string","defaultValue":"","inputUI":{"type":"text"},"tooltip":"Specify bitrate cutoff, files with a current bitrate lower then this will not be transcoded.\n               \\n Rate is in kbps.\n               \\n Leave empty to disable.\n                    \\nExample:\\n\n                    6000\n\n                    \\nExample:\\n\n                    4000"},{"name":"enable_10bit","type":"boolean","defaultValue":false,"inputUI":{"type":"dropdown","options":["false","true"]},"tooltip":"Specify if output file should be 10bit. Default is false.\n                    \\nExample:\\n\n                    true\n\n                    \\nExample:\\n\n                    false"},{"name":"enable_bframes","type":"boolean","defaultValue":false,"inputUI":{"type":"dropdown","options":["false","true"]},"tooltip":"Specify if b frames should be used.\n                 \\n Using B frames should decrease file sizes but are only supported on newer GPUs.\n                 \\n Default is false.\n                    \\nExample:\\n\n                    true\n\n                    \\nExample:\\n\n                    false"},{"name":"force_conform","type":"boolean","defaultValue":false,"inputUI":{"type":"dropdown","options":["false","true"]},"tooltip":"Make the file conform to output containers requirements.\n                \\n Drop hdmv_pgs_subtitle/eia_608/subrip/timed_id3 for MP4.\n                \\n Drop data streams/mov_text/eia_608/timed_id3 for MKV.\n                \\n Default is false.\n                    \\nExample:\\n\n                    true\n\n                    \\nExample:\\n\n                    false"}],"source_id":"Community::Tdarr_Plugin_MC93_Migz1FFMPEG"},{"_id":"plugin5","id":"Tdarr_Plugin_a9he_New_file_size_check","checked":true,"source":"Community","priority":3,"InputsDB":{},"Name":"New File Size Check","Type":"Video","Operation":"Transcode","Description":"Give an error if new file is not within the specified upper and lower bound limits \n\n","Version":"1.00","Stage":"Pre-processing","Tags":"","Inputs":[{"name":"upperBound","type":"number","defaultValue":110,"inputUI":{"type":"text"},"tooltip":"Enter the upper bound % size for the new file. For example, if '110' is entered, \n        then if the new file size is greater than 110% the size of the original, an error will be given."},{"name":"lowerBound","type":"number","defaultValue":40,"inputUI":{"type":"text"},"tooltip":"Enter the lower bound % size for the new file. For example, if '90' is entered, \n        then if the new file size is less than 90% of the original, an error will be given."}],"source_id":"Community::Tdarr_Plugin_a9he_New_file_size_check"}],"pluginCommunity":true,"handbrake":true,"ffmpeg":false,"handbrakescan":true,"ffmpegscan":false,"preset":"-Z \"Very Fast 1080p30\"","decisionMaker":{"settingsPlugin":true,"settingsFlows":false,"settingsVideo":false,"videoExcludeSwitch":true,"video_codec_names_exclude":[{"codec":"hevc","checked":false},{"codec":"h264","checked":true}],"video_size_range_include":{"min":0,"max":100000},"video_height_range_include":{"min":0,"max":3000},"video_width_range_include":{"min":0,"max":4000},"settingsAudio":false,"audioExcludeSwitch":true,"audio_codec_names_exclude":[{"codec":"mp3","checked":true},{"codec":"aac","checked":false}],"audio_size_range_include":{"min":0,"max":10}},"schedule":[{"_id":"Sun:00-01","checked":true},{"_id":"Sun:01-02","checked":true},{"_id":"Sun:02-03","checked":true},{"_id":"Sun:03-04","checked":true},{"_id":"Sun:04-05","checked":true},{"_id":"Sun:05-06","checked":true},{"_id":"Sun:06-07","checked":true},{"_id":"Sun:07-08","checked":true},{"_id":"Sun:08-09","checked":true},{"_id":"Sun:09-10","checked":true},{"_id":"Sun:10-11","checked":true},{"_id":"Sun:11-12","checked":true},{"_id":"Sun:12-13","checked":true},{"_id":"Sun:13-14","checked":true},{"_id":"Sun:14-15","checked":true},{"_id":"Sun:15-16","checked":true},{"_id":"Sun:16-17","checked":true},{"_id":"Sun:17-18","checked":true},{"_id":"Sun:18-19","checked":true},{"_id":"Sun:19-20","checked":true},{"_id":"Sun:20-21","checked":true},{"_id":"Sun:21-22","checked":true},{"_id":"Sun:22-23","checked":true},{"_id":"Sun:23-00","checked":true},{"_id":"Mon:00-01","checked":true},{"_id":"Mon:01-02","checked":true},{"_id":"Mon:02-03","checked":true},{"_id":"Mon:03-04","checked":true},{"_id":"Mon:04-05","checked":true},{"_id":"Mon:05-06","checked":true},{"_id":"Mon:06-07","checked":true},{"_id":"Mon:07-08","checked":true},{"_id":"Mon:08-09","checked":true},{"_id":"Mon:09-10","checked":true},{"_id":"Mon:10-11","checked":true},{"_id":"Mon:11-12","checked":true},{"_id":"Mon:12-13","checked":true},{"_id":"Mon:13-14","checked":true},{"_id":"Mon:14-15","checked":true},{"_id":"Mon:15-16","checked":true},{"_id":"Mon:16-17","checked":true},{"_id":"Mon:17-18","checked":true},{"_id":"Mon:18-19","checked":true},{"_id":"Mon:19-20","checked":true},{"_id":"Mon:20-21","checked":true},{"_id":"Mon:21-22","checked":true},{"_id":"Mon:22-23","checked":true},{"_id":"Mon:23-00","checked":true},{"_id":"Tue:00-01","checked":true},{"_id":"Tue:01-02","checked":true},{"_id":"Tue:02-03","checked":true},{"_id":"Tue:03-04","checked":true},{"_id":"Tue:04-05","checked":true},{"_id":"Tue:05-06","checked":true},{"_id":"Tue:06-07","checked":true},{"_id":"Tue:07-08","checked":true},{"_id":"Tue:08-09","checked":true},{"_id":"Tue:09-10","checked":true},{"_id":"Tue:10-11","checked":true},{"_id":"Tue:11-12","checked":true},{"_id":"Tue:12-13","checked":true},{"_id":"Tue:13-14","checked":true},{"_id":"Tue:14-15","checked":true},{"_id":"Tue:15-16","checked":true},{"_id":"Tue:16-17","checked":true},{"_id":"Tue:17-18","checked":true},{"_id":"Tue:18-19","checked":true},{"_id":"Tue:19-20","checked":true},{"_id":"Tue:20-21","checked":true},{"_id":"Tue:21-22","checked":true},{"_id":"Tue:22-23","checked":true},{"_id":"Tue:23-00","checked":true},{"_id":"Wed:00-01","checked":true},{"_id":"Wed:01-02","checked":true},{"_id":"Wed:02-03","checked":true},{"_id":"Wed:03-04","checked":true},{"_id":"Wed:04-05","checked":true},{"_id":"Wed:05-06","checked":true},{"_id":"Wed:06-07","checked":true},{"_id":"Wed:07-08","checked":true},{"_id":"Wed:08-09","checked":true},{"_id":"Wed:09-10","checked":true},{"_id":"Wed:10-11","checked":true},{"_id":"Wed:11-12","checked":true},{"_id":"Wed:12-13","checked":true},{"_id":"Wed:13-14","checked":true},{"_id":"Wed:14-15","checked":true},{"_id":"Wed:15-16","checked":true},{"_id":"Wed:16-17","checked":true},{"_id":"Wed:17-18","checked":true},{"_id":"Wed:18-19","checked":true},{"_id":"Wed:19-20","checked":true},{"_id":"Wed:20-21","checked":true},{"_id":"Wed:21-22","checked":true},{"_id":"Wed:22-23","checked":true},{"_id":"Wed:23-00","checked":true},{"_id":"Thur:00-01","checked":true},{"_id":"Thur:01-02","checked":true},{"_id":"Thur:02-03","checked":true},{"_id":"Thur:03-04","checked":true},{"_id":"Thur:04-05","checked":true},{"_id":"Thur:05-06","checked":true},{"_id":"Thur:06-07","checked":true},{"_id":"Thur:07-08","checked":true},{"_id":"Thur:08-09","checked":true},{"_id":"Thur:09-10","checked":true},{"_id":"Thur:10-11","checked":true},{"_id":"Thur:11-12","checked":true},{"_id":"Thur:12-13","checked":true},{"_id":"Thur:13-14","checked":true},{"_id":"Thur:14-15","checked":true},{"_id":"Thur:15-16","checked":true},{"_id":"Thur:16-17","checked":true},{"_id":"Thur:17-18","checked":true},{"_id":"Thur:18-19","checked":true},{"_id":"Thur:19-20","checked":true},{"_id":"Thur:20-21","checked":true},{"_id":"Thur:21-22","checked":true},{"_id":"Thur:22-23","checked":true},{"_id":"Thur:23-00","checked":true},{"_id":"Fri:00-01","checked":true},{"_id":"Fri:01-02","checked":true},{"_id":"Fri:02-03","checked":true},{"_id":"Fri:03-04","checked":true},{"_id":"Fri:04-05","checked":true},{"_id":"Fri:05-06","checked":true},{"_id":"Fri:06-07","checked":true},{"_id":"Fri:07-08","checked":true},{"_id":"Fri:08-09","checked":true},{"_id":"Fri:09-10","checked":true},{"_id":"Fri:10-11","checked":true},{"_id":"Fri:11-12","checked":true},{"_id":"Fri:12-13","checked":true},{"_id":"Fri:13-14","checked":true},{"_id":"Fri:14-15","checked":true},{"_id":"Fri:15-16","checked":true},{"_id":"Fri:16-17","checked":true},{"_id":"Fri:17-18","checked":true},{"_id":"Fri:18-19","checked":true},{"_id":"Fri:19-20","checked":true},{"_id":"Fri:20-21","checked":true},{"_id":"Fri:21-22","checked":true},{"_id":"Fri:22-23","checked":true},{"_id":"Fri:23-00","checked":true},{"_id":"Sat:00-01","checked":true},{"_id":"Sat:01-02","checked":true},{"_id":"Sat:02-03","checked":true},{"_id":"Sat:03-04","checked":true},{"_id":"Sat:04-05","checked":true},{"_id":"Sat:05-06","checked":true},{"_id":"Sat:06-07","checked":true},{"_id":"Sat:07-08","checked":true},{"_id":"Sat:08-09","checked":true},{"_id":"Sat:09-10","checked":true},{"_id":"Sat:10-11","checked":true},{"_id":"Sat:11-12","checked":true},{"_id":"Sat:12-13","checked":true},{"_id":"Sat:13-14","checked":true},{"_id":"Sat:14-15","checked":true},{"_id":"Sat:15-16","checked":true},{"_id":"Sat:16-17","checked":true},{"_id":"Sat:17-18","checked":true},{"_id":"Sat:18-19","checked":true},{"_id":"Sat:19-20","checked":true},{"_id":"Sat:20-21","checked":true},{"_id":"Sat:21-22","checked":true},{"_id":"Sat:22-23","checked":true},{"_id":"Sat:23-00","checked":true}],"totalHealthCheckCount":151,"totalTranscodeCount":8,"sizeDiff":0,"holdNewFiles":false,"holdFor":3600,"holdForDisplayUnit":"hours","pluginStackOverview":true,"filterResolutionsSkip":"","filterCodecsSkip":"","filterContainersSkip":"","processPluginsSequentially":true}}
+2026-01-05T10:28:40.243Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:Scanning original library file
+2026-01-05T10:28:40.243Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:{
+2026-01-05T10:28:40.243Z   "exifToolScan": true,
+2026-01-05T10:28:40.243Z   "mediaInfoScan": false,
+2026-01-05T10:28:40.243Z   "closedCaptionScan": false
+2026-01-05T10:28:40.243Z }
+2026-01-05T10:28:40.243Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:Node scanning file
+2026-01-05T10:28:41.243Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:Scan complete
+2026-01-05T10:28:41.244Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:Original file scanned
+2026-01-05T10:28:41.244Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:Source file to work on determined:"/media/movies/The Line (2024)/The.Line.2024.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-TRiToN.mkv"
+2026-01-05T10:28:41.245Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:[Step W02] [C1] Running pre-process file
+2026-01-05T10:28:41.245Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:Checking files can be accessed
+2026-01-05T10:28:41.245Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:mapped node, file is original, no need to download
+2026-01-05T10:28:41.245Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:Relevant paths can be accessed
+2026-01-05T10:28:41.246Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:Source file: "/media/movies/The Line (2024)/The.Line.2024.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-TRiToN.mkv"
+2026-01-05T10:28:41.246Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:[Step W03] [C1] Analysing file - running plugins
+2026-01-05T10:28:41.246Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:Handbrake healthcheck task, no need to scan for extra file details
+2026-01-05T10:28:41.246Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:Updating Node relay: Processing
+2026-01-05T10:28:41.247Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:[1/2] Checking file frame count
+2026-01-05T10:28:41.247Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:[2/2] Frame count 0
+2026-01-05T10:28:41.247Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:Determining healthcheck command
+2026-01-05T10:28:41.247Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:[Step W04] [C1] Preparing command
+2026-01-05T10:28:41.248Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:Cache file stem: "/tmp/tdarr-workDir2-SlYMTMgxW"
+2026-01-05T10:28:41.248Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:Cache file path: "/tmp/tdarr-workDir2-SlYMTMgxW/The.Line.2024.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-TRiToN-TdarrCacheFile-zWgJhgW2H.mp4"
+2026-01-05T10:28:41.248Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:Create transcode args
+2026-01-05T10:28:41.248Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:Args:  -i "/media/movies/The Line (2024)/The.Line.2024.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-TRiToN.mkv" -o /tmp/tdarr-workDir2-SlYMTMgxW/The.Line.2024.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-TRiToN-TdarrCacheFile-zWgJhgW2H.mp4 --scan
+2026-01-05T10:28:41.249Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:Getting source file size
+2026-01-05T10:28:41.249Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:Source file size: 20.154680979438126
+2026-01-05T10:28:41.249Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:Performing safety check on worker config to see if old transcode args/container match new ones
+2026-01-05T10:28:41.249Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:Safety check complete, all good
+2026-01-05T10:28:41.250Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:[Step W05] [C1] Launching subworker
+2026-01-05T10:28:41.250Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:Preparing to launch subworker
+2026-01-05T10:28:41.250Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:Subworker launched
+2026-01-05T10:28:41.250Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:[1/3] Sending command to subworker
+2026-01-05T10:28:41.251Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:[2/3] HandBrakeCLI -i "/media/movies/The Line (2024)/The.Line.2024.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-TRiToN.mkv" -o /tmp/tdarr-workDir2-SlYMTMgxW/The.Line.2024.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-TRiToN-TdarrCacheFile-zWgJhgW2H.mp4 --scan
+2026-01-05T10:28:41.251Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:[3/3] Command sent
+2026-01-05T10:28:41.251Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:To see live CLI output, enable 'Log full FFmpeg/HandBrake output' in the staging section on the Tdarr tab before the job starts. Note this could increase the job report size substantially.
+2026-01-05T10:28:41.251Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:Subworker:Online
+2026-01-05T10:28:41.252Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:Subworker:Receiving transcode settings
+2026-01-05T10:28:41.252Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:Subworker:Running CLI
+2026-01-05T10:28:45.254Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:Subworker:a.Thread closed, code: 0
+2026-01-05T10:28:45.255Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:Subworker exit approved, killing subworker
+2026-01-05T10:28:45.255Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:Subworker killed
+2026-01-05T10:28:45.256Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:b.Thread closed, code: 0
+2026-01-05T10:28:45.256Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:CLI code: 0
+2026-01-05T10:28:45.256Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:Last 200 lines of CLI log:
+2026-01-05T10:28:45.257Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:[10:28:38] Compile-time hardening features are enabled
+2026-01-05T10:28:45.257Z 
+2026-01-05T10:28:45.257Z [10:28:38] nvenc: version 12.2 is available
+2026-01-05T10:28:45.257Z [10:28:38] nvdec: is available
+2026-01-05T10:28:45.257Z 
+2026-01-05T10:28:45.257Z [10:28:38] CUDA Version: 6.1
+2026-01-05T10:28:45.257Z 
+2026-01-05T10:28:45.257Z [10:28:38] qsv: not available on this system
+2026-01-05T10:28:45.257Z 
+2026-01-05T10:28:45.257Z [10:28:38] hb_init: starting libhb thread
+2026-01-05T10:28:45.257Z [10:28:38] thread 7f751d7fe6c0 started ("libhb")
+2026-01-05T10:28:45.257Z HandBrake 1.10.2 (2025102400) - Linux x86_64 - https://handbrake.fr
+2026-01-05T10:28:45.257Z 16 CPUs detected
+2026-01-05T10:28:45.257Z 
+2026-01-05T10:28:45.257Z Opening /media/movies/The Line (2024)/The.Line.2024.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-TRiToN.mkv...
+2026-01-05T10:28:45.257Z 
+2026-01-05T10:28:45.257Z [10:28:38] CPU: Common KVM processor
+2026-01-05T10:28:45.257Z [10:28:38]  - logical processor count: 16
+2026-01-05T10:28:45.257Z [10:28:38] Intel Quick Sync Video support: no
+2026-01-05T10:28:45.257Z [10:28:38] hb_scan: path=/media/movies/The Line (2024)/The.Line.2024.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-TRiToN.mkv, title_index=1
+2026-01-05T10:28:45.257Z 
+2026-01-05T10:28:45.257Z Input #0, matroska,webm, from '/media/movies/The Line (2024)/The.Line.2024.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-TRiToN.mkv':
+2026-01-05T10:28:45.257Z   Metadata:
+2026-01-05T10:28:45.257Z     title           : The Line (2024)
+2026-01-05T10:28:45.257Z     encoder         : libebml v1.4.5 + libmatroska v1.7.1
+2026-01-05T10:28:45.257Z     creation_time   : 2025-02-05T05:47:26.000000Z
+2026-01-05T10:28:45.257Z     IMDB            : tt10092170
+2026-01-05T10:28:45.257Z     TMDB            : movie/931107
+2026-01-05T10:28:45.257Z   Duration: 01:40:48.08, start: 0.000000, bitrate: 28625 kb/s
+2026-01-05T10:28:45.257Z   Chapters:
+2026-01-05T10:28:45.257Z     Chapter #0:0: start 0.000000, end 418.126000
+2026-01-05T10:28:45.257Z       Metadata:
+2026-01-05T10:28:45.257Z         title           : Chapter 01
+2026-01-05T10:28:45.257Z     Chapter #0:1: 
+2026-01-05T10:28:45.257Z start 418.126000, end 1317.358000
+2026-01-05T10:28:45.257Z       Metadata:
+2026-01-05T10:28:45.257Z         title           : Chapter 02
+2026-01-05T10:28:45.257Z     Chapter #0:2: start 1317.358000, end 2048.713000
+2026-01-05T10:28:45.257Z       Metadata:
+2026-01-05T10:28:45.257Z         title           : Chapter 03
+2026-01-05T10:28:45.257Z     Chapter #0:3: start 2048.713000, end 2949.196000
+2026-01-05T10:28:45.257Z       Metadata:
+2026-01-05T10:28:45.257Z         title           : Chapter 04
+2026-01-05T10:28:45.257Z     Chapter #0:4: start 2949.196000, end 3984.105000
+2026-01-05T10:28:45.257Z       Metadata:
+2026-01-05T10:28:45.257Z         title           : Chapter 05
+2026-01-05T10:28:45.257Z     Chapter #0:5: start 3984.105000, end 4703.574000
+2026-01-05T10:28:45.257Z       Metadata:
+2026-01-05T10:28:45.257Z         title           : Chapter 06
+2026-01-05T10:28:45.257Z     Chapter #0:6: start 4703.574000, end 5523.893000
+2026-01-05T10:28:45.257Z       Metadata:
+2026-01-05T10:28:45.257Z         title           : Chapter 07
+2026-01-05T10:28:45.257Z     Chapter #0:7: start 5523.893000, end 6048.084000
+2026-01-05T10:28:45.257Z       Metadata:
+2026-01-05T10:28:45.257Z         title           : Chapter 08
+2026-01-05T10:28:45.257Z   Stream #0:0(zxx): Video: h264 (High), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+2026-01-05T10:28:45.257Z       Metadata:
+2026-01-05T10:28:45.257Z         title           : MPEG-4 AVC Video / 26470 kbps / 1080p / 23.976 fps / 16:9 / High Profile 4.1
+2026-01-05T10:28:45.257Z         BPS             : 26470020
+2026-01-05T10:28:45.257Z         DURATION        : 01:40:48.084000000
+2026-01-05T10:28:45.257Z         NUMBER_OF_FRAMES: 145009
+2026-01-05T10:28:45.257Z         NUMBER_OF_BYTES : 20011613456
+2026-01-05T10:28:45.257Z         _STATISTICS_WRITING_APP: mkvmerge v89.0 ('And the Melody Still Lingers On (Night in Tunisia)') 64-bit
+2026-01-05T10:28:45.257Z         _STATISTICS_WRITING_DATE_UTC: 2025-02-05 05:47:26
+2026-01-05T10:28:45.257Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-05T10:28:45.257Z   Stream #0:1(eng): Audio: dts (dca) (DTS-HD MA), 48000 Hz, 5.1(side), s16p (default)
+2026-01-05T10:28:45.257Z       Metadata:
+2026-01-05T10:28:45.257Z         title           : 
+2026-01-05T10:28:45.257Z DTS-HD Master Audio / 5.1 / 48 kHz / 1910 kbps / 16-bit
+2026-01-05T10:28:45.257Z         BPS             : 1910326
+2026-01-05T10:28:45.257Z         DURATION        : 01:40:48.043000000
+2026-01-05T10:28:45.257Z         NUMBER_OF_FRAMES: 567004
+2026-01-05T10:28:45.257Z         NUMBER_OF_BYTES : 1444217432
+2026-01-05T10:28:45.257Z         _STATISTICS_WRITING_APP: mkvmerge v89.0 ('And the Melody Still Lingers On (Night in Tunisia)') 64-bit
+2026-01-05T10:28:45.257Z         _STATISTICS_WRITING_DATE_UTC: 2025-02-05 05:47:26
+2026-01-05T10:28:45.257Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-05T10:28:45.257Z   Stream #0:2(eng): Audio: ac3, 48000 Hz, stereo, fltp, 192 kb/s (original) (comment)
+2026-01-05T10:28:45.257Z       Metadata:
+2026-01-05T10:28:45.257Z         title           : Commentary by Writer/Director Ethan Berger
+2026-01-05T10:28:45.257Z         BPS             : 192000
+2026-01-05T10:28:45.257Z         DURATION        : 01:40:48.064000000
+2026-01-05T10:28:45.257Z         NUMBER_OF_FRAMES: 189002
+2026-01-05T10:28:45.257Z         NUMBER_OF_BYTES : 145153536
+2026-01-05T10:28:45.257Z         _STATISTICS_WRITING_APP: mkvmerge v89.0 ('And the Melody Still Lingers On (Night in Tunisia)') 64-bit
+2026-01-05T10:28:45.257Z         _STATISTICS_WRITING_DATE_UTC: 
+2026-01-05T10:28:45.257Z 2025-02-05 05:47:26
+2026-01-05T10:28:45.257Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-05T10:28:45.257Z   Stream #0:3(eng): Subtitle: subrip (srt)
+2026-01-05T10:28:45.257Z       Metadata:
+2026-01-05T10:28:45.257Z         BPS             : 80
+2026-01-05T10:28:45.257Z         DURATION        : 01:37:05.026000000
+2026-01-05T10:28:45.257Z         NUMBER_OF_FRAMES: 1814
+2026-01-05T10:28:45.257Z         NUMBER_OF_BYTES : 58707
+2026-01-05T10:28:45.257Z         _STATISTICS_WRITING_APP: mkvmerge v89.0 ('And the Melody Still Lingers On (Night in Tunisia)') 64-bit
+2026-01-05T10:28:45.257Z         _STATISTICS_WRITING_DATE_UTC: 2025-02-05 05:47:26
+2026-01-05T10:28:45.257Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-05T10:28:45.257Z   Stream #0:4(eng): Subtitle: hdmv_pgs_subtitle (pgssub), 1920x1080
+2026-01-05T10:28:45.257Z       Metadata:
+2026-01-05T10:28:45.257Z         title           : SDH
+2026-01-05T10:28:45.257Z         BPS             : 48681
+2026-01-05T10:28:45.257Z         DURATION        : 01:40:03.956000000
+2026-01-05T10:28:45.257Z         NUMBER_OF_FRAMES: 2720
+2026-01-05T10:28:45.257Z         NUMBER_OF_BYTES : 36535125
+2026-01-05T10:28:45.257Z         _STATISTICS_WRITING_APP: mkvmerge v89.0 ('And the Melody Still Lingers On (Night in Tunisia)') 64-bit
+2026-01-05T10:28:45.257Z         _STATISTICS_WRITING_DATE_UTC: 2025-02-05 05:47:26
+2026-01-05T10:28:45.257Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-05T10:28:45.257Z   Stream #0:5(eng): Subtitle: subrip (srt)
+2026-01-05T10:28:45.257Z       Metadata:
+2026-01-05T10:28:45.257Z         title           : SDH - Amazon
+2026-01-05T10:28:45.257Z         BPS             : 88
+2026-01-05T10:28:45.257Z         DURATION        : 01:40:03.336000000
+2026-01-05T10:28:45.257Z         NUMBER_OF_FRAMES: 2078
+2026-01-05T10:28:45.257Z         NUMBER_OF_BYTES : 66553
+2026-01-05T10:28:45.257Z         _STATISTICS_WRITING_APP: mkvmerge v89.0 ('And the Melody Still Lingers On (Night in Tunisia)') 64-bit
+2026-01-05T10:28:45.257Z         _STATISTICS_WRITING_DATE_UTC: 2025-02-05 05:47:26
+2026-01-05T10:28:45.257Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-05T10:28:45.257Z 
+2026-01-05T10:28:45.257Z [10:28:38] scan: decoding previews for title 1
+2026-01-05T10:28:45.257Z 
+2026-01-05T10:28:45.257Z [10:28:38] scan: audio 0x1: dca, rate=48000Hz, bitrate=1 English (DTS-HD MA, 5.1 ch)
+2026-01-05T10:28:45.257Z 
+2026-01-05T10:28:45.257Z [10:28:38] scan: audio 0x2: ac3, rate=48000Hz, bitrate=192000 English (AC3, 2.0 ch, 192 kbps)
+2026-01-05T10:28:45.257Z 
+2026-01-05T10:28:45.257Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-05T10:28:45.257Z Scanning title 1 of 1, preview 3, 30.00 %
+2026-01-05T10:28:45.257Z Scanning title 1 of 1, preview 4, 40.00 %
+2026-01-05T10:28:45.257Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-05T10:28:45.257Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-05T10:28:45.257Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-05T10:28:45.257Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-05T10:28:45.257Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-05T10:28:45.257Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-05T10:28:45.257Z Scanning title 1 of 1, preview 8, 80.00 %
+2026-01-05T10:28:45.257Z [10:28:42] using container PAR 1:1
+2026-01-05T10:28:45.257Z [10:28:42] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 22/22/0/0, aspect 16:9, PAR 1:1, color profile: 1-1-1, chroma location: left
+2026-01-05T10:28:45.257Z 
+2026-01-05T10:28:45.257Z [10:28:42] libhb: scan thread found 1 valid title(s)
+2026-01-05T10:28:45.257Z 
+2026-01-05T10:28:45.257Z + title 1:
+2026-01-05T10:28:45.257Z   + stream: /media/movies/The Line (2024)/The.Line.2024.1080p.BluRay.REMUX.AVC.DTS-HD.MA.5.1-TRiToN.mkv
+2026-01-05T10:28:45.257Z   + duration: 01:40:48
+2026-01-05T10:28:45.257Z   + size: 1920x1080, pixel aspect: 1/1, display aspect: 1.78, 23.976 fps
+2026-01-05T10:28:45.257Z   + autocrop: 22/22/0/0
+2026-01-05T10:28:45.257Z   + chapters:
+2026-01-05T10:28:45.257Z     + 1: duration 00:06:58
+2026-01-05T10:28:45.257Z     + 2: duration 00:14:59
+2026-01-05T10:28:45.257Z     + 3: duration 00:12:11
+2026-01-05T10:28:45.257Z     + 4: duration 00:15:00
+2026-01-05T10:28:45.257Z     + 5: duration 00:17:15
+2026-01-05T10:28:45.257Z     + 6: duration 00:11:59
+2026-01-05T10:28:45.257Z     + 7: duration 00:13:40
+2026-01-05T10:28:45.257Z     + 8: duration 00:08:44
+2026-01-05T10:28:45.257Z   + audio tracks:
+2026-01-05T10:28:45.257Z     + 1, English (DTS-HD MA, 5.1 ch) (iso639-2: eng)
+2026-01-05T10:28:45.257Z     + 2, English (AC3, 2.0 ch, 192 kbps) (iso639-2: eng), 48000Hz, 192000bps
+2026-01-05T10:28:45.257Z   + subtitle tracks:
+2026-01-05T10:28:45.257Z     + 1, English (UTF-8)
+2026-01-05T10:28:45.257Z     + 2, English (PGS)
+2026-01-05T10:28:45.257Z     + 3, English (UTF-8)
+2026-01-05T10:28:45.257Z 
+2026-01-05T10:28:45.257Z HandBrake has exited.
+2026-01-05T10:28:45.257Z 
+2026-01-05T10:28:45.257Z 
+2026-01-05T10:28:45.257Z 
+2026-01-05T10:28:45.257Z 
+2026-01-05T10:28:45.257Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:[Step W06] [C1] Worker [-success-]
+2026-01-05T10:28:45.258Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:Worker success during processing
+2026-01-05T10:28:45.258Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:Updating healthcheck stats
+2026-01-05T10:28:45.258Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:[Step W10] Worker processing end
+2026-01-05T10:28:45.258Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:Subworker exited null
+2026-01-05T10:28:45.259Z SlYMTMgxW:Node[MyInternalNode]:Worker[khaki-kiwi]:Successfully updated server with verdict: healthcheckSuccess

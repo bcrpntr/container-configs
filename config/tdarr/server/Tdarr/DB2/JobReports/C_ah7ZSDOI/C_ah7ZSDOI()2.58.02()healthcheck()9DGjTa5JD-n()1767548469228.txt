@@ -1,0 +1,521 @@
+2026-01-04T11:41:12.038Z 9DGjTa5JD-n:[Step S01] [2.58.02] Server relay initialising job
+2026-01-04T11:41:12.039Z 9DGjTa5JD-n:Server: linux_x64_docker_true
+2026-01-04T11:41:12.039Z 9DGjTa5JD-n:Server relay adding file to staged files
+2026-01-04T11:41:12.039Z 9DGjTa5JD-n:Server relay sending job to Node relay: MyInternalNode
+2026-01-04T11:41:12.039Z 9DGjTa5JD-n:Node[MyInternalNode]:[Step N01] [2.58.02] Node relay received job
+2026-01-04T11:41:12.040Z 9DGjTa5JD-n:Node[MyInternalNode]:{"nodeName":"MyInternalNode","serverURL":"http://0.0.0.0:8266","serverIP":"0.0.0.0","serverPort":"8266","handbrakePath":"","ffmpegPath":"","mkvpropeditPath":"","pathTranslators":[{"server":"","node":""}],"nodeType":"mapped","unmappedNodeCache":"/app/unmappedNodeCache","logLevel":"INFO","priority":-1,"platform_arch_isdocker":"linux_x64_docker_true","processPid":664,"cronPluginUpdate":"","apiKey":"","maxLogSizeMB":"10","pollInterval":2000,"startPaused":false,"nodeID":"-2RaUzM4Y","seededWorkerLimits":{},"nodeRegisteredCount":1}
+2026-01-04T11:41:12.040Z 9DGjTa5JD-n:Node[MyInternalNode]:Node relay sending job to worker:easy-erne
+2026-01-04T11:41:12.040Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:[Step W01] Received file, original: "/media/tv/Stranger Things/Season 5/Stranger.Things.S05E05.Chapter.Five.Shock.Jock.1080p.NF.WEB-DL.DD+5.1.Atmos.H.264-playWEB.mkv"
+2026-01-04T11:41:12.041Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:{"workerType":"healthcheckcpu"}
+2026-01-04T11:41:12.041Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:{"ffmpegPath":"tdarr-ffmpeg"}
+2026-01-04T11:41:12.041Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:{"handbrakePath":"HandBrakeCLI"}
+2026-01-04T11:41:12.042Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:{"mkvpropeditPath":"mkvpropedit"}
+2026-01-04T11:41:12.042Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:{"gpuSelect":"-"}
+2026-01-04T11:41:12.042Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:{"allowGpuDoCpu":false}
+2026-01-04T11:41:12.042Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:{"thoroughHealthCheckCpuExtraInputArgs":""}
+2026-01-04T11:41:12.043Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:{"thoroughHealthCheckGpuExtraInputArgs":""}
+2026-01-04T11:41:12.043Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:{"thoroughHealthCheckCpuExtraArgs":""}
+2026-01-04T11:41:12.044Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:{"thoroughHealthCheckGpuExtraArgs":""}
+2026-01-04T11:41:12.044Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:{"logFullCliOutput":false}
+2026-01-04T11:41:12.044Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:{"runMkvpropedit":false}
+2026-01-04T11:41:12.045Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:{"dontCleanWorkerCacheFolder":false}
+2026-01-04T11:41:12.045Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:Path translating objects
+2026-01-04T11:41:12.046Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:Running path translator tests
+2026-01-04T11:41:12.046Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:Path translator tests passed
+2026-01-04T11:41:12.047Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:{"librarySettings":{"_id":"KU0woozLb","priority":1,"name":"TV Shows","folder":"/media/tv","foldersToIgnore":"","foldersToIgnoreCaseInsensitive":false,"folderWatchScanInterval":30,"scannerThreadCount":2,"cache":"/tmp","output":".","folderToFolderConversion":false,"folderToFolderConversionDeleteSource":false,"folderToFolderRecordHistory":true,"copyIfConditionsMet":false,"container":".mkv","containerFilter":"mkv,mp4,mov,m4v,mpg,mpeg,avi,flv,webm,wmv,vob,evo,iso,m2ts,ts","createdAt":1675837380368,"folderWatching":false,"useFsEvents":false,"scheduledScanFindNew":false,"processLibrary":true,"processTranscodes":true,"processHealthChecks":true,"scanOnStart":false,"exifToolScan":true,"mediaInfoScan":true,"ffprobeShowData":false,"isDirectoryLibrary":false,"closedCaptionScan":false,"scanButtons":true,"scanFound":"Files found:0","navItemSelected":"navSourceFolder","pluginIDs":[{"_id":"plugin1","id":"Tdarr_Plugin_MC93_MigzImageRemoval","checked":true,"source":"Community","priority":0,"InputsDB":{}},{"_id":"plugin2","id":"Tdarr_Plugin_lmg1_Reorder_Streams","checked":true,"source":"Community","priority":1,"InputsDB":{}},{"_id":"plugin4","id":"Tdarr_Plugin_MC93_Migz1FFMPEG","checked":true,"source":"Community","priority":2,"InputsDB":{}},{"_id":"plugin5","id":"Tdarr_Plugin_a9he_New_file_size_check","checked":true,"source":"Community","priority":3,"InputsDB":{}}],"pluginCommunity":true,"handbrake":true,"ffmpeg":false,"handbrakescan":true,"ffmpegscan":false,"preset":"-Z \"Very Fast 1080p30\"","decisionMaker":{"settingsPlugin":true,"settingsFlows":false,"settingsVideo":false,"videoExcludeSwitch":true,"video_codec_names_exclude":[{"codec":"hevc","checked":false},{"codec":"h264","checked":true}],"video_size_range_include":{"min":0,"max":100000},"video_height_range_include":{"min":0,"max":3000},"video_width_range_include":{"min":0,"max":4000},"settingsAudio":false,"audioExcludeSwitch":true,"audio_codec_names_exclude":[{"codec":"mp3","checked":true},{"codec":"aac","checked":false}],"audio_size_range_include":{"min":0,"max":10}},"schedule":[{"_id":"Sun:00-01","checked":true},{"_id":"Sun:01-02","checked":true},{"_id":"Sun:02-03","checked":true},{"_id":"Sun:03-04","checked":true},{"_id":"Sun:04-05","checked":true},{"_id":"Sun:05-06","checked":true},{"_id":"Sun:06-07","checked":true},{"_id":"Sun:07-08","checked":true},{"_id":"Sun:08-09","checked":true},{"_id":"Sun:09-10","checked":true},{"_id":"Sun:10-11","checked":true},{"_id":"Sun:11-12","checked":true},{"_id":"Sun:12-13","checked":true},{"_id":"Sun:13-14","checked":true},{"_id":"Sun:14-15","checked":true},{"_id":"Sun:15-16","checked":true},{"_id":"Sun:16-17","checked":true},{"_id":"Sun:17-18","checked":true},{"_id":"Sun:18-19","checked":true},{"_id":"Sun:19-20","checked":true},{"_id":"Sun:20-21","checked":true},{"_id":"Sun:21-22","checked":true},{"_id":"Sun:22-23","checked":true},{"_id":"Sun:23-00","checked":true},{"_id":"Mon:00-01","checked":true},{"_id":"Mon:01-02","checked":true},{"_id":"Mon:02-03","checked":true},{"_id":"Mon:03-04","checked":true},{"_id":"Mon:04-05","checked":true},{"_id":"Mon:05-06","checked":true},{"_id":"Mon:06-07","checked":true},{"_id":"Mon:07-08","checked":true},{"_id":"Mon:08-09","checked":true},{"_id":"Mon:09-10","checked":true},{"_id":"Mon:10-11","checked":true},{"_id":"Mon:11-12","checked":true},{"_id":"Mon:12-13","checked":true},{"_id":"Mon:13-14","checked":true},{"_id":"Mon:14-15","checked":true},{"_id":"Mon:15-16","checked":true},{"_id":"Mon:16-17","checked":true},{"_id":"Mon:17-18","checked":true},{"_id":"Mon:18-19","checked":true},{"_id":"Mon:19-20","checked":true},{"_id":"Mon:20-21","checked":true},{"_id":"Mon:21-22","checked":true},{"_id":"Mon:22-23","checked":true},{"_id":"Mon:23-00","checked":true},{"_id":"Tue:00-01","checked":true},{"_id":"Tue:01-02","checked":true},{"_id":"Tue:02-03","checked":true},{"_id":"Tue:03-04","checked":true},{"_id":"Tue:04-05","checked":true},{"_id":"Tue:05-06","checked":true},{"_id":"Tue:06-07","checked":true},{"_id":"Tue:07-08","checked":true},{"_id":"Tue:08-09","checked":true},{"_id":"Tue:09-10","checked":true},{"_id":"Tue:10-11","checked":true},{"_id":"Tue:11-12","checked":true},{"_id":"Tue:12-13","checked":true},{"_id":"Tue:13-14","checked":true},{"_id":"Tue:14-15","checked":true},{"_id":"Tue:15-16","checked":true},{"_id":"Tue:16-17","checked":true},{"_id":"Tue:17-18","checked":true},{"_id":"Tue:18-19","checked":true},{"_id":"Tue:19-20","checked":true},{"_id":"Tue:20-21","checked":true},{"_id":"Tue:21-22","checked":true},{"_id":"Tue:22-23","checked":true},{"_id":"Tue:23-00","checked":true},{"_id":"Wed:00-01","checked":true},{"_id":"Wed:01-02","checked":true},{"_id":"Wed:02-03","checked":true},{"_id":"Wed:03-04","checked":true},{"_id":"Wed:04-05","checked":true},{"_id":"Wed:05-06","checked":true},{"_id":"Wed:06-07","checked":true},{"_id":"Wed:07-08","checked":true},{"_id":"Wed:08-09","checked":true},{"_id":"Wed:09-10","checked":true},{"_id":"Wed:10-11","checked":true},{"_id":"Wed:11-12","checked":true},{"_id":"Wed:12-13","checked":true},{"_id":"Wed:13-14","checked":true},{"_id":"Wed:14-15","checked":true},{"_id":"Wed:15-16","checked":true},{"_id":"Wed:16-17","checked":true},{"_id":"Wed:17-18","checked":true},{"_id":"Wed:18-19","checked":true},{"_id":"Wed:19-20","checked":true},{"_id":"Wed:20-21","checked":true},{"_id":"Wed:21-22","checked":true},{"_id":"Wed:22-23","checked":true},{"_id":"Wed:23-00","checked":true},{"_id":"Thur:00-01","checked":true},{"_id":"Thur:01-02","checked":true},{"_id":"Thur:02-03","checked":true},{"_id":"Thur:03-04","checked":true},{"_id":"Thur:04-05","checked":true},{"_id":"Thur:05-06","checked":true},{"_id":"Thur:06-07","checked":true},{"_id":"Thur:07-08","checked":true},{"_id":"Thur:08-09","checked":true},{"_id":"Thur:09-10","checked":true},{"_id":"Thur:10-11","checked":true},{"_id":"Thur:11-12","checked":true},{"_id":"Thur:12-13","checked":true},{"_id":"Thur:13-14","checked":true},{"_id":"Thur:14-15","checked":true},{"_id":"Thur:15-16","checked":true},{"_id":"Thur:16-17","checked":true},{"_id":"Thur:17-18","checked":true},{"_id":"Thur:18-19","checked":true},{"_id":"Thur:19-20","checked":true},{"_id":"Thur:20-21","checked":true},{"_id":"Thur:21-22","checked":true},{"_id":"Thur:22-23","checked":true},{"_id":"Thur:23-00","checked":true},{"_id":"Fri:00-01","checked":true},{"_id":"Fri:01-02","checked":true},{"_id":"Fri:02-03","checked":true},{"_id":"Fri:03-04","checked":true},{"_id":"Fri:04-05","checked":true},{"_id":"Fri:05-06","checked":true},{"_id":"Fri:06-07","checked":true},{"_id":"Fri:07-08","checked":true},{"_id":"Fri:08-09","checked":true},{"_id":"Fri:09-10","checked":true},{"_id":"Fri:10-11","checked":true},{"_id":"Fri:11-12","checked":true},{"_id":"Fri:12-13","checked":true},{"_id":"Fri:13-14","checked":true},{"_id":"Fri:14-15","checked":true},{"_id":"Fri:15-16","checked":true},{"_id":"Fri:16-17","checked":true},{"_id":"Fri:17-18","checked":true},{"_id":"Fri:18-19","checked":true},{"_id":"Fri:19-20","checked":true},{"_id":"Fri:20-21","checked":true},{"_id":"Fri:21-22","checked":true},{"_id":"Fri:22-23","checked":true},{"_id":"Fri:23-00","checked":true},{"_id":"Sat:00-01","checked":true},{"_id":"Sat:01-02","checked":true},{"_id":"Sat:02-03","checked":true},{"_id":"Sat:03-04","checked":true},{"_id":"Sat:04-05","checked":true},{"_id":"Sat:05-06","checked":true},{"_id":"Sat:06-07","checked":true},{"_id":"Sat:07-08","checked":true},{"_id":"Sat:08-09","checked":true},{"_id":"Sat:09-10","checked":true},{"_id":"Sat:10-11","checked":true},{"_id":"Sat:11-12","checked":true},{"_id":"Sat:12-13","checked":true},{"_id":"Sat:13-14","checked":true},{"_id":"Sat:14-15","checked":true},{"_id":"Sat:15-16","checked":true},{"_id":"Sat:16-17","checked":true},{"_id":"Sat:17-18","checked":true},{"_id":"Sat:18-19","checked":true},{"_id":"Sat:19-20","checked":true},{"_id":"Sat:20-21","checked":true},{"_id":"Sat:21-22","checked":true},{"_id":"Sat:22-23","checked":true},{"_id":"Sat:23-00","checked":true}],"totalHealthCheckCount":426,"totalTranscodeCount":0,"sizeDiff":0,"holdNewFiles":false,"holdFor":3600,"holdForDisplayUnit":"hours","pluginStackOverview":true,"filterResolutionsSkip":"","filterCodecsSkip":"","filterContainersSkip":"","processPluginsSequentially":true}}
+2026-01-04T11:41:12.048Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:Scanning original library file
+2026-01-04T11:41:12.048Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:{
+2026-01-04T11:41:12.048Z   "exifToolScan": true,
+2026-01-04T11:41:12.048Z   "mediaInfoScan": false,
+2026-01-04T11:41:12.048Z   "closedCaptionScan": false
+2026-01-04T11:41:12.048Z }
+2026-01-04T11:41:12.049Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:Node scanning file
+2026-01-04T11:41:13.061Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:Scan complete
+2026-01-04T11:41:13.062Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:Original file scanned
+2026-01-04T11:41:13.062Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:Source file to work on determined:"/media/tv/Stranger Things/Season 5/Stranger.Things.S05E05.Chapter.Five.Shock.Jock.1080p.NF.WEB-DL.DD+5.1.Atmos.H.264-playWEB.mkv"
+2026-01-04T11:41:13.062Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:[Step W02] [C1] Running pre-process file
+2026-01-04T11:41:13.063Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:Checking files can be accessed
+2026-01-04T11:41:13.063Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:mapped node, file is original, no need to download
+2026-01-04T11:41:13.063Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:Relevant paths can be accessed
+2026-01-04T11:41:13.064Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:Source file: "/media/tv/Stranger Things/Season 5/Stranger.Things.S05E05.Chapter.Five.Shock.Jock.1080p.NF.WEB-DL.DD+5.1.Atmos.H.264-playWEB.mkv"
+2026-01-04T11:41:13.064Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:[Step W03] [C1] Analysing file - running plugins
+2026-01-04T11:41:13.064Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:Handbrake healthcheck task, no need to scan for extra file details
+2026-01-04T11:41:13.065Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:Updating Node relay: Processing
+2026-01-04T11:41:13.065Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:[1/2] Checking file frame count
+2026-01-04T11:41:13.065Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:[2/2] Frame count 0
+2026-01-04T11:41:13.066Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:Determining healthcheck command
+2026-01-04T11:41:13.066Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:[Step W04] [C1] Preparing command
+2026-01-04T11:41:13.067Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:Cache file stem: "/tmp/tdarr-workDir2-9DGjTa5JD-n"
+2026-01-04T11:41:13.068Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:Cache file path: "/tmp/tdarr-workDir2-9DGjTa5JD-n/Stranger.Things.S05E05.Chapter.Five.Shock.Jock.1080p.NF.WEB-DL.DD+5.1.Atmos.H.264-playWEB-TdarrCacheFile-5_LkHOwQZ.mp4"
+2026-01-04T11:41:13.069Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:Create transcode args
+2026-01-04T11:41:13.069Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:Args:  -i "/media/tv/Stranger Things/Season 5/Stranger.Things.S05E05.Chapter.Five.Shock.Jock.1080p.NF.WEB-DL.DD+5.1.Atmos.H.264-playWEB.mkv" -o /tmp/tdarr-workDir2-9DGjTa5JD-n/Stranger.Things.S05E05.Chapter.Five.Shock.Jock.1080p.NF.WEB-DL.DD+5.1.Atmos.H.264-playWEB-TdarrCacheFile-5_LkHOwQZ.mp4 --scan
+2026-01-04T11:41:13.070Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:Getting source file size
+2026-01-04T11:41:13.070Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:Source file size: 3.5027590105310082
+2026-01-04T11:41:13.070Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:Performing safety check on worker config to see if old transcode args/container match new ones
+2026-01-04T11:41:13.071Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:Safety check complete, all good
+2026-01-04T11:41:13.071Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:[Step W05] [C1] Launching subworker
+2026-01-04T11:41:13.071Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:Preparing to launch subworker
+2026-01-04T11:41:13.072Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:Subworker launched
+2026-01-04T11:41:13.073Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:[1/3] Sending command to subworker
+2026-01-04T11:41:13.073Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:[2/3] HandBrakeCLI -i "/media/tv/Stranger Things/Season 5/Stranger.Things.S05E05.Chapter.Five.Shock.Jock.1080p.NF.WEB-DL.DD+5.1.Atmos.H.264-playWEB.mkv" -o /tmp/tdarr-workDir2-9DGjTa5JD-n/Stranger.Things.S05E05.Chapter.Five.Shock.Jock.1080p.NF.WEB-DL.DD+5.1.Atmos.H.264-playWEB-TdarrCacheFile-5_LkHOwQZ.mp4 --scan
+2026-01-04T11:41:13.073Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:[3/3] Command sent
+2026-01-04T11:41:13.074Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:To see live CLI output, enable 'Log full FFmpeg/HandBrake output' in the staging section on the Tdarr tab before the job starts. Note this could increase the job report size substantially.
+2026-01-04T11:41:13.074Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:Subworker:Online
+2026-01-04T11:41:13.075Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:Subworker:Receiving transcode settings
+2026-01-04T11:41:13.075Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:Subworker:Running CLI
+2026-01-04T11:41:20.187Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:Subworker:a.Thread closed, code: 0
+2026-01-04T11:41:20.187Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:Subworker exit approved, killing subworker
+2026-01-04T11:41:20.188Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:Subworker killed
+2026-01-04T11:41:20.188Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:b.Thread closed, code: 0
+2026-01-04T11:41:20.188Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:CLI code: 0
+2026-01-04T11:41:20.189Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:Last 200 lines of CLI log:
+2026-01-04T11:41:20.190Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:[11:41:10] Compile-time hardening features are enabled
+2026-01-04T11:41:20.190Z 
+2026-01-04T11:41:20.190Z [11:41:10] nvenc: version 12.2 is available
+2026-01-04T11:41:20.190Z [11:41:10] nvdec: is available
+2026-01-04T11:41:20.190Z 
+2026-01-04T11:41:20.190Z [11:41:10] CUDA Version: 6.1
+2026-01-04T11:41:20.190Z 
+2026-01-04T11:41:20.190Z [11:41:10] qsv: not available on this system
+2026-01-04T11:41:20.190Z 
+2026-01-04T11:41:20.190Z [11:41:10] hb_init: starting libhb thread
+2026-01-04T11:41:20.190Z 
+2026-01-04T11:41:20.190Z [11:41:10] thread 7f21022096c0 started ("libhb")
+2026-01-04T11:41:20.190Z HandBrake 1.10.2 (2025102400) - Linux x86_64 - https://handbrake.fr
+2026-01-04T11:41:20.190Z 16 CPUs detected
+2026-01-04T11:41:20.190Z 
+2026-01-04T11:41:20.190Z Opening /media/tv/Stranger Things/Season 5/Stranger.Things.S05E05.Chapter.Five.Shock.Jock.1080p.NF.WEB-DL.DD+5.1.Atmos.H.264-playWEB.mkv...
+2026-01-04T11:41:20.190Z 
+2026-01-04T11:41:20.190Z [11:41:10] CPU: Common KVM processor
+2026-01-04T11:41:20.190Z [11:41:10]  - logical processor count: 16
+2026-01-04T11:41:20.190Z [11:41:10] Intel Quick Sync Video support: no
+2026-01-04T11:41:20.190Z [11:41:10] hb_scan: path=/media/tv/Stranger Things/Season 5/Stranger.Things.S05E05.Chapter.Five.Shock.Jock.1080p.NF.WEB-DL.DD+5.1.Atmos.H.264-playWEB.mkv, title_index=1
+2026-01-04T11:41:20.190Z 
+2026-01-04T11:41:20.190Z Input #0, matroska,webm, from '/media/tv/Stranger Things/Season 5/Stranger.Things.S05E05.Chapter.Five.Shock.Jock.1080p.NF.WEB-DL.DD+5.1.Atmos.H.264-playWEB.mkv':
+2026-01-04T11:41:20.190Z   Metadata:
+2026-01-04T11:41:20.190Z     encoder         : libebml v1.4.4 + libmatroska v1.7.1
+2026-01-04T11:41:20.190Z   Duration: 01:08:03.20, start: 0.000000, bitrate: 7368 kb/s
+2026-01-04T11:41:20.190Z   Chapters:
+2026-01-04T11:41:20.190Z     Chapter #0:0: start 0.000000, end 341.500000
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         title           : Part 01
+2026-01-04T11:41:20.190Z     Chapter #0:1: start 341.500000, end 390.250000
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         title           : Intro
+2026-01-04T11:41:20.190Z     Chapter #0:2: start 390.250000, end 3747.450000
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         title           : Part 02
+2026-01-04T11:41:20.190Z     Chapter #0:3: start 3747.450000, end 4083.200000
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         title           : Credits
+2026-01-04T11:41:20.190Z 
+2026-01-04T11:41:20.190Z   Stream #0:0: Video: h264 (High), yuv420p(progressive), 1920x1080 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         BPS             : 6594760
+2026-01-04T11:41:20.190Z         DURATION        : 01:08:03.163000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 97898
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 3365935137
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z   Stream #0:1(eng): Audio: eac3 (Dolby Digital Plus + Dolby Atmos), 48000 Hz, 5.1(side), fltp, 768 kb/s (default)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         BPS             : 768000
+2026-01-04T11:41:20.190Z         DURATION        : 01:08:03.200000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 127600
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 391987200
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z   Stream #0:2(eng): Subtitle: subrip (srt) (default) (original) (forced)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         title           : Forced
+2026-01-04T11:41:20.190Z         BPS             : 135
+2026-01-04T11:41:20.190Z         DURATION        : 00:00:02.127000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 1
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 36
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z   Stream #0:3(eng): Subtitle: subrip (srt) (original)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         BPS             : 60
+2026-01-04T11:41:20.190Z         DURATION        : 01:01:47.829000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 861
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 28105
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z   Stream #0:4(eng): Subtitle: subrip (srt) (original) (hearing impaired)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         title           : SDH
+2026-01-04T11:41:20.190Z         BPS             : 63
+2026-01-04T11:41:20.190Z         DURATION        : 01:04:44.172000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 948
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 30745
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z 
+2026-01-04T11:41:20.190Z   Stream #0:5(ara): Subtitle: subrip (srt) (dub)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         BPS             : 91
+2026-01-04T11:41:20.190Z         DURATION        : 01:04:28.198000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 910
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 44302
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z   Stream #0:6(cze): Subtitle: subrip (srt) (dub)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         BPS             : 51
+2026-01-04T11:41:20.190Z         DURATION        : 01:04:28.198000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 834
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 24762
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z   Stream #0:7(dan): Subtitle: subrip (srt) (dub)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         BPS             : 52
+2026-01-04T11:41:20.190Z         DURATION        : 01:04:28.198000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 791
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 25374
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z   Stream #0:8(ger): Subtitle: subrip (srt) (dub)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         BPS             : 53
+2026-01-04T11:41:20.190Z         DURATION        : 01:04:28.198000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 829
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 26059
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z   Stream #0:9(gre): Subtitle: subrip (srt) (dub)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         BPS             : 88
+2026-01-04T11:41:20.190Z         DURATION        : 01:04:28.198000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 871
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 42583
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z   Stream #0:10(spa): Subtitle: subrip (srt) (dub)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         BPS             : 52
+2026-01-04T11:41:20.190Z         DURATION        : 01:04:28.198000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 845
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 
+2026-01-04T11:41:20.190Z 25553
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z   Stream #0:11(spa): Subtitle: subrip (srt) (dub)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         BPS             : 50
+2026-01-04T11:41:20.190Z         DURATION        : 01:04:28.198000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 839
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 24254
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z   Stream #0:12(fin): Subtitle: subrip (srt) (dub)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         BPS             : 50
+2026-01-04T11:41:20.190Z         DURATION        : 01:04:26.029000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 745
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 24535
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: 
+2026-01-04T11:41:20.190Z mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z   Stream #0:13(fil): Subtitle: subrip (srt) (dub)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         BPS             : 56
+2026-01-04T11:41:20.190Z         DURATION        : 01:04:28.198000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 865
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 27419
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z   Stream #0:14(fre): Subtitle: subrip (srt) (dub)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         BPS             : 51
+2026-01-04T11:41:20.190Z         DURATION        : 01:04:28.198000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 812
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 24968
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z   Stream #0:15(fre): Subtitle: subrip (srt) (dub)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         BPS             : 59
+2026-01-04T11:41:20.190Z         DURATION        : 01:04:28.198000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 874
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 28778
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z 
+2026-01-04T11:41:20.190Z   Stream #0:16(heb): Subtitle: subrip (srt) (dub)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         BPS             : 87
+2026-01-04T11:41:20.190Z         DURATION        : 01:04:28.198000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 850
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 42069
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z   Stream #0:17(hrv): Subtitle: subrip (srt) (dub)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         BPS             : 50
+2026-01-04T11:41:20.190Z         DURATION        : 01:04:28.198000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 822
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 24344
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z   Stream #0:18(hun): Subtitle: subrip (srt) (dub)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         BPS             : 50
+2026-01-04T11:41:20.190Z         DURATION        : 01:04:28.198000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 784
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 24380
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z   Stream #0:19(ind): Subtitle: subrip (srt) (dub)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z 
+2026-01-04T11:41:20.190Z         BPS             : 52
+2026-01-04T11:41:20.190Z         DURATION        : 01:04:28.198000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 866
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 25570
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z   Stream #0:20(ita): Subtitle: subrip (srt) (dub)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         BPS             : 51
+2026-01-04T11:41:20.190Z         DURATION        : 01:04:28.198000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 851
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 24660
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z   Stream #0:21(jpn): Subtitle: subrip (srt) (dub)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         BPS             : 52
+2026-01-04T11:41:20.190Z         DURATION        : 01:04:28.198000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 911
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 25156
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z   Stream #0:22(kor): Subtitle: subrip (srt) (dub)
+2026-01-04T11:41:20.190Z 
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         BPS             : 60
+2026-01-04T11:41:20.190Z         DURATION        : 01:04:28.115000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 872
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 29195
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z   Stream #0:23(may): Subtitle: subrip (srt) (dub)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         BPS             : 51
+2026-01-04T11:41:20.190Z         DURATION        : 01:04:28.198000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 868
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 25044
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z   Stream #0:24(nor): Subtitle: subrip (srt) (dub)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         BPS             : 53
+2026-01-04T11:41:20.190Z         DURATION        : 01:04:28.198000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 716
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 25826
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z   Stream #0:25(dut): Subtitle: subrip (srt) (dub)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         BPS             : 47
+2026-01-04T11:41:20.190Z         DURATION        : 01:04:28.198000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 670
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 22727
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: 
+2026-01-04T11:41:20.190Z mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z   Stream #0:26(pol): Subtitle: subrip (srt) (dub)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         BPS             : 50
+2026-01-04T11:41:20.190Z         DURATION        : 01:04:28.198000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 842
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 24647
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z   Stream #0:27(por): Subtitle: subrip (srt) (dub)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         BPS             : 57
+2026-01-04T11:41:20.190Z         DURATION        : 01:01:56.463000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 834
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 26768
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z   Stream #0:28(por): Subtitle: subrip (srt) (dub)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         BPS             : 52
+2026-01-04T11:41:20.190Z         DURATION        : 01:04:28.198000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 841
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 25256
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z   Stream #0:29(rum): Subtitle: subrip (srt) (dub)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         BPS             : 51
+2026-01-04T11:41:20.190Z         DURATION        : 01:04:28.198000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 762
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 25022
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z   Stream #0:30(rus): Subtitle: subrip (srt) (dub)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         BPS             : 85
+2026-01-04T11:41:20.190Z         DURATION        : 01:04:28.198000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 915
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 41548
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z   Stream #0:31(swe): Subtitle: subrip (srt) (dub)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         BPS             : 51
+2026-01-04T11:41:20.190Z         DURATION        : 01:04:28.198000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 736
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 24662
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z   Stream #0:32(tha): Subtitle: subrip (srt) (dub)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         BPS             : 130
+2026-01-04T11:41:20.190Z         DURATION        : 01:04:28.198000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 869
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 62863
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z   Stream #0:33(tur): Subtitle: subrip (srt) (dub)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         BPS             : 53
+2026-01-04T11:41:20.190Z         DURATION        : 01:04:26.029000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 715
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 26000
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z   Stream #0:34(ukr): Subtitle: subrip (srt) (dub)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         BPS             : 81
+2026-01-04T11:41:20.190Z         DURATION        : 01:04:28.198000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 869
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 39252
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z   Stream #0:35(vie): Subtitle: subrip (srt) (dub)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         BPS             : 71
+2026-01-04T11:41:20.190Z         DURATION        : 01:04:28.198000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 799
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 34515
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z   Stream #0:36(chi): Subtitle: subrip (srt) (dub)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         title           : Simplified
+2026-01-04T11:41:20.190Z         BPS             : 55
+2026-01-04T11:41:20.190Z         DURATION        : 01:04:28.198000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 872
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 26863
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z 
+2026-01-04T11:41:20.190Z   Stream #0:37(chi): Subtitle: subrip (srt) (dub)
+2026-01-04T11:41:20.190Z       Metadata:
+2026-01-04T11:41:20.190Z         title           : Traditional
+2026-01-04T11:41:20.190Z         BPS             : 50
+2026-01-04T11:41:20.190Z         DURATION        : 01:04:28.198000000
+2026-01-04T11:41:20.190Z         NUMBER_OF_FRAMES: 888
+2026-01-04T11:41:20.190Z         NUMBER_OF_BYTES : 24195
+2026-01-04T11:41:20.190Z         _STATISTICS_WRITING_APP: mkvmerge v81.0 ('Milliontown') 64-bit
+2026-01-04T11:41:20.190Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:41:20.190Z 
+2026-01-04T11:41:20.190Z [11:41:10] scan: decoding previews for title 1
+2026-01-04T11:41:20.190Z 
+2026-01-04T11:41:20.190Z [11:41:10] scan: audio 0x1: eac3, rate=48000Hz, bitrate=768000 English (E-AC3 Dolby Digital Plus + Dolby Atmos, 5.1 ch, 768 kbps)
+2026-01-04T11:41:20.190Z 
+2026-01-04T11:41:20.190Z Scanning title 1 of 1, preview 1, 10.00 %
+2026-01-04T11:41:20.190Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:41:20.190Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:41:20.190Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:41:20.190Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:41:20.190Z Scanning title 1 of 1, preview 3, 30.00 %
+2026-01-04T11:41:20.190Z Scanning title 1 of 1, preview 3, 30.00 %
+2026-01-04T11:41:20.190Z Scanning title 1 of 1, preview 4, 40.00 %
+2026-01-04T11:41:20.190Z Scanning title 1 of 1, preview 4, 40.00 %
+2026-01-04T11:41:20.190Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-04T11:41:20.190Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-04T11:41:20.190Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-04T11:41:20.190Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-04T11:41:20.190Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-04T11:41:20.190Z Scanning title 1 of 1, preview 7, 70.00 %
+2026-01-04T11:41:20.190Z Scanning title 1 of 1, preview 7, 70.00 %
+2026-01-04T11:41:20.190Z Scanning title 1 of 1, preview 8, 80.00 %
+2026-01-04T11:41:20.190Z Scanning title 1 of 1, preview 8, 80.00 %
+2026-01-04T11:41:20.190Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:41:20.190Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:41:20.190Z Scanning title 1 of 1, preview 10, 100.00 %
+2026-01-04T11:41:20.190Z Scanning title 1 of 1, preview 10, 100.00 %
+2026-01-04T11:41:20.190Z [11:41:17] using container PAR 1:1
+2026-01-04T11:41:20.190Z [11:41:17] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 60/60/0/0, aspect 16:9, PAR 1:1, color profile: 1-1-1, chroma location: left
+2026-01-04T11:41:20.190Z 
+2026-01-04T11:41:20.190Z [11:41:17] libhb: scan thread found 1 valid title(s)
+2026-01-04T11:41:20.190Z 
+2026-01-04T11:41:20.190Z + title 1:
+2026-01-04T11:41:20.190Z   + stream: /media/tv/Stranger Things/Season 5/Stranger.Things.S05E05.Chapter.Five.Shock.Jock.1080p.NF.WEB-DL.DD+5.1.Atmos.H.264-playWEB.mkv
+2026-01-04T11:41:20.190Z   + duration: 01:08:03
+2026-01-04T11:41:20.190Z   + size: 1920x1080, pixel aspect: 1/1, display aspect: 1.78, 23.976 fps
+2026-01-04T11:41:20.190Z   + autocrop: 60/60/0/0
+2026-01-04T11:41:20.190Z   + chapters:
+2026-01-04T11:41:20.190Z     + 1: duration 00:05:42
+2026-01-04T11:41:20.190Z     + 2: duration 00:00:49
+2026-01-04T11:41:20.190Z     + 3: duration 00:55:57
+2026-01-04T11:41:20.190Z     + 4: duration 00:05:36
+2026-01-04T11:41:20.190Z   + audio tracks:
+2026-01-04T11:41:20.190Z     + 1, English (E-AC3 Dolby Digital Plus + Dolby Atmos, 5.1 ch, 768 kbps) (iso639-2: eng)
+2026-01-04T11:41:20.190Z   + subtitle tracks:
+2026-01-04T11:41:20.190Z     + 1, English (UTF-8)
+2026-01-04T11:41:20.190Z     + 2, English (UTF-8)
+2026-01-04T11:41:20.190Z     + 3, English (UTF-8)
+2026-01-04T11:41:20.190Z     + 4, العربية (UTF-8)
+2026-01-04T11:41:20.190Z     + 5, čeština (UTF-8)
+2026-01-04T11:41:20.190Z     + 6, dansk (UTF-8)
+2026-01-04T11:41:20.190Z     + 7, Deutsch (UTF-8)
+2026-01-04T11:41:20.190Z     + 8, Ελληνικά (UTF-8)
+2026-01-04T11:41:20.190Z     + 9, español (UTF-8)
+2026-01-04T11:41:20.190Z     + 10, español (UTF-8)
+2026-01-04T11:41:20.190Z     + 11, suomi (UTF-8)
+2026-01-04T11:41:20.190Z     + 12, Wikang Filipino (UTF-8)
+2026-01-04T11:41:20.190Z     + 13, Francais (UTF-8)
+2026-01-04T11:41:20.190Z     + 14, Francais (UTF-8)
+2026-01-04T11:41:20.190Z     + 15, עברית (UTF-8)
+2026-01-04T11:41:20.190Z     + 16, hrvatski (UTF-8)
+2026-01-04T11:41:20.190Z     + 17, magyar (UTF-8)
+2026-01-04T11:41:20.190Z     + 18, Bahasa Indonesia (UTF-8)
+2026-01-04T11:41:20.190Z     + 19, italiano (UTF-8)
+2026-01-04T11:41:20.190Z     + 20, 日本語 (UTF-8)
+2026-01-04T11:41:20.190Z     + 21, 한국어 (UTF-8)
+2026-01-04T11:41:20.190Z     + 22, Bahasa Melayu (UTF-8)
+2026-01-04T11:41:20.190Z     + 23, norsk (UTF-8)
+2026-01-04T11:41:20.190Z     + 24, Nederlands (UTF-8)
+2026-01-04T11:41:20.190Z 
+2026-01-04T11:41:20.190Z     + 25, polski (UTF-8)
+2026-01-04T11:41:20.190Z     + 26, Portugues (UTF-8)
+2026-01-04T11:41:20.190Z     + 27, Portugues (UTF-8)
+2026-01-04T11:41:20.190Z     + 28, română (UTF-8)
+2026-01-04T11:41:20.190Z     + 29, русский (UTF-8)
+2026-01-04T11:41:20.190Z     + 30, svenska (UTF-8)
+2026-01-04T11:41:20.190Z     + 31, ไทย (UTF-8)
+2026-01-04T11:41:20.190Z     + 32, Türkçe (UTF-8)
+2026-01-04T11:41:20.190Z     + 33, українська (UTF-8)
+2026-01-04T11:41:20.190Z     + 34, Tiếng Việt (UTF-8)
+2026-01-04T11:41:20.190Z     + 35, 中文 (UTF-8)
+2026-01-04T11:41:20.190Z     + 36, 中文 (UTF-8)
+2026-01-04T11:41:20.190Z 
+2026-01-04T11:41:20.190Z HandBrake has exited.
+2026-01-04T11:41:20.190Z 
+2026-01-04T11:41:20.190Z 
+2026-01-04T11:41:20.190Z 
+2026-01-04T11:41:20.190Z 
+2026-01-04T11:41:20.191Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:[Step W06] [C1] Worker [-success-]
+2026-01-04T11:41:20.192Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:Worker success during processing
+2026-01-04T11:41:20.192Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:Updating healthcheck stats
+2026-01-04T11:41:20.193Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:[Step W10] Worker processing end
+2026-01-04T11:41:20.194Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:Subworker exited null
+2026-01-04T11:41:20.195Z 9DGjTa5JD-n:Node[MyInternalNode]:Worker[easy-erne]:Successfully updated server with verdict: healthcheckSuccess

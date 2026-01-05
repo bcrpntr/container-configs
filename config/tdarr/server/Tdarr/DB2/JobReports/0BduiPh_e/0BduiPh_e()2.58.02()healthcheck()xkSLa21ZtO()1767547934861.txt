@@ -1,0 +1,275 @@
+2026-01-04T11:32:16.939Z xkSLa21ZtO:[Step S01] [2.58.02] Server relay initialising job
+2026-01-04T11:32:16.940Z xkSLa21ZtO:Server: linux_x64_docker_true
+2026-01-04T11:32:16.940Z xkSLa21ZtO:Server relay adding file to staged files
+2026-01-04T11:32:16.941Z xkSLa21ZtO:Server relay sending job to Node relay: MyInternalNode
+2026-01-04T11:32:16.941Z xkSLa21ZtO:Node[MyInternalNode]:[Step N01] [2.58.02] Node relay received job
+2026-01-04T11:32:16.941Z xkSLa21ZtO:Node[MyInternalNode]:{"nodeName":"MyInternalNode","serverURL":"http://0.0.0.0:8266","serverIP":"0.0.0.0","serverPort":"8266","handbrakePath":"","ffmpegPath":"","mkvpropeditPath":"","pathTranslators":[{"server":"","node":""}],"nodeType":"mapped","unmappedNodeCache":"/app/unmappedNodeCache","logLevel":"INFO","priority":-1,"platform_arch_isdocker":"linux_x64_docker_true","processPid":664,"cronPluginUpdate":"","apiKey":"","maxLogSizeMB":"10","pollInterval":2000,"startPaused":false,"nodeID":"-2RaUzM4Y","seededWorkerLimits":{},"nodeRegisteredCount":1}
+2026-01-04T11:32:16.942Z xkSLa21ZtO:Node[MyInternalNode]:Node relay sending job to worker:best-buck
+2026-01-04T11:32:16.942Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:[Step W01] Received file, original: "/media/tv/Game of Thrones/Season 1/Game.of.Thrones.S01E05.1080p.10bit.BluRay.5.1.x265.HEVC-MZABI-Scrambled.mkv"
+2026-01-04T11:32:16.942Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:{"workerType":"healthcheckcpu"}
+2026-01-04T11:32:16.943Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:{"ffmpegPath":"tdarr-ffmpeg"}
+2026-01-04T11:32:16.943Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:{"handbrakePath":"HandBrakeCLI"}
+2026-01-04T11:32:16.944Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:{"mkvpropeditPath":"mkvpropedit"}
+2026-01-04T11:32:16.945Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:{"gpuSelect":"-"}
+2026-01-04T11:32:16.946Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:{"allowGpuDoCpu":false}
+2026-01-04T11:32:16.946Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:{"thoroughHealthCheckCpuExtraInputArgs":""}
+2026-01-04T11:32:16.946Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:{"thoroughHealthCheckGpuExtraInputArgs":""}
+2026-01-04T11:32:16.948Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:{"thoroughHealthCheckCpuExtraArgs":""}
+2026-01-04T11:32:16.948Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:{"thoroughHealthCheckGpuExtraArgs":""}
+2026-01-04T11:32:16.949Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:{"logFullCliOutput":false}
+2026-01-04T11:32:16.949Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:{"runMkvpropedit":false}
+2026-01-04T11:32:16.949Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:{"dontCleanWorkerCacheFolder":false}
+2026-01-04T11:32:16.950Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:Path translating objects
+2026-01-04T11:32:16.950Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:Running path translator tests
+2026-01-04T11:32:16.951Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:Path translator tests passed
+2026-01-04T11:32:16.951Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:{"librarySettings":{"_id":"KU0woozLb","priority":1,"name":"TV Shows","folder":"/media/tv","foldersToIgnore":"","foldersToIgnoreCaseInsensitive":false,"folderWatchScanInterval":30,"scannerThreadCount":2,"cache":"/tmp","output":".","folderToFolderConversion":false,"folderToFolderConversionDeleteSource":false,"folderToFolderRecordHistory":true,"copyIfConditionsMet":false,"container":".mkv","containerFilter":"mkv,mp4,mov,m4v,mpg,mpeg,avi,flv,webm,wmv,vob,evo,iso,m2ts,ts","createdAt":1675837380368,"folderWatching":false,"useFsEvents":false,"scheduledScanFindNew":false,"processLibrary":true,"processTranscodes":true,"processHealthChecks":true,"scanOnStart":false,"exifToolScan":true,"mediaInfoScan":true,"ffprobeShowData":false,"isDirectoryLibrary":false,"closedCaptionScan":false,"scanButtons":false,"scanFound":"Files found:0","navItemSelected":"navSourceFolder","pluginIDs":[{"_id":"plugin1","id":"Tdarr_Plugin_MC93_MigzImageRemoval","checked":true,"source":"Community","priority":0,"InputsDB":{}},{"_id":"plugin2","id":"Tdarr_Plugin_lmg1_Reorder_Streams","checked":true,"source":"Community","priority":1,"InputsDB":{}},{"_id":"plugin4","id":"Tdarr_Plugin_MC93_Migz1FFMPEG","checked":true,"source":"Community","priority":2,"InputsDB":{}},{"_id":"plugin5","id":"Tdarr_Plugin_a9he_New_file_size_check","checked":true,"source":"Community","priority":3,"InputsDB":{}}],"pluginCommunity":true,"handbrake":true,"ffmpeg":false,"handbrakescan":true,"ffmpegscan":false,"preset":"-Z \"Very Fast 1080p30\"","decisionMaker":{"settingsPlugin":true,"settingsFlows":false,"settingsVideo":false,"videoExcludeSwitch":true,"video_codec_names_exclude":[{"codec":"hevc","checked":false},{"codec":"h264","checked":true}],"video_size_range_include":{"min":0,"max":100000},"video_height_range_include":{"min":0,"max":3000},"video_width_range_include":{"min":0,"max":4000},"settingsAudio":false,"audioExcludeSwitch":true,"audio_codec_names_exclude":[{"codec":"mp3","checked":true},{"codec":"aac","checked":false}],"audio_size_range_include":{"min":0,"max":10}},"schedule":[{"_id":"Sun:00-01","checked":true},{"_id":"Sun:01-02","checked":true},{"_id":"Sun:02-03","checked":true},{"_id":"Sun:03-04","checked":true},{"_id":"Sun:04-05","checked":true},{"_id":"Sun:05-06","checked":true},{"_id":"Sun:06-07","checked":true},{"_id":"Sun:07-08","checked":true},{"_id":"Sun:08-09","checked":true},{"_id":"Sun:09-10","checked":true},{"_id":"Sun:10-11","checked":true},{"_id":"Sun:11-12","checked":true},{"_id":"Sun:12-13","checked":true},{"_id":"Sun:13-14","checked":true},{"_id":"Sun:14-15","checked":true},{"_id":"Sun:15-16","checked":true},{"_id":"Sun:16-17","checked":true},{"_id":"Sun:17-18","checked":true},{"_id":"Sun:18-19","checked":true},{"_id":"Sun:19-20","checked":true},{"_id":"Sun:20-21","checked":true},{"_id":"Sun:21-22","checked":true},{"_id":"Sun:22-23","checked":true},{"_id":"Sun:23-00","checked":true},{"_id":"Mon:00-01","checked":true},{"_id":"Mon:01-02","checked":true},{"_id":"Mon:02-03","checked":true},{"_id":"Mon:03-04","checked":true},{"_id":"Mon:04-05","checked":true},{"_id":"Mon:05-06","checked":true},{"_id":"Mon:06-07","checked":true},{"_id":"Mon:07-08","checked":true},{"_id":"Mon:08-09","checked":true},{"_id":"Mon:09-10","checked":true},{"_id":"Mon:10-11","checked":true},{"_id":"Mon:11-12","checked":true},{"_id":"Mon:12-13","checked":true},{"_id":"Mon:13-14","checked":true},{"_id":"Mon:14-15","checked":true},{"_id":"Mon:15-16","checked":true},{"_id":"Mon:16-17","checked":true},{"_id":"Mon:17-18","checked":true},{"_id":"Mon:18-19","checked":true},{"_id":"Mon:19-20","checked":true},{"_id":"Mon:20-21","checked":true},{"_id":"Mon:21-22","checked":true},{"_id":"Mon:22-23","checked":true},{"_id":"Mon:23-00","checked":true},{"_id":"Tue:00-01","checked":true},{"_id":"Tue:01-02","checked":true},{"_id":"Tue:02-03","checked":true},{"_id":"Tue:03-04","checked":true},{"_id":"Tue:04-05","checked":true},{"_id":"Tue:05-06","checked":true},{"_id":"Tue:06-07","checked":true},{"_id":"Tue:07-08","checked":true},{"_id":"Tue:08-09","checked":true},{"_id":"Tue:09-10","checked":true},{"_id":"Tue:10-11","checked":true},{"_id":"Tue:11-12","checked":true},{"_id":"Tue:12-13","checked":true},{"_id":"Tue:13-14","checked":true},{"_id":"Tue:14-15","checked":true},{"_id":"Tue:15-16","checked":true},{"_id":"Tue:16-17","checked":true},{"_id":"Tue:17-18","checked":true},{"_id":"Tue:18-19","checked":true},{"_id":"Tue:19-20","checked":true},{"_id":"Tue:20-21","checked":true},{"_id":"Tue:21-22","checked":true},{"_id":"Tue:22-23","checked":true},{"_id":"Tue:23-00","checked":true},{"_id":"Wed:00-01","checked":true},{"_id":"Wed:01-02","checked":true},{"_id":"Wed:02-03","checked":true},{"_id":"Wed:03-04","checked":true},{"_id":"Wed:04-05","checked":true},{"_id":"Wed:05-06","checked":true},{"_id":"Wed:06-07","checked":true},{"_id":"Wed:07-08","checked":true},{"_id":"Wed:08-09","checked":true},{"_id":"Wed:09-10","checked":true},{"_id":"Wed:10-11","checked":true},{"_id":"Wed:11-12","checked":true},{"_id":"Wed:12-13","checked":true},{"_id":"Wed:13-14","checked":true},{"_id":"Wed:14-15","checked":true},{"_id":"Wed:15-16","checked":true},{"_id":"Wed:16-17","checked":true},{"_id":"Wed:17-18","checked":true},{"_id":"Wed:18-19","checked":true},{"_id":"Wed:19-20","checked":true},{"_id":"Wed:20-21","checked":true},{"_id":"Wed:21-22","checked":true},{"_id":"Wed:22-23","checked":true},{"_id":"Wed:23-00","checked":true},{"_id":"Thur:00-01","checked":true},{"_id":"Thur:01-02","checked":true},{"_id":"Thur:02-03","checked":true},{"_id":"Thur:03-04","checked":true},{"_id":"Thur:04-05","checked":true},{"_id":"Thur:05-06","checked":true},{"_id":"Thur:06-07","checked":true},{"_id":"Thur:07-08","checked":true},{"_id":"Thur:08-09","checked":true},{"_id":"Thur:09-10","checked":true},{"_id":"Thur:10-11","checked":true},{"_id":"Thur:11-12","checked":true},{"_id":"Thur:12-13","checked":true},{"_id":"Thur:13-14","checked":true},{"_id":"Thur:14-15","checked":true},{"_id":"Thur:15-16","checked":true},{"_id":"Thur:16-17","checked":true},{"_id":"Thur:17-18","checked":true},{"_id":"Thur:18-19","checked":true},{"_id":"Thur:19-20","checked":true},{"_id":"Thur:20-21","checked":true},{"_id":"Thur:21-22","checked":true},{"_id":"Thur:22-23","checked":true},{"_id":"Thur:23-00","checked":true},{"_id":"Fri:00-01","checked":true},{"_id":"Fri:01-02","checked":true},{"_id":"Fri:02-03","checked":true},{"_id":"Fri:03-04","checked":true},{"_id":"Fri:04-05","checked":true},{"_id":"Fri:05-06","checked":true},{"_id":"Fri:06-07","checked":true},{"_id":"Fri:07-08","checked":true},{"_id":"Fri:08-09","checked":true},{"_id":"Fri:09-10","checked":true},{"_id":"Fri:10-11","checked":true},{"_id":"Fri:11-12","checked":true},{"_id":"Fri:12-13","checked":true},{"_id":"Fri:13-14","checked":true},{"_id":"Fri:14-15","checked":true},{"_id":"Fri:15-16","checked":true},{"_id":"Fri:16-17","checked":true},{"_id":"Fri:17-18","checked":true},{"_id":"Fri:18-19","checked":true},{"_id":"Fri:19-20","checked":true},{"_id":"Fri:20-21","checked":true},{"_id":"Fri:21-22","checked":true},{"_id":"Fri:22-23","checked":true},{"_id":"Fri:23-00","checked":true},{"_id":"Sat:00-01","checked":true},{"_id":"Sat:01-02","checked":true},{"_id":"Sat:02-03","checked":true},{"_id":"Sat:03-04","checked":true},{"_id":"Sat:04-05","checked":true},{"_id":"Sat:05-06","checked":true},{"_id":"Sat:06-07","checked":true},{"_id":"Sat:07-08","checked":true},{"_id":"Sat:08-09","checked":true},{"_id":"Sat:09-10","checked":true},{"_id":"Sat:10-11","checked":true},{"_id":"Sat:11-12","checked":true},{"_id":"Sat:12-13","checked":true},{"_id":"Sat:13-14","checked":true},{"_id":"Sat:14-15","checked":true},{"_id":"Sat:15-16","checked":true},{"_id":"Sat:16-17","checked":true},{"_id":"Sat:17-18","checked":true},{"_id":"Sat:18-19","checked":true},{"_id":"Sat:19-20","checked":true},{"_id":"Sat:20-21","checked":true},{"_id":"Sat:21-22","checked":true},{"_id":"Sat:22-23","checked":true},{"_id":"Sat:23-00","checked":true}],"totalHealthCheckCount":124,"totalTranscodeCount":0,"sizeDiff":0,"holdNewFiles":false,"holdFor":3600,"holdForDisplayUnit":"hours","pluginStackOverview":true,"filterResolutionsSkip":"","filterCodecsSkip":"","filterContainersSkip":"","processPluginsSequentially":true}}
+2026-01-04T11:32:16.951Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:Scanning original library file
+2026-01-04T11:32:16.952Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:{
+2026-01-04T11:32:16.952Z   "exifToolScan": true,
+2026-01-04T11:32:16.952Z   "mediaInfoScan": false,
+2026-01-04T11:32:16.952Z   "closedCaptionScan": false
+2026-01-04T11:32:16.952Z }
+2026-01-04T11:32:16.952Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:Node scanning file
+2026-01-04T11:32:18.956Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:Scan complete
+2026-01-04T11:32:18.956Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:Original file scanned
+2026-01-04T11:32:18.957Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:Source file to work on determined:"/media/tv/Game of Thrones/Season 1/Game.of.Thrones.S01E05.1080p.10bit.BluRay.5.1.x265.HEVC-MZABI-Scrambled.mkv"
+2026-01-04T11:32:18.957Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:[Step W02] [C1] Running pre-process file
+2026-01-04T11:32:18.957Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:Checking files can be accessed
+2026-01-04T11:32:18.958Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:mapped node, file is original, no need to download
+2026-01-04T11:32:18.958Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:Relevant paths can be accessed
+2026-01-04T11:32:18.958Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:Source file: "/media/tv/Game of Thrones/Season 1/Game.of.Thrones.S01E05.1080p.10bit.BluRay.5.1.x265.HEVC-MZABI-Scrambled.mkv"
+2026-01-04T11:32:18.959Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:[Step W03] [C1] Analysing file - running plugins
+2026-01-04T11:32:18.959Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:Handbrake healthcheck task, no need to scan for extra file details
+2026-01-04T11:32:18.959Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:Updating Node relay: Processing
+2026-01-04T11:32:18.960Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:[1/2] Checking file frame count
+2026-01-04T11:32:18.960Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:[2/2] Frame count 0
+2026-01-04T11:32:18.960Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:Determining healthcheck command
+2026-01-04T11:32:18.961Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:[Step W04] [C1] Preparing command
+2026-01-04T11:32:18.961Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:Cache file stem: "/tmp/tdarr-workDir2-xkSLa21ZtO"
+2026-01-04T11:32:18.961Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:Cache file path: "/tmp/tdarr-workDir2-xkSLa21ZtO/Game.of.Thrones.S01E05.1080p.10bit.BluRay.5.1.x265.HEVC-MZABI-Scrambled-TdarrCacheFile-bX8w1RyrK.mp4"
+2026-01-04T11:32:18.961Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:Create transcode args
+2026-01-04T11:32:18.962Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:Args:  -i "/media/tv/Game of Thrones/Season 1/Game.of.Thrones.S01E05.1080p.10bit.BluRay.5.1.x265.HEVC-MZABI-Scrambled.mkv" -o /tmp/tdarr-workDir2-xkSLa21ZtO/Game.of.Thrones.S01E05.1080p.10bit.BluRay.5.1.x265.HEVC-MZABI-Scrambled-TdarrCacheFile-bX8w1RyrK.mp4 --scan
+2026-01-04T11:32:18.962Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:Getting source file size
+2026-01-04T11:32:18.962Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:Source file size: 0.8393033733591437
+2026-01-04T11:32:18.962Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:Performing safety check on worker config to see if old transcode args/container match new ones
+2026-01-04T11:32:18.962Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:Safety check complete, all good
+2026-01-04T11:32:18.963Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:[Step W05] [C1] Launching subworker
+2026-01-04T11:32:18.963Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:Preparing to launch subworker
+2026-01-04T11:32:18.963Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:Subworker launched
+2026-01-04T11:32:18.964Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:[1/3] Sending command to subworker
+2026-01-04T11:32:18.964Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:[2/3] HandBrakeCLI -i "/media/tv/Game of Thrones/Season 1/Game.of.Thrones.S01E05.1080p.10bit.BluRay.5.1.x265.HEVC-MZABI-Scrambled.mkv" -o /tmp/tdarr-workDir2-xkSLa21ZtO/Game.of.Thrones.S01E05.1080p.10bit.BluRay.5.1.x265.HEVC-MZABI-Scrambled-TdarrCacheFile-bX8w1RyrK.mp4 --scan
+2026-01-04T11:32:18.964Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:[3/3] Command sent
+2026-01-04T11:32:18.964Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:To see live CLI output, enable 'Log full FFmpeg/HandBrake output' in the staging section on the Tdarr tab before the job starts. Note this could increase the job report size substantially.
+2026-01-04T11:32:18.965Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:Subworker:Online
+2026-01-04T11:32:18.965Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:Subworker:Receiving transcode settings
+2026-01-04T11:32:18.965Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:Subworker:Running CLI
+2026-01-04T11:32:31.086Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:Subworker:a.Thread closed, code: 0
+2026-01-04T11:32:31.087Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:Subworker exit approved, killing subworker
+2026-01-04T11:32:31.087Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:Subworker killed
+2026-01-04T11:32:31.087Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:b.Thread closed, code: 0
+2026-01-04T11:32:31.088Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:CLI code: 0
+2026-01-04T11:32:31.088Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:Last 200 lines of CLI log:
+2026-01-04T11:32:31.088Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:[11:32:16] Compile-time hardening features are enabled
+2026-01-04T11:32:31.088Z 
+2026-01-04T11:32:31.088Z [11:32:16] nvenc: version 12.2 is available
+2026-01-04T11:32:31.088Z [11:32:16] nvdec: is available
+2026-01-04T11:32:31.088Z 
+2026-01-04T11:32:31.088Z [11:32:16] CUDA Version: 6.1
+2026-01-04T11:32:31.088Z 
+2026-01-04T11:32:31.088Z [11:32:16] qsv: not available on this system
+2026-01-04T11:32:31.088Z 
+2026-01-04T11:32:31.088Z [11:32:16] hb_init: starting libhb thread
+2026-01-04T11:32:31.088Z 
+2026-01-04T11:32:31.088Z [11:32:16] thread 7f93922096c0 started ("libhb")
+2026-01-04T11:32:31.088Z HandBrake 1.10.2 (2025102400) - Linux x86_64 - https://handbrake.fr
+2026-01-04T11:32:31.088Z 16 CPUs detected
+2026-01-04T11:32:31.088Z 
+2026-01-04T11:32:31.088Z Opening /media/tv/Game of Thrones/Season 1/Game.of.Thrones.S01E05.1080p.10bit.BluRay.5.1.x265.HEVC-MZABI-Scrambled.mkv...
+2026-01-04T11:32:31.088Z 
+2026-01-04T11:32:31.088Z [11:32:16] CPU: Common KVM processor
+2026-01-04T11:32:31.088Z [11:32:16]  - logical processor count: 16
+2026-01-04T11:32:31.088Z [11:32:16] Intel Quick Sync Video support: no
+2026-01-04T11:32:31.088Z [11:32:16] hb_scan: path=/media/tv/Game of Thrones/Season 1/Game.of.Thrones.S01E05.1080p.10bit.BluRay.5.1.x265.HEVC-MZABI-Scrambled.mkv, title_index=1
+2026-01-04T11:32:31.088Z 
+2026-01-04T11:32:31.088Z Input #0, matroska,webm, from '/media/tv/Game of Thrones/Season 1/Game.of.Thrones.S01E05.1080p.10bit.BluRay.5.1.x265.HEVC-MZABI-Scrambled.mkv':
+2026-01-04T11:32:31.088Z   Metadata:
+2026-01-04T11:32:31.088Z     encoder         : libebml v1.3.4 + libmatroska v1.4.5
+2026-01-04T11:32:31.088Z     creation_time   : 2017-05-09T15:58:10.000000Z
+2026-01-04T11:32:31.088Z   Duration: 00:54:18.37, start: 0.000000, bitrate: 2212 kb/s
+2026-01-04T11:32:31.088Z   Chapters:
+2026-01-04T11:32:31.088Z     Chapter #0:0: start 0.000000, end 8.008000
+2026-01-04T11:32:31.088Z       Metadata:
+2026-01-04T11:32:31.088Z         title           : 00:00:00.000
+2026-01-04T11:32:31.088Z     Chapter #0:1: start 8.008000, end 114.114000
+2026-01-04T11:32:31.088Z       Metadata:
+2026-01-04T11:32:31.088Z         title           : 00:00:08.008
+2026-01-04T11:32:31.088Z     Chapter #0:2: start 114.114000, end 385.885000
+2026-01-04T11:32:31.088Z 
+2026-01-04T11:32:31.088Z       Metadata:
+2026-01-04T11:32:31.088Z         title           : 00:01:54.114
+2026-01-04T11:32:31.088Z     Chapter #0:3: start 385.885000, end 977.977000
+2026-01-04T11:32:31.088Z       Metadata:
+2026-01-04T11:32:31.088Z         title           : 00:06:25.885
+2026-01-04T11:32:31.088Z     Chapter #0:4: start 977.977000, end 1552.885000
+2026-01-04T11:32:31.088Z       Metadata:
+2026-01-04T11:32:31.088Z         title           : 00:16:17.977
+2026-01-04T11:32:31.088Z     Chapter #0:5: start 1552.885000, end 2056.346000
+2026-01-04T11:32:31.088Z       Metadata:
+2026-01-04T11:32:31.088Z         title           : 00:25:52.885
+2026-01-04T11:32:31.088Z     Chapter #0:6: start 2056.346000, end 2512.635000
+2026-01-04T11:32:31.088Z       Metadata:
+2026-01-04T11:32:31.088Z         title           : 00:34:16.346
+2026-01-04T11:32:31.088Z     Chapter #0:7: start 2512.635000, end 3191.188000
+2026-01-04T11:32:31.088Z       Metadata:
+2026-01-04T11:32:31.088Z         title           : 00:41:52.635
+2026-01-04T11:32:31.088Z     Chapter #0:8: start 3191.188000, end 3258.366000
+2026-01-04T11:32:31.088Z       Metadata:
+2026-01-04T11:32:31.088Z         title           : 00:53:11.188
+2026-01-04T11:32:31.088Z   Stream #0:0: Video: hevc (Main 10), yuv420p10le(tv), 1920x1080 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+2026-01-04T11:32:31.088Z       Metadata:
+2026-01-04T11:32:31.088Z         title           : HEVC x265 10bit Video / 2000 kbps / 1080p / 23.976 fps / Main 10 Profile 4
+2026-01-04T11:32:31.088Z         BPS             : 2003582
+2026-01-04T11:32:31.088Z         BPS-eng         : 2003582
+2026-01-04T11:32:31.088Z         DURATION        : 00:54:18.297000000
+2026-01-04T11:32:31.088Z         DURATION-eng    : 00:54:18.297000000
+2026-01-04T11:32:31.088Z         NUMBER_OF_FRAMES: 78121
+2026-01-04T11:32:31.088Z         NUMBER_OF_FRAMES-eng: 78121
+2026-01-04T11:32:31.088Z         NUMBER_OF_BYTES : 816033336
+2026-01-04T11:32:31.088Z         NUMBER_OF_BYTES-eng: 816033336
+2026-01-04T11:32:31.088Z         _STATISTICS_WRITING_APP: mkvmerge v9.6.0 ('Slave To Your Mind') 64bit
+2026-01-04T11:32:31.088Z         _STATISTICS_WRITING_APP-eng: mkvmerge v9.6.0 ('Slave To Your Mind') 64bit
+2026-01-04T11:32:31.088Z         _STATISTICS_WRITING_DATE_UTC: 2017-05-09 15:58:10
+2026-01-04T11:32:31.088Z         _STATISTICS_WRITING_DATE_UTC-eng: 2017-05-09 15:58:10
+2026-01-04T11:32:31.088Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:32:31.088Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:32:31.088Z   Stream #0:1(eng): Audio: aac (HE-AAC), 48000 Hz, 5.1, fltp
+2026-01-04T11:32:31.088Z       Metadata:
+2026-01-04T11:32:31.088Z         title           : HE-AAC / 5.1 / 48 kHz / 192 kbps
+2026-01-04T11:32:31.088Z         BPS             : 191998
+2026-01-04T11:32:31.088Z         BPS-eng         : 191998
+2026-01-04T11:32:31.088Z         DURATION        : 00:54:18.326000000
+2026-01-04T11:32:31.088Z         DURATION-eng    : 00:54:18.326000000
+2026-01-04T11:32:31.088Z         NUMBER_OF_FRAMES: 76367
+2026-01-04T11:32:31.088Z         NUMBER_OF_FRAMES-eng: 76367
+2026-01-04T11:32:31.088Z         NUMBER_OF_BYTES : 78199198
+2026-01-04T11:32:31.088Z         NUMBER_OF_BYTES-eng: 78199198
+2026-01-04T11:32:31.088Z         _STATISTICS_WRITING_APP: mkvmerge v9.6.0 ('Slave To Your Mind') 64bit
+2026-01-04T11:32:31.088Z         _STATISTICS_WRITING_APP-eng: mkvmerge v9.6.0 ('Slave To Your Mind') 64bit
+2026-01-04T11:32:31.088Z         _STATISTICS_WRITING_DATE_UTC: 2017-05-09 15:58:10
+2026-01-04T11:32:31.088Z         _STATISTICS_WRITING_DATE_UTC-eng: 2017-05-09 15:58:10
+2026-01-04T11:32:31.088Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:32:31.088Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:32:31.088Z   Stream #0:2(eng): Subtitle: hdmv_pgs_subtitle (pgssub)
+2026-01-04T11:32:31.088Z       Metadata:
+2026-01-04T11:32:31.088Z         BPS             : 15859
+2026-01-04T11:32:31.088Z         BPS-eng         : 15859
+2026-01-04T11:32:31.088Z         DURATION        : 00:51:12.236000000
+2026-01-04T11:32:31.088Z         DURATION-eng    : 00:51:12.236000000
+2026-01-04T11:32:31.088Z         NUMBER_OF_FRAMES: 1570
+2026-01-04T11:32:31.088Z         NUMBER_OF_FRAMES-eng: 1570
+2026-01-04T11:32:31.088Z         NUMBER_OF_BYTES : 6090379
+2026-01-04T11:32:31.088Z         NUMBER_OF_BYTES-eng: 6090379
+2026-01-04T11:32:31.088Z         _STATISTICS_WRITING_APP: mkvmerge v9.6.0 ('Slave To Your Mind') 64bit
+2026-01-04T11:32:31.088Z         _STATISTICS_WRITING_APP-eng: mkvmerge v9.6.0 ('Slave To Your Mind') 64bit
+2026-01-04T11:32:31.088Z         _STATISTICS_WRITING_DATE_UTC: 2017-05-09 15:58:10
+2026-01-04T11:32:31.088Z         _STATISTICS_WRITING_DATE_UTC-eng: 2017-05-09 15:58:10
+2026-01-04T11:32:31.088Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:32:31.088Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:32:31.088Z 
+2026-01-04T11:32:31.088Z   Stream #0:3(ara): Subtitle: subrip (srt)
+2026-01-04T11:32:31.088Z       Metadata:
+2026-01-04T11:32:31.088Z         BPS             : 80
+2026-01-04T11:32:31.088Z         BPS-eng         : 80
+2026-01-04T11:32:31.088Z         DURATION        : 00:52:54.583000000
+2026-01-04T11:32:31.088Z         DURATION-eng    : 00:52:54.583000000
+2026-01-04T11:32:31.088Z         NUMBER_OF_FRAMES: 743
+2026-01-04T11:32:31.088Z         NUMBER_OF_FRAMES-eng: 743
+2026-01-04T11:32:31.088Z         NUMBER_OF_BYTES : 31913
+2026-01-04T11:32:31.088Z         NUMBER_OF_BYTES-eng: 31913
+2026-01-04T11:32:31.088Z         _STATISTICS_WRITING_APP: mkvmerge v9.6.0 ('Slave To Your Mind') 64bit
+2026-01-04T11:32:31.088Z         _STATISTICS_WRITING_APP-eng: mkvmerge v9.6.0 ('Slave To Your Mind') 64bit
+2026-01-04T11:32:31.088Z         _STATISTICS_WRITING_DATE_UTC: 2017-05-09 15:58:10
+2026-01-04T11:32:31.088Z         _STATISTICS_WRITING_DATE_UTC-eng: 2017-05-09 15:58:10
+2026-01-04T11:32:31.088Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:32:31.088Z         _STATISTICS_TAGS-eng: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:32:31.088Z [11:32:16] scan: decoding previews for title 1
+2026-01-04T11:32:31.088Z 
+2026-01-04T11:32:31.088Z [11:32:16] scan: audio 0x1: aac, rate=48000Hz, bitrate=1 English (HE-AAC, 5.1 ch)
+2026-01-04T11:32:31.088Z 
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 3, 30.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 4, 40.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 7, 70.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 8, 80.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 10, 100.00 %
+2026-01-04T11:32:31.088Z Scanning title 1 of 1, preview 10, 100.00 %
+2026-01-04T11:32:31.088Z [11:32:28] using container PAR 1:1
+2026-01-04T11:32:31.088Z [11:32:28] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1, color profile: 1-1-1, chroma location: left
+2026-01-04T11:32:31.088Z 
+2026-01-04T11:32:31.088Z [11:32:28] libhb: scan thread found 1 valid title(s)
+2026-01-04T11:32:31.088Z 
+2026-01-04T11:32:31.088Z + title 1:
+2026-01-04T11:32:31.088Z   + stream: /media/tv/Game of Thrones/Season 1/Game.of.Thrones.S01E05.1080p.10bit.BluRay.5.1.x265.HEVC-MZABI-Scrambled.mkv
+2026-01-04T11:32:31.088Z   + duration: 00:54:18
+2026-01-04T11:32:31.088Z   + size: 1920x1080, pixel aspect: 1/1, display aspect: 1.78, 23.976 fps
+2026-01-04T11:32:31.088Z   + autocrop: 0/0/0/0
+2026-01-04T11:32:31.088Z   + chapters:
+2026-01-04T11:32:31.088Z     + 1: duration 00:00:08
+2026-01-04T11:32:31.088Z     + 2: duration 00:01:46
+2026-01-04T11:32:31.088Z     + 3: duration 00:04:32
+2026-01-04T11:32:31.088Z     + 4: duration 00:09:52
+2026-01-04T11:32:31.088Z     + 5: duration 00:09:35
+2026-01-04T11:32:31.088Z     + 6: duration 00:08:23
+2026-01-04T11:32:31.088Z     + 7: duration 00:07:36
+2026-01-04T11:32:31.088Z     + 8: duration 00:11:19
+2026-01-04T11:32:31.088Z     + 9: duration 00:01:07
+2026-01-04T11:32:31.088Z   + audio tracks:
+2026-01-04T11:32:31.088Z     + 1, English (HE-AAC, 5.1 ch) (iso639-2: eng)
+2026-01-04T11:32:31.088Z   + subtitle tracks:
+2026-01-04T11:32:31.088Z     + 1, English (PGS)
+2026-01-04T11:32:31.088Z     + 2, العربية (UTF-8)
+2026-01-04T11:32:31.088Z 
+2026-01-04T11:32:31.088Z HandBrake has exited.
+2026-01-04T11:32:31.088Z 
+2026-01-04T11:32:31.088Z 
+2026-01-04T11:32:31.088Z 
+2026-01-04T11:32:31.088Z 
+2026-01-04T11:32:31.089Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:[Step W06] [C1] Worker [-success-]
+2026-01-04T11:32:31.089Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:Worker success during processing
+2026-01-04T11:32:31.089Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:Updating healthcheck stats
+2026-01-04T11:32:31.089Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:[Step W10] Worker processing end
+2026-01-04T11:32:31.089Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:Subworker exited null
+2026-01-04T11:32:31.090Z xkSLa21ZtO:Node[MyInternalNode]:Worker[best-buck]:Successfully updated server with verdict: healthcheckSuccess

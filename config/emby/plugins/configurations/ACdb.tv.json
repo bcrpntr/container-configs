@@ -1,0 +1,32 @@
+{
+    "ApiKey": "fd6060aa8e1a4fe1b5d43e117beb9b7f",
+    "CollectionSidToGui": {
+        "0d26c26c-247e-4502-84bb-2eb40fbaa924": "8978ad6ed7724259a31563e756e51086",
+        "2ad4d478-c3f8-446a-b2f6-5dc9ceb9ba48": "4f39df7f64614918b1bf9e5d02151359",
+        "187c066f-d114-419b-86fe-497f09e6ebbc": "98c9915dc8524d7789f30b8eeb9ea387",
+        "8d0694c7-905f-4a9c-8b76-819cbced49e4": "baf3880a03a34577ad1c531e8503bb24",
+        "a2f7feae-062e-4b9d-bd04-246653a968d9": "c12f45e8a04f4ae1a24b17a3f928c932",
+        "c5d4b3df-591d-432b-b176-05707fb254fd": "06a54334bcee444ab0c2dee8fd12bb5c",
+        "f8bd877a-385c-44be-85bc-52e902c4b442": "a3856d9625bb4452854a40925e34ca67",
+        "37e32fe3-220c-41d7-bf04-8d28e28c25c3": "ae51baede05644878cd3339f1a5078bd"
+    },
+    "CollectionsSidWithDateAddedSortNames": [
+        
+    ],
+    "LastSynced": [
+        "2026-01-05T13:43:54.5416887-06:00",
+        "2026-01-05T11:43:54.5403387-06:00",
+        "2026-01-05T09:43:54.5445971-06:00",
+        "2026-01-05T07:43:54.5410024-06:00",
+        "2026-01-05T05:43:54.5414312-06:00",
+        "2026-01-05T03:43:54.5465427-06:00",
+        "2026-01-05T01:43:54.5464899-06:00",
+        "2026-01-04T23:43:54.5465517-06:00",
+        "2026-01-04T21:43:54.5445994-06:00",
+        "2026-01-04T19:43:54.5476139-06:00"
+    ],
+    "LastLibraryHash": "3fa75b87fa6b7a0aceace97ec8e8f4d6",
+    "EditorTitle": "General Options",
+    "FeatureRequiresPremiere": false,
+    "IsNewItem": false
+}

@@ -1,0 +1,735 @@
+2026-01-04T11:31:48.310Z xFY5jDGl40:[Step S01] [2.58.02] Server relay initialising job
+2026-01-04T11:31:48.311Z xFY5jDGl40:Server: linux_x64_docker_true
+2026-01-04T11:31:48.312Z xFY5jDGl40:Server relay adding file to staged files
+2026-01-04T11:31:48.312Z xFY5jDGl40:Server relay sending job to Node relay: MyInternalNode
+2026-01-04T11:31:48.312Z xFY5jDGl40:Node[MyInternalNode]:[Step N01] [2.58.02] Node relay received job
+2026-01-04T11:31:48.312Z xFY5jDGl40:Node[MyInternalNode]:{"nodeName":"MyInternalNode","serverURL":"http://0.0.0.0:8266","serverIP":"0.0.0.0","serverPort":"8266","handbrakePath":"","ffmpegPath":"","mkvpropeditPath":"","pathTranslators":[{"server":"","node":""}],"nodeType":"mapped","unmappedNodeCache":"/app/unmappedNodeCache","logLevel":"INFO","priority":-1,"platform_arch_isdocker":"linux_x64_docker_true","processPid":664,"cronPluginUpdate":"","apiKey":"","maxLogSizeMB":"10","pollInterval":2000,"startPaused":false,"nodeID":"-2RaUzM4Y","seededWorkerLimits":{},"nodeRegisteredCount":1}
+2026-01-04T11:31:48.313Z xFY5jDGl40:Node[MyInternalNode]:Node relay sending job to worker:easy-erne
+2026-01-04T11:31:48.313Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:[Step W01] Received file, original: "/media/tv/Fallout/Season 2/Fallout.S02E01.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv"
+2026-01-04T11:31:48.313Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:{"workerType":"healthcheckcpu"}
+2026-01-04T11:31:48.314Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:{"ffmpegPath":"tdarr-ffmpeg"}
+2026-01-04T11:31:48.314Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:{"handbrakePath":"HandBrakeCLI"}
+2026-01-04T11:31:48.314Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:{"mkvpropeditPath":"mkvpropedit"}
+2026-01-04T11:31:48.315Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:{"gpuSelect":"-"}
+2026-01-04T11:31:48.315Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:{"allowGpuDoCpu":false}
+2026-01-04T11:31:48.315Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:{"thoroughHealthCheckCpuExtraInputArgs":""}
+2026-01-04T11:31:48.315Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:{"thoroughHealthCheckGpuExtraInputArgs":""}
+2026-01-04T11:31:48.316Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:{"thoroughHealthCheckCpuExtraArgs":""}
+2026-01-04T11:31:48.316Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:{"thoroughHealthCheckGpuExtraArgs":""}
+2026-01-04T11:31:48.316Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:{"logFullCliOutput":false}
+2026-01-04T11:31:48.316Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:{"runMkvpropedit":false}
+2026-01-04T11:31:48.317Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:{"dontCleanWorkerCacheFolder":false}
+2026-01-04T11:31:48.317Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:Path translating objects
+2026-01-04T11:31:48.317Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:Running path translator tests
+2026-01-04T11:31:48.317Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:Path translator tests passed
+2026-01-04T11:31:48.318Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:{"librarySettings":{"_id":"KU0woozLb","priority":1,"name":"TV Shows","folder":"/media/tv","foldersToIgnore":"","foldersToIgnoreCaseInsensitive":false,"folderWatchScanInterval":30,"scannerThreadCount":2,"cache":"/tmp","output":".","folderToFolderConversion":false,"folderToFolderConversionDeleteSource":false,"folderToFolderRecordHistory":true,"copyIfConditionsMet":false,"container":".mkv","containerFilter":"mkv,mp4,mov,m4v,mpg,mpeg,avi,flv,webm,wmv,vob,evo,iso,m2ts,ts","createdAt":1675837380368,"folderWatching":false,"useFsEvents":false,"scheduledScanFindNew":false,"processLibrary":true,"processTranscodes":true,"processHealthChecks":true,"scanOnStart":false,"exifToolScan":true,"mediaInfoScan":true,"ffprobeShowData":false,"isDirectoryLibrary":false,"closedCaptionScan":false,"scanButtons":false,"scanFound":"Files found:0","navItemSelected":"navSourceFolder","pluginIDs":[{"_id":"plugin1","id":"Tdarr_Plugin_MC93_MigzImageRemoval","checked":true,"source":"Community","priority":0,"InputsDB":{}},{"_id":"plugin2","id":"Tdarr_Plugin_lmg1_Reorder_Streams","checked":true,"source":"Community","priority":1,"InputsDB":{}},{"_id":"plugin4","id":"Tdarr_Plugin_MC93_Migz1FFMPEG","checked":true,"source":"Community","priority":2,"InputsDB":{}},{"_id":"plugin5","id":"Tdarr_Plugin_a9he_New_file_size_check","checked":true,"source":"Community","priority":3,"InputsDB":{}}],"pluginCommunity":true,"handbrake":true,"ffmpeg":false,"handbrakescan":true,"ffmpegscan":false,"preset":"-Z \"Very Fast 1080p30\"","decisionMaker":{"settingsPlugin":true,"settingsFlows":false,"settingsVideo":false,"videoExcludeSwitch":true,"video_codec_names_exclude":[{"codec":"hevc","checked":false},{"codec":"h264","checked":true}],"video_size_range_include":{"min":0,"max":100000},"video_height_range_include":{"min":0,"max":3000},"video_width_range_include":{"min":0,"max":4000},"settingsAudio":false,"audioExcludeSwitch":true,"audio_codec_names_exclude":[{"codec":"mp3","checked":true},{"codec":"aac","checked":false}],"audio_size_range_include":{"min":0,"max":10}},"schedule":[{"_id":"Sun:00-01","checked":true},{"_id":"Sun:01-02","checked":true},{"_id":"Sun:02-03","checked":true},{"_id":"Sun:03-04","checked":true},{"_id":"Sun:04-05","checked":true},{"_id":"Sun:05-06","checked":true},{"_id":"Sun:06-07","checked":true},{"_id":"Sun:07-08","checked":true},{"_id":"Sun:08-09","checked":true},{"_id":"Sun:09-10","checked":true},{"_id":"Sun:10-11","checked":true},{"_id":"Sun:11-12","checked":true},{"_id":"Sun:12-13","checked":true},{"_id":"Sun:13-14","checked":true},{"_id":"Sun:14-15","checked":true},{"_id":"Sun:15-16","checked":true},{"_id":"Sun:16-17","checked":true},{"_id":"Sun:17-18","checked":true},{"_id":"Sun:18-19","checked":true},{"_id":"Sun:19-20","checked":true},{"_id":"Sun:20-21","checked":true},{"_id":"Sun:21-22","checked":true},{"_id":"Sun:22-23","checked":true},{"_id":"Sun:23-00","checked":true},{"_id":"Mon:00-01","checked":true},{"_id":"Mon:01-02","checked":true},{"_id":"Mon:02-03","checked":true},{"_id":"Mon:03-04","checked":true},{"_id":"Mon:04-05","checked":true},{"_id":"Mon:05-06","checked":true},{"_id":"Mon:06-07","checked":true},{"_id":"Mon:07-08","checked":true},{"_id":"Mon:08-09","checked":true},{"_id":"Mon:09-10","checked":true},{"_id":"Mon:10-11","checked":true},{"_id":"Mon:11-12","checked":true},{"_id":"Mon:12-13","checked":true},{"_id":"Mon:13-14","checked":true},{"_id":"Mon:14-15","checked":true},{"_id":"Mon:15-16","checked":true},{"_id":"Mon:16-17","checked":true},{"_id":"Mon:17-18","checked":true},{"_id":"Mon:18-19","checked":true},{"_id":"Mon:19-20","checked":true},{"_id":"Mon:20-21","checked":true},{"_id":"Mon:21-22","checked":true},{"_id":"Mon:22-23","checked":true},{"_id":"Mon:23-00","checked":true},{"_id":"Tue:00-01","checked":true},{"_id":"Tue:01-02","checked":true},{"_id":"Tue:02-03","checked":true},{"_id":"Tue:03-04","checked":true},{"_id":"Tue:04-05","checked":true},{"_id":"Tue:05-06","checked":true},{"_id":"Tue:06-07","checked":true},{"_id":"Tue:07-08","checked":true},{"_id":"Tue:08-09","checked":true},{"_id":"Tue:09-10","checked":true},{"_id":"Tue:10-11","checked":true},{"_id":"Tue:11-12","checked":true},{"_id":"Tue:12-13","checked":true},{"_id":"Tue:13-14","checked":true},{"_id":"Tue:14-15","checked":true},{"_id":"Tue:15-16","checked":true},{"_id":"Tue:16-17","checked":true},{"_id":"Tue:17-18","checked":true},{"_id":"Tue:18-19","checked":true},{"_id":"Tue:19-20","checked":true},{"_id":"Tue:20-21","checked":true},{"_id":"Tue:21-22","checked":true},{"_id":"Tue:22-23","checked":true},{"_id":"Tue:23-00","checked":true},{"_id":"Wed:00-01","checked":true},{"_id":"Wed:01-02","checked":true},{"_id":"Wed:02-03","checked":true},{"_id":"Wed:03-04","checked":true},{"_id":"Wed:04-05","checked":true},{"_id":"Wed:05-06","checked":true},{"_id":"Wed:06-07","checked":true},{"_id":"Wed:07-08","checked":true},{"_id":"Wed:08-09","checked":true},{"_id":"Wed:09-10","checked":true},{"_id":"Wed:10-11","checked":true},{"_id":"Wed:11-12","checked":true},{"_id":"Wed:12-13","checked":true},{"_id":"Wed:13-14","checked":true},{"_id":"Wed:14-15","checked":true},{"_id":"Wed:15-16","checked":true},{"_id":"Wed:16-17","checked":true},{"_id":"Wed:17-18","checked":true},{"_id":"Wed:18-19","checked":true},{"_id":"Wed:19-20","checked":true},{"_id":"Wed:20-21","checked":true},{"_id":"Wed:21-22","checked":true},{"_id":"Wed:22-23","checked":true},{"_id":"Wed:23-00","checked":true},{"_id":"Thur:00-01","checked":true},{"_id":"Thur:01-02","checked":true},{"_id":"Thur:02-03","checked":true},{"_id":"Thur:03-04","checked":true},{"_id":"Thur:04-05","checked":true},{"_id":"Thur:05-06","checked":true},{"_id":"Thur:06-07","checked":true},{"_id":"Thur:07-08","checked":true},{"_id":"Thur:08-09","checked":true},{"_id":"Thur:09-10","checked":true},{"_id":"Thur:10-11","checked":true},{"_id":"Thur:11-12","checked":true},{"_id":"Thur:12-13","checked":true},{"_id":"Thur:13-14","checked":true},{"_id":"Thur:14-15","checked":true},{"_id":"Thur:15-16","checked":true},{"_id":"Thur:16-17","checked":true},{"_id":"Thur:17-18","checked":true},{"_id":"Thur:18-19","checked":true},{"_id":"Thur:19-20","checked":true},{"_id":"Thur:20-21","checked":true},{"_id":"Thur:21-22","checked":true},{"_id":"Thur:22-23","checked":true},{"_id":"Thur:23-00","checked":true},{"_id":"Fri:00-01","checked":true},{"_id":"Fri:01-02","checked":true},{"_id":"Fri:02-03","checked":true},{"_id":"Fri:03-04","checked":true},{"_id":"Fri:04-05","checked":true},{"_id":"Fri:05-06","checked":true},{"_id":"Fri:06-07","checked":true},{"_id":"Fri:07-08","checked":true},{"_id":"Fri:08-09","checked":true},{"_id":"Fri:09-10","checked":true},{"_id":"Fri:10-11","checked":true},{"_id":"Fri:11-12","checked":true},{"_id":"Fri:12-13","checked":true},{"_id":"Fri:13-14","checked":true},{"_id":"Fri:14-15","checked":true},{"_id":"Fri:15-16","checked":true},{"_id":"Fri:16-17","checked":true},{"_id":"Fri:17-18","checked":true},{"_id":"Fri:18-19","checked":true},{"_id":"Fri:19-20","checked":true},{"_id":"Fri:20-21","checked":true},{"_id":"Fri:21-22","checked":true},{"_id":"Fri:22-23","checked":true},{"_id":"Fri:23-00","checked":true},{"_id":"Sat:00-01","checked":true},{"_id":"Sat:01-02","checked":true},{"_id":"Sat:02-03","checked":true},{"_id":"Sat:03-04","checked":true},{"_id":"Sat:04-05","checked":true},{"_id":"Sat:05-06","checked":true},{"_id":"Sat:06-07","checked":true},{"_id":"Sat:07-08","checked":true},{"_id":"Sat:08-09","checked":true},{"_id":"Sat:09-10","checked":true},{"_id":"Sat:10-11","checked":true},{"_id":"Sat:11-12","checked":true},{"_id":"Sat:12-13","checked":true},{"_id":"Sat:13-14","checked":true},{"_id":"Sat:14-15","checked":true},{"_id":"Sat:15-16","checked":true},{"_id":"Sat:16-17","checked":true},{"_id":"Sat:17-18","checked":true},{"_id":"Sat:18-19","checked":true},{"_id":"Sat:19-20","checked":true},{"_id":"Sat:20-21","checked":true},{"_id":"Sat:21-22","checked":true},{"_id":"Sat:22-23","checked":true},{"_id":"Sat:23-00","checked":true}],"totalHealthCheckCount":107,"totalTranscodeCount":0,"sizeDiff":0,"holdNewFiles":false,"holdFor":3600,"holdForDisplayUnit":"hours","pluginStackOverview":true,"filterResolutionsSkip":"","filterCodecsSkip":"","filterContainersSkip":"","processPluginsSequentially":true}}
+2026-01-04T11:31:48.318Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:Scanning original library file
+2026-01-04T11:31:48.318Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:{
+2026-01-04T11:31:48.318Z   "exifToolScan": true,
+2026-01-04T11:31:48.318Z   "mediaInfoScan": false,
+2026-01-04T11:31:48.318Z   "closedCaptionScan": false
+2026-01-04T11:31:48.318Z }
+2026-01-04T11:31:48.318Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:Node scanning file
+2026-01-04T11:31:48.319Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:Scan complete
+2026-01-04T11:31:48.319Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:Original file scanned
+2026-01-04T11:31:48.319Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:Source file to work on determined:"/media/tv/Fallout/Season 2/Fallout.S02E01.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv"
+2026-01-04T11:31:48.319Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:[Step W02] [C1] Running pre-process file
+2026-01-04T11:31:48.320Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:Checking files can be accessed
+2026-01-04T11:31:48.320Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:mapped node, file is original, no need to download
+2026-01-04T11:31:48.321Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:Relevant paths can be accessed
+2026-01-04T11:31:48.321Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:Source file: "/media/tv/Fallout/Season 2/Fallout.S02E01.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv"
+2026-01-04T11:31:48.322Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:[Step W03] [C1] Analysing file - running plugins
+2026-01-04T11:31:48.322Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:Handbrake healthcheck task, no need to scan for extra file details
+2026-01-04T11:31:48.323Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:Updating Node relay: Processing
+2026-01-04T11:31:48.323Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:[1/2] Checking file frame count
+2026-01-04T11:31:48.323Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:[2/2] Frame count 0
+2026-01-04T11:31:48.324Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:Determining healthcheck command
+2026-01-04T11:31:48.324Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:[Step W04] [C1] Preparing command
+2026-01-04T11:31:48.325Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:Cache file stem: "/tmp/tdarr-workDir2-xFY5jDGl40"
+2026-01-04T11:31:48.325Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:Cache file path: "/tmp/tdarr-workDir2-xFY5jDGl40/Fallout.S02E01.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG-TdarrCacheFile-iFNJHWzrK.mp4"
+2026-01-04T11:31:48.325Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:Create transcode args
+2026-01-04T11:31:48.326Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:Args:  -i "/media/tv/Fallout/Season 2/Fallout.S02E01.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv" -o /tmp/tdarr-workDir2-xFY5jDGl40/Fallout.S02E01.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG-TdarrCacheFile-iFNJHWzrK.mp4 --scan
+2026-01-04T11:31:48.326Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:Getting source file size
+2026-01-04T11:31:48.326Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:Source file size: 4.36067898478359
+2026-01-04T11:31:48.327Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:Performing safety check on worker config to see if old transcode args/container match new ones
+2026-01-04T11:31:48.327Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:Safety check complete, all good
+2026-01-04T11:31:48.328Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:[Step W05] [C1] Launching subworker
+2026-01-04T11:31:48.328Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:Preparing to launch subworker
+2026-01-04T11:31:48.329Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:Subworker launched
+2026-01-04T11:31:48.329Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:[1/3] Sending command to subworker
+2026-01-04T11:31:48.330Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:[2/3] HandBrakeCLI -i "/media/tv/Fallout/Season 2/Fallout.S02E01.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv" -o /tmp/tdarr-workDir2-xFY5jDGl40/Fallout.S02E01.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG-TdarrCacheFile-iFNJHWzrK.mp4 --scan
+2026-01-04T11:31:48.330Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:[3/3] Command sent
+2026-01-04T11:31:48.330Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:To see live CLI output, enable 'Log full FFmpeg/HandBrake output' in the staging section on the Tdarr tab before the job starts. Note this could increase the job report size substantially.
+2026-01-04T11:31:48.331Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:Subworker:Online
+2026-01-04T11:31:48.331Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:Subworker:Receiving transcode settings
+2026-01-04T11:31:48.331Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:Subworker:Running CLI
+2026-01-04T11:31:58.504Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:Subworker:a.Thread closed, code: 0
+2026-01-04T11:31:58.505Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:Subworker exit approved, killing subworker
+2026-01-04T11:31:58.506Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:Subworker killed
+2026-01-04T11:31:58.507Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:b.Thread closed, code: 0
+2026-01-04T11:31:58.507Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:CLI code: 0
+2026-01-04T11:31:58.508Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:Last 200 lines of CLI log:
+2026-01-04T11:31:58.509Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:[11:31:46] Compile-time hardening features are enabled
+2026-01-04T11:31:58.509Z 
+2026-01-04T11:31:58.509Z [11:31:46] nvenc: version 12.2 is available
+2026-01-04T11:31:58.509Z [11:31:46] nvdec: is available
+2026-01-04T11:31:58.509Z 
+2026-01-04T11:31:58.509Z [11:31:46] CUDA Version: 6.1
+2026-01-04T11:31:58.509Z 
+2026-01-04T11:31:58.509Z [11:31:46] qsv: not available on this system
+2026-01-04T11:31:58.509Z 
+2026-01-04T11:31:58.509Z [11:31:46] hb_init: starting libhb thread
+2026-01-04T11:31:58.509Z [11:31:46] thread 7f20309e76c0 started ("libhb")
+2026-01-04T11:31:58.509Z HandBrake 1.10.2 (2025102400) - Linux x86_64 - https://handbrake.fr
+2026-01-04T11:31:58.509Z 16 CPUs detected
+2026-01-04T11:31:58.509Z 
+2026-01-04T11:31:58.509Z Opening /media/tv/Fallout/Season 2/Fallout.S02E01.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv...
+2026-01-04T11:31:58.509Z 
+2026-01-04T11:31:58.509Z [11:31:46] CPU: Common KVM processor
+2026-01-04T11:31:58.509Z [11:31:46]  - logical processor count: 16
+2026-01-04T11:31:58.509Z [11:31:46] Intel Quick Sync Video support: no
+2026-01-04T11:31:58.509Z [11:31:46] hb_scan: path=/media/tv/Fallout/Season 2/Fallout.S02E01.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv, title_index=1
+2026-01-04T11:31:58.509Z 
+2026-01-04T11:31:58.509Z Input #0, matroska,webm, from '/media/tv/Fallout/Season 2/Fallout.S02E01.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv':
+2026-01-04T11:31:58.509Z   Metadata:
+2026-01-04T11:31:58.509Z     encoder         : libebml v1.4.5 + libmatroska v1.7.1
+2026-01-04T11:31:58.509Z   Duration: 01:02:27.49, start: 0.000000, bitrate: 9995 kb/s
+2026-01-04T11:31:58.509Z   Chapters:
+2026-01-04T11:31:58.509Z     Chapter #0:0: start 0.000000, end 6.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 1
+2026-01-04T11:31:58.509Z     Chapter #0:1: start 6.000000, end 360.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 2
+2026-01-04T11:31:58.509Z     Chapter #0:2: start 360.000000, end 373.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 3
+2026-01-04T11:31:58.509Z     Chapter #0:3: start 373.000000, end 378.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 4
+2026-01-04T11:31:58.509Z     Chapter #0:4: start 378.000000, end 426.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : 
+2026-01-04T11:31:58.509Z Scene 5
+2026-01-04T11:31:58.509Z     Chapter #0:5: start 426.000000, end 637.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 6
+2026-01-04T11:31:58.509Z     Chapter #0:6: start 637.000000, end 705.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 7
+2026-01-04T11:31:58.509Z     Chapter #0:7: start 705.000000, end 718.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 8
+2026-01-04T11:31:58.509Z     Chapter #0:8: start 718.000000, end 812.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 9
+2026-01-04T11:31:58.509Z     Chapter #0:9: start 812.000000, end 1022.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 10
+2026-01-04T11:31:58.509Z     Chapter #0:10: start 1022.000000, end 1176.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 11
+2026-01-04T11:31:58.509Z     Chapter #0:11: start 1176.000000, end 1204.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 12
+2026-01-04T11:31:58.509Z     Chapter #0:12: start 1204.000000, end 1243.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 13
+2026-01-04T11:31:58.509Z     Chapter #0:13: start 1243.000000, end 1355.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 14
+2026-01-04T11:31:58.509Z     Chapter #0:14: start 1355.000000, end 1472.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 15
+2026-01-04T11:31:58.509Z     Chapter #0:15: start 1472.000000, end 1524.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 16
+2026-01-04T11:31:58.509Z     Chapter #0:16: start 1524.000000, end 1553.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 17
+2026-01-04T11:31:58.509Z     Chapter #0:17: start 1553.000000, end 1671.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 18
+2026-01-04T11:31:58.509Z     Chapter #0:18: start 1671.000000, end 1819.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 19
+2026-01-04T11:31:58.509Z     Chapter #0:19: start 1819.000000, end 1866.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 20
+2026-01-04T11:31:58.509Z     Chapter #0:20: start 1866.000000, end 1988.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 21
+2026-01-04T11:31:58.509Z     Chapter #0:21: start 1988.000000, end 2086.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 22
+2026-01-04T11:31:58.509Z     Chapter #0:22: start 2086.000000, end 2220.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 23
+2026-01-04T11:31:58.509Z     Chapter #0:23: start 2220.000000, end 2285.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 24
+2026-01-04T11:31:58.509Z     Chapter #0:24: start 2285.000000, end 2441.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 25
+2026-01-04T11:31:58.509Z     Chapter #0:25: start 2441.000000, end 2528.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 26
+2026-01-04T11:31:58.509Z     Chapter #0:26: start 2528.000000, end 2573.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 27
+2026-01-04T11:31:58.509Z     Chapter #0:27: start 2573.000000, end 2713.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 28
+2026-01-04T11:31:58.509Z     Chapter #0:28: start 2713.000000, end 2877.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 29
+2026-01-04T11:31:58.509Z     Chapter #0:29: start 2877.000000, end 3037.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 30
+2026-01-04T11:31:58.509Z     Chapter #0:30: start 3037.000000, end 3304.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 31
+2026-01-04T11:31:58.509Z     Chapter #0:31: start 3304.000000, end 3378.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 32
+2026-01-04T11:31:58.509Z     Chapter #0:32: start 3378.000000, end 3384.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 33
+2026-01-04T11:31:58.509Z     Chapter #0:33: start 3384.000000, end 3389.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 34
+2026-01-04T11:31:58.509Z     Chapter #0:34: start 3389.000000, end 3405.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 35
+2026-01-04T11:31:58.509Z     Chapter #0:35: start 3405.000000, end 3410.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 36
+2026-01-04T11:31:58.509Z     Chapter #0:36: start 3410.000000, end 3428.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 37
+2026-01-04T11:31:58.509Z     Chapter #0:37: start 3428.000000, end 3460.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 38
+2026-01-04T11:31:58.509Z     Chapter #0:38: start 3460.000000, end 3512.000000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 39
+2026-01-04T11:31:58.509Z     Chapter #0:39: start 3512.000000, end 3747.488000
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Scene 40
+2026-01-04T11:31:58.509Z   Stream #0:0: Video: h264 (High), yuv420p(tv, bt709, progressive), 1920x800 [SAR 1:1 DAR 12:5], 24 fps, 24 tbr, 1k tbn (default)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         BPS             : 
+2026-01-04T11:31:58.509Z 8772822
+2026-01-04T11:31:58.509Z         DURATION        : 01:02:27.459000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 89939
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 4109474016
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z   Stream #0:1(tur): Audio: eac3, 48000 Hz, 5.1(side), fltp, 640 kb/s (default)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Turkish
+2026-01-04T11:31:58.509Z         BPS             : 640000
+2026-01-04T11:31:58.509Z         DURATION        : 01:02:27.488000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 117109
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 299799040
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z   Stream #0:2(eng): Audio: eac3 (Dolby Digital Plus + Dolby Atmos), 48000 Hz, 5.1(side), fltp, 576 kb/s
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : English
+2026-01-04T11:31:58.509Z         BPS             : 576000
+2026-01-04T11:31:58.509Z         DURATION        : 01:02:27.488000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 117109
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 269819136
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z   Stream #0:3(tur): Subtitle: subrip (srt) (default) (forced)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Turkish (Forced)
+2026-01-04T11:31:58.509Z         BPS             : 1
+2026-01-04T11:31:58.509Z         DURATION        : 00:56:15.958000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 27
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 798
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z   Stream #0:4(tur): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Turkish
+2026-01-04T11:31:58.509Z         BPS             : 50
+2026-01-04T11:31:58.509Z         DURATION        : 00:59:53.292000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 667
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 22685
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z 
+2026-01-04T11:31:58.509Z   Stream #0:5(ara): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Arabic (world)
+2026-01-04T11:31:58.509Z         BPS             : 83
+2026-01-04T11:31:58.509Z         DURATION        : 00:59:53.292000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 673
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 37613
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z   Stream #0:6(cat): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Catalan
+2026-01-04T11:31:58.509Z         BPS             : 47
+2026-01-04T11:31:58.509Z         DURATION        : 00:59:53.292000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 663
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 21113
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z   Stream #0:7(cze): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Czech
+2026-01-04T11:31:58.509Z         BPS             : 47
+2026-01-04T11:31:58.509Z         DURATION        : 00:59:53.292000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 658
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 21468
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z   Stream #0:8(dan): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Danish
+2026-01-04T11:31:58.509Z         BPS             : 46
+2026-01-04T11:31:58.509Z         DURATION        : 00:59:53.292000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 658
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 20855
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z   Stream #0:9(ger): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : German
+2026-01-04T11:31:58.509Z         BPS             : 47
+2026-01-04T11:31:58.509Z         DURATION        : 00:59:53.292000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 649
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 21520
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z   Stream #0:10(gre): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Greek
+2026-01-04T11:31:58.509Z         BPS             : 89
+2026-01-04T11:31:58.509Z         DURATION        : 00:59:53.292000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 664
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 40071
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z   Stream #0:11(eng): Subtitle: subrip (srt) (hearing impaired)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : English (SDH)
+2026-01-04T11:31:58.509Z         BPS             : 74
+2026-01-04T11:31:58.509Z         DURATION        : 00:58:24.750000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 891
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 32854
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z   Stream #0:12(spa): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Spanish (Latin America)
+2026-01-04T11:31:58.509Z         BPS             : 47
+2026-01-04T11:31:58.509Z         DURATION        : 00:59:53.292000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 660
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 21215
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z   Stream #0:13(spa): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Spanish (Spain)
+2026-01-04T11:31:58.509Z         BPS             : 51
+2026-01-04T11:31:58.509Z         DURATION        : 00:59:52.666000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 618
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 23145
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z 
+2026-01-04T11:31:58.509Z   Stream #0:14(baq): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Basque (Spain)
+2026-01-04T11:31:58.509Z         BPS             : 45
+2026-01-04T11:31:58.509Z         DURATION        : 00:59:53.292000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 660
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 20393
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z   Stream #0:15(fin): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Finnish
+2026-01-04T11:31:58.509Z         BPS             : 48
+2026-01-04T11:31:58.509Z         DURATION        : 00:59:53.292000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 663
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 21620
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z   Stream #0:16(fre): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : French (Canada)
+2026-01-04T11:31:58.509Z         BPS             : 48
+2026-01-04T11:31:58.509Z         DURATION        : 00:59:53.292000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 655
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 21822
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z   Stream #0:17(fre): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : French (France)
+2026-01-04T11:31:58.509Z         BPS             : 47
+2026-01-04T11:31:58.509Z         DURATION        : 00:58:33.166000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 683
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 20766
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z 
+2026-01-04T11:31:58.509Z   Stream #0:18(glg): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Galician
+2026-01-04T11:31:58.509Z         BPS             : 45
+2026-01-04T11:31:58.509Z         DURATION        : 00:59:53.292000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 662
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 20571
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z   Stream #0:19(heb): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Hebrew
+2026-01-04T11:31:58.509Z         BPS             : 75
+2026-01-04T11:31:58.509Z         DURATION        : 00:59:53.292000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 670
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 33831
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z   Stream #0:20(hin): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Hindi
+2026-01-04T11:31:58.509Z         BPS             : 126
+2026-01-04T11:31:58.509Z         DURATION        : 00:59:53.292000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 670
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 56962
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z   Stream #0:21(hun): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Hungarian
+2026-01-04T11:31:58.509Z         BPS             : 47
+2026-01-04T11:31:58.509Z         DURATION        : 00:59:53.292000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 657
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 21559
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z 
+2026-01-04T11:31:58.509Z   Stream #0:22(ind): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Indonesian
+2026-01-04T11:31:58.509Z         BPS             : 48
+2026-01-04T11:31:58.509Z         DURATION        : 00:59:53.292000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 662
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 21606
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z   Stream #0:23(ita): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Italian
+2026-01-04T11:31:58.509Z         BPS             : 49
+2026-01-04T11:31:58.509Z         DURATION        : 00:59:53.292000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 660
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 22034
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z   Stream #0:24(jpn): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Japanese
+2026-01-04T11:31:58.509Z         BPS             : 43
+2026-01-04T11:31:58.509Z         DURATION        : 00:59:53.292000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 597
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 19342
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z   Stream #0:25(kan): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Kannada (India)
+2026-01-04T11:31:58.509Z         BPS             : 135
+2026-01-04T11:31:58.509Z         DURATION        : 00:59:53.292000000
+2026-01-04T11:31:58.509Z 
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 670
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 61010
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z   Stream #0:26(kor): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Korean
+2026-01-04T11:31:58.509Z         BPS             : 58
+2026-01-04T11:31:58.509Z         DURATION        : 00:59:53.292000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 670
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 26296
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z   Stream #0:27(mal): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Malayalam (India)
+2026-01-04T11:31:58.509Z         BPS             : 150
+2026-01-04T11:31:58.509Z         DURATION        : 00:59:53.292000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 665
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 67758
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z   Stream #0:28(may): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z 
+2026-01-04T11:31:58.509Z         title           : Malay
+2026-01-04T11:31:58.509Z         BPS             : 49
+2026-01-04T11:31:58.509Z         DURATION        : 00:59:53.292000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 664
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 22027
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z   Stream #0:29(nob): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Norwegian Bokmål
+2026-01-04T11:31:58.509Z         BPS             : 46
+2026-01-04T11:31:58.509Z         DURATION        : 00:59:53.292000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 664
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 20917
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z   Stream #0:30(dut): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Dutch
+2026-01-04T11:31:58.509Z         BPS             : 44
+2026-01-04T11:31:58.509Z         DURATION        : 00:59:53.292000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 648
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 19973
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z   Stream #0:31(pol): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Polish
+2026-01-04T11:31:58.509Z         BPS             : 43
+2026-01-04T11:31:58.509Z         DURATION        : 00:59:53.292000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 658
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 19387
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z 
+2026-01-04T11:31:58.509Z   Stream #0:32(por): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Portuguese (Brazil)
+2026-01-04T11:31:58.509Z         BPS             : 47
+2026-01-04T11:31:58.509Z         DURATION        : 00:59:53.292000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 662
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 21525
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z   Stream #0:33(por): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Portuguese (Portugal)
+2026-01-04T11:31:58.509Z         BPS             : 47
+2026-01-04T11:31:58.509Z         DURATION        : 00:59:53.292000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 667
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 21299
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z   Stream #0:34(rum): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Romanian
+2026-01-04T11:31:58.509Z         BPS             : 51
+2026-01-04T11:31:58.509Z         DURATION        : 00:59:53.292000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 663
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 23022
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z   Stream #0:35(swe): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Swedish
+2026-01-04T11:31:58.509Z         BPS             : 49
+2026-01-04T11:31:58.509Z         DURATION        : 00:59:53.292000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 660
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 22395
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z   Stream #0:36(tam): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Tamil
+2026-01-04T11:31:58.509Z         BPS             : 137
+2026-01-04T11:31:58.509Z         DURATION        : 00:59:53.292000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 671
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 61978
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z   Stream #0:37(tel): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Telugu
+2026-01-04T11:31:58.509Z         BPS             : 135
+2026-01-04T11:31:58.509Z         DURATION        : 00:59:53.292000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 669
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 60794
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z   Stream #0:38(tha): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Thai
+2026-01-04T11:31:58.509Z         BPS             : 123
+2026-01-04T11:31:58.509Z         DURATION        : 00:59:53.292000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 670
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 55328
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z   Stream #0:39(chi): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Chinese (Simplified)
+2026-01-04T11:31:58.509Z         BPS             : 44
+2026-01-04T11:31:58.509Z         DURATION        : 00:59:53.292000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 670
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 19952
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z   Stream #0:40(chi): Subtitle: subrip (srt)
+2026-01-04T11:31:58.509Z       Metadata:
+2026-01-04T11:31:58.509Z         title           : Chinese (Traditional)
+2026-01-04T11:31:58.509Z         BPS             : 42
+2026-01-04T11:31:58.509Z         DURATION        : 00:59:53.292000000
+2026-01-04T11:31:58.509Z         NUMBER_OF_FRAMES: 670
+2026-01-04T11:31:58.509Z         NUMBER_OF_BYTES : 19271
+2026-01-04T11:31:58.509Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:31:58.509Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:58.509Z [11:31:46] scan: decoding previews for title 1
+2026-01-04T11:31:58.509Z 
+2026-01-04T11:31:58.509Z [11:31:46] scan: audio 0x1: eac3, rate=48000Hz, bitrate=640000 Türkçe (E-AC3, 5.1 ch, 640 kbps)
+2026-01-04T11:31:58.509Z 
+2026-01-04T11:31:58.509Z [11:31:46] scan: audio 0x2: eac3, rate=48000Hz, bitrate=576000 English (E-AC3 Dolby Digital Plus + Dolby Atmos, 5.1 ch, 576 kbps)
+2026-01-04T11:31:58.509Z 
+2026-01-04T11:31:58.509Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:31:58.509Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:31:58.509Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:31:58.509Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:31:58.509Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:31:58.509Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:31:58.509Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:31:58.509Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:31:58.509Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:31:58.509Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:31:58.509Z Scanning title 1 of 1, preview 3, 30.00 %
+2026-01-04T11:31:58.509Z Scanning title 1 of 1, preview 3, 30.00 %
+2026-01-04T11:31:58.509Z Scanning title 1 of 1, preview 4, 40.00 %
+2026-01-04T11:31:58.509Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-04T11:31:58.509Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-04T11:31:58.509Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-04T11:31:58.509Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-04T11:31:58.509Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-04T11:31:58.509Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-04T11:31:58.509Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-04T11:31:58.509Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-04T11:31:58.509Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-04T11:31:58.509Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-04T11:31:58.509Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-04T11:31:58.509Z Scanning title 1 of 1, preview 7, 70.00 %
+2026-01-04T11:31:58.509Z Scanning title 1 of 1, preview 8, 80.00 %
+2026-01-04T11:31:58.509Z Scanning title 1 of 1, preview 8, 80.00 %
+2026-01-04T11:31:58.509Z Scanning title 1 of 1, preview 8, 80.00 %
+2026-01-04T11:31:58.509Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:31:58.509Z Scanning title 1 of 1, preview 10, 100.00 %
+2026-01-04T11:31:58.509Z [11:31:55] using container PAR 1:1
+2026-01-04T11:31:58.509Z [11:31:55] scan: 10 previews, 1920x800, 24.000 fps, autocrop = 0/0/0/0, aspect 2.40:1, PAR 1:1, color profile: 1-1-1, chroma location: left
+2026-01-04T11:31:58.509Z 
+2026-01-04T11:31:58.509Z [11:31:55] libhb: scan thread found 1 valid title(s)
+2026-01-04T11:31:58.509Z 
+2026-01-04T11:31:58.509Z + title 1:
+2026-01-04T11:31:58.509Z   + stream: /media/tv/Fallout/Season 2/Fallout.S02E01.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv
+2026-01-04T11:31:58.509Z   + duration: 01:02:27
+2026-01-04T11:31:58.509Z   + size: 1920x800, pixel aspect: 1/1, display aspect: 2.40, 24.000 fps
+2026-01-04T11:31:58.509Z   + autocrop: 0/0/0/0
+2026-01-04T11:31:58.509Z   + chapters:
+2026-01-04T11:31:58.509Z     + 1: duration 00:00:06
+2026-01-04T11:31:58.509Z     + 2: duration 00:05:54
+2026-01-04T11:31:58.509Z     + 3: duration 00:00:13
+2026-01-04T11:31:58.509Z     + 4: duration 00:00:05
+2026-01-04T11:31:58.509Z     + 5: duration 00:00:48
+2026-01-04T11:31:58.509Z     + 6: duration 00:03:31
+2026-01-04T11:31:58.509Z     + 7: duration 00:01:08
+2026-01-04T11:31:58.509Z     + 8: duration 00:00:13
+2026-01-04T11:31:58.509Z     + 9: duration 00:01:34
+2026-01-04T11:31:58.509Z     + 10: duration 00:03:30
+2026-01-04T11:31:58.509Z     + 11: duration 00:02:34
+2026-01-04T11:31:58.509Z     + 12: duration 00:00:28
+2026-01-04T11:31:58.509Z     + 13: duration 00:00:39
+2026-01-04T11:31:58.509Z     + 14: duration 00:01:52
+2026-01-04T11:31:58.509Z     + 15: duration 00:01:57
+2026-01-04T11:31:58.509Z     + 16: duration 00:00:52
+2026-01-04T11:31:58.509Z     + 17: duration 00:00:29
+2026-01-04T11:31:58.509Z     + 18: duration 00:01:58
+2026-01-04T11:31:58.509Z     + 19: duration 00:02:28
+2026-01-04T11:31:58.509Z     + 20: duration 00:00:47
+2026-01-04T11:31:58.509Z     + 21: duration 00:02:02
+2026-01-04T11:31:58.509Z     + 22: duration 00:01:38
+2026-01-04T11:31:58.509Z     + 23: duration 00:02:14
+2026-01-04T11:31:58.509Z     + 24: duration 00:01:05
+2026-01-04T11:31:58.509Z     + 25: duration 00:02:36
+2026-01-04T11:31:58.509Z     + 26: duration 00:01:27
+2026-01-04T11:31:58.509Z     + 27: duration 00:00:45
+2026-01-04T11:31:58.509Z     + 28: duration 00:02:20
+2026-01-04T11:31:58.509Z     + 29: duration 00:02:44
+2026-01-04T11:31:58.509Z     + 30: duration 00:02:40
+2026-01-04T11:31:58.509Z     + 31: duration 00:04:27
+2026-01-04T11:31:58.509Z     + 32: duration 00:01:14
+2026-01-04T11:31:58.509Z     + 33: duration 00:00:06
+2026-01-04T11:31:58.509Z     + 34: duration 00:00:05
+2026-01-04T11:31:58.509Z     + 35: duration 00:00:16
+2026-01-04T11:31:58.509Z     + 36: duration 00:00:05
+2026-01-04T11:31:58.509Z     + 37: duration 00:00:18
+2026-01-04T11:31:58.509Z     + 38: duration 00:00:32
+2026-01-04T11:31:58.509Z     + 39: duration 00:00:52
+2026-01-04T11:31:58.509Z     + 40: duration 00:03:55
+2026-01-04T11:31:58.509Z   + audio tracks:
+2026-01-04T11:31:58.509Z     + 1, Türkçe (E-AC3, 5.1 ch, 640 kbps) (iso639-2: tur)
+2026-01-04T11:31:58.509Z     + 2, English (E-AC3 Dolby Digital Plus + Dolby Atmos, 5.1 ch, 576 kbps) (iso639-2: eng)
+2026-01-04T11:31:58.509Z   + subtitle tracks:
+2026-01-04T11:31:58.509Z     + 1, Türkçe (UTF-8)
+2026-01-04T11:31:58.509Z     + 2, Türkçe (UTF-8)
+2026-01-04T11:31:58.509Z     + 3, العربية (UTF-8)
+2026-01-04T11:31:58.509Z     + 4, català (UTF-8)
+2026-01-04T11:31:58.509Z     + 5, čeština (UTF-8)
+2026-01-04T11:31:58.509Z     + 6, dansk (UTF-8)
+2026-01-04T11:31:58.509Z     + 7, Deutsch (UTF-8)
+2026-01-04T11:31:58.509Z     + 8, Ελληνικά (UTF-8)
+2026-01-04T11:31:58.509Z     + 9, English (UTF-8)
+2026-01-04T11:31:58.509Z     + 10, español (UTF-8)
+2026-01-04T11:31:58.509Z     + 11, español (UTF-8)
+2026-01-04T11:31:58.509Z     + 12, euskara (UTF-8)
+2026-01-04T11:31:58.509Z     + 13, suomi (UTF-8)
+2026-01-04T11:31:58.509Z     + 14, Francais (UTF-8)
+2026-01-04T11:31:58.509Z     + 15, Francais (UTF-8)
+2026-01-04T11:31:58.509Z     + 16, galego (UTF-8)
+2026-01-04T11:31:58.509Z     + 17, עברית (UTF-8)
+2026-01-04T11:31:58.509Z     + 18, हिंदी (UTF-8)
+2026-01-04T11:31:58.509Z     + 19, magyar (UTF-8)
+2026-01-04T11:31:58.509Z     + 20, Bahasa Indonesia (UTF-8)
+2026-01-04T11:31:58.509Z     + 21, italiano (UTF-8)
+2026-01-04T11:31:58.509Z     + 22, 日本語 (UTF-8)
+2026-01-04T11:31:58.509Z     + 23, Kannada (UTF-8)
+2026-01-04T11:31:58.509Z     + 24, 한국어 (UTF-8)
+2026-01-04T11:31:58.509Z     + 25, മലയാളം (UTF-8)
+2026-01-04T11:31:58.509Z     + 26, Bahasa Melayu (UTF-8)
+2026-01-04T11:31:58.509Z     + 27, norsk bokmål (UTF-8)
+2026-01-04T11:31:58.509Z     + 28, Nederlands (UTF-8)
+2026-01-04T11:31:58.509Z     + 29, polski (UTF-8)
+2026-01-04T11:31:58.509Z     + 30, Portugues (UTF-8)
+2026-01-04T11:31:58.509Z     + 31, Portugues (UTF-8)
+2026-01-04T11:31:58.509Z     + 32, română (UTF-8)
+2026-01-04T11:31:58.509Z     + 33, svenska (UTF-8)
+2026-01-04T11:31:58.509Z     + 34, தமிழ் (UTF-8)
+2026-01-04T11:31:58.509Z     + 35, తెలుగు (UTF-8)
+2026-01-04T11:31:58.509Z     + 36, ไทย (UTF-8)
+2026-01-04T11:31:58.509Z     + 37, 中文 (UTF-8)
+2026-01-04T11:31:58.509Z     + 38, 中文 (UTF-8)
+2026-01-04T11:31:58.509Z 
+2026-01-04T11:31:58.509Z HandBrake has exited.
+2026-01-04T11:31:58.509Z 
+2026-01-04T11:31:58.509Z 
+2026-01-04T11:31:58.509Z 
+2026-01-04T11:31:58.509Z 
+2026-01-04T11:31:58.510Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:[Step W06] [C1] Worker [-success-]
+2026-01-04T11:31:58.511Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:Worker success during processing
+2026-01-04T11:31:58.512Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:Updating healthcheck stats
+2026-01-04T11:31:58.513Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:[Step W10] Worker processing end
+2026-01-04T11:31:58.515Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:Subworker exited null
+2026-01-04T11:31:58.515Z xFY5jDGl40:Node[MyInternalNode]:Worker[easy-erne]:Successfully updated server with verdict: healthcheckSuccess

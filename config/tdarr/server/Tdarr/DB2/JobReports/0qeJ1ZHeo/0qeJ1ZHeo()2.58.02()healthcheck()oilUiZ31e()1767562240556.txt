@@ -1,0 +1,637 @@
+2026-01-04T15:30:43.516Z oilUiZ31e:[Step S01] [2.58.02] Server relay initialising job
+2026-01-04T15:30:43.517Z oilUiZ31e:Server: linux_x64_docker_true
+2026-01-04T15:30:43.518Z oilUiZ31e:Server relay adding file to staged files
+2026-01-04T15:30:43.518Z oilUiZ31e:Server relay sending job to Node relay: MyInternalNode
+2026-01-04T15:30:43.518Z oilUiZ31e:Node[MyInternalNode]:[Step N01] [2.58.02] Node relay received job
+2026-01-04T15:30:43.518Z oilUiZ31e:Node[MyInternalNode]:{"nodeName":"MyInternalNode","serverURL":"http://0.0.0.0:8266","serverIP":"0.0.0.0","serverPort":"8266","handbrakePath":"","ffmpegPath":"","mkvpropeditPath":"","pathTranslators":[{"server":"","node":""}],"nodeType":"mapped","unmappedNodeCache":"/app/unmappedNodeCache","logLevel":"INFO","priority":-1,"platform_arch_isdocker":"linux_x64_docker_true","processPid":664,"cronPluginUpdate":"","apiKey":"","maxLogSizeMB":"10","pollInterval":2000,"startPaused":false,"nodeID":"-2RaUzM4Y","seededWorkerLimits":{},"nodeRegisteredCount":1}
+2026-01-04T15:30:43.519Z oilUiZ31e:Node[MyInternalNode]:Node relay sending job to worker:long-lemur
+2026-01-04T15:30:43.519Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:[Step W01] Received file, original: "/media/movies/Play Dirty (2025)/Play.Dirty.2025.REPACK.1080p.AMZN.WEB-DL.DDP5.1.Atmos.H.264-FLUX.mkv"
+2026-01-04T15:30:43.519Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:{"workerType":"healthcheckcpu"}
+2026-01-04T15:30:43.520Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:{"ffmpegPath":"tdarr-ffmpeg"}
+2026-01-04T15:30:43.520Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:{"handbrakePath":"HandBrakeCLI"}
+2026-01-04T15:30:43.520Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:{"mkvpropeditPath":"mkvpropedit"}
+2026-01-04T15:30:43.520Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:{"gpuSelect":"-"}
+2026-01-04T15:30:43.521Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:{"allowGpuDoCpu":false}
+2026-01-04T15:30:43.521Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:{"thoroughHealthCheckCpuExtraInputArgs":""}
+2026-01-04T15:30:43.521Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:{"thoroughHealthCheckGpuExtraInputArgs":""}
+2026-01-04T15:30:43.522Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:{"thoroughHealthCheckCpuExtraArgs":""}
+2026-01-04T15:30:43.522Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:{"thoroughHealthCheckGpuExtraArgs":""}
+2026-01-04T15:30:43.522Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:{"logFullCliOutput":false}
+2026-01-04T15:30:43.522Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:{"runMkvpropedit":false}
+2026-01-04T15:30:43.523Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:{"dontCleanWorkerCacheFolder":false}
+2026-01-04T15:30:43.523Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:Path translating objects
+2026-01-04T15:30:43.523Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:Running path translator tests
+2026-01-04T15:30:43.524Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:Path translator tests passed
+2026-01-04T15:30:43.524Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:{"librarySettings":{"_id":"qNfK1K4g-","priority":0,"name":"Movies","folder":"/media/movies","foldersToIgnore":"","foldersToIgnoreCaseInsensitive":false,"folderWatchScanInterval":30,"scannerThreadCount":2,"cache":"/tmp","output":".","folderToFolderConversion":false,"folderToFolderConversionDeleteSource":false,"folderToFolderRecordHistory":true,"copyIfConditionsMet":false,"container":".mkv","containerFilter":"mkv,mp4,mov,m4v,mpg,mpeg,avi,flv,webm,wmv,vob,evo,iso,m2ts,ts","createdAt":1675837380368,"folderWatching":true,"useFsEvents":false,"scheduledScanFindNew":false,"processLibrary":true,"processTranscodes":true,"processHealthChecks":true,"scanOnStart":true,"exifToolScan":true,"mediaInfoScan":true,"ffprobeShowData":false,"isDirectoryLibrary":false,"closedCaptionScan":false,"scanButtons":true,"scanFound":"Files found:0","navItemSelected":"navSourceFolder","pluginIDs":[{"_id":"plugin1","id":"Tdarr_Plugin_MC93_MigzImageRemoval","checked":true,"source":"Community","priority":0,"InputsDB":{},"Name":"Migz Remove Image Formats From File","Type":"Video","Operation":"Transcode","Description":"Identify any unwanted image formats in the file and remove those streams. MJPEG, PNG & GIF \n\n","Version":"1.4","Stage":"Pre-processing","Tags":"pre-processing,ffmpeg,video only","Inputs":[],"source_id":"Community::Tdarr_Plugin_MC93_MigzImageRemoval"},{"_id":"plugin2","id":"Tdarr_Plugin_lmg1_Reorder_Streams","checked":true,"source":"Community","priority":1,"InputsDB":{},"Name":"Lmg1 Reorder Streams","Type":"Video","Operation":"Transcode","Description":"[Contains built-in filter] This plugin will move the video stream to the front so Tdarr will recognize the codec correctly.\n\n","Version":"1.00","Stage":"Pre-processing","Tags":"pre-processing,ffmpeg","Inputs":[],"source_id":"Community::Tdarr_Plugin_lmg1_Reorder_Streams"},{"_id":"plugin4","id":"Tdarr_Plugin_MC93_Migz1FFMPEG","checked":true,"source":"Community","priority":2,"InputsDB":{},"Name":"Migz Transcode Using Nvidia GPU & FFMPEG","Type":"Video","Operation":"Transcode","Description":"Files not in H265 will be transcoded into H265 using Nvidia GPU with ffmpeg.\n                  Settings are dependant on file bitrate\n                  Working by the logic that H265 can support the same ammount of data at half the bitrate of H264.\n                  NVDEC & NVENC compatable GPU required.\n                  This plugin will skip any files that are in the VP9 codec.","Version":"3.1","Stage":"Pre-processing","Tags":"pre-processing,ffmpeg,video only,nvenc h265,configurable","Inputs":[{"name":"container","type":"string","defaultValue":"mkv","inputUI":{"type":"text"},"tooltip":"Specify output container of file. Use 'original' wihout quotes to keep original container.\n                \\n Ensure that all stream types you may have are supported by your chosen container.\n                \\n mkv is recommended.\n                    \\nExample:\\n\n                    mkv\n\n                    \\nExample:\\n\n                    mp4\n                    \n                    \\nExample:\\n\n                    original"},{"name":"bitrate_cutoff","type":"string","defaultValue":"","inputUI":{"type":"text"},"tooltip":"Specify bitrate cutoff, files with a current bitrate lower then this will not be transcoded.\n               \\n Rate is in kbps.\n               \\n Leave empty to disable.\n                    \\nExample:\\n\n                    6000\n\n                    \\nExample:\\n\n                    4000"},{"name":"enable_10bit","type":"boolean","defaultValue":false,"inputUI":{"type":"dropdown","options":["false","true"]},"tooltip":"Specify if output file should be 10bit. Default is false.\n                    \\nExample:\\n\n                    true\n\n                    \\nExample:\\n\n                    false"},{"name":"enable_bframes","type":"boolean","defaultValue":false,"inputUI":{"type":"dropdown","options":["false","true"]},"tooltip":"Specify if b frames should be used.\n                 \\n Using B frames should decrease file sizes but are only supported on newer GPUs.\n                 \\n Default is false.\n                    \\nExample:\\n\n                    true\n\n                    \\nExample:\\n\n                    false"},{"name":"force_conform","type":"boolean","defaultValue":false,"inputUI":{"type":"dropdown","options":["false","true"]},"tooltip":"Make the file conform to output containers requirements.\n                \\n Drop hdmv_pgs_subtitle/eia_608/subrip/timed_id3 for MP4.\n                \\n Drop data streams/mov_text/eia_608/timed_id3 for MKV.\n                \\n Default is false.\n                    \\nExample:\\n\n                    true\n\n                    \\nExample:\\n\n                    false"}],"source_id":"Community::Tdarr_Plugin_MC93_Migz1FFMPEG"},{"_id":"plugin5","id":"Tdarr_Plugin_a9he_New_file_size_check","checked":true,"source":"Community","priority":3,"InputsDB":{},"Name":"New File Size Check","Type":"Video","Operation":"Transcode","Description":"Give an error if new file is not within the specified upper and lower bound limits \n\n","Version":"1.00","Stage":"Pre-processing","Tags":"","Inputs":[{"name":"upperBound","type":"number","defaultValue":110,"inputUI":{"type":"text"},"tooltip":"Enter the upper bound % size for the new file. For example, if '110' is entered, \n        then if the new file size is greater than 110% the size of the original, an error will be given."},{"name":"lowerBound","type":"number","defaultValue":40,"inputUI":{"type":"text"},"tooltip":"Enter the lower bound % size for the new file. For example, if '90' is entered, \n        then if the new file size is less than 90% of the original, an error will be given."}],"source_id":"Community::Tdarr_Plugin_a9he_New_file_size_check"}],"pluginCommunity":true,"handbrake":true,"ffmpeg":false,"handbrakescan":true,"ffmpegscan":false,"preset":"-Z \"Very Fast 1080p30\"","decisionMaker":{"settingsPlugin":true,"settingsFlows":false,"settingsVideo":false,"videoExcludeSwitch":true,"video_codec_names_exclude":[{"codec":"hevc","checked":false},{"codec":"h264","checked":true}],"video_size_range_include":{"min":0,"max":100000},"video_height_range_include":{"min":0,"max":3000},"video_width_range_include":{"min":0,"max":4000},"settingsAudio":false,"audioExcludeSwitch":true,"audio_codec_names_exclude":[{"codec":"mp3","checked":true},{"codec":"aac","checked":false}],"audio_size_range_include":{"min":0,"max":10}},"schedule":[{"_id":"Sun:00-01","checked":true},{"_id":"Sun:01-02","checked":true},{"_id":"Sun:02-03","checked":true},{"_id":"Sun:03-04","checked":true},{"_id":"Sun:04-05","checked":true},{"_id":"Sun:05-06","checked":true},{"_id":"Sun:06-07","checked":true},{"_id":"Sun:07-08","checked":true},{"_id":"Sun:08-09","checked":true},{"_id":"Sun:09-10","checked":true},{"_id":"Sun:10-11","checked":true},{"_id":"Sun:11-12","checked":true},{"_id":"Sun:12-13","checked":true},{"_id":"Sun:13-14","checked":true},{"_id":"Sun:14-15","checked":true},{"_id":"Sun:15-16","checked":true},{"_id":"Sun:16-17","checked":true},{"_id":"Sun:17-18","checked":true},{"_id":"Sun:18-19","checked":true},{"_id":"Sun:19-20","checked":true},{"_id":"Sun:20-21","checked":true},{"_id":"Sun:21-22","checked":true},{"_id":"Sun:22-23","checked":true},{"_id":"Sun:23-00","checked":true},{"_id":"Mon:00-01","checked":true},{"_id":"Mon:01-02","checked":true},{"_id":"Mon:02-03","checked":true},{"_id":"Mon:03-04","checked":true},{"_id":"Mon:04-05","checked":true},{"_id":"Mon:05-06","checked":true},{"_id":"Mon:06-07","checked":true},{"_id":"Mon:07-08","checked":true},{"_id":"Mon:08-09","checked":true},{"_id":"Mon:09-10","checked":true},{"_id":"Mon:10-11","checked":true},{"_id":"Mon:11-12","checked":true},{"_id":"Mon:12-13","checked":true},{"_id":"Mon:13-14","checked":true},{"_id":"Mon:14-15","checked":true},{"_id":"Mon:15-16","checked":true},{"_id":"Mon:16-17","checked":true},{"_id":"Mon:17-18","checked":true},{"_id":"Mon:18-19","checked":true},{"_id":"Mon:19-20","checked":true},{"_id":"Mon:20-21","checked":true},{"_id":"Mon:21-22","checked":true},{"_id":"Mon:22-23","checked":true},{"_id":"Mon:23-00","checked":true},{"_id":"Tue:00-01","checked":true},{"_id":"Tue:01-02","checked":true},{"_id":"Tue:02-03","checked":true},{"_id":"Tue:03-04","checked":true},{"_id":"Tue:04-05","checked":true},{"_id":"Tue:05-06","checked":true},{"_id":"Tue:06-07","checked":true},{"_id":"Tue:07-08","checked":true},{"_id":"Tue:08-09","checked":true},{"_id":"Tue:09-10","checked":true},{"_id":"Tue:10-11","checked":true},{"_id":"Tue:11-12","checked":true},{"_id":"Tue:12-13","checked":true},{"_id":"Tue:13-14","checked":true},{"_id":"Tue:14-15","checked":true},{"_id":"Tue:15-16","checked":true},{"_id":"Tue:16-17","checked":true},{"_id":"Tue:17-18","checked":true},{"_id":"Tue:18-19","checked":true},{"_id":"Tue:19-20","checked":true},{"_id":"Tue:20-21","checked":true},{"_id":"Tue:21-22","checked":true},{"_id":"Tue:22-23","checked":true},{"_id":"Tue:23-00","checked":true},{"_id":"Wed:00-01","checked":true},{"_id":"Wed:01-02","checked":true},{"_id":"Wed:02-03","checked":true},{"_id":"Wed:03-04","checked":true},{"_id":"Wed:04-05","checked":true},{"_id":"Wed:05-06","checked":true},{"_id":"Wed:06-07","checked":true},{"_id":"Wed:07-08","checked":true},{"_id":"Wed:08-09","checked":true},{"_id":"Wed:09-10","checked":true},{"_id":"Wed:10-11","checked":true},{"_id":"Wed:11-12","checked":true},{"_id":"Wed:12-13","checked":true},{"_id":"Wed:13-14","checked":true},{"_id":"Wed:14-15","checked":true},{"_id":"Wed:15-16","checked":true},{"_id":"Wed:16-17","checked":true},{"_id":"Wed:17-18","checked":true},{"_id":"Wed:18-19","checked":true},{"_id":"Wed:19-20","checked":true},{"_id":"Wed:20-21","checked":true},{"_id":"Wed:21-22","checked":true},{"_id":"Wed:22-23","checked":true},{"_id":"Wed:23-00","checked":true},{"_id":"Thur:00-01","checked":true},{"_id":"Thur:01-02","checked":true},{"_id":"Thur:02-03","checked":true},{"_id":"Thur:03-04","checked":true},{"_id":"Thur:04-05","checked":true},{"_id":"Thur:05-06","checked":true},{"_id":"Thur:06-07","checked":true},{"_id":"Thur:07-08","checked":true},{"_id":"Thur:08-09","checked":true},{"_id":"Thur:09-10","checked":true},{"_id":"Thur:10-11","checked":true},{"_id":"Thur:11-12","checked":true},{"_id":"Thur:12-13","checked":true},{"_id":"Thur:13-14","checked":true},{"_id":"Thur:14-15","checked":true},{"_id":"Thur:15-16","checked":true},{"_id":"Thur:16-17","checked":true},{"_id":"Thur:17-18","checked":true},{"_id":"Thur:18-19","checked":true},{"_id":"Thur:19-20","checked":true},{"_id":"Thur:20-21","checked":true},{"_id":"Thur:21-22","checked":true},{"_id":"Thur:22-23","checked":true},{"_id":"Thur:23-00","checked":true},{"_id":"Fri:00-01","checked":true},{"_id":"Fri:01-02","checked":true},{"_id":"Fri:02-03","checked":true},{"_id":"Fri:03-04","checked":true},{"_id":"Fri:04-05","checked":true},{"_id":"Fri:05-06","checked":true},{"_id":"Fri:06-07","checked":true},{"_id":"Fri:07-08","checked":true},{"_id":"Fri:08-09","checked":true},{"_id":"Fri:09-10","checked":true},{"_id":"Fri:10-11","checked":true},{"_id":"Fri:11-12","checked":true},{"_id":"Fri:12-13","checked":true},{"_id":"Fri:13-14","checked":true},{"_id":"Fri:14-15","checked":true},{"_id":"Fri:15-16","checked":true},{"_id":"Fri:16-17","checked":true},{"_id":"Fri:17-18","checked":true},{"_id":"Fri:18-19","checked":true},{"_id":"Fri:19-20","checked":true},{"_id":"Fri:20-21","checked":true},{"_id":"Fri:21-22","checked":true},{"_id":"Fri:22-23","checked":true},{"_id":"Fri:23-00","checked":true},{"_id":"Sat:00-01","checked":true},{"_id":"Sat:01-02","checked":true},{"_id":"Sat:02-03","checked":true},{"_id":"Sat:03-04","checked":true},{"_id":"Sat:04-05","checked":true},{"_id":"Sat:05-06","checked":true},{"_id":"Sat:06-07","checked":true},{"_id":"Sat:07-08","checked":true},{"_id":"Sat:08-09","checked":true},{"_id":"Sat:09-10","checked":true},{"_id":"Sat:10-11","checked":true},{"_id":"Sat:11-12","checked":true},{"_id":"Sat:12-13","checked":true},{"_id":"Sat:13-14","checked":true},{"_id":"Sat:14-15","checked":true},{"_id":"Sat:15-16","checked":true},{"_id":"Sat:16-17","checked":true},{"_id":"Sat:17-18","checked":true},{"_id":"Sat:18-19","checked":true},{"_id":"Sat:19-20","checked":true},{"_id":"Sat:20-21","checked":true},{"_id":"Sat:21-22","checked":true},{"_id":"Sat:22-23","checked":true},{"_id":"Sat:23-00","checked":true}],"totalHealthCheckCount":76,"totalTranscodeCount":8,"sizeDiff":0,"holdNewFiles":false,"holdFor":3600,"holdForDisplayUnit":"hours","pluginStackOverview":true,"filterResolutionsSkip":"","filterCodecsSkip":"","filterContainersSkip":"","processPluginsSequentially":true}}
+2026-01-04T15:30:43.524Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:Scanning original library file
+2026-01-04T15:30:43.525Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:{
+2026-01-04T15:30:43.525Z   "exifToolScan": true,
+2026-01-04T15:30:43.525Z   "mediaInfoScan": false,
+2026-01-04T15:30:43.525Z   "closedCaptionScan": false
+2026-01-04T15:30:43.525Z }
+2026-01-04T15:30:43.525Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:Node scanning file
+2026-01-04T15:30:43.525Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:Scan complete
+2026-01-04T15:30:43.525Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:Original file scanned
+2026-01-04T15:30:43.526Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:Source file to work on determined:"/media/movies/Play Dirty (2025)/Play.Dirty.2025.REPACK.1080p.AMZN.WEB-DL.DDP5.1.Atmos.H.264-FLUX.mkv"
+2026-01-04T15:30:43.526Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:[Step W02] [C1] Running pre-process file
+2026-01-04T15:30:43.526Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:Checking files can be accessed
+2026-01-04T15:30:43.527Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:mapped node, file is original, no need to download
+2026-01-04T15:30:43.527Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:Relevant paths can be accessed
+2026-01-04T15:30:43.527Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:Source file: "/media/movies/Play Dirty (2025)/Play.Dirty.2025.REPACK.1080p.AMZN.WEB-DL.DDP5.1.Atmos.H.264-FLUX.mkv"
+2026-01-04T15:30:43.527Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:[Step W03] [C1] Analysing file - running plugins
+2026-01-04T15:30:43.528Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:Handbrake healthcheck task, no need to scan for extra file details
+2026-01-04T15:30:43.528Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:Updating Node relay: Processing
+2026-01-04T15:30:43.528Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:[1/2] Checking file frame count
+2026-01-04T15:30:43.528Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:[2/2] Frame count 0
+2026-01-04T15:30:43.529Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:Determining healthcheck command
+2026-01-04T15:30:43.529Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:[Step W04] [C1] Preparing command
+2026-01-04T15:30:43.529Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:Cache file stem: "/tmp/tdarr-workDir2-oilUiZ31e"
+2026-01-04T15:30:43.530Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:Cache file path: "/tmp/tdarr-workDir2-oilUiZ31e/Play.Dirty.2025.REPACK.1080p.AMZN.WEB-DL.DDP5.1.Atmos.H.264-FLUX-TdarrCacheFile-P512UMS5q.mp4"
+2026-01-04T15:30:43.530Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:Create transcode args
+2026-01-04T15:30:43.530Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:Args:  -i "/media/movies/Play Dirty (2025)/Play.Dirty.2025.REPACK.1080p.AMZN.WEB-DL.DDP5.1.Atmos.H.264-FLUX.mkv" -o /tmp/tdarr-workDir2-oilUiZ31e/Play.Dirty.2025.REPACK.1080p.AMZN.WEB-DL.DDP5.1.Atmos.H.264-FLUX-TdarrCacheFile-P512UMS5q.mp4 --scan
+2026-01-04T15:30:43.530Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:Getting source file size
+2026-01-04T15:30:43.531Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:Source file size: 4.796867370605469
+2026-01-04T15:30:43.531Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:Performing safety check on worker config to see if old transcode args/container match new ones
+2026-01-04T15:30:43.531Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:Safety check complete, all good
+2026-01-04T15:30:43.531Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:[Step W05] [C1] Launching subworker
+2026-01-04T15:30:43.532Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:Preparing to launch subworker
+2026-01-04T15:30:43.532Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:Subworker launched
+2026-01-04T15:30:43.532Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:[1/3] Sending command to subworker
+2026-01-04T15:30:43.532Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:[2/3] HandBrakeCLI -i "/media/movies/Play Dirty (2025)/Play.Dirty.2025.REPACK.1080p.AMZN.WEB-DL.DDP5.1.Atmos.H.264-FLUX.mkv" -o /tmp/tdarr-workDir2-oilUiZ31e/Play.Dirty.2025.REPACK.1080p.AMZN.WEB-DL.DDP5.1.Atmos.H.264-FLUX-TdarrCacheFile-P512UMS5q.mp4 --scan
+2026-01-04T15:30:43.533Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:[3/3] Command sent
+2026-01-04T15:30:43.533Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:To see live CLI output, enable 'Log full FFmpeg/HandBrake output' in the staging section on the Tdarr tab before the job starts. Note this could increase the job report size substantially.
+2026-01-04T15:30:43.533Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:Subworker:Online
+2026-01-04T15:30:43.534Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:Subworker:Receiving transcode settings
+2026-01-04T15:30:43.534Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:Subworker:Running CLI
+2026-01-04T15:30:45.535Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:Subworker:a.Thread closed, code: 0
+2026-01-04T15:30:45.536Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:Subworker exit approved, killing subworker
+2026-01-04T15:30:45.536Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:Subworker killed
+2026-01-04T15:30:45.537Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:b.Thread closed, code: 0
+2026-01-04T15:30:45.537Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:CLI code: 0
+2026-01-04T15:30:45.537Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:Last 200 lines of CLI log:
+2026-01-04T15:30:45.537Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:[15:30:41] Compile-time hardening features are enabled
+2026-01-04T15:30:45.537Z 
+2026-01-04T15:30:45.537Z [15:30:41] nvenc: version 12.2 is available
+2026-01-04T15:30:45.537Z [15:30:41] nvdec: is available
+2026-01-04T15:30:45.537Z 
+2026-01-04T15:30:45.537Z [15:30:41] CUDA Version: 6.1
+2026-01-04T15:30:45.537Z 
+2026-01-04T15:30:45.537Z [15:30:41] qsv: not available on this system
+2026-01-04T15:30:45.537Z 
+2026-01-04T15:30:45.537Z [15:30:41] hb_init: starting libhb thread
+2026-01-04T15:30:45.537Z [15:30:41] thread 7f3aa37fe6c0 started ("libhb")
+2026-01-04T15:30:45.537Z HandBrake 1.10.2 (2025102400) - Linux x86_64 - https://handbrake.fr
+2026-01-04T15:30:45.537Z 16 CPUs detected
+2026-01-04T15:30:45.537Z 
+2026-01-04T15:30:45.537Z Opening /media/movies/Play Dirty (2025)/Play.Dirty.2025.REPACK.1080p.AMZN.WEB-DL.DDP5.1.Atmos.H.264-FLUX.mkv...
+2026-01-04T15:30:45.537Z 
+2026-01-04T15:30:45.537Z [15:30:41] CPU: Common KVM processor
+2026-01-04T15:30:45.537Z [15:30:41]  - logical processor count: 16
+2026-01-04T15:30:45.537Z [15:30:41] Intel Quick Sync Video support: no
+2026-01-04T15:30:45.537Z [15:30:41] hb_scan: path=/media/movies/Play Dirty (2025)/Play.Dirty.2025.REPACK.1080p.AMZN.WEB-DL.DDP5.1.Atmos.H.264-FLUX.mkv, title_index=1
+2026-01-04T15:30:45.537Z 
+2026-01-04T15:30:45.537Z Input #0, matroska,webm, from '/media/movies/Play Dirty (2025)/Play.Dirty.2025.REPACK.1080p.AMZN.WEB-DL.DDP5.1.Atmos.H.264-FLUX.mkv':
+2026-01-04T15:30:45.537Z   Metadata:
+2026-01-04T15:30:45.537Z     encoder         : libebml v1.4.5 + libmatroska v1.7.1
+2026-01-04T15:30:45.537Z   Duration: 02:07:32.54, start: 0.000000, bitrate: 5384 kb/s
+2026-01-04T15:30:45.537Z   Chapters:
+2026-01-04T15:30:45.537Z     Chapter #0:0: start 0.000000, end 170.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 01
+2026-01-04T15:30:45.537Z     Chapter #0:1: start 170.000000, end 260.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 02
+2026-01-04T15:30:45.537Z     Chapter #0:2: start 260.000000, end 340.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 03
+2026-01-04T15:30:45.537Z     Chapter #0:3: start 340.000000, end 375.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 04
+2026-01-04T15:30:45.537Z     Chapter #0:4: start 375.000000, end 446.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 05
+2026-01-04T15:30:45.537Z     Chapter #0:5: start 446.000000, end 483.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 06
+2026-01-04T15:30:45.537Z     Chapter #0:6: 
+2026-01-04T15:30:45.537Z start 483.000000, end 547.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 07
+2026-01-04T15:30:45.537Z     Chapter #0:7: start 547.000000, end 679.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 08
+2026-01-04T15:30:45.537Z     Chapter #0:8: start 679.000000, end 722.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 09
+2026-01-04T15:30:45.537Z     Chapter #0:9: start 722.000000, end 808.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 10
+2026-01-04T15:30:45.537Z     Chapter #0:10: start 808.000000, end 825.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 11
+2026-01-04T15:30:45.537Z     Chapter #0:11: start 825.000000, end 901.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 12
+2026-01-04T15:30:45.537Z     Chapter #0:12: start 901.000000, end 1010.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 13
+2026-01-04T15:30:45.537Z     Chapter #0:13: start 1010.000000, end 1092.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 14
+2026-01-04T15:30:45.537Z     Chapter #0:14: start 1092.000000, end 1145.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 15
+2026-01-04T15:30:45.537Z     Chapter #0:15: start 1145.000000, end 1180.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 16
+2026-01-04T15:30:45.537Z     Chapter #0:16: start 1180.000000, end 1388.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 17
+2026-01-04T15:30:45.537Z     Chapter #0:17: start 1388.000000, end 1461.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 18
+2026-01-04T15:30:45.537Z     Chapter #0:18: start 1461.000000, end 1517.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 19
+2026-01-04T15:30:45.537Z     Chapter #0:19: start 1517.000000, end 1633.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 20
+2026-01-04T15:30:45.537Z     Chapter #0:20: start 1633.000000, end 1765.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 21
+2026-01-04T15:30:45.537Z     Chapter #0:21: start 1765.000000, end 1984.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 22
+2026-01-04T15:30:45.537Z     Chapter #0:22: start 1984.000000, end 2024.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 23
+2026-01-04T15:30:45.537Z     Chapter #0:23: start 2024.000000, end 2073.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 24
+2026-01-04T15:30:45.537Z     Chapter #0:24: 
+2026-01-04T15:30:45.537Z start 2073.000000, end 2133.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 25
+2026-01-04T15:30:45.537Z     Chapter #0:25: start 2133.000000, end 2271.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 26
+2026-01-04T15:30:45.537Z     Chapter #0:26: start 2271.000000, end 2354.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 27
+2026-01-04T15:30:45.537Z     Chapter #0:27: start 2354.000000, end 2472.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 28
+2026-01-04T15:30:45.537Z     Chapter #0:28: start 2472.000000, end 2576.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 29
+2026-01-04T15:30:45.537Z     Chapter #0:29: start 2576.000000, end 2647.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 30
+2026-01-04T15:30:45.537Z     Chapter #0:30: start 2647.000000, end 2697.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 31
+2026-01-04T15:30:45.537Z     Chapter #0:31: start 2697.000000, end 2743.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 32
+2026-01-04T15:30:45.537Z     Chapter #0:32: start 2743.000000, end 2775.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 33
+2026-01-04T15:30:45.537Z     Chapter #0:33: start 2775.000000, end 2829.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 34
+2026-01-04T15:30:45.537Z     Chapter #0:34: start 2829.000000, end 2900.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 35
+2026-01-04T15:30:45.537Z     Chapter #0:35: start 2900.000000, end 2947.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 36
+2026-01-04T15:30:45.537Z 
+2026-01-04T15:30:45.537Z     Chapter #0:36: start 2947.000000, end 2971.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 37
+2026-01-04T15:30:45.537Z     Chapter #0:37: start 2971.000000, end 3065.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 38
+2026-01-04T15:30:45.537Z     Chapter #0:38: start 3065.000000, end 3116.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 39
+2026-01-04T15:30:45.537Z     Chapter #0:39: start 3116.000000, end 3199.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 40
+2026-01-04T15:30:45.537Z     Chapter #0:40: start 3199.000000, end 3252.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 41
+2026-01-04T15:30:45.537Z     Chapter #0:41: start 3252.000000, end 3293.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 42
+2026-01-04T15:30:45.537Z     Chapter #0:42: start 3293.000000, end 3367.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 43
+2026-01-04T15:30:45.537Z     Chapter #0:43: start 3367.000000, end 3563.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 44
+2026-01-04T15:30:45.537Z     Chapter #0:44: start 3563.000000, end 3651.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 45
+2026-01-04T15:30:45.537Z     Chapter #0:45: start 3651.000000, end 3744.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 46
+2026-01-04T15:30:45.537Z     Chapter #0:46: start 3744.000000, end 3873.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 47
+2026-01-04T15:30:45.537Z     Chapter #0:47: start 3873.000000, end 3969.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 48
+2026-01-04T15:30:45.537Z     Chapter #0:48: start 3969.000000, end 4017.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 49
+2026-01-04T15:30:45.537Z     Chapter #0:49: start 4017.000000, end 4084.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 50
+2026-01-04T15:30:45.537Z     Chapter #0:50: start 4084.000000, end 4131.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 51
+2026-01-04T15:30:45.537Z     Chapter #0:51: start 4131.000000, end 4150.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 52
+2026-01-04T15:30:45.537Z     Chapter #0:52: start 4150.000000, end 4252.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 53
+2026-01-04T15:30:45.537Z     Chapter #0:53: start 4252.000000, end 4327.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 54
+2026-01-04T15:30:45.537Z     Chapter #0:54: start 4327.000000, end 4419.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 55
+2026-01-04T15:30:45.537Z     Chapter #0:55: start 4419.000000, end 4487.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 56
+2026-01-04T15:30:45.537Z     Chapter #0:56: start 4487.000000, end 4528.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 57
+2026-01-04T15:30:45.537Z     Chapter #0:57: start 4528.000000, end 4586.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 58
+2026-01-04T15:30:45.537Z     Chapter #0:58: start 4586.000000, end 4792.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 59
+2026-01-04T15:30:45.537Z     Chapter #0:59: start 4792.000000, end 4830.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 60
+2026-01-04T15:30:45.537Z     Chapter #0:60: start 4830.000000, end 4994.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 61
+2026-01-04T15:30:45.537Z     Chapter #0:61: start 4994.000000, 
+2026-01-04T15:30:45.537Z end 5097.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 62
+2026-01-04T15:30:45.537Z     Chapter #0:62: start 5097.000000, end 5153.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 63
+2026-01-04T15:30:45.537Z     Chapter #0:63: start 5153.000000, end 5227.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 64
+2026-01-04T15:30:45.537Z     Chapter #0:64: start 5227.000000, end 5275.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 65
+2026-01-04T15:30:45.537Z     Chapter #0:65: start 5275.000000, end 5321.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 66
+2026-01-04T15:30:45.537Z     Chapter #0:66: start 5321.000000, end 5405.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 67
+2026-01-04T15:30:45.537Z     Chapter #0:67: start 5405.000000, end 5558.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 68
+2026-01-04T15:30:45.537Z     Chapter #0:68: start 5558.000000, end 5590.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 69
+2026-01-04T15:30:45.537Z     Chapter #0:69: start 5590.000000, end 5659.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 70
+2026-01-04T15:30:45.537Z     Chapter #0:70: start 5659.000000, end 5723.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 71
+2026-01-04T15:30:45.537Z     Chapter #0:71: start 5723.000000, end 5739.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 72
+2026-01-04T15:30:45.537Z     Chapter #0:72: 
+2026-01-04T15:30:45.537Z start 5739.000000, end 5779.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 73
+2026-01-04T15:30:45.537Z     Chapter #0:73: start 5779.000000, end 5811.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 74
+2026-01-04T15:30:45.537Z     Chapter #0:74: start 5811.000000, end 5854.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 75
+2026-01-04T15:30:45.537Z     Chapter #0:75: start 5854.000000, end 5890.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 76
+2026-01-04T15:30:45.537Z     Chapter #0:76: start 5890.000000, end 6062.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 77
+2026-01-04T15:30:45.537Z     Chapter #0:77: start 6062.000000, end 6093.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 78
+2026-01-04T15:30:45.537Z     Chapter #0:78: start 6093.000000, end 6146.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 79
+2026-01-04T15:30:45.537Z     Chapter #0:79: start 6146.000000, end 6265.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 80
+2026-01-04T15:30:45.537Z     Chapter #0:80: start 6265.000000, end 6284.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 81
+2026-01-04T15:30:45.537Z     Chapter #0:81: start 6284.000000, end 6350.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 82
+2026-01-04T15:30:45.537Z     Chapter #0:82: start 6350.000000, end 6404.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 83
+2026-01-04T15:30:45.537Z     Chapter #0:83: start 6404.000000, end 6517.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 84
+2026-01-04T15:30:45.537Z     Chapter #0:84: start 6517.000000, end 6627.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 85
+2026-01-04T15:30:45.537Z     Chapter #0:85: start 6627.000000, end 6683.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 86
+2026-01-04T15:30:45.537Z     Chapter #0:86: start 6683.000000, end 6736.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 87
+2026-01-04T15:30:45.537Z     Chapter #0:87: start 6736.000000, end 6767.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 88
+2026-01-04T15:30:45.537Z     Chapter #0:88: start 6767.000000, end 6983.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 89
+2026-01-04T15:30:45.537Z     Chapter #0:89: start 6983.000000, end 7014.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 90
+2026-01-04T15:30:45.537Z     Chapter #0:90: start 7014.000000, end 7050.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 91
+2026-01-04T15:30:45.537Z     Chapter #0:91: start 7050.000000, end 7090.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 92
+2026-01-04T15:30:45.537Z     Chapter #0:92: start 7090.000000, end 7137.000000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 93
+2026-01-04T15:30:45.537Z 
+2026-01-04T15:30:45.537Z     Chapter #0:93: start 7137.000000, end 7652.542000
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Chapter 94
+2026-01-04T15:30:45.537Z   Stream #0:0(eng): Video: h264 (High), yuv420p(tv, bt709, progressive), 1920x800 [SAR 1:1 DAR 12:5], 24 fps, 24 tbr, 1k tbn (default) (original)
+2026-01-04T15:30:45.537Z   Stream #0:1(eng): Audio: eac3 (Dolby Digital Plus + Dolby Atmos), 48000 Hz, 5.1(side), fltp, 576 kb/s (default) (original)
+2026-01-04T15:30:45.537Z 
+2026-01-04T15:30:45.537Z   Stream #0:2(eng): Subtitle: subrip (srt) (default) (original) (forced)
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Forced
+2026-01-04T15:30:45.537Z   Stream #0:3(eng): Subtitle: subrip (srt) (original)
+2026-01-04T15:30:45.537Z   Stream #0:4(eng): Subtitle: subrip (srt) (original) (hearing impaired)
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : SDH
+2026-01-04T15:30:45.537Z 
+2026-01-04T15:30:45.537Z   Stream #0:5(ara): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Middle East
+2026-01-04T15:30:45.537Z   Stream #0:6(cat): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : European
+2026-01-04T15:30:45.537Z   Stream #0:7(cze): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z   Stream #0:8(dan): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z 
+2026-01-04T15:30:45.537Z   Stream #0:9(ger): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z   Stream #0:10(gre): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z   Stream #0:11(spa): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Latin American
+2026-01-04T15:30:45.537Z   Stream #0:12(spa): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z   Stream #0:13(baq): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : European
+2026-01-04T15:30:45.537Z   Stream #0:14(fin): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z   Stream #0:15(fre): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Canadian
+2026-01-04T15:30:45.537Z   Stream #0:16(fre): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z   Stream #0:17(glg): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : European
+2026-01-04T15:30:45.537Z   Stream #0:18(heb): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z   Stream #0:19(hin): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z   Stream #0:20(hun): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z   Stream #0:21(ind): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z   Stream #0:22(ita): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z   Stream #0:23(jpn): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z   Stream #0:24(kan): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z   Stream #0:25(kor): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z   Stream #0:26(mal): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z   Stream #0:27(may): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z   Stream #0:28(nob): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z   Stream #0:29(dut): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z   Stream #0:30(pol): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z   Stream #0:31(por): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Brazilian
+2026-01-04T15:30:45.537Z   Stream #0:32(por): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z   Stream #0:33(rum): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z   Stream #0:34(swe): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z   Stream #0:35(tam): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z   Stream #0:36(tel): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z   Stream #0:37(tha): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z   Stream #0:38(tur): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z   Stream #0:39(chi): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Simplified
+2026-01-04T15:30:45.537Z   Stream #0:40(chi): Subtitle: subrip (srt) (dub)
+2026-01-04T15:30:45.537Z       Metadata:
+2026-01-04T15:30:45.537Z         title           : Traditional
+2026-01-04T15:30:45.537Z [15:30:41] scan: decoding previews for title 1
+2026-01-04T15:30:45.537Z 
+2026-01-04T15:30:45.537Z [15:30:41] scan: audio 0x1: eac3, rate=48000Hz, bitrate=576000 English (E-AC3 Dolby Digital Plus + Dolby Atmos, 5.1 ch, 576 kbps)
+2026-01-04T15:30:45.537Z 
+2026-01-04T15:30:45.537Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T15:30:45.537Z Scanning title 1 of 1, preview 4, 40.00 %
+2026-01-04T15:30:45.537Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-04T15:30:45.537Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-04T15:30:45.537Z Scanning title 1 of 1, preview 8, 80.00 %
+2026-01-04T15:30:45.537Z [matroska,webm @ 0x7f3a9c16e100] File ended prematurely
+2026-01-04T15:30:45.537Z 
+2026-01-04T15:30:45.537Z [matroska,webm @ 0x7f3a9c16e100] File ended prematurely
+2026-01-04T15:30:45.537Z 
+2026-01-04T15:30:45.537Z [matroska,webm @ 0x7f3a9c16e100] File ended prematurely
+2026-01-04T15:30:45.537Z 
+2026-01-04T15:30:45.537Z [matroska,webm @ 0x7f3a9c16e100] File ended prematurely
+2026-01-04T15:30:45.537Z 
+2026-01-04T15:30:45.537Z [matroska,webm @ 0x7f3a9c16e100] File ended prematurely
+2026-01-04T15:30:45.537Z 
+2026-01-04T15:30:45.537Z [matroska,webm @ 0x7f3a9c16e100] File ended prematurely
+2026-01-04T15:30:45.537Z 
+2026-01-04T15:30:45.537Z [matroska,webm @ 0x7f3a9c16e100] File ended prematurely
+2026-01-04T15:30:45.537Z [matroska,webm @ 0x7f3a9c16e100] File ended prematurely
+2026-01-04T15:30:45.537Z 
+2026-01-04T15:30:45.537Z [matroska,webm @ 0x7f3a9c16e100] File ended prematurely
+2026-01-04T15:30:45.537Z 
+2026-01-04T15:30:45.537Z [15:30:43] using container PAR 1:1
+2026-01-04T15:30:45.537Z [15:30:43] scan: 10 previews, 1920x800, 24.000 fps, autocrop = 0/0/0/0, aspect 2.40:1, PAR 1:1, color profile: 1-1-1, chroma location: left
+2026-01-04T15:30:45.537Z 
+2026-01-04T15:30:45.537Z [15:30:43] libhb: scan thread found 1 valid title(s)
+2026-01-04T15:30:45.537Z 
+2026-01-04T15:30:45.537Z + title 1:
+2026-01-04T15:30:45.537Z   + stream: /media/movies/Play Dirty (2025)/Play.Dirty.2025.REPACK.1080p.AMZN.WEB-DL.DDP5.1.Atmos.H.264-FLUX.mkv
+2026-01-04T15:30:45.537Z   + duration: 02:07:32
+2026-01-04T15:30:45.537Z   + size: 1920x800, pixel aspect: 1/1, display aspect: 2.40, 24.000 fps
+2026-01-04T15:30:45.537Z   + autocrop: 0/0/0/0
+2026-01-04T15:30:45.537Z   + chapters:
+2026-01-04T15:30:45.537Z     + 1: duration 00:02:50
+2026-01-04T15:30:45.537Z     + 2: duration 00:01:30
+2026-01-04T15:30:45.537Z     + 3: duration 00:01:20
+2026-01-04T15:30:45.537Z     + 4: duration 00:00:35
+2026-01-04T15:30:45.537Z     + 5: duration 00:01:11
+2026-01-04T15:30:45.537Z     + 6: duration 00:00:37
+2026-01-04T15:30:45.537Z     + 7: duration 00:01:04
+2026-01-04T15:30:45.537Z     + 8: duration 00:02:12
+2026-01-04T15:30:45.537Z     + 9: duration 00:00:43
+2026-01-04T15:30:45.537Z     + 10: duration 00:01:26
+2026-01-04T15:30:45.537Z     + 11: duration 00:00:17
+2026-01-04T15:30:45.537Z     + 12: duration 00:01:16
+2026-01-04T15:30:45.537Z     + 13: duration 00:01:49
+2026-01-04T15:30:45.537Z     + 14: duration 00:01:22
+2026-01-04T15:30:45.537Z     + 15: duration 00:00:53
+2026-01-04T15:30:45.537Z     + 16: duration 00:00:35
+2026-01-04T15:30:45.537Z     + 17: duration 00:03:28
+2026-01-04T15:30:45.537Z     + 18: duration 00:01:13
+2026-01-04T15:30:45.537Z     + 19: duration 00:00:56
+2026-01-04T15:30:45.537Z     + 20: duration 00:01:56
+2026-01-04T15:30:45.537Z     + 21: duration 00:02:12
+2026-01-04T15:30:45.537Z     + 22: duration 00:03:39
+2026-01-04T15:30:45.537Z     + 23: duration 00:00:40
+2026-01-04T15:30:45.537Z     + 24: duration 00:00:49
+2026-01-04T15:30:45.537Z     + 25: duration 00:01:00
+2026-01-04T15:30:45.537Z     + 26: duration 00:02:18
+2026-01-04T15:30:45.537Z     + 27: duration 00:01:23
+2026-01-04T15:30:45.537Z     + 28: duration 00:01:58
+2026-01-04T15:30:45.537Z     + 29: duration 00:01:44
+2026-01-04T15:30:45.537Z     + 30: duration 00:01:11
+2026-01-04T15:30:45.537Z     + 31: duration 00:00:50
+2026-01-04T15:30:45.537Z     + 32: duration 00:00:46
+2026-01-04T15:30:45.537Z     + 33: duration 00:00:32
+2026-01-04T15:30:45.537Z     + 34: duration 00:00:54
+2026-01-04T15:30:45.537Z 
+2026-01-04T15:30:45.537Z     + 35: duration 00:01:11
+2026-01-04T15:30:45.537Z     + 36: duration 00:00:47
+2026-01-04T15:30:45.537Z     + 37: duration 00:00:24
+2026-01-04T15:30:45.537Z     + 38: duration 00:01:34
+2026-01-04T15:30:45.537Z     + 39: duration 00:00:51
+2026-01-04T15:30:45.537Z     + 40: duration 00:01:23
+2026-01-04T15:30:45.537Z     + 41: duration 00:00:53
+2026-01-04T15:30:45.537Z     + 42: duration 00:00:41
+2026-01-04T15:30:45.537Z     + 43: duration 00:01:14
+2026-01-04T15:30:45.537Z     + 44: duration 00:03:16
+2026-01-04T15:30:45.537Z     + 45: duration 00:01:28
+2026-01-04T15:30:45.537Z     + 46: duration 00:01:33
+2026-01-04T15:30:45.537Z     + 47: duration 00:02:09
+2026-01-04T15:30:45.537Z     + 48: duration 00:01:36
+2026-01-04T15:30:45.537Z     + 49: duration 00:00:48
+2026-01-04T15:30:45.537Z     + 50: duration 00:01:07
+2026-01-04T15:30:45.537Z     + 51: duration 00:00:47
+2026-01-04T15:30:45.537Z     + 52: duration 00:00:19
+2026-01-04T15:30:45.537Z     + 53: duration 00:01:42
+2026-01-04T15:30:45.537Z     + 54: duration 00:01:15
+2026-01-04T15:30:45.537Z     + 55: duration 00:01:32
+2026-01-04T15:30:45.537Z     + 56: duration 00:01:08
+2026-01-04T15:30:45.537Z     + 57: duration 00:00:41
+2026-01-04T15:30:45.537Z     + 58: duration 00:00:58
+2026-01-04T15:30:45.537Z     + 59: duration 00:03:26
+2026-01-04T15:30:45.537Z     + 60: duration 00:00:38
+2026-01-04T15:30:45.537Z     + 61: duration 00:02:44
+2026-01-04T15:30:45.537Z     + 62: duration 00:01:43
+2026-01-04T15:30:45.537Z     + 63: duration 00:00:56
+2026-01-04T15:30:45.537Z     + 64: duration 00:01:14
+2026-01-04T15:30:45.537Z     + 65: duration 00:00:48
+2026-01-04T15:30:45.537Z     + 66: duration 00:00:46
+2026-01-04T15:30:45.537Z     + 67: duration 00:01:24
+2026-01-04T15:30:45.537Z     + 68: duration 00:02:33
+2026-01-04T15:30:45.537Z     + 69: duration 00:00:32
+2026-01-04T15:30:45.537Z     + 70: duration 00:01:09
+2026-01-04T15:30:45.537Z     + 71: duration 00:01:04
+2026-01-04T15:30:45.537Z     + 72: duration 00:00:16
+2026-01-04T15:30:45.537Z     + 73: duration 00:00:40
+2026-01-04T15:30:45.537Z     + 74: duration 00:00:32
+2026-01-04T15:30:45.537Z     + 75: duration 00:00:43
+2026-01-04T15:30:45.537Z     + 76: duration 00:00:36
+2026-01-04T15:30:45.537Z     + 77: duration 00:02:52
+2026-01-04T15:30:45.537Z     + 78: duration 00:00:31
+2026-01-04T15:30:45.537Z     + 79: duration 00:00:53
+2026-01-04T15:30:45.537Z     + 80: duration 00:01:59
+2026-01-04T15:30:45.537Z     + 81: duration 00:00:19
+2026-01-04T15:30:45.537Z     + 82: duration 00:01:06
+2026-01-04T15:30:45.537Z     + 83: duration 00:00:54
+2026-01-04T15:30:45.537Z     + 84: duration 00:01:53
+2026-01-04T15:30:45.537Z     + 85: duration 00:01:50
+2026-01-04T15:30:45.537Z     + 86: duration 00:00:56
+2026-01-04T15:30:45.537Z     + 87: duration 00:00:53
+2026-01-04T15:30:45.537Z     + 88: duration 00:00:31
+2026-01-04T15:30:45.537Z     + 89: duration 00:03:36
+2026-01-04T15:30:45.537Z     + 90: duration 00:00:31
+2026-01-04T15:30:45.537Z     + 91: duration 00:00:36
+2026-01-04T15:30:45.537Z     + 92: duration 00:00:40
+2026-01-04T15:30:45.537Z     + 93: duration 00:00:47
+2026-01-04T15:30:45.537Z     + 94: duration 00:08:36
+2026-01-04T15:30:45.537Z   + audio tracks:
+2026-01-04T15:30:45.537Z     + 1, English (E-AC3 Dolby Digital Plus + Dolby Atmos, 5.1 ch, 576 kbps) (iso639-2: eng)
+2026-01-04T15:30:45.537Z   + subtitle tracks:
+2026-01-04T15:30:45.537Z     + 1, English (UTF-8)
+2026-01-04T15:30:45.537Z     + 2, English (UTF-8)
+2026-01-04T15:30:45.537Z     + 3, English (UTF-8)
+2026-01-04T15:30:45.537Z     + 4, العربية (UTF-8)
+2026-01-04T15:30:45.537Z     + 5, català (UTF-8)
+2026-01-04T15:30:45.537Z     + 6, čeština (UTF-8)
+2026-01-04T15:30:45.537Z     + 7, dansk (UTF-8)
+2026-01-04T15:30:45.537Z     + 8, Deutsch (UTF-8)
+2026-01-04T15:30:45.537Z     + 9, Ελληνικά (UTF-8)
+2026-01-04T15:30:45.537Z     + 10, español (UTF-8)
+2026-01-04T15:30:45.537Z     + 11, español (UTF-8)
+2026-01-04T15:30:45.537Z     + 12, euskara (UTF-8)
+2026-01-04T15:30:45.537Z     + 13, suomi (UTF-8)
+2026-01-04T15:30:45.537Z     + 14, Francais (UTF-8)
+2026-01-04T15:30:45.537Z     + 15, Francais (UTF-8)
+2026-01-04T15:30:45.537Z     + 16, galego (UTF-8)
+2026-01-04T15:30:45.537Z     + 17, עברית (UTF-8)
+2026-01-04T15:30:45.537Z     + 18, हिंदी (UTF-8)
+2026-01-04T15:30:45.537Z     + 19, magyar (UTF-8)
+2026-01-04T15:30:45.537Z     + 20, Bahasa Indonesia (UTF-8)
+2026-01-04T15:30:45.537Z     + 21, italiano (UTF-8)
+2026-01-04T15:30:45.537Z     + 22, 日本語 (UTF-8)
+2026-01-04T15:30:45.537Z     + 23, Kannada (UTF-8)
+2026-01-04T15:30:45.537Z     + 24, 한국어 (UTF-8)
+2026-01-04T15:30:45.537Z     + 25, മലയാളം (UTF-8)
+2026-01-04T15:30:45.537Z     + 26, Bahasa Melayu (UTF-8)
+2026-01-04T15:30:45.537Z     + 27, norsk bokmål (UTF-8)
+2026-01-04T15:30:45.537Z     + 28, Nederlands (UTF-8)
+2026-01-04T15:30:45.537Z     + 29, polski (UTF-8)
+2026-01-04T15:30:45.537Z     + 30, Portugues (UTF-8)
+2026-01-04T15:30:45.537Z     + 31, Portugues (UTF-8)
+2026-01-04T15:30:45.537Z     + 32, română (UTF-8)
+2026-01-04T15:30:45.537Z     + 33, svenska (UTF-8)
+2026-01-04T15:30:45.537Z     + 34, தமிழ் (UTF-8)
+2026-01-04T15:30:45.537Z     + 35, తెలుగు (UTF-8)
+2026-01-04T15:30:45.537Z     + 36, ไทย (UTF-8)
+2026-01-04T15:30:45.537Z     + 37, Türkçe (UTF-8)
+2026-01-04T15:30:45.537Z     + 38, 中文 (UTF-8)
+2026-01-04T15:30:45.537Z     + 39, 中文 (UTF-8)
+2026-01-04T15:30:45.537Z 
+2026-01-04T15:30:45.537Z HandBrake has exited.
+2026-01-04T15:30:45.537Z 
+2026-01-04T15:30:45.537Z 
+2026-01-04T15:30:45.537Z 
+2026-01-04T15:30:45.537Z 
+2026-01-04T15:30:45.538Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:[Step W06] [C1] Worker [-success-]
+2026-01-04T15:30:45.538Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:Worker success during processing
+2026-01-04T15:30:45.538Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:Updating healthcheck stats
+2026-01-04T15:30:45.539Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:[Step W10] Worker processing end
+2026-01-04T15:30:45.539Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:Subworker exited null
+2026-01-04T15:30:45.539Z oilUiZ31e:Node[MyInternalNode]:Worker[long-lemur]:Successfully updated server with verdict: healthcheckSuccess

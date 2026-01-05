@@ -1,0 +1,483 @@
+2026-01-04T11:36:28.620Z igaYJox-AQ:[Step S01] [2.58.02] Server relay initialising job
+2026-01-04T11:36:28.621Z igaYJox-AQ:Server: linux_x64_docker_true
+2026-01-04T11:36:28.621Z igaYJox-AQ:Server relay adding file to staged files
+2026-01-04T11:36:28.622Z igaYJox-AQ:Server relay sending job to Node relay: MyInternalNode
+2026-01-04T11:36:28.622Z igaYJox-AQ:Node[MyInternalNode]:[Step N01] [2.58.02] Node relay received job
+2026-01-04T11:36:28.622Z igaYJox-AQ:Node[MyInternalNode]:{"nodeName":"MyInternalNode","serverURL":"http://0.0.0.0:8266","serverIP":"0.0.0.0","serverPort":"8266","handbrakePath":"","ffmpegPath":"","mkvpropeditPath":"","pathTranslators":[{"server":"","node":""}],"nodeType":"mapped","unmappedNodeCache":"/app/unmappedNodeCache","logLevel":"INFO","priority":-1,"platform_arch_isdocker":"linux_x64_docker_true","processPid":664,"cronPluginUpdate":"","apiKey":"","maxLogSizeMB":"10","pollInterval":2000,"startPaused":false,"nodeID":"-2RaUzM4Y","seededWorkerLimits":{},"nodeRegisteredCount":1}
+2026-01-04T11:36:28.623Z igaYJox-AQ:Node[MyInternalNode]:Node relay sending job to worker:best-buck
+2026-01-04T11:36:28.623Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:[Step W01] Received file, original: "/media/tv/Man vs. Baby/Season 1/Man.Vs.Baby.S01E02.Chapter.2.REPACK.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-playWEB.mkv"
+2026-01-04T11:36:28.623Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:{"workerType":"healthcheckcpu"}
+2026-01-04T11:36:28.624Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:{"ffmpegPath":"tdarr-ffmpeg"}
+2026-01-04T11:36:28.624Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:{"handbrakePath":"HandBrakeCLI"}
+2026-01-04T11:36:28.624Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:{"mkvpropeditPath":"mkvpropedit"}
+2026-01-04T11:36:28.624Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:{"gpuSelect":"-"}
+2026-01-04T11:36:28.625Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:{"allowGpuDoCpu":false}
+2026-01-04T11:36:28.625Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:{"thoroughHealthCheckCpuExtraInputArgs":""}
+2026-01-04T11:36:28.625Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:{"thoroughHealthCheckGpuExtraInputArgs":""}
+2026-01-04T11:36:28.625Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:{"thoroughHealthCheckCpuExtraArgs":""}
+2026-01-04T11:36:28.626Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:{"thoroughHealthCheckGpuExtraArgs":""}
+2026-01-04T11:36:28.626Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:{"logFullCliOutput":false}
+2026-01-04T11:36:28.626Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:{"runMkvpropedit":false}
+2026-01-04T11:36:28.627Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:{"dontCleanWorkerCacheFolder":false}
+2026-01-04T11:36:28.627Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:Path translating objects
+2026-01-04T11:36:28.628Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:Running path translator tests
+2026-01-04T11:36:28.628Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:Path translator tests passed
+2026-01-04T11:36:28.628Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:{"librarySettings":{"_id":"KU0woozLb","priority":1,"name":"TV Shows","folder":"/media/tv","foldersToIgnore":"","foldersToIgnoreCaseInsensitive":false,"folderWatchScanInterval":30,"scannerThreadCount":2,"cache":"/tmp","output":".","folderToFolderConversion":false,"folderToFolderConversionDeleteSource":false,"folderToFolderRecordHistory":true,"copyIfConditionsMet":false,"container":".mkv","containerFilter":"mkv,mp4,mov,m4v,mpg,mpeg,avi,flv,webm,wmv,vob,evo,iso,m2ts,ts","createdAt":1675837380368,"folderWatching":false,"useFsEvents":false,"scheduledScanFindNew":false,"processLibrary":true,"processTranscodes":true,"processHealthChecks":true,"scanOnStart":false,"exifToolScan":true,"mediaInfoScan":true,"ffprobeShowData":false,"isDirectoryLibrary":false,"closedCaptionScan":false,"scanButtons":false,"scanFound":"Files found:0","navItemSelected":"navSourceFolder","pluginIDs":[{"_id":"plugin1","id":"Tdarr_Plugin_MC93_MigzImageRemoval","checked":true,"source":"Community","priority":0,"InputsDB":{}},{"_id":"plugin2","id":"Tdarr_Plugin_lmg1_Reorder_Streams","checked":true,"source":"Community","priority":1,"InputsDB":{}},{"_id":"plugin4","id":"Tdarr_Plugin_MC93_Migz1FFMPEG","checked":true,"source":"Community","priority":2,"InputsDB":{}},{"_id":"plugin5","id":"Tdarr_Plugin_a9he_New_file_size_check","checked":true,"source":"Community","priority":3,"InputsDB":{}}],"pluginCommunity":true,"handbrake":true,"ffmpeg":false,"handbrakescan":true,"ffmpegscan":false,"preset":"-Z \"Very Fast 1080p30\"","decisionMaker":{"settingsPlugin":true,"settingsFlows":false,"settingsVideo":false,"videoExcludeSwitch":true,"video_codec_names_exclude":[{"codec":"hevc","checked":false},{"codec":"h264","checked":true}],"video_size_range_include":{"min":0,"max":100000},"video_height_range_include":{"min":0,"max":3000},"video_width_range_include":{"min":0,"max":4000},"settingsAudio":false,"audioExcludeSwitch":true,"audio_codec_names_exclude":[{"codec":"mp3","checked":true},{"codec":"aac","checked":false}],"audio_size_range_include":{"min":0,"max":10}},"schedule":[{"_id":"Sun:00-01","checked":true},{"_id":"Sun:01-02","checked":true},{"_id":"Sun:02-03","checked":true},{"_id":"Sun:03-04","checked":true},{"_id":"Sun:04-05","checked":true},{"_id":"Sun:05-06","checked":true},{"_id":"Sun:06-07","checked":true},{"_id":"Sun:07-08","checked":true},{"_id":"Sun:08-09","checked":true},{"_id":"Sun:09-10","checked":true},{"_id":"Sun:10-11","checked":true},{"_id":"Sun:11-12","checked":true},{"_id":"Sun:12-13","checked":true},{"_id":"Sun:13-14","checked":true},{"_id":"Sun:14-15","checked":true},{"_id":"Sun:15-16","checked":true},{"_id":"Sun:16-17","checked":true},{"_id":"Sun:17-18","checked":true},{"_id":"Sun:18-19","checked":true},{"_id":"Sun:19-20","checked":true},{"_id":"Sun:20-21","checked":true},{"_id":"Sun:21-22","checked":true},{"_id":"Sun:22-23","checked":true},{"_id":"Sun:23-00","checked":true},{"_id":"Mon:00-01","checked":true},{"_id":"Mon:01-02","checked":true},{"_id":"Mon:02-03","checked":true},{"_id":"Mon:03-04","checked":true},{"_id":"Mon:04-05","checked":true},{"_id":"Mon:05-06","checked":true},{"_id":"Mon:06-07","checked":true},{"_id":"Mon:07-08","checked":true},{"_id":"Mon:08-09","checked":true},{"_id":"Mon:09-10","checked":true},{"_id":"Mon:10-11","checked":true},{"_id":"Mon:11-12","checked":true},{"_id":"Mon:12-13","checked":true},{"_id":"Mon:13-14","checked":true},{"_id":"Mon:14-15","checked":true},{"_id":"Mon:15-16","checked":true},{"_id":"Mon:16-17","checked":true},{"_id":"Mon:17-18","checked":true},{"_id":"Mon:18-19","checked":true},{"_id":"Mon:19-20","checked":true},{"_id":"Mon:20-21","checked":true},{"_id":"Mon:21-22","checked":true},{"_id":"Mon:22-23","checked":true},{"_id":"Mon:23-00","checked":true},{"_id":"Tue:00-01","checked":true},{"_id":"Tue:01-02","checked":true},{"_id":"Tue:02-03","checked":true},{"_id":"Tue:03-04","checked":true},{"_id":"Tue:04-05","checked":true},{"_id":"Tue:05-06","checked":true},{"_id":"Tue:06-07","checked":true},{"_id":"Tue:07-08","checked":true},{"_id":"Tue:08-09","checked":true},{"_id":"Tue:09-10","checked":true},{"_id":"Tue:10-11","checked":true},{"_id":"Tue:11-12","checked":true},{"_id":"Tue:12-13","checked":true},{"_id":"Tue:13-14","checked":true},{"_id":"Tue:14-15","checked":true},{"_id":"Tue:15-16","checked":true},{"_id":"Tue:16-17","checked":true},{"_id":"Tue:17-18","checked":true},{"_id":"Tue:18-19","checked":true},{"_id":"Tue:19-20","checked":true},{"_id":"Tue:20-21","checked":true},{"_id":"Tue:21-22","checked":true},{"_id":"Tue:22-23","checked":true},{"_id":"Tue:23-00","checked":true},{"_id":"Wed:00-01","checked":true},{"_id":"Wed:01-02","checked":true},{"_id":"Wed:02-03","checked":true},{"_id":"Wed:03-04","checked":true},{"_id":"Wed:04-05","checked":true},{"_id":"Wed:05-06","checked":true},{"_id":"Wed:06-07","checked":true},{"_id":"Wed:07-08","checked":true},{"_id":"Wed:08-09","checked":true},{"_id":"Wed:09-10","checked":true},{"_id":"Wed:10-11","checked":true},{"_id":"Wed:11-12","checked":true},{"_id":"Wed:12-13","checked":true},{"_id":"Wed:13-14","checked":true},{"_id":"Wed:14-15","checked":true},{"_id":"Wed:15-16","checked":true},{"_id":"Wed:16-17","checked":true},{"_id":"Wed:17-18","checked":true},{"_id":"Wed:18-19","checked":true},{"_id":"Wed:19-20","checked":true},{"_id":"Wed:20-21","checked":true},{"_id":"Wed:21-22","checked":true},{"_id":"Wed:22-23","checked":true},{"_id":"Wed:23-00","checked":true},{"_id":"Thur:00-01","checked":true},{"_id":"Thur:01-02","checked":true},{"_id":"Thur:02-03","checked":true},{"_id":"Thur:03-04","checked":true},{"_id":"Thur:04-05","checked":true},{"_id":"Thur:05-06","checked":true},{"_id":"Thur:06-07","checked":true},{"_id":"Thur:07-08","checked":true},{"_id":"Thur:08-09","checked":true},{"_id":"Thur:09-10","checked":true},{"_id":"Thur:10-11","checked":true},{"_id":"Thur:11-12","checked":true},{"_id":"Thur:12-13","checked":true},{"_id":"Thur:13-14","checked":true},{"_id":"Thur:14-15","checked":true},{"_id":"Thur:15-16","checked":true},{"_id":"Thur:16-17","checked":true},{"_id":"Thur:17-18","checked":true},{"_id":"Thur:18-19","checked":true},{"_id":"Thur:19-20","checked":true},{"_id":"Thur:20-21","checked":true},{"_id":"Thur:21-22","checked":true},{"_id":"Thur:22-23","checked":true},{"_id":"Thur:23-00","checked":true},{"_id":"Fri:00-01","checked":true},{"_id":"Fri:01-02","checked":true},{"_id":"Fri:02-03","checked":true},{"_id":"Fri:03-04","checked":true},{"_id":"Fri:04-05","checked":true},{"_id":"Fri:05-06","checked":true},{"_id":"Fri:06-07","checked":true},{"_id":"Fri:07-08","checked":true},{"_id":"Fri:08-09","checked":true},{"_id":"Fri:09-10","checked":true},{"_id":"Fri:10-11","checked":true},{"_id":"Fri:11-12","checked":true},{"_id":"Fri:12-13","checked":true},{"_id":"Fri:13-14","checked":true},{"_id":"Fri:14-15","checked":true},{"_id":"Fri:15-16","checked":true},{"_id":"Fri:16-17","checked":true},{"_id":"Fri:17-18","checked":true},{"_id":"Fri:18-19","checked":true},{"_id":"Fri:19-20","checked":true},{"_id":"Fri:20-21","checked":true},{"_id":"Fri:21-22","checked":true},{"_id":"Fri:22-23","checked":true},{"_id":"Fri:23-00","checked":true},{"_id":"Sat:00-01","checked":true},{"_id":"Sat:01-02","checked":true},{"_id":"Sat:02-03","checked":true},{"_id":"Sat:03-04","checked":true},{"_id":"Sat:04-05","checked":true},{"_id":"Sat:05-06","checked":true},{"_id":"Sat:06-07","checked":true},{"_id":"Sat:07-08","checked":true},{"_id":"Sat:08-09","checked":true},{"_id":"Sat:09-10","checked":true},{"_id":"Sat:10-11","checked":true},{"_id":"Sat:11-12","checked":true},{"_id":"Sat:12-13","checked":true},{"_id":"Sat:13-14","checked":true},{"_id":"Sat:14-15","checked":true},{"_id":"Sat:15-16","checked":true},{"_id":"Sat:16-17","checked":true},{"_id":"Sat:17-18","checked":true},{"_id":"Sat:18-19","checked":true},{"_id":"Sat:19-20","checked":true},{"_id":"Sat:20-21","checked":true},{"_id":"Sat:21-22","checked":true},{"_id":"Sat:22-23","checked":true},{"_id":"Sat:23-00","checked":true}],"totalHealthCheckCount":247,"totalTranscodeCount":0,"sizeDiff":0,"holdNewFiles":false,"holdFor":3600,"holdForDisplayUnit":"hours","pluginStackOverview":true,"filterResolutionsSkip":"","filterCodecsSkip":"","filterContainersSkip":"","processPluginsSequentially":true}}
+2026-01-04T11:36:28.629Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:Scanning original library file
+2026-01-04T11:36:28.629Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:{
+2026-01-04T11:36:28.629Z   "exifToolScan": true,
+2026-01-04T11:36:28.629Z   "mediaInfoScan": false,
+2026-01-04T11:36:28.629Z   "closedCaptionScan": false
+2026-01-04T11:36:28.629Z }
+2026-01-04T11:36:28.629Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:Node scanning file
+2026-01-04T11:36:28.643Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:Scan complete
+2026-01-04T11:36:28.644Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:Original file scanned
+2026-01-04T11:36:28.644Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:Source file to work on determined:"/media/tv/Man vs. Baby/Season 1/Man.Vs.Baby.S01E02.Chapter.2.REPACK.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-playWEB.mkv"
+2026-01-04T11:36:28.646Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:[Step W02] [C1] Running pre-process file
+2026-01-04T11:36:28.647Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:Checking files can be accessed
+2026-01-04T11:36:28.648Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:mapped node, file is original, no need to download
+2026-01-04T11:36:28.649Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:Relevant paths can be accessed
+2026-01-04T11:36:28.650Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:Source file: "/media/tv/Man vs. Baby/Season 1/Man.Vs.Baby.S01E02.Chapter.2.REPACK.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-playWEB.mkv"
+2026-01-04T11:36:28.651Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:[Step W03] [C1] Analysing file - running plugins
+2026-01-04T11:36:28.652Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:Handbrake healthcheck task, no need to scan for extra file details
+2026-01-04T11:36:28.652Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:Updating Node relay: Processing
+2026-01-04T11:36:28.653Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:[1/2] Checking file frame count
+2026-01-04T11:36:28.654Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:[2/2] Frame count 0
+2026-01-04T11:36:28.654Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:Determining healthcheck command
+2026-01-04T11:36:28.654Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:[Step W04] [C1] Preparing command
+2026-01-04T11:36:28.655Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:Cache file stem: "/tmp/tdarr-workDir2-igaYJox-AQ"
+2026-01-04T11:36:28.655Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:Cache file path: "/tmp/tdarr-workDir2-igaYJox-AQ/Man.Vs.Baby.S01E02.Chapter.2.REPACK.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-playWEB-TdarrCacheFile-QaZLO88PC.mp4"
+2026-01-04T11:36:28.655Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:Create transcode args
+2026-01-04T11:36:28.656Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:Args:  -i "/media/tv/Man vs. Baby/Season 1/Man.Vs.Baby.S01E02.Chapter.2.REPACK.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-playWEB.mkv" -o /tmp/tdarr-workDir2-igaYJox-AQ/Man.Vs.Baby.S01E02.Chapter.2.REPACK.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-playWEB-TdarrCacheFile-QaZLO88PC.mp4 --scan
+2026-01-04T11:36:28.656Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:Getting source file size
+2026-01-04T11:36:28.656Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:Source file size: 0.9019170245155692
+2026-01-04T11:36:28.656Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:Performing safety check on worker config to see if old transcode args/container match new ones
+2026-01-04T11:36:28.657Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:Safety check complete, all good
+2026-01-04T11:36:28.657Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:[Step W05] [C1] Launching subworker
+2026-01-04T11:36:28.658Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:Preparing to launch subworker
+2026-01-04T11:36:28.658Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:Subworker launched
+2026-01-04T11:36:28.658Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:[1/3] Sending command to subworker
+2026-01-04T11:36:28.659Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:[2/3] HandBrakeCLI -i "/media/tv/Man vs. Baby/Season 1/Man.Vs.Baby.S01E02.Chapter.2.REPACK.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-playWEB.mkv" -o /tmp/tdarr-workDir2-igaYJox-AQ/Man.Vs.Baby.S01E02.Chapter.2.REPACK.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-playWEB-TdarrCacheFile-QaZLO88PC.mp4 --scan
+2026-01-04T11:36:28.659Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:[3/3] Command sent
+2026-01-04T11:36:28.660Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:To see live CLI output, enable 'Log full FFmpeg/HandBrake output' in the staging section on the Tdarr tab before the job starts. Note this could increase the job report size substantially.
+2026-01-04T11:36:28.670Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:Subworker:Online
+2026-01-04T11:36:28.670Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:Subworker:Receiving transcode settings
+2026-01-04T11:36:28.671Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:Subworker:Running CLI
+2026-01-04T11:36:34.752Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:Subworker:a.Thread closed, code: 0
+2026-01-04T11:36:34.753Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:Subworker exit approved, killing subworker
+2026-01-04T11:36:34.753Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:Subworker killed
+2026-01-04T11:36:34.753Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:b.Thread closed, code: 0
+2026-01-04T11:36:34.754Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:CLI code: 0
+2026-01-04T11:36:34.754Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:Last 200 lines of CLI log:
+2026-01-04T11:36:34.754Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:[11:36:26] Compile-time hardening features are enabled
+2026-01-04T11:36:34.754Z 
+2026-01-04T11:36:34.754Z [11:36:26] nvenc: version 12.2 is available
+2026-01-04T11:36:34.754Z [11:36:26] nvdec: is available
+2026-01-04T11:36:34.754Z 
+2026-01-04T11:36:34.754Z [11:36:26] CUDA Version: 6.1
+2026-01-04T11:36:34.754Z 
+2026-01-04T11:36:34.754Z [11:36:26] qsv: not available on this system
+2026-01-04T11:36:34.754Z 
+2026-01-04T11:36:34.754Z [11:36:26] hb_init: starting libhb thread
+2026-01-04T11:36:34.754Z [11:36:26] thread 7f64ef7fe6c0 started ("libhb")
+2026-01-04T11:36:34.754Z HandBrake 1.10.2 (2025102400) - Linux x86_64 - https://handbrake.fr
+2026-01-04T11:36:34.754Z 16 CPUs detected
+2026-01-04T11:36:34.754Z 
+2026-01-04T11:36:34.754Z Opening /media/tv/Man vs. Baby/Season 1/Man.Vs.Baby.S01E02.Chapter.2.REPACK.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-playWEB.mkv...
+2026-01-04T11:36:34.754Z 
+2026-01-04T11:36:34.754Z [11:36:26] CPU: Common KVM processor
+2026-01-04T11:36:34.754Z [11:36:26]  - logical processor count: 16
+2026-01-04T11:36:34.754Z [11:36:26] Intel Quick Sync Video support: no
+2026-01-04T11:36:34.754Z [11:36:26] hb_scan: path=/media/tv/Man vs. Baby/Season 1/Man.Vs.Baby.S01E02.Chapter.2.REPACK.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-playWEB.mkv, title_index=1
+2026-01-04T11:36:34.754Z 
+2026-01-04T11:36:34.754Z Input #0, matroska,webm, from '/media/tv/Man vs. Baby/Season 1/Man.Vs.Baby.S01E02.Chapter.2.REPACK.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-playWEB.mkv':
+2026-01-04T11:36:34.754Z   Metadata:
+2026-01-04T11:36:34.754Z     encoder         : libebml v1.4.5 + libmatroska v1.7.1
+2026-01-04T11:36:34.754Z   Duration: 00:24:54.56, start: 0.000000, bitrate: 5183 kb/s
+2026-01-04T11:36:34.754Z   Chapters:
+2026-01-04T11:36:34.754Z     Chapter #0:0: start 0.000000, end 1300.450000
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         title           : Part 01
+2026-01-04T11:36:34.754Z     Chapter #0:1: start 1300.450000, end 1494.560000
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         title           : Credits
+2026-01-04T11:36:34.754Z 
+2026-01-04T11:36:34.754Z   Stream #0:0: Video: h264 (Main), yuv420p(progressive), 1920x1080 [SAR 1:1 DAR 16:9], 25 fps, 25 tbr, 1k tbn (default)
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         BPS             : 4411272
+2026-01-04T11:36:34.754Z         DURATION        : 00:24:54.520000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 37363
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 824091914
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z   Stream #0:1(eng): Audio: eac3 (Dolby Digital Plus + Dolby Atmos), 48000 Hz, 5.1(side), fltp, 768 kb/s (default)
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         BPS             : 768000
+2026-01-04T11:36:34.754Z         DURATION        : 00:24:54.560000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 46705
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 143477760
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z   Stream #0:2(eng): Subtitle: subrip (srt) (original)
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         BPS             : 39
+2026-01-04T11:36:34.754Z         DURATION        : 00:21:12.280000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 242
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 6278
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z   Stream #0:3(eng): Subtitle: subrip (srt) (original) (hearing impaired)
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         title           : SDH
+2026-01-04T11:36:34.754Z         BPS             : 60
+2026-01-04T11:36:34.754Z         DURATION        : 00:21:31.520000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 371
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 9692
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z   Stream #0:4(ara): Subtitle: subrip (srt) (dub)
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         BPS             : 60
+2026-01-04T11:36:34.754Z         DURATION        : 00:22:37.440000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 198
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 10239
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z   Stream #0:5(cze): Subtitle: subrip (srt) (dub)
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         BPS             : 32
+2026-01-04T11:36:34.754Z         DURATION        : 00:22:38.800000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 201
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 5515
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z   Stream #0:6(dan): Subtitle: subrip (srt) (dub)
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         BPS             : 28
+2026-01-04T11:36:34.754Z         DURATION        : 00:22:37.440000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 186
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 4918
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z   Stream #0:7(ger): Subtitle: subrip (srt) (dub)
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         BPS             : 32
+2026-01-04T11:36:34.754Z         DURATION        : 00:22:37.400000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 191
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 5598
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z   Stream #0:8(gre): Subtitle: subrip (srt) (dub)
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         BPS             : 55
+2026-01-04T11:36:34.754Z         DURATION        : 00:22:37.840000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 199
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 9383
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z   Stream #0:9(spa): Subtitle: subrip (srt) (dub)
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         BPS             : 33
+2026-01-04T11:36:34.754Z         DURATION        : 00:22:37.480000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 199
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 5716
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z   Stream #0:10(spa): Subtitle: subrip (srt) (dub)
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         BPS             : 33
+2026-01-04T11:36:34.754Z         DURATION        : 00:22:37.440000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 199
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 5736
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z   Stream #0:11(fin): Subtitle: subrip (srt) (dub)
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         BPS             : 30
+2026-01-04T11:36:34.754Z         DURATION        : 00:22:38.000000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 167
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 5176
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z   Stream #0:12(fil): Subtitle: subrip (srt) (dub)
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         BPS             : 30
+2026-01-04T11:36:34.754Z         DURATION        : 00:22:40.520000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 187
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 5174
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z   Stream #0:13(fre): Subtitle: subrip (srt) (dub)
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         BPS             : 33
+2026-01-04T11:36:34.754Z         DURATION        : 00:22:37.480000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 196
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 5682
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z   Stream #0:14(heb): Subtitle: subrip (srt) (dub)
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         BPS             : 52
+2026-01-04T11:36:34.754Z         DURATION        : 00:22:37.440000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 204
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 8891
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z   Stream #0:15(hrv): Subtitle: subrip (srt) (dub)
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         BPS             : 30
+2026-01-04T11:36:34.754Z         DURATION        : 00:22:40.360000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 200
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 5263
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z 
+2026-01-04T11:36:34.754Z   Stream #0:16(hun): Subtitle: subrip (srt) (dub)
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         BPS             : 32
+2026-01-04T11:36:34.754Z         DURATION        : 00:22:38.120000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 194
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 5489
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z   Stream #0:17(ind): Subtitle: subrip (srt) (dub)
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         BPS             : 31
+2026-01-04T11:36:34.754Z         DURATION        : 00:22:37.960000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 200
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 5412
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z   Stream #0:18(ita): Subtitle: subrip (srt) (dub)
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         BPS             : 31
+2026-01-04T11:36:34.754Z         DURATION        : 00:22:37.360000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 198
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 5313
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z   Stream #0:19(jpn): Subtitle: subrip (srt) (dub)
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         BPS             : 32
+2026-01-04T11:36:34.754Z         DURATION        : 00:22:38.600000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 205
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 5490
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z 
+2026-01-04T11:36:34.754Z   Stream #0:20(kor): Subtitle: subrip (srt) (dub)
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         BPS             : 35
+2026-01-04T11:36:34.754Z         DURATION        : 00:22:37.480000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 206
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 6074
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z   Stream #0:21(may): Subtitle: subrip (srt) (dub)
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         BPS             : 31
+2026-01-04T11:36:34.754Z         DURATION        : 00:22:37.480000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 197
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 5323
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z   Stream #0:22(nor): Subtitle: subrip (srt) (dub)
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         BPS             : 29
+2026-01-04T11:36:34.754Z         DURATION        : 00:22:37.440000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 173
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 5030
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z   Stream #0:23(dut): Subtitle: subrip (srt) (dub)
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         BPS             : 27
+2026-01-04T11:36:34.754Z         DURATION        : 00:22:40.400000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 183
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 4678
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z   Stream #0:24(pol): Subtitle: subrip (srt) (dub)
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         BPS             : 30
+2026-01-04T11:36:34.754Z         DURATION        : 00:22:37.480000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 198
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 5132
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z   Stream #0:25(por): Subtitle: subrip (srt) (dub)
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         BPS             : 32
+2026-01-04T11:36:34.754Z         DURATION        : 00:22:37.480000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 195
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 5492
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z   Stream #0:26(por): Subtitle: subrip (srt) (dub)
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         BPS             : 32
+2026-01-04T11:36:34.754Z         DURATION        : 00:22:37.440000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 192
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 5473
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z   Stream #0:27(rum): Subtitle: subrip (srt) (dub)
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         BPS             : 31
+2026-01-04T11:36:34.754Z         DURATION        : 00:22:40.400000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 190
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 5363
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z   Stream #0:28(rus): Subtitle: subrip (srt) (dub)
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         BPS             : 52
+2026-01-04T11:36:34.754Z         DURATION        : 00:22:38.520000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 203
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 8937
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z   Stream #0:29(swe): Subtitle: subrip (srt) (dub)
+2026-01-04T11:36:34.754Z 
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         BPS             : 32
+2026-01-04T11:36:34.754Z         DURATION        : 00:22:37.440000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 178
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 5499
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z   Stream #0:30(tha): Subtitle: subrip (srt) (dub)
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         BPS             : 85
+2026-01-04T11:36:34.754Z         DURATION        : 00:22:37.440000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 200
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 14453
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z   Stream #0:31(tur): Subtitle: subrip (srt) (dub)
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         BPS             : 32
+2026-01-04T11:36:34.754Z         DURATION        : 00:22:40.400000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 192
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 5526
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z   Stream #0:32(ukr): Subtitle: subrip (srt) (dub)
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         BPS             : 52
+2026-01-04T11:36:34.754Z         DURATION        : 00:22:37.480000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 200
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 8866
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z   Stream #0:33(vie): Subtitle: subrip (srt) (dub)
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         BPS             : 41
+2026-01-04T11:36:34.754Z         DURATION        : 00:22:37.480000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 203
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 6965
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z   Stream #0:34(chi): Subtitle: subrip (srt) (dub)
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         title           : Simplified
+2026-01-04T11:36:34.754Z         BPS             : 30
+2026-01-04T11:36:34.754Z         DURATION        : 00:22:37.480000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 204
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 5094
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z   Stream #0:35(chi): Subtitle: subrip (srt) (dub)
+2026-01-04T11:36:34.754Z       Metadata:
+2026-01-04T11:36:34.754Z         title           : Traditional
+2026-01-04T11:36:34.754Z         BPS             : 27
+2026-01-04T11:36:34.754Z         DURATION        : 00:22:37.440000000
+2026-01-04T11:36:34.754Z         NUMBER_OF_FRAMES: 225
+2026-01-04T11:36:34.754Z         NUMBER_OF_BYTES : 
+2026-01-04T11:36:34.754Z 4586
+2026-01-04T11:36:34.754Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T11:36:34.754Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:36:34.754Z [11:36:26] scan: decoding previews for title 1
+2026-01-04T11:36:34.754Z 
+2026-01-04T11:36:34.754Z [11:36:26] scan: audio 0x1: eac3, rate=48000Hz, bitrate=768000 English (E-AC3 Dolby Digital Plus + Dolby Atmos, 5.1 ch, 768 kbps)
+2026-01-04T11:36:34.754Z 
+2026-01-04T11:36:34.754Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:36:34.754Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:36:34.754Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:36:34.754Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:36:34.754Z Scanning title 1 of 1, preview 3, 30.00 %
+2026-01-04T11:36:34.754Z Scanning title 1 of 1, preview 3, 30.00 %
+2026-01-04T11:36:34.754Z Scanning title 1 of 1, preview 4, 40.00 %
+2026-01-04T11:36:34.754Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-04T11:36:34.754Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-04T11:36:34.754Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-04T11:36:34.754Z Scanning title 1 of 1, preview 7, 70.00 %
+2026-01-04T11:36:34.754Z Scanning title 1 of 1, preview 7, 70.00 %
+2026-01-04T11:36:34.754Z Scanning title 1 of 1, preview 7, 70.00 %
+2026-01-04T11:36:34.754Z Scanning title 1 of 1, preview 8, 80.00 %
+2026-01-04T11:36:34.754Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:36:34.754Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:36:34.754Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:36:34.754Z [11:36:32] using container PAR 1:1
+2026-01-04T11:36:34.754Z [11:36:32] scan: 10 previews, 1920x1080, 25.000 fps, autocrop = 22/22/0/0, aspect 16:9, PAR 1:1, color profile: 1-1-1, chroma location: left
+2026-01-04T11:36:34.754Z 
+2026-01-04T11:36:34.754Z Scanning title 1 of 1, preview 10, 100.00 %
+2026-01-04T11:36:34.754Z [11:36:32] libhb: scan thread found 1 valid title(s)
+2026-01-04T11:36:34.754Z 
+2026-01-04T11:36:34.754Z + title 1:
+2026-01-04T11:36:34.754Z   + stream: /media/tv/Man vs. Baby/Season 1/Man.Vs.Baby.S01E02.Chapter.2.REPACK.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-playWEB.mkv
+2026-01-04T11:36:34.754Z   + duration: 00:24:54
+2026-01-04T11:36:34.754Z   + size: 1920x1080, pixel aspect: 1/1, display aspect: 1.78, 25.000 fps
+2026-01-04T11:36:34.754Z   + autocrop: 22/22/0/0
+2026-01-04T11:36:34.754Z   + chapters:
+2026-01-04T11:36:34.754Z     + 1: duration 00:21:40
+2026-01-04T11:36:34.754Z     + 2: duration 00:03:14
+2026-01-04T11:36:34.754Z   + audio tracks:
+2026-01-04T11:36:34.754Z     + 1, English (E-AC3 Dolby Digital Plus + Dolby Atmos, 5.1 ch, 768 kbps) (iso639-2: eng)
+2026-01-04T11:36:34.754Z   + subtitle tracks:
+2026-01-04T11:36:34.754Z     + 1, English (UTF-8)
+2026-01-04T11:36:34.754Z     + 2, English (UTF-8)
+2026-01-04T11:36:34.754Z     + 3, العربية (UTF-8)
+2026-01-04T11:36:34.754Z     + 4, čeština (UTF-8)
+2026-01-04T11:36:34.754Z     + 5, dansk (UTF-8)
+2026-01-04T11:36:34.754Z     + 6, Deutsch (UTF-8)
+2026-01-04T11:36:34.754Z     + 7, Ελληνικά (UTF-8)
+2026-01-04T11:36:34.754Z     + 8, español (UTF-8)
+2026-01-04T11:36:34.754Z     + 9, español (UTF-8)
+2026-01-04T11:36:34.754Z     + 10, suomi (UTF-8)
+2026-01-04T11:36:34.754Z     + 11, Wikang Filipino (UTF-8)
+2026-01-04T11:36:34.754Z     + 12, Francais (UTF-8)
+2026-01-04T11:36:34.754Z     + 13, עברית (UTF-8)
+2026-01-04T11:36:34.754Z     + 14, hrvatski (UTF-8)
+2026-01-04T11:36:34.754Z     + 15, magyar (UTF-8)
+2026-01-04T11:36:34.754Z     + 16, Bahasa Indonesia (UTF-8)
+2026-01-04T11:36:34.754Z     + 17, italiano (UTF-8)
+2026-01-04T11:36:34.754Z     + 18, 日本語 (UTF-8)
+2026-01-04T11:36:34.754Z     + 19, 한국어 (UTF-8)
+2026-01-04T11:36:34.754Z     + 20, Bahasa Melayu (UTF-8)
+2026-01-04T11:36:34.754Z     + 21, norsk (UTF-8)
+2026-01-04T11:36:34.754Z     + 22, Nederlands (UTF-8)
+2026-01-04T11:36:34.754Z     + 23, polski (UTF-8)
+2026-01-04T11:36:34.754Z     + 24, Portugues (UTF-8)
+2026-01-04T11:36:34.754Z     + 25, Portugues (UTF-8)
+2026-01-04T11:36:34.754Z     + 26, română (UTF-8)
+2026-01-04T11:36:34.754Z     + 27, русский (UTF-8)
+2026-01-04T11:36:34.754Z     + 28, svenska (UTF-8)
+2026-01-04T11:36:34.754Z     + 29, ไทย (UTF-8)
+2026-01-04T11:36:34.754Z     + 30, Türkçe (UTF-8)
+2026-01-04T11:36:34.754Z     + 31, українська (UTF-8)
+2026-01-04T11:36:34.754Z     + 32, Tiếng Việt (UTF-8)
+2026-01-04T11:36:34.754Z     + 33, 中文 (UTF-8)
+2026-01-04T11:36:34.754Z     + 34, 中文 (UTF-8)
+2026-01-04T11:36:34.754Z 
+2026-01-04T11:36:34.754Z HandBrake has exited.
+2026-01-04T11:36:34.754Z 
+2026-01-04T11:36:34.754Z 
+2026-01-04T11:36:34.754Z 
+2026-01-04T11:36:34.754Z 
+2026-01-04T11:36:34.758Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:[Step W06] [C1] Worker [-success-]
+2026-01-04T11:36:34.759Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:Worker success during processing
+2026-01-04T11:36:34.759Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:Updating healthcheck stats
+2026-01-04T11:36:34.760Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:[Step W10] Worker processing end
+2026-01-04T11:36:34.760Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:Subworker exited null
+2026-01-04T11:36:34.760Z igaYJox-AQ:Node[MyInternalNode]:Worker[best-buck]:Successfully updated server with verdict: healthcheckSuccess

@@ -1,0 +1,664 @@
+2026-01-04T14:46:12.370Z 5Kj71WX1Y6:[Step S01] [2.58.02] Server relay initialising job
+2026-01-04T14:46:12.371Z 5Kj71WX1Y6:Server: linux_x64_docker_true
+2026-01-04T14:46:12.371Z 5Kj71WX1Y6:Server relay adding file to staged files
+2026-01-04T14:46:12.371Z 5Kj71WX1Y6:Server relay sending job to Node relay: MyInternalNode
+2026-01-04T14:46:12.372Z 5Kj71WX1Y6:Node[MyInternalNode]:[Step N01] [2.58.02] Node relay received job
+2026-01-04T14:46:12.372Z 5Kj71WX1Y6:Node[MyInternalNode]:{"nodeName":"MyInternalNode","serverURL":"http://0.0.0.0:8266","serverIP":"0.0.0.0","serverPort":"8266","handbrakePath":"","ffmpegPath":"","mkvpropeditPath":"","pathTranslators":[{"server":"","node":""}],"nodeType":"mapped","unmappedNodeCache":"/app/unmappedNodeCache","logLevel":"INFO","priority":-1,"platform_arch_isdocker":"linux_x64_docker_true","processPid":664,"cronPluginUpdate":"","apiKey":"","maxLogSizeMB":"10","pollInterval":2000,"startPaused":false,"nodeID":"-2RaUzM4Y","seededWorkerLimits":{},"nodeRegisteredCount":1}
+2026-01-04T14:46:12.372Z 5Kj71WX1Y6:Node[MyInternalNode]:Node relay sending job to worker:kooky-kudu
+2026-01-04T14:46:12.372Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:[Step W01] Received file, original: "/media/movies/After the Hunt (2025)/After.The.Hunt.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv"
+2026-01-04T14:46:12.373Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:{"workerType":"healthcheckcpu"}
+2026-01-04T14:46:12.373Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:{"ffmpegPath":"tdarr-ffmpeg"}
+2026-01-04T14:46:12.373Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:{"handbrakePath":"HandBrakeCLI"}
+2026-01-04T14:46:12.373Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:{"mkvpropeditPath":"mkvpropedit"}
+2026-01-04T14:46:12.374Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:{"gpuSelect":"-"}
+2026-01-04T14:46:12.374Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:{"allowGpuDoCpu":false}
+2026-01-04T14:46:12.374Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:{"thoroughHealthCheckCpuExtraInputArgs":""}
+2026-01-04T14:46:12.374Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:{"thoroughHealthCheckGpuExtraInputArgs":""}
+2026-01-04T14:46:12.375Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:{"thoroughHealthCheckCpuExtraArgs":""}
+2026-01-04T14:46:12.375Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:{"thoroughHealthCheckGpuExtraArgs":""}
+2026-01-04T14:46:12.375Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:{"logFullCliOutput":false}
+2026-01-04T14:46:12.375Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:{"runMkvpropedit":false}
+2026-01-04T14:46:12.376Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:{"dontCleanWorkerCacheFolder":false}
+2026-01-04T14:46:12.376Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:Path translating objects
+2026-01-04T14:46:12.376Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:Running path translator tests
+2026-01-04T14:46:12.376Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:Path translator tests passed
+2026-01-04T14:46:12.377Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:{"librarySettings":{"_id":"qNfK1K4g-","priority":0,"name":"Movies","folder":"/media/movies","foldersToIgnore":"","foldersToIgnoreCaseInsensitive":false,"folderWatchScanInterval":30,"scannerThreadCount":2,"cache":"/tmp","output":".","folderToFolderConversion":false,"folderToFolderConversionDeleteSource":false,"folderToFolderRecordHistory":true,"copyIfConditionsMet":false,"container":".mkv","containerFilter":"mkv,mp4,mov,m4v,mpg,mpeg,avi,flv,webm,wmv,vob,evo,iso,m2ts,ts","createdAt":1675837380368,"folderWatching":true,"useFsEvents":false,"scheduledScanFindNew":false,"processLibrary":true,"processTranscodes":true,"processHealthChecks":true,"scanOnStart":true,"exifToolScan":true,"mediaInfoScan":true,"ffprobeShowData":false,"isDirectoryLibrary":false,"closedCaptionScan":false,"scanButtons":true,"scanFound":"Files found:0","navItemSelected":"navSourceFolder","pluginIDs":[{"_id":"plugin1","id":"Tdarr_Plugin_MC93_MigzImageRemoval","checked":true,"source":"Community","priority":0,"InputsDB":{},"Name":"Migz Remove Image Formats From File","Type":"Video","Operation":"Transcode","Description":"Identify any unwanted image formats in the file and remove those streams. MJPEG, PNG & GIF \n\n","Version":"1.4","Stage":"Pre-processing","Tags":"pre-processing,ffmpeg,video only","Inputs":[],"source_id":"Community::Tdarr_Plugin_MC93_MigzImageRemoval"},{"_id":"plugin2","id":"Tdarr_Plugin_lmg1_Reorder_Streams","checked":true,"source":"Community","priority":1,"InputsDB":{},"Name":"Lmg1 Reorder Streams","Type":"Video","Operation":"Transcode","Description":"[Contains built-in filter] This plugin will move the video stream to the front so Tdarr will recognize the codec correctly.\n\n","Version":"1.00","Stage":"Pre-processing","Tags":"pre-processing,ffmpeg","Inputs":[],"source_id":"Community::Tdarr_Plugin_lmg1_Reorder_Streams"},{"_id":"plugin4","id":"Tdarr_Plugin_MC93_Migz1FFMPEG","checked":true,"source":"Community","priority":2,"InputsDB":{},"Name":"Migz Transcode Using Nvidia GPU & FFMPEG","Type":"Video","Operation":"Transcode","Description":"Files not in H265 will be transcoded into H265 using Nvidia GPU with ffmpeg.\n                  Settings are dependant on file bitrate\n                  Working by the logic that H265 can support the same ammount of data at half the bitrate of H264.\n                  NVDEC & NVENC compatable GPU required.\n                  This plugin will skip any files that are in the VP9 codec.","Version":"3.1","Stage":"Pre-processing","Tags":"pre-processing,ffmpeg,video only,nvenc h265,configurable","Inputs":[{"name":"container","type":"string","defaultValue":"mkv","inputUI":{"type":"text"},"tooltip":"Specify output container of file. Use 'original' wihout quotes to keep original container.\n                \\n Ensure that all stream types you may have are supported by your chosen container.\n                \\n mkv is recommended.\n                    \\nExample:\\n\n                    mkv\n\n                    \\nExample:\\n\n                    mp4\n                    \n                    \\nExample:\\n\n                    original"},{"name":"bitrate_cutoff","type":"string","defaultValue":"","inputUI":{"type":"text"},"tooltip":"Specify bitrate cutoff, files with a current bitrate lower then this will not be transcoded.\n               \\n Rate is in kbps.\n               \\n Leave empty to disable.\n                    \\nExample:\\n\n                    6000\n\n                    \\nExample:\\n\n                    4000"},{"name":"enable_10bit","type":"boolean","defaultValue":false,"inputUI":{"type":"dropdown","options":["false","true"]},"tooltip":"Specify if output file should be 10bit. Default is false.\n                    \\nExample:\\n\n                    true\n\n                    \\nExample:\\n\n                    false"},{"name":"enable_bframes","type":"boolean","defaultValue":false,"inputUI":{"type":"dropdown","options":["false","true"]},"tooltip":"Specify if b frames should be used.\n                 \\n Using B frames should decrease file sizes but are only supported on newer GPUs.\n                 \\n Default is false.\n                    \\nExample:\\n\n                    true\n\n                    \\nExample:\\n\n                    false"},{"name":"force_conform","type":"boolean","defaultValue":false,"inputUI":{"type":"dropdown","options":["false","true"]},"tooltip":"Make the file conform to output containers requirements.\n                \\n Drop hdmv_pgs_subtitle/eia_608/subrip/timed_id3 for MP4.\n                \\n Drop data streams/mov_text/eia_608/timed_id3 for MKV.\n                \\n Default is false.\n                    \\nExample:\\n\n                    true\n\n                    \\nExample:\\n\n                    false"}],"source_id":"Community::Tdarr_Plugin_MC93_Migz1FFMPEG"},{"_id":"plugin5","id":"Tdarr_Plugin_a9he_New_file_size_check","checked":true,"source":"Community","priority":3,"InputsDB":{},"Name":"New File Size Check","Type":"Video","Operation":"Transcode","Description":"Give an error if new file is not within the specified upper and lower bound limits \n\n","Version":"1.00","Stage":"Pre-processing","Tags":"","Inputs":[{"name":"upperBound","type":"number","defaultValue":110,"inputUI":{"type":"text"},"tooltip":"Enter the upper bound % size for the new file. For example, if '110' is entered, \n        then if the new file size is greater than 110% the size of the original, an error will be given."},{"name":"lowerBound","type":"number","defaultValue":40,"inputUI":{"type":"text"},"tooltip":"Enter the lower bound % size for the new file. For example, if '90' is entered, \n        then if the new file size is less than 90% of the original, an error will be given."}],"source_id":"Community::Tdarr_Plugin_a9he_New_file_size_check"}],"pluginCommunity":true,"handbrake":true,"ffmpeg":false,"handbrakescan":true,"ffmpegscan":false,"preset":"-Z \"Very Fast 1080p30\"","decisionMaker":{"settingsPlugin":true,"settingsFlows":false,"settingsVideo":false,"videoExcludeSwitch":true,"video_codec_names_exclude":[{"codec":"hevc","checked":false},{"codec":"h264","checked":true}],"video_size_range_include":{"min":0,"max":100000},"video_height_range_include":{"min":0,"max":3000},"video_width_range_include":{"min":0,"max":4000},"settingsAudio":false,"audioExcludeSwitch":true,"audio_codec_names_exclude":[{"codec":"mp3","checked":true},{"codec":"aac","checked":false}],"audio_size_range_include":{"min":0,"max":10}},"schedule":[{"_id":"Sun:00-01","checked":true},{"_id":"Sun:01-02","checked":true},{"_id":"Sun:02-03","checked":true},{"_id":"Sun:03-04","checked":true},{"_id":"Sun:04-05","checked":true},{"_id":"Sun:05-06","checked":true},{"_id":"Sun:06-07","checked":true},{"_id":"Sun:07-08","checked":true},{"_id":"Sun:08-09","checked":true},{"_id":"Sun:09-10","checked":true},{"_id":"Sun:10-11","checked":true},{"_id":"Sun:11-12","checked":true},{"_id":"Sun:12-13","checked":true},{"_id":"Sun:13-14","checked":true},{"_id":"Sun:14-15","checked":true},{"_id":"Sun:15-16","checked":true},{"_id":"Sun:16-17","checked":true},{"_id":"Sun:17-18","checked":true},{"_id":"Sun:18-19","checked":true},{"_id":"Sun:19-20","checked":true},{"_id":"Sun:20-21","checked":true},{"_id":"Sun:21-22","checked":true},{"_id":"Sun:22-23","checked":true},{"_id":"Sun:23-00","checked":true},{"_id":"Mon:00-01","checked":true},{"_id":"Mon:01-02","checked":true},{"_id":"Mon:02-03","checked":true},{"_id":"Mon:03-04","checked":true},{"_id":"Mon:04-05","checked":true},{"_id":"Mon:05-06","checked":true},{"_id":"Mon:06-07","checked":true},{"_id":"Mon:07-08","checked":true},{"_id":"Mon:08-09","checked":true},{"_id":"Mon:09-10","checked":true},{"_id":"Mon:10-11","checked":true},{"_id":"Mon:11-12","checked":true},{"_id":"Mon:12-13","checked":true},{"_id":"Mon:13-14","checked":true},{"_id":"Mon:14-15","checked":true},{"_id":"Mon:15-16","checked":true},{"_id":"Mon:16-17","checked":true},{"_id":"Mon:17-18","checked":true},{"_id":"Mon:18-19","checked":true},{"_id":"Mon:19-20","checked":true},{"_id":"Mon:20-21","checked":true},{"_id":"Mon:21-22","checked":true},{"_id":"Mon:22-23","checked":true},{"_id":"Mon:23-00","checked":true},{"_id":"Tue:00-01","checked":true},{"_id":"Tue:01-02","checked":true},{"_id":"Tue:02-03","checked":true},{"_id":"Tue:03-04","checked":true},{"_id":"Tue:04-05","checked":true},{"_id":"Tue:05-06","checked":true},{"_id":"Tue:06-07","checked":true},{"_id":"Tue:07-08","checked":true},{"_id":"Tue:08-09","checked":true},{"_id":"Tue:09-10","checked":true},{"_id":"Tue:10-11","checked":true},{"_id":"Tue:11-12","checked":true},{"_id":"Tue:12-13","checked":true},{"_id":"Tue:13-14","checked":true},{"_id":"Tue:14-15","checked":true},{"_id":"Tue:15-16","checked":true},{"_id":"Tue:16-17","checked":true},{"_id":"Tue:17-18","checked":true},{"_id":"Tue:18-19","checked":true},{"_id":"Tue:19-20","checked":true},{"_id":"Tue:20-21","checked":true},{"_id":"Tue:21-22","checked":true},{"_id":"Tue:22-23","checked":true},{"_id":"Tue:23-00","checked":true},{"_id":"Wed:00-01","checked":true},{"_id":"Wed:01-02","checked":true},{"_id":"Wed:02-03","checked":true},{"_id":"Wed:03-04","checked":true},{"_id":"Wed:04-05","checked":true},{"_id":"Wed:05-06","checked":true},{"_id":"Wed:06-07","checked":true},{"_id":"Wed:07-08","checked":true},{"_id":"Wed:08-09","checked":true},{"_id":"Wed:09-10","checked":true},{"_id":"Wed:10-11","checked":true},{"_id":"Wed:11-12","checked":true},{"_id":"Wed:12-13","checked":true},{"_id":"Wed:13-14","checked":true},{"_id":"Wed:14-15","checked":true},{"_id":"Wed:15-16","checked":true},{"_id":"Wed:16-17","checked":true},{"_id":"Wed:17-18","checked":true},{"_id":"Wed:18-19","checked":true},{"_id":"Wed:19-20","checked":true},{"_id":"Wed:20-21","checked":true},{"_id":"Wed:21-22","checked":true},{"_id":"Wed:22-23","checked":true},{"_id":"Wed:23-00","checked":true},{"_id":"Thur:00-01","checked":true},{"_id":"Thur:01-02","checked":true},{"_id":"Thur:02-03","checked":true},{"_id":"Thur:03-04","checked":true},{"_id":"Thur:04-05","checked":true},{"_id":"Thur:05-06","checked":true},{"_id":"Thur:06-07","checked":true},{"_id":"Thur:07-08","checked":true},{"_id":"Thur:08-09","checked":true},{"_id":"Thur:09-10","checked":true},{"_id":"Thur:10-11","checked":true},{"_id":"Thur:11-12","checked":true},{"_id":"Thur:12-13","checked":true},{"_id":"Thur:13-14","checked":true},{"_id":"Thur:14-15","checked":true},{"_id":"Thur:15-16","checked":true},{"_id":"Thur:16-17","checked":true},{"_id":"Thur:17-18","checked":true},{"_id":"Thur:18-19","checked":true},{"_id":"Thur:19-20","checked":true},{"_id":"Thur:20-21","checked":true},{"_id":"Thur:21-22","checked":true},{"_id":"Thur:22-23","checked":true},{"_id":"Thur:23-00","checked":true},{"_id":"Fri:00-01","checked":true},{"_id":"Fri:01-02","checked":true},{"_id":"Fri:02-03","checked":true},{"_id":"Fri:03-04","checked":true},{"_id":"Fri:04-05","checked":true},{"_id":"Fri:05-06","checked":true},{"_id":"Fri:06-07","checked":true},{"_id":"Fri:07-08","checked":true},{"_id":"Fri:08-09","checked":true},{"_id":"Fri:09-10","checked":true},{"_id":"Fri:10-11","checked":true},{"_id":"Fri:11-12","checked":true},{"_id":"Fri:12-13","checked":true},{"_id":"Fri:13-14","checked":true},{"_id":"Fri:14-15","checked":true},{"_id":"Fri:15-16","checked":true},{"_id":"Fri:16-17","checked":true},{"_id":"Fri:17-18","checked":true},{"_id":"Fri:18-19","checked":true},{"_id":"Fri:19-20","checked":true},{"_id":"Fri:20-21","checked":true},{"_id":"Fri:21-22","checked":true},{"_id":"Fri:22-23","checked":true},{"_id":"Fri:23-00","checked":true},{"_id":"Sat:00-01","checked":true},{"_id":"Sat:01-02","checked":true},{"_id":"Sat:02-03","checked":true},{"_id":"Sat:03-04","checked":true},{"_id":"Sat:04-05","checked":true},{"_id":"Sat:05-06","checked":true},{"_id":"Sat:06-07","checked":true},{"_id":"Sat:07-08","checked":true},{"_id":"Sat:08-09","checked":true},{"_id":"Sat:09-10","checked":true},{"_id":"Sat:10-11","checked":true},{"_id":"Sat:11-12","checked":true},{"_id":"Sat:12-13","checked":true},{"_id":"Sat:13-14","checked":true},{"_id":"Sat:14-15","checked":true},{"_id":"Sat:15-16","checked":true},{"_id":"Sat:16-17","checked":true},{"_id":"Sat:17-18","checked":true},{"_id":"Sat:18-19","checked":true},{"_id":"Sat:19-20","checked":true},{"_id":"Sat:20-21","checked":true},{"_id":"Sat:21-22","checked":true},{"_id":"Sat:22-23","checked":true},{"_id":"Sat:23-00","checked":true}],"totalHealthCheckCount":61,"totalTranscodeCount":8,"sizeDiff":0,"holdNewFiles":false,"holdFor":3600,"holdForDisplayUnit":"hours","pluginStackOverview":true,"filterResolutionsSkip":"","filterCodecsSkip":"","filterContainersSkip":"","processPluginsSequentially":true}}
+2026-01-04T14:46:12.377Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:Scanning original library file
+2026-01-04T14:46:12.377Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:{
+2026-01-04T14:46:12.377Z   "exifToolScan": true,
+2026-01-04T14:46:12.377Z   "mediaInfoScan": false,
+2026-01-04T14:46:12.377Z   "closedCaptionScan": false
+2026-01-04T14:46:12.377Z }
+2026-01-04T14:46:12.378Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:Node scanning file
+2026-01-04T14:46:12.378Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:Scan complete
+2026-01-04T14:46:12.378Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:Original file scanned
+2026-01-04T14:46:12.378Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:Source file to work on determined:"/media/movies/After the Hunt (2025)/After.The.Hunt.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv"
+2026-01-04T14:46:12.379Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:[Step W02] [C1] Running pre-process file
+2026-01-04T14:46:12.379Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:Checking files can be accessed
+2026-01-04T14:46:12.379Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:mapped node, file is original, no need to download
+2026-01-04T14:46:12.379Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:Relevant paths can be accessed
+2026-01-04T14:46:12.380Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:Source file: "/media/movies/After the Hunt (2025)/After.The.Hunt.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv"
+2026-01-04T14:46:12.380Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:[Step W03] [C1] Analysing file - running plugins
+2026-01-04T14:46:12.380Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:Handbrake healthcheck task, no need to scan for extra file details
+2026-01-04T14:46:12.380Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:Updating Node relay: Processing
+2026-01-04T14:46:12.380Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:[1/2] Checking file frame count
+2026-01-04T14:46:12.381Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:[2/2] Frame count 0
+2026-01-04T14:46:12.381Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:Determining healthcheck command
+2026-01-04T14:46:12.381Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:[Step W04] [C1] Preparing command
+2026-01-04T14:46:12.381Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:Cache file stem: "/tmp/tdarr-workDir2-5Kj71WX1Y6"
+2026-01-04T14:46:12.382Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:Cache file path: "/tmp/tdarr-workDir2-5Kj71WX1Y6/After.The.Hunt.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG-TdarrCacheFile-ZXRe882Mu.mp4"
+2026-01-04T14:46:12.382Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:Create transcode args
+2026-01-04T14:46:12.382Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:Args:  -i "/media/movies/After the Hunt (2025)/After.The.Hunt.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv" -o /tmp/tdarr-workDir2-5Kj71WX1Y6/After.The.Hunt.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG-TdarrCacheFile-ZXRe882Mu.mp4 --scan
+2026-01-04T14:46:12.382Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:Getting source file size
+2026-01-04T14:46:12.383Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:Source file size: 0.1484375
+2026-01-04T14:46:12.383Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:Performing safety check on worker config to see if old transcode args/container match new ones
+2026-01-04T14:46:12.383Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:Safety check complete, all good
+2026-01-04T14:46:12.383Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:[Step W05] [C1] Launching subworker
+2026-01-04T14:46:12.384Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:Preparing to launch subworker
+2026-01-04T14:46:12.384Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:Subworker launched
+2026-01-04T14:46:12.384Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:[1/3] Sending command to subworker
+2026-01-04T14:46:12.384Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:[2/3] HandBrakeCLI -i "/media/movies/After the Hunt (2025)/After.The.Hunt.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv" -o /tmp/tdarr-workDir2-5Kj71WX1Y6/After.The.Hunt.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG-TdarrCacheFile-ZXRe882Mu.mp4 --scan
+2026-01-04T14:46:12.385Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:[3/3] Command sent
+2026-01-04T14:46:12.385Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:To see live CLI output, enable 'Log full FFmpeg/HandBrake output' in the staging section on the Tdarr tab before the job starts. Note this could increase the job report size substantially.
+2026-01-04T14:46:12.385Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:Subworker:Online
+2026-01-04T14:46:12.385Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:Subworker:Receiving transcode settings
+2026-01-04T14:46:12.386Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:Subworker:Running CLI
+2026-01-04T14:46:14.386Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:Subworker:a.Thread closed, code: 0
+2026-01-04T14:46:14.387Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:Subworker exit approved, killing subworker
+2026-01-04T14:46:14.387Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:Subworker killed
+2026-01-04T14:46:14.387Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:b.Thread closed, code: 0
+2026-01-04T14:46:14.387Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:CLI code: 0
+2026-01-04T14:46:14.388Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:Last 200 lines of CLI log:
+2026-01-04T14:46:14.388Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:[14:46:10] Compile-time hardening features are enabled
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z [14:46:10] nvenc: version 12.2 is available
+2026-01-04T14:46:14.388Z [14:46:10] nvdec: is available
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z [14:46:10] CUDA Version: 6.1
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z [14:46:10] qsv: not available on this system
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z [14:46:10] hb_init: starting libhb thread
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z [14:46:10] thread 7f5a411c56c0 started ("libhb")
+2026-01-04T14:46:14.388Z HandBrake 1.10.2 (2025102400) - Linux x86_64 - https://handbrake.fr
+2026-01-04T14:46:14.388Z 16 CPUs detected
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z Opening /media/movies/After the Hunt (2025)/After.The.Hunt.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv...
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z [14:46:10] CPU: Common KVM processor
+2026-01-04T14:46:14.388Z [14:46:10]  - logical processor count: 16
+2026-01-04T14:46:14.388Z [14:46:10] Intel Quick Sync Video support: no
+2026-01-04T14:46:14.388Z [14:46:10] hb_scan: path=/media/movies/After the Hunt (2025)/After.The.Hunt.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv, title_index=1
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z Input #0, matroska,webm, from '/media/movies/After the Hunt (2025)/After.The.Hunt.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv':
+2026-01-04T14:46:14.388Z   Metadata:
+2026-01-04T14:46:14.388Z     encoder         : libebml v1.4.5 + libmatroska v1.7.1
+2026-01-04T14:46:14.388Z   Duration: 02:20:21.76, start: 0.000000, bitrate: 151 kb/s
+2026-01-04T14:46:14.388Z   Chapters:
+2026-01-04T14:46:14.388Z     Chapter #0:0: start 0.000000, end 51.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 1
+2026-01-04T14:46:14.388Z     Chapter #0:1: start 51.000000, end 92.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 2
+2026-01-04T14:46:14.388Z     Chapter #0:2: start 92.000000, end 142.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 3
+2026-01-04T14:46:14.388Z     Chapter #0:3: start 142.000000, end 294.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 4
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z     Chapter #0:4: start 294.000000, end 359.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 5
+2026-01-04T14:46:14.388Z     Chapter #0:5: start 359.000000, end 414.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 6
+2026-01-04T14:46:14.388Z     Chapter #0:6: start 414.000000, end 557.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 7
+2026-01-04T14:46:14.388Z     Chapter #0:7: start 557.000000, end 740.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 8
+2026-01-04T14:46:14.388Z     Chapter #0:8: start 740.000000, end 790.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 9
+2026-01-04T14:46:14.388Z     Chapter #0:9: start 790.000000, end 841.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 10
+2026-01-04T14:46:14.388Z     Chapter #0:10: start 841.000000, end 883.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 11
+2026-01-04T14:46:14.388Z     Chapter #0:11: start 883.000000, end 1023.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 12
+2026-01-04T14:46:14.388Z     Chapter #0:12: start 1023.000000, end 1054.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 13
+2026-01-04T14:46:14.388Z     Chapter #0:13: start 1054.000000, 
+2026-01-04T14:46:14.388Z end 1153.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 14
+2026-01-04T14:46:14.388Z     Chapter #0:14: start 1153.000000, end 1177.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 15
+2026-01-04T14:46:14.388Z     Chapter #0:15: start 1177.000000, end 1534.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 16
+2026-01-04T14:46:14.388Z     Chapter #0:16: start 1534.000000, end 1618.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 17
+2026-01-04T14:46:14.388Z     Chapter #0:17: start 1618.000000, end 1837.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 18
+2026-01-04T14:46:14.388Z     Chapter #0:18: start 1837.000000, end 2023.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 19
+2026-01-04T14:46:14.388Z     Chapter #0:19: start 2023.000000, end 2133.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 20
+2026-01-04T14:46:14.388Z     Chapter #0:20: start 2133.000000, end 2282.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 21
+2026-01-04T14:46:14.388Z     Chapter #0:21: start 2282.000000, end 2401.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 22
+2026-01-04T14:46:14.388Z     Chapter #0:22: start 2401.000000, end 2561.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 23
+2026-01-04T14:46:14.388Z     Chapter #0:23: start 2561.000000, end 2617.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 24
+2026-01-04T14:46:14.388Z     Chapter #0:24: start 2617.000000, end 2762.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 25
+2026-01-04T14:46:14.388Z     Chapter #0:25: start 2762.000000, end 2892.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 26
+2026-01-04T14:46:14.388Z     Chapter #0:26: start 2892.000000, end 3054.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 27
+2026-01-04T14:46:14.388Z     Chapter #0:27: start 3054.000000, end 3209.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 28
+2026-01-04T14:46:14.388Z     Chapter #0:28: start 3209.000000, end 3270.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 29
+2026-01-04T14:46:14.388Z     Chapter #0:29: start 3270.000000, end 3339.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z         title           : Scene 30
+2026-01-04T14:46:14.388Z     Chapter #0:30: start 3339.000000, end 3380.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 31
+2026-01-04T14:46:14.388Z     Chapter #0:31: start 3380.000000, end 3424.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 32
+2026-01-04T14:46:14.388Z     Chapter #0:32: start 3424.000000, end 3486.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 33
+2026-01-04T14:46:14.388Z     Chapter #0:33: start 3486.000000, end 3678.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 34
+2026-01-04T14:46:14.388Z     Chapter #0:34: start 3678.000000, end 3732.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 35
+2026-01-04T14:46:14.388Z     Chapter #0:35: start 3732.000000, end 3794.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 36
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z     Chapter #0:36: start 3794.000000, end 3851.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 37
+2026-01-04T14:46:14.388Z     Chapter #0:37: start 3851.000000, end 3943.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 38
+2026-01-04T14:46:14.388Z     Chapter #0:38: start 3943.000000, end 3993.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 39
+2026-01-04T14:46:14.388Z     Chapter #0:39: start 3993.000000, end 4071.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 40
+2026-01-04T14:46:14.388Z     Chapter #0:40: start 4071.000000, end 4354.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 41
+2026-01-04T14:46:14.388Z     Chapter #0:41: start 4354.000000, end 4430.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 42
+2026-01-04T14:46:14.388Z     Chapter #0:42: start 4430.000000, end 4558.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 43
+2026-01-04T14:46:14.388Z     Chapter #0:43: start 4558.000000, end 4690.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 44
+2026-01-04T14:46:14.388Z     Chapter #0:44: start 4690.000000, end 4726.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 45
+2026-01-04T14:46:14.388Z     Chapter #0:45: start 4726.000000, end 4877.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 46
+2026-01-04T14:46:14.388Z     Chapter #0:46: start 4877.000000, end 4986.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 47
+2026-01-04T14:46:14.388Z     Chapter #0:47: start 4986.000000, end 5065.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 48
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z     Chapter #0:48: start 5065.000000, end 5101.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 49
+2026-01-04T14:46:14.388Z     Chapter #0:49: start 5101.000000, end 5135.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 50
+2026-01-04T14:46:14.388Z     Chapter #0:50: start 5135.000000, end 5307.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 51
+2026-01-04T14:46:14.388Z     Chapter #0:51: start 5307.000000, end 5437.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 52
+2026-01-04T14:46:14.388Z     Chapter #0:52: start 5437.000000, end 5635.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 53
+2026-01-04T14:46:14.388Z     Chapter #0:53: start 5635.000000, end 5868.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 54
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z     Chapter #0:54: start 5868.000000, end 5925.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 55
+2026-01-04T14:46:14.388Z     Chapter #0:55: start 5925.000000, end 5976.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 56
+2026-01-04T14:46:14.388Z     Chapter #0:56: start 5976.000000, end 6016.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 57
+2026-01-04T14:46:14.388Z     Chapter #0:57: start 6016.000000, end 6082.000000
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 58
+2026-01-04T14:46:14.388Z     Chapter #0:58: start 6082.000000, end 6200.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 59
+2026-01-04T14:46:14.388Z     Chapter #0:59: start 6200.000000, end 6266.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 60
+2026-01-04T14:46:14.388Z     Chapter #0:60: start 6266.000000, end 6350.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 61
+2026-01-04T14:46:14.388Z     Chapter #0:61: start 6350.000000, end 6517.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 62
+2026-01-04T14:46:14.388Z     Chapter #0:62: start 6517.000000, end 6846.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 63
+2026-01-04T14:46:14.388Z     Chapter #0:63: start 6846.000000, 
+2026-01-04T14:46:14.388Z end 6930.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 64
+2026-01-04T14:46:14.388Z     Chapter #0:64: start 6930.000000, end 7202.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 65
+2026-01-04T14:46:14.388Z     Chapter #0:65: start 7202.000000, end 7291.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 66
+2026-01-04T14:46:14.388Z     Chapter #0:66: start 7291.000000, end 7340.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 67
+2026-01-04T14:46:14.388Z     Chapter #0:67: start 7340.000000, end 7461.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 68
+2026-01-04T14:46:14.388Z     Chapter #0:68: start 7461.000000, end 7518.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 69
+2026-01-04T14:46:14.388Z     Chapter #0:69: start 7518.000000, end 7631.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 70
+2026-01-04T14:46:14.388Z     Chapter #0:70: start 7631.000000, end 8013.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 71
+2026-01-04T14:46:14.388Z     Chapter #0:71: start 8013.000000, end 8048.000000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 72
+2026-01-04T14:46:14.388Z     Chapter #0:72: start 8048.000000, end 8421.760000
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Scene 73
+2026-01-04T14:46:14.388Z   Stream #0:0: Video: h264 (High), yuv420p(tv, bt709, progressive), 1920x1040 [SAR 481:480 DAR 37:20], 24 fps, 24 tbr, 1k tbn (default)
+2026-01-04T14:46:14.388Z   Stream #0:1(tur): Audio: eac3, 48000 Hz, 5.1(side), fltp, 640 kb/s (default)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Turkish
+2026-01-04T14:46:14.388Z   Stream #0:2(eng): Audio: eac3 (Dolby Digital Plus + Dolby Atmos), 48000 Hz, 5.1(side), fltp, 448 kb/s
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : English
+2026-01-04T14:46:14.388Z   Stream #0:3(tur): Subtitle: subrip (srt) (default) (forced)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Turkish (Forced)
+2026-01-04T14:46:14.388Z   Stream #0:4(tur): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Turkish
+2026-01-04T14:46:14.388Z   Stream #0:5(ara): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Arabic (world)
+2026-01-04T14:46:14.388Z   Stream #0:6(cat): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Catalan
+2026-01-04T14:46:14.388Z   Stream #0:7(cze): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Czech
+2026-01-04T14:46:14.388Z   Stream #0:8(dan): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Danish
+2026-01-04T14:46:14.388Z   Stream #0:9(ger): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : German
+2026-01-04T14:46:14.388Z   Stream #0:10(gre): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Greek
+2026-01-04T14:46:14.388Z   Stream #0:11(eng): Subtitle: subrip (srt) (forced)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : English (Forced)
+2026-01-04T14:46:14.388Z   Stream #0:12(eng): Subtitle: subrip (srt) (hearing impaired)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : English (SDH)
+2026-01-04T14:46:14.388Z   Stream #0:13(spa): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Spanish (Latin America)
+2026-01-04T14:46:14.388Z   Stream #0:14(spa): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Spanish (Spain)
+2026-01-04T14:46:14.388Z   Stream #0:15(baq): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Basque (Spain)
+2026-01-04T14:46:14.388Z   Stream #0:16(fin): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Finnish
+2026-01-04T14:46:14.388Z   Stream #0:17(fre): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : French (Canada)
+2026-01-04T14:46:14.388Z   Stream #0:18(fre): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : French (France)
+2026-01-04T14:46:14.388Z   Stream #0:19(glg): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Galician
+2026-01-04T14:46:14.388Z   Stream #0:20(heb): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Hebrew
+2026-01-04T14:46:14.388Z   Stream #0:21(hin): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Hindi
+2026-01-04T14:46:14.388Z   Stream #0:22(hun): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Hungarian
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z   Stream #0:23(ind): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Indonesian
+2026-01-04T14:46:14.388Z   Stream #0:24(ita): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Italian
+2026-01-04T14:46:14.388Z   Stream #0:25(jpn): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Japanese
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z   Stream #0:26(kan): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Kannada (India)
+2026-01-04T14:46:14.388Z   Stream #0:27(kor): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Korean
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z   Stream #0:28(mal): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Malayalam (India)
+2026-01-04T14:46:14.388Z   Stream #0:29(may): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Malay
+2026-01-04T14:46:14.388Z   Stream #0:30(nob): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Norwegian Bokmål
+2026-01-04T14:46:14.388Z   Stream #0:31(dut): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Dutch
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z   Stream #0:32(pol): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Polish
+2026-01-04T14:46:14.388Z   Stream #0:33(por): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Portuguese (Brazil)
+2026-01-04T14:46:14.388Z   Stream #0:34(por): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : 
+2026-01-04T14:46:14.388Z Portuguese (Portugal)
+2026-01-04T14:46:14.388Z   Stream #0:35(rum): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Romanian
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z   Stream #0:36(slo): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Slovak
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z   Stream #0:37(swe): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Swedish
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z   Stream #0:38(tam): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Tamil
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z   Stream #0:39(tel): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Telugu
+2026-01-04T14:46:14.388Z   Stream #0:40(tha): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Thai
+2026-01-04T14:46:14.388Z   Stream #0:41(chi): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Chinese (Simplified)
+2026-01-04T14:46:14.388Z   Stream #0:42(chi): Subtitle: subrip (srt)
+2026-01-04T14:46:14.388Z       Metadata:
+2026-01-04T14:46:14.388Z         title           : Chinese (Traditional)
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z [14:46:10] scan: decoding previews for title 1
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z [14:46:10] scan: audio 0x1: eac3, rate=48000Hz, bitrate=640000 Türkçe (E-AC3, 5.1 ch, 640 kbps)
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z [14:46:10] scan: audio 0x2: eac3, rate=48000Hz, bitrate=448000 English (E-AC3 Dolby Digital Plus + Dolby Atmos, 5.1 ch, 448 kbps)
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z [matroska,webm @ 0x7f5a1c1aee80] File ended prematurely
+2026-01-04T14:46:14.388Z [matroska,webm @ 0x7f5a1c1aee80] File ended prematurely
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z [matroska,webm @ 0x7f5a1c1aee80] File ended prematurely
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z [matroska,webm @ 0x7f5a1c1aee80] File ended prematurely
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z [matroska,webm @ 0x7f5a1c1aee80] File ended prematurely
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z [matroska,webm @ 0x7f5a1c1aee80] File ended prematurely
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z [matroska,webm @ 0x7f5a1c1aee80] File ended prematurely
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z [matroska,webm @ 0x7f5a1c1aee80] File ended prematurely
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z [matroska,webm @ 0x7f5a1c1aee80] File ended prematurely
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z [matroska,webm @ 0x7f5a1c1aee80] File ended prematurely
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z [matroska,webm @ 0x7f5a1c1aee80] File ended prematurely
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z [matroska,webm @ 0x7f5a1c1aee80] File ended prematurely
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-04T14:46:14.388Z [matroska,webm @ 0x7f5a1c1aee80] File ended prematurely
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z [matroska,webm @ 0x7f5a1c1aee80] File ended prematurely
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z [matroska,webm @ 0x7f5a1c1aee80] File ended prematurely
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z [matroska,webm @ 0x7f5a1c1aee80] File ended prematurely
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z [matroska,webm @ 0x7f5a1c1aee80] File ended prematurely
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z [matroska,webm @ 0x7f5a1c1aee80] File ended prematurely
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z [matroska,webm @ 0x7f5a1c1aee80] File ended prematurely
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z [matroska,webm @ 0x7f5a1c1aee80] File ended prematurely
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z [matroska,webm @ 0x7f5a1c1aee80] File ended prematurely
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z [matroska,webm @ 0x7f5a1c1aee80] File ended prematurely
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z [matroska,webm @ 0x7f5a1c1aee80] File ended prematurely
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z [matroska,webm @ 0x7f5a1c1aee80] File ended prematurely
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T14:46:14.388Z [matroska,webm @ 0x7f5a1c1aee80] File ended prematurely
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z [matroska,webm @ 0x7f5a1c1aee80] File ended prematurely
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z [matroska,webm @ 0x7f5a1c1aee80] File ended prematurely
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z [14:46:11] using bitstream PAR 481:480
+2026-01-04T14:46:14.388Z [14:46:11] scan: 10 previews, 1920x1040, 24.000 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 481:480, color profile: 1-1-1, chroma location: left
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z [14:46:11] libhb: scan thread found 1 valid title(s)
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z + title 1:
+2026-01-04T14:46:14.388Z   + stream: /media/movies/After the Hunt (2025)/After.The.Hunt.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv
+2026-01-04T14:46:14.388Z   + duration: 02:20:21
+2026-01-04T14:46:14.388Z   + size: 1920x1040, pixel aspect: 481/480, display aspect: 1.85, 24.000 fps
+2026-01-04T14:46:14.388Z   + autocrop: 0/0/0/0
+2026-01-04T14:46:14.388Z   + chapters:
+2026-01-04T14:46:14.388Z     + 1: duration 00:00:51
+2026-01-04T14:46:14.388Z     + 2: duration 00:00:41
+2026-01-04T14:46:14.388Z     + 3: duration 00:00:50
+2026-01-04T14:46:14.388Z     + 4: duration 00:02:32
+2026-01-04T14:46:14.388Z     + 5: duration 00:01:05
+2026-01-04T14:46:14.388Z     + 6: duration 00:00:55
+2026-01-04T14:46:14.388Z     + 7: duration 00:02:23
+2026-01-04T14:46:14.388Z     + 8: duration 00:03:03
+2026-01-04T14:46:14.388Z     + 9: duration 00:00:50
+2026-01-04T14:46:14.388Z     + 10: duration 00:00:51
+2026-01-04T14:46:14.388Z     + 11: duration 00:00:42
+2026-01-04T14:46:14.388Z     + 12: duration 00:02:20
+2026-01-04T14:46:14.388Z     + 13: duration 00:00:31
+2026-01-04T14:46:14.388Z     + 14: duration 00:01:39
+2026-01-04T14:46:14.388Z     + 15: duration 00:00:24
+2026-01-04T14:46:14.388Z     + 16: duration 00:05:57
+2026-01-04T14:46:14.388Z     + 17: duration 00:01:24
+2026-01-04T14:46:14.388Z     + 18: duration 00:03:39
+2026-01-04T14:46:14.388Z     + 19: duration 00:03:06
+2026-01-04T14:46:14.388Z     + 20: duration 00:01:50
+2026-01-04T14:46:14.388Z     + 21: duration 00:02:29
+2026-01-04T14:46:14.388Z     + 22: duration 00:01:59
+2026-01-04T14:46:14.388Z     + 23: duration 00:02:40
+2026-01-04T14:46:14.388Z     + 24: duration 00:00:56
+2026-01-04T14:46:14.388Z     + 25: duration 00:02:25
+2026-01-04T14:46:14.388Z     + 26: duration 00:02:10
+2026-01-04T14:46:14.388Z     + 27: duration 00:02:42
+2026-01-04T14:46:14.388Z     + 28: duration 00:02:35
+2026-01-04T14:46:14.388Z     + 29: duration 00:01:01
+2026-01-04T14:46:14.388Z     + 30: duration 00:01:09
+2026-01-04T14:46:14.388Z     + 31: duration 00:00:41
+2026-01-04T14:46:14.388Z     + 32: duration 00:00:44
+2026-01-04T14:46:14.388Z     + 33: duration 00:01:02
+2026-01-04T14:46:14.388Z     + 34: duration 00:03:12
+2026-01-04T14:46:14.388Z     + 35: duration 00:00:54
+2026-01-04T14:46:14.388Z     + 36: duration 00:01:02
+2026-01-04T14:46:14.388Z     + 37: duration 00:00:57
+2026-01-04T14:46:14.388Z     + 38: duration 00:01:32
+2026-01-04T14:46:14.388Z     + 39: duration 00:00:50
+2026-01-04T14:46:14.388Z     + 40: duration 00:01:18
+2026-01-04T14:46:14.388Z     + 41: duration 00:04:43
+2026-01-04T14:46:14.388Z     + 42: duration 00:01:16
+2026-01-04T14:46:14.388Z     + 43: duration 00:02:08
+2026-01-04T14:46:14.388Z     + 44: duration 00:02:12
+2026-01-04T14:46:14.388Z     + 45: duration 00:00:36
+2026-01-04T14:46:14.388Z     + 46: duration 00:02:31
+2026-01-04T14:46:14.388Z     + 47: duration 00:01:49
+2026-01-04T14:46:14.388Z     + 48: duration 00:01:19
+2026-01-04T14:46:14.388Z     + 49: duration 00:00:36
+2026-01-04T14:46:14.388Z     + 50: duration 00:00:34
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z     + 51: duration 00:02:52
+2026-01-04T14:46:14.388Z     + 52: duration 00:02:10
+2026-01-04T14:46:14.388Z     + 53: duration 00:03:18
+2026-01-04T14:46:14.388Z     + 54: duration 00:03:53
+2026-01-04T14:46:14.388Z     + 55: duration 00:00:57
+2026-01-04T14:46:14.388Z     + 56: duration 00:00:51
+2026-01-04T14:46:14.388Z     + 57: duration 00:00:40
+2026-01-04T14:46:14.388Z     + 58: duration 00:01:06
+2026-01-04T14:46:14.388Z     + 59: duration 00:01:58
+2026-01-04T14:46:14.388Z     + 60: duration 00:01:06
+2026-01-04T14:46:14.388Z     + 61: duration 00:01:24
+2026-01-04T14:46:14.388Z     + 62: duration 00:02:47
+2026-01-04T14:46:14.388Z     + 63: duration 00:05:29
+2026-01-04T14:46:14.388Z     + 64: duration 00:01:24
+2026-01-04T14:46:14.388Z     + 65: duration 00:04:32
+2026-01-04T14:46:14.388Z     + 66: duration 00:01:29
+2026-01-04T14:46:14.388Z     + 67: duration 00:00:49
+2026-01-04T14:46:14.388Z     + 68: duration 00:02:01
+2026-01-04T14:46:14.388Z     + 69: duration 00:00:57
+2026-01-04T14:46:14.388Z     + 70: duration 00:01:53
+2026-01-04T14:46:14.388Z     + 71: duration 00:06:22
+2026-01-04T14:46:14.388Z     + 72: duration 00:00:35
+2026-01-04T14:46:14.388Z     + 73: duration 00:06:14
+2026-01-04T14:46:14.388Z   + audio tracks:
+2026-01-04T14:46:14.388Z     + 1, Türkçe (E-AC3, 5.1 ch, 640 kbps) (iso639-2: tur)
+2026-01-04T14:46:14.388Z     + 2, English (E-AC3 Dolby Digital Plus + Dolby Atmos, 5.1 ch, 448 kbps) (iso639-2: eng)
+2026-01-04T14:46:14.388Z   + subtitle tracks:
+2026-01-04T14:46:14.388Z     + 1, Türkçe (UTF-8)
+2026-01-04T14:46:14.388Z     + 2, Türkçe (UTF-8)
+2026-01-04T14:46:14.388Z     + 3, العربية (UTF-8)
+2026-01-04T14:46:14.388Z     + 4, català (UTF-8)
+2026-01-04T14:46:14.388Z     + 5, čeština (UTF-8)
+2026-01-04T14:46:14.388Z     + 6, dansk (UTF-8)
+2026-01-04T14:46:14.388Z     + 7, Deutsch (UTF-8)
+2026-01-04T14:46:14.388Z     + 8, Ελληνικά (UTF-8)
+2026-01-04T14:46:14.388Z     + 9, English (UTF-8)
+2026-01-04T14:46:14.388Z     + 10, English (UTF-8)
+2026-01-04T14:46:14.388Z     + 11, español (UTF-8)
+2026-01-04T14:46:14.388Z     + 12, español (UTF-8)
+2026-01-04T14:46:14.388Z     + 13, euskara (UTF-8)
+2026-01-04T14:46:14.388Z     + 14, suomi (UTF-8)
+2026-01-04T14:46:14.388Z     + 15, Francais (UTF-8)
+2026-01-04T14:46:14.388Z     + 16, Francais (UTF-8)
+2026-01-04T14:46:14.388Z     + 17, galego (UTF-8)
+2026-01-04T14:46:14.388Z     + 18, עברית (UTF-8)
+2026-01-04T14:46:14.388Z     + 19, हिंदी (UTF-8)
+2026-01-04T14:46:14.388Z     + 20, magyar (UTF-8)
+2026-01-04T14:46:14.388Z     + 21, Bahasa Indonesia (UTF-8)
+2026-01-04T14:46:14.388Z     + 22, italiano (UTF-8)
+2026-01-04T14:46:14.388Z     + 23, 日本語 (UTF-8)
+2026-01-04T14:46:14.388Z     + 24, Kannada (UTF-8)
+2026-01-04T14:46:14.388Z     + 25, 한국어 (UTF-8)
+2026-01-04T14:46:14.388Z     + 26, മലയാളം (UTF-8)
+2026-01-04T14:46:14.388Z     + 27, Bahasa Melayu (UTF-8)
+2026-01-04T14:46:14.388Z     + 28, norsk bokmål (UTF-8)
+2026-01-04T14:46:14.388Z     + 29, Nederlands (UTF-8)
+2026-01-04T14:46:14.388Z     + 30, polski (UTF-8)
+2026-01-04T14:46:14.388Z     + 31, Portugues (UTF-8)
+2026-01-04T14:46:14.388Z     + 32, Portugues (UTF-8)
+2026-01-04T14:46:14.388Z     + 33, română (UTF-8)
+2026-01-04T14:46:14.388Z     + 34, slovenčina (UTF-8)
+2026-01-04T14:46:14.388Z     + 35, svenska (UTF-8)
+2026-01-04T14:46:14.388Z     + 36, தமிழ் (UTF-8)
+2026-01-04T14:46:14.388Z     + 37, తెలుగు (UTF-8)
+2026-01-04T14:46:14.388Z     + 38, ไทย (UTF-8)
+2026-01-04T14:46:14.388Z     + 39, 中文 (UTF-8)
+2026-01-04T14:46:14.388Z     + 40, 中文 (UTF-8)
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z HandBrake has exited.
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z 
+2026-01-04T14:46:14.388Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:[Step W06] [C1] Worker [-success-]
+2026-01-04T14:46:14.389Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:Worker success during processing
+2026-01-04T14:46:14.389Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:Updating healthcheck stats
+2026-01-04T14:46:14.389Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:[Step W10] Worker processing end
+2026-01-04T14:46:14.389Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:Subworker exited null
+2026-01-04T14:46:14.390Z 5Kj71WX1Y6:Node[MyInternalNode]:Worker[kooky-kudu]:Successfully updated server with verdict: healthcheckSuccess

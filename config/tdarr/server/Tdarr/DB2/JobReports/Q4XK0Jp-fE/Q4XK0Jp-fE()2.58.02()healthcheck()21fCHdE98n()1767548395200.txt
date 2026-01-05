@@ -1,0 +1,432 @@
+2026-01-04T11:39:57.520Z 21fCHdE98n:[Step S01] [2.58.02] Server relay initialising job
+2026-01-04T11:39:57.521Z 21fCHdE98n:Server: linux_x64_docker_true
+2026-01-04T11:39:57.521Z 21fCHdE98n:Server relay adding file to staged files
+2026-01-04T11:39:57.522Z 21fCHdE98n:Server relay sending job to Node relay: MyInternalNode
+2026-01-04T11:39:57.522Z 21fCHdE98n:Node[MyInternalNode]:[Step N01] [2.58.02] Node relay received job
+2026-01-04T11:39:57.522Z 21fCHdE98n:Node[MyInternalNode]:{"nodeName":"MyInternalNode","serverURL":"http://0.0.0.0:8266","serverIP":"0.0.0.0","serverPort":"8266","handbrakePath":"","ffmpegPath":"","mkvpropeditPath":"","pathTranslators":[{"server":"","node":""}],"nodeType":"mapped","unmappedNodeCache":"/app/unmappedNodeCache","logLevel":"INFO","priority":-1,"platform_arch_isdocker":"linux_x64_docker_true","processPid":664,"cronPluginUpdate":"","apiKey":"","maxLogSizeMB":"10","pollInterval":2000,"startPaused":false,"nodeID":"-2RaUzM4Y","seededWorkerLimits":{},"nodeRegisteredCount":1}
+2026-01-04T11:39:57.522Z 21fCHdE98n:Node[MyInternalNode]:Node relay sending job to worker:bulky-boar
+2026-01-04T11:39:57.523Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:[Step W01] Received file, original: "/media/tv/Percy Jackson and the Olympians/Season 2/Percy.Jackson.and.the.Olympians.S02E02.1080p.DSNP.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv"
+2026-01-04T11:39:57.523Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:{"workerType":"healthcheckcpu"}
+2026-01-04T11:39:57.523Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:{"ffmpegPath":"tdarr-ffmpeg"}
+2026-01-04T11:39:57.524Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:{"handbrakePath":"HandBrakeCLI"}
+2026-01-04T11:39:57.524Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:{"mkvpropeditPath":"mkvpropedit"}
+2026-01-04T11:39:57.524Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:{"gpuSelect":"-"}
+2026-01-04T11:39:57.524Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:{"allowGpuDoCpu":false}
+2026-01-04T11:39:57.525Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:{"thoroughHealthCheckCpuExtraInputArgs":""}
+2026-01-04T11:39:57.525Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:{"thoroughHealthCheckGpuExtraInputArgs":""}
+2026-01-04T11:39:57.525Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:{"thoroughHealthCheckCpuExtraArgs":""}
+2026-01-04T11:39:57.525Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:{"thoroughHealthCheckGpuExtraArgs":""}
+2026-01-04T11:39:57.526Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:{"logFullCliOutput":false}
+2026-01-04T11:39:57.526Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:{"runMkvpropedit":false}
+2026-01-04T11:39:57.526Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:{"dontCleanWorkerCacheFolder":false}
+2026-01-04T11:39:57.527Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:Path translating objects
+2026-01-04T11:39:57.527Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:Running path translator tests
+2026-01-04T11:39:57.527Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:Path translator tests passed
+2026-01-04T11:39:57.527Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:{"librarySettings":{"_id":"KU0woozLb","priority":1,"name":"TV Shows","folder":"/media/tv","foldersToIgnore":"","foldersToIgnoreCaseInsensitive":false,"folderWatchScanInterval":30,"scannerThreadCount":2,"cache":"/tmp","output":".","folderToFolderConversion":false,"folderToFolderConversionDeleteSource":false,"folderToFolderRecordHistory":true,"copyIfConditionsMet":false,"container":".mkv","containerFilter":"mkv,mp4,mov,m4v,mpg,mpeg,avi,flv,webm,wmv,vob,evo,iso,m2ts,ts","createdAt":1675837380368,"folderWatching":false,"useFsEvents":false,"scheduledScanFindNew":false,"processLibrary":true,"processTranscodes":true,"processHealthChecks":true,"scanOnStart":false,"exifToolScan":true,"mediaInfoScan":true,"ffprobeShowData":false,"isDirectoryLibrary":false,"closedCaptionScan":false,"scanButtons":true,"scanFound":"Files found:0","navItemSelected":"navSourceFolder","pluginIDs":[{"_id":"plugin1","id":"Tdarr_Plugin_MC93_MigzImageRemoval","checked":true,"source":"Community","priority":0,"InputsDB":{}},{"_id":"plugin2","id":"Tdarr_Plugin_lmg1_Reorder_Streams","checked":true,"source":"Community","priority":1,"InputsDB":{}},{"_id":"plugin4","id":"Tdarr_Plugin_MC93_Migz1FFMPEG","checked":true,"source":"Community","priority":2,"InputsDB":{}},{"_id":"plugin5","id":"Tdarr_Plugin_a9he_New_file_size_check","checked":true,"source":"Community","priority":3,"InputsDB":{}}],"pluginCommunity":true,"handbrake":true,"ffmpeg":false,"handbrakescan":true,"ffmpegscan":false,"preset":"-Z \"Very Fast 1080p30\"","decisionMaker":{"settingsPlugin":true,"settingsFlows":false,"settingsVideo":false,"videoExcludeSwitch":true,"video_codec_names_exclude":[{"codec":"hevc","checked":false},{"codec":"h264","checked":true}],"video_size_range_include":{"min":0,"max":100000},"video_height_range_include":{"min":0,"max":3000},"video_width_range_include":{"min":0,"max":4000},"settingsAudio":false,"audioExcludeSwitch":true,"audio_codec_names_exclude":[{"codec":"mp3","checked":true},{"codec":"aac","checked":false}],"audio_size_range_include":{"min":0,"max":10}},"schedule":[{"_id":"Sun:00-01","checked":true},{"_id":"Sun:01-02","checked":true},{"_id":"Sun:02-03","checked":true},{"_id":"Sun:03-04","checked":true},{"_id":"Sun:04-05","checked":true},{"_id":"Sun:05-06","checked":true},{"_id":"Sun:06-07","checked":true},{"_id":"Sun:07-08","checked":true},{"_id":"Sun:08-09","checked":true},{"_id":"Sun:09-10","checked":true},{"_id":"Sun:10-11","checked":true},{"_id":"Sun:11-12","checked":true},{"_id":"Sun:12-13","checked":true},{"_id":"Sun:13-14","checked":true},{"_id":"Sun:14-15","checked":true},{"_id":"Sun:15-16","checked":true},{"_id":"Sun:16-17","checked":true},{"_id":"Sun:17-18","checked":true},{"_id":"Sun:18-19","checked":true},{"_id":"Sun:19-20","checked":true},{"_id":"Sun:20-21","checked":true},{"_id":"Sun:21-22","checked":true},{"_id":"Sun:22-23","checked":true},{"_id":"Sun:23-00","checked":true},{"_id":"Mon:00-01","checked":true},{"_id":"Mon:01-02","checked":true},{"_id":"Mon:02-03","checked":true},{"_id":"Mon:03-04","checked":true},{"_id":"Mon:04-05","checked":true},{"_id":"Mon:05-06","checked":true},{"_id":"Mon:06-07","checked":true},{"_id":"Mon:07-08","checked":true},{"_id":"Mon:08-09","checked":true},{"_id":"Mon:09-10","checked":true},{"_id":"Mon:10-11","checked":true},{"_id":"Mon:11-12","checked":true},{"_id":"Mon:12-13","checked":true},{"_id":"Mon:13-14","checked":true},{"_id":"Mon:14-15","checked":true},{"_id":"Mon:15-16","checked":true},{"_id":"Mon:16-17","checked":true},{"_id":"Mon:17-18","checked":true},{"_id":"Mon:18-19","checked":true},{"_id":"Mon:19-20","checked":true},{"_id":"Mon:20-21","checked":true},{"_id":"Mon:21-22","checked":true},{"_id":"Mon:22-23","checked":true},{"_id":"Mon:23-00","checked":true},{"_id":"Tue:00-01","checked":true},{"_id":"Tue:01-02","checked":true},{"_id":"Tue:02-03","checked":true},{"_id":"Tue:03-04","checked":true},{"_id":"Tue:04-05","checked":true},{"_id":"Tue:05-06","checked":true},{"_id":"Tue:06-07","checked":true},{"_id":"Tue:07-08","checked":true},{"_id":"Tue:08-09","checked":true},{"_id":"Tue:09-10","checked":true},{"_id":"Tue:10-11","checked":true},{"_id":"Tue:11-12","checked":true},{"_id":"Tue:12-13","checked":true},{"_id":"Tue:13-14","checked":true},{"_id":"Tue:14-15","checked":true},{"_id":"Tue:15-16","checked":true},{"_id":"Tue:16-17","checked":true},{"_id":"Tue:17-18","checked":true},{"_id":"Tue:18-19","checked":true},{"_id":"Tue:19-20","checked":true},{"_id":"Tue:20-21","checked":true},{"_id":"Tue:21-22","checked":true},{"_id":"Tue:22-23","checked":true},{"_id":"Tue:23-00","checked":true},{"_id":"Wed:00-01","checked":true},{"_id":"Wed:01-02","checked":true},{"_id":"Wed:02-03","checked":true},{"_id":"Wed:03-04","checked":true},{"_id":"Wed:04-05","checked":true},{"_id":"Wed:05-06","checked":true},{"_id":"Wed:06-07","checked":true},{"_id":"Wed:07-08","checked":true},{"_id":"Wed:08-09","checked":true},{"_id":"Wed:09-10","checked":true},{"_id":"Wed:10-11","checked":true},{"_id":"Wed:11-12","checked":true},{"_id":"Wed:12-13","checked":true},{"_id":"Wed:13-14","checked":true},{"_id":"Wed:14-15","checked":true},{"_id":"Wed:15-16","checked":true},{"_id":"Wed:16-17","checked":true},{"_id":"Wed:17-18","checked":true},{"_id":"Wed:18-19","checked":true},{"_id":"Wed:19-20","checked":true},{"_id":"Wed:20-21","checked":true},{"_id":"Wed:21-22","checked":true},{"_id":"Wed:22-23","checked":true},{"_id":"Wed:23-00","checked":true},{"_id":"Thur:00-01","checked":true},{"_id":"Thur:01-02","checked":true},{"_id":"Thur:02-03","checked":true},{"_id":"Thur:03-04","checked":true},{"_id":"Thur:04-05","checked":true},{"_id":"Thur:05-06","checked":true},{"_id":"Thur:06-07","checked":true},{"_id":"Thur:07-08","checked":true},{"_id":"Thur:08-09","checked":true},{"_id":"Thur:09-10","checked":true},{"_id":"Thur:10-11","checked":true},{"_id":"Thur:11-12","checked":true},{"_id":"Thur:12-13","checked":true},{"_id":"Thur:13-14","checked":true},{"_id":"Thur:14-15","checked":true},{"_id":"Thur:15-16","checked":true},{"_id":"Thur:16-17","checked":true},{"_id":"Thur:17-18","checked":true},{"_id":"Thur:18-19","checked":true},{"_id":"Thur:19-20","checked":true},{"_id":"Thur:20-21","checked":true},{"_id":"Thur:21-22","checked":true},{"_id":"Thur:22-23","checked":true},{"_id":"Thur:23-00","checked":true},{"_id":"Fri:00-01","checked":true},{"_id":"Fri:01-02","checked":true},{"_id":"Fri:02-03","checked":true},{"_id":"Fri:03-04","checked":true},{"_id":"Fri:04-05","checked":true},{"_id":"Fri:05-06","checked":true},{"_id":"Fri:06-07","checked":true},{"_id":"Fri:07-08","checked":true},{"_id":"Fri:08-09","checked":true},{"_id":"Fri:09-10","checked":true},{"_id":"Fri:10-11","checked":true},{"_id":"Fri:11-12","checked":true},{"_id":"Fri:12-13","checked":true},{"_id":"Fri:13-14","checked":true},{"_id":"Fri:14-15","checked":true},{"_id":"Fri:15-16","checked":true},{"_id":"Fri:16-17","checked":true},{"_id":"Fri:17-18","checked":true},{"_id":"Fri:18-19","checked":true},{"_id":"Fri:19-20","checked":true},{"_id":"Fri:20-21","checked":true},{"_id":"Fri:21-22","checked":true},{"_id":"Fri:22-23","checked":true},{"_id":"Fri:23-00","checked":true},{"_id":"Sat:00-01","checked":true},{"_id":"Sat:01-02","checked":true},{"_id":"Sat:02-03","checked":true},{"_id":"Sat:03-04","checked":true},{"_id":"Sat:04-05","checked":true},{"_id":"Sat:05-06","checked":true},{"_id":"Sat:06-07","checked":true},{"_id":"Sat:07-08","checked":true},{"_id":"Sat:08-09","checked":true},{"_id":"Sat:09-10","checked":true},{"_id":"Sat:10-11","checked":true},{"_id":"Sat:11-12","checked":true},{"_id":"Sat:12-13","checked":true},{"_id":"Sat:13-14","checked":true},{"_id":"Sat:14-15","checked":true},{"_id":"Sat:15-16","checked":true},{"_id":"Sat:16-17","checked":true},{"_id":"Sat:17-18","checked":true},{"_id":"Sat:18-19","checked":true},{"_id":"Sat:19-20","checked":true},{"_id":"Sat:20-21","checked":true},{"_id":"Sat:21-22","checked":true},{"_id":"Sat:22-23","checked":true},{"_id":"Sat:23-00","checked":true}],"totalHealthCheckCount":373,"totalTranscodeCount":0,"sizeDiff":0,"holdNewFiles":false,"holdFor":3600,"holdForDisplayUnit":"hours","pluginStackOverview":true,"filterResolutionsSkip":"","filterCodecsSkip":"","filterContainersSkip":"","processPluginsSequentially":true}}
+2026-01-04T11:39:57.528Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:Scanning original library file
+2026-01-04T11:39:57.528Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:{
+2026-01-04T11:39:57.528Z   "exifToolScan": true,
+2026-01-04T11:39:57.528Z   "mediaInfoScan": false,
+2026-01-04T11:39:57.528Z   "closedCaptionScan": false
+2026-01-04T11:39:57.528Z }
+2026-01-04T11:39:57.529Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:Node scanning file
+2026-01-04T11:39:58.545Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:Scan complete
+2026-01-04T11:39:58.546Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:Original file scanned
+2026-01-04T11:39:58.546Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:Source file to work on determined:"/media/tv/Percy Jackson and the Olympians/Season 2/Percy.Jackson.and.the.Olympians.S02E02.1080p.DSNP.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv"
+2026-01-04T11:39:58.546Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:[Step W02] [C1] Running pre-process file
+2026-01-04T11:39:58.546Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:Checking files can be accessed
+2026-01-04T11:39:58.547Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:mapped node, file is original, no need to download
+2026-01-04T11:39:58.547Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:Relevant paths can be accessed
+2026-01-04T11:39:58.547Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:Source file: "/media/tv/Percy Jackson and the Olympians/Season 2/Percy.Jackson.and.the.Olympians.S02E02.1080p.DSNP.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv"
+2026-01-04T11:39:58.547Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:[Step W03] [C1] Analysing file - running plugins
+2026-01-04T11:39:58.548Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:Handbrake healthcheck task, no need to scan for extra file details
+2026-01-04T11:39:58.548Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:Updating Node relay: Processing
+2026-01-04T11:39:58.548Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:[1/2] Checking file frame count
+2026-01-04T11:39:58.548Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:[2/2] Frame count 0
+2026-01-04T11:39:58.549Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:Determining healthcheck command
+2026-01-04T11:39:58.549Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:[Step W04] [C1] Preparing command
+2026-01-04T11:39:58.549Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:Cache file stem: "/tmp/tdarr-workDir2-21fCHdE98n"
+2026-01-04T11:39:58.549Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:Cache file path: "/tmp/tdarr-workDir2-21fCHdE98n/Percy.Jackson.and.the.Olympians.S02E02.1080p.DSNP.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG-TdarrCacheFile-UQMToDuH7a.mp4"
+2026-01-04T11:39:58.550Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:Create transcode args
+2026-01-04T11:39:58.550Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:Args:  -i "/media/tv/Percy Jackson and the Olympians/Season 2/Percy.Jackson.and.the.Olympians.S02E02.1080p.DSNP.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv" -o /tmp/tdarr-workDir2-21fCHdE98n/Percy.Jackson.and.the.Olympians.S02E02.1080p.DSNP.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG-TdarrCacheFile-UQMToDuH7a.mp4 --scan
+2026-01-04T11:39:58.550Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:Getting source file size
+2026-01-04T11:39:58.550Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:Source file size: 1.8943489100784063
+2026-01-04T11:39:58.551Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:Performing safety check on worker config to see if old transcode args/container match new ones
+2026-01-04T11:39:58.551Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:Safety check complete, all good
+2026-01-04T11:39:58.551Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:[Step W05] [C1] Launching subworker
+2026-01-04T11:39:58.551Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:Preparing to launch subworker
+2026-01-04T11:39:58.552Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:Subworker launched
+2026-01-04T11:39:58.552Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:[1/3] Sending command to subworker
+2026-01-04T11:39:58.552Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:[2/3] HandBrakeCLI -i "/media/tv/Percy Jackson and the Olympians/Season 2/Percy.Jackson.and.the.Olympians.S02E02.1080p.DSNP.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv" -o /tmp/tdarr-workDir2-21fCHdE98n/Percy.Jackson.and.the.Olympians.S02E02.1080p.DSNP.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG-TdarrCacheFile-UQMToDuH7a.mp4 --scan
+2026-01-04T11:39:58.552Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:[3/3] Command sent
+2026-01-04T11:39:58.552Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:To see live CLI output, enable 'Log full FFmpeg/HandBrake output' in the staging section on the Tdarr tab before the job starts. Note this could increase the job report size substantially.
+2026-01-04T11:39:58.553Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:Subworker:Online
+2026-01-04T11:39:58.553Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:Subworker:Receiving transcode settings
+2026-01-04T11:39:58.553Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:Subworker:Running CLI
+2026-01-04T11:40:03.650Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:Subworker:a.Thread closed, code: 0
+2026-01-04T11:40:03.651Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:Subworker exit approved, killing subworker
+2026-01-04T11:40:03.652Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:Subworker killed
+2026-01-04T11:40:03.652Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:b.Thread closed, code: 0
+2026-01-04T11:40:03.653Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:CLI code: 0
+2026-01-04T11:40:03.653Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:Last 200 lines of CLI log:
+2026-01-04T11:40:03.654Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:[11:39:55] Compile-time hardening features are enabled
+2026-01-04T11:40:03.654Z 
+2026-01-04T11:40:03.654Z [11:39:55] nvenc: version 12.2 is available
+2026-01-04T11:40:03.654Z [11:39:55] nvdec: is available
+2026-01-04T11:40:03.654Z 
+2026-01-04T11:40:03.654Z [11:39:56] CUDA Version: 6.1
+2026-01-04T11:40:03.654Z 
+2026-01-04T11:40:03.654Z [11:39:56] qsv: not available on this system
+2026-01-04T11:40:03.654Z 
+2026-01-04T11:40:03.654Z [11:39:56] hb_init: starting libhb thread
+2026-01-04T11:40:03.654Z 
+2026-01-04T11:40:03.654Z [11:39:56] thread 7fc89dfff6c0 started ("libhb")
+2026-01-04T11:40:03.654Z HandBrake 1.10.2 (2025102400) - Linux x86_64 - https://handbrake.fr
+2026-01-04T11:40:03.654Z 16 CPUs detected
+2026-01-04T11:40:03.654Z 
+2026-01-04T11:40:03.654Z Opening /media/tv/Percy Jackson and the Olympians/Season 2/Percy.Jackson.and.the.Olympians.S02E02.1080p.DSNP.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv...
+2026-01-04T11:40:03.654Z 
+2026-01-04T11:40:03.654Z [11:39:56] CPU: Common KVM processor
+2026-01-04T11:40:03.654Z [11:39:56]  - logical processor count: 16
+2026-01-04T11:40:03.654Z [11:39:56] Intel Quick Sync Video support: no
+2026-01-04T11:40:03.654Z [11:39:56] hb_scan: path=/media/tv/Percy Jackson and the Olympians/Season 2/Percy.Jackson.and.the.Olympians.S02E02.1080p.DSNP.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv, title_index=1
+2026-01-04T11:40:03.654Z 
+2026-01-04T11:40:03.654Z Input #0, matroska,webm, from '/media/tv/Percy Jackson and the Olympians/Season 2/Percy.Jackson.and.the.Olympians.S02E02.1080p.DSNP.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv':
+2026-01-04T11:40:03.654Z   Metadata:
+2026-01-04T11:40:03.654Z     encoder         : libebml v1.4.5 + libmatroska v1.7.1
+2026-01-04T11:40:03.654Z   Duration: 00:44:54.27, start: 0.000000, bitrate: 6039 kb/s
+2026-01-04T11:40:03.654Z   Chapters:
+2026-01-04T11:40:03.654Z     Chapter #0:0: start 1.001000, end 56.515000
+2026-01-04T11:40:03.654Z       Metadata:
+2026-01-04T11:40:03.654Z         title           : Recap
+2026-01-04T11:40:03.654Z     Chapter #0:1: start 56.515000, end 2611.692000
+2026-01-04T11:40:03.654Z       Metadata:
+2026-01-04T11:40:03.654Z         title           : Scene 1
+2026-01-04T11:40:03.654Z     Chapter #0:2: start 2611.692000, end 2694.272000
+2026-01-04T11:40:03.654Z       Metadata:
+2026-01-04T11:40:03.654Z         title           : Credits
+2026-01-04T11:40:03.654Z   Stream #0:0
+2026-01-04T11:40:03.654Z : Video: h264 (High), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 24 fps, 24 tbr, 1k tbn (default)
+2026-01-04T11:40:03.654Z       Metadata:
+2026-01-04T11:40:03.654Z         BPS             : 5011003
+2026-01-04T11:40:03.654Z         DURATION        : 00:44:54.209000000
+2026-01-04T11:40:03.654Z         NUMBER_OF_FRAMES: 64661
+2026-01-04T11:40:03.654Z         NUMBER_OF_BYTES : 1687586423
+2026-01-04T11:40:03.654Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:40:03.654Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:40:03.654Z   Stream #0:1(tur): Audio: eac3, 48000 Hz, 5.1(side), fltp, 256 kb/s (default)
+2026-01-04T11:40:03.654Z       Metadata:
+2026-01-04T11:40:03.654Z         title           : Turkish
+2026-01-04T11:40:03.654Z         BPS             : 256000
+2026-01-04T11:40:03.654Z         DURATION        : 00:44:54.272000000
+2026-01-04T11:40:03.654Z         NUMBER_OF_FRAMES: 84196
+2026-01-04T11:40:03.654Z         NUMBER_OF_BYTES : 86216704
+2026-01-04T11:40:03.654Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:40:03.654Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:40:03.654Z   Stream #0:2(eng): Audio: eac3 (Dolby Digital Plus + Dolby Atmos), 48000 Hz, 5.1(side), fltp, 768 kb/s
+2026-01-04T11:40:03.654Z       Metadata:
+2026-01-04T11:40:03.654Z         title           : English
+2026-01-04T11:40:03.654Z         BPS             : 768000
+2026-01-04T11:40:03.654Z         DURATION        : 00:44:54.272000000
+2026-01-04T11:40:03.654Z         NUMBER_OF_FRAMES: 84196
+2026-01-04T11:40:03.654Z         NUMBER_OF_BYTES : 258650112
+2026-01-04T11:40:03.654Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:40:03.654Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:40:03.654Z   Stream #0:3(tur): Subtitle: subrip (srt) (default) (forced)
+2026-01-04T11:40:03.654Z       Metadata:
+2026-01-04T11:40:03.654Z         title           : Turkish (Forced)
+2026-01-04T11:40:03.654Z         BPS             : 0
+2026-01-04T11:40:03.654Z         DURATION        : 00:39:44.625000000
+2026-01-04T11:40:03.654Z         NUMBER_OF_FRAMES: 5
+2026-01-04T11:40:03.654Z         NUMBER_OF_BYTES : 160
+2026-01-04T11:40:03.654Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:40:03.654Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:40:03.654Z   Stream #0:4(tur): Subtitle: subrip (srt)
+2026-01-04T11:40:03.654Z       Metadata:
+2026-01-04T11:40:03.654Z         title           : Turkish
+2026-01-04T11:40:03.654Z         BPS             : 46
+2026-01-04T11:40:03.654Z         DURATION        : 00:44:39.833000000
+2026-01-04T11:40:03.654Z         NUMBER_OF_FRAMES: 481
+2026-01-04T11:40:03.654Z         NUMBER_OF_BYTES : 15646
+2026-01-04T11:40:03.654Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:40:03.654Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:40:03.654Z   Stream #0:5(cze): Subtitle: subrip (srt)
+2026-01-04T11:40:03.654Z       Metadata:
+2026-01-04T11:40:03.654Z         title           : Czech
+2026-01-04T11:40:03.654Z         BPS             : 50
+2026-01-04T11:40:03.654Z         DURATION        : 00:44:51.250000000
+2026-01-04T11:40:03.654Z         NUMBER_OF_FRAMES: 491
+2026-01-04T11:40:03.654Z 
+2026-01-04T11:40:03.654Z         NUMBER_OF_BYTES : 16919
+2026-01-04T11:40:03.654Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:40:03.654Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:40:03.654Z   Stream #0:6(dan): Subtitle: subrip (srt)
+2026-01-04T11:40:03.654Z       Metadata:
+2026-01-04T11:40:03.654Z         title           : Danish
+2026-01-04T11:40:03.654Z         BPS             : 50
+2026-01-04T11:40:03.654Z         DURATION        : 00:44:51.125000000
+2026-01-04T11:40:03.654Z         NUMBER_OF_FRAMES: 490
+2026-01-04T11:40:03.654Z         NUMBER_OF_BYTES : 17124
+2026-01-04T11:40:03.654Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:40:03.654Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:40:03.654Z   Stream #0:7(ger): Subtitle: subrip (srt)
+2026-01-04T11:40:03.654Z       Metadata:
+2026-01-04T11:40:03.654Z         title           : German
+2026-01-04T11:40:03.654Z         BPS             : 50
+2026-01-04T11:40:03.654Z         DURATION        : 00:44:51.000000000
+2026-01-04T11:40:03.654Z         NUMBER_OF_FRAMES: 485
+2026-01-04T11:40:03.654Z         NUMBER_OF_BYTES : 17033
+2026-01-04T11:40:03.654Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:40:03.654Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:40:03.654Z   Stream #0:8(gre): Subtitle: subrip (srt)
+2026-01-04T11:40:03.654Z       Metadata:
+2026-01-04T11:40:03.654Z         title           : Greek
+2026-01-04T11:40:03.654Z         BPS             : 86
+2026-01-04T11:40:03.654Z         DURATION        : 00:44:51.209000000
+2026-01-04T11:40:03.654Z         NUMBER_OF_FRAMES: 489
+2026-01-04T11:40:03.654Z         NUMBER_OF_BYTES : 29074
+2026-01-04T11:40:03.654Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:40:03.654Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:40:03.654Z   Stream #0:9(eng): Subtitle: subrip (srt) (hearing impaired)
+2026-01-04T11:40:03.654Z       Metadata:
+2026-01-04T11:40:03.654Z         title           : English (SDH)
+2026-01-04T11:40:03.654Z         BPS             : 68
+2026-01-04T11:40:03.654Z         DURATION        : 00:44:44.792000000
+2026-01-04T11:40:03.654Z         NUMBER_OF_FRAMES: 788
+2026-01-04T11:40:03.654Z         NUMBER_OF_BYTES : 23070
+2026-01-04T11:40:03.654Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:40:03.654Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:40:03.654Z   Stream #0:10(spa): Subtitle: subrip (srt)
+2026-01-04T11:40:03.654Z       Metadata:
+2026-01-04T11:40:03.654Z         title           : Spanish (Latin America)
+2026-01-04T11:40:03.654Z         BPS             : 52
+2026-01-04T11:40:03.654Z         DURATION        : 00:44:39.833000000
+2026-01-04T11:40:03.654Z         NUMBER_OF_FRAMES: 491
+2026-01-04T11:40:03.654Z         NUMBER_OF_BYTES : 17701
+2026-01-04T11:40:03.654Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:40:03.654Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:40:03.654Z 
+2026-01-04T11:40:03.654Z   Stream #0:11(spa): Subtitle: subrip (srt)
+2026-01-04T11:40:03.654Z       Metadata:
+2026-01-04T11:40:03.654Z         title           : Spanish (Spain)
+2026-01-04T11:40:03.654Z         BPS             : 50
+2026-01-04T11:40:03.654Z         DURATION        : 00:44:39.958000000
+2026-01-04T11:40:03.654Z         NUMBER_OF_FRAMES: 487
+2026-01-04T11:40:03.654Z         NUMBER_OF_BYTES : 16905
+2026-01-04T11:40:03.654Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:40:03.654Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:40:03.654Z   Stream #0:12(fin): Subtitle: subrip (srt)
+2026-01-04T11:40:03.654Z       Metadata:
+2026-01-04T11:40:03.654Z         title           : Finnish
+2026-01-04T11:40:03.654Z         BPS             : 49
+2026-01-04T11:40:03.654Z         DURATION        : 00:44:51.208000000
+2026-01-04T11:40:03.654Z         NUMBER_OF_FRAMES: 486
+2026-01-04T11:40:03.654Z         NUMBER_OF_BYTES : 16595
+2026-01-04T11:40:03.654Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:40:03.654Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:40:03.654Z 
+2026-01-04T11:40:03.654Z   Stream #0:13(fre): Subtitle: subrip (srt)
+2026-01-04T11:40:03.654Z       Metadata:
+2026-01-04T11:40:03.654Z         title           : French (France)
+2026-01-04T11:40:03.654Z         BPS             : 47
+2026-01-04T11:40:03.654Z         DURATION        : 00:44:51.083000000
+2026-01-04T11:40:03.654Z         NUMBER_OF_FRAMES: 497
+2026-01-04T11:40:03.654Z         NUMBER_OF_BYTES : 16091
+2026-01-04T11:40:03.654Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:40:03.654Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:40:03.654Z   Stream #0:14(hun): Subtitle: subrip (srt)
+2026-01-04T11:40:03.654Z       Metadata:
+2026-01-04T11:40:03.654Z         title           : Hungarian
+2026-01-04T11:40:03.654Z         BPS             : 50
+2026-01-04T11:40:03.654Z         DURATION        : 00:44:39.791000000
+2026-01-04T11:40:03.654Z         NUMBER_OF_FRAMES: 491
+2026-01-04T11:40:03.654Z         NUMBER_OF_BYTES : 16780
+2026-01-04T11:40:03.654Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:40:03.654Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:40:03.654Z   Stream #0:15(ita): Subtitle: subrip (srt)
+2026-01-04T11:40:03.654Z       Metadata:
+2026-01-04T11:40:03.654Z         title           : Italian
+2026-01-04T11:40:03.654Z         BPS             : 48
+2026-01-04T11:40:03.654Z         DURATION        : 00:44:51.292000000
+2026-01-04T11:40:03.654Z         NUMBER_OF_FRAMES: 491
+2026-01-04T11:40:03.654Z         NUMBER_OF_BYTES : 16174
+2026-01-04T11:40:03.654Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:40:03.654Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:40:03.654Z   Stream #0:16(jpn): Subtitle: subrip (srt)
+2026-01-04T11:40:03.654Z       Metadata:
+2026-01-04T11:40:03.654Z         title           : Japanese
+2026-01-04T11:40:03.654Z 
+2026-01-04T11:40:03.654Z         BPS             : 43
+2026-01-04T11:40:03.654Z         DURATION        : 00:44:39.875000000
+2026-01-04T11:40:03.654Z         NUMBER_OF_FRAMES: 504
+2026-01-04T11:40:03.654Z         NUMBER_OF_BYTES : 14532
+2026-01-04T11:40:03.654Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:40:03.654Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:40:03.654Z   Stream #0:17(kor): Subtitle: subrip (srt)
+2026-01-04T11:40:03.654Z       Metadata:
+2026-01-04T11:40:03.654Z         title           : Korean
+2026-01-04T11:40:03.654Z         BPS             : 55
+2026-01-04T11:40:03.654Z         DURATION        : 00:44:51.125000000
+2026-01-04T11:40:03.654Z         NUMBER_OF_FRAMES: 495
+2026-01-04T11:40:03.654Z         NUMBER_OF_BYTES : 18712
+2026-01-04T11:40:03.654Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:40:03.654Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:40:03.654Z 
+2026-01-04T11:40:03.654Z   Stream #0:18(dut): Subtitle: subrip (srt)
+2026-01-04T11:40:03.654Z       Metadata:
+2026-01-04T11:40:03.654Z         title           : Dutch
+2026-01-04T11:40:03.654Z         BPS             : 47
+2026-01-04T11:40:03.654Z         DURATION        : 00:44:51.250000000
+2026-01-04T11:40:03.654Z         NUMBER_OF_FRAMES: 453
+2026-01-04T11:40:03.654Z         NUMBER_OF_BYTES : 15942
+2026-01-04T11:40:03.654Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:40:03.654Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:40:03.654Z   Stream #0:19(nor): Subtitle: subrip (srt)
+2026-01-04T11:40:03.654Z       Metadata:
+2026-01-04T11:40:03.654Z         title           : Norwegian
+2026-01-04T11:40:03.654Z         BPS             : 43
+2026-01-04T11:40:03.654Z         DURATION        : 00:44:51.333000000
+2026-01-04T11:40:03.654Z         NUMBER_OF_FRAMES: 488
+2026-01-04T11:40:03.654Z 
+2026-01-04T11:40:03.654Z         NUMBER_OF_BYTES : 14751
+2026-01-04T11:40:03.654Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:40:03.654Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:40:03.654Z   Stream #0:20(pol): Subtitle: subrip (srt)
+2026-01-04T11:40:03.654Z       Metadata:
+2026-01-04T11:40:03.654Z         title           : Polish
+2026-01-04T11:40:03.654Z         BPS             : 48
+2026-01-04T11:40:03.654Z         DURATION        : 00:44:51.000000000
+2026-01-04T11:40:03.654Z         NUMBER_OF_FRAMES: 487
+2026-01-04T11:40:03.654Z         NUMBER_OF_BYTES : 16194
+2026-01-04T11:40:03.654Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:40:03.654Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:40:03.654Z   Stream #0:21(por): Subtitle: subrip (srt)
+2026-01-04T11:40:03.654Z       Metadata:
+2026-01-04T11:40:03.654Z         title           : Portuguese (Brazil)
+2026-01-04T11:40:03.654Z         BPS             : 48
+2026-01-04T11:40:03.654Z         DURATION        : 00:44:51.125000000
+2026-01-04T11:40:03.654Z         NUMBER_OF_FRAMES: 
+2026-01-04T11:40:03.654Z 491
+2026-01-04T11:40:03.654Z         NUMBER_OF_BYTES : 16377
+2026-01-04T11:40:03.654Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:40:03.654Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:40:03.654Z   Stream #0:22(por): Subtitle: subrip (srt)
+2026-01-04T11:40:03.654Z       Metadata:
+2026-01-04T11:40:03.654Z         title           : Portuguese (Portugal)
+2026-01-04T11:40:03.654Z         BPS             : 50
+2026-01-04T11:40:03.654Z         DURATION        : 00:44:51.166000000
+2026-01-04T11:40:03.654Z         NUMBER_OF_FRAMES: 471
+2026-01-04T11:40:03.654Z         NUMBER_OF_BYTES : 16861
+2026-01-04T11:40:03.654Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:40:03.654Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:40:03.654Z   Stream #0:23(rum): Subtitle: subrip (srt)
+2026-01-04T11:40:03.654Z       Metadata:
+2026-01-04T11:40:03.654Z         title           : Romanian
+2026-01-04T11:40:03.654Z         BPS             : 49
+2026-01-04T11:40:03.654Z         DURATION        : 00:44:39.833000000
+2026-01-04T11:40:03.654Z         NUMBER_OF_FRAMES: 480
+2026-01-04T11:40:03.654Z         NUMBER_OF_BYTES : 16615
+2026-01-04T11:40:03.654Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:40:03.654Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:40:03.654Z   Stream #0:24(slo): Subtitle: subrip (srt)
+2026-01-04T11:40:03.654Z       Metadata:
+2026-01-04T11:40:03.654Z         title           : Slovak
+2026-01-04T11:40:03.654Z         BPS             : 51
+2026-01-04T11:40:03.654Z         DURATION        : 00:44:39.833000000
+2026-01-04T11:40:03.654Z         NUMBER_OF_FRAMES: 489
+2026-01-04T11:40:03.654Z         NUMBER_OF_BYTES : 17163
+2026-01-04T11:40:03.654Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:40:03.654Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:40:03.654Z   Stream #0:25(swe): Subtitle: subrip (srt)
+2026-01-04T11:40:03.654Z       Metadata:
+2026-01-04T11:40:03.654Z         title           : Swedish
+2026-01-04T11:40:03.654Z         BPS             : 47
+2026-01-04T11:40:03.654Z         DURATION        : 00:44:51.250000000
+2026-01-04T11:40:03.654Z         NUMBER_OF_FRAMES: 472
+2026-01-04T11:40:03.654Z         NUMBER_OF_BYTES : 15876
+2026-01-04T11:40:03.654Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:40:03.654Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:40:03.654Z   Stream #0:26(chi): Subtitle: subrip (srt)
+2026-01-04T11:40:03.654Z       Metadata:
+2026-01-04T11:40:03.654Z         title           : Chinese (Traditional)
+2026-01-04T11:40:03.654Z         BPS             : 44
+2026-01-04T11:40:03.654Z         DURATION        : 00:44:39.875000000
+2026-01-04T11:40:03.654Z         NUMBER_OF_FRAMES: 487
+2026-01-04T11:40:03.654Z         NUMBER_OF_BYTES : 14840
+2026-01-04T11:40:03.654Z         _STATISTICS_WRITING_APP: mkvmerge v96.0 ('It's My Life') 64-bit
+2026-01-04T11:40:03.654Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:40:03.654Z [11:39:56] scan: decoding previews for title 1
+2026-01-04T11:40:03.654Z 
+2026-01-04T11:40:03.654Z [11:39:56] scan: audio 0x1: eac3, rate=48000Hz, bitrate=256000 Türkçe (E-AC3, 5.1 ch, 256 kbps)
+2026-01-04T11:40:03.654Z 
+2026-01-04T11:40:03.654Z [11:39:56] scan: audio 0x2: eac3, rate=48000Hz, bitrate=768000 English (E-AC3 Dolby Digital Plus + Dolby Atmos, 5.1 ch, Dolby Digital EX, 768 kbps)
+2026-01-04T11:40:03.654Z 
+2026-01-04T11:40:03.654Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:40:03.654Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:40:03.654Z Scanning title 1 of 1, preview 3, 30.00 %
+2026-01-04T11:40:03.654Z Scanning title 1 of 1, preview 4, 40.00 %
+2026-01-04T11:40:03.654Z Scanning title 1 of 1, preview 4, 40.00 %
+2026-01-04T11:40:03.654Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-04T11:40:03.654Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-04T11:40:03.654Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-04T11:40:03.654Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-04T11:40:03.654Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-04T11:40:03.654Z Scanning title 1 of 1, preview 7, 70.00 %
+2026-01-04T11:40:03.654Z Scanning title 1 of 1, preview 8, 80.00 %
+2026-01-04T11:40:03.654Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:40:03.654Z Scanning title 1 of 1, preview 10, 100.00 %
+2026-01-04T11:40:03.654Z Scanning title 1 of 1, preview 10, 100.00 %
+2026-01-04T11:40:03.654Z [11:40:00] using container PAR 1:1
+2026-01-04T11:40:03.654Z [11:40:00] scan: 10 previews, 1920x1080, 24.000 fps, autocrop = 132/132/0/0, aspect 16:9, PAR 1:1, color profile: 1-1-1, chroma location: left
+2026-01-04T11:40:03.654Z 
+2026-01-04T11:40:03.654Z [11:40:00] libhb: scan thread found 1 valid title(s)
+2026-01-04T11:40:03.654Z 
+2026-01-04T11:40:03.654Z + title 1:
+2026-01-04T11:40:03.654Z   + stream: /media/tv/Percy Jackson and the Olympians/Season 2/Percy.Jackson.and.the.Olympians.S02E02.1080p.DSNP.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv
+2026-01-04T11:40:03.654Z   + duration: 00:44:54
+2026-01-04T11:40:03.654Z   + size: 1920x1080, pixel aspect: 1/1, display aspect: 1.78, 24.000 fps
+2026-01-04T11:40:03.654Z   + autocrop: 132/132/0/0
+2026-01-04T11:40:03.654Z   + chapters:
+2026-01-04T11:40:03.654Z     + 1: duration 00:00:57
+2026-01-04T11:40:03.654Z     + 2: duration 00:42:35
+2026-01-04T11:40:03.654Z     + 3: duration 00:01:23
+2026-01-04T11:40:03.654Z   + audio tracks:
+2026-01-04T11:40:03.654Z     + 1, Türkçe (E-AC3, 5.1 ch, 256 kbps) (iso639-2: tur)
+2026-01-04T11:40:03.654Z     + 2, English (E-AC3 Dolby Digital Plus + Dolby Atmos, 5.1 ch, Dolby Digital EX, 768 kbps) (iso639-2: eng)
+2026-01-04T11:40:03.654Z   + subtitle tracks:
+2026-01-04T11:40:03.654Z     + 1, Türkçe (UTF-8)
+2026-01-04T11:40:03.654Z     + 2, Türkçe (UTF-8)
+2026-01-04T11:40:03.654Z     + 3, čeština (UTF-8)
+2026-01-04T11:40:03.654Z     + 4, dansk (UTF-8)
+2026-01-04T11:40:03.654Z     + 5, Deutsch (UTF-8)
+2026-01-04T11:40:03.654Z     + 6, Ελληνικά (UTF-8)
+2026-01-04T11:40:03.654Z     + 7, English (UTF-8)
+2026-01-04T11:40:03.654Z     + 8, español (UTF-8)
+2026-01-04T11:40:03.654Z     + 9, español (UTF-8)
+2026-01-04T11:40:03.654Z     + 10, suomi (UTF-8)
+2026-01-04T11:40:03.654Z     + 11, Francais (UTF-8)
+2026-01-04T11:40:03.654Z     + 12, magyar (UTF-8)
+2026-01-04T11:40:03.654Z     + 13, italiano (UTF-8)
+2026-01-04T11:40:03.654Z     + 14, 日本語 (UTF-8)
+2026-01-04T11:40:03.654Z     + 15, 한국어 (UTF-8)
+2026-01-04T11:40:03.654Z     + 16, Nederlands (UTF-8)
+2026-01-04T11:40:03.654Z     + 17, norsk (UTF-8)
+2026-01-04T11:40:03.654Z     + 18, polski (UTF-8)
+2026-01-04T11:40:03.654Z     + 19, Portugues (UTF-8)
+2026-01-04T11:40:03.654Z     + 20, Portugues (UTF-8)
+2026-01-04T11:40:03.654Z     + 21, română (UTF-8)
+2026-01-04T11:40:03.654Z     + 22, slovenčina (UTF-8)
+2026-01-04T11:40:03.654Z     + 23, svenska (UTF-8)
+2026-01-04T11:40:03.654Z     + 24, 中文 (UTF-8)
+2026-01-04T11:40:03.654Z 
+2026-01-04T11:40:03.654Z HandBrake has exited.
+2026-01-04T11:40:03.654Z 
+2026-01-04T11:40:03.654Z 
+2026-01-04T11:40:03.654Z 
+2026-01-04T11:40:03.654Z 
+2026-01-04T11:40:03.655Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:[Step W06] [C1] Worker [-success-]
+2026-01-04T11:40:03.655Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:Worker success during processing
+2026-01-04T11:40:03.656Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:Updating healthcheck stats
+2026-01-04T11:40:03.659Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:[Step W10] Worker processing end
+2026-01-04T11:40:03.660Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:Subworker exited null
+2026-01-04T11:40:03.661Z 21fCHdE98n:Node[MyInternalNode]:Worker[bulky-boar]:Successfully updated server with verdict: healthcheckSuccess

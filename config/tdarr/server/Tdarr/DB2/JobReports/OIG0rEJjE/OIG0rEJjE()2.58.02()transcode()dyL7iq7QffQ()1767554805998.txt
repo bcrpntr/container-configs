@@ -1,0 +1,1446 @@
+2026-01-04T13:26:48.636Z dyL7iq7QffQ:[Step S01] [2.58.02] Server relay initialising job
+2026-01-04T13:26:48.637Z dyL7iq7QffQ:Server: linux_x64_docker_true
+2026-01-04T13:26:48.637Z dyL7iq7QffQ:Server relay adding file to staged files
+2026-01-04T13:26:48.637Z dyL7iq7QffQ:Server relay sending job to Node relay: MyInternalNode
+2026-01-04T13:26:48.637Z dyL7iq7QffQ:Node[MyInternalNode]:[Step N01] [2.58.02] Node relay received job
+2026-01-04T13:26:48.638Z dyL7iq7QffQ:Node[MyInternalNode]:{"nodeName":"MyInternalNode","serverURL":"http://0.0.0.0:8266","serverIP":"0.0.0.0","serverPort":"8266","handbrakePath":"","ffmpegPath":"","mkvpropeditPath":"","pathTranslators":[{"server":"","node":""}],"nodeType":"mapped","unmappedNodeCache":"/app/unmappedNodeCache","logLevel":"INFO","priority":-1,"platform_arch_isdocker":"linux_x64_docker_true","processPid":664,"cronPluginUpdate":"","apiKey":"","maxLogSizeMB":"10","pollInterval":2000,"startPaused":false,"nodeID":"-2RaUzM4Y","seededWorkerLimits":{},"nodeRegisteredCount":1}
+2026-01-04T13:26:48.638Z dyL7iq7QffQ:Node[MyInternalNode]:Node relay sending job to worker:jumpy-joey
+2026-01-04T13:26:48.638Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[Step W01] Received file, original: "/media/movies/Oh. What. Fun. (2025)/Oh.What.Fun.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv"
+2026-01-04T13:26:48.639Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:{"workerType":"transcodegpu"}
+2026-01-04T13:26:48.639Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:{"ffmpegPath":"tdarr-ffmpeg"}
+2026-01-04T13:26:48.639Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:{"handbrakePath":"HandBrakeCLI"}
+2026-01-04T13:26:48.639Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:{"mkvpropeditPath":"mkvpropedit"}
+2026-01-04T13:26:48.640Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:{"gpuSelect":"-"}
+2026-01-04T13:26:48.640Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:{"allowGpuDoCpu":false}
+2026-01-04T13:26:48.640Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:{"thoroughHealthCheckCpuExtraInputArgs":""}
+2026-01-04T13:26:48.640Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:{"thoroughHealthCheckGpuExtraInputArgs":""}
+2026-01-04T13:26:48.641Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:{"thoroughHealthCheckCpuExtraArgs":""}
+2026-01-04T13:26:48.641Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:{"thoroughHealthCheckGpuExtraArgs":""}
+2026-01-04T13:26:48.641Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:{"logFullCliOutput":false}
+2026-01-04T13:26:48.641Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:{"runMkvpropedit":false}
+2026-01-04T13:26:48.642Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:{"dontCleanWorkerCacheFolder":false}
+2026-01-04T13:26:48.642Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Path translating objects
+2026-01-04T13:26:48.642Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Running path translator tests
+2026-01-04T13:26:48.642Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Path translator tests passed
+2026-01-04T13:26:48.643Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:{"librarySettings":{"_id":"qNfK1K4g-","priority":0,"name":"Movies","folder":"/media/movies","foldersToIgnore":"","foldersToIgnoreCaseInsensitive":false,"folderWatchScanInterval":30,"scannerThreadCount":2,"cache":"/tmp","output":".","folderToFolderConversion":false,"folderToFolderConversionDeleteSource":false,"folderToFolderRecordHistory":true,"copyIfConditionsMet":false,"container":".mkv","containerFilter":"mkv,mp4,mov,m4v,mpg,mpeg,avi,flv,webm,wmv,vob,evo,iso,m2ts,ts","createdAt":1675837380368,"folderWatching":true,"useFsEvents":false,"scheduledScanFindNew":false,"processLibrary":true,"processTranscodes":true,"processHealthChecks":true,"scanOnStart":true,"exifToolScan":true,"mediaInfoScan":true,"ffprobeShowData":false,"isDirectoryLibrary":false,"closedCaptionScan":false,"scanButtons":true,"scanFound":"Files found:0","navItemSelected":"navSourceFolder","pluginIDs":[{"_id":"plugin1","id":"Tdarr_Plugin_MC93_MigzImageRemoval","checked":true,"source":"Community","priority":0,"InputsDB":{},"Name":"Migz Remove Image Formats From File","Type":"Video","Operation":"Transcode","Description":"Identify any unwanted image formats in the file and remove those streams. MJPEG, PNG & GIF \n\n","Version":"1.4","Stage":"Pre-processing","Tags":"pre-processing,ffmpeg,video only","Inputs":[],"source_id":"Community::Tdarr_Plugin_MC93_MigzImageRemoval"},{"_id":"plugin2","id":"Tdarr_Plugin_lmg1_Reorder_Streams","checked":true,"source":"Community","priority":1,"InputsDB":{},"Name":"Lmg1 Reorder Streams","Type":"Video","Operation":"Transcode","Description":"[Contains built-in filter] This plugin will move the video stream to the front so Tdarr will recognize the codec correctly.\n\n","Version":"1.00","Stage":"Pre-processing","Tags":"pre-processing,ffmpeg","Inputs":[],"source_id":"Community::Tdarr_Plugin_lmg1_Reorder_Streams"},{"_id":"plugin4","id":"Tdarr_Plugin_MC93_Migz1FFMPEG","checked":true,"source":"Community","priority":2,"InputsDB":{},"Name":"Migz Transcode Using Nvidia GPU & FFMPEG","Type":"Video","Operation":"Transcode","Description":"Files not in H265 will be transcoded into H265 using Nvidia GPU with ffmpeg.\n                  Settings are dependant on file bitrate\n                  Working by the logic that H265 can support the same ammount of data at half the bitrate of H264.\n                  NVDEC & NVENC compatable GPU required.\n                  This plugin will skip any files that are in the VP9 codec.","Version":"3.1","Stage":"Pre-processing","Tags":"pre-processing,ffmpeg,video only,nvenc h265,configurable","Inputs":[{"name":"container","type":"string","defaultValue":"mkv","inputUI":{"type":"text"},"tooltip":"Specify output container of file. Use 'original' wihout quotes to keep original container.\n                \\n Ensure that all stream types you may have are supported by your chosen container.\n                \\n mkv is recommended.\n                    \\nExample:\\n\n                    mkv\n\n                    \\nExample:\\n\n                    mp4\n                    \n                    \\nExample:\\n\n                    original"},{"name":"bitrate_cutoff","type":"string","defaultValue":"","inputUI":{"type":"text"},"tooltip":"Specify bitrate cutoff, files with a current bitrate lower then this will not be transcoded.\n               \\n Rate is in kbps.\n               \\n Leave empty to disable.\n                    \\nExample:\\n\n                    6000\n\n                    \\nExample:\\n\n                    4000"},{"name":"enable_10bit","type":"boolean","defaultValue":false,"inputUI":{"type":"dropdown","options":["false","true"]},"tooltip":"Specify if output file should be 10bit. Default is false.\n                    \\nExample:\\n\n                    true\n\n                    \\nExample:\\n\n                    false"},{"name":"enable_bframes","type":"boolean","defaultValue":false,"inputUI":{"type":"dropdown","options":["false","true"]},"tooltip":"Specify if b frames should be used.\n                 \\n Using B frames should decrease file sizes but are only supported on newer GPUs.\n                 \\n Default is false.\n                    \\nExample:\\n\n                    true\n\n                    \\nExample:\\n\n                    false"},{"name":"force_conform","type":"boolean","defaultValue":false,"inputUI":{"type":"dropdown","options":["false","true"]},"tooltip":"Make the file conform to output containers requirements.\n                \\n Drop hdmv_pgs_subtitle/eia_608/subrip/timed_id3 for MP4.\n                \\n Drop data streams/mov_text/eia_608/timed_id3 for MKV.\n                \\n Default is false.\n                    \\nExample:\\n\n                    true\n\n                    \\nExample:\\n\n                    false"}],"source_id":"Community::Tdarr_Plugin_MC93_Migz1FFMPEG"},{"_id":"plugin5","id":"Tdarr_Plugin_a9he_New_file_size_check","checked":true,"source":"Community","priority":3,"InputsDB":{},"Name":"New File Size Check","Type":"Video","Operation":"Transcode","Description":"Give an error if new file is not within the specified upper and lower bound limits \n\n","Version":"1.00","Stage":"Pre-processing","Tags":"","Inputs":[{"name":"upperBound","type":"number","defaultValue":110,"inputUI":{"type":"text"},"tooltip":"Enter the upper bound % size for the new file. For example, if '110' is entered, \n        then if the new file size is greater than 110% the size of the original, an error will be given."},{"name":"lowerBound","type":"number","defaultValue":40,"inputUI":{"type":"text"},"tooltip":"Enter the lower bound % size for the new file. For example, if '90' is entered, \n        then if the new file size is less than 90% of the original, an error will be given."}],"source_id":"Community::Tdarr_Plugin_a9he_New_file_size_check"}],"pluginCommunity":true,"handbrake":true,"ffmpeg":false,"handbrakescan":true,"ffmpegscan":false,"preset":"-Z \"Very Fast 1080p30\"","decisionMaker":{"settingsPlugin":true,"settingsFlows":false,"settingsVideo":false,"videoExcludeSwitch":true,"video_codec_names_exclude":[{"codec":"hevc","checked":false},{"codec":"h264","checked":true}],"video_size_range_include":{"min":0,"max":100000},"video_height_range_include":{"min":0,"max":3000},"video_width_range_include":{"min":0,"max":4000},"settingsAudio":false,"audioExcludeSwitch":true,"audio_codec_names_exclude":[{"codec":"mp3","checked":true},{"codec":"aac","checked":false}],"audio_size_range_include":{"min":0,"max":10}},"schedule":[{"_id":"Sun:00-01","checked":true},{"_id":"Sun:01-02","checked":true},{"_id":"Sun:02-03","checked":true},{"_id":"Sun:03-04","checked":true},{"_id":"Sun:04-05","checked":true},{"_id":"Sun:05-06","checked":true},{"_id":"Sun:06-07","checked":true},{"_id":"Sun:07-08","checked":true},{"_id":"Sun:08-09","checked":true},{"_id":"Sun:09-10","checked":true},{"_id":"Sun:10-11","checked":true},{"_id":"Sun:11-12","checked":true},{"_id":"Sun:12-13","checked":true},{"_id":"Sun:13-14","checked":true},{"_id":"Sun:14-15","checked":true},{"_id":"Sun:15-16","checked":true},{"_id":"Sun:16-17","checked":true},{"_id":"Sun:17-18","checked":true},{"_id":"Sun:18-19","checked":true},{"_id":"Sun:19-20","checked":true},{"_id":"Sun:20-21","checked":true},{"_id":"Sun:21-22","checked":true},{"_id":"Sun:22-23","checked":true},{"_id":"Sun:23-00","checked":true},{"_id":"Mon:00-01","checked":true},{"_id":"Mon:01-02","checked":true},{"_id":"Mon:02-03","checked":true},{"_id":"Mon:03-04","checked":true},{"_id":"Mon:04-05","checked":true},{"_id":"Mon:05-06","checked":true},{"_id":"Mon:06-07","checked":true},{"_id":"Mon:07-08","checked":true},{"_id":"Mon:08-09","checked":true},{"_id":"Mon:09-10","checked":true},{"_id":"Mon:10-11","checked":true},{"_id":"Mon:11-12","checked":true},{"_id":"Mon:12-13","checked":true},{"_id":"Mon:13-14","checked":true},{"_id":"Mon:14-15","checked":true},{"_id":"Mon:15-16","checked":true},{"_id":"Mon:16-17","checked":true},{"_id":"Mon:17-18","checked":true},{"_id":"Mon:18-19","checked":true},{"_id":"Mon:19-20","checked":true},{"_id":"Mon:20-21","checked":true},{"_id":"Mon:21-22","checked":true},{"_id":"Mon:22-23","checked":true},{"_id":"Mon:23-00","checked":true},{"_id":"Tue:00-01","checked":true},{"_id":"Tue:01-02","checked":true},{"_id":"Tue:02-03","checked":true},{"_id":"Tue:03-04","checked":true},{"_id":"Tue:04-05","checked":true},{"_id":"Tue:05-06","checked":true},{"_id":"Tue:06-07","checked":true},{"_id":"Tue:07-08","checked":true},{"_id":"Tue:08-09","checked":true},{"_id":"Tue:09-10","checked":true},{"_id":"Tue:10-11","checked":true},{"_id":"Tue:11-12","checked":true},{"_id":"Tue:12-13","checked":true},{"_id":"Tue:13-14","checked":true},{"_id":"Tue:14-15","checked":true},{"_id":"Tue:15-16","checked":true},{"_id":"Tue:16-17","checked":true},{"_id":"Tue:17-18","checked":true},{"_id":"Tue:18-19","checked":true},{"_id":"Tue:19-20","checked":true},{"_id":"Tue:20-21","checked":true},{"_id":"Tue:21-22","checked":true},{"_id":"Tue:22-23","checked":true},{"_id":"Tue:23-00","checked":true},{"_id":"Wed:00-01","checked":true},{"_id":"Wed:01-02","checked":true},{"_id":"Wed:02-03","checked":true},{"_id":"Wed:03-04","checked":true},{"_id":"Wed:04-05","checked":true},{"_id":"Wed:05-06","checked":true},{"_id":"Wed:06-07","checked":true},{"_id":"Wed:07-08","checked":true},{"_id":"Wed:08-09","checked":true},{"_id":"Wed:09-10","checked":true},{"_id":"Wed:10-11","checked":true},{"_id":"Wed:11-12","checked":true},{"_id":"Wed:12-13","checked":true},{"_id":"Wed:13-14","checked":true},{"_id":"Wed:14-15","checked":true},{"_id":"Wed:15-16","checked":true},{"_id":"Wed:16-17","checked":true},{"_id":"Wed:17-18","checked":true},{"_id":"Wed:18-19","checked":true},{"_id":"Wed:19-20","checked":true},{"_id":"Wed:20-21","checked":true},{"_id":"Wed:21-22","checked":true},{"_id":"Wed:22-23","checked":true},{"_id":"Wed:23-00","checked":true},{"_id":"Thur:00-01","checked":true},{"_id":"Thur:01-02","checked":true},{"_id":"Thur:02-03","checked":true},{"_id":"Thur:03-04","checked":true},{"_id":"Thur:04-05","checked":true},{"_id":"Thur:05-06","checked":true},{"_id":"Thur:06-07","checked":true},{"_id":"Thur:07-08","checked":true},{"_id":"Thur:08-09","checked":true},{"_id":"Thur:09-10","checked":true},{"_id":"Thur:10-11","checked":true},{"_id":"Thur:11-12","checked":true},{"_id":"Thur:12-13","checked":true},{"_id":"Thur:13-14","checked":true},{"_id":"Thur:14-15","checked":true},{"_id":"Thur:15-16","checked":true},{"_id":"Thur:16-17","checked":true},{"_id":"Thur:17-18","checked":true},{"_id":"Thur:18-19","checked":true},{"_id":"Thur:19-20","checked":true},{"_id":"Thur:20-21","checked":true},{"_id":"Thur:21-22","checked":true},{"_id":"Thur:22-23","checked":true},{"_id":"Thur:23-00","checked":true},{"_id":"Fri:00-01","checked":true},{"_id":"Fri:01-02","checked":true},{"_id":"Fri:02-03","checked":true},{"_id":"Fri:03-04","checked":true},{"_id":"Fri:04-05","checked":true},{"_id":"Fri:05-06","checked":true},{"_id":"Fri:06-07","checked":true},{"_id":"Fri:07-08","checked":true},{"_id":"Fri:08-09","checked":true},{"_id":"Fri:09-10","checked":true},{"_id":"Fri:10-11","checked":true},{"_id":"Fri:11-12","checked":true},{"_id":"Fri:12-13","checked":true},{"_id":"Fri:13-14","checked":true},{"_id":"Fri:14-15","checked":true},{"_id":"Fri:15-16","checked":true},{"_id":"Fri:16-17","checked":true},{"_id":"Fri:17-18","checked":true},{"_id":"Fri:18-19","checked":true},{"_id":"Fri:19-20","checked":true},{"_id":"Fri:20-21","checked":true},{"_id":"Fri:21-22","checked":true},{"_id":"Fri:22-23","checked":true},{"_id":"Fri:23-00","checked":true},{"_id":"Sat:00-01","checked":true},{"_id":"Sat:01-02","checked":true},{"_id":"Sat:02-03","checked":true},{"_id":"Sat:03-04","checked":true},{"_id":"Sat:04-05","checked":true},{"_id":"Sat:05-06","checked":true},{"_id":"Sat:06-07","checked":true},{"_id":"Sat:07-08","checked":true},{"_id":"Sat:08-09","checked":true},{"_id":"Sat:09-10","checked":true},{"_id":"Sat:10-11","checked":true},{"_id":"Sat:11-12","checked":true},{"_id":"Sat:12-13","checked":true},{"_id":"Sat:13-14","checked":true},{"_id":"Sat:14-15","checked":true},{"_id":"Sat:15-16","checked":true},{"_id":"Sat:16-17","checked":true},{"_id":"Sat:17-18","checked":true},{"_id":"Sat:18-19","checked":true},{"_id":"Sat:19-20","checked":true},{"_id":"Sat:20-21","checked":true},{"_id":"Sat:21-22","checked":true},{"_id":"Sat:22-23","checked":true},{"_id":"Sat:23-00","checked":true}],"totalHealthCheckCount":33,"totalTranscodeCount":5,"sizeDiff":0,"holdNewFiles":false,"holdFor":3600,"holdForDisplayUnit":"hours","pluginStackOverview":true,"filterResolutionsSkip":"","filterCodecsSkip":"","filterContainersSkip":"","processPluginsSequentially":true}}
+2026-01-04T13:26:48.643Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Fetching plugin data from server
+2026-01-04T13:26:48.643Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Scanning original library file
+2026-01-04T13:26:48.644Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:{
+2026-01-04T13:26:48.644Z   "exifToolScan": true,
+2026-01-04T13:26:48.644Z   "mediaInfoScan": true,
+2026-01-04T13:26:48.644Z   "closedCaptionScan": false
+2026-01-04T13:26:48.644Z }
+2026-01-04T13:26:48.644Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Node scanning file
+2026-01-04T13:26:50.644Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Scan complete
+2026-01-04T13:26:50.645Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Original file scanned
+2026-01-04T13:26:50.645Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:fileVersionOriginalLogJSONString:{"lastCliCommand":"","lastPluginId":"","sourceFile":{"_id":"/media/movies/Oh. What. Fun. (2025)/Oh.What.Fun.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv","DB":"qNfK1K4g-","footprintId":"OIG0rEJjE","file":"/media/movies/Oh. What. Fun. (2025)/Oh.What.Fun.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv","fileNameWithoutExtension":"Oh.What.Fun.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG","container":"mkv","scannerReads":{"ffProbeRead":"success","exiftoolRead":"success","mediaInfoRead":"success","closedCaptionRead":"not enabled"},"createdAt":1767554808425,"lastPluginDetails":"none","bit_rate":342529,"statSync":{"dev":2064,"mode":33188,"nlink":1,"uid":1000,"gid":1000,"rdev":0,"blksize":4096,"ino":38273036,"size":285802496,"blocks":558216,"atimeMs":1767554808324.3496,"mtimeMs":1767554808396.3513,"ctimeMs":1767554808396.3513,"birthtimeMs":1767554701309.6682,"atime":"2026-01-04T19:26:48.324Z","mtime":"2026-01-04T19:26:48.396Z","ctime":"2026-01-04T19:26:48.396Z","birthtime":"2026-01-04T19:25:01.310Z"},"file_size":272.5625,"ffProbeData":{"streams":[{"index":0,"codec_name":"h264","codec_long_name":"H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10","profile":"High","codec_type":"video","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","width":1920,"height":1080,"coded_width":1920,"coded_height":1080,"closed_captions":0,"film_grain":0,"has_b_frames":2,"sample_aspect_ratio":"1:1","display_aspect_ratio":"16:9","pix_fmt":"yuv420p","level":40,"color_range":"tv","color_space":"bt709","color_transfer":"bt709","color_primaries":"bt709","chroma_location":"left","field_order":"progressive","refs":1,"is_avc":"true","nal_length_size":"4","r_frame_rate":"24/1","avg_frame_rate":"24/1","time_base":"1/1000","start_pts":0,"start_time":"0.000000","bits_per_raw_sample":"8","extradata_size":59,"disposition":{"default":1,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0}},{"index":1,"codec_name":"eac3","codec_long_name":"ATSC A/52B (AC-3, E-AC-3)","codec_type":"audio","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","sample_fmt":"fltp","sample_rate":"48000","channels":6,"channel_layout":"5.1(side)","bits_per_sample":0,"initial_padding":0,"r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","bit_rate":"640000","disposition":{"default":1,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"tur","title":"Turkish"}},{"index":2,"codec_name":"eac3","codec_long_name":"ATSC A/52B (AC-3, E-AC-3)","profile":"Dolby Digital Plus + Dolby Atmos","codec_type":"audio","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","sample_fmt":"fltp","sample_rate":"48000","channels":6,"channel_layout":"5.1(side)","bits_per_sample":0,"initial_padding":0,"r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","bit_rate":"448000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"eng","title":"English"}},{"index":3,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":1,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":1,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"tur","title":"Turkish (Forced)"}},{"index":4,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"tur","title":"Turkish"}},{"index":5,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"ara","title":"Arabic (world)"}},{"index":6,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"cat","title":"Catalan"}},{"index":7,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"cze","title":"Czech"}},{"index":8,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"dan","title":"Danish"}},{"index":9,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"ger","title":"German"}},{"index":10,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"gre","title":"Greek"}},{"index":11,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":1,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"eng","title":"English (Forced)"}},{"index":12,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":1,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"eng","title":"English (SDH)"}},{"index":13,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"spa","title":"Spanish (Latin America)"}},{"index":14,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"spa","title":"Spanish (Spain)"}},{"index":15,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"baq","title":"Basque (Spain)"}},{"index":16,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"fin","title":"Finnish"}},{"index":17,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"fre","title":"French (Canada)"}},{"index":18,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"fre","title":"French (France)"}},{"index":19,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"glg","title":"Galician"}},{"index":20,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"heb","title":"Hebrew"}},{"index":21,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"hin","title":"Hindi"}},{"index":22,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"hun","title":"Hungarian"}},{"index":23,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"ind","title":"Indonesian"}},{"index":24,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"ita","title":"Italian"}},{"index":25,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"jpn","title":"Japanese"}},{"index":26,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"kan","title":"Kannada (India)"}},{"index":27,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"kor","title":"Korean"}},{"index":28,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"mal","title":"Malayalam (India)"}},{"index":29,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"may","title":"Malay"}},{"index":30,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"nob","title":"Norwegian Bokmål"}},{"index":31,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"dut","title":"Dutch"}},{"index":32,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"pol","title":"Polish"}},{"index":33,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"por","title":"Portuguese (Brazil)"}},{"index":34,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"por","title":"Portuguese (Portugal)"}},{"index":35,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"rum","title":"Romanian"}},{"index":36,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"swe","title":"Swedish"}},{"index":37,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"tam","title":"Tamil"}},{"index":38,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"tel","title":"Telugu"}},{"index":39,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"tha","title":"Thai"}},{"index":40,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"chi","title":"Chinese (Simplified)"}},{"index":41,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":6474592,"duration":"6474.592000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"chi","title":"Chinese (Traditional)"}}],"format":{"filename":"/media/movies/Oh. What. Fun. (2025)/Oh.What.Fun.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv","nb_streams":42,"nb_programs":0,"nb_stream_groups":0,"format_name":"matroska,webm","format_long_name":"Matroska / WebM","start_time":"0.000000","duration":"6474.592000","size":"277217280","bit_rate":"342529","probe_score":100,"tags":{"encoder":"libebml v1.4.5 + libmatroska v1.7.1"}}},"meta":{"SourceFile":"/media/movies/Oh. What. Fun. (2025)/Oh.What.Fun.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv","errors":[],"tz":"UTC","tzSource":"defaultVideosToUTC","Duration":6474.592,"DefaultDuration":0.032,"ExifToolVersion":12.6,"FileName":"Oh.What.Fun.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv","Directory":"/media/movies/Oh. What. Fun. (2025)","FileSize":"278 MB","FileModifyDate":{"_ctor":"ExifDateTime","year":2026,"month":1,"day":4,"hour":19,"minute":26,"second":46,"tzoffsetMinutes":0,"rawValue":"2026:01:04 19:26:46+00:00","zoneName":"UTC"},"FileAccessDate":{"_ctor":"ExifDateTime","year":2026,"month":1,"day":4,"hour":19,"minute":26,"second":46,"tzoffsetMinutes":0,"rawValue":"2026:01:04 19:26:46+00:00","zoneName":"UTC"},"FileInodeChangeDate":{"_ctor":"ExifDateTime","year":2026,"month":1,"day":4,"hour":19,"minute":26,"second":46,"tzoffsetMinutes":0,"rawValue":"2026:01:04 19:26:46+00:00","zoneName":"UTC"},"FilePermissions":"-rw-r--r--","FileType":"MKV","FileTypeExtension":"mkv","MIMEType":"video/x-matroska","EBMLVersion":1,"EBMLReadVersion":1,"DocType":"matroska","DocTypeVersion":4,"DocTypeReadVersion":2,"TimecodeScale":"1 ms","MuxingApp":"libebml v1.4.5 + libmatroska v1.7.1","WritingApp":"mkvmerge v96.0 ('It's My Life') 64-bit","VideoCodecID":"V_MPEG4/ISO/AVC","VideoFrameRate":24,"ImageWidth":1920,"ImageHeight":1080,"DisplayWidth":1920,"DisplayHeight":1080,"AudioCodecID":"A_EAC3","AudioSampleRate":48000,"AudioChannels":6,"TrackForced":"Yes","TrackNumber":42,"TrackUID":"051a563e9ff7fecf","TrackType":"Subtitle","TrackDefault":"No","TrackLanguage":"chi","CodecID":"S_TEXT/UTF8","TrackLanguageIETF":"zh-Hant","TrackName":"Chinese (Traditional)","ChapterTimeStart":"1:42:17","ChapterString":"Scene 139","ChapterLanguage":"eng","ImageSize":"1920x1080","Megapixels":2.1},"mediaInfo":{"@ref":"","track":[{"@type":"General","UniqueID":"279332333758850325176491404494572330242","VideoCount":"1","AudioCount":"2","TextCount":"39","MenuCount":"1","Format":"Matroska","Format_Version":"4","FileSize":"278528000","Duration":"6474.592","OverallBitRate":"344149","FrameRate":"24.000","IsStreamable":"Yes","Encoded_Application":"mkvmerge v96.0 ('It's My Life') 64-bit","Encoded_Library":"libebml v1.4.5 + libmatroska v1.7.1","extra":{"IsTruncated":"Yes"}},{"@type":"Video","StreamOrder":"0","ID":"1","UniqueID":"3287440947557711144","Format":"AVC","Format_Profile":"High","Format_Level":"4","Format_Settings_CABAC":"Yes","Format_Settings_RefFrames":"4","CodecID":"V_MPEG4/ISO/AVC","Duration":"6474.583","BitRate_Mode":"CBR","BitRate_Nominal":"10000000","Width":"1920","Height":"1080","Stored_Height":"1088","Sampled_Width":"1920","Sampled_Height":"1080","PixelAspectRatio":"1.000","DisplayAspectRatio":"1.778","FrameRate_Mode":"CFR","FrameRate":"24.000","FrameRate_Num":"24","FrameRate_Den":"1","FrameCount":"155390","ColorSpace":"YUV","ChromaSubsampling":"4:2:0","BitDepth":"8","ScanType":"Progressive","Delay":"0.000","Delay_Source":"Container","Default":"Yes","Forced":"No","BufferSize":"31250000","colour_description_present":"Yes","colour_description_present_Source":"Stream","colour_range":"Limited","colour_range_Source":"Stream","colour_primaries":"BT.709","colour_primaries_Source":"Stream","transfer_characteristics":"BT.709","transfer_characteristics_Source":"Stream","matrix_coefficients":"BT.709","matrix_coefficients_Source":"Stream"},{"@type":"Audio","@typeorder":"1","StreamOrder":"1","ID":"2","UniqueID":"2987180682721073917","Format":"E-AC-3","Format_Commercial_IfAny":"Dolby Digital Plus","Format_Settings_Endianness":"Big","CodecID":"A_EAC3","Duration":"6474.592","BitRate_Mode":"CBR","BitRate":"640000","Channels":"6","ChannelPositions":"Front: L C R, Side: L R, LFE","ChannelLayout":"L R C LFE Ls Rs","SamplesPerFrame":"1536","SamplingRate":"48000","SamplingCount":"310780416","FrameRate":"31.250","Compression_Mode":"Lossy","Delay":"0.000","Delay_Source":"Container","Video_Delay":"0.000","StreamSize":"517967360","Title":"Turkish","Language":"tr","ServiceKind":"CM","Default":"Yes","Forced":"No","extra":{"bsid":"16","dialnorm":"-31","compr":"-0.28","acmod":"7","lfeon":"1","dialnorm_Average":"-31","dialnorm_Minimum":"-31","compr_Average":"-3.66","compr_Minimum":"-9.27","compr_Maximum":"-0.56","compr_Count":"1431"}},{"@type":"Audio","@typeorder":"2","StreamOrder":"2","ID":"3","UniqueID":"10030980339619101658","Format":"E-AC-3","Format_Commercial_IfAny":"Dolby Digital Plus with Dolby Atmos","Format_Settings_Endianness":"Big","Format_AdditionalFeatures":"JOC","CodecID":"A_EAC3","Duration":"6474.592","BitRate_Mode":"CBR","BitRate":"448000","Channels":"6","ChannelPositions":"Front: L C R, Side: L R, LFE","ChannelLayout":"L R C LFE Ls Rs","SamplesPerFrame":"1536","SamplingRate":"48000","SamplingCount":"310780416","FrameRate":"31.250","Compression_Mode":"Lossy","Delay":"0.000","Delay_Source":"Container","Video_Delay":"0.000","StreamSize":"362577152","Title":"English","Language":"en","ServiceKind":"CM","Default":"No","Forced":"No","extra":{"ComplexityIndex":"16","NumberOfDynamicObjects":"15","BedChannelCount":"1","BedChannelConfiguration":"LFE","bsid":"16","dialnorm":"-26","compr":"-0.28","acmod":"7","lfeon":"1","dialnorm_Average":"-26","dialnorm_Minimum":"-26","compr_Average":"-1.20","compr_Minimum":"-4.53","compr_Maximum":"1.94","compr_Count":"1213"}},{"@type":"Text","@typeorder":"1","StreamOrder":"3","ID":"4","UniqueID":"8502065349769392749","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"Turkish (Forced)","Language":"tr","Default":"Yes","Forced":"Yes"},{"@type":"Text","@typeorder":"2","StreamOrder":"4","ID":"5","UniqueID":"8928227025834412915","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"Turkish","Language":"tr","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"3","StreamOrder":"5","ID":"6","UniqueID":"8963542996240227040","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"Arabic (world)","Language":"ar-001","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"4","StreamOrder":"6","ID":"7","UniqueID":"7369512993084882502","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"Catalan","Language":"ca","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"5","StreamOrder":"7","ID":"8","UniqueID":"14366583981244301278","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"Czech","Language":"cs","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"6","StreamOrder":"8","ID":"9","UniqueID":"5796406723138201421","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"Danish","Language":"da","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"7","StreamOrder":"9","ID":"10","UniqueID":"13204789312364465356","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"German","Language":"de","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"8","StreamOrder":"10","ID":"11","UniqueID":"17685122318760766481","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"Greek","Language":"el","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"9","StreamOrder":"11","ID":"12","UniqueID":"3756064913281855590","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"English (Forced)","Language":"en","Default":"No","Forced":"Yes"},{"@type":"Text","@typeorder":"10","StreamOrder":"12","ID":"13","UniqueID":"14329843804033814476","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"English (SDH)","Language":"en","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"11","StreamOrder":"13","ID":"14","UniqueID":"15010741660692938678","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"Spanish (Latin America)","Language":"es-419","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"12","StreamOrder":"14","ID":"15","UniqueID":"70638841499311833","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"Spanish (Spain)","Language":"es-ES","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"13","StreamOrder":"15","ID":"16","UniqueID":"15587317201896414460","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"Basque (Spain)","Language":"eu-ES","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"14","StreamOrder":"16","ID":"17","UniqueID":"2875658950507279979","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"Finnish","Language":"fi","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"15","StreamOrder":"17","ID":"18","UniqueID":"2900735014167826623","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"French (Canada)","Language":"fr-CA","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"16","StreamOrder":"18","ID":"19","UniqueID":"11291634166137296142","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"French (France)","Language":"fr-FR","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"17","StreamOrder":"19","ID":"20","UniqueID":"10284974316480308092","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"Galician","Language":"gl","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"18","StreamOrder":"20","ID":"21","UniqueID":"13776116243691910326","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"Hebrew","Language":"he","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"19","StreamOrder":"21","ID":"22","UniqueID":"8902920885045599037","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"Hindi","Language":"hi","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"20","StreamOrder":"22","ID":"23","UniqueID":"1977574762046706806","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"Hungarian","Language":"hu","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"21","StreamOrder":"23","ID":"24","UniqueID":"8902125448131067850","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"Indonesian","Language":"id","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"22","StreamOrder":"24","ID":"25","UniqueID":"17676071248725266887","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"Italian","Language":"it","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"23","StreamOrder":"25","ID":"26","UniqueID":"15652626723369583102","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"Japanese","Language":"ja","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"24","StreamOrder":"26","ID":"27","UniqueID":"13740493156935490821","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"Kannada (India)","Language":"kn-IN","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"25","StreamOrder":"27","ID":"28","UniqueID":"14780254379974437080","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"Korean","Language":"ko","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"26","StreamOrder":"28","ID":"29","UniqueID":"13411960833304151007","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"Malayalam (India)","Language":"ml-IN","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"27","StreamOrder":"29","ID":"30","UniqueID":"17951999561339564593","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"Malay","Language":"ms","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"28","StreamOrder":"30","ID":"31","UniqueID":"15524883431424638663","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"Norwegian Bokmål","Language":"nb","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"29","StreamOrder":"31","ID":"32","UniqueID":"5932041611506997787","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"Dutch","Language":"nl","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"30","StreamOrder":"32","ID":"33","UniqueID":"3675473265705528847","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"Polish","Language":"pl","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"31","StreamOrder":"33","ID":"34","UniqueID":"16463542602888376182","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"Portuguese (Brazil)","Language":"pt-BR","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"32","StreamOrder":"34","ID":"35","UniqueID":"9288982111839863352","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"Portuguese (Portugal)","Language":"pt-PT","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"33","StreamOrder":"35","ID":"36","UniqueID":"16493976760235442566","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"Romanian","Language":"ro","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"34","StreamOrder":"36","ID":"37","UniqueID":"12614325017808258464","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"Swedish","Language":"sv","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"35","StreamOrder":"37","ID":"38","UniqueID":"14104031766168949419","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"Tamil","Language":"ta","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"36","StreamOrder":"38","ID":"39","UniqueID":"13349662781861630851","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"Telugu","Language":"te","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"37","StreamOrder":"39","ID":"40","UniqueID":"6551622091907710822","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"Thai","Language":"th","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"38","StreamOrder":"40","ID":"41","UniqueID":"12252434385684727270","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"Chinese (Simplified)","Language":"zh-Hans","Default":"No","Forced":"No"},{"@type":"Text","@typeorder":"39","StreamOrder":"41","ID":"42","UniqueID":"367701146555907791","Format":"UTF-8","CodecID":"S_TEXT/UTF8","Title":"Chinese (Traditional)","Language":"zh-Hant","Default":"No","Forced":"No"},{"@type":"Menu","extra":{"_00_00_00_000":"en:Scene 1","_00_01_38_000":"en:Scene 2","_00_02_12_000":"en:Scene 3","_00_03_01_000":"en:Scene 4","_00_04_28_000":"en:Scene 5","_00_06_57_000":"en:Scene 6","_00_07_46_000":"en:Scene 7","_00_07_52_000":"en:Scene 8","_00_09_48_000":"en:Scene 9","_00_10_02_000":"en:Scene 10","_00_11_05_000":"en:Scene 11","_00_11_17_000":"en:Scene 12","_00_12_07_000":"en:Scene 13","_00_13_37_000":"en:Scene 14","_00_14_15_000":"en:Scene 15","_00_14_50_000":"en:Scene 16","_00_14_57_000":"en:Scene 17","_00_14_58_000":"en:Scene 18","_00_15_06_000":"en:Scene 19","_00_15_38_000":"en:Scene 20","_00_16_42_000":"en:Scene 21","_00_17_32_000":"en:Scene 22","_00_17_39_000":"en:Scene 23","_00_18_14_000":"en:Scene 24","_00_18_31_000":"en:Scene 25","_00_18_45_000":"en:Scene 26","_00_19_13_000":"en:Scene 27","_00_19_17_000":"en:Scene 28","_00_19_34_000":"en:Scene 29","_00_20_42_000":"en:Scene 30","_00_21_45_000":"en:Scene 31","_00_23_21_000":"en:Scene 32","_00_23_56_000":"en:Scene 33","_00_24_02_000":"en:Scene 34","_00_24_27_000":"en:Scene 35","_00_24_51_000":"en:Scene 36","_00_25_20_000":"en:Scene 37","_00_25_25_000":"en:Scene 38","_00_25_35_000":"en:Scene 39","_00_25_37_000":"en:Scene 40","_00_25_42_000":"en:Scene 41","_00_26_07_000":"en:Scene 42","_00_26_34_000":"en:Scene 43","_00_27_02_000":"en:Scene 44","_00_28_56_000":"en:Scene 45","_00_29_10_000":"en:Scene 46","_00_30_03_000":"en:Scene 47","_00_31_22_000":"en:Scene 48","_00_32_19_000":"en:Scene 49","_00_32_27_000":"en:Scene 50","_00_32_52_000":"en:Scene 51","_00_33_53_000":"en:Scene 52","_00_34_32_000":"en:Scene 53","_00_34_36_000":"en:Scene 54","_00_35_14_000":"en:Scene 55","_00_36_17_000":"en:Scene 56","_00_37_37_000":"en:Scene 57","_00_38_34_000":"en:Scene 58","_00_39_06_000":"en:Scene 59","_00_39_15_000":"en:Scene 60","_00_39_28_000":"en:Scene 61","_00_39_31_000":"en:Scene 62","_00_39_49_000":"en:Scene 63","_00_40_06_000":"en:Scene 64","_00_40_16_000":"en:Scene 65","_00_40_19_000":"en:Scene 66","_00_40_52_000":"en:Scene 67","_00_40_55_000":"en:Scene 68","_00_40_58_000":"en:Scene 69","_00_41_09_000":"en:Scene 70","_00_41_15_000":"en:Scene 71","_00_41_18_000":"en:Scene 72","_00_41_29_000":"en:Scene 73","_00_41_38_000":"en:Scene 74","_00_41_54_000":"en:Scene 75","_00_42_32_000":"en:Scene 76","_00_43_28_000":"en:Scene 77","_00_44_39_000":"en:Scene 78","_00_45_34_000":"en:Scene 79","_00_46_15_000":"en:Scene 80","_00_47_01_000":"en:Scene 81","_00_47_54_000":"en:Scene 82","_00_48_26_000":"en:Scene 83","_00_48_48_000":"en:Scene 84","_00_49_21_000":"en:Scene 85","_00_50_16_000":"en:Scene 86","_00_51_33_000":"en:Scene 87","_00_52_36_000":"en:Scene 88","_00_52_42_000":"en:Scene 89","_00_53_29_000":"en:Scene 90","_00_54_35_000":"en:Scene 91","_00_56_01_000":"en:Scene 92","_00_56_41_000":"en:Scene 93","_00_58_42_000":"en:Scene 94","_01_00_19_000":"en:Scene 95","_01_02_42_000":"en:Scene 96","_01_04_35_000":"en:Scene 97","_01_05_05_000":"en:Scene 98","_01_05_55_000":"en:Scene 99","_01_07_23_000":"en:Scene 100","_01_07_52_000":"en:Scene 101","_01_08_56_000":"en:Scene 102","_01_09_11_000":"en:Scene 103","_01_09_14_000":"en:Scene 104","_01_09_17_000":"en:Scene 105","_01_09_26_000":"en:Scene 106","_01_09_40_000":"en:Scene 107","_01_09_50_000":"en:Scene 108","_01_11_33_000":"en:Scene 109","_01_11_37_000":"en:Scene 110","_01_12_24_000":"en:Scene 111","_01_12_58_000":"en:Scene 112","_01_14_00_000":"en:Scene 113","_01_15_23_000":"en:Scene 114","_01_15_46_000":"en:Scene 115","_01_16_18_000":"en:Scene 116","_01_17_56_000":"en:Scene 117","_01_18_42_000":"en:Scene 118","_01_19_30_000":"en:Scene 119","_01_20_16_000":"en:Scene 120","_01_20_54_000":"en:Scene 121","_01_21_34_000":"en:Scene 122","_01_22_01_000":"en:Scene 123","_01_22_10_000":"en:Scene 124","_01_24_49_000":"en:Scene 125","_01_25_37_000":"en:Scene 126","_01_26_00_000":"en:Scene 127","_01_26_44_000":"en:Scene 128","_01_27_56_000":"en:Scene 129","_01_28_55_000":"en:Scene 130","_01_30_27_000":"en:Scene 131","_01_32_22_000":"en:Scene 132","_01_33_22_000":"en:Scene 133","_01_36_15_000":"en:Scene 134","_01_37_32_000":"en:Scene 135","_01_39_21_000":"en:Scene 136","_01_40_21_000":"en:Scene 137","_01_40_54_000":"en:Scene 138","_01_42_17_000":"en:Scene 139"}}]},"hasClosedCaptions":false,"bumped":false,"HealthCheck":"","TranscodeDecisionMaker":"","holdUntil":0,"fileMedium":"video","video_codec_name":"h264","audio_codec_name":"eac3","video_resolution":"1080p","lastHealthCheckDate":0,"lastTranscodeDate":0,"history":"","oldSize":0.26617431640625,"newSize":0,"newVsOldRatio":0,"videoStreamIndex":0,"duration":6474}}
+2026-01-04T13:26:50.646Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Source file to work on determined:"/media/movies/Oh. What. Fun. (2025)/Oh.What.Fun.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv"
+2026-01-04T13:26:50.647Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[Step W02] [C1] Running pre-process file
+2026-01-04T13:26:50.647Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Checking files can be accessed
+2026-01-04T13:26:50.647Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:mapped node, file is original, no need to download
+2026-01-04T13:26:50.648Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Relevant paths can be accessed
+2026-01-04T13:26:50.648Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Source file: "/media/movies/Oh. What. Fun. (2025)/Oh.What.Fun.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv"
+2026-01-04T13:26:50.648Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Cache folder: "/tmp/tdarr-workDir2-dyL7iq7QffQ"
+2026-01-04T13:26:50.649Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[Step W03] [C1] Analysing file - running plugins
+2026-01-04T13:26:50.649Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:transcode task, scanning for extra file details before transcode
+2026-01-04T13:26:50.650Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Node scanning file
+2026-01-04T13:26:51.650Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Scan complete
+2026-01-04T13:26:51.651Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Scan complete
+2026-01-04T13:26:51.651Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Updating Node relay: Processing
+2026-01-04T13:26:51.651Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[1/2] Checking file frame count
+2026-01-04T13:26:51.652Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[2/2] Frame count 0
+2026-01-04T13:26:51.652Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Transcode task, determining transcode settings
+2026-01-04T13:26:51.652Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Plugin stack selected
+2026-01-04T13:26:51.652Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Plugin: plugin1:  Tdarr_Plugin_MC93_MigzImageRemoval
+2026-01-04T13:26:51.653Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[1/5] Reading plugin
+2026-01-04T13:26:51.653Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[2/5] Plugin read finished
+2026-01-04T13:26:51.653Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[3/5] Installing dependencies
+2026-01-04T13:26:51.654Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[4/5] Running plugin
+2026-01-04T13:26:51.654Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:{"pluginInputs":{}}
+2026-01-04T13:26:51.654Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[5/5] Running plugin finished
+2026-01-04T13:26:51.654Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Plugin: plugin2:  Tdarr_Plugin_lmg1_Reorder_Streams
+2026-01-04T13:26:51.655Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[1/5] Reading plugin
+2026-01-04T13:26:51.655Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[2/5] Plugin read finished
+2026-01-04T13:26:51.655Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[3/5] Installing dependencies
+2026-01-04T13:26:51.656Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[4/5] Running plugin
+2026-01-04T13:26:51.656Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:{"pluginInputs":{}}
+2026-01-04T13:26:51.656Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[5/5] Running plugin finished
+2026-01-04T13:26:51.656Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Plugin: plugin4:  Tdarr_Plugin_MC93_Migz1FFMPEG
+2026-01-04T13:26:51.657Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[1/5] Reading plugin
+2026-01-04T13:26:51.657Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[2/5] Plugin read finished
+2026-01-04T13:26:51.657Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[3/5] Installing dependencies
+2026-01-04T13:26:51.658Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[4/5] Running plugin
+2026-01-04T13:26:51.658Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:{"pluginInputs":{"container":"mkv","bitrate_cutoff":"","enable_10bit":false,"enable_bframes":false,"force_conform":false}}
+2026-01-04T13:26:51.658Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[5/5] Running plugin finished
+2026-01-04T13:26:51.658Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Worker config: {
+2026-01-04T13:26:51.658Z   "processFile": true,
+2026-01-04T13:26:51.658Z   "preset": "-c:v h264_cuvid, -map 0 -c:v hevc_nvenc -cq:v 19 -b:v 169k -minrate 118k -maxrate 219k -bufsize 338k -spatial_aq:v 1 -rc-lookahead:v 32 -c:a copy -c:s copy -max_muxing_queue_size 9999 ",
+2026-01-04T13:26:51.658Z   "handBrakeMode": false,
+2026-01-04T13:26:51.658Z   "FFmpegMode": true,
+2026-01-04T13:26:51.658Z   "reQueueAfter": true,
+2026-01-04T13:26:51.658Z   "infoLog": "Container for output selected as mkv. \nCurrent bitrate = 338 \nBitrate settings: \nTarget = 169 \nMinimum = 118 \nMaximum = 219 \nFile is not hevc or vp9. Transcoding. \n",
+2026-01-04T13:26:51.658Z   "container": ".mkv",
+2026-01-04T13:26:51.658Z   "lastPluginDetails": {
+2026-01-04T13:26:51.658Z     "source": "Community",
+2026-01-04T13:26:51.658Z     "id": "Tdarr_Plugin_MC93_Migz1FFMPEG",
+2026-01-04T13:26:51.658Z     "number": "3/4"
+2026-01-04T13:26:51.658Z   },
+2026-01-04T13:26:51.658Z   "ffmpegMode": true,
+2026-01-04T13:26:51.658Z   "cliToUse": "ffmpeg"
+2026-01-04T13:26:51.658Z }
+2026-01-04T13:26:51.659Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Worker log: 
+2026-01-04T13:26:51.659Z Pre-processing - Tdarr_Plugin_MC93_MigzImageRemoval
+2026-01-04T13:26:51.659Z ☑File doesn't contain any unwanted image format streams.
+2026-01-04T13:26:51.659Z 
+2026-01-04T13:26:51.659Z Pre-processing - Tdarr_Plugin_lmg1_Reorder_Streams
+2026-01-04T13:26:51.659Z File has video in first stream
+2026-01-04T13:26:51.659Z  File meets conditions!
+2026-01-04T13:26:51.659Z 
+2026-01-04T13:26:51.659Z Pre-processing - Tdarr_Plugin_MC93_Migz1FFMPEG
+2026-01-04T13:26:51.659Z Container for output selected as mkv. 
+2026-01-04T13:26:51.659Z Current bitrate = 338 
+2026-01-04T13:26:51.659Z Bitrate settings: 
+2026-01-04T13:26:51.659Z Target = 169 
+2026-01-04T13:26:51.659Z Minimum = 118 
+2026-01-04T13:26:51.659Z Maximum = 219 
+2026-01-04T13:26:51.659Z File is not hevc or vp9. Transcoding. 
+2026-01-04T13:26:51.659Z 
+2026-01-04T13:26:51.659Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Worker will process
+2026-01-04T13:26:51.660Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[Step W04] [C1] Preparing command
+2026-01-04T13:26:51.660Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Cache file stem: "/tmp/tdarr-workDir2-dyL7iq7QffQ"
+2026-01-04T13:26:51.660Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Cache file path: "/tmp/tdarr-workDir2-dyL7iq7QffQ/Oh.What.Fun.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG-TdarrCacheFile-IeMIhLtc2.mkv"
+2026-01-04T13:26:51.660Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Create transcode args
+2026-01-04T13:26:51.661Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Args:  -c:v h264_cuvid -i "/media/movies/Oh. What. Fun. (2025)/Oh.What.Fun.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv" -map 0 -c:v hevc_nvenc -cq:v 19 -b:v 169k -minrate 118k -maxrate 219k -bufsize 338k -spatial_aq:v 1 -rc-lookahead:v 32 -c:a copy -c:s copy -max_muxing_queue_size 9999 /tmp/tdarr-workDir2-dyL7iq7QffQ/Oh.What.Fun.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG-TdarrCacheFile-IeMIhLtc2.mkv
+2026-01-04T13:26:51.661Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Getting source file size
+2026-01-04T13:26:51.661Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Source file size: 0.26715087890625
+2026-01-04T13:26:51.662Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Performing safety check on worker config to see if old transcode args/container match new ones
+2026-01-04T13:26:51.662Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Safety check complete, all good
+2026-01-04T13:26:51.662Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[Step W05] [C1] Launching subworker
+2026-01-04T13:26:51.662Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Preparing to launch subworker
+2026-01-04T13:26:51.663Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Subworker launched
+2026-01-04T13:26:51.663Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[1/3] Sending command to subworker
+2026-01-04T13:26:51.663Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[2/3] tdarr-ffmpeg -c:v h264_cuvid -i "/media/movies/Oh. What. Fun. (2025)/Oh.What.Fun.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv" -map 0 -c:v hevc_nvenc -cq:v 19 -b:v 169k -minrate 118k -maxrate 219k -bufsize 338k -spatial_aq:v 1 -rc-lookahead:v 32 -c:a copy -c:s copy -max_muxing_queue_size 9999 /tmp/tdarr-workDir2-dyL7iq7QffQ/Oh.What.Fun.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG-TdarrCacheFile-IeMIhLtc2.mkv
+2026-01-04T13:26:51.664Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[3/3] Command sent
+2026-01-04T13:26:51.664Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:To see live CLI output, enable 'Log full FFmpeg/HandBrake output' in the staging section on the Tdarr tab before the job starts. Note this could increase the job report size substantially.
+2026-01-04T13:26:51.664Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Subworker:Online
+2026-01-04T13:26:51.664Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Subworker:Receiving transcode settings
+2026-01-04T13:26:51.665Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Subworker:Running CLI
+2026-01-04T13:27:14.675Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Subworker:a.Thread closed, code: 0
+2026-01-04T13:27:14.676Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Subworker exit approved, killing subworker
+2026-01-04T13:27:14.676Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Subworker killed
+2026-01-04T13:27:14.676Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:b.Thread closed, code: 0
+2026-01-04T13:27:14.677Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:CLI code: 0
+2026-01-04T13:27:14.677Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Last 200 lines of CLI log:
+2026-01-04T13:27:14.677Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:ffmpeg version 7.1.2-Jellyfin Copyright (c) 2000-2025 the FFmpeg developers
+2026-01-04T13:27:14.677Z   built with gcc 13 (Ubuntu 13.3.0-6ubuntu2~24.04)
+2026-01-04T13:27:14.677Z   configuration: --prefix=/usr/lib/jellyfin-ffmpeg --target-os=linux --extra-version=Jellyfin --disable-doc --disable-ffplay --disable-static --disable-libxcb --disable-sdl2 --disable-xlib --enable-lto=auto --enable-gpl --enable-version3 --enable-shared --enable-gmp --enable-gnutls --enable-chromaprint --enable-opencl --enable-libdrm --enable-libxml2 --enable-libass --enable-libfreetype --enable-libfribidi --enable-libfontconfig --enable-libharfbuzz --enable-libbluray --enable-libmp3lame --enable-libopus --enable-libtheora --enable-libvorbis --enable-libopenmpt --enable-libdav1d --enable-libsvtav1 --enable-libwebp --enable-libvpx --enable-libx264 --enable-libx265 --enable-libzvbi --enable-libzimg --enable-libfdk-aac --arch=amd64 --enable-libshaderc --enable-libplacebo --enable-vulkan --enable-vaapi --enable-amf --enable-libvpl --enable-ffnvcodec --enable-cuda --enable-cuda-llvm --enable-cuvid --enable-nvdec --enable-nvenc
+2026-01-04T13:27:14.677Z   libavutil      59. 39.100 / 59. 39.100
+2026-01-04T13:27:14.677Z   libavcodec     61. 19.101 / 61. 19.101
+2026-01-04T13:27:14.677Z   libavformat    61.  7.100 / 61.  7.100
+2026-01-04T13:27:14.677Z   libavdevice    61.  3.100 / 61.  3.100
+2026-01-04T13:27:14.677Z   libavfilter    10.  4.100 / 10.  4.100
+2026-01-04T13:27:14.677Z   libswscale      8.  3.100 /  8.  3.100
+2026-01-04T13:27:14.677Z   libswresample   5.  3.100 /  5.  3.100
+2026-01-04T13:27:14.677Z   libpostproc    58.  3.100 / 58.  3.100
+2026-01-04T13:27:14.677Z 
+2026-01-04T13:27:14.677Z Input #0, matroska,webm, from '/media/movies/Oh. What. Fun. (2025)/Oh.What.Fun.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv':
+2026-01-04T13:27:14.677Z   Metadata:
+2026-01-04T13:27:14.677Z     encoder         : libebml v1.4.5 + libmatroska v1.7.1
+2026-01-04T13:27:14.677Z   Duration: 01:47:54.59, start: 0.000000, bitrate: 354 kb/s
+2026-01-04T13:27:14.677Z   Chapters:
+2026-01-04T13:27:14.677Z     Chapter #0:0: start 0.000000, end 98.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 1
+2026-01-04T13:27:14.677Z     Chapter #0:1: start 98.000000, end 132.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 2
+2026-01-04T13:27:14.677Z     Chapter #0:2: start 132.000000, end 181.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 3
+2026-01-04T13:27:14.677Z 
+2026-01-04T13:27:14.677Z     Chapter #0:3: start 181.000000, end 268.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 4
+2026-01-04T13:27:14.677Z     Chapter #0:4: start 268.000000, end 417.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 5
+2026-01-04T13:27:14.677Z     Chapter #0:5: start 417.000000, end 466.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 6
+2026-01-04T13:27:14.677Z     Chapter #0:6: start 466.000000, end 472.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 7
+2026-01-04T13:27:14.677Z     Chapter #0:7: start 472.000000, end 588.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 8
+2026-01-04T13:27:14.677Z     Chapter #0:8: start 588.000000, end 602.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 9
+2026-01-04T13:27:14.677Z     Chapter #0:9: start 602.000000, end 665.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 10
+2026-01-04T13:27:14.677Z     Chapter #0:10: start 665.000000, end 677.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 11
+2026-01-04T13:27:14.677Z     Chapter #0:11: start 677.000000, end 727.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 12
+2026-01-04T13:27:14.677Z     Chapter #0:12: start 727.000000, end 817.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 13
+2026-01-04T13:27:14.677Z     Chapter #0:13: start 817.000000, end 855.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 14
+2026-01-04T13:27:14.677Z     Chapter #0:14: start 855.000000, end 890.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 15
+2026-01-04T13:27:14.677Z     Chapter #0:15: start 890.000000, end 897.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 16
+2026-01-04T13:27:14.677Z     Chapter #0:16: start 897.000000, end 898.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 17
+2026-01-04T13:27:14.677Z     Chapter #0:17: start 898.000000, end 906.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 18
+2026-01-04T13:27:14.677Z     Chapter #0:18: start 906.000000, end 938.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 19
+2026-01-04T13:27:14.677Z     Chapter #0:19: start 938.000000, end 1002.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 20
+2026-01-04T13:27:14.677Z     Chapter #0:20: start 1002.000000, end 1052.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 21
+2026-01-04T13:27:14.677Z     Chapter #0:21: start 1052.000000, end 1059.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 22
+2026-01-04T13:27:14.677Z     Chapter #0:22: start 1059.000000, end 1094.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 23
+2026-01-04T13:27:14.677Z     Chapter #0:23: start 1094.000000, end 1111.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 24
+2026-01-04T13:27:14.677Z     Chapter #0:24: start 1111.000000, end 1125.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 25
+2026-01-04T13:27:14.677Z     Chapter #0:25: start 1125.000000, end 1153.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 26
+2026-01-04T13:27:14.677Z     Chapter #0:26: start 1153.000000, end 1157.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 27
+2026-01-04T13:27:14.677Z     Chapter #0:27: start 1157.000000, end 1174.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 28
+2026-01-04T13:27:14.677Z     Chapter #0:28: start 1174.000000, end 1242.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 29
+2026-01-04T13:27:14.677Z     Chapter #0:29: start 1242.000000, end 1305.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 30
+2026-01-04T13:27:14.677Z     Chapter #0:30: start 1305.000000, end 1401.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 31
+2026-01-04T13:27:14.677Z     Chapter #0:31: start 1401.000000, end 1436.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 32
+2026-01-04T13:27:14.677Z     Chapter #0:32: start 1436.000000, end 1442.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 33
+2026-01-04T13:27:14.677Z     Chapter #0:33: start 1442.000000, end 1467.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 34
+2026-01-04T13:27:14.677Z     Chapter #0:34: start 1467.000000, end 1491.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 35
+2026-01-04T13:27:14.677Z     Chapter #0:35: start 1491.000000, end 1520.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 36
+2026-01-04T13:27:14.677Z     Chapter #0:36: start 1520.000000, end 1525.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 37
+2026-01-04T13:27:14.677Z     Chapter #0:37: start 1525.000000, end 1535.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 38
+2026-01-04T13:27:14.677Z     Chapter #0:38: start 1535.000000, end 1537.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 39
+2026-01-04T13:27:14.677Z     Chapter #0:39: start 1537.000000, end 1542.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 40
+2026-01-04T13:27:14.677Z     Chapter #0:40: start 1542.000000, end 1567.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 41
+2026-01-04T13:27:14.677Z     Chapter #0:41: start 1567.000000, end 1594.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 42
+2026-01-04T13:27:14.677Z     Chapter #0:42: start 1594.000000, end 1622.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 43
+2026-01-04T13:27:14.677Z     Chapter #0:43: start 1622.000000, end 1736.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 44
+2026-01-04T13:27:14.677Z     Chapter #0:44: start 1736.000000, end 1750.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 45
+2026-01-04T13:27:14.677Z     Chapter #0:45: start 1750.000000, end 1803.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 46
+2026-01-04T13:27:14.677Z     Chapter #0:46: start 1803.000000, end 1882.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 47
+2026-01-04T13:27:14.677Z     Chapter #0:47: start 1882.000000, end 1939.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 48
+2026-01-04T13:27:14.677Z     Chapter #0:48: start 1939.000000, 
+2026-01-04T13:27:14.677Z end 1947.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 49
+2026-01-04T13:27:14.677Z     Chapter #0:49: start 1947.000000, end 1972.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 50
+2026-01-04T13:27:14.677Z     Chapter #0:50: start 1972.000000, end 2033.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 51
+2026-01-04T13:27:14.677Z     Chapter #0:51: start 2033.000000, end 2072.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 52
+2026-01-04T13:27:14.677Z     Chapter #0:52: start 2072.000000, end 2076.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 53
+2026-01-04T13:27:14.677Z     Chapter #0:53: start 2076.000000, end 2114.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 54
+2026-01-04T13:27:14.677Z     Chapter #0:54: start 2114.000000, end 2177.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 55
+2026-01-04T13:27:14.677Z     Chapter #0:55: start 2177.000000, end 2257.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 56
+2026-01-04T13:27:14.677Z     Chapter #0:56: start 2257.000000, end 2314.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 57
+2026-01-04T13:27:14.677Z     Chapter #0:57: start 2314.000000, end 2346.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 58
+2026-01-04T13:27:14.677Z     Chapter #0:58: start 2346.000000, end 2355.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 59
+2026-01-04T13:27:14.677Z     Chapter #0:59: 
+2026-01-04T13:27:14.677Z start 2355.000000, end 2368.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 60
+2026-01-04T13:27:14.677Z     Chapter #0:60: start 2368.000000, end 2371.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 61
+2026-01-04T13:27:14.677Z     Chapter #0:61: start 2371.000000, end 2389.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 62
+2026-01-04T13:27:14.677Z     Chapter #0:62: start 2389.000000, end 2406.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 63
+2026-01-04T13:27:14.677Z     Chapter #0:63: start 2406.000000, end 2416.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 64
+2026-01-04T13:27:14.677Z     Chapter #0:64: start 2416.000000, end 2419.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 65
+2026-01-04T13:27:14.677Z     Chapter #0:65: start 2419.000000, end 2452.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 66
+2026-01-04T13:27:14.677Z     Chapter #0:66: start 2452.000000, end 2455.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 67
+2026-01-04T13:27:14.677Z     Chapter #0:67: start 2455.000000, end 2458.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 68
+2026-01-04T13:27:14.677Z     Chapter #0:68: start 2458.000000, end 2469.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 69
+2026-01-04T13:27:14.677Z     Chapter #0:69: start 2469.000000, end 2475.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 70
+2026-01-04T13:27:14.677Z     Chapter #0:70: start 2475.000000, end 2478.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 71
+2026-01-04T13:27:14.677Z     Chapter #0:71: start 2478.000000, end 2489.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 72
+2026-01-04T13:27:14.677Z     Chapter #0:72: start 2489.000000, end 2498.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 73
+2026-01-04T13:27:14.677Z     Chapter #0:73: start 2498.000000, end 2514.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 74
+2026-01-04T13:27:14.677Z     Chapter #0:74: start 2514.000000, end 2552.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 75
+2026-01-04T13:27:14.677Z     Chapter #0:75: start 2552.000000, end 2608.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 76
+2026-01-04T13:27:14.677Z     Chapter #0:76: start 2608.000000, end 2679.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 77
+2026-01-04T13:27:14.677Z     Chapter #0:77: start 2679.000000, end 2734.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 78
+2026-01-04T13:27:14.677Z     Chapter #0:78: start 2734.000000, end 2775.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 79
+2026-01-04T13:27:14.677Z     Chapter #0:79: start 2775.000000, end 2821.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 80
+2026-01-04T13:27:14.677Z     Chapter #0:80: start 2821.000000, end 2874.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 81
+2026-01-04T13:27:14.677Z     Chapter #0:81: start 2874.000000, end 2906.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 82
+2026-01-04T13:27:14.677Z     Chapter #0:82: start 2906.000000, end 2928.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 83
+2026-01-04T13:27:14.677Z     Chapter #0:83: start 2928.000000, end 2961.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 84
+2026-01-04T13:27:14.677Z     Chapter #0:84: start 2961.000000, end 3016.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 85
+2026-01-04T13:27:14.677Z     Chapter #0:85: start 3016.000000, end 3093.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 86
+2026-01-04T13:27:14.677Z     Chapter #0:86: start 3093.000000, end 3156.000000
+2026-01-04T13:27:14.677Z 
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 87
+2026-01-04T13:27:14.677Z     Chapter #0:87: start 3156.000000, end 3162.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 88
+2026-01-04T13:27:14.677Z     Chapter #0:88: start 3162.000000, end 3209.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 89
+2026-01-04T13:27:14.677Z     Chapter #0:89: start 3209.000000, end 3275.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 90
+2026-01-04T13:27:14.677Z     Chapter #0:90: start 3275.000000, end 3361.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 91
+2026-01-04T13:27:14.677Z     Chapter #0:91: start 3361.000000, end 3401.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 92
+2026-01-04T13:27:14.677Z     Chapter #0:92: start 3401.000000, end 3522.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 93
+2026-01-04T13:27:14.677Z     Chapter #0:93: start 3522.000000, end 3619.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 94
+2026-01-04T13:27:14.677Z     Chapter #0:94: start 3619.000000, end 3762.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 95
+2026-01-04T13:27:14.677Z     Chapter #0:95: start 3762.000000, end 3875.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 96
+2026-01-04T13:27:14.677Z     Chapter #0:96: start 3875.000000, end 3905.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 97
+2026-01-04T13:27:14.677Z     Chapter #0:97: start 3905.000000, end 3955.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 98
+2026-01-04T13:27:14.677Z     Chapter #0:98: start 3955.000000, end 4043.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 99
+2026-01-04T13:27:14.677Z     Chapter #0:99: start 4043.000000, end 4072.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 100
+2026-01-04T13:27:14.677Z     Chapter #0:100: start 4072.000000, end 4136.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 101
+2026-01-04T13:27:14.677Z     Chapter #0:101: start 4136.000000, 
+2026-01-04T13:27:14.677Z end 4151.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 102
+2026-01-04T13:27:14.677Z     Chapter #0:102: start 4151.000000, end 4154.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 103
+2026-01-04T13:27:14.677Z     Chapter #0:103: start 4154.000000, end 4157.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 104
+2026-01-04T13:27:14.677Z     Chapter #0:104: start 4157.000000, end 4166.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 105
+2026-01-04T13:27:14.677Z     Chapter #0:105: start 4166.000000, end 4180.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 106
+2026-01-04T13:27:14.677Z     Chapter #0:106: start 4180.000000, end 4190.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 107
+2026-01-04T13:27:14.677Z     Chapter #0:107: start 4190.000000, end 4293.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 108
+2026-01-04T13:27:14.677Z     Chapter #0:108: start 4293.000000, end 4297.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 109
+2026-01-04T13:27:14.677Z     Chapter #0:109: start 4297.000000, end 4344.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 110
+2026-01-04T13:27:14.677Z     Chapter #0:110: start 4344.000000, end 4378.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 111
+2026-01-04T13:27:14.677Z     Chapter #0:111: start 4378.000000, end 4440.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 112
+2026-01-04T13:27:14.677Z     Chapter #0:112: start 4440.000000, end 4523.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 113
+2026-01-04T13:27:14.677Z     Chapter #0:113: start 4523.000000, end 4546.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 114
+2026-01-04T13:27:14.677Z     Chapter #0:114: start 4546.000000, end 4578.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 115
+2026-01-04T13:27:14.677Z     Chapter #0:115: 
+2026-01-04T13:27:14.677Z start 4578.000000, end 4676.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 116
+2026-01-04T13:27:14.677Z     Chapter #0:116: start 4676.000000, end 4722.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 117
+2026-01-04T13:27:14.677Z     Chapter #0:117: start 4722.000000, end 4770.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 118
+2026-01-04T13:27:14.677Z     Chapter #0:118: start 4770.000000, end 4816.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 119
+2026-01-04T13:27:14.677Z     Chapter #0:119: start 4816.000000, end 4854.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 120
+2026-01-04T13:27:14.677Z     Chapter #0:120: start 4854.000000, end 4894.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 121
+2026-01-04T13:27:14.677Z     Chapter #0:121: start 4894.000000, end 4921.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 122
+2026-01-04T13:27:14.677Z     Chapter #0:122: start 4921.000000, end 4930.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 123
+2026-01-04T13:27:14.677Z     Chapter #0:123: start 4930.000000, end 5089.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 124
+2026-01-04T13:27:14.677Z     Chapter #0:124: start 5089.000000, end 5137.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z 
+2026-01-04T13:27:14.677Z         title           : Scene 125
+2026-01-04T13:27:14.677Z     Chapter #0:125: start 5137.000000, end 5160.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 126
+2026-01-04T13:27:14.677Z     Chapter #0:126: start 5160.000000, end 5204.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 127
+2026-01-04T13:27:14.677Z     Chapter #0:127: start 5204.000000, end 5276.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 128
+2026-01-04T13:27:14.677Z     Chapter #0:128: start 5276.000000, end 5335.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 129
+2026-01-04T13:27:14.677Z     Chapter #0:129: start 5335.000000, end 5427.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 130
+2026-01-04T13:27:14.677Z     Chapter #0:130: start 5427.000000, end 5542.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 131
+2026-01-04T13:27:14.677Z     Chapter #0:131: start 5542.000000, end 5602.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 132
+2026-01-04T13:27:14.677Z     Chapter #0:132: start 5602.000000, end 5775.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 133
+2026-01-04T13:27:14.677Z     Chapter #0:133: start 5775.000000, end 5852.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 134
+2026-01-04T13:27:14.677Z     Chapter #0:134: start 5852.000000, end 5961.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 135
+2026-01-04T13:27:14.677Z     Chapter #0:135: start 5961.000000, end 6021.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : 
+2026-01-04T13:27:14.677Z Scene 136
+2026-01-04T13:27:14.677Z     Chapter #0:136: start 6021.000000, end 6054.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 137
+2026-01-04T13:27:14.677Z     Chapter #0:137: start 6054.000000, end 6137.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 138
+2026-01-04T13:27:14.677Z     Chapter #0:138: start 6137.000000, end 6474.592000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 139
+2026-01-04T13:27:14.677Z   Stream #0:0: Video: h264 (High), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 24 fps, 24 tbr, 1k tbn (default)
+2026-01-04T13:27:14.677Z   Stream #0:1(tur): Audio: eac3, 48000 Hz, 5.1(side), fltp, 640 kb/s
+2026-01-04T13:27:14.677Z  (default)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Turkish
+2026-01-04T13:27:14.677Z   Stream #0:2(eng): Audio: eac3 (Dolby Digital Plus + Dolby Atmos), 48000 Hz, 5.1(side), fltp, 448 kb/s
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : English
+2026-01-04T13:27:14.677Z   Stream #0:3(tur): Subtitle: subrip (srt) (default) (forced)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Turkish (Forced)
+2026-01-04T13:27:14.677Z   Stream #0:4(tur): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Turkish
+2026-01-04T13:27:14.677Z   Stream #0:5(ara): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Arabic (world)
+2026-01-04T13:27:14.677Z   Stream #0:6(cat): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Catalan
+2026-01-04T13:27:14.677Z   Stream #0:7(cze): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Czech
+2026-01-04T13:27:14.677Z   Stream #0:8(dan): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Danish
+2026-01-04T13:27:14.677Z   Stream #0:9(ger): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : German
+2026-01-04T13:27:14.677Z   Stream #0:10(gre): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Greek
+2026-01-04T13:27:14.677Z   Stream #0:11(eng): Subtitle: subrip (srt) (forced)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : English (Forced)
+2026-01-04T13:27:14.677Z   Stream #0:12(eng): Subtitle: subrip (srt) (hearing impaired)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : English (SDH)
+2026-01-04T13:27:14.677Z 
+2026-01-04T13:27:14.677Z   Stream #0:13(spa): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Spanish (Latin America)
+2026-01-04T13:27:14.677Z   Stream #0:14(spa): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Spanish (Spain)
+2026-01-04T13:27:14.677Z   Stream #0:15(baq): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Basque (Spain)
+2026-01-04T13:27:14.677Z   Stream #0:16(fin): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Finnish
+2026-01-04T13:27:14.677Z   Stream #0:17(fre): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : French (Canada)
+2026-01-04T13:27:14.677Z 
+2026-01-04T13:27:14.677Z   Stream #0:18(fre): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : French (France)
+2026-01-04T13:27:14.677Z   Stream #0:19(glg): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Galician
+2026-01-04T13:27:14.677Z   Stream #0:20(heb): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Hebrew
+2026-01-04T13:27:14.677Z   Stream #0:21(hin): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Hindi
+2026-01-04T13:27:14.677Z   Stream #0:22(hun): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Hungarian
+2026-01-04T13:27:14.677Z   Stream #0:23(ind): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Indonesian
+2026-01-04T13:27:14.677Z   Stream #0:24(ita): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Italian
+2026-01-04T13:27:14.677Z   Stream #0:25
+2026-01-04T13:27:14.677Z (jpn): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Japanese
+2026-01-04T13:27:14.677Z   Stream #0:26(kan): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Kannada (India)
+2026-01-04T13:27:14.677Z   Stream #0:27(kor): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Korean
+2026-01-04T13:27:14.677Z   Stream #0:28(mal): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Malayalam (India)
+2026-01-04T13:27:14.677Z   Stream #0:29(may): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Malay
+2026-01-04T13:27:14.677Z 
+2026-01-04T13:27:14.677Z   Stream #0:30(nob): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Norwegian Bokmål
+2026-01-04T13:27:14.677Z   Stream #0:31(dut): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Dutch
+2026-01-04T13:27:14.677Z   Stream #0:32(pol): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Polish
+2026-01-04T13:27:14.677Z   Stream #0:33(por): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Portuguese (Brazil)
+2026-01-04T13:27:14.677Z   Stream #0:34(por): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Portuguese (Portugal)
+2026-01-04T13:27:14.677Z   Stream #0:35(rum): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Romanian
+2026-01-04T13:27:14.677Z   Stream #0:36(swe): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Swedish
+2026-01-04T13:27:14.677Z   Stream #0:37(tam): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Tamil
+2026-01-04T13:27:14.677Z   Stream #0:38(tel): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Telugu
+2026-01-04T13:27:14.677Z   Stream #0:39(tha): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Thai
+2026-01-04T13:27:14.677Z   Stream #0:40(chi): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Chinese (Simplified)
+2026-01-04T13:27:14.677Z   Stream #0:41(chi): Subtitle: subrip (srt)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Chinese (Traditional)
+2026-01-04T13:27:14.677Z 
+2026-01-04T13:27:14.677Z Stream mapping:
+2026-01-04T13:27:14.677Z   Stream #0:0 -> #0:0 (h264 (h264_cuvid) -> hevc (hevc_nvenc))
+2026-01-04T13:27:14.677Z   Stream #0:1 -> #0:1 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:2 -> #0:2 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:3 -> #0:3 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:4 -> #0:4 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:5 -> #0:5 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:6 -> #0:6 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:7 -> #0:7 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:8 -> #0:8 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:9 -> #0:9 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:10 -> #0:10 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:11 -> #0:11 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:12 -> #0:12 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:13 -> #0:13 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:14 -> #0:14 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:15 -> #0:15
+2026-01-04T13:27:14.677Z  (copy)
+2026-01-04T13:27:14.677Z   Stream #0:16 -> #0:16 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:17 -> #0:17 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:18 -> #0:18 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:19 -> #0:19 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:20 -> #0:20 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:21 -> #0:21 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:22 -> #0:22 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:23 -> #0:23 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:24 -> #0:24 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:25 -> #0:25 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:26 -> #0:26 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:27 -> #0:27 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:28 -> #0:28 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:29 -> #0:29 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:30 -> #0:30 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:31 -> #0:31 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:32 -> #0:32 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:33 -> #0:33 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:34 -> #0:34 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:35 -> #0:35 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:36 -> #0:36 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:37 -> #0:37 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:38 -> #0:38 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:39 -> #0:39 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:40 -> #0:40 (copy)
+2026-01-04T13:27:14.677Z   Stream #0:41 -> #0:41 (copy)
+2026-01-04T13:27:14.677Z 
+2026-01-04T13:27:14.677Z Press [q] to stop, [?] for help
+2026-01-04T13:27:14.677Z 
+2026-01-04T13:27:14.677Z Output #0, matroska, to '/tmp/tdarr-workDir2-dyL7iq7QffQ/Oh.What.Fun.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG-TdarrCacheFile-IeMIhLtc2.mkv':
+2026-01-04T13:27:14.677Z   Metadata:
+2026-01-04T13:27:14.677Z     encoder         : Lavf61.7.100
+2026-01-04T13:27:14.677Z   Chapters:
+2026-01-04T13:27:14.677Z     Chapter #0:0: start 0.000000, end 98.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 1
+2026-01-04T13:27:14.677Z     Chapter #0:1: start 98.000000, end 132.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 2
+2026-01-04T13:27:14.677Z     Chapter #0:2: start 132.000000, end 181.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 3
+2026-01-04T13:27:14.677Z     Chapter #0:3: start 181.000000, end 268.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 4
+2026-01-04T13:27:14.677Z     Chapter #0:4: start 268.000000, end 417.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 5
+2026-01-04T13:27:14.677Z     Chapter #0:5: start 417.000000, end 466.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 6
+2026-01-04T13:27:14.677Z     Chapter #0:6: start 466.000000, end 472.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 7
+2026-01-04T13:27:14.677Z     Chapter #0:7: start 472.000000, end 588.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 8
+2026-01-04T13:27:14.677Z     Chapter #0:8: start 588.000000, end 602.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 9
+2026-01-04T13:27:14.677Z     Chapter #0:9: 
+2026-01-04T13:27:14.677Z start 602.000000, end 665.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 10
+2026-01-04T13:27:14.677Z     Chapter #0:10: start 665.000000, end 677.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 11
+2026-01-04T13:27:14.677Z     Chapter #0:11: start 677.000000, end 727.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 12
+2026-01-04T13:27:14.677Z     Chapter #0:12: start 727.000000, end 817.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 13
+2026-01-04T13:27:14.677Z     Chapter #0:13: start 817.000000, end 855.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 14
+2026-01-04T13:27:14.677Z     Chapter #0:14: start 855.000000, end 890.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 15
+2026-01-04T13:27:14.677Z     Chapter #0:15: start 890.000000, end 897.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 16
+2026-01-04T13:27:14.677Z     Chapter #0:16: start 897.000000, end 898.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 17
+2026-01-04T13:27:14.677Z     Chapter #0:17: start 898.000000, end 906.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 18
+2026-01-04T13:27:14.677Z     Chapter #0:18: start 906.000000, end 938.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 19
+2026-01-04T13:27:14.677Z     Chapter #0:19: start 938.000000, end 1002.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 20
+2026-01-04T13:27:14.677Z     Chapter #0:20: start 1002.000000, end 1052.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 21
+2026-01-04T13:27:14.677Z     Chapter #0:21: start 1052.000000, end 1059.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 22
+2026-01-04T13:27:14.677Z     Chapter #0:22: start 1059.000000, end 1094.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 23
+2026-01-04T13:27:14.677Z     Chapter #0:23: start 1094.000000, end 1111.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 24
+2026-01-04T13:27:14.677Z     Chapter #0:24: start 1111.000000, end 1125.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 25
+2026-01-04T13:27:14.677Z     Chapter #0:25: start 1125.000000, end 1153.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 26
+2026-01-04T13:27:14.677Z     Chapter #0:26: start 1153.000000, end 1157.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 27
+2026-01-04T13:27:14.677Z     Chapter #0:27: start 1157.000000, end 1174.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 28
+2026-01-04T13:27:14.677Z     Chapter #0:28: start 1174.000000, end 1242.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 29
+2026-01-04T13:27:14.677Z     Chapter #0:29: start 1242.000000, end 1305.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 30
+2026-01-04T13:27:14.677Z     Chapter #0:30: start 1305.000000, end 1401.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 31
+2026-01-04T13:27:14.677Z     Chapter #0:31: start 1401.000000, end 1436.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 32
+2026-01-04T13:27:14.677Z     Chapter #0:32: start 1436.000000, end 1442.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 33
+2026-01-04T13:27:14.677Z     Chapter #0:33: start 1442.000000, end 1467.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 34
+2026-01-04T13:27:14.677Z     Chapter #0:34: start 1467.000000, end 1491.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 35
+2026-01-04T13:27:14.677Z     Chapter #0:35: start 1491.000000, end 1520.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 36
+2026-01-04T13:27:14.677Z     Chapter #0:36: start 1520.000000, end 1525.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 37
+2026-01-04T13:27:14.677Z     Chapter #0:37: start 1525.000000, end 1535.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 38
+2026-01-04T13:27:14.677Z     Chapter #0:38: start 1535.000000, end 1537.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 39
+2026-01-04T13:27:14.677Z     Chapter #0:39: start 1537.000000, end 1542.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 40
+2026-01-04T13:27:14.677Z     Chapter #0:40: start 1542.000000, end 1567.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 41
+2026-01-04T13:27:14.677Z     Chapter #0:41: start 1567.000000, end 1594.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 42
+2026-01-04T13:27:14.677Z     Chapter #0:42: start 1594.000000, end 1622.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 43
+2026-01-04T13:27:14.677Z     Chapter #0:43: start 1622.000000, end 1736.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 44
+2026-01-04T13:27:14.677Z     Chapter #0:44: start 1736.000000, end 1750.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 45
+2026-01-04T13:27:14.677Z     Chapter #0:45: start 1750.000000, end 1803.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 46
+2026-01-04T13:27:14.677Z     Chapter #0:46: start 1803.000000, end 1882.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 47
+2026-01-04T13:27:14.677Z     Chapter #0:47: start 1882.000000, end 1939.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 48
+2026-01-04T13:27:14.677Z     Chapter #0:48: start 1939.000000, end 1947.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 49
+2026-01-04T13:27:14.677Z     Chapter #0:49: start 1947.000000, end 1972.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 50
+2026-01-04T13:27:14.677Z     Chapter #0:50: start 1972.000000, end 2033.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 51
+2026-01-04T13:27:14.677Z     Chapter #0:51: start 2033.000000, end 2072.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 52
+2026-01-04T13:27:14.677Z     Chapter #0:52: start 2072.000000, end 2076.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 53
+2026-01-04T13:27:14.677Z     Chapter #0:53: start 2076.000000, end 2114.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 54
+2026-01-04T13:27:14.677Z     Chapter #0:54: start 2114.000000, end 2177.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 55
+2026-01-04T13:27:14.677Z     Chapter #0:55: start 2177.000000, end 2257.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 56
+2026-01-04T13:27:14.677Z     Chapter #0:56: start 2257.000000, end 2314.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 57
+2026-01-04T13:27:14.677Z     Chapter #0:57: start 2314.000000, end 2346.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 58
+2026-01-04T13:27:14.677Z     Chapter #0:58: start 2346.000000, end 2355.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 59
+2026-01-04T13:27:14.677Z     Chapter #0:59: start 2355.000000, end 2368.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 60
+2026-01-04T13:27:14.677Z     Chapter #0:60: start 2368.000000, end 2371.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 61
+2026-01-04T13:27:14.677Z     Chapter #0:61: start 2371.000000, end 2389.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 62
+2026-01-04T13:27:14.677Z     Chapter #0:62: start 2389.000000, end 2406.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 63
+2026-01-04T13:27:14.677Z     Chapter #0:63: start 2406.000000, end 2416.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 64
+2026-01-04T13:27:14.677Z     Chapter #0:64: start 2416.000000, end 2419.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 65
+2026-01-04T13:27:14.677Z     Chapter #0:65: start 2419.000000, end 2452.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 66
+2026-01-04T13:27:14.677Z     Chapter #0:66: start 2452.000000, end 2455.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 67
+2026-01-04T13:27:14.677Z     Chapter #0:67: start 2455.000000, end 2458.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 68
+2026-01-04T13:27:14.677Z     Chapter #0:68: start 2458.000000, end 2469.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 69
+2026-01-04T13:27:14.677Z     Chapter #0:69: start 2469.000000, end 2475.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 70
+2026-01-04T13:27:14.677Z     Chapter #0:70: start 2475.000000, end 2478.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 71
+2026-01-04T13:27:14.677Z     Chapter #0:71: start 2478.000000, end 2489.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 72
+2026-01-04T13:27:14.677Z     Chapter #0:72: start 2489.000000, end 2498.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 73
+2026-01-04T13:27:14.677Z     Chapter #0:73: start 2498.000000, end 2514.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 74
+2026-01-04T13:27:14.677Z     Chapter #0:74: start 2514.000000, end 2552.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 75
+2026-01-04T13:27:14.677Z     Chapter #0:75: start 2552.000000, end 2608.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 76
+2026-01-04T13:27:14.677Z     Chapter #0:76: start 2608.000000, end 2679.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 77
+2026-01-04T13:27:14.677Z     Chapter #0:77: start 2679.000000, end 2734.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 78
+2026-01-04T13:27:14.677Z     Chapter #0:78: start 2734.000000, end 2775.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 79
+2026-01-04T13:27:14.677Z     Chapter #0:79: start 2775.000000, end 2821.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 80
+2026-01-04T13:27:14.677Z     Chapter #0:80: start 2821.000000, end 2874.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 81
+2026-01-04T13:27:14.677Z     Chapter #0:81: start 2874.000000, end 2906.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 82
+2026-01-04T13:27:14.677Z     Chapter #0:82: start 2906.000000, end 2928.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 83
+2026-01-04T13:27:14.677Z     Chapter #0:83: start 2928.000000, end 2961.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 84
+2026-01-04T13:27:14.677Z     Chapter #0:84: start 2961.000000, end 3016.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 85
+2026-01-04T13:27:14.677Z     Chapter #0:85: start 3016.000000, end 3093.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 86
+2026-01-04T13:27:14.677Z     Chapter #0:86: start 3093.000000, end 3156.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 87
+2026-01-04T13:27:14.677Z 
+2026-01-04T13:27:14.677Z     Chapter #0:87: start 3156.000000, end 3162.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 88
+2026-01-04T13:27:14.677Z     Chapter #0:88: start 3162.000000, end 3209.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 89
+2026-01-04T13:27:14.677Z     Chapter #0:89: start 3209.000000, end 3275.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 90
+2026-01-04T13:27:14.677Z     Chapter #0:90: start 3275.000000, end 3361.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 91
+2026-01-04T13:27:14.677Z     Chapter #0:91: start 3361.000000, end 3401.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 92
+2026-01-04T13:27:14.677Z     Chapter #0:92: start 3401.000000, end 3522.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 93
+2026-01-04T13:27:14.677Z     Chapter #0:93: start 3522.000000, end 3619.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 94
+2026-01-04T13:27:14.677Z     Chapter #0:94: start 3619.000000, end 3762.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 95
+2026-01-04T13:27:14.677Z     Chapter #0:95: start 3762.000000, end 3875.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 96
+2026-01-04T13:27:14.677Z     Chapter #0:96: start 3875.000000, end 3905.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 97
+2026-01-04T13:27:14.677Z     Chapter #0:97: start 3905.000000, end 3955.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 98
+2026-01-04T13:27:14.677Z     Chapter #0:98: start 3955.000000, end 4043.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 99
+2026-01-04T13:27:14.677Z     Chapter #0:99: start 4043.000000, end 4072.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 100
+2026-01-04T13:27:14.677Z     Chapter #0:100: start 4072.000000, end 4136.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 101
+2026-01-04T13:27:14.677Z     Chapter #0:101: start 4136.000000, end 4151.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 102
+2026-01-04T13:27:14.677Z     Chapter #0:102: start 4151.000000, end 4154.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 103
+2026-01-04T13:27:14.677Z     Chapter #0:103: start 4154.000000, end 4157.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 104
+2026-01-04T13:27:14.677Z     Chapter #0:104: start 4157.000000, end 4166.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 105
+2026-01-04T13:27:14.677Z     Chapter #0:105: start 4166.000000, end 4180.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z 
+2026-01-04T13:27:14.677Z         title           : Scene 106
+2026-01-04T13:27:14.677Z     Chapter #0:106: start 4180.000000, end 4190.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 107
+2026-01-04T13:27:14.677Z     Chapter #0:107: start 4190.000000, end 4293.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 108
+2026-01-04T13:27:14.677Z     Chapter #0:108: start 4293.000000, end 4297.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 109
+2026-01-04T13:27:14.677Z     Chapter #0:109: start 4297.000000, end 4344.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 110
+2026-01-04T13:27:14.677Z     Chapter #0:110: start 4344.000000, end 4378.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 111
+2026-01-04T13:27:14.677Z     Chapter #0:111: start 4378.000000, end 4440.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 112
+2026-01-04T13:27:14.677Z     Chapter #0:112: start 4440.000000, end 4523.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 113
+2026-01-04T13:27:14.677Z     Chapter #0:113: start 4523.000000, end 4546.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 114
+2026-01-04T13:27:14.677Z     Chapter #0:114: start 4546.000000, end 4578.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 115
+2026-01-04T13:27:14.677Z     Chapter #0:115: start 4578.000000, end 4676.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 116
+2026-01-04T13:27:14.677Z     Chapter #0:116: start 4676.000000, end 4722.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 117
+2026-01-04T13:27:14.677Z     Chapter #0:117: start 4722.000000, end 4770.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 118
+2026-01-04T13:27:14.677Z     Chapter #0:118: start 4770.000000, end 4816.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 119
+2026-01-04T13:27:14.677Z     Chapter #0:119: start 4816.000000, end 4854.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 120
+2026-01-04T13:27:14.677Z     Chapter #0:120: start 4854.000000, end 4894.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 121
+2026-01-04T13:27:14.677Z     Chapter #0:121: 
+2026-01-04T13:27:14.677Z start 4894.000000, end 4921.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 122
+2026-01-04T13:27:14.677Z     Chapter #0:122: start 4921.000000, end 4930.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 123
+2026-01-04T13:27:14.677Z     Chapter #0:123: start 4930.000000, end 5089.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 124
+2026-01-04T13:27:14.677Z     Chapter #0:124: start 5089.000000, end 5137.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 125
+2026-01-04T13:27:14.677Z     Chapter #0:125: start 5137.000000, end 5160.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 126
+2026-01-04T13:27:14.677Z     Chapter #0:126: start 5160.000000, end 5204.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 127
+2026-01-04T13:27:14.677Z     Chapter #0:127: start 5204.000000, end 5276.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 128
+2026-01-04T13:27:14.677Z     Chapter #0:128: start 5276.000000, end 5335.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 129
+2026-01-04T13:27:14.677Z     Chapter #0:129: start 5335.000000, end 5427.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 130
+2026-01-04T13:27:14.677Z     Chapter #0:130: start 5427.000000, end 5542.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 131
+2026-01-04T13:27:14.677Z     Chapter #0:131: start 5542.000000, end 5602.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 132
+2026-01-04T13:27:14.677Z     Chapter #0:132: start 5602.000000, end 5775.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 133
+2026-01-04T13:27:14.677Z     Chapter #0:133: start 5775.000000, 
+2026-01-04T13:27:14.677Z end 5852.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 134
+2026-01-04T13:27:14.677Z     Chapter #0:134: start 5852.000000, end 5961.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 135
+2026-01-04T13:27:14.677Z     Chapter #0:135: start 5961.000000, end 6021.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 136
+2026-01-04T13:27:14.677Z     Chapter #0:136: start 6021.000000, end 6054.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 137
+2026-01-04T13:27:14.677Z     Chapter #0:137: start 6054.000000, end 6137.000000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 138
+2026-01-04T13:27:14.677Z     Chapter #0:138: start 6137.000000, end 6474.592000
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Scene 139
+2026-01-04T13:27:14.677Z   Stream #0:0: Video: hevc (Main), nv12(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 24 fps, 1k tbn (default)
+2026-01-04T13:27:14.677Z 
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         encoder         : Lavc61.19.101 hevc_nvenc
+2026-01-04T13:27:14.677Z       Side data:
+2026-01-04T13:27:14.677Z         cpb: bitrate max/min/avg: 219000/0/0 buffer size: 0 vbv_delay: N/A
+2026-01-04T13:27:14.677Z   Stream #0:1(tur): Audio: eac3 ([0] [0][0] / 0x2000), 48000 Hz, 5.1(side), fltp, 640 kb/s (default)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Turkish
+2026-01-04T13:27:14.677Z   Stream #0:2(eng): Audio: eac3 (Dolby Digital Plus + Dolby Atmos) ([0] [0][0] / 0x2000), 48000 Hz, 5.1(side), fltp, 448 kb/s
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : English
+2026-01-04T13:27:14.677Z   Stream #0:3(tur): Subtitle: subrip (default) (forced)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Turkish (Forced)
+2026-01-04T13:27:14.677Z 
+2026-01-04T13:27:14.677Z   Stream #0:4(tur): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Turkish
+2026-01-04T13:27:14.677Z   Stream #0:5(ara): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Arabic (world)
+2026-01-04T13:27:14.677Z   Stream #0:6(cat): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Catalan
+2026-01-04T13:27:14.677Z   Stream #0:7(cze): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Czech
+2026-01-04T13:27:14.677Z   Stream #0:8(dan): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Danish
+2026-01-04T13:27:14.677Z   Stream #0:9(ger): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : German
+2026-01-04T13:27:14.677Z   Stream #0:10(gre): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Greek
+2026-01-04T13:27:14.677Z   Stream #0:11(eng): Subtitle: subrip (forced)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : English (Forced)
+2026-01-04T13:27:14.677Z   Stream #0:12(eng): Subtitle: subrip (hearing impaired)
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : English (SDH)
+2026-01-04T13:27:14.677Z   Stream #0:13(spa): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Spanish (Latin America)
+2026-01-04T13:27:14.677Z   Stream #0:14(spa): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Spanish (Spain)
+2026-01-04T13:27:14.677Z   Stream #0:15(baq): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Basque (Spain)
+2026-01-04T13:27:14.677Z   Stream #0:16(fin): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Finnish
+2026-01-04T13:27:14.677Z 
+2026-01-04T13:27:14.677Z   Stream #0:17(fre): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : French (Canada)
+2026-01-04T13:27:14.677Z   Stream #0:18(fre): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : French (France)
+2026-01-04T13:27:14.677Z   Stream #0:19(glg): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Galician
+2026-01-04T13:27:14.677Z   Stream #0:20(heb): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Hebrew
+2026-01-04T13:27:14.677Z   Stream #0:21(hin): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Hindi
+2026-01-04T13:27:14.677Z   Stream #0:22(hun): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Hungarian
+2026-01-04T13:27:14.677Z 
+2026-01-04T13:27:14.677Z   Stream #0:23(ind): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Indonesian
+2026-01-04T13:27:14.677Z   Stream #0:24(ita): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Italian
+2026-01-04T13:27:14.677Z   Stream #0:25(jpn): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Japanese
+2026-01-04T13:27:14.677Z   Stream #0:26(kan): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Kannada (India)
+2026-01-04T13:27:14.677Z   Stream #0:27(kor): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Korean
+2026-01-04T13:27:14.677Z 
+2026-01-04T13:27:14.677Z   Stream #0:28(mal): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Malayalam (India)
+2026-01-04T13:27:14.677Z   Stream #0:29(may): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Malay
+2026-01-04T13:27:14.677Z   Stream #0:30(nob): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Norwegian Bokmål
+2026-01-04T13:27:14.677Z   Stream #0:31(dut): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Dutch
+2026-01-04T13:27:14.677Z   Stream #0:32(pol): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Polish
+2026-01-04T13:27:14.677Z   Stream #0:33(por): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Portuguese (Brazil)
+2026-01-04T13:27:14.677Z   Stream #0:34(por): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Portuguese (Portugal)
+2026-01-04T13:27:14.677Z   Stream #0:35(rum): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Romanian
+2026-01-04T13:27:14.677Z   Stream #0:36(swe): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Swedish
+2026-01-04T13:27:14.677Z   Stream #0:37(tam): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Tamil
+2026-01-04T13:27:14.677Z   Stream #0:38(tel): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Telugu
+2026-01-04T13:27:14.677Z   Stream #0:39(tha): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Thai
+2026-01-04T13:27:14.677Z 
+2026-01-04T13:27:14.677Z   Stream #0:40(chi): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Chinese (Simplified)
+2026-01-04T13:27:14.677Z   Stream #0:41(chi): Subtitle: subrip
+2026-01-04T13:27:14.677Z       Metadata:
+2026-01-04T13:27:14.677Z         title           : Chinese (Traditional)
+2026-01-04T13:27:14.677Z 
+2026-01-04T13:27:14.677Z frame=   76 fps=0.0 q=49.0 size=      12KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame=  241 fps=241 q=47.0 size=      12KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame=  426 fps=284 q=47.0 size=    1536KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame=  575 fps=287 q=44.0 size=    2304KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame=  735 fps=294 q=43.0 size=    3328KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame=  914 fps=305 q=44.0 size=    4096KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 1084 fps=310 q=49.0 size=    5376KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 1256 fps=314 q=46.0 size=    6656KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 1451 fps=322 q=43.0 size=    7936KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 1603 fps=321 q=45.0 size=    8960KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 1768 fps=321 q=45.0 size=    9984KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 1904 fps=317 q=38.0 size=   10752KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 2082 fps=320 q=43.0 size=   12032KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 2236 fps=319 q=43.0 size=   13056KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 2340 fps=312 q=40.0 size=   13824KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 2503 fps=313 q=48.0 size=   14592KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 2625 fps=309 q=48.0 size=   15360KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 2752 fps=306 q=49.0 size=   16384KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 2912 fps=306 q=43.0 size=   17920KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 3074 fps=307 q=49.0 size=   18688KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 3244 fps=309 q=44.0 size=   20480KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 3384 fps=308 q=44.0 size=   21248KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 3565 fps=310 q=44.0 size=   22528KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 3664 fps=305 q=43.0 size=   22528KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 3802 fps=304 q=44.0 size=   23808KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 3933 fps=302 q=44.0 size=   24576KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 4058 fps=301 q=43.0 size=   25088KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 4237 fps=303 q=44.0 size=   26880KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 4419 fps=305 q=49.0 size=   28160KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 4567 fps=304 q=44.0 size=   28928KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 4724 fps=305 q=44.0 size=   30208KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 4884 fps=305 q=44.0 size=   31232KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 5026 fps=305 q=44.0 size=   32000KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 5159 fps=303 q=44.0 size=   33024KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 5330 fps=304 q=44.0 size=   33792KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 5518 fps=306 q=41.0 size=   35328KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 5697 fps=308 q=43.0 size=   36096KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 5829 fps=307 q=41.0 size=   37376KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 5999 fps=308 q=41.0 size=   38400KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 6162 fps=308 q=40.0 size=   39680KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 6277 fps=306 q=40.0 size=   40448KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 6379 fps=304 q=46.0 size=   40704KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 6489 fps=302 q=41.0 size=   41472KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 6664 fps=303 q=41.0 size=   42752KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 6788 fps=302 q=41.0 size=   43520KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z frame= 6920 fps=301 q=41.0 size=   44288KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z [matroska,webm @ 0x55a911a9a600] File ended prematurely
+2026-01-04T13:27:14.677Z 
+2026-01-04T13:27:14.677Z [out#0/matroska @ 0x55a911b0ee80] video:7350KiB audio:39049KiB subtitle:137KiB other streams:0KiB global headers:0KiB muxing overhead: 0.586784%
+2026-01-04T13:27:14.677Z frame= 7056 fps=302 q=41.0 Lsize=   46809KiB time=N/A bitrate=N/A speed=N/A    
+2026-01-04T13:27:14.677Z 
+2026-01-04T13:27:14.677Z 
+2026-01-04T13:27:14.678Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[Step W06] [C1] Worker [-success-]
+2026-01-04T13:27:14.678Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Worker success during processing
+2026-01-04T13:27:14.678Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Updating transcode stats
+2026-01-04T13:27:14.679Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Deleting non-latest cache file "/media/movies/Oh. What. Fun. (2025)/Oh.What.Fun.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv"
+2026-01-04T13:27:14.679Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Scanning new file: "/tmp/tdarr-workDir2-dyL7iq7QffQ/Oh.What.Fun.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG-TdarrCacheFile-IeMIhLtc2.mkv"
+2026-01-04T13:27:14.679Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Node scanning file
+2026-01-04T13:27:14.679Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Subworker exited null
+2026-01-04T13:27:15.680Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Scan complete
+2026-01-04T13:27:15.681Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:pluginCycleLogJSONString:{"nodeName":"MyInternalNode","workerID":"jumpy-joey","pluginCycle":1,"outcome":"success","workerLog":"\nPre-processing - Tdarr_Plugin_MC93_MigzImageRemoval\n☑File doesn't contain any unwanted image format streams.\n\nPre-processing - Tdarr_Plugin_lmg1_Reorder_Streams\nFile has video in first stream\n File meets conditions!\n\nPre-processing - Tdarr_Plugin_MC93_Migz1FFMPEG\nContainer for output selected as mkv. \nCurrent bitrate = 338 \nBitrate settings: \nTarget = 169 \nMinimum = 118 \nMaximum = 219 \nFile is not hevc or vp9. Transcoding. \n","lastCliCommand":"tdarr-ffmpeg -c:v h264_cuvid -i \"/media/movies/Oh. What. Fun. (2025)/Oh.What.Fun.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv\" -map 0 -c:v hevc_nvenc -cq:v 19 -b:v 169k -minrate 118k -maxrate 219k -bufsize 338k -spatial_aq:v 1 -rc-lookahead:v 32 -c:a copy -c:s copy -max_muxing_queue_size 9999 /tmp/tdarr-workDir2-dyL7iq7QffQ/Oh.What.Fun.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG-TdarrCacheFile-IeMIhLtc2.mkv"}
+2026-01-04T13:27:15.682Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:fileVersionLogJSONString:{"lastCliCommand":"tdarr-ffmpeg -c:v h264_cuvid -i \"/media/movies/Oh. What. Fun. (2025)/Oh.What.Fun.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG.mkv\" -map 0 -c:v hevc_nvenc -cq:v 19 -b:v 169k -minrate 118k -maxrate 219k -bufsize 338k -spatial_aq:v 1 -rc-lookahead:v 32 -c:a copy -c:s copy -max_muxing_queue_size 9999 /tmp/tdarr-workDir2-dyL7iq7QffQ/Oh.What.Fun.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG-TdarrCacheFile-IeMIhLtc2.mkv","lastPluginId":"Tdarr_Plugin_MC93_Migz1FFMPEG","sourceFile":{"_id":"/tmp/tdarr-workDir2-dyL7iq7QffQ/Oh.What.Fun.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG-TdarrCacheFile-IeMIhLtc2.mkv","DB":"qNfK1K4g-","footprintId":"OIG0rEJjE","file":"/tmp/tdarr-workDir2-dyL7iq7QffQ/Oh.What.Fun.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG-TdarrCacheFile-IeMIhLtc2.mkv","fileNameWithoutExtension":"Oh.What.Fun.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG-TdarrCacheFile-IeMIhLtc2","container":"mkv","scannerReads":{"ffProbeRead":"success","exiftoolRead":"success","mediaInfoRead":"not enabled","closedCaptionRead":"not enabled"},"createdAt":1767554833073,"lastPluginDetails":"none","bit_rate":1304217,"statSync":{"dev":62,"mode":33204,"nlink":1,"uid":1000,"gid":1000,"rdev":0,"blksize":4096,"ino":5242897,"size":47932585,"blocks":93632,"atimeMs":1767554832624.9614,"mtimeMs":1767554832436.9568,"ctimeMs":1767554832436.9568,"birthtimeMs":1767554809064.3682,"atime":"2026-01-04T19:27:12.625Z","mtime":"2026-01-04T19:27:12.437Z","ctime":"2026-01-04T19:27:12.437Z","birthtime":"2026-01-04T19:26:49.064Z"},"file_size":45.71207523345947,"ffProbeData":{"streams":[{"index":0,"codec_name":"hevc","codec_long_name":"H.265 / HEVC (High Efficiency Video Coding)","profile":"Main","codec_type":"video","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","width":1920,"height":1080,"coded_width":1920,"coded_height":1088,"closed_captions":0,"film_grain":0,"has_b_frames":0,"sample_aspect_ratio":"1:1","display_aspect_ratio":"16:9","pix_fmt":"yuv420p","level":120,"color_range":"tv","color_space":"bt709","color_transfer":"bt709","color_primaries":"bt709","chroma_location":"left","field_order":"progressive","refs":1,"view_ids_available":"","view_pos_available":"","r_frame_rate":"24/1","avg_frame_rate":"24/1","time_base":"1/1000","start_pts":0,"start_time":"0.000000","extradata_size":127,"disposition":{"default":1,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"ENCODER":"Lavc61.19.101 hevc_nvenc","DURATION":"00:04:54.000000000"}},{"index":1,"codec_name":"eac3","codec_long_name":"ATSC A/52B (AC-3, E-AC-3)","codec_type":"audio","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","sample_fmt":"fltp","sample_rate":"48000","channels":6,"channel_layout":"5.1(side)","bits_per_sample":0,"initial_padding":0,"r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","bit_rate":"640000","disposition":{"default":1,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"tur","title":"Turkish","DURATION":"00:04:54.016000000"}},{"index":2,"codec_name":"eac3","codec_long_name":"ATSC A/52B (AC-3, E-AC-3)","profile":"Dolby Digital Plus + Dolby Atmos","codec_type":"audio","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","sample_fmt":"fltp","sample_rate":"48000","channels":6,"channel_layout":"5.1(side)","bits_per_sample":0,"initial_padding":0,"r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","bit_rate":"448000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"eng","title":"English","DURATION":"00:04:54.016000000"}},{"index":3,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":1,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":1,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"tur","title":"Turkish (Forced)","DURATION":"00:04:23.791000000"}},{"index":4,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"tur","title":"Turkish","DURATION":"00:04:23.791000000"}},{"index":5,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"ara","title":"Arabic (world)","DURATION":"00:04:23.791000000"}},{"index":6,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"cat","title":"Catalan","DURATION":"00:04:23.791000000"}},{"index":7,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"cze","title":"Czech","DURATION":"00:04:23.791000000"}},{"index":8,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"dan","title":"Danish","DURATION":"00:04:23.791000000"}},{"index":9,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"ger","title":"German","DURATION":"00:04:23.791000000"}},{"index":10,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"gre","title":"Greek","DURATION":"00:04:23.791000000"}},{"index":11,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":1,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"eng","title":"English (Forced)","DURATION":"00:00:00.000000000"}},{"index":12,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":1,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"eng","title":"English (SDH)","DURATION":"00:04:53.958000000"}},{"index":13,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"spa","title":"Spanish (Latin America)","DURATION":"00:04:23.791000000"}},{"index":14,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"spa","title":"Spanish (Spain)","DURATION":"00:04:23.791000000"}},{"index":15,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"baq","title":"Basque (Spain)","DURATION":"00:04:23.791000000"}},{"index":16,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"fin","title":"Finnish","DURATION":"00:04:23.791000000"}},{"index":17,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"fre","title":"French (Canada)","DURATION":"00:04:23.791000000"}},{"index":18,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"fre","title":"French (France)","DURATION":"00:04:23.791000000"}},{"index":19,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"glg","title":"Galician","DURATION":"00:04:23.791000000"}},{"index":20,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"heb","title":"Hebrew","DURATION":"00:04:23.791000000"}},{"index":21,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"hin","title":"Hindi","DURATION":"00:04:23.791000000"}},{"index":22,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"hun","title":"Hungarian","DURATION":"00:04:23.791000000"}},{"index":23,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"ind","title":"Indonesian","DURATION":"00:04:23.791000000"}},{"index":24,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"ita","title":"Italian","DURATION":"00:04:23.791000000"}},{"index":25,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"jpn","title":"Japanese","DURATION":"00:04:23.750000000"}},{"index":26,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"kan","title":"Kannada (India)","DURATION":"00:04:23.791000000"}},{"index":27,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"kor","title":"Korean","DURATION":"00:04:23.791000000"}},{"index":28,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"mal","title":"Malayalam (India)","DURATION":"00:04:23.791000000"}},{"index":29,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"may","title":"Malay","DURATION":"00:04:23.791000000"}},{"index":30,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"nob","title":"Norwegian Bokmål","DURATION":"00:04:23.791000000"}},{"index":31,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"dut","title":"Dutch","DURATION":"00:04:23.791000000"}},{"index":32,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"pol","title":"Polish","DURATION":"00:04:23.791000000"}},{"index":33,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"por","title":"Portuguese (Brazil)","DURATION":"00:04:23.791000000"}},{"index":34,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"por","title":"Portuguese (Portugal)","DURATION":"00:04:23.791000000"}},{"index":35,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"rum","title":"Romanian","DURATION":"00:04:23.791000000"}},{"index":36,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"swe","title":"Swedish","DURATION":"00:04:23.791000000"}},{"index":37,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"tam","title":"Tamil","DURATION":"00:04:23.791000000"}},{"index":38,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"tel","title":"Telugu","DURATION":"00:04:23.791000000"}},{"index":39,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"tha","title":"Thai","DURATION":"00:04:23.791000000"}},{"index":40,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"chi","title":"Chinese (Simplified)","DURATION":"00:04:23.791000000"}},{"index":41,"codec_name":"subrip","codec_long_name":"SubRip subtitle","codec_type":"subtitle","codec_tag_string":"[0][0][0][0]","codec_tag":"0x0000","r_frame_rate":"0/0","avg_frame_rate":"0/0","time_base":"1/1000","start_pts":0,"start_time":"0.000000","duration_ts":294016,"duration":"294.016000","disposition":{"default":0,"dub":0,"original":0,"comment":0,"lyrics":0,"karaoke":0,"forced":0,"hearing_impaired":0,"visual_impaired":0,"clean_effects":0,"attached_pic":0,"timed_thumbnails":0,"non_diegetic":0,"captions":0,"descriptions":0,"metadata":0,"dependent":0,"still_image":0,"multilayer":0},"tags":{"language":"chi","title":"Chinese (Traditional)","DURATION":"00:04:23.791000000"}}],"format":{"filename":"/tmp/tdarr-workDir2-dyL7iq7QffQ/Oh.What.Fun.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG-TdarrCacheFile-IeMIhLtc2.mkv","nb_streams":42,"nb_programs":0,"nb_stream_groups":0,"format_name":"matroska,webm","format_long_name":"Matroska / WebM","start_time":"0.000000","duration":"294.016000","size":"47932585","bit_rate":"1304217","probe_score":100,"tags":{"ENCODER":"Lavf61.7.100"}}},"meta":{"SourceFile":"/tmp/tdarr-workDir2-dyL7iq7QffQ/Oh.What.Fun.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG-TdarrCacheFile-IeMIhLtc2.mkv","errors":[],"tz":"UTC","tzSource":"defaultVideosToUTC","Duration":"00:04:23.791000000","ExifToolVersion":12.6,"FileName":"Oh.What.Fun.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG-TdarrCacheFile-IeMIhLtc2.mkv","Directory":"/tmp/tdarr-workDir2-dyL7iq7QffQ","FileSize":"48 MB","FileModifyDate":{"_ctor":"ExifDateTime","year":2026,"month":1,"day":4,"hour":19,"minute":27,"second":12,"tzoffsetMinutes":0,"rawValue":"2026:01:04 19:27:12+00:00","zoneName":"UTC"},"FileAccessDate":{"_ctor":"ExifDateTime","year":2026,"month":1,"day":4,"hour":19,"minute":27,"second":12,"tzoffsetMinutes":0,"rawValue":"2026:01:04 19:27:12+00:00","zoneName":"UTC"},"FileInodeChangeDate":{"_ctor":"ExifDateTime","year":2026,"month":1,"day":4,"hour":19,"minute":27,"second":12,"tzoffsetMinutes":0,"rawValue":"2026:01:04 19:27:12+00:00","zoneName":"UTC"},"FilePermissions":"-rw-rw-r--","FileType":"MKV","FileTypeExtension":"mkv","MIMEType":"video/x-matroska","EBMLVersion":1,"EBMLReadVersion":1,"DocType":"matroska","DocTypeVersion":4,"DocTypeReadVersion":2,"TimecodeScale":"1 ms","MuxingApp":"Lavf61.7.100","WritingApp":"Lavf61.7.100","VideoFrameRate":24,"ImageWidth":1920,"ImageHeight":1080,"VideoScanType":"Unknown (2)","AudioChannels":6,"AudioSampleRate":48000,"AudioBitsPerSample":32,"TrackForced":"Yes","TrackNumber":42,"TrackUID":"18081a523cb11395","TrackName":"Chinese (Traditional)","TrackLanguage":"chi","TrackDefault":"No","CodecID":"S_TEXT/UTF8","TrackType":"Subtitle","ChapterTimeStart":"1:42:17","ChapterTimeEnd":"1:47:55","ChapterString":"Scene 139","ChapterLanguage":"und","Encoder":"Lavc61.19.101 hevc_nvenc","TagTrackUID":"18081a523cb11395","ImageSize":"1920x1080","Megapixels":2.1},"mediaInfo":{},"hasClosedCaptions":false,"bumped":false,"HealthCheck":"","TranscodeDecisionMaker":"","holdUntil":0,"fileMedium":"video","video_codec_name":"hevc","audio_codec_name":"eac3","video_resolution":"1080p","lastHealthCheckDate":0,"lastTranscodeDate":0,"history":"","oldSize":0.044640698470175266,"newSize":0,"newVsOldRatio":0,"videoStreamIndex":0,"duration":294}}
+2026-01-04T13:27:15.683Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Transcodes during this job so far: 1
+2026-01-04T13:27:15.683Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[Step W02] [C2] Running pre-process file
+2026-01-04T13:27:15.683Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Checking files can be accessed
+2026-01-04T13:27:15.684Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:File found locally
+2026-01-04T13:27:15.684Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Relevant paths can be accessed
+2026-01-04T13:27:15.684Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Source file: "/tmp/tdarr-workDir2-dyL7iq7QffQ/Oh.What.Fun.2025.1080p.AMZN.WEB-DL.DUAL.DDP5.1.Atmos.H.264-TURG-TdarrCacheFile-IeMIhLtc2.mkv"
+2026-01-04T13:27:15.685Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Cache folder: "/tmp/tdarr-workDir2-dyL7iq7QffQ"
+2026-01-04T13:27:15.685Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[Step W03] [C2] Analysing file - running plugins
+2026-01-04T13:27:15.685Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:New cache file has already been scanned, no need to scan again
+2026-01-04T13:27:15.685Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Updating Node relay: Processing
+2026-01-04T13:27:15.686Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[1/2] Checking file frame count
+2026-01-04T13:27:15.686Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[2/2] Frame count 0
+2026-01-04T13:27:15.686Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Transcode task, determining transcode settings
+2026-01-04T13:27:15.687Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Plugin stack selected
+2026-01-04T13:27:15.687Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Plugin: plugin1:  Tdarr_Plugin_MC93_MigzImageRemoval
+2026-01-04T13:27:15.687Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[1/5] Reading plugin
+2026-01-04T13:27:15.688Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[2/5] Plugin read finished
+2026-01-04T13:27:15.688Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[3/5] Installing dependencies
+2026-01-04T13:27:15.688Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[4/5] Running plugin
+2026-01-04T13:27:15.689Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:{"pluginInputs":{}}
+2026-01-04T13:27:15.689Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[5/5] Running plugin finished
+2026-01-04T13:27:15.689Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Plugin: plugin2:  Tdarr_Plugin_lmg1_Reorder_Streams
+2026-01-04T13:27:15.690Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[1/5] Reading plugin
+2026-01-04T13:27:15.690Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[2/5] Plugin read finished
+2026-01-04T13:27:15.690Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[3/5] Installing dependencies
+2026-01-04T13:27:15.690Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[4/5] Running plugin
+2026-01-04T13:27:15.691Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:{"pluginInputs":{}}
+2026-01-04T13:27:15.691Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[5/5] Running plugin finished
+2026-01-04T13:27:15.691Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Plugin: plugin4:  Tdarr_Plugin_MC93_Migz1FFMPEG
+2026-01-04T13:27:15.692Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[1/5] Reading plugin
+2026-01-04T13:27:15.692Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[2/5] Plugin read finished
+2026-01-04T13:27:15.693Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[3/5] Installing dependencies
+2026-01-04T13:27:15.693Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[4/5] Running plugin
+2026-01-04T13:27:15.693Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:{"pluginInputs":{"container":"mkv","bitrate_cutoff":"","enable_10bit":false,"enable_bframes":false,"force_conform":false}}
+2026-01-04T13:27:15.693Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[5/5] Running plugin finished
+2026-01-04T13:27:15.694Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Plugin: plugin5:  Tdarr_Plugin_a9he_New_file_size_check
+2026-01-04T13:27:15.694Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[1/5] Reading plugin
+2026-01-04T13:27:15.694Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[2/5] Plugin read finished
+2026-01-04T13:27:15.695Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[3/5] Installing dependencies
+2026-01-04T13:27:15.695Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[4/5] Running plugin
+2026-01-04T13:27:15.695Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:{"pluginInputs":{"upperBound":110,"lowerBound":40}}
+2026-01-04T13:27:15.696Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Error Error: New file size not within limits. New file has size 45.712 MB which is 16% of original file size:  272.563 MB. lowerBound is 40%
+2026-01-04T13:27:15.696Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Worker config: {
+2026-01-04T13:27:15.696Z   "processFile": false,
+2026-01-04T13:27:15.696Z   "preset": "",
+2026-01-04T13:27:15.696Z   "handBrakeMode": false,
+2026-01-04T13:27:15.696Z   "FFmpegMode": true,
+2026-01-04T13:27:15.696Z   "reQueueAfter": true,
+2026-01-04T13:27:15.696Z   "infoLog": "File is already hevc or vp9 & in mkv. \n",
+2026-01-04T13:27:15.696Z   "container": "",
+2026-01-04T13:27:15.696Z   "handbrakeMode": "",
+2026-01-04T13:27:15.696Z   "ffmpegMode": true,
+2026-01-04T13:27:15.696Z   "error": true,
+2026-01-04T13:27:15.696Z   "cliToUse": "ffmpeg"
+2026-01-04T13:27:15.696Z }
+2026-01-04T13:27:15.696Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Worker log: 
+2026-01-04T13:27:15.696Z Pre-processing - Tdarr_Plugin_MC93_MigzImageRemoval
+2026-01-04T13:27:15.696Z ☑File doesn't contain any unwanted image format streams.
+2026-01-04T13:27:15.696Z 
+2026-01-04T13:27:15.696Z Pre-processing - Tdarr_Plugin_lmg1_Reorder_Streams
+2026-01-04T13:27:15.696Z File has video in first stream
+2026-01-04T13:27:15.696Z  File meets conditions!
+2026-01-04T13:27:15.696Z 
+2026-01-04T13:27:15.696Z Pre-processing - Tdarr_Plugin_MC93_Migz1FFMPEG
+2026-01-04T13:27:15.696Z File is already hevc or vp9 & in mkv. 
+2026-01-04T13:27:15.696Z 
+2026-01-04T13:27:15.696Z Pre-processing - Tdarr_Plugin_a9he_New_file_size_check☒Plugin error! Error: New file size not within limits. New file has size 45.712 MB which is 16% of original file size:  272.563 MB. lowerBound is 40% 
+2026-01-04T13:27:15.696Z 
+2026-01-04T13:27:15.696Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Worker config [-error-]:
+2026-01-04T13:27:15.697Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:[Step W10] Worker processing end
+2026-01-04T13:27:15.697Z dyL7iq7QffQ:Node[MyInternalNode]:Worker[jumpy-joey]:Successfully updated server with verdict: transcodeError

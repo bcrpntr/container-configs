@@ -1,0 +1,235 @@
+2026-01-04T19:23:14.923Z KrKmxAR1N:[Step S01] [2.58.02] Server relay initialising job
+2026-01-04T19:23:14.924Z KrKmxAR1N:Server: linux_x64_docker_true
+2026-01-04T19:23:14.924Z KrKmxAR1N:Server relay adding file to staged files
+2026-01-04T19:23:14.924Z KrKmxAR1N:Server relay sending job to Node relay: MyInternalNode
+2026-01-04T19:23:14.925Z KrKmxAR1N:Node[MyInternalNode]:[Step N01] [2.58.02] Node relay received job
+2026-01-04T19:23:14.925Z KrKmxAR1N:Node[MyInternalNode]:{"nodeName":"MyInternalNode","serverURL":"http://0.0.0.0:8266","serverIP":"0.0.0.0","serverPort":"8266","handbrakePath":"","ffmpegPath":"","mkvpropeditPath":"","pathTranslators":[{"server":"","node":""}],"nodeType":"mapped","unmappedNodeCache":"/app/unmappedNodeCache","logLevel":"INFO","priority":-1,"platform_arch_isdocker":"linux_x64_docker_true","processPid":700,"cronPluginUpdate":"","apiKey":"","maxLogSizeMB":"10","pollInterval":2000,"startPaused":false,"nodeID":"4GmtWdysA","seededWorkerLimits":{},"nodeRegisteredCount":1}
+2026-01-04T19:23:14.925Z KrKmxAR1N:Node[MyInternalNode]:Node relay sending job to worker:total-toad
+2026-01-04T19:23:14.926Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:[Step W01] Received file, original: "/media/movies/It Feeds (2025)/It.Feeds.2025.1080p.BluRay.DD+5.1.x264-playHD.mkv"
+2026-01-04T19:23:14.926Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:{"workerType":"healthcheckcpu"}
+2026-01-04T19:23:14.926Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:{"ffmpegPath":"tdarr-ffmpeg"}
+2026-01-04T19:23:14.927Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:{"handbrakePath":"HandBrakeCLI"}
+2026-01-04T19:23:14.927Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:{"mkvpropeditPath":"mkvpropedit"}
+2026-01-04T19:23:14.927Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:{"gpuSelect":"-"}
+2026-01-04T19:23:14.928Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:{"allowGpuDoCpu":false}
+2026-01-04T19:23:14.928Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:{"thoroughHealthCheckCpuExtraInputArgs":""}
+2026-01-04T19:23:14.928Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:{"thoroughHealthCheckGpuExtraInputArgs":""}
+2026-01-04T19:23:14.928Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:{"thoroughHealthCheckCpuExtraArgs":""}
+2026-01-04T19:23:14.929Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:{"thoroughHealthCheckGpuExtraArgs":""}
+2026-01-04T19:23:14.929Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:{"logFullCliOutput":false}
+2026-01-04T19:23:14.929Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:{"runMkvpropedit":false}
+2026-01-04T19:23:14.930Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:{"dontCleanWorkerCacheFolder":false}
+2026-01-04T19:23:14.930Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:Path translating objects
+2026-01-04T19:23:14.930Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:Running path translator tests
+2026-01-04T19:23:14.931Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:Path translator tests passed
+2026-01-04T19:23:14.931Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:{"librarySettings":{"_id":"qNfK1K4g-","priority":0,"name":"Movies","folder":"/media/movies","foldersToIgnore":"","foldersToIgnoreCaseInsensitive":false,"folderWatchScanInterval":30,"scannerThreadCount":2,"cache":"/tmp","output":".","folderToFolderConversion":false,"folderToFolderConversionDeleteSource":false,"folderToFolderRecordHistory":true,"copyIfConditionsMet":false,"container":".mkv","containerFilter":"mkv,mp4,mov,m4v,mpg,mpeg,avi,flv,webm,wmv,vob,evo,iso,m2ts,ts","createdAt":1675837380368,"folderWatching":true,"useFsEvents":false,"scheduledScanFindNew":false,"processLibrary":true,"processTranscodes":true,"processHealthChecks":true,"scanOnStart":true,"exifToolScan":true,"mediaInfoScan":true,"ffprobeShowData":false,"isDirectoryLibrary":false,"closedCaptionScan":false,"scanButtons":true,"scanFound":"Files found:0","navItemSelected":"navSourceFolder","pluginIDs":[{"_id":"plugin1","id":"Tdarr_Plugin_MC93_MigzImageRemoval","checked":true,"source":"Community","priority":0,"InputsDB":{},"Name":"Migz Remove Image Formats From File","Type":"Video","Operation":"Transcode","Description":"Identify any unwanted image formats in the file and remove those streams. MJPEG, PNG & GIF \n\n","Version":"1.4","Stage":"Pre-processing","Tags":"pre-processing,ffmpeg,video only","Inputs":[],"source_id":"Community::Tdarr_Plugin_MC93_MigzImageRemoval"},{"_id":"plugin2","id":"Tdarr_Plugin_lmg1_Reorder_Streams","checked":true,"source":"Community","priority":1,"InputsDB":{},"Name":"Lmg1 Reorder Streams","Type":"Video","Operation":"Transcode","Description":"[Contains built-in filter] This plugin will move the video stream to the front so Tdarr will recognize the codec correctly.\n\n","Version":"1.00","Stage":"Pre-processing","Tags":"pre-processing,ffmpeg","Inputs":[],"source_id":"Community::Tdarr_Plugin_lmg1_Reorder_Streams"},{"_id":"plugin4","id":"Tdarr_Plugin_MC93_Migz1FFMPEG","checked":true,"source":"Community","priority":2,"InputsDB":{},"Name":"Migz Transcode Using Nvidia GPU & FFMPEG","Type":"Video","Operation":"Transcode","Description":"Files not in H265 will be transcoded into H265 using Nvidia GPU with ffmpeg.\n                  Settings are dependant on file bitrate\n                  Working by the logic that H265 can support the same ammount of data at half the bitrate of H264.\n                  NVDEC & NVENC compatable GPU required.\n                  This plugin will skip any files that are in the VP9 codec.","Version":"3.1","Stage":"Pre-processing","Tags":"pre-processing,ffmpeg,video only,nvenc h265,configurable","Inputs":[{"name":"container","type":"string","defaultValue":"mkv","inputUI":{"type":"text"},"tooltip":"Specify output container of file. Use 'original' wihout quotes to keep original container.\n                \\n Ensure that all stream types you may have are supported by your chosen container.\n                \\n mkv is recommended.\n                    \\nExample:\\n\n                    mkv\n\n                    \\nExample:\\n\n                    mp4\n                    \n                    \\nExample:\\n\n                    original"},{"name":"bitrate_cutoff","type":"string","defaultValue":"","inputUI":{"type":"text"},"tooltip":"Specify bitrate cutoff, files with a current bitrate lower then this will not be transcoded.\n               \\n Rate is in kbps.\n               \\n Leave empty to disable.\n                    \\nExample:\\n\n                    6000\n\n                    \\nExample:\\n\n                    4000"},{"name":"enable_10bit","type":"boolean","defaultValue":false,"inputUI":{"type":"dropdown","options":["false","true"]},"tooltip":"Specify if output file should be 10bit. Default is false.\n                    \\nExample:\\n\n                    true\n\n                    \\nExample:\\n\n                    false"},{"name":"enable_bframes","type":"boolean","defaultValue":false,"inputUI":{"type":"dropdown","options":["false","true"]},"tooltip":"Specify if b frames should be used.\n                 \\n Using B frames should decrease file sizes but are only supported on newer GPUs.\n                 \\n Default is false.\n                    \\nExample:\\n\n                    true\n\n                    \\nExample:\\n\n                    false"},{"name":"force_conform","type":"boolean","defaultValue":false,"inputUI":{"type":"dropdown","options":["false","true"]},"tooltip":"Make the file conform to output containers requirements.\n                \\n Drop hdmv_pgs_subtitle/eia_608/subrip/timed_id3 for MP4.\n                \\n Drop data streams/mov_text/eia_608/timed_id3 for MKV.\n                \\n Default is false.\n                    \\nExample:\\n\n                    true\n\n                    \\nExample:\\n\n                    false"}],"source_id":"Community::Tdarr_Plugin_MC93_Migz1FFMPEG"},{"_id":"plugin5","id":"Tdarr_Plugin_a9he_New_file_size_check","checked":true,"source":"Community","priority":3,"InputsDB":{},"Name":"New File Size Check","Type":"Video","Operation":"Transcode","Description":"Give an error if new file is not within the specified upper and lower bound limits \n\n","Version":"1.00","Stage":"Pre-processing","Tags":"","Inputs":[{"name":"upperBound","type":"number","defaultValue":110,"inputUI":{"type":"text"},"tooltip":"Enter the upper bound % size for the new file. For example, if '110' is entered, \n        then if the new file size is greater than 110% the size of the original, an error will be given."},{"name":"lowerBound","type":"number","defaultValue":40,"inputUI":{"type":"text"},"tooltip":"Enter the lower bound % size for the new file. For example, if '90' is entered, \n        then if the new file size is less than 90% of the original, an error will be given."}],"source_id":"Community::Tdarr_Plugin_a9he_New_file_size_check"}],"pluginCommunity":true,"handbrake":true,"ffmpeg":false,"handbrakescan":true,"ffmpegscan":false,"preset":"-Z \"Very Fast 1080p30\"","decisionMaker":{"settingsPlugin":true,"settingsFlows":false,"settingsVideo":false,"videoExcludeSwitch":true,"video_codec_names_exclude":[{"codec":"hevc","checked":false},{"codec":"h264","checked":true}],"video_size_range_include":{"min":0,"max":100000},"video_height_range_include":{"min":0,"max":3000},"video_width_range_include":{"min":0,"max":4000},"settingsAudio":false,"audioExcludeSwitch":true,"audio_codec_names_exclude":[{"codec":"mp3","checked":true},{"codec":"aac","checked":false}],"audio_size_range_include":{"min":0,"max":10}},"schedule":[{"_id":"Sun:00-01","checked":true},{"_id":"Sun:01-02","checked":true},{"_id":"Sun:02-03","checked":true},{"_id":"Sun:03-04","checked":true},{"_id":"Sun:04-05","checked":true},{"_id":"Sun:05-06","checked":true},{"_id":"Sun:06-07","checked":true},{"_id":"Sun:07-08","checked":true},{"_id":"Sun:08-09","checked":true},{"_id":"Sun:09-10","checked":true},{"_id":"Sun:10-11","checked":true},{"_id":"Sun:11-12","checked":true},{"_id":"Sun:12-13","checked":true},{"_id":"Sun:13-14","checked":true},{"_id":"Sun:14-15","checked":true},{"_id":"Sun:15-16","checked":true},{"_id":"Sun:16-17","checked":true},{"_id":"Sun:17-18","checked":true},{"_id":"Sun:18-19","checked":true},{"_id":"Sun:19-20","checked":true},{"_id":"Sun:20-21","checked":true},{"_id":"Sun:21-22","checked":true},{"_id":"Sun:22-23","checked":true},{"_id":"Sun:23-00","checked":true},{"_id":"Mon:00-01","checked":true},{"_id":"Mon:01-02","checked":true},{"_id":"Mon:02-03","checked":true},{"_id":"Mon:03-04","checked":true},{"_id":"Mon:04-05","checked":true},{"_id":"Mon:05-06","checked":true},{"_id":"Mon:06-07","checked":true},{"_id":"Mon:07-08","checked":true},{"_id":"Mon:08-09","checked":true},{"_id":"Mon:09-10","checked":true},{"_id":"Mon:10-11","checked":true},{"_id":"Mon:11-12","checked":true},{"_id":"Mon:12-13","checked":true},{"_id":"Mon:13-14","checked":true},{"_id":"Mon:14-15","checked":true},{"_id":"Mon:15-16","checked":true},{"_id":"Mon:16-17","checked":true},{"_id":"Mon:17-18","checked":true},{"_id":"Mon:18-19","checked":true},{"_id":"Mon:19-20","checked":true},{"_id":"Mon:20-21","checked":true},{"_id":"Mon:21-22","checked":true},{"_id":"Mon:22-23","checked":true},{"_id":"Mon:23-00","checked":true},{"_id":"Tue:00-01","checked":true},{"_id":"Tue:01-02","checked":true},{"_id":"Tue:02-03","checked":true},{"_id":"Tue:03-04","checked":true},{"_id":"Tue:04-05","checked":true},{"_id":"Tue:05-06","checked":true},{"_id":"Tue:06-07","checked":true},{"_id":"Tue:07-08","checked":true},{"_id":"Tue:08-09","checked":true},{"_id":"Tue:09-10","checked":true},{"_id":"Tue:10-11","checked":true},{"_id":"Tue:11-12","checked":true},{"_id":"Tue:12-13","checked":true},{"_id":"Tue:13-14","checked":true},{"_id":"Tue:14-15","checked":true},{"_id":"Tue:15-16","checked":true},{"_id":"Tue:16-17","checked":true},{"_id":"Tue:17-18","checked":true},{"_id":"Tue:18-19","checked":true},{"_id":"Tue:19-20","checked":true},{"_id":"Tue:20-21","checked":true},{"_id":"Tue:21-22","checked":true},{"_id":"Tue:22-23","checked":true},{"_id":"Tue:23-00","checked":true},{"_id":"Wed:00-01","checked":true},{"_id":"Wed:01-02","checked":true},{"_id":"Wed:02-03","checked":true},{"_id":"Wed:03-04","checked":true},{"_id":"Wed:04-05","checked":true},{"_id":"Wed:05-06","checked":true},{"_id":"Wed:06-07","checked":true},{"_id":"Wed:07-08","checked":true},{"_id":"Wed:08-09","checked":true},{"_id":"Wed:09-10","checked":true},{"_id":"Wed:10-11","checked":true},{"_id":"Wed:11-12","checked":true},{"_id":"Wed:12-13","checked":true},{"_id":"Wed:13-14","checked":true},{"_id":"Wed:14-15","checked":true},{"_id":"Wed:15-16","checked":true},{"_id":"Wed:16-17","checked":true},{"_id":"Wed:17-18","checked":true},{"_id":"Wed:18-19","checked":true},{"_id":"Wed:19-20","checked":true},{"_id":"Wed:20-21","checked":true},{"_id":"Wed:21-22","checked":true},{"_id":"Wed:22-23","checked":true},{"_id":"Wed:23-00","checked":true},{"_id":"Thur:00-01","checked":true},{"_id":"Thur:01-02","checked":true},{"_id":"Thur:02-03","checked":true},{"_id":"Thur:03-04","checked":true},{"_id":"Thur:04-05","checked":true},{"_id":"Thur:05-06","checked":true},{"_id":"Thur:06-07","checked":true},{"_id":"Thur:07-08","checked":true},{"_id":"Thur:08-09","checked":true},{"_id":"Thur:09-10","checked":true},{"_id":"Thur:10-11","checked":true},{"_id":"Thur:11-12","checked":true},{"_id":"Thur:12-13","checked":true},{"_id":"Thur:13-14","checked":true},{"_id":"Thur:14-15","checked":true},{"_id":"Thur:15-16","checked":true},{"_id":"Thur:16-17","checked":true},{"_id":"Thur:17-18","checked":true},{"_id":"Thur:18-19","checked":true},{"_id":"Thur:19-20","checked":true},{"_id":"Thur:20-21","checked":true},{"_id":"Thur:21-22","checked":true},{"_id":"Thur:22-23","checked":true},{"_id":"Thur:23-00","checked":true},{"_id":"Fri:00-01","checked":true},{"_id":"Fri:01-02","checked":true},{"_id":"Fri:02-03","checked":true},{"_id":"Fri:03-04","checked":true},{"_id":"Fri:04-05","checked":true},{"_id":"Fri:05-06","checked":true},{"_id":"Fri:06-07","checked":true},{"_id":"Fri:07-08","checked":true},{"_id":"Fri:08-09","checked":true},{"_id":"Fri:09-10","checked":true},{"_id":"Fri:10-11","checked":true},{"_id":"Fri:11-12","checked":true},{"_id":"Fri:12-13","checked":true},{"_id":"Fri:13-14","checked":true},{"_id":"Fri:14-15","checked":true},{"_id":"Fri:15-16","checked":true},{"_id":"Fri:16-17","checked":true},{"_id":"Fri:17-18","checked":true},{"_id":"Fri:18-19","checked":true},{"_id":"Fri:19-20","checked":true},{"_id":"Fri:20-21","checked":true},{"_id":"Fri:21-22","checked":true},{"_id":"Fri:22-23","checked":true},{"_id":"Fri:23-00","checked":true},{"_id":"Sat:00-01","checked":true},{"_id":"Sat:01-02","checked":true},{"_id":"Sat:02-03","checked":true},{"_id":"Sat:03-04","checked":true},{"_id":"Sat:04-05","checked":true},{"_id":"Sat:05-06","checked":true},{"_id":"Sat:06-07","checked":true},{"_id":"Sat:07-08","checked":true},{"_id":"Sat:08-09","checked":true},{"_id":"Sat:09-10","checked":true},{"_id":"Sat:10-11","checked":true},{"_id":"Sat:11-12","checked":true},{"_id":"Sat:12-13","checked":true},{"_id":"Sat:13-14","checked":true},{"_id":"Sat:14-15","checked":true},{"_id":"Sat:15-16","checked":true},{"_id":"Sat:16-17","checked":true},{"_id":"Sat:17-18","checked":true},{"_id":"Sat:18-19","checked":true},{"_id":"Sat:19-20","checked":true},{"_id":"Sat:20-21","checked":true},{"_id":"Sat:21-22","checked":true},{"_id":"Sat:22-23","checked":true},{"_id":"Sat:23-00","checked":true}],"totalHealthCheckCount":98,"totalTranscodeCount":8,"sizeDiff":0,"holdNewFiles":false,"holdFor":3600,"holdForDisplayUnit":"hours","pluginStackOverview":true,"filterResolutionsSkip":"","filterCodecsSkip":"","filterContainersSkip":"","processPluginsSequentially":true}}
+2026-01-04T19:23:14.931Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:Scanning original library file
+2026-01-04T19:23:14.931Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:{
+2026-01-04T19:23:14.931Z   "exifToolScan": true,
+2026-01-04T19:23:14.931Z   "mediaInfoScan": false,
+2026-01-04T19:23:14.931Z   "closedCaptionScan": false
+2026-01-04T19:23:14.931Z }
+2026-01-04T19:23:14.932Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:Node scanning file
+2026-01-04T19:23:14.932Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:Scan complete
+2026-01-04T19:23:14.932Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:Original file scanned
+2026-01-04T19:23:14.932Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:Source file to work on determined:"/media/movies/It Feeds (2025)/It.Feeds.2025.1080p.BluRay.DD+5.1.x264-playHD.mkv"
+2026-01-04T19:23:14.933Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:[Step W02] [C1] Running pre-process file
+2026-01-04T19:23:14.933Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:Checking files can be accessed
+2026-01-04T19:23:14.933Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:mapped node, file is original, no need to download
+2026-01-04T19:23:14.933Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:Relevant paths can be accessed
+2026-01-04T19:23:14.934Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:Source file: "/media/movies/It Feeds (2025)/It.Feeds.2025.1080p.BluRay.DD+5.1.x264-playHD.mkv"
+2026-01-04T19:23:14.934Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:[Step W03] [C1] Analysing file - running plugins
+2026-01-04T19:23:14.934Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:Handbrake healthcheck task, no need to scan for extra file details
+2026-01-04T19:23:14.934Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:Updating Node relay: Processing
+2026-01-04T19:23:14.935Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:[1/2] Checking file frame count
+2026-01-04T19:23:14.935Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:[2/2] Frame count 0
+2026-01-04T19:23:14.935Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:Determining healthcheck command
+2026-01-04T19:23:14.935Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:[Step W04] [C1] Preparing command
+2026-01-04T19:23:14.936Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:Cache file stem: "/tmp/tdarr-workDir2-KrKmxAR1N"
+2026-01-04T19:23:14.936Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:Cache file path: "/tmp/tdarr-workDir2-KrKmxAR1N/It.Feeds.2025.1080p.BluRay.DD+5.1.x264-playHD-TdarrCacheFile-qmDSH_81G.mp4"
+2026-01-04T19:23:14.936Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:Create transcode args
+2026-01-04T19:23:14.936Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:Args:  -i "/media/movies/It Feeds (2025)/It.Feeds.2025.1080p.BluRay.DD+5.1.x264-playHD.mkv" -o /tmp/tdarr-workDir2-KrKmxAR1N/It.Feeds.2025.1080p.BluRay.DD+5.1.x264-playHD-TdarrCacheFile-qmDSH_81G.mp4 --scan
+2026-01-04T19:23:14.937Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:Getting source file size
+2026-01-04T19:23:14.937Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:Source file size: 8.690084096975625
+2026-01-04T19:23:14.937Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:Performing safety check on worker config to see if old transcode args/container match new ones
+2026-01-04T19:23:14.937Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:Safety check complete, all good
+2026-01-04T19:23:14.938Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:[Step W05] [C1] Launching subworker
+2026-01-04T19:23:14.938Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:Preparing to launch subworker
+2026-01-04T19:23:14.938Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:Subworker launched
+2026-01-04T19:23:14.938Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:[1/3] Sending command to subworker
+2026-01-04T19:23:14.938Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:[2/3] HandBrakeCLI -i "/media/movies/It Feeds (2025)/It.Feeds.2025.1080p.BluRay.DD+5.1.x264-playHD.mkv" -o /tmp/tdarr-workDir2-KrKmxAR1N/It.Feeds.2025.1080p.BluRay.DD+5.1.x264-playHD-TdarrCacheFile-qmDSH_81G.mp4 --scan
+2026-01-04T19:23:14.939Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:[3/3] Command sent
+2026-01-04T19:23:14.939Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:To see live CLI output, enable 'Log full FFmpeg/HandBrake output' in the staging section on the Tdarr tab before the job starts. Note this could increase the job report size substantially.
+2026-01-04T19:23:15.940Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:Subworker:Online
+2026-01-04T19:23:15.940Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:Subworker:Receiving transcode settings
+2026-01-04T19:23:15.940Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:Subworker:Running CLI
+2026-01-04T19:23:16.941Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:Subworker:a.Thread closed, code: 0
+2026-01-04T19:23:16.942Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:Subworker exit approved, killing subworker
+2026-01-04T19:23:16.942Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:Subworker killed
+2026-01-04T19:23:16.942Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:b.Thread closed, code: 0
+2026-01-04T19:23:16.942Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:CLI code: 0
+2026-01-04T19:23:16.943Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:Last 200 lines of CLI log:
+2026-01-04T19:23:16.943Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:[19:23:12] Compile-time hardening features are enabled
+2026-01-04T19:23:16.943Z 
+2026-01-04T19:23:16.943Z [19:23:12] nvenc: version 12.2 is available
+2026-01-04T19:23:16.943Z [19:23:12] nvdec: is available
+2026-01-04T19:23:16.943Z 
+2026-01-04T19:23:16.943Z [19:23:13] CUDA Version: 6.1
+2026-01-04T19:23:16.943Z 
+2026-01-04T19:23:16.943Z [19:23:13] qsv: not available on this system
+2026-01-04T19:23:16.943Z 
+2026-01-04T19:23:16.943Z [19:23:13] hb_init: starting libhb thread
+2026-01-04T19:23:16.943Z [19:23:13] thread 7f87bffff6c0 started ("libhb")
+2026-01-04T19:23:16.943Z HandBrake 1.10.2 (2025102400) - Linux x86_64 - https://handbrake.fr
+2026-01-04T19:23:16.943Z 16 CPUs detected
+2026-01-04T19:23:16.943Z 
+2026-01-04T19:23:16.943Z Opening /media/movies/It Feeds (2025)/It.Feeds.2025.1080p.BluRay.DD+5.1.x264-playHD.mkv...
+2026-01-04T19:23:16.943Z 
+2026-01-04T19:23:16.943Z [19:23:13] CPU: Common KVM processor
+2026-01-04T19:23:16.943Z [19:23:13]  - logical processor count: 16
+2026-01-04T19:23:16.943Z [19:23:13] Intel Quick Sync Video support: no
+2026-01-04T19:23:16.943Z [19:23:13] hb_scan: path=/media/movies/It Feeds (2025)/It.Feeds.2025.1080p.BluRay.DD+5.1.x264-playHD.mkv, title_index=1
+2026-01-04T19:23:16.943Z 
+2026-01-04T19:23:16.943Z Input #0, matroska,webm, from '/media/movies/It Feeds (2025)/It.Feeds.2025.1080p.BluRay.DD+5.1.x264-playHD.mkv':
+2026-01-04T19:23:16.943Z   Metadata:
+2026-01-04T19:23:16.943Z     title           : It.Feeds.2025.1080p.BluRay.DD+5.1.x264-playHD
+2026-01-04T19:23:16.943Z     encoder         : libebml v1.4.5 + libmatroska v1.7.1
+2026-01-04T19:23:16.943Z     creation_time   : 2025-12-22T14:57:54.000000Z
+2026-01-04T19:23:16.943Z   Duration: 01:42:05.62, start: 0.000000, bitrate: 12186 kb/s
+2026-01-04T19:23:16.943Z   Chapters:
+2026-01-04T19:23:16.943Z     Chapter #0:0: start 0.000000, end 361.194000
+2026-01-04T19:23:16.943Z       Metadata:
+2026-01-04T19:23:16.943Z         title           : (01)00:00:00:000
+2026-01-04T19:23:16.943Z     Chapter #0:1: start 361.194000, end 795.377000
+2026-01-04T19:23:16.943Z       Metadata:
+2026-01-04T19:23:16.943Z         title           : (02)00:06:01:194
+2026-01-04T19:23:16.943Z     Chapter #0:2: start 795.377000, end 1411.368000
+2026-01-04T19:23:16.943Z       Metadata:
+2026-01-04T19:23:16.943Z         title           : (03)00:13:15:377
+2026-01-04T19:23:16.943Z     Chapter #0:3: start 1411.368000, end 1958.414000
+2026-01-04T19:23:16.943Z       Metadata:
+2026-01-04T19:23:16.943Z         title           : (04)00:23:31:368
+2026-01-04T19:23:16.943Z 
+2026-01-04T19:23:16.943Z     Chapter #0:4: start 1958.414000, end 2710.290000
+2026-01-04T19:23:16.943Z       Metadata:
+2026-01-04T19:23:16.943Z         title           : (05)00:32:38:414
+2026-01-04T19:23:16.943Z     Chapter #0:5: start 2710.290000, end 3204.159000
+2026-01-04T19:23:16.943Z       Metadata:
+2026-01-04T19:23:16.943Z         title           : (06)00:45:10:290
+2026-01-04T19:23:16.943Z     Chapter #0:6: start 3204.159000, end 3533.112000
+2026-01-04T19:23:16.943Z       Metadata:
+2026-01-04T19:23:16.943Z         title           : (07)00:53:24:159
+2026-01-04T19:23:16.943Z     Chapter #0:7: start 3533.112000, end 4084.830000
+2026-01-04T19:23:16.943Z       Metadata:
+2026-01-04T19:23:16.943Z         title           : (08)00:58:53:112
+2026-01-04T19:23:16.943Z     Chapter #0:8: start 4084.830000, end 4608.020000
+2026-01-04T19:23:16.943Z       Metadata:
+2026-01-04T19:23:16.943Z         title           : (09)01:08:04:830
+2026-01-04T19:23:16.943Z     Chapter #0:9: start 4608.020000, end 5321.774000
+2026-01-04T19:23:16.943Z       Metadata:
+2026-01-04T19:23:16.943Z         title           : (10)01:16:48:020
+2026-01-04T19:23:16.943Z     Chapter #0:10: start 5321.774000, end 5864.859000
+2026-01-04T19:23:16.943Z       Metadata:
+2026-01-04T19:23:16.943Z         title           : (11)01:28:41:774
+2026-01-04T19:23:16.943Z     Chapter #0:11: start 5864.859000, end 6125.577000
+2026-01-04T19:23:16.943Z       Metadata:
+2026-01-04T19:23:16.943Z         title           : (12)01:37:44:859
+2026-01-04T19:23:16.943Z     Chapter #0:12: start 6125.577000, end 6125.620000
+2026-01-04T19:23:16.943Z       Metadata:
+2026-01-04T19:23:16.943Z         title           : (13)01:42:05:577
+2026-01-04T19:23:16.943Z   Stream #0:0(eng): Video: h264 (High), yuv420p(progressive), 1920x800 [SAR 1:1 DAR 12:5], 23.98 fps, 23.98 tbr, 1k tbn (default)
+2026-01-04T19:23:16.943Z       Metadata:
+2026-01-04T19:23:16.943Z         BPS             : 11159818
+2026-01-04T19:23:16.943Z         DURATION        : 
+2026-01-04T19:23:16.943Z 01:42:05.620000000
+2026-01-04T19:23:16.943Z         NUMBER_OF_FRAMES: 146868
+2026-01-04T19:23:16.943Z         NUMBER_OF_BYTES : 8545100624
+2026-01-04T19:23:16.943Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T19:23:16.943Z         _STATISTICS_WRITING_DATE_UTC: 2025-12-22 14:57:54
+2026-01-04T19:23:16.943Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T19:23:16.943Z   Stream #0:1(eng): Audio: eac3, 48000 Hz, 5.1(side), fltp, 1024 kb/s (default)
+2026-01-04T19:23:16.943Z       Metadata:
+2026-01-04T19:23:16.943Z         BPS             : 1024000
+2026-01-04T19:23:16.943Z         DURATION        : 01:42:05.600000000
+2026-01-04T19:23:16.943Z         NUMBER_OF_FRAMES: 191425
+2026-01-04T19:23:16.943Z         NUMBER_OF_BYTES : 784076800
+2026-01-04T19:23:16.943Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T19:23:16.943Z         _STATISTICS_WRITING_DATE_UTC: 2025-12-22 14:57:54
+2026-01-04T19:23:16.943Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T19:23:16.943Z   Stream #0:2(rum)
+2026-01-04T19:23:16.943Z : Subtitle: subrip (srt)
+2026-01-04T19:23:16.943Z       Metadata:
+2026-01-04T19:23:16.943Z         BPS             : 39
+2026-01-04T19:23:16.943Z         DURATION        : 01:37:06.760000000
+2026-01-04T19:23:16.943Z         NUMBER_OF_FRAMES: 993
+2026-01-04T19:23:16.943Z         NUMBER_OF_BYTES : 28771
+2026-01-04T19:23:16.943Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T19:23:16.943Z         _STATISTICS_WRITING_DATE_UTC: 2025-12-22 14:57:54
+2026-01-04T19:23:16.943Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T19:23:16.943Z   Stream #0:3(eng): Subtitle: subrip (srt)
+2026-01-04T19:23:16.943Z       Metadata:
+2026-01-04T19:23:16.943Z         BPS             : 38
+2026-01-04T19:23:16.943Z         DURATION        : 01:36:45.159000000
+2026-01-04T19:23:16.943Z         NUMBER_OF_FRAMES: 1003
+2026-01-04T19:23:16.943Z         NUMBER_OF_BYTES : 27973
+2026-01-04T19:23:16.943Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T19:23:16.943Z         _STATISTICS_WRITING_DATE_UTC: 2025-12-22 14:57:54
+2026-01-04T19:23:16.943Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T19:23:16.943Z   Stream #0:4(eng): Subtitle: subrip (srt) (hearing impaired)
+2026-01-04T19:23:16.943Z       Metadata:
+2026-01-04T19:23:16.943Z         title           : SDH
+2026-01-04T19:23:16.943Z         BPS             : 43
+2026-01-04T19:23:16.943Z         DURATION        : 01:39:20.271000000
+2026-01-04T19:23:16.943Z         NUMBER_OF_FRAMES: 1477
+2026-01-04T19:23:16.943Z         NUMBER_OF_BYTES : 32246
+2026-01-04T19:23:16.943Z         _STATISTICS_WRITING_APP: mkvmerge v88.0 ('All I Know') 64-bit
+2026-01-04T19:23:16.943Z         _STATISTICS_WRITING_DATE_UTC: 2025-12-22 14:57:54
+2026-01-04T19:23:16.943Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T19:23:16.943Z 
+2026-01-04T19:23:16.943Z [19:23:13] scan: decoding previews for title 1
+2026-01-04T19:23:16.943Z 
+2026-01-04T19:23:16.943Z [19:23:13] scan: audio 0x1: eac3, rate=48000Hz, bitrate=1024000 English (E-AC3, 5.1 ch, 1024 kbps)
+2026-01-04T19:23:16.943Z 
+2026-01-04T19:23:16.943Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-04T19:23:16.943Z [19:23:14] using container PAR 1:1
+2026-01-04T19:23:16.943Z [19:23:14] scan: 10 previews, 1920x800, 23.976 fps, autocrop = 0/0/0/0, aspect 2.40:1, PAR 1:1, color profile: 1-1-1, chroma location: left
+2026-01-04T19:23:16.943Z 
+2026-01-04T19:23:16.943Z [19:23:14] libhb: scan thread found 1 valid title(s)
+2026-01-04T19:23:16.943Z 
+2026-01-04T19:23:16.943Z + title 1:
+2026-01-04T19:23:16.943Z   + stream: /media/movies/It Feeds (2025)/It.Feeds.2025.1080p.BluRay.DD+5.1.x264-playHD.mkv
+2026-01-04T19:23:16.943Z   + duration: 01:42:05
+2026-01-04T19:23:16.943Z   + size: 1920x800, pixel aspect: 1/1, display aspect: 2.40, 23.976 fps
+2026-01-04T19:23:16.943Z   + autocrop: 0/0/0/0
+2026-01-04T19:23:16.943Z   + chapters:
+2026-01-04T19:23:16.943Z     + 1: duration 00:06:01
+2026-01-04T19:23:16.943Z     + 2: duration 00:07:14
+2026-01-04T19:23:16.943Z     + 3: duration 00:10:16
+2026-01-04T19:23:16.943Z     + 4: duration 00:09:07
+2026-01-04T19:23:16.943Z     + 5: duration 00:12:32
+2026-01-04T19:23:16.943Z     + 6: duration 00:08:14
+2026-01-04T19:23:16.943Z     + 7: duration 00:05:29
+2026-01-04T19:23:16.943Z     + 8: duration 00:09:12
+2026-01-04T19:23:16.943Z     + 9: duration 00:08:43
+2026-01-04T19:23:16.943Z     + 10: duration 00:11:54
+2026-01-04T19:23:16.943Z     + 11: duration 00:09:03
+2026-01-04T19:23:16.943Z     + 12: duration 00:04:21
+2026-01-04T19:23:16.943Z     + 13: duration 00:00:00
+2026-01-04T19:23:16.943Z   + audio tracks:
+2026-01-04T19:23:16.943Z     + 1, English (E-AC3, 5.1 ch, 1024 kbps) (iso639-2: eng)
+2026-01-04T19:23:16.943Z   + subtitle tracks:
+2026-01-04T19:23:16.943Z     + 1, română (UTF-8)
+2026-01-04T19:23:16.943Z     + 2, English (UTF-8)
+2026-01-04T19:23:16.943Z     + 3, English (UTF-8)
+2026-01-04T19:23:16.943Z 
+2026-01-04T19:23:16.943Z HandBrake has exited.
+2026-01-04T19:23:16.943Z 
+2026-01-04T19:23:16.943Z 
+2026-01-04T19:23:16.943Z 
+2026-01-04T19:23:16.943Z 
+2026-01-04T19:23:16.943Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:[Step W06] [C1] Worker [-success-]
+2026-01-04T19:23:16.943Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:Worker success during processing
+2026-01-04T19:23:16.944Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:Updating healthcheck stats
+2026-01-04T19:23:16.944Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:[Step W10] Worker processing end
+2026-01-04T19:23:16.944Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:Subworker exited null
+2026-01-04T19:23:16.944Z KrKmxAR1N:Node[MyInternalNode]:Worker[total-toad]:Successfully updated server with verdict: healthcheckSuccess

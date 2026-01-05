@@ -1,0 +1,516 @@
+2026-01-05T13:56:32.003Z xIGXze-U2:[Step S01] [2.58.02] Server relay initialising job
+2026-01-05T13:56:32.004Z xIGXze-U2:Server: linux_x64_docker_true
+2026-01-05T13:56:32.004Z xIGXze-U2:Server relay adding file to staged files
+2026-01-05T13:56:32.004Z xIGXze-U2:Server relay sending job to Node relay: MyInternalNode
+2026-01-05T13:56:32.005Z xIGXze-U2:Node[MyInternalNode]:[Step N01] [2.58.02] Node relay received job
+2026-01-05T13:56:32.005Z xIGXze-U2:Node[MyInternalNode]:{"nodeName":"MyInternalNode","serverURL":"http://0.0.0.0:8266","serverIP":"0.0.0.0","serverPort":"8266","handbrakePath":"","ffmpegPath":"","mkvpropeditPath":"","pathTranslators":[{"server":"","node":""}],"nodeType":"mapped","unmappedNodeCache":"/app/unmappedNodeCache","logLevel":"INFO","priority":-1,"platform_arch_isdocker":"linux_x64_docker_true","processPid":700,"cronPluginUpdate":"","apiKey":"","maxLogSizeMB":"10","pollInterval":2000,"startPaused":false,"nodeID":"4GmtWdysA","seededWorkerLimits":{},"nodeRegisteredCount":1}
+2026-01-05T13:56:32.005Z xIGXze-U2:Node[MyInternalNode]:Node relay sending job to worker:knobby-koi
+2026-01-05T13:56:32.006Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:[Step W01] Received file, original: "/media/movies/Omni Loop (2024)/Omni.Loop.2024.1080p.Blu-ray.Remux.AVC.DTS-HD.MA.5.1-CiNEPHiLES.mkv"
+2026-01-05T13:56:32.006Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:{"workerType":"healthcheckcpu"}
+2026-01-05T13:56:32.006Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:{"ffmpegPath":"tdarr-ffmpeg"}
+2026-01-05T13:56:32.007Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:{"handbrakePath":"HandBrakeCLI"}
+2026-01-05T13:56:32.007Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:{"mkvpropeditPath":"mkvpropedit"}
+2026-01-05T13:56:32.007Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:{"gpuSelect":"-"}
+2026-01-05T13:56:32.007Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:{"allowGpuDoCpu":false}
+2026-01-05T13:56:32.008Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:{"thoroughHealthCheckCpuExtraInputArgs":""}
+2026-01-05T13:56:32.008Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:{"thoroughHealthCheckGpuExtraInputArgs":""}
+2026-01-05T13:56:32.008Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:{"thoroughHealthCheckCpuExtraArgs":""}
+2026-01-05T13:56:32.008Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:{"thoroughHealthCheckGpuExtraArgs":""}
+2026-01-05T13:56:32.009Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:{"logFullCliOutput":false}
+2026-01-05T13:56:32.009Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:{"runMkvpropedit":false}
+2026-01-05T13:56:32.009Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:{"dontCleanWorkerCacheFolder":false}
+2026-01-05T13:56:32.010Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:Path translating objects
+2026-01-05T13:56:32.010Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:Running path translator tests
+2026-01-05T13:56:32.010Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:Path translator tests passed
+2026-01-05T13:56:32.010Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:{"librarySettings":{"_id":"qNfK1K4g-","priority":0,"name":"Movies","folder":"/media/movies","foldersToIgnore":"","foldersToIgnoreCaseInsensitive":false,"folderWatchScanInterval":30,"scannerThreadCount":2,"cache":"/tmp","output":".","folderToFolderConversion":false,"folderToFolderConversionDeleteSource":false,"folderToFolderRecordHistory":true,"copyIfConditionsMet":false,"container":".mkv","containerFilter":"mkv,mp4,mov,m4v,mpg,mpeg,avi,flv,webm,wmv,vob,evo,iso,m2ts,ts","createdAt":1675837380368,"folderWatching":true,"useFsEvents":false,"scheduledScanFindNew":false,"processLibrary":true,"processTranscodes":true,"processHealthChecks":true,"scanOnStart":true,"exifToolScan":true,"mediaInfoScan":true,"ffprobeShowData":false,"isDirectoryLibrary":false,"closedCaptionScan":false,"scanButtons":true,"scanFound":"Files found:0","navItemSelected":"navSourceFolder","pluginIDs":[{"_id":"plugin1","id":"Tdarr_Plugin_MC93_MigzImageRemoval","checked":true,"source":"Community","priority":0,"InputsDB":{},"Name":"Migz Remove Image Formats From File","Type":"Video","Operation":"Transcode","Description":"Identify any unwanted image formats in the file and remove those streams. MJPEG, PNG & GIF \n\n","Version":"1.4","Stage":"Pre-processing","Tags":"pre-processing,ffmpeg,video only","Inputs":[],"source_id":"Community::Tdarr_Plugin_MC93_MigzImageRemoval"},{"_id":"plugin2","id":"Tdarr_Plugin_lmg1_Reorder_Streams","checked":true,"source":"Community","priority":1,"InputsDB":{},"Name":"Lmg1 Reorder Streams","Type":"Video","Operation":"Transcode","Description":"[Contains built-in filter] This plugin will move the video stream to the front so Tdarr will recognize the codec correctly.\n\n","Version":"1.00","Stage":"Pre-processing","Tags":"pre-processing,ffmpeg","Inputs":[],"source_id":"Community::Tdarr_Plugin_lmg1_Reorder_Streams"},{"_id":"plugin4","id":"Tdarr_Plugin_MC93_Migz1FFMPEG","checked":true,"source":"Community","priority":2,"InputsDB":{},"Name":"Migz Transcode Using Nvidia GPU & FFMPEG","Type":"Video","Operation":"Transcode","Description":"Files not in H265 will be transcoded into H265 using Nvidia GPU with ffmpeg.\n                  Settings are dependant on file bitrate\n                  Working by the logic that H265 can support the same ammount of data at half the bitrate of H264.\n                  NVDEC & NVENC compatable GPU required.\n                  This plugin will skip any files that are in the VP9 codec.","Version":"3.1","Stage":"Pre-processing","Tags":"pre-processing,ffmpeg,video only,nvenc h265,configurable","Inputs":[{"name":"container","type":"string","defaultValue":"mkv","inputUI":{"type":"text"},"tooltip":"Specify output container of file. Use 'original' wihout quotes to keep original container.\n                \\n Ensure that all stream types you may have are supported by your chosen container.\n                \\n mkv is recommended.\n                    \\nExample:\\n\n                    mkv\n\n                    \\nExample:\\n\n                    mp4\n                    \n                    \\nExample:\\n\n                    original"},{"name":"bitrate_cutoff","type":"string","defaultValue":"","inputUI":{"type":"text"},"tooltip":"Specify bitrate cutoff, files with a current bitrate lower then this will not be transcoded.\n               \\n Rate is in kbps.\n               \\n Leave empty to disable.\n                    \\nExample:\\n\n                    6000\n\n                    \\nExample:\\n\n                    4000"},{"name":"enable_10bit","type":"boolean","defaultValue":false,"inputUI":{"type":"dropdown","options":["false","true"]},"tooltip":"Specify if output file should be 10bit. Default is false.\n                    \\nExample:\\n\n                    true\n\n                    \\nExample:\\n\n                    false"},{"name":"enable_bframes","type":"boolean","defaultValue":false,"inputUI":{"type":"dropdown","options":["false","true"]},"tooltip":"Specify if b frames should be used.\n                 \\n Using B frames should decrease file sizes but are only supported on newer GPUs.\n                 \\n Default is false.\n                    \\nExample:\\n\n                    true\n\n                    \\nExample:\\n\n                    false"},{"name":"force_conform","type":"boolean","defaultValue":false,"inputUI":{"type":"dropdown","options":["false","true"]},"tooltip":"Make the file conform to output containers requirements.\n                \\n Drop hdmv_pgs_subtitle/eia_608/subrip/timed_id3 for MP4.\n                \\n Drop data streams/mov_text/eia_608/timed_id3 for MKV.\n                \\n Default is false.\n                    \\nExample:\\n\n                    true\n\n                    \\nExample:\\n\n                    false"}],"source_id":"Community::Tdarr_Plugin_MC93_Migz1FFMPEG"},{"_id":"plugin5","id":"Tdarr_Plugin_a9he_New_file_size_check","checked":true,"source":"Community","priority":3,"InputsDB":{},"Name":"New File Size Check","Type":"Video","Operation":"Transcode","Description":"Give an error if new file is not within the specified upper and lower bound limits \n\n","Version":"1.00","Stage":"Pre-processing","Tags":"","Inputs":[{"name":"upperBound","type":"number","defaultValue":110,"inputUI":{"type":"text"},"tooltip":"Enter the upper bound % size for the new file. For example, if '110' is entered, \n        then if the new file size is greater than 110% the size of the original, an error will be given."},{"name":"lowerBound","type":"number","defaultValue":40,"inputUI":{"type":"text"},"tooltip":"Enter the lower bound % size for the new file. For example, if '90' is entered, \n        then if the new file size is less than 90% of the original, an error will be given."}],"source_id":"Community::Tdarr_Plugin_a9he_New_file_size_check"}],"pluginCommunity":true,"handbrake":true,"ffmpeg":false,"handbrakescan":true,"ffmpegscan":false,"preset":"-Z \"Very Fast 1080p30\"","decisionMaker":{"settingsPlugin":true,"settingsFlows":false,"settingsVideo":false,"videoExcludeSwitch":true,"video_codec_names_exclude":[{"codec":"hevc","checked":false},{"codec":"h264","checked":true}],"video_size_range_include":{"min":0,"max":100000},"video_height_range_include":{"min":0,"max":3000},"video_width_range_include":{"min":0,"max":4000},"settingsAudio":false,"audioExcludeSwitch":true,"audio_codec_names_exclude":[{"codec":"mp3","checked":true},{"codec":"aac","checked":false}],"audio_size_range_include":{"min":0,"max":10}},"schedule":[{"_id":"Sun:00-01","checked":true},{"_id":"Sun:01-02","checked":true},{"_id":"Sun:02-03","checked":true},{"_id":"Sun:03-04","checked":true},{"_id":"Sun:04-05","checked":true},{"_id":"Sun:05-06","checked":true},{"_id":"Sun:06-07","checked":true},{"_id":"Sun:07-08","checked":true},{"_id":"Sun:08-09","checked":true},{"_id":"Sun:09-10","checked":true},{"_id":"Sun:10-11","checked":true},{"_id":"Sun:11-12","checked":true},{"_id":"Sun:12-13","checked":true},{"_id":"Sun:13-14","checked":true},{"_id":"Sun:14-15","checked":true},{"_id":"Sun:15-16","checked":true},{"_id":"Sun:16-17","checked":true},{"_id":"Sun:17-18","checked":true},{"_id":"Sun:18-19","checked":true},{"_id":"Sun:19-20","checked":true},{"_id":"Sun:20-21","checked":true},{"_id":"Sun:21-22","checked":true},{"_id":"Sun:22-23","checked":true},{"_id":"Sun:23-00","checked":true},{"_id":"Mon:00-01","checked":true},{"_id":"Mon:01-02","checked":true},{"_id":"Mon:02-03","checked":true},{"_id":"Mon:03-04","checked":true},{"_id":"Mon:04-05","checked":true},{"_id":"Mon:05-06","checked":true},{"_id":"Mon:06-07","checked":true},{"_id":"Mon:07-08","checked":true},{"_id":"Mon:08-09","checked":true},{"_id":"Mon:09-10","checked":true},{"_id":"Mon:10-11","checked":true},{"_id":"Mon:11-12","checked":true},{"_id":"Mon:12-13","checked":true},{"_id":"Mon:13-14","checked":true},{"_id":"Mon:14-15","checked":true},{"_id":"Mon:15-16","checked":true},{"_id":"Mon:16-17","checked":true},{"_id":"Mon:17-18","checked":true},{"_id":"Mon:18-19","checked":true},{"_id":"Mon:19-20","checked":true},{"_id":"Mon:20-21","checked":true},{"_id":"Mon:21-22","checked":true},{"_id":"Mon:22-23","checked":true},{"_id":"Mon:23-00","checked":true},{"_id":"Tue:00-01","checked":true},{"_id":"Tue:01-02","checked":true},{"_id":"Tue:02-03","checked":true},{"_id":"Tue:03-04","checked":true},{"_id":"Tue:04-05","checked":true},{"_id":"Tue:05-06","checked":true},{"_id":"Tue:06-07","checked":true},{"_id":"Tue:07-08","checked":true},{"_id":"Tue:08-09","checked":true},{"_id":"Tue:09-10","checked":true},{"_id":"Tue:10-11","checked":true},{"_id":"Tue:11-12","checked":true},{"_id":"Tue:12-13","checked":true},{"_id":"Tue:13-14","checked":true},{"_id":"Tue:14-15","checked":true},{"_id":"Tue:15-16","checked":true},{"_id":"Tue:16-17","checked":true},{"_id":"Tue:17-18","checked":true},{"_id":"Tue:18-19","checked":true},{"_id":"Tue:19-20","checked":true},{"_id":"Tue:20-21","checked":true},{"_id":"Tue:21-22","checked":true},{"_id":"Tue:22-23","checked":true},{"_id":"Tue:23-00","checked":true},{"_id":"Wed:00-01","checked":true},{"_id":"Wed:01-02","checked":true},{"_id":"Wed:02-03","checked":true},{"_id":"Wed:03-04","checked":true},{"_id":"Wed:04-05","checked":true},{"_id":"Wed:05-06","checked":true},{"_id":"Wed:06-07","checked":true},{"_id":"Wed:07-08","checked":true},{"_id":"Wed:08-09","checked":true},{"_id":"Wed:09-10","checked":true},{"_id":"Wed:10-11","checked":true},{"_id":"Wed:11-12","checked":true},{"_id":"Wed:12-13","checked":true},{"_id":"Wed:13-14","checked":true},{"_id":"Wed:14-15","checked":true},{"_id":"Wed:15-16","checked":true},{"_id":"Wed:16-17","checked":true},{"_id":"Wed:17-18","checked":true},{"_id":"Wed:18-19","checked":true},{"_id":"Wed:19-20","checked":true},{"_id":"Wed:20-21","checked":true},{"_id":"Wed:21-22","checked":true},{"_id":"Wed:22-23","checked":true},{"_id":"Wed:23-00","checked":true},{"_id":"Thur:00-01","checked":true},{"_id":"Thur:01-02","checked":true},{"_id":"Thur:02-03","checked":true},{"_id":"Thur:03-04","checked":true},{"_id":"Thur:04-05","checked":true},{"_id":"Thur:05-06","checked":true},{"_id":"Thur:06-07","checked":true},{"_id":"Thur:07-08","checked":true},{"_id":"Thur:08-09","checked":true},{"_id":"Thur:09-10","checked":true},{"_id":"Thur:10-11","checked":true},{"_id":"Thur:11-12","checked":true},{"_id":"Thur:12-13","checked":true},{"_id":"Thur:13-14","checked":true},{"_id":"Thur:14-15","checked":true},{"_id":"Thur:15-16","checked":true},{"_id":"Thur:16-17","checked":true},{"_id":"Thur:17-18","checked":true},{"_id":"Thur:18-19","checked":true},{"_id":"Thur:19-20","checked":true},{"_id":"Thur:20-21","checked":true},{"_id":"Thur:21-22","checked":true},{"_id":"Thur:22-23","checked":true},{"_id":"Thur:23-00","checked":true},{"_id":"Fri:00-01","checked":true},{"_id":"Fri:01-02","checked":true},{"_id":"Fri:02-03","checked":true},{"_id":"Fri:03-04","checked":true},{"_id":"Fri:04-05","checked":true},{"_id":"Fri:05-06","checked":true},{"_id":"Fri:06-07","checked":true},{"_id":"Fri:07-08","checked":true},{"_id":"Fri:08-09","checked":true},{"_id":"Fri:09-10","checked":true},{"_id":"Fri:10-11","checked":true},{"_id":"Fri:11-12","checked":true},{"_id":"Fri:12-13","checked":true},{"_id":"Fri:13-14","checked":true},{"_id":"Fri:14-15","checked":true},{"_id":"Fri:15-16","checked":true},{"_id":"Fri:16-17","checked":true},{"_id":"Fri:17-18","checked":true},{"_id":"Fri:18-19","checked":true},{"_id":"Fri:19-20","checked":true},{"_id":"Fri:20-21","checked":true},{"_id":"Fri:21-22","checked":true},{"_id":"Fri:22-23","checked":true},{"_id":"Fri:23-00","checked":true},{"_id":"Sat:00-01","checked":true},{"_id":"Sat:01-02","checked":true},{"_id":"Sat:02-03","checked":true},{"_id":"Sat:03-04","checked":true},{"_id":"Sat:04-05","checked":true},{"_id":"Sat:05-06","checked":true},{"_id":"Sat:06-07","checked":true},{"_id":"Sat:07-08","checked":true},{"_id":"Sat:08-09","checked":true},{"_id":"Sat:09-10","checked":true},{"_id":"Sat:10-11","checked":true},{"_id":"Sat:11-12","checked":true},{"_id":"Sat:12-13","checked":true},{"_id":"Sat:13-14","checked":true},{"_id":"Sat:14-15","checked":true},{"_id":"Sat:15-16","checked":true},{"_id":"Sat:16-17","checked":true},{"_id":"Sat:17-18","checked":true},{"_id":"Sat:18-19","checked":true},{"_id":"Sat:19-20","checked":true},{"_id":"Sat:20-21","checked":true},{"_id":"Sat:21-22","checked":true},{"_id":"Sat:22-23","checked":true},{"_id":"Sat:23-00","checked":true}],"totalHealthCheckCount":161,"totalTranscodeCount":8,"sizeDiff":0,"holdNewFiles":false,"holdFor":3600,"holdForDisplayUnit":"hours","pluginStackOverview":true,"filterResolutionsSkip":"","filterCodecsSkip":"","filterContainersSkip":"","processPluginsSequentially":true}}
+2026-01-05T13:56:32.011Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:Scanning original library file
+2026-01-05T13:56:32.011Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:{
+2026-01-05T13:56:32.011Z   "exifToolScan": true,
+2026-01-05T13:56:32.011Z   "mediaInfoScan": false,
+2026-01-05T13:56:32.011Z   "closedCaptionScan": false
+2026-01-05T13:56:32.011Z }
+2026-01-05T13:56:32.011Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:Node scanning file
+2026-01-05T13:56:32.012Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:Scan complete
+2026-01-05T13:56:32.012Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:Original file scanned
+2026-01-05T13:56:32.012Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:Source file to work on determined:"/media/movies/Omni Loop (2024)/Omni.Loop.2024.1080p.Blu-ray.Remux.AVC.DTS-HD.MA.5.1-CiNEPHiLES.mkv"
+2026-01-05T13:56:32.012Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:[Step W02] [C1] Running pre-process file
+2026-01-05T13:56:32.013Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:Checking files can be accessed
+2026-01-05T13:56:32.013Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:mapped node, file is original, no need to download
+2026-01-05T13:56:32.013Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:Relevant paths can be accessed
+2026-01-05T13:56:32.014Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:Source file: "/media/movies/Omni Loop (2024)/Omni.Loop.2024.1080p.Blu-ray.Remux.AVC.DTS-HD.MA.5.1-CiNEPHiLES.mkv"
+2026-01-05T13:56:32.014Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:[Step W03] [C1] Analysing file - running plugins
+2026-01-05T13:56:32.014Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:Handbrake healthcheck task, no need to scan for extra file details
+2026-01-05T13:56:32.015Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:Updating Node relay: Processing
+2026-01-05T13:56:32.015Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:[1/2] Checking file frame count
+2026-01-05T13:56:32.015Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:[2/2] Frame count 0
+2026-01-05T13:56:32.016Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:Determining healthcheck command
+2026-01-05T13:56:32.016Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:[Step W04] [C1] Preparing command
+2026-01-05T13:56:32.016Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:Cache file stem: "/tmp/tdarr-workDir2-xIGXze-U2"
+2026-01-05T13:56:32.016Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:Cache file path: "/tmp/tdarr-workDir2-xIGXze-U2/Omni.Loop.2024.1080p.Blu-ray.Remux.AVC.DTS-HD.MA.5.1-CiNEPHiLES-TdarrCacheFile-0mgrHiZn2.mp4"
+2026-01-05T13:56:32.017Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:Create transcode args
+2026-01-05T13:56:32.017Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:Args:  -i "/media/movies/Omni Loop (2024)/Omni.Loop.2024.1080p.Blu-ray.Remux.AVC.DTS-HD.MA.5.1-CiNEPHiLES.mkv" -o /tmp/tdarr-workDir2-xIGXze-U2/Omni.Loop.2024.1080p.Blu-ray.Remux.AVC.DTS-HD.MA.5.1-CiNEPHiLES-TdarrCacheFile-0mgrHiZn2.mp4 --scan
+2026-01-05T13:56:32.017Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:Getting source file size
+2026-01-05T13:56:32.017Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:Source file size: 17.61273356899619
+2026-01-05T13:56:32.017Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:Performing safety check on worker config to see if old transcode args/container match new ones
+2026-01-05T13:56:32.018Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:Safety check complete, all good
+2026-01-05T13:56:32.018Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:[Step W05] [C1] Launching subworker
+2026-01-05T13:56:32.018Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:Preparing to launch subworker
+2026-01-05T13:56:32.019Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:Subworker launched
+2026-01-05T13:56:32.019Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:[1/3] Sending command to subworker
+2026-01-05T13:56:32.019Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:[2/3] HandBrakeCLI -i "/media/movies/Omni Loop (2024)/Omni.Loop.2024.1080p.Blu-ray.Remux.AVC.DTS-HD.MA.5.1-CiNEPHiLES.mkv" -o /tmp/tdarr-workDir2-xIGXze-U2/Omni.Loop.2024.1080p.Blu-ray.Remux.AVC.DTS-HD.MA.5.1-CiNEPHiLES-TdarrCacheFile-0mgrHiZn2.mp4 --scan
+2026-01-05T13:56:32.019Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:[3/3] Command sent
+2026-01-05T13:56:32.020Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:To see live CLI output, enable 'Log full FFmpeg/HandBrake output' in the staging section on the Tdarr tab before the job starts. Note this could increase the job report size substantially.
+2026-01-05T13:56:32.020Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:Subworker:Online
+2026-01-05T13:56:32.020Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:Subworker:Receiving transcode settings
+2026-01-05T13:56:32.020Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:Subworker:Running CLI
+2026-01-05T13:56:36.022Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:Subworker:a.Thread closed, code: 0
+2026-01-05T13:56:36.023Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:Subworker exit approved, killing subworker
+2026-01-05T13:56:36.023Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:Subworker killed
+2026-01-05T13:56:36.023Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:b.Thread closed, code: 0
+2026-01-05T13:56:36.024Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:CLI code: 0
+2026-01-05T13:56:36.024Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:Last 200 lines of CLI log:
+2026-01-05T13:56:36.024Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:[13:56:29] Compile-time hardening features are enabled
+2026-01-05T13:56:36.024Z 
+2026-01-05T13:56:36.024Z [13:56:29] nvenc: version 12.2 is available
+2026-01-05T13:56:36.024Z [13:56:29] nvdec: is available
+2026-01-05T13:56:36.024Z 
+2026-01-05T13:56:36.024Z [13:56:29] CUDA Version: 6.1
+2026-01-05T13:56:36.024Z 
+2026-01-05T13:56:36.024Z [13:56:29] qsv: not available on this system
+2026-01-05T13:56:36.024Z 
+2026-01-05T13:56:36.024Z [13:56:29] hb_init: starting libhb thread
+2026-01-05T13:56:36.024Z [13:56:29] thread 7f0623fff6c0 started ("libhb")
+2026-01-05T13:56:36.024Z 
+2026-01-05T13:56:36.024Z HandBrake 1.10.2 (2025102400) - Linux x86_64 - https://handbrake.fr
+2026-01-05T13:56:36.024Z 16 CPUs detected
+2026-01-05T13:56:36.024Z 
+2026-01-05T13:56:36.024Z Opening /media/movies/Omni Loop (2024)/Omni.Loop.2024.1080p.Blu-ray.Remux.AVC.DTS-HD.MA.5.1-CiNEPHiLES.mkv...
+2026-01-05T13:56:36.024Z [13:56:29] CPU: Common KVM processor
+2026-01-05T13:56:36.024Z [13:56:29]  - logical processor count: 16
+2026-01-05T13:56:36.024Z [13:56:29] Intel Quick Sync Video support: no
+2026-01-05T13:56:36.024Z [13:56:29] hb_scan: path=/media/movies/Omni Loop (2024)/Omni.Loop.2024.1080p.Blu-ray.Remux.AVC.DTS-HD.MA.5.1-CiNEPHiLES.mkv, title_index=1
+2026-01-05T13:56:36.024Z 
+2026-01-05T13:56:36.024Z Input #0, matroska,webm, from '/media/movies/Omni Loop (2024)/Omni.Loop.2024.1080p.Blu-ray.Remux.AVC.DTS-HD.MA.5.1-CiNEPHiLES.mkv':
+2026-01-05T13:56:36.024Z   Metadata:
+2026-01-05T13:56:36.024Z     title           : Omni Loop (2024)
+2026-01-05T13:56:36.024Z     encoder         : libebml v1.4.5 + libmatroska v1.7.1
+2026-01-05T13:56:36.024Z     creation_time   : 2025-01-29T20:46:10.000000Z
+2026-01-05T13:56:36.024Z     IMDB            : tt28150132
+2026-01-05T13:56:36.024Z     TMDB            : movie/1143128
+2026-01-05T13:56:36.024Z   Duration: 01:51:23.19, start: 0.000000, bitrate: 22637 kb/s
+2026-01-05T13:56:36.024Z   Chapters:
+2026-01-05T13:56:36.024Z     Chapter #0:0: start 0.000000, end 334.334000
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         title           : Chapter 01
+2026-01-05T13:56:36.024Z     Chapter #0:1: start 334.334000, end 790.080958
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         title           : Chapter 02
+2026-01-05T13:56:36.024Z     Chapter #0:2: start 790.080958, end 1366.531833
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         title           : Chapter 03
+2026-01-05T13:56:36.024Z     Chapter #0:3: start 1366.531833, 
+2026-01-05T13:56:36.024Z end 2063.644917
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         title           : Chapter 04
+2026-01-05T13:56:36.024Z     Chapter #0:4: start 2063.644917, end 2679.385042
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         title           : Chapter 05
+2026-01-05T13:56:36.024Z     Chapter #0:5: start 2679.385042, end 3183.471958
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         title           : Chapter 06
+2026-01-05T13:56:36.024Z     Chapter #0:6: start 3183.471958, end 3840.294792
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         title           : Chapter 07
+2026-01-05T13:56:36.024Z     Chapter #0:7: start 3840.294792, end 4383.587542
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         title           : Chapter 08
+2026-01-05T13:56:36.024Z     Chapter #0:8: start 4383.587542, end 4759.045958
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         title           : Chapter 09
+2026-01-05T13:56:36.024Z     Chapter #0:9: start 4759.045958, end 5153.231417
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         title           : Chapter 10
+2026-01-05T13:56:36.024Z     Chapter #0:10: start 5153.231417, end 5486.314167
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         title           : Chapter 11
+2026-01-05T13:56:36.024Z     Chapter #0:11: start 5486.314167, end 5912.031125
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         title           : Chapter 12
+2026-01-05T13:56:36.024Z     Chapter #0:12: start 5912.031125, end 6223.508958
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         title           : Chapter 13
+2026-01-05T13:56:36.024Z     Chapter #0:13: start 6223.508958, end 6459.035917
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         title           : Chapter 14
+2026-01-05T13:56:36.024Z     Chapter #0:14: start 6459.035917, end 6683.189333
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         title           : Chapter 15
+2026-01-05T13:56:36.024Z   Stream #0:0: Video: h264 (High), yuv420p(progressive), 1920x1080 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         Source          : Magnolia Pictures USA Blu-ray (2025)
+2026-01-05T13:56:36.024Z         BPS             : 19631169
+2026-01-05T13:56:36.024Z         DURATION        : 01:51:23.177000000
+2026-01-05T13:56:36.024Z         NUMBER_OF_FRAMES: 160236
+2026-01-05T13:56:36.024Z         NUMBER_OF_BYTES : 16399822275
+2026-01-05T13:56:36.024Z 
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_APP: mkvmerge v87.0 ('Black as the Sky') 64-bit
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_DATE_UTC: 2025-01-29 20:46:10
+2026-01-05T13:56:36.024Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-05T13:56:36.024Z   Stream #0:1(eng): Audio: dts (dca) (DTS-HD MA), 48000 Hz, 5.1(side), s32p (24 bit) (default)
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         Source          : Magnolia Pictures USA Blu-ray (2025)
+2026-01-05T13:56:36.024Z         BPS             : 2966323
+2026-01-05T13:56:36.024Z         DURATION        : 01:51:23.190000000
+2026-01-05T13:56:36.024Z         NUMBER_OF_FRAMES: 626549
+2026-01-05T13:56:36.024Z         NUMBER_OF_BYTES : 2478063184
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_APP: mkvmerge v87.0 ('Black as the Sky') 64-bit
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_DATE_UTC: 2025-01-29 20:46:10
+2026-01-05T13:56:36.024Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-05T13:56:36.024Z   Stream #0:2(eng): Subtitle: subrip (srt)
+2026-01-05T13:56:36.024Z 
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         Source          : Magnolia Pictures USA Blu-ray (2025)
+2026-01-05T13:56:36.024Z         BPS             : 53
+2026-01-05T13:56:36.024Z         DURATION        : 01:46:29.800000000
+2026-01-05T13:56:36.024Z         NUMBER_OF_FRAMES: 1473
+2026-01-05T13:56:36.024Z         NUMBER_OF_BYTES : 42783
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_APP: mkvmerge v87.0 ('Black as the Sky') 64-bit
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_DATE_UTC: 2025-01-29 20:46:10
+2026-01-05T13:56:36.024Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-05T13:56:36.024Z   Stream #0:3(eng): Subtitle: subrip (srt) (hearing impaired)
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         title           : SDH
+2026-01-05T13:56:36.024Z         Source          : Magnolia Pictures USA Blu-ray (2025)
+2026-01-05T13:56:36.024Z         BPS             : 61
+2026-01-05T13:56:36.024Z         DURATION        : 01:50:58.736000000
+2026-01-05T13:56:36.024Z         NUMBER_OF_FRAMES: Scanning title 1 of 1, 0.00 %1787
+2026-01-05T13:56:36.024Z         NUMBER_OF_BYTES : 51045
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_APP: mkvmerge v87.0 ('Black as the Sky') 64-bit
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_DATE_UTC: 2025-01-29 20:46:10
+2026-01-05T13:56:36.024Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-05T13:56:36.024Z   Stream #0:4(eng): Subtitle: hdmv_pgs_subtitle (pgssub)
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         title           : SDH / PGS
+2026-01-05T13:56:36.024Z         Source          : Magnolia Pictures USA Blu-ray (2025)
+2026-01-05T13:56:36.024Z         BPS             : 34029
+2026-01-05T13:56:36.024Z         DURATION        : 01:50:58.757000000
+2026-01-05T13:56:36.024Z         NUMBER_OF_FRAMES: 3574
+2026-01-05T13:56:36.024Z         NUMBER_OF_BYTES : 28324219
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_APP: mkvmerge v87.0 ('Black as the Sky') 64-bit
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_DATE_UTC: 2025-01-29 20:46:10
+2026-01-05T13:56:36.024Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-05T13:56:36.024Z 
+2026-01-05T13:56:36.024Z   Stream #0:5(chi): Subtitle: subrip (srt)
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         title           : Traditional
+2026-01-05T13:56:36.024Z         Source          : iTunes WEB-DL
+2026-01-05T13:56:36.024Z         BPS             : 42
+2026-01-05T13:56:36.024Z         DURATION        : 01:50:30.631000000
+2026-01-05T13:56:36.024Z         NUMBER_OF_FRAMES: 1079
+2026-01-05T13:56:36.024Z         NUMBER_OF_BYTES : 35091
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_APP: mkvmerge v87.0 ('Black as the Sky') 64-bit
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_DATE_UTC: 2025-01-29 20:46:10
+2026-01-05T13:56:36.024Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-05T13:56:36.024Z   Stream #0:6(cze): Subtitle: subrip (srt)
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         Source          : iTunes WEB-DL
+2026-01-05T13:56:36.024Z         BPS             : 46
+2026-01-05T13:56:36.024Z         DURATION        : 01:50:30.839000000
+2026-01-05T13:56:36.024Z 
+2026-01-05T13:56:36.024Z         NUMBER_OF_FRAMES: 1051
+2026-01-05T13:56:36.024Z         NUMBER_OF_BYTES : 38319
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_APP: mkvmerge v87.0 ('Black as the Sky') 64-bit
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_DATE_UTC: 2025-01-29 20:46:10
+2026-01-05T13:56:36.024Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-05T13:56:36.024Z   Stream #0:7(dan): Subtitle: subrip (srt)
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         Source          : iTunes WEB-DL
+2026-01-05T13:56:36.024Z         BPS             : 49
+2026-01-05T13:56:36.024Z         DURATION        : 01:50:30.839000000
+2026-01-05T13:56:36.024Z         NUMBER_OF_FRAMES: 1058
+2026-01-05T13:56:36.024Z         NUMBER_OF_BYTES : 41256
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_APP: mkvmerge v87.0 ('Black as the Sky') 64-bit
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_DATE_UTC: 2025-01-29 20:46:10
+2026-01-05T13:56:36.024Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-05T13:56:36.024Z   Stream #0:8(dut): Subtitle: subrip (srt)
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         Source          : iTunes WEB-DL
+2026-01-05T13:56:36.024Z         BPS             : 42
+2026-01-05T13:56:36.024Z         DURATION        : 01:50:30.839000000
+2026-01-05T13:56:36.024Z         NUMBER_OF_FRAMES: 1064
+2026-01-05T13:56:36.024Z         NUMBER_OF_BYTES : 35299
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_APP: mkvmerge v87.0 ('Black as the Sky') 64-bit
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_DATE_UTC: 2025-01-29 20:46:10
+2026-01-05T13:56:36.024Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-05T13:56:36.024Z   Stream #0:9(ger): Subtitle: subrip (srt)
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         Source          : 
+2026-01-05T13:56:36.024Z iTunes WEB-DL
+2026-01-05T13:56:36.024Z         BPS             : 49
+2026-01-05T13:56:36.024Z         DURATION        : 01:50:30.839000000
+2026-01-05T13:56:36.024Z         NUMBER_OF_FRAMES: 1069
+2026-01-05T13:56:36.024Z         NUMBER_OF_BYTES : 41133
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_APP: mkvmerge v87.0 ('Black as the Sky') 64-bit
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_DATE_UTC: 2025-01-29 20:46:10
+2026-01-05T13:56:36.024Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-05T13:56:36.024Z   Stream #0:10(fin): Subtitle: subrip (srt)
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         Source          : iTunes WEB-DL
+2026-01-05T13:56:36.024Z         BPS             : 46
+2026-01-05T13:56:36.024Z         DURATION        : 01:50:30.839000000
+2026-01-05T13:56:36.024Z         NUMBER_OF_FRAMES: 1057
+2026-01-05T13:56:36.024Z         NUMBER_OF_BYTES : 38710
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_APP: mkvmerge v87.0 ('Black as the Sky') 64-bit
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_DATE_UTC: 2025-01-29 20:46:10
+2026-01-05T13:56:36.024Z         _STATISTICS_TAGS: 
+2026-01-05T13:56:36.024Z BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-05T13:56:36.024Z   Stream #0:11(fre): Subtitle: subrip (srt)
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         Source          : iTunes WEB-DL
+2026-01-05T13:56:36.024Z         BPS             : 50
+2026-01-05T13:56:36.024Z         DURATION        : 01:50:30.755000000
+2026-01-05T13:56:36.024Z         NUMBER_OF_FRAMES: 1061
+2026-01-05T13:56:36.024Z         NUMBER_OF_BYTES : 42188
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_APP: mkvmerge v87.0 ('Black as the Sky') 64-bit
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_DATE_UTC: 2025-01-29 20:46:10
+2026-01-05T13:56:36.024Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-05T13:56:36.024Z 
+2026-01-05T13:56:36.024Z   Stream #0:12(hun): Subtitle: subrip (srt)
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         Source          : iTunes WEB-DL
+2026-01-05T13:56:36.024Z         BPS             : 47
+2026-01-05T13:56:36.024Z         DURATION        : 01:50:30.755000000
+2026-01-05T13:56:36.024Z         NUMBER_OF_FRAMES: 1032
+2026-01-05T13:56:36.024Z         NUMBER_OF_BYTES : 39154
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_APP: mkvmerge v87.0 ('Black as the Sky') 64-bit
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_DATE_UTC: 2025-01-29 20:46:10
+2026-01-05T13:56:36.024Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-05T13:56:36.024Z   Stream #0:13(ita): Subtitle: subrip (srt)
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         Source          : iTunes WEB-DL
+2026-01-05T13:56:36.024Z         BPS             : 45
+2026-01-05T13:56:36.024Z         DURATION        : 01:50:30.839000000
+2026-01-05T13:56:36.024Z         NUMBER_OF_FRAMES: 1054
+2026-01-05T13:56:36.024Z         NUMBER_OF_BYTES : 37709
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_APP: mkvmerge v87.0 ('Black as the Sky') 64-bit
+2026-01-05T13:56:36.024Z 
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_DATE_UTC: 2025-01-29 20:46:10
+2026-01-05T13:56:36.024Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-05T13:56:36.024Z   Stream #0:14(kor): Subtitle: subrip (srt)
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         Source          : iTunes WEB-DL
+2026-01-05T13:56:36.024Z         BPS             : 51
+2026-01-05T13:56:36.024Z         DURATION        : 01:50:30.547000000
+2026-01-05T13:56:36.024Z         NUMBER_OF_FRAMES: 1073
+2026-01-05T13:56:36.024Z         NUMBER_OF_BYTES : 42319
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_APP: mkvmerge v87.0 ('Black as the Sky') 64-bit
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_DATE_UTC: 2025-01-29 20:46:10
+2026-01-05T13:56:36.024Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-05T13:56:36.024Z   Stream #0:15(chi): Subtitle: subrip (srt)
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         title           : Traditional
+2026-01-05T13:56:36.024Z         Source          : iTunes WEB-DL
+2026-01-05T13:56:36.024Z         BPS             : 41
+2026-01-05T13:56:36.024Z         DURATION        : 01:50:30.839000000
+2026-01-05T13:56:36.024Z         NUMBER_OF_FRAMES: 1080
+2026-01-05T13:56:36.024Z         NUMBER_OF_BYTES : 34362
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_APP: mkvmerge v87.0 ('Black as the Sky') 64-bit
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_DATE_UTC: 2025-01-29 20:46:10
+2026-01-05T13:56:36.024Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-05T13:56:36.024Z   Stream #0:16(nor): Subtitle: subrip (srt)
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         Source          : iTunes WEB-DL
+2026-01-05T13:56:36.024Z         BPS             : 46
+2026-01-05T13:56:36.024Z         DURATION        : 01:50:30.839000000
+2026-01-05T13:56:36.024Z         NUMBER_OF_FRAMES: 1061
+2026-01-05T13:56:36.024Z         NUMBER_OF_BYTES : 38860
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_APP: mkvmerge v87.0 ('Black as the Sky') 64-bit
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_DATE_UTC: 2025-01-29 20:46:10
+2026-01-05T13:56:36.024Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-05T13:56:36.024Z   Stream #0:17(pol): Subtitle: subrip (srt)
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         Source          : iTunes WEB-DL
+2026-01-05T13:56:36.024Z         BPS             : 45
+2026-01-05T13:56:36.024Z         DURATION        : 01:50:30.839000000
+2026-01-05T13:56:36.024Z         NUMBER_OF_FRAMES: 1043
+2026-01-05T13:56:36.024Z         NUMBER_OF_BYTES : 38047
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_APP: mkvmerge v87.0 ('Black as the Sky') 64-bit
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_DATE_UTC: 2025-01-29 20:46:10
+2026-01-05T13:56:36.024Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-05T13:56:36.024Z   Stream #0:18(por): Subtitle: subrip (srt)
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         title           : Brazilian
+2026-01-05T13:56:36.024Z         Source          : iTunes WEB-DL
+2026-01-05T13:56:36.024Z         BPS             : 45
+2026-01-05T13:56:36.024Z         DURATION        : 01:50:30.839000000
+2026-01-05T13:56:36.024Z         NUMBER_OF_FRAMES: 1070
+2026-01-05T13:56:36.024Z         NUMBER_OF_BYTES : 38053
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_APP: mkvmerge v87.0 ('Black as the Sky') 64-bit
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_DATE_UTC: 2025-01-29 20:46:10
+2026-01-05T13:56:36.024Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-05T13:56:36.024Z   Stream #0:19(por): Subtitle: subrip (srt)
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         title           : Iberian
+2026-01-05T13:56:36.024Z         Source          : iTunes WEB-DL
+2026-01-05T13:56:36.024Z         BPS             : 45
+2026-01-05T13:56:36.024Z         DURATION        : 01:50:30.839000000
+2026-01-05T13:56:36.024Z         NUMBER_OF_FRAMES: 1059
+2026-01-05T13:56:36.024Z         NUMBER_OF_BYTES : 37692
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_APP: mkvmerge v87.0 ('Black as the Sky') 64-bit
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_DATE_UTC: 2025-01-29 20:46:10
+2026-01-05T13:56:36.024Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-05T13:56:36.024Z   Stream #0:20(rus): Subtitle: subrip (srt)
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         Source          : iTunes WEB-DL
+2026-01-05T13:56:36.024Z         BPS             : 75
+2026-01-05T13:56:36.024Z         DURATION        : 01:50:30.839000000
+2026-01-05T13:56:36.024Z         NUMBER_OF_FRAMES: 1072
+2026-01-05T13:56:36.024Z         NUMBER_OF_BYTES : 62228
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_APP: mkvmerge v87.0 ('Black as the Sky') 64-bit
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_DATE_UTC: 2025-01-29 20:46:10
+2026-01-05T13:56:36.024Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-05T13:56:36.024Z   Stream #0:21(spa): Subtitle: subrip (srt)
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         title           : Latin American
+2026-01-05T13:56:36.024Z         Source          : iTunes WEB-DL
+2026-01-05T13:56:36.024Z         BPS             : 46
+2026-01-05T13:56:36.024Z         DURATION        : 01:50:30.881000000
+2026-01-05T13:56:36.024Z         NUMBER_OF_FRAMES: 1057
+2026-01-05T13:56:36.024Z         NUMBER_OF_BYTES : 38673
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_APP: mkvmerge v87.0 ('Black as the Sky') 64-bit
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_DATE_UTC: 2025-01-29 20:46:10
+2026-01-05T13:56:36.024Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-05T13:56:36.024Z   Stream #0:22(spa): Subtitle: subrip (srt)
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         title           : Castilian
+2026-01-05T13:56:36.024Z         Source          : iTunes WEB-DL
+2026-01-05T13:56:36.024Z         BPS             : 46
+2026-01-05T13:56:36.024Z         DURATION        : 01:50:30.839000000
+2026-01-05T13:56:36.024Z         NUMBER_OF_FRAMES: 1052
+2026-01-05T13:56:36.024Z         NUMBER_OF_BYTES : 38133
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_APP: mkvmerge v87.0 ('Black as the Sky') 64-bit
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_DATE_UTC: 
+2026-01-05T13:56:36.024Z 2025-01-29 20:46:10
+2026-01-05T13:56:36.024Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-05T13:56:36.024Z   Stream #0:23(swe): Subtitle: subrip (srt)
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         Source          : iTunes WEB-DL
+2026-01-05T13:56:36.024Z         BPS             : 48
+2026-01-05T13:56:36.024Z         DURATION        : 01:50:30.839000000
+2026-01-05T13:56:36.024Z         NUMBER_OF_FRAMES: 1036
+2026-01-05T13:56:36.024Z         NUMBER_OF_BYTES : 40335
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_APP: mkvmerge v87.0 ('Black as the Sky') 64-bit
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_DATE_UTC: 2025-01-29 20:46:10
+2026-01-05T13:56:36.024Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-05T13:56:36.024Z   Stream #0:24(tha): Subtitle: subrip (srt)
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         Source          : iTunes WEB-DL
+2026-01-05T13:56:36.024Z         BPS             : 120
+2026-01-05T13:56:36.024Z         DURATION        : 01:50:30.631000000
+2026-01-05T13:56:36.024Z         NUMBER_OF_FRAMES: 1079
+2026-01-05T13:56:36.024Z         NUMBER_OF_BYTES : 100006
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_APP: mkvmerge v87.0 ('Black as the Sky') 64-bit
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_DATE_UTC: 2025-01-29 20:46:10
+2026-01-05T13:56:36.024Z 
+2026-01-05T13:56:36.024Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-05T13:56:36.024Z   Stream #0:25(tur): Subtitle: subrip (srt)
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         Source          : iTunes WEB-DL
+2026-01-05T13:56:36.024Z         BPS             : 45
+2026-01-05T13:56:36.024Z         DURATION        : 01:50:30.839000000
+2026-01-05T13:56:36.024Z         NUMBER_OF_FRAMES: 1066
+2026-01-05T13:56:36.024Z         NUMBER_OF_BYTES : 37384
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_APP: mkvmerge v87.0 ('Black as the Sky') 64-bit
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_DATE_UTC: 2025-01-29 20:46:10
+2026-01-05T13:56:36.024Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-05T13:56:36.024Z   Stream #0:26(ukr): Subtitle: subrip (srt)
+2026-01-05T13:56:36.024Z       Metadata:
+2026-01-05T13:56:36.024Z         Source          : iTunes WEB-DL
+2026-01-05T13:56:36.024Z 
+2026-01-05T13:56:36.024Z         BPS             : 72
+2026-01-05T13:56:36.024Z         DURATION        : 01:50:30.839000000
+2026-01-05T13:56:36.024Z         NUMBER_OF_FRAMES: 1066
+2026-01-05T13:56:36.024Z         NUMBER_OF_BYTES : 60406
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_APP: mkvmerge v87.0 ('Black as the Sky') 64-bit
+2026-01-05T13:56:36.024Z         _STATISTICS_WRITING_DATE_UTC: 2025-01-29 20:46:10
+2026-01-05T13:56:36.024Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-05T13:56:36.024Z 
+2026-01-05T13:56:36.024Z [13:56:30] scan: decoding previews for title 1
+2026-01-05T13:56:36.024Z 
+2026-01-05T13:56:36.024Z [13:56:30] scan: audio 0x1: dca, rate=48000Hz, bitrate=1 English (DTS-HD MA, 5.1 ch)
+2026-01-05T13:56:36.024Z 
+2026-01-05T13:56:36.024Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-05T13:56:36.024Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-05T13:56:36.024Z Scanning title 1 of 1, preview 3, 30.00 %
+2026-01-05T13:56:36.024Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-05T13:56:36.024Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-05T13:56:36.024Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-05T13:56:36.024Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-05T13:56:36.024Z Scanning title 1 of 1, preview 8, 80.00 %
+2026-01-05T13:56:36.024Z Scanning title 1 of 1, preview 10, 100.00 %
+2026-01-05T13:56:36.024Z [13:56:32] using container PAR 1:1
+2026-01-05T13:56:36.024Z [13:56:32] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 138/138/0/0, aspect 16:9, PAR 1:1, color profile: 1-1-1, chroma location: left
+2026-01-05T13:56:36.024Z 
+2026-01-05T13:56:36.024Z [13:56:32] libhb: scan thread found 1 valid title(s)
+2026-01-05T13:56:36.024Z 
+2026-01-05T13:56:36.024Z + title 1:
+2026-01-05T13:56:36.024Z   + stream: /media/movies/Omni Loop (2024)/Omni.Loop.2024.1080p.Blu-ray.Remux.AVC.DTS-HD.MA.5.1-CiNEPHiLES.mkv
+2026-01-05T13:56:36.024Z   + duration: 01:51:23
+2026-01-05T13:56:36.024Z   + size: 1920x1080, pixel aspect: 1/1, display aspect: 1.78, 23.976 fps
+2026-01-05T13:56:36.024Z   + autocrop: 138/138/0/0
+2026-01-05T13:56:36.024Z   + chapters:
+2026-01-05T13:56:36.024Z     + 1: duration 00:05:34
+2026-01-05T13:56:36.024Z     + 2: duration 00:07:36
+2026-01-05T13:56:36.024Z     + 3: duration 00:09:36
+2026-01-05T13:56:36.024Z     + 4: duration 00:11:37
+2026-01-05T13:56:36.024Z     + 5: duration 00:10:16
+2026-01-05T13:56:36.024Z     + 6: duration 00:08:24
+2026-01-05T13:56:36.024Z     + 7: duration 00:10:57
+2026-01-05T13:56:36.024Z     + 8: duration 00:09:03
+2026-01-05T13:56:36.024Z     + 9: duration 00:06:15
+2026-01-05T13:56:36.024Z     + 10: duration 00:06:34
+2026-01-05T13:56:36.024Z     + 11: duration 00:05:33
+2026-01-05T13:56:36.024Z     + 12: duration 00:07:06
+2026-01-05T13:56:36.024Z     + 13: duration 00:05:11
+2026-01-05T13:56:36.024Z     + 14: duration 00:03:56
+2026-01-05T13:56:36.024Z     + 15: duration 00:03:44
+2026-01-05T13:56:36.024Z   + audio tracks:
+2026-01-05T13:56:36.024Z     + 1, English (DTS-HD MA, 5.1 ch) (iso639-2: eng)
+2026-01-05T13:56:36.024Z   + subtitle tracks:
+2026-01-05T13:56:36.024Z     + 1, English (UTF-8)
+2026-01-05T13:56:36.024Z     + 2, English (UTF-8)
+2026-01-05T13:56:36.024Z     + 3, English (PGS)
+2026-01-05T13:56:36.024Z     + 4, 中文 (UTF-8)
+2026-01-05T13:56:36.024Z     + 5, čeština (UTF-8)
+2026-01-05T13:56:36.024Z     + 6, dansk (UTF-8)
+2026-01-05T13:56:36.024Z     + 7, Nederlands (UTF-8)
+2026-01-05T13:56:36.024Z     + 8, Deutsch (UTF-8)
+2026-01-05T13:56:36.024Z     + 9, suomi (UTF-8)
+2026-01-05T13:56:36.024Z     + 10, Francais (UTF-8)
+2026-01-05T13:56:36.024Z     + 11, magyar (UTF-8)
+2026-01-05T13:56:36.024Z     + 12, italiano (UTF-8)
+2026-01-05T13:56:36.024Z     + 13, 한국어 (UTF-8)
+2026-01-05T13:56:36.024Z     + 14, 中文 (UTF-8)
+2026-01-05T13:56:36.024Z     + 15, norsk (UTF-8)
+2026-01-05T13:56:36.024Z     + 16, polski (UTF-8)
+2026-01-05T13:56:36.024Z     + 17, Portugues (UTF-8)
+2026-01-05T13:56:36.024Z     + 18, Portugues (UTF-8)
+2026-01-05T13:56:36.024Z     + 19, русский (UTF-8)
+2026-01-05T13:56:36.024Z     + 20, español (UTF-8)
+2026-01-05T13:56:36.024Z     + 21, español (UTF-8)
+2026-01-05T13:56:36.024Z     + 22, svenska (UTF-8)
+2026-01-05T13:56:36.024Z     + 23, ไทย (UTF-8)
+2026-01-05T13:56:36.024Z     + 24, Türkçe (UTF-8)
+2026-01-05T13:56:36.024Z     + 25, українська (UTF-8)
+2026-01-05T13:56:36.024Z 
+2026-01-05T13:56:36.024Z HandBrake has exited.
+2026-01-05T13:56:36.024Z 
+2026-01-05T13:56:36.024Z 
+2026-01-05T13:56:36.024Z 
+2026-01-05T13:56:36.024Z 
+2026-01-05T13:56:36.024Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:[Step W06] [C1] Worker [-success-]
+2026-01-05T13:56:36.025Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:Worker success during processing
+2026-01-05T13:56:36.025Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:Updating healthcheck stats
+2026-01-05T13:56:36.025Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:[Step W10] Worker processing end
+2026-01-05T13:56:36.025Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:Subworker exited null
+2026-01-05T13:56:36.026Z xIGXze-U2:Node[MyInternalNode]:Worker[knobby-koi]:Successfully updated server with verdict: healthcheckSuccess

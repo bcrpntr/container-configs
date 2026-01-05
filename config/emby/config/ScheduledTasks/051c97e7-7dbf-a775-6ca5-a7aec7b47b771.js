@@ -1,0 +1,1 @@
+[{"Type":"IntervalTrigger","IntervalTicks":72000000000,"MaxRuntimeTicks":36000000000}]

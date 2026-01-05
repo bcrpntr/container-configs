@@ -1,0 +1,283 @@
+2026-01-04T11:32:48.237Z Dkrz81cUJX:[Step S01] [2.58.02] Server relay initialising job
+2026-01-04T11:32:48.237Z Dkrz81cUJX:Server: linux_x64_docker_true
+2026-01-04T11:32:48.237Z Dkrz81cUJX:Server relay adding file to staged files
+2026-01-04T11:32:48.238Z Dkrz81cUJX:Server relay sending job to Node relay: MyInternalNode
+2026-01-04T11:32:48.238Z Dkrz81cUJX:Node[MyInternalNode]:[Step N01] [2.58.02] Node relay received job
+2026-01-04T11:32:48.238Z Dkrz81cUJX:Node[MyInternalNode]:{"nodeName":"MyInternalNode","serverURL":"http://0.0.0.0:8266","serverIP":"0.0.0.0","serverPort":"8266","handbrakePath":"","ffmpegPath":"","mkvpropeditPath":"","pathTranslators":[{"server":"","node":""}],"nodeType":"mapped","unmappedNodeCache":"/app/unmappedNodeCache","logLevel":"INFO","priority":-1,"platform_arch_isdocker":"linux_x64_docker_true","processPid":664,"cronPluginUpdate":"","apiKey":"","maxLogSizeMB":"10","pollInterval":2000,"startPaused":false,"nodeID":"-2RaUzM4Y","seededWorkerLimits":{},"nodeRegisteredCount":1}
+2026-01-04T11:32:48.239Z Dkrz81cUJX:Node[MyInternalNode]:Node relay sending job to worker:rosy-ray
+2026-01-04T11:32:48.239Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:[Step W01] Received file, original: "/media/tv/Better Call Saul/Season 6/Better.Call.Saul.S06E12.Waterworks.1080p.BluRay.10bit.EAC3.5.1.x265-iVy.mkv"
+2026-01-04T11:32:48.239Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:{"workerType":"healthcheckcpu"}
+2026-01-04T11:32:48.239Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:{"ffmpegPath":"tdarr-ffmpeg"}
+2026-01-04T11:32:48.240Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:{"handbrakePath":"HandBrakeCLI"}
+2026-01-04T11:32:48.240Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:{"mkvpropeditPath":"mkvpropedit"}
+2026-01-04T11:32:48.240Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:{"gpuSelect":"-"}
+2026-01-04T11:32:48.241Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:{"allowGpuDoCpu":false}
+2026-01-04T11:32:48.241Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:{"thoroughHealthCheckCpuExtraInputArgs":""}
+2026-01-04T11:32:48.241Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:{"thoroughHealthCheckGpuExtraInputArgs":""}
+2026-01-04T11:32:48.242Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:{"thoroughHealthCheckCpuExtraArgs":""}
+2026-01-04T11:32:48.242Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:{"thoroughHealthCheckGpuExtraArgs":""}
+2026-01-04T11:32:48.242Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:{"logFullCliOutput":false}
+2026-01-04T11:32:48.242Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:{"runMkvpropedit":false}
+2026-01-04T11:32:48.243Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:{"dontCleanWorkerCacheFolder":false}
+2026-01-04T11:32:48.244Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:Path translating objects
+2026-01-04T11:32:48.244Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:Running path translator tests
+2026-01-04T11:32:48.245Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:Path translator tests passed
+2026-01-04T11:32:48.245Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:{"librarySettings":{"_id":"KU0woozLb","priority":1,"name":"TV Shows","folder":"/media/tv","foldersToIgnore":"","foldersToIgnoreCaseInsensitive":false,"folderWatchScanInterval":30,"scannerThreadCount":2,"cache":"/tmp","output":".","folderToFolderConversion":false,"folderToFolderConversionDeleteSource":false,"folderToFolderRecordHistory":true,"copyIfConditionsMet":false,"container":".mkv","containerFilter":"mkv,mp4,mov,m4v,mpg,mpeg,avi,flv,webm,wmv,vob,evo,iso,m2ts,ts","createdAt":1675837380368,"folderWatching":false,"useFsEvents":false,"scheduledScanFindNew":false,"processLibrary":true,"processTranscodes":true,"processHealthChecks":true,"scanOnStart":false,"exifToolScan":true,"mediaInfoScan":true,"ffprobeShowData":false,"isDirectoryLibrary":false,"closedCaptionScan":false,"scanButtons":false,"scanFound":"Files found:0","navItemSelected":"navSourceFolder","pluginIDs":[{"_id":"plugin1","id":"Tdarr_Plugin_MC93_MigzImageRemoval","checked":true,"source":"Community","priority":0,"InputsDB":{}},{"_id":"plugin2","id":"Tdarr_Plugin_lmg1_Reorder_Streams","checked":true,"source":"Community","priority":1,"InputsDB":{}},{"_id":"plugin4","id":"Tdarr_Plugin_MC93_Migz1FFMPEG","checked":true,"source":"Community","priority":2,"InputsDB":{}},{"_id":"plugin5","id":"Tdarr_Plugin_a9he_New_file_size_check","checked":true,"source":"Community","priority":3,"InputsDB":{}}],"pluginCommunity":true,"handbrake":true,"ffmpeg":false,"handbrakescan":true,"ffmpegscan":false,"preset":"-Z \"Very Fast 1080p30\"","decisionMaker":{"settingsPlugin":true,"settingsFlows":false,"settingsVideo":false,"videoExcludeSwitch":true,"video_codec_names_exclude":[{"codec":"hevc","checked":false},{"codec":"h264","checked":true}],"video_size_range_include":{"min":0,"max":100000},"video_height_range_include":{"min":0,"max":3000},"video_width_range_include":{"min":0,"max":4000},"settingsAudio":false,"audioExcludeSwitch":true,"audio_codec_names_exclude":[{"codec":"mp3","checked":true},{"codec":"aac","checked":false}],"audio_size_range_include":{"min":0,"max":10}},"schedule":[{"_id":"Sun:00-01","checked":true},{"_id":"Sun:01-02","checked":true},{"_id":"Sun:02-03","checked":true},{"_id":"Sun:03-04","checked":true},{"_id":"Sun:04-05","checked":true},{"_id":"Sun:05-06","checked":true},{"_id":"Sun:06-07","checked":true},{"_id":"Sun:07-08","checked":true},{"_id":"Sun:08-09","checked":true},{"_id":"Sun:09-10","checked":true},{"_id":"Sun:10-11","checked":true},{"_id":"Sun:11-12","checked":true},{"_id":"Sun:12-13","checked":true},{"_id":"Sun:13-14","checked":true},{"_id":"Sun:14-15","checked":true},{"_id":"Sun:15-16","checked":true},{"_id":"Sun:16-17","checked":true},{"_id":"Sun:17-18","checked":true},{"_id":"Sun:18-19","checked":true},{"_id":"Sun:19-20","checked":true},{"_id":"Sun:20-21","checked":true},{"_id":"Sun:21-22","checked":true},{"_id":"Sun:22-23","checked":true},{"_id":"Sun:23-00","checked":true},{"_id":"Mon:00-01","checked":true},{"_id":"Mon:01-02","checked":true},{"_id":"Mon:02-03","checked":true},{"_id":"Mon:03-04","checked":true},{"_id":"Mon:04-05","checked":true},{"_id":"Mon:05-06","checked":true},{"_id":"Mon:06-07","checked":true},{"_id":"Mon:07-08","checked":true},{"_id":"Mon:08-09","checked":true},{"_id":"Mon:09-10","checked":true},{"_id":"Mon:10-11","checked":true},{"_id":"Mon:11-12","checked":true},{"_id":"Mon:12-13","checked":true},{"_id":"Mon:13-14","checked":true},{"_id":"Mon:14-15","checked":true},{"_id":"Mon:15-16","checked":true},{"_id":"Mon:16-17","checked":true},{"_id":"Mon:17-18","checked":true},{"_id":"Mon:18-19","checked":true},{"_id":"Mon:19-20","checked":true},{"_id":"Mon:20-21","checked":true},{"_id":"Mon:21-22","checked":true},{"_id":"Mon:22-23","checked":true},{"_id":"Mon:23-00","checked":true},{"_id":"Tue:00-01","checked":true},{"_id":"Tue:01-02","checked":true},{"_id":"Tue:02-03","checked":true},{"_id":"Tue:03-04","checked":true},{"_id":"Tue:04-05","checked":true},{"_id":"Tue:05-06","checked":true},{"_id":"Tue:06-07","checked":true},{"_id":"Tue:07-08","checked":true},{"_id":"Tue:08-09","checked":true},{"_id":"Tue:09-10","checked":true},{"_id":"Tue:10-11","checked":true},{"_id":"Tue:11-12","checked":true},{"_id":"Tue:12-13","checked":true},{"_id":"Tue:13-14","checked":true},{"_id":"Tue:14-15","checked":true},{"_id":"Tue:15-16","checked":true},{"_id":"Tue:16-17","checked":true},{"_id":"Tue:17-18","checked":true},{"_id":"Tue:18-19","checked":true},{"_id":"Tue:19-20","checked":true},{"_id":"Tue:20-21","checked":true},{"_id":"Tue:21-22","checked":true},{"_id":"Tue:22-23","checked":true},{"_id":"Tue:23-00","checked":true},{"_id":"Wed:00-01","checked":true},{"_id":"Wed:01-02","checked":true},{"_id":"Wed:02-03","checked":true},{"_id":"Wed:03-04","checked":true},{"_id":"Wed:04-05","checked":true},{"_id":"Wed:05-06","checked":true},{"_id":"Wed:06-07","checked":true},{"_id":"Wed:07-08","checked":true},{"_id":"Wed:08-09","checked":true},{"_id":"Wed:09-10","checked":true},{"_id":"Wed:10-11","checked":true},{"_id":"Wed:11-12","checked":true},{"_id":"Wed:12-13","checked":true},{"_id":"Wed:13-14","checked":true},{"_id":"Wed:14-15","checked":true},{"_id":"Wed:15-16","checked":true},{"_id":"Wed:16-17","checked":true},{"_id":"Wed:17-18","checked":true},{"_id":"Wed:18-19","checked":true},{"_id":"Wed:19-20","checked":true},{"_id":"Wed:20-21","checked":true},{"_id":"Wed:21-22","checked":true},{"_id":"Wed:22-23","checked":true},{"_id":"Wed:23-00","checked":true},{"_id":"Thur:00-01","checked":true},{"_id":"Thur:01-02","checked":true},{"_id":"Thur:02-03","checked":true},{"_id":"Thur:03-04","checked":true},{"_id":"Thur:04-05","checked":true},{"_id":"Thur:05-06","checked":true},{"_id":"Thur:06-07","checked":true},{"_id":"Thur:07-08","checked":true},{"_id":"Thur:08-09","checked":true},{"_id":"Thur:09-10","checked":true},{"_id":"Thur:10-11","checked":true},{"_id":"Thur:11-12","checked":true},{"_id":"Thur:12-13","checked":true},{"_id":"Thur:13-14","checked":true},{"_id":"Thur:14-15","checked":true},{"_id":"Thur:15-16","checked":true},{"_id":"Thur:16-17","checked":true},{"_id":"Thur:17-18","checked":true},{"_id":"Thur:18-19","checked":true},{"_id":"Thur:19-20","checked":true},{"_id":"Thur:20-21","checked":true},{"_id":"Thur:21-22","checked":true},{"_id":"Thur:22-23","checked":true},{"_id":"Thur:23-00","checked":true},{"_id":"Fri:00-01","checked":true},{"_id":"Fri:01-02","checked":true},{"_id":"Fri:02-03","checked":true},{"_id":"Fri:03-04","checked":true},{"_id":"Fri:04-05","checked":true},{"_id":"Fri:05-06","checked":true},{"_id":"Fri:06-07","checked":true},{"_id":"Fri:07-08","checked":true},{"_id":"Fri:08-09","checked":true},{"_id":"Fri:09-10","checked":true},{"_id":"Fri:10-11","checked":true},{"_id":"Fri:11-12","checked":true},{"_id":"Fri:12-13","checked":true},{"_id":"Fri:13-14","checked":true},{"_id":"Fri:14-15","checked":true},{"_id":"Fri:15-16","checked":true},{"_id":"Fri:16-17","checked":true},{"_id":"Fri:17-18","checked":true},{"_id":"Fri:18-19","checked":true},{"_id":"Fri:19-20","checked":true},{"_id":"Fri:20-21","checked":true},{"_id":"Fri:21-22","checked":true},{"_id":"Fri:22-23","checked":true},{"_id":"Fri:23-00","checked":true},{"_id":"Sat:00-01","checked":true},{"_id":"Sat:01-02","checked":true},{"_id":"Sat:02-03","checked":true},{"_id":"Sat:03-04","checked":true},{"_id":"Sat:04-05","checked":true},{"_id":"Sat:05-06","checked":true},{"_id":"Sat:06-07","checked":true},{"_id":"Sat:07-08","checked":true},{"_id":"Sat:08-09","checked":true},{"_id":"Sat:09-10","checked":true},{"_id":"Sat:10-11","checked":true},{"_id":"Sat:11-12","checked":true},{"_id":"Sat:12-13","checked":true},{"_id":"Sat:13-14","checked":true},{"_id":"Sat:14-15","checked":true},{"_id":"Sat:15-16","checked":true},{"_id":"Sat:16-17","checked":true},{"_id":"Sat:17-18","checked":true},{"_id":"Sat:18-19","checked":true},{"_id":"Sat:19-20","checked":true},{"_id":"Sat:20-21","checked":true},{"_id":"Sat:21-22","checked":true},{"_id":"Sat:22-23","checked":true},{"_id":"Sat:23-00","checked":true}],"totalHealthCheckCount":134,"totalTranscodeCount":0,"sizeDiff":0,"holdNewFiles":false,"holdFor":3600,"holdForDisplayUnit":"hours","pluginStackOverview":true,"filterResolutionsSkip":"","filterCodecsSkip":"","filterContainersSkip":"","processPluginsSequentially":true}}
+2026-01-04T11:32:48.245Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:Scanning original library file
+2026-01-04T11:32:48.246Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:{
+2026-01-04T11:32:48.246Z   "exifToolScan": true,
+2026-01-04T11:32:48.246Z   "mediaInfoScan": false,
+2026-01-04T11:32:48.246Z   "closedCaptionScan": false
+2026-01-04T11:32:48.246Z }
+2026-01-04T11:32:48.246Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:Node scanning file
+2026-01-04T11:32:48.261Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:Scan complete
+2026-01-04T11:32:48.262Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:Original file scanned
+2026-01-04T11:32:48.262Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:Source file to work on determined:"/media/tv/Better Call Saul/Season 6/Better.Call.Saul.S06E12.Waterworks.1080p.BluRay.10bit.EAC3.5.1.x265-iVy.mkv"
+2026-01-04T11:32:48.262Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:[Step W02] [C1] Running pre-process file
+2026-01-04T11:32:48.263Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:Checking files can be accessed
+2026-01-04T11:32:48.263Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:mapped node, file is original, no need to download
+2026-01-04T11:32:48.263Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:Relevant paths can be accessed
+2026-01-04T11:32:48.264Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:Source file: "/media/tv/Better Call Saul/Season 6/Better.Call.Saul.S06E12.Waterworks.1080p.BluRay.10bit.EAC3.5.1.x265-iVy.mkv"
+2026-01-04T11:32:48.264Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:[Step W03] [C1] Analysing file - running plugins
+2026-01-04T11:32:48.264Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:Handbrake healthcheck task, no need to scan for extra file details
+2026-01-04T11:32:48.265Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:Updating Node relay: Processing
+2026-01-04T11:32:48.265Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:[1/2] Checking file frame count
+2026-01-04T11:32:48.265Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:[2/2] Frame count 0
+2026-01-04T11:32:48.266Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:Determining healthcheck command
+2026-01-04T11:32:48.266Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:[Step W04] [C1] Preparing command
+2026-01-04T11:32:48.266Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:Cache file stem: "/tmp/tdarr-workDir2-Dkrz81cUJX"
+2026-01-04T11:32:48.267Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:Cache file path: "/tmp/tdarr-workDir2-Dkrz81cUJX/Better.Call.Saul.S06E12.Waterworks.1080p.BluRay.10bit.EAC3.5.1.x265-iVy-TdarrCacheFile-GYWKFLGRp.mp4"
+2026-01-04T11:32:48.267Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:Create transcode args
+2026-01-04T11:32:48.267Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:Args:  -i "/media/tv/Better Call Saul/Season 6/Better.Call.Saul.S06E12.Waterworks.1080p.BluRay.10bit.EAC3.5.1.x265-iVy.mkv" -o /tmp/tdarr-workDir2-Dkrz81cUJX/Better.Call.Saul.S06E12.Waterworks.1080p.BluRay.10bit.EAC3.5.1.x265-iVy-TdarrCacheFile-GYWKFLGRp.mp4 --scan
+2026-01-04T11:32:48.268Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:Getting source file size
+2026-01-04T11:32:48.268Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:Source file size: 0.869347719475627
+2026-01-04T11:32:48.268Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:Performing safety check on worker config to see if old transcode args/container match new ones
+2026-01-04T11:32:48.268Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:Safety check complete, all good
+2026-01-04T11:32:48.269Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:[Step W05] [C1] Launching subworker
+2026-01-04T11:32:48.269Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:Preparing to launch subworker
+2026-01-04T11:32:48.269Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:Subworker launched
+2026-01-04T11:32:48.269Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:[1/3] Sending command to subworker
+2026-01-04T11:32:48.270Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:[2/3] HandBrakeCLI -i "/media/tv/Better Call Saul/Season 6/Better.Call.Saul.S06E12.Waterworks.1080p.BluRay.10bit.EAC3.5.1.x265-iVy.mkv" -o /tmp/tdarr-workDir2-Dkrz81cUJX/Better.Call.Saul.S06E12.Waterworks.1080p.BluRay.10bit.EAC3.5.1.x265-iVy-TdarrCacheFile-GYWKFLGRp.mp4 --scan
+2026-01-04T11:32:48.270Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:[3/3] Command sent
+2026-01-04T11:32:48.270Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:To see live CLI output, enable 'Log full FFmpeg/HandBrake output' in the staging section on the Tdarr tab before the job starts. Note this could increase the job report size substantially.
+2026-01-04T11:32:49.288Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:Subworker:Online
+2026-01-04T11:32:49.288Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:Subworker:Receiving transcode settings
+2026-01-04T11:32:49.288Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:Subworker:Running CLI
+2026-01-04T11:33:03.430Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:Subworker:a.Thread closed, code: 0
+2026-01-04T11:33:03.430Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:Subworker exit approved, killing subworker
+2026-01-04T11:33:03.430Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:Subworker killed
+2026-01-04T11:33:03.430Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:b.Thread closed, code: 0
+2026-01-04T11:33:03.431Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:CLI code: 0
+2026-01-04T11:33:03.431Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:Last 200 lines of CLI log:
+2026-01-04T11:33:03.431Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:[11:32:46] Compile-time hardening features are enabled
+2026-01-04T11:33:03.431Z 
+2026-01-04T11:33:03.431Z [11:32:46] nvenc: version 12.2 is available
+2026-01-04T11:33:03.431Z [11:32:46] nvdec: is available
+2026-01-04T11:33:03.431Z 
+2026-01-04T11:33:03.431Z [11:32:46] CUDA Version: 6.1
+2026-01-04T11:33:03.431Z 
+2026-01-04T11:33:03.431Z [11:32:46] qsv: not available on this system
+2026-01-04T11:33:03.431Z 
+2026-01-04T11:33:03.431Z [11:32:46] hb_init: starting libhb thread
+2026-01-04T11:33:03.431Z 
+2026-01-04T11:33:03.431Z [11:32:46] thread 7f97422096c0 started ("libhb")
+2026-01-04T11:33:03.431Z HandBrake 1.10.2 (2025102400) - Linux x86_64 - https://handbrake.fr
+2026-01-04T11:33:03.431Z 16 CPUs detected
+2026-01-04T11:33:03.431Z 
+2026-01-04T11:33:03.431Z Opening /media/tv/Better Call Saul/Season 6/Better.Call.Saul.S06E12.Waterworks.1080p.BluRay.10bit.EAC3.5.1.x265-iVy.mkv...
+2026-01-04T11:33:03.431Z 
+2026-01-04T11:33:03.431Z [11:32:46] CPU: Common KVM processor
+2026-01-04T11:33:03.431Z [11:32:46]  - logical processor count: 16
+2026-01-04T11:33:03.431Z [11:32:46] Intel Quick Sync Video support: no
+2026-01-04T11:33:03.431Z [11:32:46] hb_scan: path=/media/tv/Better Call Saul/Season 6/Better.Call.Saul.S06E12.Waterworks.1080p.BluRay.10bit.EAC3.5.1.x265-iVy.mkv, title_index=1
+2026-01-04T11:33:03.431Z 
+2026-01-04T11:33:03.431Z Input #0, matroska,webm, from '/media/tv/Better Call Saul/Season 6/Better.Call.Saul.S06E12.Waterworks.1080p.BluRay.10bit.EAC3.5.1.x265-iVy.mkv':
+2026-01-04T11:33:03.431Z   Metadata:
+2026-01-04T11:33:03.431Z     creation_time   : 2024-08-08T05:28:45.000000Z
+2026-01-04T11:33:03.431Z     ENCODER         : Lavf61.1.100
+2026-01-04T11:33:03.431Z   Duration: 00:57:53.80, start: -0.005000, bitrate: 2149 kb/s
+2026-01-04T11:33:03.431Z   Chapters:
+2026-01-04T11:33:03.431Z     Chapter #0:0: start 0.000000, end 169.586000
+2026-01-04T11:33:03.431Z       Metadata:
+2026-01-04T11:33:03.431Z         title           : Chapter 1
+2026-01-04T11:33:03.431Z     Chapter #0:1: start 169.586000, end 1008.508000
+2026-01-04T11:33:03.431Z       Metadata:
+2026-01-04T11:33:03.431Z         title           : Chapter 2
+2026-01-04T11:33:03.431Z     Chapter #0:2: start 1008.508000, end 1617.950000
+2026-01-04T11:33:03.431Z       Metadata:
+2026-01-04T11:33:03.431Z         title           : Chapter 3
+2026-01-04T11:33:03.431Z     Chapter #0:3: start 1617.950000, end 2263.094000
+2026-01-04T11:33:03.431Z       Metadata:
+2026-01-04T11:33:03.431Z 
+2026-01-04T11:33:03.431Z         title           : Chapter 4
+2026-01-04T11:33:03.431Z     Chapter #0:4: start 2263.094000, end 2709.665000
+2026-01-04T11:33:03.431Z       Metadata:
+2026-01-04T11:33:03.431Z         title           : Chapter 5
+2026-01-04T11:33:03.431Z     Chapter #0:5: start 2709.665000, end 3433.805000
+2026-01-04T11:33:03.431Z       Metadata:
+2026-01-04T11:33:03.431Z         title           : Chapter 6
+2026-01-04T11:33:03.431Z     Chapter #0:6: start 3433.805000, end 3473.762000
+2026-01-04T11:33:03.431Z       Metadata:
+2026-01-04T11:33:03.431Z         title           : Chapter 7
+2026-01-04T11:33:03.431Z   Stream #0:0: Video: hevc (Main 10), yuv420p10le(tv, bt709), 1920x1080 [SAR 1:1 DAR 16:9], 23.98 fps, 23.98 tbr, 1k tbn (default)
+2026-01-04T11:33:03.431Z       Metadata:
+2026-01-04T11:33:03.431Z         DURATION        : 00:57:53.804000000
+2026-01-04T11:33:03.431Z   Stream #0:1(eng): Audio: eac3, 48000 Hz, 5.1(side), fltp, 640 kb/s (default)
+2026-01-04T11:33:03.431Z       Metadata:
+2026-01-04T11:33:03.431Z         DURATION        : 00:57:53.792000000
+2026-01-04T11:33:03.431Z   Stream #0:2(ara): Subtitle: hdmv_pgs_subtitle (pgssub), 1920x1080
+2026-01-04T11:33:03.431Z       Metadata:
+2026-01-04T11:33:03.431Z         title           : Arabic
+2026-01-04T11:33:03.431Z         DURATION        : 00:57:51.761000000
+2026-01-04T11:33:03.431Z   Stream #0:3(dut): Subtitle: hdmv_pgs_subtitle (pgssub), 1920x1080
+2026-01-04T11:33:03.431Z       Metadata:
+2026-01-04T11:33:03.431Z         title           : Dutch
+2026-01-04T11:33:03.431Z         DURATION        : 00:57:51.761000000
+2026-01-04T11:33:03.431Z   Stream #0:4(dut): Subtitle: hdmv_pgs_subtitle (pgssub)
+2026-01-04T11:33:03.431Z       Metadata:
+2026-01-04T11:33:03.431Z         title           : Dutch (Commentary)
+2026-01-04T11:33:03.431Z         DURATION        : 00:57:42.752000000
+2026-01-04T11:33:03.431Z   Stream #0:5(eng): Subtitle: hdmv_pgs_subtitle (pgssub)
+2026-01-04T11:33:03.431Z       Metadata:
+2026-01-04T11:33:03.431Z         title           : English
+2026-01-04T11:33:03.431Z         DURATION        : 00:56:58.749000000
+2026-01-04T11:33:03.431Z   Stream #0:6(eng): Subtitle: hdmv_pgs_subtitle (pgssub)
+2026-01-04T11:33:03.431Z       Metadata:
+2026-01-04T11:33:03.431Z         title           : English (SDH)
+2026-01-04T11:33:03.431Z         DURATION        : 00:57:15.725000000
+2026-01-04T11:33:03.431Z   Stream #0:7(eng): Subtitle: hdmv_pgs_subtitle (pgssub)
+2026-01-04T11:33:03.431Z       Metadata:
+2026-01-04T11:33:03.431Z         title           : English (Commentary)
+2026-01-04T11:33:03.431Z         DURATION        : 00:57:42.752000000
+2026-01-04T11:33:03.431Z   Stream #0:8(fre): Subtitle: hdmv_pgs_subtitle (pgssub), 1920x1080
+2026-01-04T11:33:03.431Z       Metadata:
+2026-01-04T11:33:03.431Z         title           : French
+2026-01-04T11:33:03.431Z         DURATION        : 00:57:51.761000000
+2026-01-04T11:33:03.431Z   Stream #0:9(fre): Subtitle: hdmv_pgs_subtitle (pgssub)
+2026-01-04T11:33:03.431Z       Metadata:
+2026-01-04T11:33:03.431Z         title           : French (Commentary)
+2026-01-04T11:33:03.431Z         DURATION        : 00:57:42.752000000
+2026-01-04T11:33:03.431Z   Stream #0:10(ger): Subtitle: hdmv_pgs_subtitle (pgssub), 1920x1080
+2026-01-04T11:33:03.431Z       Metadata:
+2026-01-04T11:33:03.431Z         title           : German
+2026-01-04T11:33:03.431Z         DURATION        : 00:57:51.761000000
+2026-01-04T11:33:03.431Z   Stream #0:11(ger): Subtitle: hdmv_pgs_subtitle (pgssub)
+2026-01-04T11:33:03.431Z       Metadata:
+2026-01-04T11:33:03.431Z         title           : German (Commentary)
+2026-01-04T11:33:03.431Z         DURATION        : 00:57:42.752000000
+2026-01-04T11:33:03.431Z   Stream #0:12(ita): Subtitle: hdmv_pgs_subtitle (pgssub), 1920x1080
+2026-01-04T11:33:03.431Z       Metadata:
+2026-01-04T11:33:03.431Z         title           : Italian
+2026-01-04T11:33:03.431Z         DURATION        : 00:57:51.761000000
+2026-01-04T11:33:03.431Z   Stream #0:13(ita): Subtitle: hdmv_pgs_subtitle (pgssub)
+2026-01-04T11:33:03.431Z       Metadata:
+2026-01-04T11:33:03.431Z         title           : Italian (Commentary)
+2026-01-04T11:33:03.431Z         DURATION        : 00:57:42.752000000
+2026-01-04T11:33:03.431Z   Stream #0:14(spa): Subtitle: hdmv_pgs_subtitle (pgssub)
+2026-01-04T11:33:03.431Z       Metadata:
+2026-01-04T11:33:03.431Z         title           : Spanish (Castilian)
+2026-01-04T11:33:03.431Z         DURATION        : 00:57:51.761000000
+2026-01-04T11:33:03.431Z 
+2026-01-04T11:33:03.431Z   Stream #0:15(spa): Subtitle: hdmv_pgs_subtitle (pgssub)
+2026-01-04T11:33:03.431Z       Metadata:
+2026-01-04T11:33:03.431Z         title           : Spanish (Commentary)
+2026-01-04T11:33:03.431Z         DURATION        : 00:57:42.752000000
+2026-01-04T11:33:03.431Z [11:32:46] scan: decoding previews for title 1
+2026-01-04T11:33:03.431Z 
+2026-01-04T11:33:03.431Z [11:32:46] scan: audio 0x1: eac3, rate=48000Hz, bitrate=640000 English (E-AC3, 5.1 ch, 640 kbps)
+2026-01-04T11:33:03.431Z 
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 3, 30.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 3, 30.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 4, 40.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 7, 70.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 7, 70.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:33:03.431Z Scanning title 1 of 1, preview 10, 100.00 %
+2026-01-04T11:33:03.431Z [11:33:00] using container PAR 1:1
+2026-01-04T11:33:03.431Z [11:33:00] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1, color profile: 1-1-1, chroma location: left
+2026-01-04T11:33:03.431Z 
+2026-01-04T11:33:03.431Z [11:33:01] libhb: scan thread found 1 valid title(s)
+2026-01-04T11:33:03.431Z 
+2026-01-04T11:33:03.431Z + title 1:
+2026-01-04T11:33:03.431Z   + stream: /media/tv/Better Call Saul/Season 6/Better.Call.Saul.S06E12.Waterworks.1080p.BluRay.10bit.EAC3.5.1.x265-iVy.mkv
+2026-01-04T11:33:03.431Z   + duration: 00:57:53
+2026-01-04T11:33:03.431Z   + size: 1920x1080, pixel aspect: 1/1, display aspect: 1.78, 23.976 fps
+2026-01-04T11:33:03.431Z   + autocrop: 0/0/0/0
+2026-01-04T11:33:03.431Z   + chapters:
+2026-01-04T11:33:03.431Z     + 1: duration 00:02:50
+2026-01-04T11:33:03.431Z     + 2: duration 00:13:59
+2026-01-04T11:33:03.431Z     + 3: duration 00:10:09
+2026-01-04T11:33:03.431Z     + 4: duration 00:10:45
+2026-01-04T11:33:03.431Z     + 5: duration 00:07:27
+2026-01-04T11:33:03.431Z     + 6: duration 00:12:04
+2026-01-04T11:33:03.431Z     + 7: duration 00:00:40
+2026-01-04T11:33:03.431Z   + audio tracks:
+2026-01-04T11:33:03.431Z     + 1, English (E-AC3, 5.1 ch, 640 kbps) (iso639-2: eng)
+2026-01-04T11:33:03.431Z   + subtitle tracks:
+2026-01-04T11:33:03.431Z     + 1, العربية (PGS)
+2026-01-04T11:33:03.431Z     + 2, Nederlands (PGS)
+2026-01-04T11:33:03.431Z     + 3, Nederlands (PGS)
+2026-01-04T11:33:03.431Z     + 4, English (PGS)
+2026-01-04T11:33:03.431Z     + 5, English (PGS)
+2026-01-04T11:33:03.431Z     + 6, English (PGS)
+2026-01-04T11:33:03.431Z     + 7, Francais (PGS)
+2026-01-04T11:33:03.431Z     + 8, Francais (PGS)
+2026-01-04T11:33:03.431Z     + 9, Deutsch (PGS)
+2026-01-04T11:33:03.431Z     + 10, Deutsch (PGS)
+2026-01-04T11:33:03.431Z     + 11, italiano (PGS)
+2026-01-04T11:33:03.431Z     + 12, italiano (PGS)
+2026-01-04T11:33:03.431Z     + 13, español (PGS)
+2026-01-04T11:33:03.431Z     + 14, español (PGS)
+2026-01-04T11:33:03.431Z 
+2026-01-04T11:33:03.431Z HandBrake has exited.
+2026-01-04T11:33:03.431Z 
+2026-01-04T11:33:03.431Z 
+2026-01-04T11:33:03.431Z 
+2026-01-04T11:33:03.431Z 
+2026-01-04T11:33:03.432Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:[Step W06] [C1] Worker [-success-]
+2026-01-04T11:33:03.432Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:Worker success during processing
+2026-01-04T11:33:03.432Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:Updating healthcheck stats
+2026-01-04T11:33:03.434Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:[Step W10] Worker processing end
+2026-01-04T11:33:03.439Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:Subworker exited null
+2026-01-04T11:33:03.439Z Dkrz81cUJX:Node[MyInternalNode]:Worker[rosy-ray]:Successfully updated server with verdict: healthcheckSuccess

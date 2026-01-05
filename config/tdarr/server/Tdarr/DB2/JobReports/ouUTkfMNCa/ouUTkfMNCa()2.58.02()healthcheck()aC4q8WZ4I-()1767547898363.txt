@@ -1,0 +1,702 @@
+2026-01-04T11:31:41.198Z aC4q8WZ4I-:[Step S01] [2.58.02] Server relay initialising job
+2026-01-04T11:31:41.198Z aC4q8WZ4I-:Server: linux_x64_docker_true
+2026-01-04T11:31:41.198Z aC4q8WZ4I-:Server relay adding file to staged files
+2026-01-04T11:31:41.199Z aC4q8WZ4I-:Server relay sending job to Node relay: MyInternalNode
+2026-01-04T11:31:41.200Z aC4q8WZ4I-:Node[MyInternalNode]:[Step N01] [2.58.02] Node relay received job
+2026-01-04T11:31:41.200Z aC4q8WZ4I-:Node[MyInternalNode]:{"nodeName":"MyInternalNode","serverURL":"http://0.0.0.0:8266","serverIP":"0.0.0.0","serverPort":"8266","handbrakePath":"","ffmpegPath":"","mkvpropeditPath":"","pathTranslators":[{"server":"","node":""}],"nodeType":"mapped","unmappedNodeCache":"/app/unmappedNodeCache","logLevel":"INFO","priority":-1,"platform_arch_isdocker":"linux_x64_docker_true","processPid":664,"cronPluginUpdate":"","apiKey":"","maxLogSizeMB":"10","pollInterval":2000,"startPaused":false,"nodeID":"-2RaUzM4Y","seededWorkerLimits":{},"nodeRegisteredCount":1}
+2026-01-04T11:31:41.200Z aC4q8WZ4I-:Node[MyInternalNode]:Node relay sending job to worker:rosy-ray
+2026-01-04T11:31:41.200Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:[Step W01] Received file, original: "/media/tv/Fallout/Season 1/Fallout.2024.S01E06.1080p.BDRip.DDP7.1.x265.-.Vialle.mkv"
+2026-01-04T11:31:41.201Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:{"workerType":"healthcheckcpu"}
+2026-01-04T11:31:41.201Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:{"ffmpegPath":"tdarr-ffmpeg"}
+2026-01-04T11:31:41.202Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:{"handbrakePath":"HandBrakeCLI"}
+2026-01-04T11:31:41.202Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:{"mkvpropeditPath":"mkvpropedit"}
+2026-01-04T11:31:41.202Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:{"gpuSelect":"-"}
+2026-01-04T11:31:41.203Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:{"allowGpuDoCpu":false}
+2026-01-04T11:31:41.203Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:{"thoroughHealthCheckCpuExtraInputArgs":""}
+2026-01-04T11:31:41.203Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:{"thoroughHealthCheckGpuExtraInputArgs":""}
+2026-01-04T11:31:41.204Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:{"thoroughHealthCheckCpuExtraArgs":""}
+2026-01-04T11:31:41.204Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:{"thoroughHealthCheckGpuExtraArgs":""}
+2026-01-04T11:31:41.205Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:{"logFullCliOutput":false}
+2026-01-04T11:31:41.205Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:{"runMkvpropedit":false}
+2026-01-04T11:31:41.205Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:{"dontCleanWorkerCacheFolder":false}
+2026-01-04T11:31:41.205Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:Path translating objects
+2026-01-04T11:31:41.206Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:Running path translator tests
+2026-01-04T11:31:41.206Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:Path translator tests passed
+2026-01-04T11:31:41.206Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:{"librarySettings":{"_id":"KU0woozLb","priority":1,"name":"TV Shows","folder":"/media/tv","foldersToIgnore":"","foldersToIgnoreCaseInsensitive":false,"folderWatchScanInterval":30,"scannerThreadCount":2,"cache":"/tmp","output":".","folderToFolderConversion":false,"folderToFolderConversionDeleteSource":false,"folderToFolderRecordHistory":true,"copyIfConditionsMet":false,"container":".mkv","containerFilter":"mkv,mp4,mov,m4v,mpg,mpeg,avi,flv,webm,wmv,vob,evo,iso,m2ts,ts","createdAt":1675837380368,"folderWatching":false,"useFsEvents":false,"scheduledScanFindNew":false,"processLibrary":true,"processTranscodes":true,"processHealthChecks":true,"scanOnStart":false,"exifToolScan":true,"mediaInfoScan":true,"ffprobeShowData":false,"isDirectoryLibrary":false,"closedCaptionScan":false,"scanButtons":false,"scanFound":"Files found:0","navItemSelected":"navSourceFolder","pluginIDs":[{"_id":"plugin1","id":"Tdarr_Plugin_MC93_MigzImageRemoval","checked":true,"source":"Community","priority":0,"InputsDB":{}},{"_id":"plugin2","id":"Tdarr_Plugin_lmg1_Reorder_Streams","checked":true,"source":"Community","priority":1,"InputsDB":{}},{"_id":"plugin4","id":"Tdarr_Plugin_MC93_Migz1FFMPEG","checked":true,"source":"Community","priority":2,"InputsDB":{}},{"_id":"plugin5","id":"Tdarr_Plugin_a9he_New_file_size_check","checked":true,"source":"Community","priority":3,"InputsDB":{}}],"pluginCommunity":true,"handbrake":true,"ffmpeg":false,"handbrakescan":true,"ffmpegscan":false,"preset":"-Z \"Very Fast 1080p30\"","decisionMaker":{"settingsPlugin":true,"settingsFlows":false,"settingsVideo":false,"videoExcludeSwitch":true,"video_codec_names_exclude":[{"codec":"hevc","checked":false},{"codec":"h264","checked":true}],"video_size_range_include":{"min":0,"max":100000},"video_height_range_include":{"min":0,"max":3000},"video_width_range_include":{"min":0,"max":4000},"settingsAudio":false,"audioExcludeSwitch":true,"audio_codec_names_exclude":[{"codec":"mp3","checked":true},{"codec":"aac","checked":false}],"audio_size_range_include":{"min":0,"max":10}},"schedule":[{"_id":"Sun:00-01","checked":true},{"_id":"Sun:01-02","checked":true},{"_id":"Sun:02-03","checked":true},{"_id":"Sun:03-04","checked":true},{"_id":"Sun:04-05","checked":true},{"_id":"Sun:05-06","checked":true},{"_id":"Sun:06-07","checked":true},{"_id":"Sun:07-08","checked":true},{"_id":"Sun:08-09","checked":true},{"_id":"Sun:09-10","checked":true},{"_id":"Sun:10-11","checked":true},{"_id":"Sun:11-12","checked":true},{"_id":"Sun:12-13","checked":true},{"_id":"Sun:13-14","checked":true},{"_id":"Sun:14-15","checked":true},{"_id":"Sun:15-16","checked":true},{"_id":"Sun:16-17","checked":true},{"_id":"Sun:17-18","checked":true},{"_id":"Sun:18-19","checked":true},{"_id":"Sun:19-20","checked":true},{"_id":"Sun:20-21","checked":true},{"_id":"Sun:21-22","checked":true},{"_id":"Sun:22-23","checked":true},{"_id":"Sun:23-00","checked":true},{"_id":"Mon:00-01","checked":true},{"_id":"Mon:01-02","checked":true},{"_id":"Mon:02-03","checked":true},{"_id":"Mon:03-04","checked":true},{"_id":"Mon:04-05","checked":true},{"_id":"Mon:05-06","checked":true},{"_id":"Mon:06-07","checked":true},{"_id":"Mon:07-08","checked":true},{"_id":"Mon:08-09","checked":true},{"_id":"Mon:09-10","checked":true},{"_id":"Mon:10-11","checked":true},{"_id":"Mon:11-12","checked":true},{"_id":"Mon:12-13","checked":true},{"_id":"Mon:13-14","checked":true},{"_id":"Mon:14-15","checked":true},{"_id":"Mon:15-16","checked":true},{"_id":"Mon:16-17","checked":true},{"_id":"Mon:17-18","checked":true},{"_id":"Mon:18-19","checked":true},{"_id":"Mon:19-20","checked":true},{"_id":"Mon:20-21","checked":true},{"_id":"Mon:21-22","checked":true},{"_id":"Mon:22-23","checked":true},{"_id":"Mon:23-00","checked":true},{"_id":"Tue:00-01","checked":true},{"_id":"Tue:01-02","checked":true},{"_id":"Tue:02-03","checked":true},{"_id":"Tue:03-04","checked":true},{"_id":"Tue:04-05","checked":true},{"_id":"Tue:05-06","checked":true},{"_id":"Tue:06-07","checked":true},{"_id":"Tue:07-08","checked":true},{"_id":"Tue:08-09","checked":true},{"_id":"Tue:09-10","checked":true},{"_id":"Tue:10-11","checked":true},{"_id":"Tue:11-12","checked":true},{"_id":"Tue:12-13","checked":true},{"_id":"Tue:13-14","checked":true},{"_id":"Tue:14-15","checked":true},{"_id":"Tue:15-16","checked":true},{"_id":"Tue:16-17","checked":true},{"_id":"Tue:17-18","checked":true},{"_id":"Tue:18-19","checked":true},{"_id":"Tue:19-20","checked":true},{"_id":"Tue:20-21","checked":true},{"_id":"Tue:21-22","checked":true},{"_id":"Tue:22-23","checked":true},{"_id":"Tue:23-00","checked":true},{"_id":"Wed:00-01","checked":true},{"_id":"Wed:01-02","checked":true},{"_id":"Wed:02-03","checked":true},{"_id":"Wed:03-04","checked":true},{"_id":"Wed:04-05","checked":true},{"_id":"Wed:05-06","checked":true},{"_id":"Wed:06-07","checked":true},{"_id":"Wed:07-08","checked":true},{"_id":"Wed:08-09","checked":true},{"_id":"Wed:09-10","checked":true},{"_id":"Wed:10-11","checked":true},{"_id":"Wed:11-12","checked":true},{"_id":"Wed:12-13","checked":true},{"_id":"Wed:13-14","checked":true},{"_id":"Wed:14-15","checked":true},{"_id":"Wed:15-16","checked":true},{"_id":"Wed:16-17","checked":true},{"_id":"Wed:17-18","checked":true},{"_id":"Wed:18-19","checked":true},{"_id":"Wed:19-20","checked":true},{"_id":"Wed:20-21","checked":true},{"_id":"Wed:21-22","checked":true},{"_id":"Wed:22-23","checked":true},{"_id":"Wed:23-00","checked":true},{"_id":"Thur:00-01","checked":true},{"_id":"Thur:01-02","checked":true},{"_id":"Thur:02-03","checked":true},{"_id":"Thur:03-04","checked":true},{"_id":"Thur:04-05","checked":true},{"_id":"Thur:05-06","checked":true},{"_id":"Thur:06-07","checked":true},{"_id":"Thur:07-08","checked":true},{"_id":"Thur:08-09","checked":true},{"_id":"Thur:09-10","checked":true},{"_id":"Thur:10-11","checked":true},{"_id":"Thur:11-12","checked":true},{"_id":"Thur:12-13","checked":true},{"_id":"Thur:13-14","checked":true},{"_id":"Thur:14-15","checked":true},{"_id":"Thur:15-16","checked":true},{"_id":"Thur:16-17","checked":true},{"_id":"Thur:17-18","checked":true},{"_id":"Thur:18-19","checked":true},{"_id":"Thur:19-20","checked":true},{"_id":"Thur:20-21","checked":true},{"_id":"Thur:21-22","checked":true},{"_id":"Thur:22-23","checked":true},{"_id":"Thur:23-00","checked":true},{"_id":"Fri:00-01","checked":true},{"_id":"Fri:01-02","checked":true},{"_id":"Fri:02-03","checked":true},{"_id":"Fri:03-04","checked":true},{"_id":"Fri:04-05","checked":true},{"_id":"Fri:05-06","checked":true},{"_id":"Fri:06-07","checked":true},{"_id":"Fri:07-08","checked":true},{"_id":"Fri:08-09","checked":true},{"_id":"Fri:09-10","checked":true},{"_id":"Fri:10-11","checked":true},{"_id":"Fri:11-12","checked":true},{"_id":"Fri:12-13","checked":true},{"_id":"Fri:13-14","checked":true},{"_id":"Fri:14-15","checked":true},{"_id":"Fri:15-16","checked":true},{"_id":"Fri:16-17","checked":true},{"_id":"Fri:17-18","checked":true},{"_id":"Fri:18-19","checked":true},{"_id":"Fri:19-20","checked":true},{"_id":"Fri:20-21","checked":true},{"_id":"Fri:21-22","checked":true},{"_id":"Fri:22-23","checked":true},{"_id":"Fri:23-00","checked":true},{"_id":"Sat:00-01","checked":true},{"_id":"Sat:01-02","checked":true},{"_id":"Sat:02-03","checked":true},{"_id":"Sat:03-04","checked":true},{"_id":"Sat:04-05","checked":true},{"_id":"Sat:05-06","checked":true},{"_id":"Sat:06-07","checked":true},{"_id":"Sat:07-08","checked":true},{"_id":"Sat:08-09","checked":true},{"_id":"Sat:09-10","checked":true},{"_id":"Sat:10-11","checked":true},{"_id":"Sat:11-12","checked":true},{"_id":"Sat:12-13","checked":true},{"_id":"Sat:13-14","checked":true},{"_id":"Sat:14-15","checked":true},{"_id":"Sat:15-16","checked":true},{"_id":"Sat:16-17","checked":true},{"_id":"Sat:17-18","checked":true},{"_id":"Sat:18-19","checked":true},{"_id":"Sat:19-20","checked":true},{"_id":"Sat:20-21","checked":true},{"_id":"Sat:21-22","checked":true},{"_id":"Sat:22-23","checked":true},{"_id":"Sat:23-00","checked":true}],"totalHealthCheckCount":103,"totalTranscodeCount":0,"sizeDiff":0,"holdNewFiles":false,"holdFor":3600,"holdForDisplayUnit":"hours","pluginStackOverview":true,"filterResolutionsSkip":"","filterCodecsSkip":"","filterContainersSkip":"","processPluginsSequentially":true}}
+2026-01-04T11:31:41.207Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:Scanning original library file
+2026-01-04T11:31:41.207Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:{
+2026-01-04T11:31:41.207Z   "exifToolScan": true,
+2026-01-04T11:31:41.207Z   "mediaInfoScan": false,
+2026-01-04T11:31:41.207Z   "closedCaptionScan": false
+2026-01-04T11:31:41.207Z }
+2026-01-04T11:31:41.208Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:Node scanning file
+2026-01-04T11:31:41.208Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:Scan complete
+2026-01-04T11:31:41.208Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:Original file scanned
+2026-01-04T11:31:41.209Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:Source file to work on determined:"/media/tv/Fallout/Season 1/Fallout.2024.S01E06.1080p.BDRip.DDP7.1.x265.-.Vialle.mkv"
+2026-01-04T11:31:41.209Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:[Step W02] [C1] Running pre-process file
+2026-01-04T11:31:41.209Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:Checking files can be accessed
+2026-01-04T11:31:41.210Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:mapped node, file is original, no need to download
+2026-01-04T11:31:41.210Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:Relevant paths can be accessed
+2026-01-04T11:31:41.210Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:Source file: "/media/tv/Fallout/Season 1/Fallout.2024.S01E06.1080p.BDRip.DDP7.1.x265.-.Vialle.mkv"
+2026-01-04T11:31:41.211Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:[Step W03] [C1] Analysing file - running plugins
+2026-01-04T11:31:41.211Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:Handbrake healthcheck task, no need to scan for extra file details
+2026-01-04T11:31:41.212Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:Updating Node relay: Processing
+2026-01-04T11:31:41.212Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:[1/2] Checking file frame count
+2026-01-04T11:31:41.212Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:[2/2] Frame count 0
+2026-01-04T11:31:41.213Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:Determining healthcheck command
+2026-01-04T11:31:41.213Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:[Step W04] [C1] Preparing command
+2026-01-04T11:31:41.213Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:Cache file stem: "/tmp/tdarr-workDir2-aC4q8WZ4I-"
+2026-01-04T11:31:41.214Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:Cache file path: "/tmp/tdarr-workDir2-aC4q8WZ4I-/Fallout.2024.S01E06.1080p.BDRip.DDP7.1.x265.-.Vialle-TdarrCacheFile-32IjTVPlLv.mp4"
+2026-01-04T11:31:41.214Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:Create transcode args
+2026-01-04T11:31:41.215Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:Args:  -i "/media/tv/Fallout/Season 1/Fallout.2024.S01E06.1080p.BDRip.DDP7.1.x265.-.Vialle.mkv" -o /tmp/tdarr-workDir2-aC4q8WZ4I-/Fallout.2024.S01E06.1080p.BDRip.DDP7.1.x265.-.Vialle-TdarrCacheFile-32IjTVPlLv.mp4 --scan
+2026-01-04T11:31:41.215Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:Getting source file size
+2026-01-04T11:31:41.215Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:Source file size: 3.355886156670749
+2026-01-04T11:31:41.215Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:Performing safety check on worker config to see if old transcode args/container match new ones
+2026-01-04T11:31:41.216Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:Safety check complete, all good
+2026-01-04T11:31:41.216Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:[Step W05] [C1] Launching subworker
+2026-01-04T11:31:41.217Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:Preparing to launch subworker
+2026-01-04T11:31:41.218Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:Subworker launched
+2026-01-04T11:31:41.218Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:[1/3] Sending command to subworker
+2026-01-04T11:31:41.219Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:[2/3] HandBrakeCLI -i "/media/tv/Fallout/Season 1/Fallout.2024.S01E06.1080p.BDRip.DDP7.1.x265.-.Vialle.mkv" -o /tmp/tdarr-workDir2-aC4q8WZ4I-/Fallout.2024.S01E06.1080p.BDRip.DDP7.1.x265.-.Vialle-TdarrCacheFile-32IjTVPlLv.mp4 --scan
+2026-01-04T11:31:41.219Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:[3/3] Command sent
+2026-01-04T11:31:41.219Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:To see live CLI output, enable 'Log full FFmpeg/HandBrake output' in the staging section on the Tdarr tab before the job starts. Note this could increase the job report size substantially.
+2026-01-04T11:31:41.220Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:Subworker:Online
+2026-01-04T11:31:41.220Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:Subworker:Receiving transcode settings
+2026-01-04T11:31:41.221Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:Subworker:Running CLI
+2026-01-04T11:31:49.332Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:Subworker:a.Thread closed, code: 0
+2026-01-04T11:31:49.332Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:Subworker exit approved, killing subworker
+2026-01-04T11:31:49.333Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:Subworker killed
+2026-01-04T11:31:49.333Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:b.Thread closed, code: 0
+2026-01-04T11:31:49.334Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:CLI code: 0
+2026-01-04T11:31:49.334Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:Last 200 lines of CLI log:
+2026-01-04T11:31:49.334Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:[11:31:38] Compile-time hardening features are enabled
+2026-01-04T11:31:49.334Z 
+2026-01-04T11:31:49.334Z [11:31:38] nvenc: version 12.2 is available
+2026-01-04T11:31:49.334Z [11:31:38] nvdec: is available
+2026-01-04T11:31:49.334Z 
+2026-01-04T11:31:49.334Z [11:31:39] CUDA Version: 6.1
+2026-01-04T11:31:49.334Z 
+2026-01-04T11:31:49.334Z [11:31:39] qsv: not available on this system
+2026-01-04T11:31:49.334Z 
+2026-01-04T11:31:49.334Z [11:31:39] hb_init: starting libhb thread
+2026-01-04T11:31:49.334Z [11:31:39] thread 7f6d11fff6c0 started ("libhb")
+2026-01-04T11:31:49.334Z 
+2026-01-04T11:31:49.334Z HandBrake 1.10.2 (2025102400) - Linux x86_64 - https://handbrake.fr
+2026-01-04T11:31:49.334Z 16 CPUs detected
+2026-01-04T11:31:49.334Z 
+2026-01-04T11:31:49.334Z Opening /media/tv/Fallout/Season 1/Fallout.2024.S01E06.1080p.BDRip.DDP7.1.x265.-.Vialle.mkv...
+2026-01-04T11:31:49.334Z [11:31:39] CPU: Common KVM processor
+2026-01-04T11:31:49.334Z [11:31:39]  - logical processor count: 16
+2026-01-04T11:31:49.334Z [11:31:39] Intel Quick Sync Video support: no
+2026-01-04T11:31:49.334Z [11:31:39] hb_scan: path=/media/tv/Fallout/Season 1/Fallout.2024.S01E06.1080p.BDRip.DDP7.1.x265.-.Vialle.mkv, title_index=1
+2026-01-04T11:31:49.334Z 
+2026-01-04T11:31:49.334Z Input #0, matroska,webm, from '/media/tv/Fallout/Season 1/Fallout.2024.S01E06.1080p.BDRip.DDP7.1.x265.-.Vialle.mkv':
+2026-01-04T11:31:49.334Z   Metadata:
+2026-01-04T11:31:49.334Z     encoder         : libebml v1.4.5 + libmatroska v1.7.1
+2026-01-04T11:31:49.334Z     creation_time   : 2025-11-04T17:50:57.000000Z
+2026-01-04T11:31:49.334Z   Duration: 00:57:46.98, start: 0.000000, bitrate: 8314 kb/s
+2026-01-04T11:31:49.334Z   Stream #0:0: Video: hevc (Main 10), yuv420p10le(tv), 1920x1080, SAR 1:1 DAR 16:9, 23.98 fps, 
+2026-01-04T11:31:49.334Z 23.98 tbr, 1k tbn (default)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 7205562
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:46.964000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 83124
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 3122678344
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:1(eng): Audio: eac3, 48000 Hz, 7.1, fltp, 1024 kb/s (default)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 1024000
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:46.976000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 108343
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 443772928
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:2(eng): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 65
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:04.035000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 804
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 28112
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:3(eng): Subtitle: subrip (srt) (hearing impaired)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         title           : SDH
+2026-01-04T11:31:49.334Z         BPS             : 71
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:08.488000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 896
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 30788
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z 
+2026-01-04T11:31:49.334Z   Stream #0:4(eng): Subtitle: hdmv_pgs_subtitle (pgssub) (hearing impaired)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         title           : SDH
+2026-01-04T11:31:49.334Z         BPS             : 40843
+2026-01-04T11:31:49.334Z         DURATION        : 00:56:35.455000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 1600
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 17335408
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:5(fre): Subtitle: hdmv_pgs_subtitle (pgssub), 1920x1080
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 29777
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:33.096000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 1400
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 12853066
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:6(spa): Subtitle: hdmv_pgs_subtitle (pgssub), 1920x1080
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 34540
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:33.138000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 1322
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 14909241
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:7(dut): Subtitle: hdmv_pgs_subtitle (pgssub), 1920x1080
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 31394
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:33.138000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 1352
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 13551278
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:8(dan): Subtitle: hdmv_pgs_subtitle (pgssub), 1920x1080
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 31668
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:33.138000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 1436
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 13669265
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:9(fin): Subtitle: hdmv_pgs_subtitle (pgssub), 1920x1080
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 32404
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:33.138000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 1358
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 13987260
+2026-01-04T11:31:49.334Z 
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:10(nor): Subtitle: hdmv_pgs_subtitle (pgssub), 1920x1080
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 31676
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:33.138000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 1438
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 13672820
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:11(swe): Subtitle: hdmv_pgs_subtitle (pgssub), 1920x1080
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 33120
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:33.138000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 1438
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 14296108
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z 
+2026-01-04T11:31:49.334Z   Stream #0:12(ara): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 97
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 721
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 41998
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:13(cat): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         title           : European
+2026-01-04T11:31:49.334Z         BPS             : 49
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 718
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 21472
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:14(cze): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 58
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 713
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 25051
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:15(dan): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 52
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 719
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 22593
+2026-01-04T11:31:49.334Z 
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:16(ger): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 55
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 719
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 23757
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:17(gre): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 103
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z 
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 719
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 44658
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:18(spa): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         title           : Latin American
+2026-01-04T11:31:49.334Z         BPS             : 54
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 715
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 23652
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z 
+2026-01-04T11:31:49.334Z   Stream #0:19(spa): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         title           : European
+2026-01-04T11:31:49.334Z         BPS             : 57
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 663
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 24860
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:20(baq): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         title           : European
+2026-01-04T11:31:49.334Z         BPS             : 51
+2026-01-04T11:31:49.334Z 
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 719
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 22104
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:21(fin): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 52
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 714
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 22645
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:22(fil): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 60
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 713
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 26258
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:23(fre): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         title           : Canadian
+2026-01-04T11:31:49.334Z         BPS             : 60
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 716
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 25869
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:24(fre): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         title           : European
+2026-01-04T11:31:49.334Z         BPS             : 51
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.179000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 703
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 21987
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:25(glg): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         title           : European
+2026-01-04T11:31:49.334Z         BPS             : 50
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 718
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 21918
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:26(heb): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 87
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 722
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 37523
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:27(hin): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 122
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 721
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 52963
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:28(hun): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 58
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 721
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 25160
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:29(ind): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 54
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 718
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 23552
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:30(ita): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 55
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 712
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 24045
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z 
+2026-01-04T11:31:49.334Z   Stream #0:31(jpn): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 48
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:25.845000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 659
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 20898
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:32(kan): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 131
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 722
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 56432
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:33(kor): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 63
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 722
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 
+2026-01-04T11:31:49.334Z 27152
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:34(mal): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 170
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 710
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 73655
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:35(may): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 56
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 715
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 24441
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:36(nob): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 52
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 720
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 22684
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0
+2026-01-04T11:31:49.334Z :37(dut): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 50
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 702
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 21604
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:38(pol): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 46
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 715
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 20129
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:39(por): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         title           : Brazilian
+2026-01-04T11:31:49.334Z         BPS             : 54
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 718
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 23333
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:40(por): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         title           : European
+2026-01-04T11:31:49.334Z         BPS             : 53
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 715
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 23030
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:41(rum): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 61
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 720
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 26489
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: 
+2026-01-04T11:31:49.334Z BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:42(rus): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 96
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 721
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 41412
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:43(swe): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 56
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 720
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 24226
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:44(tam): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 155
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 722
+2026-01-04T11:31:49.334Z 
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 66938
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:45(tel): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 144
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 722
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 62317
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:46(tha): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 144
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 
+2026-01-04T11:31:49.334Z 722
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 62209
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:47(tur): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         BPS             : 57
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 720
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 24582
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z 
+2026-01-04T11:31:49.334Z   Stream #0:48(ukr): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         title           : Ukraine
+2026-01-04T11:31:49.334Z         BPS             : 89
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 722
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 38416
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:49(vie): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         title           : Vietnam
+2026-01-04T11:31:49.334Z         BPS             : 73
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 722
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 31484
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:50(chi): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         title           : Simplified
+2026-01-04T11:31:49.334Z         BPS             : 54
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 722
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 23398
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z   Stream #0:51(chi): Subtitle: subrip (srt)
+2026-01-04T11:31:49.334Z       Metadata:
+2026-01-04T11:31:49.334Z         title           : Traditional
+2026-01-04T11:31:49.334Z         BPS             : 52
+2026-01-04T11:31:49.334Z         DURATION        : 00:57:26.220000000
+2026-01-04T11:31:49.334Z         NUMBER_OF_FRAMES: 721
+2026-01-04T11:31:49.334Z         NUMBER_OF_BYTES : 22754
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_APP: mkvmerge v95.0 ('Goodbye Stranger') 64-bit
+2026-01-04T11:31:49.334Z         _STATISTICS_WRITING_DATE_UTC: 2025-11-04 17:50:57
+2026-01-04T11:31:49.334Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:31:49.334Z [11:31:39] scan: decoding previews for title 1
+2026-01-04T11:31:49.334Z 
+2026-01-04T11:31:49.334Z [11:31:39] scan: audio 0x1: eac3, rate=48000Hz, bitrate=1024000 English (E-AC3, 7.1 ch, 1024 kbps)
+2026-01-04T11:31:49.334Z 
+2026-01-04T11:31:49.334Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:31:49.334Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:31:49.334Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:31:49.334Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:31:49.334Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:31:49.334Z Scanning title 1 of 1, preview 3, 30.00 %
+2026-01-04T11:31:49.334Z Scanning title 1 of 1, preview 4, 40.00 %
+2026-01-04T11:31:49.334Z Scanning title 1 of 1, preview 4, 40.00 %
+2026-01-04T11:31:49.334Z Scanning title 1 of 1, preview 4, 40.00 %
+2026-01-04T11:31:49.334Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-04T11:31:49.334Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-04T11:31:49.334Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-04T11:31:49.334Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-04T11:31:49.334Z Scanning title 1 of 1, preview 7, 70.00 %
+2026-01-04T11:31:49.334Z Scanning title 1 of 1, preview 7, 70.00 %
+2026-01-04T11:31:49.334Z Scanning title 1 of 1, preview 7, 70.00 %
+2026-01-04T11:31:49.334Z Scanning title 1 of 1, preview 7, 70.00 %
+2026-01-04T11:31:49.334Z Scanning title 1 of 1, preview 7, 70.00 %
+2026-01-04T11:31:49.334Z Scanning title 1 of 1, preview 7, 70.00 %
+2026-01-04T11:31:49.334Z Scanning title 1 of 1, preview 7, 70.00 %
+2026-01-04T11:31:49.334Z Scanning title 1 of 1, preview 7, 70.00 %
+2026-01-04T11:31:49.334Z Scanning title 1 of 1, preview 8, 80.00 %
+2026-01-04T11:31:49.334Z Scanning title 1 of 1, preview 8, 80.00 %
+2026-01-04T11:31:49.334Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:31:49.334Z Scanning title 1 of 1, preview 10, 100.00 %
+2026-01-04T11:31:49.334Z Scanning title 1 of 1, preview 10, 100.00 %
+2026-01-04T11:31:49.334Z [11:31:46] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 140/140/0/0, aspect 16:9, PAR 1:1, color profile: 1-1-1, chroma location: left
+2026-01-04T11:31:49.334Z 
+2026-01-04T11:31:49.334Z [11:31:47] libhb: scan thread found 1 valid title(s)
+2026-01-04T11:31:49.334Z 
+2026-01-04T11:31:49.334Z + title 1:
+2026-01-04T11:31:49.334Z   + stream: /media/tv/Fallout/Season 1/Fallout.2024.S01E06.1080p.BDRip.DDP7.1.x265.-.Vialle.mkv
+2026-01-04T11:31:49.334Z   + duration: 00:57:46
+2026-01-04T11:31:49.334Z   + size: 1920x1080, pixel aspect: 1/1, display aspect: 1.78, 23.976 fps
+2026-01-04T11:31:49.334Z   + autocrop: 140/140/0/0
+2026-01-04T11:31:49.334Z   + chapters:
+2026-01-04T11:31:49.334Z     + 1: duration 00:57:46
+2026-01-04T11:31:49.334Z   + audio tracks:
+2026-01-04T11:31:49.334Z     + 1, English (E-AC3, 7.1 ch, 1024 kbps) (iso639-2: eng)
+2026-01-04T11:31:49.334Z   + subtitle tracks:
+2026-01-04T11:31:49.334Z     + 1, English (UTF-8)
+2026-01-04T11:31:49.334Z     + 2, English (UTF-8)
+2026-01-04T11:31:49.334Z     + 3, English (PGS)
+2026-01-04T11:31:49.334Z     + 4, Francais (PGS)
+2026-01-04T11:31:49.334Z     + 5, español (PGS)
+2026-01-04T11:31:49.334Z     + 6, Nederlands (PGS)
+2026-01-04T11:31:49.334Z     + 7, dansk (PGS)
+2026-01-04T11:31:49.334Z     + 8, suomi (PGS)
+2026-01-04T11:31:49.334Z     + 9, norsk (PGS)
+2026-01-04T11:31:49.334Z     + 10, svenska (PGS)
+2026-01-04T11:31:49.334Z     + 11, العربية (UTF-8)
+2026-01-04T11:31:49.334Z     + 12, català (UTF-8)
+2026-01-04T11:31:49.334Z     + 13, čeština (UTF-8)
+2026-01-04T11:31:49.334Z     + 14, dansk (UTF-8)
+2026-01-04T11:31:49.334Z     + 15, Deutsch (UTF-8)
+2026-01-04T11:31:49.334Z     + 16, Ελληνικά (UTF-8)
+2026-01-04T11:31:49.334Z     + 17, español (UTF-8)
+2026-01-04T11:31:49.334Z     + 18, español (UTF-8)
+2026-01-04T11:31:49.334Z     + 19, euskara (UTF-8)
+2026-01-04T11:31:49.334Z     + 20, suomi (UTF-8)
+2026-01-04T11:31:49.334Z     + 21, Wikang Filipino (UTF-8)
+2026-01-04T11:31:49.334Z     + 22, Francais (UTF-8)
+2026-01-04T11:31:49.334Z     + 23, Francais (UTF-8)
+2026-01-04T11:31:49.334Z     + 24, galego (UTF-8)
+2026-01-04T11:31:49.334Z     + 25, עברית (UTF-8)
+2026-01-04T11:31:49.334Z     + 26, हिंदी (UTF-8)
+2026-01-04T11:31:49.334Z     + 27, magyar (UTF-8)
+2026-01-04T11:31:49.334Z     + 28, Bahasa Indonesia (UTF-8)
+2026-01-04T11:31:49.334Z     + 29, italiano (UTF-8)
+2026-01-04T11:31:49.334Z     + 30, 日本語 (UTF-8)
+2026-01-04T11:31:49.334Z     + 31, Kannada (UTF-8)
+2026-01-04T11:31:49.334Z     + 32, 한국어 (UTF-8)
+2026-01-04T11:31:49.334Z     + 33, മലയാളം (UTF-8)
+2026-01-04T11:31:49.334Z     + 34, Bahasa Melayu (UTF-8)
+2026-01-04T11:31:49.334Z     + 35, norsk bokmål (UTF-8)
+2026-01-04T11:31:49.334Z     + 36, Nederlands (UTF-8)
+2026-01-04T11:31:49.334Z     + 37, polski (UTF-8)
+2026-01-04T11:31:49.334Z     + 38, Portugues (UTF-8)
+2026-01-04T11:31:49.334Z     + 39, Portugues (UTF-8)
+2026-01-04T11:31:49.334Z     + 40, română (UTF-8)
+2026-01-04T11:31:49.334Z     + 41, русский (UTF-8)
+2026-01-04T11:31:49.334Z     + 42, svenska (UTF-8)
+2026-01-04T11:31:49.334Z 
+2026-01-04T11:31:49.334Z     + 43, தமிழ் (UTF-8)
+2026-01-04T11:31:49.334Z     + 44, తెలుగు (UTF-8)
+2026-01-04T11:31:49.334Z     + 45, ไทย (UTF-8)
+2026-01-04T11:31:49.334Z     + 46, Türkçe (UTF-8)
+2026-01-04T11:31:49.334Z     + 47, українська (UTF-8)
+2026-01-04T11:31:49.334Z     + 48, Tiếng Việt (UTF-8)
+2026-01-04T11:31:49.334Z     + 49, 中文 (UTF-8)
+2026-01-04T11:31:49.334Z     + 50, 中文 (UTF-8)
+2026-01-04T11:31:49.334Z 
+2026-01-04T11:31:49.334Z HandBrake has exited.
+2026-01-04T11:31:49.334Z 
+2026-01-04T11:31:49.334Z 
+2026-01-04T11:31:49.334Z 
+2026-01-04T11:31:49.334Z 
+2026-01-04T11:31:49.335Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:[Step W06] [C1] Worker [-success-]
+2026-01-04T11:31:49.335Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:Worker success during processing
+2026-01-04T11:31:49.336Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:Updating healthcheck stats
+2026-01-04T11:31:49.336Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:[Step W10] Worker processing end
+2026-01-04T11:31:49.337Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:Subworker exited null
+2026-01-04T11:31:49.337Z aC4q8WZ4I-:Node[MyInternalNode]:Worker[rosy-ray]:Successfully updated server with verdict: healthcheckSuccess

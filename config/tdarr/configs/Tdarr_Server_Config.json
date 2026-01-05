@@ -1,0 +1,18 @@
+{
+  "serverPort": "8266",
+  "webUIPort": "8265",
+  "serverIP": "0.0.0.0",
+  "serverBindIP": false,
+  "serverDualStack": false,
+  "handbrakePath": "",
+  "ffmpegPath": "",
+  "logLevel": "INFO",
+  "mkvpropeditPath": "",
+  "ccextractorPath": "",
+  "openBrowser": "true",
+  "cronPluginUpdate": "",
+  "auth": false,
+  "authSecretKey": "tsec_258317be7c4436400b41ee43a88fa0fa0e306534678d061f8484de279a1d9557",
+  "maxLogSizeMB": "10",
+  "seededApiKey": ""
+}

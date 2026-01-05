@@ -1,0 +1,63 @@
+{
+  "UserConfig": {
+    "Language": "en-US",
+    "ToShortMovieEnabled": true,
+    "ToShortMovie": 10,
+    "KeepLogsCount": 10,
+    "LogLevel": 0,
+    "EnableRollbarLogging": false,
+    "WizardFinished": true,
+    "Hosting": {
+      "SslEnabled": false,
+      "Port": 6555,
+      "SslPort": 6556,
+      "Url": "*",
+      "SslCertPath": null,
+      "SslCertPassword": null
+    },
+    "MediaServer": {
+      "Name": "crpntr",
+      "ApiKey": "7a8db34ec1c8453594fcca2dcc1e904b",
+      "Address": "http://192.168.238.123:8096",
+      "AuthorizationScheme": "MediaBrowser",
+      "Type": "Emby",
+      "UserId": "869eb25025134ea5aebda071b19313b5",
+      "Id": "eabdfb2721724003b4f65edd3cd4ec5f"
+    },
+    "Tmdb": {
+      "LastUpdate": null,
+      "ApiKey": "0ad9610e613fdbf0d62e71c96d903e0c",
+      "UseAsFallback": true
+    }
+  },
+  "SystemConfig": {
+    "AutoUpdate": true,
+    "ProcessName": "EmbyStat",
+    "AppName": "EmbyStat",
+    "Id": "6d922852-a63c-4112-aa26-3b7e77243be5",
+    "UpdateInProgress": false,
+    "CanUpdate": true,
+    "Migration": 1,
+    "UpdateTrain": "Release",
+    "Updater": {
+      "UpdateAsset": "EmbyStat-ubuntu-x64-v{version}.zip",
+      "GitHubUrl": "https://api.github.com/repos/mregni/embystat",
+      "DevString": "-dev",
+      "BetaString": "-beta",
+      "Dll": "updater.dll"
+    },
+    "Jwt": {
+      "Key": "SVfU24LIP0SqZjDaktvgY6mPcV33oV4!5kdBEQJYqWdu!shwQ5u^BsWIHbUXIJnUyL70OCeXsrsU8k60yvXQmuafszgA2XWT7LIwKhU91VeNMTgrmtLMAun!",
+      "AccessExpireMinutes": 120,
+      "Issuer": "embystat-admin",
+      "Audience": "user"
+    },
+    "Dirs": {
+      "TempUpdate": "updateFiles",
+      "Updater": "updater",
+      "Logs": "/app/logs",
+      "Data": "/app/data",
+      "Config": "/app/config"
+    }
+  }
+}

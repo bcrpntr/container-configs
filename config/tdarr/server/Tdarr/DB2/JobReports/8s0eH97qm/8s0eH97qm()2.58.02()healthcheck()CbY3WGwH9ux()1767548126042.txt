@@ -1,0 +1,537 @@
+2026-01-04T11:35:28.569Z CbY3WGwH9ux:[Step S01] [2.58.02] Server relay initialising job
+2026-01-04T11:35:28.569Z CbY3WGwH9ux:Server: linux_x64_docker_true
+2026-01-04T11:35:28.570Z CbY3WGwH9ux:Server relay adding file to staged files
+2026-01-04T11:35:28.570Z CbY3WGwH9ux:Server relay sending job to Node relay: MyInternalNode
+2026-01-04T11:35:28.570Z CbY3WGwH9ux:Node[MyInternalNode]:[Step N01] [2.58.02] Node relay received job
+2026-01-04T11:35:28.570Z CbY3WGwH9ux:Node[MyInternalNode]:{"nodeName":"MyInternalNode","serverURL":"http://0.0.0.0:8266","serverIP":"0.0.0.0","serverPort":"8266","handbrakePath":"","ffmpegPath":"","mkvpropeditPath":"","pathTranslators":[{"server":"","node":""}],"nodeType":"mapped","unmappedNodeCache":"/app/unmappedNodeCache","logLevel":"INFO","priority":-1,"platform_arch_isdocker":"linux_x64_docker_true","processPid":664,"cronPluginUpdate":"","apiKey":"","maxLogSizeMB":"10","pollInterval":2000,"startPaused":false,"nodeID":"-2RaUzM4Y","seededWorkerLimits":{},"nodeRegisteredCount":1}
+2026-01-04T11:35:28.571Z CbY3WGwH9ux:Node[MyInternalNode]:Node relay sending job to worker:easy-erne
+2026-01-04T11:35:28.571Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:[Step W01] Received file, original: "/media/tv/IT - Welcome to Derry/Season 1/IT.Welcome.to.Derry.S01E06.1080p.WEB.h264-ETHEL.mkv"
+2026-01-04T11:35:28.571Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:{"workerType":"healthcheckcpu"}
+2026-01-04T11:35:28.572Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:{"ffmpegPath":"tdarr-ffmpeg"}
+2026-01-04T11:35:28.572Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:{"handbrakePath":"HandBrakeCLI"}
+2026-01-04T11:35:28.572Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:{"mkvpropeditPath":"mkvpropedit"}
+2026-01-04T11:35:28.573Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:{"gpuSelect":"-"}
+2026-01-04T11:35:28.573Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:{"allowGpuDoCpu":false}
+2026-01-04T11:35:28.573Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:{"thoroughHealthCheckCpuExtraInputArgs":""}
+2026-01-04T11:35:28.573Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:{"thoroughHealthCheckGpuExtraInputArgs":""}
+2026-01-04T11:35:28.574Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:{"thoroughHealthCheckCpuExtraArgs":""}
+2026-01-04T11:35:28.574Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:{"thoroughHealthCheckGpuExtraArgs":""}
+2026-01-04T11:35:28.574Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:{"logFullCliOutput":false}
+2026-01-04T11:35:28.574Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:{"runMkvpropedit":false}
+2026-01-04T11:35:28.575Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:{"dontCleanWorkerCacheFolder":false}
+2026-01-04T11:35:28.575Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:Path translating objects
+2026-01-04T11:35:28.575Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:Running path translator tests
+2026-01-04T11:35:28.576Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:Path translator tests passed
+2026-01-04T11:35:28.576Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:{"librarySettings":{"_id":"KU0woozLb","priority":1,"name":"TV Shows","folder":"/media/tv","foldersToIgnore":"","foldersToIgnoreCaseInsensitive":false,"folderWatchScanInterval":30,"scannerThreadCount":2,"cache":"/tmp","output":".","folderToFolderConversion":false,"folderToFolderConversionDeleteSource":false,"folderToFolderRecordHistory":true,"copyIfConditionsMet":false,"container":".mkv","containerFilter":"mkv,mp4,mov,m4v,mpg,mpeg,avi,flv,webm,wmv,vob,evo,iso,m2ts,ts","createdAt":1675837380368,"folderWatching":false,"useFsEvents":false,"scheduledScanFindNew":false,"processLibrary":true,"processTranscodes":true,"processHealthChecks":true,"scanOnStart":false,"exifToolScan":true,"mediaInfoScan":true,"ffprobeShowData":false,"isDirectoryLibrary":false,"closedCaptionScan":false,"scanButtons":false,"scanFound":"Files found:0","navItemSelected":"navSourceFolder","pluginIDs":[{"_id":"plugin1","id":"Tdarr_Plugin_MC93_MigzImageRemoval","checked":true,"source":"Community","priority":0,"InputsDB":{}},{"_id":"plugin2","id":"Tdarr_Plugin_lmg1_Reorder_Streams","checked":true,"source":"Community","priority":1,"InputsDB":{}},{"_id":"plugin4","id":"Tdarr_Plugin_MC93_Migz1FFMPEG","checked":true,"source":"Community","priority":2,"InputsDB":{}},{"_id":"plugin5","id":"Tdarr_Plugin_a9he_New_file_size_check","checked":true,"source":"Community","priority":3,"InputsDB":{}}],"pluginCommunity":true,"handbrake":true,"ffmpeg":false,"handbrakescan":true,"ffmpegscan":false,"preset":"-Z \"Very Fast 1080p30\"","decisionMaker":{"settingsPlugin":true,"settingsFlows":false,"settingsVideo":false,"videoExcludeSwitch":true,"video_codec_names_exclude":[{"codec":"hevc","checked":false},{"codec":"h264","checked":true}],"video_size_range_include":{"min":0,"max":100000},"video_height_range_include":{"min":0,"max":3000},"video_width_range_include":{"min":0,"max":4000},"settingsAudio":false,"audioExcludeSwitch":true,"audio_codec_names_exclude":[{"codec":"mp3","checked":true},{"codec":"aac","checked":false}],"audio_size_range_include":{"min":0,"max":10}},"schedule":[{"_id":"Sun:00-01","checked":true},{"_id":"Sun:01-02","checked":true},{"_id":"Sun:02-03","checked":true},{"_id":"Sun:03-04","checked":true},{"_id":"Sun:04-05","checked":true},{"_id":"Sun:05-06","checked":true},{"_id":"Sun:06-07","checked":true},{"_id":"Sun:07-08","checked":true},{"_id":"Sun:08-09","checked":true},{"_id":"Sun:09-10","checked":true},{"_id":"Sun:10-11","checked":true},{"_id":"Sun:11-12","checked":true},{"_id":"Sun:12-13","checked":true},{"_id":"Sun:13-14","checked":true},{"_id":"Sun:14-15","checked":true},{"_id":"Sun:15-16","checked":true},{"_id":"Sun:16-17","checked":true},{"_id":"Sun:17-18","checked":true},{"_id":"Sun:18-19","checked":true},{"_id":"Sun:19-20","checked":true},{"_id":"Sun:20-21","checked":true},{"_id":"Sun:21-22","checked":true},{"_id":"Sun:22-23","checked":true},{"_id":"Sun:23-00","checked":true},{"_id":"Mon:00-01","checked":true},{"_id":"Mon:01-02","checked":true},{"_id":"Mon:02-03","checked":true},{"_id":"Mon:03-04","checked":true},{"_id":"Mon:04-05","checked":true},{"_id":"Mon:05-06","checked":true},{"_id":"Mon:06-07","checked":true},{"_id":"Mon:07-08","checked":true},{"_id":"Mon:08-09","checked":true},{"_id":"Mon:09-10","checked":true},{"_id":"Mon:10-11","checked":true},{"_id":"Mon:11-12","checked":true},{"_id":"Mon:12-13","checked":true},{"_id":"Mon:13-14","checked":true},{"_id":"Mon:14-15","checked":true},{"_id":"Mon:15-16","checked":true},{"_id":"Mon:16-17","checked":true},{"_id":"Mon:17-18","checked":true},{"_id":"Mon:18-19","checked":true},{"_id":"Mon:19-20","checked":true},{"_id":"Mon:20-21","checked":true},{"_id":"Mon:21-22","checked":true},{"_id":"Mon:22-23","checked":true},{"_id":"Mon:23-00","checked":true},{"_id":"Tue:00-01","checked":true},{"_id":"Tue:01-02","checked":true},{"_id":"Tue:02-03","checked":true},{"_id":"Tue:03-04","checked":true},{"_id":"Tue:04-05","checked":true},{"_id":"Tue:05-06","checked":true},{"_id":"Tue:06-07","checked":true},{"_id":"Tue:07-08","checked":true},{"_id":"Tue:08-09","checked":true},{"_id":"Tue:09-10","checked":true},{"_id":"Tue:10-11","checked":true},{"_id":"Tue:11-12","checked":true},{"_id":"Tue:12-13","checked":true},{"_id":"Tue:13-14","checked":true},{"_id":"Tue:14-15","checked":true},{"_id":"Tue:15-16","checked":true},{"_id":"Tue:16-17","checked":true},{"_id":"Tue:17-18","checked":true},{"_id":"Tue:18-19","checked":true},{"_id":"Tue:19-20","checked":true},{"_id":"Tue:20-21","checked":true},{"_id":"Tue:21-22","checked":true},{"_id":"Tue:22-23","checked":true},{"_id":"Tue:23-00","checked":true},{"_id":"Wed:00-01","checked":true},{"_id":"Wed:01-02","checked":true},{"_id":"Wed:02-03","checked":true},{"_id":"Wed:03-04","checked":true},{"_id":"Wed:04-05","checked":true},{"_id":"Wed:05-06","checked":true},{"_id":"Wed:06-07","checked":true},{"_id":"Wed:07-08","checked":true},{"_id":"Wed:08-09","checked":true},{"_id":"Wed:09-10","checked":true},{"_id":"Wed:10-11","checked":true},{"_id":"Wed:11-12","checked":true},{"_id":"Wed:12-13","checked":true},{"_id":"Wed:13-14","checked":true},{"_id":"Wed:14-15","checked":true},{"_id":"Wed:15-16","checked":true},{"_id":"Wed:16-17","checked":true},{"_id":"Wed:17-18","checked":true},{"_id":"Wed:18-19","checked":true},{"_id":"Wed:19-20","checked":true},{"_id":"Wed:20-21","checked":true},{"_id":"Wed:21-22","checked":true},{"_id":"Wed:22-23","checked":true},{"_id":"Wed:23-00","checked":true},{"_id":"Thur:00-01","checked":true},{"_id":"Thur:01-02","checked":true},{"_id":"Thur:02-03","checked":true},{"_id":"Thur:03-04","checked":true},{"_id":"Thur:04-05","checked":true},{"_id":"Thur:05-06","checked":true},{"_id":"Thur:06-07","checked":true},{"_id":"Thur:07-08","checked":true},{"_id":"Thur:08-09","checked":true},{"_id":"Thur:09-10","checked":true},{"_id":"Thur:10-11","checked":true},{"_id":"Thur:11-12","checked":true},{"_id":"Thur:12-13","checked":true},{"_id":"Thur:13-14","checked":true},{"_id":"Thur:14-15","checked":true},{"_id":"Thur:15-16","checked":true},{"_id":"Thur:16-17","checked":true},{"_id":"Thur:17-18","checked":true},{"_id":"Thur:18-19","checked":true},{"_id":"Thur:19-20","checked":true},{"_id":"Thur:20-21","checked":true},{"_id":"Thur:21-22","checked":true},{"_id":"Thur:22-23","checked":true},{"_id":"Thur:23-00","checked":true},{"_id":"Fri:00-01","checked":true},{"_id":"Fri:01-02","checked":true},{"_id":"Fri:02-03","checked":true},{"_id":"Fri:03-04","checked":true},{"_id":"Fri:04-05","checked":true},{"_id":"Fri:05-06","checked":true},{"_id":"Fri:06-07","checked":true},{"_id":"Fri:07-08","checked":true},{"_id":"Fri:08-09","checked":true},{"_id":"Fri:09-10","checked":true},{"_id":"Fri:10-11","checked":true},{"_id":"Fri:11-12","checked":true},{"_id":"Fri:12-13","checked":true},{"_id":"Fri:13-14","checked":true},{"_id":"Fri:14-15","checked":true},{"_id":"Fri:15-16","checked":true},{"_id":"Fri:16-17","checked":true},{"_id":"Fri:17-18","checked":true},{"_id":"Fri:18-19","checked":true},{"_id":"Fri:19-20","checked":true},{"_id":"Fri:20-21","checked":true},{"_id":"Fri:21-22","checked":true},{"_id":"Fri:22-23","checked":true},{"_id":"Fri:23-00","checked":true},{"_id":"Sat:00-01","checked":true},{"_id":"Sat:01-02","checked":true},{"_id":"Sat:02-03","checked":true},{"_id":"Sat:03-04","checked":true},{"_id":"Sat:04-05","checked":true},{"_id":"Sat:05-06","checked":true},{"_id":"Sat:06-07","checked":true},{"_id":"Sat:07-08","checked":true},{"_id":"Sat:08-09","checked":true},{"_id":"Sat:09-10","checked":true},{"_id":"Sat:10-11","checked":true},{"_id":"Sat:11-12","checked":true},{"_id":"Sat:12-13","checked":true},{"_id":"Sat:13-14","checked":true},{"_id":"Sat:14-15","checked":true},{"_id":"Sat:15-16","checked":true},{"_id":"Sat:16-17","checked":true},{"_id":"Sat:17-18","checked":true},{"_id":"Sat:18-19","checked":true},{"_id":"Sat:19-20","checked":true},{"_id":"Sat:20-21","checked":true},{"_id":"Sat:21-22","checked":true},{"_id":"Sat:22-23","checked":true},{"_id":"Sat:23-00","checked":true}],"totalHealthCheckCount":215,"totalTranscodeCount":0,"sizeDiff":0,"holdNewFiles":false,"holdFor":3600,"holdForDisplayUnit":"hours","pluginStackOverview":true,"filterResolutionsSkip":"","filterCodecsSkip":"","filterContainersSkip":"","processPluginsSequentially":true}}
+2026-01-04T11:35:28.577Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:Scanning original library file
+2026-01-04T11:35:28.577Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:{
+2026-01-04T11:35:28.577Z   "exifToolScan": true,
+2026-01-04T11:35:28.577Z   "mediaInfoScan": false,
+2026-01-04T11:35:28.577Z   "closedCaptionScan": false
+2026-01-04T11:35:28.577Z }
+2026-01-04T11:35:28.577Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:Node scanning file
+2026-01-04T11:35:29.609Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:Scan complete
+2026-01-04T11:35:29.610Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:Original file scanned
+2026-01-04T11:35:29.610Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:Source file to work on determined:"/media/tv/IT - Welcome to Derry/Season 1/IT.Welcome.to.Derry.S01E06.1080p.WEB.h264-ETHEL.mkv"
+2026-01-04T11:35:29.610Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:[Step W02] [C1] Running pre-process file
+2026-01-04T11:35:29.611Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:Checking files can be accessed
+2026-01-04T11:35:29.611Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:mapped node, file is original, no need to download
+2026-01-04T11:35:29.612Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:Relevant paths can be accessed
+2026-01-04T11:35:29.612Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:Source file: "/media/tv/IT - Welcome to Derry/Season 1/IT.Welcome.to.Derry.S01E06.1080p.WEB.h264-ETHEL.mkv"
+2026-01-04T11:35:29.612Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:[Step W03] [C1] Analysing file - running plugins
+2026-01-04T11:35:29.613Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:Handbrake healthcheck task, no need to scan for extra file details
+2026-01-04T11:35:29.613Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:Updating Node relay: Processing
+2026-01-04T11:35:29.613Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:[1/2] Checking file frame count
+2026-01-04T11:35:29.613Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:[2/2] Frame count 0
+2026-01-04T11:35:29.614Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:Determining healthcheck command
+2026-01-04T11:35:29.614Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:[Step W04] [C1] Preparing command
+2026-01-04T11:35:29.614Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:Cache file stem: "/tmp/tdarr-workDir2-CbY3WGwH9ux"
+2026-01-04T11:35:29.615Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:Cache file path: "/tmp/tdarr-workDir2-CbY3WGwH9ux/IT.Welcome.to.Derry.S01E06.1080p.WEB.h264-ETHEL-TdarrCacheFile-pfLG5dzJZ.mp4"
+2026-01-04T11:35:29.615Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:Create transcode args
+2026-01-04T11:35:29.616Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:Args:  -i "/media/tv/IT - Welcome to Derry/Season 1/IT.Welcome.to.Derry.S01E06.1080p.WEB.h264-ETHEL.mkv" -o /tmp/tdarr-workDir2-CbY3WGwH9ux/IT.Welcome.to.Derry.S01E06.1080p.WEB.h264-ETHEL-TdarrCacheFile-pfLG5dzJZ.mp4 --scan
+2026-01-04T11:35:29.616Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:Getting source file size
+2026-01-04T11:35:29.617Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:Source file size: 3.8180500427260995
+2026-01-04T11:35:29.617Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:Performing safety check on worker config to see if old transcode args/container match new ones
+2026-01-04T11:35:29.618Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:Safety check complete, all good
+2026-01-04T11:35:29.618Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:[Step W05] [C1] Launching subworker
+2026-01-04T11:35:29.619Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:Preparing to launch subworker
+2026-01-04T11:35:29.619Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:Subworker launched
+2026-01-04T11:35:29.619Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:[1/3] Sending command to subworker
+2026-01-04T11:35:29.620Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:[2/3] HandBrakeCLI -i "/media/tv/IT - Welcome to Derry/Season 1/IT.Welcome.to.Derry.S01E06.1080p.WEB.h264-ETHEL.mkv" -o /tmp/tdarr-workDir2-CbY3WGwH9ux/IT.Welcome.to.Derry.S01E06.1080p.WEB.h264-ETHEL-TdarrCacheFile-pfLG5dzJZ.mp4 --scan
+2026-01-04T11:35:29.620Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:[3/3] Command sent
+2026-01-04T11:35:29.620Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:To see live CLI output, enable 'Log full FFmpeg/HandBrake output' in the staging section on the Tdarr tab before the job starts. Note this could increase the job report size substantially.
+2026-01-04T11:35:29.621Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:Subworker:Online
+2026-01-04T11:35:29.621Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:Subworker:Receiving transcode settings
+2026-01-04T11:35:29.622Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:Subworker:Running CLI
+2026-01-04T11:35:37.692Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:Subworker:a.Thread closed, code: 0
+2026-01-04T11:35:37.692Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:Subworker exit approved, killing subworker
+2026-01-04T11:35:37.692Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:Subworker killed
+2026-01-04T11:35:37.693Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:b.Thread closed, code: 0
+2026-01-04T11:35:37.693Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:CLI code: 0
+2026-01-04T11:35:37.693Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:Last 200 lines of CLI log:
+2026-01-04T11:35:37.694Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:[11:35:26] Compile-time hardening features are enabled
+2026-01-04T11:35:37.694Z 
+2026-01-04T11:35:37.694Z [11:35:26] nvenc: version 12.2 is available
+2026-01-04T11:35:37.694Z [11:35:26] nvdec: is available
+2026-01-04T11:35:37.694Z 
+2026-01-04T11:35:37.694Z [11:35:26] CUDA Version: 6.1
+2026-01-04T11:35:37.694Z 
+2026-01-04T11:35:37.694Z [11:35:26] qsv: not available on this system
+2026-01-04T11:35:37.694Z 
+2026-01-04T11:35:37.694Z [11:35:26] hb_init: starting libhb thread
+2026-01-04T11:35:37.694Z 
+2026-01-04T11:35:37.694Z [11:35:26] thread 7facbc9e76c0 started ("libhb")
+2026-01-04T11:35:37.694Z HandBrake 1.10.2 (2025102400) - Linux x86_64 - https://handbrake.fr
+2026-01-04T11:35:37.694Z 16 CPUs detected
+2026-01-04T11:35:37.694Z 
+2026-01-04T11:35:37.694Z Opening /media/tv/IT - Welcome to Derry/Season 1/IT.Welcome.to.Derry.S01E06.1080p.WEB.h264-ETHEL.mkv...
+2026-01-04T11:35:37.694Z 
+2026-01-04T11:35:37.694Z [11:35:26] CPU: Common KVM processor
+2026-01-04T11:35:37.694Z [11:35:26]  - logical processor count: 16
+2026-01-04T11:35:37.694Z [11:35:26] Intel Quick Sync Video support: no
+2026-01-04T11:35:37.694Z [11:35:26] hb_scan: path=/media/tv/IT - Welcome to Derry/Season 1/IT.Welcome.to.Derry.S01E06.1080p.WEB.h264-ETHEL.mkv, title_index=1
+2026-01-04T11:35:37.694Z 
+2026-01-04T11:35:37.694Z Scanning title 1 of 1, 0.00 %
+2026-01-04T11:35:37.694Z Scanning title 1 of 1, 0.00 %
+2026-01-04T11:35:37.694Z Scanning title 1 of 1, 0.00 %
+2026-01-04T11:35:37.694Z Input #0, matroska,webm, from '/media/tv/IT - Welcome to Derry/Season 1/IT.Welcome.to.Derry.S01E06.1080p.WEB.h264-ETHEL.mkv':
+2026-01-04T11:35:37.694Z   Metadata:
+2026-01-04T11:35:37.694Z     encoder         : libebml v1.4.4 + libmatroska v1.7.1
+2026-01-04T11:35:37.694Z   Duration: 00:56:14.08, start: 0.000000, bitrate: 9720 kb/s
+2026-01-04T11:35:37.694Z   Stream #0:0: Video: h264 (High), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 
+2026-01-04T11:35:37.694Z 23.98 fps, 23.98 tbr, 1k tbn (default)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         BPS             : 9074451
+2026-01-04T11:35:37.694Z         DURATION        : 00:56:14.038000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 80896
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 3827192835
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z   Stream #0:1(eng): Audio: eac3, 48000 Hz, 5.1(side), fltp, 640 kb/s (default)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         BPS             : 640000
+2026-01-04T11:35:37.694Z         DURATION        : 00:56:14.048000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 105439
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 269923840
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z   Stream #0:2(eng): Subtitle: subrip (srt)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         title           : English
+2026-01-04T11:35:37.694Z         BPS             : 48
+2026-01-04T11:35:37.694Z         DURATION        : 00:54:20.466000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 625
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 19858
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z   Stream #0:3(eng): Subtitle: subrip (srt)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         title           : English (SDH)
+2026-01-04T11:35:37.694Z         BPS             : 73
+2026-01-04T11:35:37.694Z         DURATION        : 00:55:06.470000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 993
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 30456
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z   Stream #0:4(bul): Subtitle: subrip (srt)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         title           : Български
+2026-01-04T11:35:37.694Z         BPS             : 71
+2026-01-04T11:35:37.694Z         DURATION        : 00:56:08.156000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 612
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 30159
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z   Stream #0:5(cat): Subtitle: subrip (srt)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         title           : Català
+2026-01-04T11:35:37.694Z         BPS             : 45
+2026-01-04T11:35:37.694Z         DURATION        : 00:55:17.606000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 682
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 18859
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z   Stream #0:6(cze): Subtitle: subrip (srt)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         title           : Čeština
+2026-01-04T11:35:37.694Z         BPS             : 40
+2026-01-04T11:35:37.694Z         DURATION        : 00:55:08.222000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 593
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 16702
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z   Stream #0:7(dan): Subtitle: subrip (srt)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         title           : Dansk
+2026-01-04T11:35:37.694Z         BPS             : 45
+2026-01-04T11:35:37.694Z         DURATION        : 00:56:08.156000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 482
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 19072
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z 
+2026-01-04T11:35:37.694Z   Stream #0:8: Subtitle: subrip (srt)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         title           : Ekk
+2026-01-04T11:35:37.694Z         BPS             : 41
+2026-01-04T11:35:37.694Z         DURATION        : 00:56:08.156000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 615
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 17356
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z   Stream #0:9(gre): Subtitle: subrip (srt)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         title           : Ελληνικά
+2026-01-04T11:35:37.694Z         BPS             : 79
+2026-01-04T11:35:37.694Z         DURATION        : 00:56:08.156000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 608
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 33641
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z   Stream #0:10(spa): Subtitle: subrip (srt)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         title           : Español (España)
+2026-01-04T11:35:37.694Z         BPS             : 46
+2026-01-04T11:35:37.694Z         DURATION        : 00:55:17.606000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 683
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 19132
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z   Stream #0:11(spa): Subtitle: subrip (srt)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         title           : Español (Latinoamérica)
+2026-01-04T11:35:37.694Z         BPS             : 44
+2026-01-04T11:35:37.694Z         DURATION        : 00:54:50.162000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 680
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 18497
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z   Stream #0:12(fin): Subtitle: subrip (srt)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         title           : Suomi
+2026-01-04T11:35:37.694Z         BPS             : 44
+2026-01-04T11:35:37.694Z         DURATION        : 00:56:08.156000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 555
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 18601
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z   Stream #0:13(fre): Subtitle: subrip (srt)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         title           : Français
+2026-01-04T11:35:37.694Z         BPS             : 40
+2026-01-04T11:35:37.694Z         DURATION        : 00:55:12.142000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 694
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 16834
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z   Stream #0:14(heb): Subtitle: subrip (srt)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         title           : עברית
+2026-01-04T11:35:37.694Z         BPS             : 63
+2026-01-04T11:35:37.694Z         DURATION        : 00:56:08.156000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 615
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 26793
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z   Stream #0:15(hrv): Subtitle: subrip (srt)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         title           : Hrvatski
+2026-01-04T11:35:37.694Z         BPS             : 39
+2026-01-04T11:35:37.694Z         DURATION        : 00:56:08.156000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 611
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 16691
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z   Stream #0:16(hun): Subtitle: subrip (srt)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         title           : Magyar
+2026-01-04T11:35:37.694Z         BPS             : 45
+2026-01-04T11:35:37.694Z         DURATION        : 00:55:08.222000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 543
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 18668
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z   Stream #0:17(ind): Subtitle: subrip (srt)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         title           : Indonesia
+2026-01-04T11:35:37.694Z         BPS             : 48
+2026-01-04T11:35:37.694Z         DURATION        : 00:54:50.662000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 652
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 19762
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z   Stream #0:18(ice): Subtitle: subrip (srt)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         title           : Íslenska
+2026-01-04T11:35:37.694Z         BPS             : 47
+2026-01-04T11:35:37.694Z         DURATION        : 00:56:08.156000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 570
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 20088
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: 
+2026-01-04T11:35:37.694Z mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z   Stream #0:19(lit): Subtitle: subrip (srt)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         title           : Lietuvių
+2026-01-04T11:35:37.694Z         BPS             : 45
+2026-01-04T11:35:37.694Z         DURATION        : 00:56:08.156000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 615
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 19281
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z   Stream #0:20(lav): Subtitle: subrip (srt)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         title           : Lvs
+2026-01-04T11:35:37.694Z         BPS             : 45
+2026-01-04T11:35:37.694Z         DURATION        : 00:56:08.156000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 615
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 19104
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z 
+2026-01-04T11:35:37.694Z   Stream #0:21(mac): Subtitle: subrip (srt)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         title           : Македонски
+2026-01-04T11:35:37.694Z         BPS             : 65
+2026-01-04T11:35:37.694Z         DURATION        : 00:56:08.156000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 611
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 27448
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z   Stream #0:22(may): Subtitle: subrip (srt)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         title           : Bahasa Melayu
+2026-01-04T11:35:37.694Z         BPS             : 48
+2026-01-04T11:35:37.694Z         DURATION        : 00:54:50.662000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 
+2026-01-04T11:35:37.694Z 652
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 20126
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z   Stream #0:23(nob): Subtitle: subrip (srt)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         title           : Norsk Bokmål
+2026-01-04T11:35:37.694Z         BPS             : 43
+2026-01-04T11:35:37.694Z         DURATION        : 00:56:08.156000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 530
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 18269
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: 
+2026-01-04T11:35:37.694Z BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z   Stream #0:24(dut): Subtitle: subrip (srt)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         title           : Nederlands
+2026-01-04T11:35:37.694Z         BPS             : 43
+2026-01-04T11:35:37.694Z         DURATION        : 00:56:08.156000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 522
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 18287
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z 
+2026-01-04T11:35:37.694Z   Stream #0:25(pol): Subtitle: subrip (srt)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         title           : Polski
+2026-01-04T11:35:37.694Z         BPS             : 40
+2026-01-04T11:35:37.694Z         DURATION        : 00:55:27.616000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 566
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 17049
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z   Stream #0:26(por): Subtitle: subrip (srt)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         title           : Português (Brasil)
+2026-01-04T11:35:37.694Z         BPS             : 47
+2026-01-04T11:35:37.694Z         DURATION        : 00:54:50.704000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 695
+2026-01-04T11:35:37.694Z 
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 19678
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z   Stream #0:27(por): Subtitle: subrip (srt)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         title           : Português (Portugal)
+2026-01-04T11:35:37.694Z         BPS             : 45
+2026-01-04T11:35:37.694Z         DURATION        : 00:56:08.156000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 612
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 19006
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z   Stream #0:28(rum): Subtitle: subrip (srt)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         title           : Română
+2026-01-04T11:35:37.694Z         BPS             : 44
+2026-01-04T11:35:37.694Z         DURATION        : 00:56:08.156000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 606
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 18714
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z   Stream #0:29(slo): Subtitle: subrip (srt)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         title           : Slovenčina
+2026-01-04T11:35:37.694Z         BPS             : 40
+2026-01-04T11:35:37.694Z         DURATION        : 00:54:50.579000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 629
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 16687
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z 
+2026-01-04T11:35:37.694Z   Stream #0:30(slv): Subtitle: subrip (srt)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         title           : Slovenščina
+2026-01-04T11:35:37.694Z         BPS             : 37
+2026-01-04T11:35:37.694Z         DURATION        : 00:56:08.156000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 528
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 15588
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z   Stream #0:31(srp): Subtitle: subrip (srt)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         title           : Srpski (Latinica)
+2026-01-04T11:35:37.694Z         BPS             : 41
+2026-01-04T11:35:37.694Z         DURATION        : 00:56:08.156000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 616
+2026-01-04T11:35:37.694Z 
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 17492
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z   Stream #0:32(swe): Subtitle: subrip (srt)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         title           : Svenska
+2026-01-04T11:35:37.694Z         BPS             : 47
+2026-01-04T11:35:37.694Z         DURATION        : 00:56:08.156000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 579
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 19959
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z 
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z   Stream #0:33(tha): Subtitle: subrip (srt)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         title           : ไทย
+2026-01-04T11:35:37.694Z         BPS             : 114
+2026-01-04T11:35:37.694Z         DURATION        : 00:54:50.662000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 684
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 47257
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z 
+2026-01-04T11:35:37.694Z   Stream #0:34(tur): Subtitle: subrip (srt)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         title           : Türkçe
+2026-01-04T11:35:37.694Z         BPS             : 49
+2026-01-04T11:35:37.694Z         DURATION        : 00:54:50.704000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 661
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 20326
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z 
+2026-01-04T11:35:37.694Z   Stream #0:35(spa): Subtitle: subrip (srt)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         title           : Español (Latinoamérica) (SDH)
+2026-01-04T11:35:37.694Z         BPS             : 63
+2026-01-04T11:35:37.694Z         DURATION        : 00:55:06.470000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 946
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 26286
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z   Stream #0:36(por): Subtitle: subrip (srt)
+2026-01-04T11:35:37.694Z       Metadata:
+2026-01-04T11:35:37.694Z         title           : Português (Brasil) (SDH)
+2026-01-04T11:35:37.694Z         BPS             : 57
+2026-01-04T11:35:37.694Z 
+2026-01-04T11:35:37.694Z         DURATION        : 00:56:08.282000000
+2026-01-04T11:35:37.694Z         NUMBER_OF_FRAMES: 882
+2026-01-04T11:35:37.694Z         NUMBER_OF_BYTES : 24416
+2026-01-04T11:35:37.694Z         _STATISTICS_WRITING_APP: mkvmerge v90.0 ('Hanging On') 64-bit
+2026-01-04T11:35:37.694Z         _STATISTICS_TAGS: BPS DURATION NUMBER_OF_FRAMES NUMBER_OF_BYTES
+2026-01-04T11:35:37.694Z 
+2026-01-04T11:35:37.694Z [11:35:27] scan: decoding previews for title 1
+2026-01-04T11:35:37.694Z 
+2026-01-04T11:35:37.694Z [11:35:27] scan: audio 0x1: eac3, rate=48000Hz, bitrate=640000 English (E-AC3, 5.1 ch, 640 kbps)
+2026-01-04T11:35:37.694Z 
+2026-01-04T11:35:37.694Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:35:37.694Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:35:37.694Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:35:37.694Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:35:37.694Z Scanning title 1 of 1, preview 3, 30.00 %
+2026-01-04T11:35:37.694Z Scanning title 1 of 1, preview 4, 40.00 %
+2026-01-04T11:35:37.694Z Scanning title 1 of 1, preview 4, 40.00 %
+2026-01-04T11:35:37.694Z Scanning title 1 of 1, preview 4, 40.00 %
+2026-01-04T11:35:37.694Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-04T11:35:37.694Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-04T11:35:37.694Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-04T11:35:37.694Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-04T11:35:37.694Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-04T11:35:37.694Z Scanning title 1 of 1, preview 7, 70.00 %
+2026-01-04T11:35:37.694Z Scanning title 1 of 1, preview 7, 70.00 %
+2026-01-04T11:35:37.694Z Scanning title 1 of 1, preview 7, 70.00 %
+2026-01-04T11:35:37.694Z Scanning title 1 of 1, preview 8, 80.00 %
+2026-01-04T11:35:37.694Z Scanning title 1 of 1, preview 8, 80.00 %
+2026-01-04T11:35:37.694Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:35:37.694Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:35:37.694Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:35:37.694Z Scanning title 1 of 1, preview 10, 100.00 %
+2026-01-04T11:35:37.694Z Scanning title 1 of 1, preview 10, 100.00 %
+2026-01-04T11:35:37.694Z Scanning title 1 of 1, preview 10, 100.00 %
+2026-01-04T11:35:37.694Z [11:35:35] using container PAR 1:1
+2026-01-04T11:35:37.694Z [11:35:35] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1, color profile: 1-1-1, chroma location: left
+2026-01-04T11:35:37.694Z 
+2026-01-04T11:35:37.694Z [11:35:35] libhb: scan thread found 1 valid title(s)
+2026-01-04T11:35:37.694Z 
+2026-01-04T11:35:37.694Z + title 1:
+2026-01-04T11:35:37.694Z   + stream: /media/tv/IT - Welcome to Derry/Season 1/IT.Welcome.to.Derry.S01E06.1080p.WEB.h264-ETHEL.mkv
+2026-01-04T11:35:37.694Z   + duration: 00:56:14
+2026-01-04T11:35:37.694Z   + size: 1920x1080, pixel aspect: 1/1, display aspect: 1.78, 23.976 fps
+2026-01-04T11:35:37.694Z   + autocrop: 0/0/0/0
+2026-01-04T11:35:37.694Z   + chapters:
+2026-01-04T11:35:37.694Z     + 1: duration 00:56:14
+2026-01-04T11:35:37.694Z   + audio tracks:
+2026-01-04T11:35:37.694Z     + 1, English (E-AC3, 5.1 ch, 640 kbps) (iso639-2: eng)
+2026-01-04T11:35:37.694Z   + subtitle tracks:
+2026-01-04T11:35:37.694Z     + 1, English (UTF-8)
+2026-01-04T11:35:37.694Z     + 2, English (UTF-8)
+2026-01-04T11:35:37.694Z     + 3, български (UTF-8)
+2026-01-04T11:35:37.694Z     + 4, català (UTF-8)
+2026-01-04T11:35:37.694Z     + 5, čeština (UTF-8)
+2026-01-04T11:35:37.694Z     + 6, dansk (UTF-8)
+2026-01-04T11:35:37.694Z     + 7, Unknown (UTF-8)
+2026-01-04T11:35:37.694Z     + 8, Ελληνικά (UTF-8)
+2026-01-04T11:35:37.694Z     + 9, español (UTF-8)
+2026-01-04T11:35:37.694Z     + 10, español (UTF-8)
+2026-01-04T11:35:37.694Z     + 11, suomi (UTF-8)
+2026-01-04T11:35:37.694Z     + 12, Francais (UTF-8)
+2026-01-04T11:35:37.694Z     + 13, עברית (UTF-8)
+2026-01-04T11:35:37.694Z     + 14, hrvatski (UTF-8)
+2026-01-04T11:35:37.694Z     + 15, magyar (UTF-8)
+2026-01-04T11:35:37.694Z     + 16, Bahasa Indonesia (UTF-8)
+2026-01-04T11:35:37.694Z 
+2026-01-04T11:35:37.694Z     + 17, íslenska (UTF-8)
+2026-01-04T11:35:37.694Z     + 18, lietuvių (UTF-8)
+2026-01-04T11:35:37.694Z     + 19, latviešu (UTF-8)
+2026-01-04T11:35:37.694Z     + 20, македонски (UTF-8)
+2026-01-04T11:35:37.694Z     + 21, Bahasa Melayu (UTF-8)
+2026-01-04T11:35:37.694Z     + 22, norsk bokmål (UTF-8)
+2026-01-04T11:35:37.694Z     + 23, Nederlands (UTF-8)
+2026-01-04T11:35:37.694Z     + 24, polski (UTF-8)
+2026-01-04T11:35:37.694Z     + 25, Portugues (UTF-8)
+2026-01-04T11:35:37.694Z     + 26, Portugues (UTF-8)
+2026-01-04T11:35:37.694Z     + 27, română (UTF-8)
+2026-01-04T11:35:37.694Z     + 28, slovenčina (UTF-8)
+2026-01-04T11:35:37.694Z     + 29, slovenščina (UTF-8)
+2026-01-04T11:35:37.694Z     + 30, srpski (UTF-8)
+2026-01-04T11:35:37.694Z     + 31, svenska (UTF-8)
+2026-01-04T11:35:37.694Z     + 32, ไทย (UTF-8)
+2026-01-04T11:35:37.694Z     + 33, Türkçe (UTF-8)
+2026-01-04T11:35:37.694Z     + 34, español (UTF-8)
+2026-01-04T11:35:37.694Z     + 35, Portugues (UTF-8)
+2026-01-04T11:35:37.694Z 
+2026-01-04T11:35:37.694Z HandBrake has exited.
+2026-01-04T11:35:37.694Z 
+2026-01-04T11:35:37.694Z 
+2026-01-04T11:35:37.694Z 
+2026-01-04T11:35:37.694Z 
+2026-01-04T11:35:37.694Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:[Step W06] [C1] Worker [-success-]
+2026-01-04T11:35:37.694Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:Worker success during processing
+2026-01-04T11:35:37.695Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:Updating healthcheck stats
+2026-01-04T11:35:37.695Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:[Step W10] Worker processing end
+2026-01-04T11:35:37.695Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:Subworker exited null
+2026-01-04T11:35:37.695Z CbY3WGwH9ux:Node[MyInternalNode]:Worker[easy-erne]:Successfully updated server with verdict: healthcheckSuccess

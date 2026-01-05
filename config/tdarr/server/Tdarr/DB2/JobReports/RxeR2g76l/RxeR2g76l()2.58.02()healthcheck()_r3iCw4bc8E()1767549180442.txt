@@ -1,0 +1,153 @@
+2026-01-04T11:53:02.619Z _r3iCw4bc8E:[Step S01] [2.58.02] Server relay initialising job
+2026-01-04T11:53:02.620Z _r3iCw4bc8E:Server: linux_x64_docker_true
+2026-01-04T11:53:02.620Z _r3iCw4bc8E:Server relay adding file to staged files
+2026-01-04T11:53:02.620Z _r3iCw4bc8E:Server relay sending job to Node relay: MyInternalNode
+2026-01-04T11:53:02.621Z _r3iCw4bc8E:Node[MyInternalNode]:[Step N01] [2.58.02] Node relay received job
+2026-01-04T11:53:02.621Z _r3iCw4bc8E:Node[MyInternalNode]:{"nodeName":"MyInternalNode","serverURL":"http://0.0.0.0:8266","serverIP":"0.0.0.0","serverPort":"8266","handbrakePath":"","ffmpegPath":"","mkvpropeditPath":"","pathTranslators":[{"server":"","node":""}],"nodeType":"mapped","unmappedNodeCache":"/app/unmappedNodeCache","logLevel":"INFO","priority":-1,"platform_arch_isdocker":"linux_x64_docker_true","processPid":664,"cronPluginUpdate":"","apiKey":"","maxLogSizeMB":"10","pollInterval":2000,"startPaused":false,"nodeID":"-2RaUzM4Y","seededWorkerLimits":{},"nodeRegisteredCount":1}
+2026-01-04T11:53:02.621Z _r3iCw4bc8E:Node[MyInternalNode]:Node relay sending job to worker:best-buck
+2026-01-04T11:53:02.622Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:[Step W01] Received file, original: "/media/tv/The Simpsons/Season 2/The.Simpsons.S02E16.1080p.WEBRip.x265-KONTRAST.mp4"
+2026-01-04T11:53:02.622Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:{"workerType":"healthcheckcpu"}
+2026-01-04T11:53:02.622Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:{"ffmpegPath":"tdarr-ffmpeg"}
+2026-01-04T11:53:02.623Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:{"handbrakePath":"HandBrakeCLI"}
+2026-01-04T11:53:02.623Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:{"mkvpropeditPath":"mkvpropedit"}
+2026-01-04T11:53:02.623Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:{"gpuSelect":"-"}
+2026-01-04T11:53:02.623Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:{"allowGpuDoCpu":false}
+2026-01-04T11:53:02.624Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:{"thoroughHealthCheckCpuExtraInputArgs":""}
+2026-01-04T11:53:02.624Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:{"thoroughHealthCheckGpuExtraInputArgs":""}
+2026-01-04T11:53:02.624Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:{"thoroughHealthCheckCpuExtraArgs":""}
+2026-01-04T11:53:02.624Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:{"thoroughHealthCheckGpuExtraArgs":""}
+2026-01-04T11:53:02.625Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:{"logFullCliOutput":false}
+2026-01-04T11:53:02.625Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:{"runMkvpropedit":false}
+2026-01-04T11:53:02.625Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:{"dontCleanWorkerCacheFolder":false}
+2026-01-04T11:53:02.626Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:Path translating objects
+2026-01-04T11:53:02.626Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:Running path translator tests
+2026-01-04T11:53:02.626Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:Path translator tests passed
+2026-01-04T11:53:02.627Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:{"librarySettings":{"_id":"KU0woozLb","priority":1,"name":"TV Shows","folder":"/media/tv","foldersToIgnore":"","foldersToIgnoreCaseInsensitive":false,"folderWatchScanInterval":30,"scannerThreadCount":2,"cache":"/tmp","output":".","folderToFolderConversion":false,"folderToFolderConversionDeleteSource":false,"folderToFolderRecordHistory":true,"copyIfConditionsMet":false,"container":".mkv","containerFilter":"mkv,mp4,mov,m4v,mpg,mpeg,avi,flv,webm,wmv,vob,evo,iso,m2ts,ts","createdAt":1675837380368,"folderWatching":false,"useFsEvents":false,"scheduledScanFindNew":false,"processLibrary":true,"processTranscodes":true,"processHealthChecks":true,"scanOnStart":false,"exifToolScan":true,"mediaInfoScan":true,"ffprobeShowData":false,"isDirectoryLibrary":false,"closedCaptionScan":false,"scanButtons":true,"scanFound":"Files found:0","navItemSelected":"navSourceFolder","pluginIDs":[{"_id":"plugin1","id":"Tdarr_Plugin_MC93_MigzImageRemoval","checked":true,"source":"Community","priority":0,"InputsDB":{}},{"_id":"plugin2","id":"Tdarr_Plugin_lmg1_Reorder_Streams","checked":true,"source":"Community","priority":1,"InputsDB":{}},{"_id":"plugin4","id":"Tdarr_Plugin_MC93_Migz1FFMPEG","checked":true,"source":"Community","priority":2,"InputsDB":{}},{"_id":"plugin5","id":"Tdarr_Plugin_a9he_New_file_size_check","checked":true,"source":"Community","priority":3,"InputsDB":{}}],"pluginCommunity":true,"handbrake":true,"ffmpeg":false,"handbrakescan":true,"ffmpegscan":false,"preset":"-Z \"Very Fast 1080p30\"","decisionMaker":{"settingsPlugin":true,"settingsFlows":false,"settingsVideo":false,"videoExcludeSwitch":true,"video_codec_names_exclude":[{"codec":"hevc","checked":false},{"codec":"h264","checked":true}],"video_size_range_include":{"min":0,"max":100000},"video_height_range_include":{"min":0,"max":3000},"video_width_range_include":{"min":0,"max":4000},"settingsAudio":false,"audioExcludeSwitch":true,"audio_codec_names_exclude":[{"codec":"mp3","checked":true},{"codec":"aac","checked":false}],"audio_size_range_include":{"min":0,"max":10}},"schedule":[{"_id":"Sun:00-01","checked":true},{"_id":"Sun:01-02","checked":true},{"_id":"Sun:02-03","checked":true},{"_id":"Sun:03-04","checked":true},{"_id":"Sun:04-05","checked":true},{"_id":"Sun:05-06","checked":true},{"_id":"Sun:06-07","checked":true},{"_id":"Sun:07-08","checked":true},{"_id":"Sun:08-09","checked":true},{"_id":"Sun:09-10","checked":true},{"_id":"Sun:10-11","checked":true},{"_id":"Sun:11-12","checked":true},{"_id":"Sun:12-13","checked":true},{"_id":"Sun:13-14","checked":true},{"_id":"Sun:14-15","checked":true},{"_id":"Sun:15-16","checked":true},{"_id":"Sun:16-17","checked":true},{"_id":"Sun:17-18","checked":true},{"_id":"Sun:18-19","checked":true},{"_id":"Sun:19-20","checked":true},{"_id":"Sun:20-21","checked":true},{"_id":"Sun:21-22","checked":true},{"_id":"Sun:22-23","checked":true},{"_id":"Sun:23-00","checked":true},{"_id":"Mon:00-01","checked":true},{"_id":"Mon:01-02","checked":true},{"_id":"Mon:02-03","checked":true},{"_id":"Mon:03-04","checked":true},{"_id":"Mon:04-05","checked":true},{"_id":"Mon:05-06","checked":true},{"_id":"Mon:06-07","checked":true},{"_id":"Mon:07-08","checked":true},{"_id":"Mon:08-09","checked":true},{"_id":"Mon:09-10","checked":true},{"_id":"Mon:10-11","checked":true},{"_id":"Mon:11-12","checked":true},{"_id":"Mon:12-13","checked":true},{"_id":"Mon:13-14","checked":true},{"_id":"Mon:14-15","checked":true},{"_id":"Mon:15-16","checked":true},{"_id":"Mon:16-17","checked":true},{"_id":"Mon:17-18","checked":true},{"_id":"Mon:18-19","checked":true},{"_id":"Mon:19-20","checked":true},{"_id":"Mon:20-21","checked":true},{"_id":"Mon:21-22","checked":true},{"_id":"Mon:22-23","checked":true},{"_id":"Mon:23-00","checked":true},{"_id":"Tue:00-01","checked":true},{"_id":"Tue:01-02","checked":true},{"_id":"Tue:02-03","checked":true},{"_id":"Tue:03-04","checked":true},{"_id":"Tue:04-05","checked":true},{"_id":"Tue:05-06","checked":true},{"_id":"Tue:06-07","checked":true},{"_id":"Tue:07-08","checked":true},{"_id":"Tue:08-09","checked":true},{"_id":"Tue:09-10","checked":true},{"_id":"Tue:10-11","checked":true},{"_id":"Tue:11-12","checked":true},{"_id":"Tue:12-13","checked":true},{"_id":"Tue:13-14","checked":true},{"_id":"Tue:14-15","checked":true},{"_id":"Tue:15-16","checked":true},{"_id":"Tue:16-17","checked":true},{"_id":"Tue:17-18","checked":true},{"_id":"Tue:18-19","checked":true},{"_id":"Tue:19-20","checked":true},{"_id":"Tue:20-21","checked":true},{"_id":"Tue:21-22","checked":true},{"_id":"Tue:22-23","checked":true},{"_id":"Tue:23-00","checked":true},{"_id":"Wed:00-01","checked":true},{"_id":"Wed:01-02","checked":true},{"_id":"Wed:02-03","checked":true},{"_id":"Wed:03-04","checked":true},{"_id":"Wed:04-05","checked":true},{"_id":"Wed:05-06","checked":true},{"_id":"Wed:06-07","checked":true},{"_id":"Wed:07-08","checked":true},{"_id":"Wed:08-09","checked":true},{"_id":"Wed:09-10","checked":true},{"_id":"Wed:10-11","checked":true},{"_id":"Wed:11-12","checked":true},{"_id":"Wed:12-13","checked":true},{"_id":"Wed:13-14","checked":true},{"_id":"Wed:14-15","checked":true},{"_id":"Wed:15-16","checked":true},{"_id":"Wed:16-17","checked":true},{"_id":"Wed:17-18","checked":true},{"_id":"Wed:18-19","checked":true},{"_id":"Wed:19-20","checked":true},{"_id":"Wed:20-21","checked":true},{"_id":"Wed:21-22","checked":true},{"_id":"Wed:22-23","checked":true},{"_id":"Wed:23-00","checked":true},{"_id":"Thur:00-01","checked":true},{"_id":"Thur:01-02","checked":true},{"_id":"Thur:02-03","checked":true},{"_id":"Thur:03-04","checked":true},{"_id":"Thur:04-05","checked":true},{"_id":"Thur:05-06","checked":true},{"_id":"Thur:06-07","checked":true},{"_id":"Thur:07-08","checked":true},{"_id":"Thur:08-09","checked":true},{"_id":"Thur:09-10","checked":true},{"_id":"Thur:10-11","checked":true},{"_id":"Thur:11-12","checked":true},{"_id":"Thur:12-13","checked":true},{"_id":"Thur:13-14","checked":true},{"_id":"Thur:14-15","checked":true},{"_id":"Thur:15-16","checked":true},{"_id":"Thur:16-17","checked":true},{"_id":"Thur:17-18","checked":true},{"_id":"Thur:18-19","checked":true},{"_id":"Thur:19-20","checked":true},{"_id":"Thur:20-21","checked":true},{"_id":"Thur:21-22","checked":true},{"_id":"Thur:22-23","checked":true},{"_id":"Thur:23-00","checked":true},{"_id":"Fri:00-01","checked":true},{"_id":"Fri:01-02","checked":true},{"_id":"Fri:02-03","checked":true},{"_id":"Fri:03-04","checked":true},{"_id":"Fri:04-05","checked":true},{"_id":"Fri:05-06","checked":true},{"_id":"Fri:06-07","checked":true},{"_id":"Fri:07-08","checked":true},{"_id":"Fri:08-09","checked":true},{"_id":"Fri:09-10","checked":true},{"_id":"Fri:10-11","checked":true},{"_id":"Fri:11-12","checked":true},{"_id":"Fri:12-13","checked":true},{"_id":"Fri:13-14","checked":true},{"_id":"Fri:14-15","checked":true},{"_id":"Fri:15-16","checked":true},{"_id":"Fri:16-17","checked":true},{"_id":"Fri:17-18","checked":true},{"_id":"Fri:18-19","checked":true},{"_id":"Fri:19-20","checked":true},{"_id":"Fri:20-21","checked":true},{"_id":"Fri:21-22","checked":true},{"_id":"Fri:22-23","checked":true},{"_id":"Fri:23-00","checked":true},{"_id":"Sat:00-01","checked":true},{"_id":"Sat:01-02","checked":true},{"_id":"Sat:02-03","checked":true},{"_id":"Sat:03-04","checked":true},{"_id":"Sat:04-05","checked":true},{"_id":"Sat:05-06","checked":true},{"_id":"Sat:06-07","checked":true},{"_id":"Sat:07-08","checked":true},{"_id":"Sat:08-09","checked":true},{"_id":"Sat:09-10","checked":true},{"_id":"Sat:10-11","checked":true},{"_id":"Sat:11-12","checked":true},{"_id":"Sat:12-13","checked":true},{"_id":"Sat:13-14","checked":true},{"_id":"Sat:14-15","checked":true},{"_id":"Sat:15-16","checked":true},{"_id":"Sat:16-17","checked":true},{"_id":"Sat:17-18","checked":true},{"_id":"Sat:18-19","checked":true},{"_id":"Sat:19-20","checked":true},{"_id":"Sat:20-21","checked":true},{"_id":"Sat:21-22","checked":true},{"_id":"Sat:22-23","checked":true},{"_id":"Sat:23-00","checked":true}],"totalHealthCheckCount":730,"totalTranscodeCount":1,"sizeDiff":0,"holdNewFiles":false,"holdFor":3600,"holdForDisplayUnit":"hours","pluginStackOverview":true,"filterResolutionsSkip":"","filterCodecsSkip":"","filterContainersSkip":"","processPluginsSequentially":true}}
+2026-01-04T11:53:02.627Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:Scanning original library file
+2026-01-04T11:53:02.627Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:{
+2026-01-04T11:53:02.627Z   "exifToolScan": true,
+2026-01-04T11:53:02.627Z   "mediaInfoScan": false,
+2026-01-04T11:53:02.627Z   "closedCaptionScan": false
+2026-01-04T11:53:02.627Z }
+2026-01-04T11:53:02.627Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:Node scanning file
+2026-01-04T11:53:04.646Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:Scan complete
+2026-01-04T11:53:04.647Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:Original file scanned
+2026-01-04T11:53:04.647Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:Source file to work on determined:"/media/tv/The Simpsons/Season 2/The.Simpsons.S02E16.1080p.WEBRip.x265-KONTRAST.mp4"
+2026-01-04T11:53:04.647Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:[Step W02] [C1] Running pre-process file
+2026-01-04T11:53:04.647Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:Checking files can be accessed
+2026-01-04T11:53:04.648Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:mapped node, file is original, no need to download
+2026-01-04T11:53:04.648Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:Relevant paths can be accessed
+2026-01-04T11:53:04.648Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:Source file: "/media/tv/The Simpsons/Season 2/The.Simpsons.S02E16.1080p.WEBRip.x265-KONTRAST.mp4"
+2026-01-04T11:53:04.648Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:[Step W03] [C1] Analysing file - running plugins
+2026-01-04T11:53:04.648Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:Handbrake healthcheck task, no need to scan for extra file details
+2026-01-04T11:53:04.649Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:Updating Node relay: Processing
+2026-01-04T11:53:04.649Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:[1/2] Checking file frame count
+2026-01-04T11:53:04.649Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:[2/2] Frame count 33445
+2026-01-04T11:53:04.649Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:Determining healthcheck command
+2026-01-04T11:53:04.649Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:[Step W04] [C1] Preparing command
+2026-01-04T11:53:04.650Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:Cache file stem: "/tmp/tdarr-workDir2-_r3iCw4bc8E"
+2026-01-04T11:53:04.650Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:Cache file path: "/tmp/tdarr-workDir2-_r3iCw4bc8E/The.Simpsons.S02E16.1080p.WEBRip.x265-KONTRAST-TdarrCacheFile-hezmIyp0G.mp4"
+2026-01-04T11:53:04.650Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:Create transcode args
+2026-01-04T11:53:04.650Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:Args:  -i "/media/tv/The Simpsons/Season 2/The.Simpsons.S02E16.1080p.WEBRip.x265-KONTRAST.mp4" -o /tmp/tdarr-workDir2-_r3iCw4bc8E/The.Simpsons.S02E16.1080p.WEBRip.x265-KONTRAST-TdarrCacheFile-hezmIyp0G.mp4 --scan
+2026-01-04T11:53:04.651Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:Getting source file size
+2026-01-04T11:53:04.651Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:Source file size: 0.43343620002269745
+2026-01-04T11:53:04.651Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:Performing safety check on worker config to see if old transcode args/container match new ones
+2026-01-04T11:53:04.652Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:Safety check complete, all good
+2026-01-04T11:53:04.652Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:[Step W05] [C1] Launching subworker
+2026-01-04T11:53:04.652Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:Preparing to launch subworker
+2026-01-04T11:53:04.652Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:Subworker launched
+2026-01-04T11:53:04.652Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:[1/3] Sending command to subworker
+2026-01-04T11:53:04.653Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:[2/3] HandBrakeCLI -i "/media/tv/The Simpsons/Season 2/The.Simpsons.S02E16.1080p.WEBRip.x265-KONTRAST.mp4" -o /tmp/tdarr-workDir2-_r3iCw4bc8E/The.Simpsons.S02E16.1080p.WEBRip.x265-KONTRAST-TdarrCacheFile-hezmIyp0G.mp4 --scan
+2026-01-04T11:53:04.653Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:[3/3] Command sent
+2026-01-04T11:53:04.654Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:To see live CLI output, enable 'Log full FFmpeg/HandBrake output' in the staging section on the Tdarr tab before the job starts. Note this could increase the job report size substantially.
+2026-01-04T11:53:04.654Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:Subworker:Online
+2026-01-04T11:53:04.654Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:Subworker:Receiving transcode settings
+2026-01-04T11:53:04.655Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:Subworker:Running CLI
+2026-01-04T11:53:08.777Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:Subworker:a.Thread closed, code: 0
+2026-01-04T11:53:08.777Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:Subworker exit approved, killing subworker
+2026-01-04T11:53:08.778Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:Subworker killed
+2026-01-04T11:53:08.778Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:b.Thread closed, code: 0
+2026-01-04T11:53:08.779Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:CLI code: 0
+2026-01-04T11:53:08.779Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:Last 200 lines of CLI log:
+2026-01-04T11:53:08.780Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:[11:53:02] Compile-time hardening features are enabled
+2026-01-04T11:53:08.780Z 
+2026-01-04T11:53:08.780Z [11:53:02] nvenc: version 12.2 is available
+2026-01-04T11:53:08.780Z [11:53:02] nvdec: is available
+2026-01-04T11:53:08.780Z 
+2026-01-04T11:53:08.780Z [11:53:02] CUDA Version: 6.1
+2026-01-04T11:53:08.780Z 
+2026-01-04T11:53:08.780Z [11:53:02] qsv: not available on this system
+2026-01-04T11:53:08.780Z 
+2026-01-04T11:53:08.780Z [11:53:02] hb_init: starting libhb thread
+2026-01-04T11:53:08.780Z 
+2026-01-04T11:53:08.780Z [11:53:02] thread 7f53fd1e86c0 started ("libhb")
+2026-01-04T11:53:08.780Z HandBrake 1.10.2 (2025102400) - Linux x86_64 - https://handbrake.fr
+2026-01-04T11:53:08.780Z 16 CPUs detected
+2026-01-04T11:53:08.780Z 
+2026-01-04T11:53:08.780Z Opening /media/tv/The Simpsons/Season 2/The.Simpsons.S02E16.1080p.WEBRip.x265-KONTRAST.mp4...
+2026-01-04T11:53:08.780Z 
+2026-01-04T11:53:08.780Z [11:53:02] CPU: Common KVM processor
+2026-01-04T11:53:08.780Z [11:53:02]  - logical processor count: 16
+2026-01-04T11:53:08.780Z [11:53:02] Intel Quick Sync Video support: no
+2026-01-04T11:53:08.780Z [11:53:02] hb_scan: path=/media/tv/The Simpsons/Season 2/The.Simpsons.S02E16.1080p.WEBRip.x265-KONTRAST.mp4, title_index=1
+2026-01-04T11:53:08.780Z 
+2026-01-04T11:53:08.780Z Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/media/tv/The Simpsons/Season 2/The.Simpsons.S02E16.1080p.WEBRip.x265-KONTRAST.mp4':
+2026-01-04T11:53:08.780Z   Metadata:
+2026-01-04T11:53:08.780Z     major_brand     : isom
+2026-01-04T11:53:08.780Z     minor_version   : 512
+2026-01-04T11:53:08.780Z     compatible_brands: isomiso2mp41
+2026-01-04T11:53:08.780Z     encoder         : Hybrik 1.247.21
+2026-01-04T11:53:08.780Z   Duration: 00:23:14.94, start: 0.000000, bitrate: 2669 kb/s
+2026-01-04T11:53:08.780Z   Stream #0:0[0x1](eng): Video: hevc (Main) (hvc1 / 0x31637668), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 2439 kb/s, 23.98 fps, 23.98 tbr, 24k tbn (default)
+2026-01-04T11:53:08.780Z       Metadata:
+2026-01-04T11:53:08.780Z         handler_name    : VideoHandler
+2026-01-04T11:53:08.780Z         vendor_id       : 
+2026-01-04T11:53:08.780Z [0][0][0][0]
+2026-01-04T11:53:08.780Z   Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, 5.1, fltp, 224 kb/s (default)
+2026-01-04T11:53:08.780Z       Metadata:
+2026-01-04T11:53:08.780Z         handler_name    : SoundHandler
+2026-01-04T11:53:08.780Z         vendor_id       : [0][0][0][0]
+2026-01-04T11:53:08.780Z [11:53:02] scan: decoding previews for title 1
+2026-01-04T11:53:08.780Z 
+2026-01-04T11:53:08.780Z [11:53:02] scan: audio 0x1: aac, rate=48000Hz, bitrate=224000 English (AAC LC, 5.1 ch, 224 kbps)
+2026-01-04T11:53:08.780Z 
+2026-01-04T11:53:08.780Z Scanning title 1 of 1, preview 2, 20.00 %
+2026-01-04T11:53:08.780Z Scanning title 1 of 1, preview 3, 30.00 %
+2026-01-04T11:53:08.780Z Scanning title 1 of 1, preview 4, 40.00 %
+2026-01-04T11:53:08.780Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-04T11:53:08.780Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-04T11:53:08.780Z Scanning title 1 of 1, preview 5, 50.00 %
+2026-01-04T11:53:08.780Z Scanning title 1 of 1, preview 6, 60.00 %
+2026-01-04T11:53:08.780Z Scanning title 1 of 1, preview 7, 70.00 %
+2026-01-04T11:53:08.780Z Scanning title 1 of 1, preview 7, 70.00 %
+2026-01-04T11:53:08.780Z Scanning title 1 of 1, preview 7, 70.00 %
+2026-01-04T11:53:08.780Z Scanning title 1 of 1, preview 8, 80.00 %
+2026-01-04T11:53:08.780Z Scanning title 1 of 1, preview 9, 90.00 %
+2026-01-04T11:53:08.780Z Scanning title 1 of 1, preview 10, 100.00 %
+2026-01-04T11:53:08.780Z [11:53:06] using bitstream PAR 1:1
+2026-01-04T11:53:08.780Z [11:53:06] scan: 10 previews, 1920x1080, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 1:1, color profile: 1-1-1, chroma location: left
+2026-01-04T11:53:08.780Z 
+2026-01-04T11:53:08.780Z [11:53:06] libhb: scan thread found 1 valid title(s)
+2026-01-04T11:53:08.780Z 
+2026-01-04T11:53:08.780Z + title 1:
+2026-01-04T11:53:08.780Z   + stream: /media/tv/The Simpsons/Season 2/The.Simpsons.S02E16.1080p.WEBRip.x265-KONTRAST.mp4
+2026-01-04T11:53:08.780Z   + duration: 00:23:14
+2026-01-04T11:53:08.780Z   + size: 1920x1080, pixel aspect: 1/1, display aspect: 1.78, 23.976 fps
+2026-01-04T11:53:08.780Z   + autocrop: 0/0/0/0
+2026-01-04T11:53:08.780Z   + chapters:
+2026-01-04T11:53:08.780Z     + 1: duration 00:23:14
+2026-01-04T11:53:08.780Z   + audio tracks:
+2026-01-04T11:53:08.780Z     + 1, English (AAC LC, 5.1 ch, 224 kbps) (iso639-2: eng)
+2026-01-04T11:53:08.780Z   + subtitle tracks:
+2026-01-04T11:53:08.780Z 
+2026-01-04T11:53:08.780Z HandBrake has exited.
+2026-01-04T11:53:08.780Z 
+2026-01-04T11:53:08.780Z 
+2026-01-04T11:53:08.780Z 
+2026-01-04T11:53:08.780Z 
+2026-01-04T11:53:08.780Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:[Step W06] [C1] Worker [-success-]
+2026-01-04T11:53:08.781Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:Worker success during processing
+2026-01-04T11:53:08.781Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:Updating healthcheck stats
+2026-01-04T11:53:08.781Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:[Step W10] Worker processing end
+2026-01-04T11:53:08.782Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:Subworker exited null
+2026-01-04T11:53:08.782Z _r3iCw4bc8E:Node[MyInternalNode]:Worker[best-buck]:Successfully updated server with verdict: healthcheckSuccess

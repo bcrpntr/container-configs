@@ -1,0 +1,16 @@
+{
+  "auto add path choose": "/data/books",
+  "recursive book import root dir dialog": "/data/books",
+  "sort_history": [
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "timestamp",
+      false
+    ]
+  ],
+  "welcome_wizard_device": "default",
+  "welcome_wizard_was_run": true
+}

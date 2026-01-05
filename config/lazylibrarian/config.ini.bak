@@ -1,0 +1,22 @@
+[GENERAL]
+imp_preflang = eng, en-GB, en-US, en, English
+ebook_dir = /books
+download_dir = /downloads
+
+[LOGGING]
+logdir = /config/log
+
+[TELEMETRY]
+telemetry_server = https://lazylibrarian.telem.ch
+telemetry_enable = True
+
+[GIT]
+git_updated = 1767410444
+install_type = source DOCKER
+current_version = d32fdf3d
+latest_version = d2d0a3f822c25ec85fd7a6b17ef99d08e1f7670e
+commits_behind = 12
+
+[POSTPROCESS]
+audiobook_dest_folder = $Author/$Title
+
